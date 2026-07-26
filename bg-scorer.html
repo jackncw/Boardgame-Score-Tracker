@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>桌遊計分</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F6F1E3; --paper-deep:#EFE7D2; --ink:#26221B; --ink-soft:#6B6353;
+  --line:#D8CFB4; --pen:#2456C7; --accent:#3E7C4F; --accent-soft:#3E7C4F22;
+  --radius:10px; --white:#FFFDF7;
+}
+*{box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent;}
+html,body{height:100%;}
+body{
+  font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+  background:var(--paper); color:var(--ink); font-size:16px;
+  overscroll-behavior:none;
+}
+.score-hand{font-family:'Caveat',cursive; color:var(--pen); font-weight:700;}
+
+/* ===== App frame ===== */
+#app{max-width:560px; margin:0 auto; min-height:100%; display:flex; flex-direction:column;}
+header.bar{
+  position:sticky; top:0; z-index:20; background:var(--accent); color:#fff;
+  padding:14px 16px; display:flex; align-items:center; gap:10px;
+  box-shadow:0 2px 0 rgba(0,0,0,.12);
+  transition:background .25s;
+}
+header.bar h1{font-size:18px; font-weight:700; flex:1; text-align:center; letter-spacing:.05em;}
+header.bar button{
+  background:none; border:none; color:#fff; font-size:15px; font-weight:600;
+  padding:4px 6px; cursor:pointer; min-width:52px;
+}
+header.bar button:focus-visible{outline:2px solid #fff; outline-offset:2px;}
+main{flex:1; padding:16px; padding-bottom:96px;}
+
+/* ===== Tabs ===== */
+nav.tabs{
+  position:fixed; bottom:0; left:0; right:0; z-index:20;
+  background:var(--white); border-top:1.5px solid var(--line);
+  display:flex; max-width:560px; margin:0 auto;
+}
+nav.tabs button{
+  flex:1; padding:12px 0 calc(12px + env(safe-area-inset-bottom));
+  background:none; border:none; font-size:14px; color:var(--ink-soft); cursor:pointer;
+  font-weight:600;
+}
+nav.tabs button.active{color:var(--accent);}
+nav.tabs button:focus-visible{outline:2px solid var(--accent); outline-offset:-2px;}
+
+/* ===== Game list ===== */
+.search{
+  width:100%; padding:12px 14px; font-size:16px; border:1.5px solid var(--line);
+  border-radius:var(--radius); background:var(--white); margin-bottom:14px; color:var(--ink);
+}
+.search:focus{outline:2px solid var(--accent);}
+.gcard{
+  display:flex; align-items:center; gap:12px; width:100%; text-align:left;
+  background:var(--white); border:1.5px solid var(--line); border-radius:var(--radius);
+  padding:14px; margin-bottom:10px; cursor:pointer; font-size:16px;
+}
+.gcard:active{transform:scale(.985);}
+.gcard .dot{width:14px; height:14px; border-radius:50%; flex-shrink:0;}
+.gcard .gname{font-weight:700; flex:1;}
+.gcard .gname small{display:block; font-weight:400; color:var(--ink-soft); font-size:12.5px; margin-top:2px;}
+.chip{
+  font-size:12px; background:var(--paper-deep); color:var(--ink-soft);
+  padding:3px 8px; border-radius:99px; white-space:nowrap;
+}
+
+/* ===== Setup ===== */
+.slabel{font-size:13px; font-weight:700; color:var(--ink-soft); letter-spacing:.08em; margin:18px 0 8px;}
+.pchips{display:flex; flex-wrap:wrap; gap:8px;}
+.pchip{
+  display:flex; align-items:center; gap:6px; background:var(--white);
+  border:1.5px solid var(--line); border-radius:99px; padding:8px 12px; font-size:15px;
+}
+.pchip b{font-weight:600;}
+.pchip .x{border:none; background:none; color:var(--ink-soft); font-size:16px; cursor:pointer; padding:0 2px;}
+.addrow{display:flex; gap:8px; margin-top:10px;}
+.addrow input{
+  flex:1; padding:11px 14px; font-size:16px; border:1.5px solid var(--line);
+  border-radius:var(--radius); background:var(--white); color:var(--ink);
+}
+.btn{
+  border:none; border-radius:var(--radius); padding:12px 18px; font-size:16px;
+  font-weight:700; cursor:pointer; background:var(--accent); color:#fff;
+}
+.btn.ghost{background:var(--paper-deep); color:var(--ink);}
+.btn.big{width:100%; padding:15px; margin-top:22px; font-size:17px;}
+.btn:disabled{opacity:.45; cursor:default;}
+.btn:focus-visible{outline:2px solid var(--ink); outline-offset:2px;}
+
+/* ===== Score sheet ===== */
+.sheetwrap{
+  background:var(--white); border:1.5px solid var(--line); border-radius:var(--radius);
+  overflow-x:auto; box-shadow:0 1px 0 rgba(0,0,0,.05);
+}
+table.sheet{border-collapse:collapse; width:100%; min-width:100%;}
+table.sheet th, table.sheet td{border:1px solid var(--line); padding:0;}
+table.sheet thead th{
+  background:var(--paper-deep); font-size:14.5px; font-weight:700; padding:10px 6px;
+  min-width:76px; position:sticky; top:0;
+}
+table.sheet thead th:first-child{min-width:132px; text-align:left; padding-left:12px;}
+.frow-label{
+  display:flex; align-items:center; gap:8px; padding:10px 8px 10px 12px; font-size:14px; font-weight:600;
+  line-height:1.25;
+}
+.frow-label .fic{
+  width:26px; height:26px; border-radius:7px; display:flex; align-items:center;
+  justify-content:center; font-size:15px; flex-shrink:0;
+}
+.frow-label small{display:block; font-weight:400; font-size:11.5px; color:var(--ink-soft);}
+td.cell{text-align:center; cursor:pointer; height:52px; position:relative;}
+td.cell .val{font-size:26px; line-height:1;}
+td.cell .val.empty{color:#C9C0A8; font-size:15px; font-family:inherit; font-weight:400;}
+td.cell:focus-visible{outline:2px solid var(--accent); outline-offset:-2px;}
+td.cell .cnt{
+  display:flex; align-items:center; justify-content:center; gap:2px; height:100%;
+}
+td.cell .cnt button{
+  border:none; background:var(--paper-deep); color:var(--ink); width:26px; height:34px;
+  border-radius:7px; font-size:17px; font-weight:700; cursor:pointer; flex-shrink:0;
+}
+td.cell .cnt .val{min-width:36px;}
+tr.trow td{background:var(--paper-deep); font-weight:700;}
+tr.trow td:first-child{padding:10px 12px; font-size:15px;}
+tr.trow td .val{font-size:30px;}
+.sheetnote{font-size:12.5px; color:var(--ink-soft); margin-top:10px; line-height:1.5;}
+
+/* ===== keypad sheet ===== */
+#pad{
+  position:fixed; left:0; right:0; bottom:0; z-index:40; max-width:560px; margin:0 auto;
+  background:var(--white); border-top:2px solid var(--line);
+  border-radius:16px 16px 0 0; padding:14px 14px calc(14px + env(safe-area-inset-bottom));
+  transform:translateY(105%); transition:transform .22s ease;
+  box-shadow:0 -6px 24px rgba(0,0,0,.15);
+}
+#pad.open{transform:translateY(0);}
+#pad .padhead{display:flex; align-items:center; margin-bottom:10px; gap:10px;}
+#pad .padhead .who{font-weight:700; flex:1; font-size:15px;}
+#pad .padval{font-size:38px; min-width:80px; text-align:right;}
+#pad .keys{display:grid; grid-template-columns:repeat(4,1fr); gap:8px;}
+#pad .keys button{
+  border:none; background:var(--paper-deep); border-radius:var(--radius);
+  font-size:22px; font-weight:700; padding:14px 0; cursor:pointer; color:var(--ink);
+}
+#pad .keys button.act{background:var(--accent); color:#fff; font-size:17px;}
+#pad .keys button:active{transform:scale(.96);}
+@media (prefers-reduced-motion:reduce){ #pad{transition:none;} }
+
+/* tiered picker */
+.tierlist{display:flex; flex-direction:column; gap:8px; max-height:40vh; overflow-y:auto;}
+.tierlist button{
+  display:flex; justify-content:space-between; border:1.5px solid var(--line);
+  background:var(--white); border-radius:var(--radius); padding:12px 14px;
+  font-size:16px; cursor:pointer; color:var(--ink);
+}
+.tierlist button b{font-size:18px;}
+
+/* ===== history ===== */
+.pcard{
+  background:var(--white); border:1.5px solid var(--line); border-radius:var(--radius);
+  padding:14px; margin-bottom:10px;
+}
+.pcard .top{display:flex; align-items:center; gap:8px;}
+.pcard .top .dot{width:12px; height:12px; border-radius:50%;}
+.pcard .top b{flex:1;}
+.pcard .top time{font-size:12.5px; color:var(--ink-soft);}
+.pcard .res{margin-top:8px; display:flex; flex-wrap:wrap; gap:6px;}
+.pcard .res span{
+  font-size:13.5px; background:var(--paper-deep); border-radius:99px; padding:4px 10px;
+}
+.pcard .res span.win{background:var(--accent-soft); font-weight:700;}
+.pcard .rowbtns{margin-top:10px; display:flex; gap:8px;}
+.pcard .rowbtns button{
+  border:none; background:none; color:var(--ink-soft); font-size:13.5px;
+  cursor:pointer; padding:4px 6px; font-weight:600;
+}
+.empty-state{
+  text-align:center; color:var(--ink-soft); padding:48px 20px; line-height:1.7; font-size:15px;
+}
+.empty-state .big{font-size:40px; margin-bottom:8px;}
+.iorow{display:flex; gap:10px; margin-top:16px;}
+.iorow .btn{flex:1; font-size:14.5px; padding:11px;}
+.toast{
+  position:fixed; bottom:84px; left:50%; transform:translateX(-50%) translateY(20px);
+  background:var(--ink); color:#fff; padding:10px 18px; border-radius:99px;
+  font-size:14px; opacity:0; transition:.25s; z-index:60; pointer-events:none; white-space:nowrap;
+}
+.toast.show{opacity:1; transform:translateX(-50%) translateY(0);}
+.note-badge{
+  display:inline-block; font-size:11px; background:#E5B23A33; color:#8A6D1F;
+  border-radius:5px; padding:2px 6px; font-weight:700; vertical-align:1px; margin-left:6px;
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <header class="bar" id="bar">
+    <button id="backBtn" style="visibility:hidden">‹ 返回</button>
+    <h1 id="barTitle">桌遊計分</h1>
+    <button id="saveBtn" style="visibility:hidden">儲存</button>
+  </header>
+  <main id="main"></main>
+  <nav class="tabs" id="tabs">
+    <button data-tab="games" class="active">🎲 計分</button>
+    <button data-tab="history">📜 紀錄</button>
+  </nav>
+</div>
+
+<div id="pad" role="dialog" aria-label="輸入分數"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* =========================================================
+   桌遊計分 v1 — schema-driven score sheet
+   schema: fields[] of input types: number | counter | tiered | bonus
+   storage: IndexedDB with in-memory fallback (artifact 預覽環境冇持久儲存)
+========================================================= */
+
+/* ---------- 樣本遊戲庫(正式版由 pipeline 生成 JSON 檔) ---------- */
+const GAMES = [
+{
+ gameId:"ttr", name:"Ticket to Ride", nameZh:"鐵道任務",
+ meta:{weight:1.8,minPlayers:2,maxPlayers:5,playTime:60},
+ theme:{accent:"#2A5DA8"},
+ scoring:{verified:true,tieBreaker:"完成最多目的地票者勝",fields:[
+  {id:"route",label:"路線分數",icon:"🚂",color:"#DCE8F7",input:"number",min:0},
+  {id:"tdone",label:"完成目的地票",note:"入票面總分",icon:"🎫",color:"#DFF0DC",input:"number",min:0},
+  {id:"tfail",label:"未完成票",note:"入票面總分,自動扣",icon:"❌",color:"#F7DCDC",input:"number",min:0,sign:-1},
+  {id:"longest",label:"最長路線",icon:"🏆",color:"#F7EFD2",input:"bonus",value:10}
+ ]}
+},
+{
+ gameId:"wingspan", name:"Wingspan", nameZh:"展翅翱翔",
+ meta:{weight:2.5,minPlayers:1,maxPlayers:5,playTime:70},
+ theme:{accent:"#3E8E9E"},
+ scoring:{verified:true,tieBreaker:"個人補給區剩餘食物多者勝",fields:[
+  {id:"birds",label:"鳥卡分數",icon:"🐦",color:"#DCEFF2",input:"number",min:0},
+  {id:"bonus",label:"獎勵卡",icon:"🃏",color:"#EFE3F5",input:"number",min:0},
+  {id:"goals",label:"回合目標",icon:"🎯",color:"#F5E8D8",input:"number",min:0},
+  {id:"eggs",label:"蛋",note:"每隻 1 分",icon:"🥚",color:"#F7F3DC",input:"counter",unitValue:1},
+  {id:"food",label:"儲存食物",note:"每個 1 分",icon:"🪱",color:"#E8F0DC",input:"counter",unitValue:1},
+  {id:"tucked",label:"夾藏卡",note:"每張 1 分",icon:"📥",color:"#E2E7EF",input:"counter",unitValue:1}
+ ]}
+},
+{
+ gameId:"catan", name:"Catan", nameZh:"卡坦島",
+ meta:{weight:2.3,minPlayers:3,maxPlayers:4,playTime:90},
+ theme:{accent:"#C4622D"},
+ scoring:{verified:true,tieBreaker:"—",fields:[
+  {id:"sett",label:"村莊",note:"每座 1 分",icon:"🏠",color:"#F5E3D5",input:"counter",unitValue:1},
+  {id:"city",label:"城市",note:"每座 2 分",icon:"🏰",color:"#EADCF0",input:"counter",unitValue:2},
+  {id:"road",label:"最長道路",icon:"🛤️",color:"#DCE8DC",input:"bonus",value:2},
+  {id:"army",label:"最大軍隊",icon:"⚔️",color:"#F0DCDC",input:"bonus",value:2},
+  {id:"dev",label:"發展卡分數",note:"每張 1 分",icon:"📜",color:"#F7EFD2",input:"counter",unitValue:1}
+ ]}
+},
+{
+ gameId:"7wonders", name:"7 Wonders", nameZh:"七大奇蹟",
+ meta:{weight:2.3,minPlayers:2,maxPlayers:7,playTime:30},
+ theme:{accent:"#A8842A"},
+ scoring:{verified:true,tieBreaker:"金幣多者勝",fields:[
+  {id:"military",label:"軍事衝突",note:"可以係負數",icon:"🗡️",color:"#F0DCDC",input:"number",min:-6},
+  {id:"coins",label:"金幣分數",note:"每 3 金 = 1 分",icon:"🪙",color:"#F7EFD2",input:"number",min:0},
+  {id:"wonder",label:"奇蹟",icon:"🗿",color:"#E5E0D5",input:"number",min:0},
+  {id:"civil",label:"民用建築(藍)",icon:"🏛️",color:"#DCE8F7",input:"number",min:0},
+  {id:"science",label:"科學(綠)",icon:"⚗️",color:"#DFF0DC",input:"number",min:0},
+  {id:"commerce",label:"商業(黃)",icon:"⚖️",color:"#F5EDD2",input:"number",min:0},
+  {id:"guild",label:"公會(紫)",icon:"🎭",color:"#EADCF0",input:"number",min:0}
+ ]}
+},
+{
+ gameId:"azul", name:"Azul", nameZh:"花磚物語",
+ meta:{weight:1.8,minPlayers:2,maxPlayers:4,playTime:40},
+ theme:{accent:"#345E9C"},
+ scoring:{verified:true,tieBreaker:"完成較多橫行者勝",fields:[
+  {id:"track",label:"版圖軌道分數",icon:"🧮",color:"#DCE8F7",input:"number",min:0},
+  {id:"rows",label:"完成橫行",note:"每行 2 分",icon:"↔️",color:"#DFF0DC",input:"counter",unitValue:2},
+  {id:"cols",label:"完成直列",note:"每列 7 分",icon:"↕️",color:"#F5E8D8",input:"counter",unitValue:7},
+  {id:"colors",label:"集齊顏色",note:"每色 10 分",icon:"🎨",color:"#EADCF0",input:"counter",unitValue:10}
+ ]}
+},
+{
+ gameId:"skymines", name:"Skymines", nameZh:"天空礦業",
+ meta:{weight:3.1,minPlayers:1,maxPlayers:4,playTime:120},
+ theme:{accent:"#2F7A4D"},
+ scoring:{verified:true,tieBreaker:"—",fields:[
+  {id:"cryp",label:"CrypCoin",icon:"🪙",color:"#E5E0D5",input:"number",min:0},
+  {id:"astrogo",label:"Astrogo Enterprises",icon:"🅰️",color:"#F7DCE5",input:"number",min:0},
+  {id:"tawac",label:"Tawac Industries",icon:"🇹",color:"#D8F0EA",input:"number",min:0},
+  {id:"skymine",label:"Skymine Resources",icon:"🇸",color:"#F5EDD2",input:"number",min:0},
+  {id:"minerva",label:"Minerva Corp",icon:"🇲",color:"#E5DCF0",input:"number",min:0},
+  {id:"helium",label:"Helium-3 marker",icon:"🎈",color:"#F0DCDC",input:"number",min:0},
+  {id:"upload",label:"Upload marker",icon:"📡",color:"#DCE8F7",input:"number",min:0}
+ ]}
+},
+{
+ gameId:"bgg-284378", name:"Kanban EV", nameZh:"看板 EV",
+ meta:{weight:4.0,minPlayers:1,maxPlayers:4,playTime:120},
+ theme:{accent:"#17879B"},
+ scoring:{source:"manual",verified:false,tieBreaker:"車最多者勝 → Tested Designs 最多 → Banked Shifts 最多",fields:[
+  {id:"track_pp",label:"遊戲中已得 PP",note:"計分軌上嘅分數",icon:"📊",color:"#E5E0D5",input:"number",min:0},
+  {id:"final_goal",label:"Final Goal tile",note:"每項要付 1 個 Speech token,入總分",icon:"🎯",color:"#F7EFD2",input:"number",min:0},
+  {id:"shifts",label:"Banked Shifts",note:"每個 1 分",icon:"⏱️",color:"#DCE8F7",input:"counter",unitValue:1},
+  {id:"tokens",label:"Speech token / Book / Parts Voucher",note:"player board 上每個 1 分",icon:"🎟️",color:"#EADCF0",input:"counter",unitValue:1},
+  {id:"car_city",label:"City Car",note:"每架 2 分",icon:"🚗",color:"#DFF0DC",input:"counter",unitValue:2},
+  {id:"car_suv",label:"SUV",note:"每架 3 分",icon:"🚙",color:"#D8F0EA",input:"counter",unitValue:3},
+  {id:"car_truck",label:"Truck",note:"每架 4 分",icon:"🚚",color:"#F5E8D8",input:"counter",unitValue:4},
+  {id:"car_sports",label:"Sports Car",note:"每架 5 分",icon:"🏎️",color:"#F7DCDC",input:"counter",unitValue:5},
+  {id:"car_concept",label:"Concept Car",note:"每架 6 分",icon:"🛸",color:"#E2E7EF",input:"counter",unitValue:6},
+  {id:"training",label:"Training track 名次",note:"各部門 1st 5 / 2nd 3 / 3rd 1,入總分",icon:"📈",color:"#F5EDD2",input:"number",min:0},
+  {id:"tested",label:"Tested Designs",note:"按 Value Parts Track 部件價值,入總分",icon:"🔧",color:"#DCEFF2",input:"number",min:0}
+ ]}
+},
+{
+ gameId:"bgg-184267", name:"On Mars", nameZh:"On Mars",
+ meta:{weight:4.8,minPlayers:1,maxPlayers:4,playTime:150},
+ theme:{accent:"#B54A2B"},
+ scoring:{source:"manual",verified:false,tieBreaker:"Crystal 最多者勝 → Advanced Building 最多 → Progress cube 最多",fields:[
+  {id:"track_op",label:"遊戲中已得 OP",note:"計分軌上嘅分數",icon:"📊",color:"#E5E0D5",input:"number",min:0},
+  {id:"progress",label:"Progress cubes",note:"入 Progress area 嘅立方數,自動查分",icon:"🧊",color:"#DCE8F7",input:"tiered",
+   table:[[0,0],[1,1],[2,2],[3,4],[4,7],[5,11]]},
+  {id:"ships",label:"Hangar 內 Ship",note:"每隻 3 分",icon:"🚀",color:"#EADCF0",input:"counter",unitValue:3},
+  {id:"colonists",label:"Colonists",note:"Living Quarters 最高位 colonist 旁邊嘅數字",icon:"🧑‍🚀",color:"#F5E8D8",input:"number",min:0},
+  {id:"tech",label:"Tech tiles",note:"Laboratory 各欄下方數字總和",icon:"🔬",color:"#D8F0EA",input:"number",min:0},
+  {id:"adv1",label:"已建 Lvl 1 Advanced Building",note:"每個 3 分",icon:"🏗️",color:"#DFF0DC",input:"counter",unitValue:3},
+  {id:"adv3",label:"已建 Lvl 3 Advanced Building",note:"每個 5 分",icon:"🏛️",color:"#E8F0DC",input:"counter",unitValue:5},
+  {id:"bp1",label:"未起 Lvl 1 Blueprint",note:"每個扣 3 分",icon:"📐",color:"#F7DCDC",input:"counter",unitValue:3,sign:-1},
+  {id:"bp3",label:"未起 Lvl 3 Blueprint",note:"每個扣 5 分",icon:"📕",color:"#F7DCE5",input:"counter",unitValue:5,sign:-1},
+  {id:"scientists",label:"Scientists",note:"每個對應 Advanced Building 3 分,唔理邊個擁有",icon:"🥼",color:"#F5EDD2",input:"counter",unitValue:3},
+  {id:"contracts",label:"Earth Contracts",note:"按卡面加減,可以係負數",icon:"📄",color:"#E2E7EF",input:"number",min:-50}
+ ]}
+},
+{
+ gameId:"bgg-199792", name:"Everdell", nameZh:"Everdell",
+ meta:{weight:2.8,minPlayers:1,maxPlayers:4,playTime:80},
+ theme:{accent:"#4A7A46"},
+ scoring:{source:"manual",verified:false,tieBreaker:"達成最多 Event 者勝;仍平手則剩低資源最多者勝",fields:[
+  {id:"base",label:"卡牌基礎分",note:"城市入面每張卡卡面分數總和",icon:"🃏",color:"#DFF0DC",input:"number",min:0},
+  {id:"tokens",label:"Point tokens",note:"1 分同 3 分 token 加埋總分",icon:"💠",color:"#F7EFD2",input:"number",min:0},
+  {id:"prosperity",label:"紫色 Prosperity 卡加成",note:"卡面基礎分已計咗喺上面,呢行淨係入 bonus",icon:"👑",color:"#EADCF0",input:"number",min:0},
+  {id:"journey",label:"Journey",note:"工人所在格數值(2/3/4/5)加埋",icon:"🚶",color:"#DCE8F7",input:"number",min:0},
+  {id:"events",label:"Events",note:"Basic + Special Event 總分",icon:"🎪",color:"#F5E8D8",input:"number",min:0}
+ ]}
+},
+{
+ gameId:"demo-tiered", name:"Tiered Demo", nameZh:"示範:查表計分",
+ meta:{weight:0,minPlayers:1,maxPlayers:7,playTime:0}, demo:true,
+ theme:{accent:"#7A4D8E"},
+ scoring:{verified:true,tieBreaker:"—",fields:[
+  {id:"track",label:"影響力軌",note:"入格數,自動查分",icon:"📈",color:"#EADCF0",input:"tiered",
+   table:[[0,0],[1,2],[2,5],[3,9],[4,14],[5,20]]},
+  {id:"plain",label:"其他分數",icon:"⭐",color:"#F7EFD2",input:"number",min:0}
+ ]}
+}
+];
+
+/* ---------- storage(IndexedDB → 記憶體 fallback) ---------- */
+const store = (() => {
+  let db=null, mem={plays:[], lastPlayers:[]}, usingMem=false;
+  function open(){
+    return new Promise(res=>{
+      try{
+        const rq=indexedDB.open("bgtool",1);
+        rq.onupgradeneeded=e=>{
+          const d=e.target.result;
+          if(!d.objectStoreNames.contains("plays")) d.createObjectStore("plays",{keyPath:"id"});
+          if(!d.objectStoreNames.contains("kv")) d.createObjectStore("kv",{keyPath:"k"});
+        };
+        rq.onsuccess=e=>{db=e.target.result; res();};
+        rq.onerror=()=>{usingMem=true; res();};
+      }catch(e){usingMem=true; res();}
+    });
+  }
+  async function allPlays(){
+    if(usingMem||!db) return [...mem.plays];
+    return new Promise(res=>{
+      try{
+        const t=db.transaction("plays").objectStore("plays").getAll();
+        t.onsuccess=()=>res(t.result||[]); t.onerror=()=>res([...mem.plays]);
+      }catch(e){res([...mem.plays]);}
+    });
+  }
+  async function putPlay(p){
+    mem.plays=mem.plays.filter(x=>x.id!==p.id); mem.plays.push(p);
+    if(usingMem||!db) return;
+    try{db.transaction("plays","readwrite").objectStore("plays").put(p);}catch(e){}
+  }
+  async function delPlay(id){
+    mem.plays=mem.plays.filter(x=>x.id!==id);
+    if(usingMem||!db) return;
+    try{db.transaction("plays","readwrite").objectStore("plays").delete(id);}catch(e){}
+  }
+  async function getKV(k,fb){
+    if(usingMem||!db) return mem[k]??fb;
+    return new Promise(res=>{
+      try{
+        const t=db.transaction("kv").objectStore("kv").get(k);
+        t.onsuccess=()=>res(t.result?t.result.v:fb); t.onerror=()=>res(fb);
+      }catch(e){res(fb);}
+    });
+  }
+  async function setKV(k,v){
+    mem[k]=v;
+    if(usingMem||!db) return;
+    try{db.transaction("kv","readwrite").objectStore("kv").put({k,v});}catch(e){}
+  }
+  return {open,allPlays,putPlay,delPlay,getKV,setKV, isMem:()=>usingMem};
+})();
+
+/* ---------- app state ---------- */
+const S = {
+  view:"games",      // games | setup | sheet | history
+  game:null,         // 現時遊戲
+  players:[],        // ["Jack","Ann"]
+  scores:{},         // scores[pIdx][fieldId] = raw value (number / count / 0|1 / tier count)
+  editing:null,      // {pIdx, field}
+  editPlayId:null,   // 編輯緊嘅紀錄 id(null = 新對局)
+  historyFilter:null,// 只顯示某 gameId 嘅紀錄
+  historyQuery:"",   // 紀錄搜尋字串
+  historyCache:[]
+};
+
+const $=s=>document.querySelector(s);
+const main=$("#main"), bar=$("#bar"), barTitle=$("#barTitle"),
+      backBtn=$("#backBtn"), saveBtn=$("#saveBtn"), pad=$("#pad");
+
+function toast(msg){
+  const t=$("#toast"); t.textContent=msg; t.classList.add("show");
+  clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),1800);
+}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function setAccent(hex){
+  document.documentElement.style.setProperty("--accent",hex);
+  document.documentElement.style.setProperty("--accent-soft",hex+"22");
+}
+
+/* ---------- scoring maths ---------- */
+function fieldScore(f,raw){
+  if(raw===undefined||raw===null||raw==="") return null;
+  let v=0;
+  if(f.input==="number") v=Number(raw)||0;
+  else if(f.input==="counter") v=(Number(raw)||0)*(f.unitValue??1);
+  else if(f.input==="bonus") v=raw?f.value:0;
+  else if(f.input==="tiered"){
+    const row=(f.table||[]).find(r=>r[0]===Number(raw));
+    v=row?row[1]:0;
+  }
+  return v*(f.sign??1);
+}
+function totalFor(pIdx){
+  const ps=S.scores[pIdx]||{};
+  let sum=0, any=false;
+  for(const f of S.game.scoring.fields){
+    const v=fieldScore(f,ps[f.id]);
+    if(v!==null){sum+=v; any=true;}
+  }
+  return any?sum:null;
+}
+
+/* ---------- render root ---------- */
+function render(){
+  backBtn.style.visibility = (S.view==="setup"||S.view==="sheet") ? "visible":"hidden";
+  saveBtn.style.visibility = S.view==="sheet" ? "visible":"hidden";
+  document.getElementById("tabs").style.display = (S.view==="games"||S.view==="history")?"flex":"none";
+  document.querySelectorAll("nav.tabs button").forEach(b=>{
+    b.classList.toggle("active", b.dataset.tab===S.view);
+  });
+  if(S.view==="games") renderGames();
+  else if(S.view==="setup") renderSetup();
+  else if(S.view==="sheet") renderSheet();
+  else if(S.view==="history") renderHistory();
+}
+
+/* ---------- view: game list ---------- */
+function renderGames(){
+  setAccent("#3E7C4F"); barTitle.textContent="桌遊計分";
+  main.innerHTML=`
+    <input class="search" id="q" type="search" placeholder="搜尋遊戲⋯" autocomplete="off">
+    <div id="glist"></div>
+    <p class="sheetnote">樣本遊戲庫 · 正式版由 BGG + 生成 pipeline 提供 Top 1000</p>
+  `;
+  const list=$("#glist");
+  function draw(q){
+    const ql=(q||"").trim().toLowerCase();
+    const hits=GAMES.filter(g=>!ql||g.name.toLowerCase().includes(ql)||(g.nameZh||"").includes(q));
+    list.innerHTML=hits.map(g=>`
+      <button class="gcard" data-id="${g.gameId}">
+        <span class="dot" style="background:${g.theme.accent}"></span>
+        <span class="gname">${esc(g.nameZh||g.name)}${g.demo?'<span class="note-badge">示範</span>':""}
+          <small>${esc(g.name)}</small>
+        </span>
+        ${g.meta.weight?`<span class="chip">⚖️ ${g.meta.weight}</span>`:""}
+        <span class="chip">👥 ${g.meta.minPlayers}–${g.meta.maxPlayers}</span>
+      </button>`).join("") || `<div class="empty-state">搵唔到。正式版會有 1000 隻。</div>`;
+    list.querySelectorAll(".gcard").forEach(b=>b.onclick=()=>{
+      S.game=GAMES.find(g=>g.gameId===b.dataset.id);
+      S.editPlayId=null;
+      S.view="setup"; render();
+    });
+  }
+  draw("");
+  $("#q").oninput=e=>draw(e.target.value);
+}
+
+/* ---------- view: setup players ---------- */
+async function renderSetup(){
+  const g=S.game; setAccent(g.theme.accent);
+  barTitle.textContent=g.nameZh||g.name;
+  if(!S.players.length){
+    S.players = await store.getKV("lastPlayers",[]) || [];
+    S.players = S.players.slice(0, g.meta.maxPlayers||7);
+  }
+  main.innerHTML=`
+    <p class="slabel">今場玩家(${g.meta.minPlayers}–${g.meta.maxPlayers} 人)</p>
+    <div class="pchips" id="pchips"></div>
+    <div class="addrow">
+      <input id="pname" placeholder="玩家名" maxlength="12" autocomplete="off">
+      <button class="btn ghost" id="addP">加入</button>
+    </div>
+    <button class="btn big" id="startBtn">開計分表 →</button>
+    <button class="btn ghost big" id="viewRecBtn" style="margin-top:10px">📜 查看呢隻遊戲嘅紀錄</button>
+  `;
+  $("#viewRecBtn").onclick=()=>{
+    S.historyFilter=g.gameId; S.historyQuery="";
+    S.view="history"; render();
+  };
+  function draw(){
+    $("#pchips").innerHTML=S.players.map((p,i)=>`
+      <span class="pchip"><b>${esc(p)}</b>
+        <button class="x" data-i="${i}" aria-label="移除 ${esc(p)}">✕</button></span>`).join("")
+      || `<span class="chip">未有玩家</span>`;
+    $("#pchips").querySelectorAll(".x").forEach(b=>b.onclick=()=>{
+      S.players.splice(Number(b.dataset.i),1); draw();
+    });
+    $("#startBtn").disabled = S.players.length < 1;
+  }
+  function add(){
+    const v=$("#pname").value.trim();
+    if(!v) return;
+    if(S.players.length >= (g.meta.maxPlayers||7)){toast("玩家夠晒喇"); return;}
+    S.players.push(v); $("#pname").value=""; draw(); $("#pname").focus();
+  }
+  $("#addP").onclick=add;
+  $("#pname").onkeydown=e=>{if(e.key==="Enter")add();};
+  $("#startBtn").onclick=async()=>{
+    await store.setKV("lastPlayers",S.players);
+    S.scores={}; S.players.forEach((_,i)=>S.scores[i]={});
+    S.view="sheet"; render();
+  };
+  draw();
+}
+
+/* ---------- view: score sheet ---------- */
+function renderSheet(){
+  const g=S.game; setAccent(g.theme.accent);
+  barTitle.textContent=(g.nameZh||g.name)+(S.editPlayId?" · 編輯":"");
+  const fields=g.scoring.fields;
+  let html=`<div class="sheetwrap"><table class="sheet">
+    <thead><tr><th>${esc(g.name)}</th>${S.players.map(p=>`<th>${esc(p)}</th>`).join("")}</tr></thead><tbody>`;
+  for(const f of fields){
+    html+=`<tr><td><div class="frow-label">
+      <span class="fic" style="background:${f.color||"var(--paper-deep)"}">${f.icon||"•"}</span>
+      <span>${esc(f.label)}${f.note?`<small>${esc(f.note)}</small>`:""}</span>
+    </div></td>`;
+    S.players.forEach((_,pi)=>{
+      html+=`<td class="cell" tabindex="0" data-p="${pi}" data-f="${f.id}">${cellHTML(f,pi)}</td>`;
+    });
+    html+=`</tr>`;
+  }
+  html+=`<tr class="trow"><td>Σ 總分</td>${S.players.map((_,pi)=>{
+    const t=totalFor(pi);
+    return `<td class="cell" data-total="${pi}"><span class="val score-hand">${t===null?"—":t}</span></td>`;
+  }).join("")}</tr>`;
+  html+=`</tbody></table></div>
+    <p class="sheetnote">${g.scoring.tieBreaker && g.scoring.tieBreaker!=="—" ? "同分:"+esc(g.scoring.tieBreaker) : ""}
+    ${store.isMem() ? "<br>⚠️ 預覽環境唔會保留數據;部署後先有永久儲存。":""}</p>`;
+  main.innerHTML=html;
+  bindCells();
+}
+function cellHTML(f,pi){
+  const raw=S.scores[pi]?.[f.id];
+  if(f.input==="counter"){
+    const c=Number(raw)||0;
+    return `<div class="cnt">
+      <button data-step="-1" aria-label="減">−</button>
+      <span class="val score-hand">${raw===undefined?'<span class="val empty">·</span>':c}</span>
+      <button data-step="1" aria-label="加">＋</button></div>`;
+  }
+  if(f.input==="bonus"){
+    return raw ? `<span class="val score-hand">${f.value*(f.sign??1)>0?"+":""}${f.value*(f.sign??1)}</span>`
+               : `<span class="val empty">拍一下</span>`;
+  }
+  if(f.input==="tiered"){
+    if(raw===undefined) return `<span class="val empty">揀格數</span>`;
+    return `<span class="val score-hand">${fieldScore(f,raw)}</span>`;
+  }
+  // number
+  if(raw===undefined||raw==="") return `<span class="val empty">—</span>`;
+  const v=Number(raw)*(1); // raw entered as-is; sign applied in total
+  return `<span class="val score-hand">${(f.sign??1)<0&&v>0?"−":""}${v}</span>`;
+}
+function refreshCell(pi,f){
+  const td=main.querySelector(`td[data-p="${pi}"][data-f="${f.id}"]`);
+  if(td){td.innerHTML=cellHTML(f,pi); bindCell(td);}
+  const tt=main.querySelector(`td[data-total="${pi}"] .val`);
+  if(tt){const t=totalFor(pi); tt.textContent=t===null?"—":t;}
+}
+function bindCells(){ main.querySelectorAll("td.cell[data-f]").forEach(bindCell); }
+function bindCell(td){
+  const pi=Number(td.dataset.p), f=S.game.scoring.fields.find(x=>x.id===td.dataset.f);
+  if(f.input==="counter"){
+    td.querySelectorAll("button[data-step]").forEach(b=>{
+      b.onclick=e=>{
+        e.stopPropagation();
+        const cur=Number(S.scores[pi][f.id])||0;
+        const next=Math.max(0, cur+Number(b.dataset.step));
+        S.scores[pi][f.id]=next; refreshCell(pi,f);
+      };
+    });
+    return;
+  }
+  const act=()=>{
+    if(f.input==="bonus"){
+      S.scores[pi][f.id] = S.scores[pi][f.id] ? undefined : 1;
+      refreshCell(pi,f); return;
+    }
+    if(f.input==="tiered"){ openTierPad(pi,f); return; }
+    openNumPad(pi,f);
+  };
+  td.onclick=act;
+  td.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();act();}};
+}
+
+/* ---------- keypad ---------- */
+function openNumPad(pi,f){
+  S.editing={pi,f};
+  let buf = S.scores[pi][f.id]!==undefined ? String(S.scores[pi][f.id]) : "";
+  const allowNeg = (f.min??0) < 0;
+  function draw(){
+    pad.innerHTML=`
+      <div class="padhead">
+        <span class="fic" style="background:${f.color||"var(--paper-deep)"};width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center">${f.icon||"•"}</span>
+        <span class="who">${esc(S.players[pi])} · ${esc(f.label)}</span>
+        <span class="padval score-hand">${buf===""?"—":buf}</span>
+      </div>
+      <div class="keys">
+        ${[7,8,9].map(n=>`<button data-k="${n}">${n}</button>`).join("")}<button class="act" data-k="del">⌫</button>
+        ${[4,5,6].map(n=>`<button data-k="${n}">${n}</button>`).join("")}<button class="act" data-k="clr">清除</button>
+        ${[1,2,3].map(n=>`<button data-k="${n}">${n}</button>`).join("")}<button class="act" data-k="neg" ${allowNeg?"":"disabled"}>±</button>
+        <button data-k="0" style="grid-column:span 2">0</button><button data-k="00">00</button><button class="act" data-k="ok">✓ 好</button>
+      </div>`;
+    pad.querySelectorAll("button").forEach(b=>b.onclick=()=>key(b.dataset.k));
+  }
+  function key(k){
+    if(k==="del") buf=buf.slice(0,-1);
+    else if(k==="clr") buf="";
+    else if(k==="neg") buf = buf.startsWith("-") ? buf.slice(1) : (buf?"-"+buf:"-");
+    else if(k==="ok"){
+      if(buf===""||buf==="-") S.scores[pi][f.id]=undefined;
+      else S.scores[pi][f.id]=Number(buf);
+      closePad(); refreshCell(pi,f); nextCell(pi,f); return;
+    }
+    else if(buf.replace("-","").length<4) buf+=k;
+    draw();
+  }
+  draw(); pad.classList.add("open");
+}
+function openTierPad(pi,f){
+  S.editing={pi,f};
+  pad.innerHTML=`
+    <div class="padhead"><span class="who">${esc(S.players[pi])} · ${esc(f.label)}</span>
+      <button class="btn ghost" id="tierClose" style="padding:8px 14px">收起</button></div>
+    <div class="tierlist">
+      ${(f.table||[]).map(r=>`<button data-n="${r[0]}"><span>${r[0]} 格</span><b class="score-hand">${r[1]*(f.sign??1)} 分</b></button>`).join("")}
+    </div>`;
+  pad.querySelectorAll(".tierlist button").forEach(b=>b.onclick=()=>{
+    S.scores[pi][f.id]=Number(b.dataset.n);
+    closePad(); refreshCell(pi,f); nextCell(pi,f);
+  });
+  $("#tierClose").onclick=closePad;
+  pad.classList.add("open");
+}
+function closePad(){pad.classList.remove("open"); S.editing=null;}
+document.addEventListener("click",e=>{
+  if(pad.classList.contains("open") && !pad.contains(e.target) && !e.target.closest("td.cell")) closePad();
+});
+/* 入完自動跳下一個玩家同一行 */
+function nextCell(pi,f){
+  if(pi+1 < S.players.length){
+    const td=main.querySelector(`td[data-p="${pi+1}"][data-f="${f.id}"]`);
+    if(td && (f.input==="number")) openNumPad(pi+1,f);
+    else if(td && f.input==="tiered") openTierPad(pi+1,f);
+  }
+}
+
+/* ---------- save play ---------- */
+async function savePlay(){
+  const g=S.game;
+  const totals=S.players.map((_,i)=>totalFor(i));
+  if(totals.every(t=>t===null)){toast("未入過分數"); return;}
+  const max=Math.max(...totals.map(t=>t??-Infinity));
+  const editing = S.editPlayId ? S.historyCache.find(p=>p.id===S.editPlayId) : null;
+  const play={
+    id: editing ? editing.id : "p"+Date.now(),
+    gameId:g.gameId, gameName:g.nameZh||g.name, accent:g.theme.accent,
+    date: editing ? editing.date : new Date().toISOString(),
+    editedAt: editing ? new Date().toISOString() : undefined,
+    players:S.players.map((p,i)=>({name:p,total:totals[i],win:totals[i]===max,detail:{...S.scores[i]}}))
+  };
+  await store.putPlay(play);
+  toast(editing ? "已更新 ✓" : "已儲存 ✓");
+  S.players=[]; S.scores={}; S.game=null; S.editPlayId=null;
+  S.view="history"; render();
+}
+
+/* ---------- view: history ---------- */
+async function renderHistory(){
+  setAccent("#3E7C4F"); barTitle.textContent="對局紀錄";
+  const all=(await store.allPlays()).sort((a,b)=>b.date.localeCompare(a.date));
+  S.historyCache=all;
+  const filterGame = S.historyFilter ? GAMES.find(g=>g.gameId===S.historyFilter) : null;
+  const filterName = filterGame ? (filterGame.nameZh||filterGame.name)
+                   : (S.historyFilter ? (all.find(p=>p.gameId===S.historyFilter)?.gameName||S.historyFilter) : null);
+  const q=S.historyQuery.trim().toLowerCase();
+  const plays=all.filter(p=>{
+    if(S.historyFilter && p.gameId!==S.historyFilter) return false;
+    if(!q) return true;
+    return p.gameName.toLowerCase().includes(q)
+        || p.players.some(x=>x.name.toLowerCase().includes(q));
+  });
+  main.innerHTML=`
+    <input class="search" id="hq" type="search" placeholder="搜尋遊戲或玩家⋯" autocomplete="off" value="${esc(S.historyQuery)}">
+    ${S.historyFilter?`<div style="margin-bottom:12px">
+      <span class="pchip" style="background:var(--accent-soft)"><b>只顯示:${esc(filterName)}</b>
+      <button class="x" id="clearFilter" aria-label="清除篩選">✕</button></span></div>`:""}
+    <div id="hlist"></div>${ioHTML()}`;
+  const list=$("#hlist");
+  list.innerHTML = plays.length ? plays.map(p=>{
+    const d=new Date(p.date);
+    return `<div class="pcard">
+      <div class="top"><span class="dot" style="background:${p.accent||"#888"}"></span>
+        <b>${esc(p.gameName)}</b>
+        <time>${d.getFullYear()}/${d.getMonth()+1}/${d.getDate()}${p.editedAt?" · 已編輯":""}</time></div>
+      <div class="res">${p.players.map(x=>
+        `<span class="${x.win?"win":""}">${x.win?"👑 ":""}${esc(x.name)} <b class="score-hand" style="font-size:16px">${x.total??"—"}</b></span>`).join("")}
+      </div>
+      <div class="rowbtns">
+        <button data-edit="${p.id}">✏️ 編輯</button>
+        <button data-del="${p.id}">刪除</button>
+      </div>
+    </div>`;
+  }).join("") : `<div class="empty-state"><div class="big">📜</div>
+      ${all.length? "呢個條件下冇紀錄。":"未有紀錄。<br>計完第一場就會喺度出現。"}</div>`;
+  $("#hq").oninput=e=>{
+    S.historyQuery=e.target.value;
+    renderHistory(); // 重畫但保留輸入值
+    requestAnimationFrame(()=>{const i=$("#hq"); if(i){i.focus(); i.setSelectionRange(i.value.length,i.value.length);}});
+  };
+  const cf=$("#clearFilter");
+  if(cf) cf.onclick=()=>{S.historyFilter=null; renderHistory();};
+  main.querySelectorAll("[data-del]").forEach(b=>b.onclick=async()=>{
+    await store.delPlay(b.dataset.del); renderHistory();
+  });
+  main.querySelectorAll("[data-edit]").forEach(b=>b.onclick=()=>editPlay(b.dataset.edit));
+  bindIO();
+}
+function editPlay(id){
+  const p=S.historyCache.find(x=>x.id===id);
+  if(!p) return;
+  const g=GAMES.find(x=>x.gameId===p.gameId);
+  if(!g){toast("呢隻遊戲唔喺目前遊戲庫,暫時改唔到"); return;}
+  S.game=g;
+  S.players=p.players.map(x=>x.name);
+  S.scores={};
+  p.players.forEach((x,i)=>S.scores[i]={...(x.detail||{})});
+  S.editPlayId=id;
+  S.view="sheet"; render();
+}
+function ioHTML(){
+  return `<div class="iorow">
+    <button class="btn ghost" id="exportBtn">⬇️ 匯出 JSON</button>
+    <button class="btn ghost" id="importBtn">⬆️ 匯入 JSON</button>
+    <input type="file" id="importFile" accept=".json" hidden>
+  </div>`;
+}
+function bindIO(){
+  $("#exportBtn").onclick=async()=>{
+    const data={app:"bg-scorer",schemaVersion:1,exportedAt:new Date().toISOString(),plays:await store.allPlays()};
+    const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});
+    const a=document.createElement("a");
+    a.href=URL.createObjectURL(blob); a.download="bg-scorer-backup.json"; a.click();
+    URL.revokeObjectURL(a.href);
+  };
+  $("#importBtn").onclick=()=>$("#importFile").click();
+  $("#importFile").onchange=async e=>{
+    const file=e.target.files[0]; if(!file) return;
+    try{
+      const data=JSON.parse(await file.text());
+      if(!Array.isArray(data.plays)) throw 0;
+      for(const p of data.plays) await store.putPlay(p);
+      toast(`已匯入 ${data.plays.length} 場`); renderHistory();
+    }catch(err){toast("檔案格式唔啱");}
+    e.target.value="";
+  };
+}
+
+/* ---------- nav ---------- */
+document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>{
+  if(b.dataset.tab==="history"){S.historyFilter=null; S.historyQuery="";}
+  if(b.dataset.tab==="games"){S.editPlayId=null;}
+  S.view=b.dataset.tab; render();
+});
+backBtn.onclick=()=>{
+  closePad();
+  if(S.view==="sheet"){ S.view="setup"; }
+  else if(S.view==="setup"){ S.view="games"; S.players=[]; }
+  render();
+};
+saveBtn.onclick=savePlay;
+
+/* ---------- boot ---------- */
+store.open().then(render);
+</script>
+</body>
+</html>
