@@ -1,19 +1,20 @@
 #!/usr/bin/env node
 /* =========================================================
-   enrich-index.mjs — 一次性 backfill
-   走勻 data/scoring/*.json,將每份嘅 nameZh + theme.accent
-   寫返入 data/games-index.json 對應 entry(新增 nameZh、accent 兩欄)。
+   enrich-index.mjs — index backfill
+   走勻 pipeline/out/scoring/*.json,將每份嘅 nameZh + theme.accent
+   寫返入 pipeline/out/games-index.json 對應 entry(新增 nameZh、accent 兩欄)。
 
    用法:  node scripts/enrich-index.mjs [--dry]
-   注意:  只寫 data/games-index.json。pipeline/out/ 原檔唔會掂。
+   注意:  pipeline/out/ 係唯一數據源,呢個 script 直接寫返入去。
+          跑完 pipeline/03-generate-scoring.mjs 之後行,補返 index 嘅 nameZh / accent。
 ========================================================= */
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { join, dirname, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
-const INDEX_PATH = join(ROOT, "data", "games-index.json");
-const SCORING_DIR = join(ROOT, "data", "scoring");
+const INDEX_PATH = join(ROOT, "pipeline", "out", "games-index.json");
+const SCORING_DIR = join(ROOT, "pipeline", "out", "scoring");
 const DRY = process.argv.includes("--dry");
 
 const readJson = p => JSON.parse(readFileSync(p, "utf8"));
@@ -88,7 +89,7 @@ if (!DRY) writeFileSync(INDEX_PATH, JSON.stringify(enriched, null, 1), "utf8");
 
 /* ---------- 4. Report ---------- */
 const pct = n => `${n} / ${stats.entries} (${Math.round((n / stats.entries) * 100)}%)`;
-console.log(`\n=== enrich-index ${DRY ? "(dry run,冇寫檔)" : "(已寫入 data/games-index.json)"} ===`);
+console.log(`\n=== enrich-index ${DRY ? "(dry run,冇寫檔)" : "(已寫入 pipeline/out/games-index.json)"} ===`);
 console.log(`index entries      : ${stats.entries}`);
 console.log(`scoring/*.json     : ${stats.scoringFiles}`);
 console.log(`有 nameZh          : ${pct(stats.gotNameZh)}`);

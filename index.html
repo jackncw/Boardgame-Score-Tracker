@@ -69,7 +69,6 @@ nav.tabs button:focus-visible{outline:2px solid var(--accent); outline-offset:-2
   font-size:12px; background:var(--paper-deep); color:var(--ink-soft);
   padding:3px 8px; border-radius:99px; white-space:nowrap;
 }
-<<<<<<< HEAD
 .gcard .rank{
   font-size:12px; font-weight:700; color:var(--ink-soft); flex-shrink:0;
   min-width:24px; text-align:right; font-variant-numeric:tabular-nums;
@@ -82,8 +81,6 @@ nav.tabs button:focus-visible{outline:2px solid var(--accent); outline-offset:-2
   background:#E5B23A22; border:1px solid #E5B23A55; border-radius:8px;
   padding:8px 11px; margin-bottom:12px;
 }
-=======
->>>>>>> 1c1fc06ae55358b942099500dd91db7346ffc3e3
 
 /* ===== Setup ===== */
 .slabel{font-size:13px; font-weight:700; color:var(--ink-soft); letter-spacing:.08em; margin:18px 0 8px;}
@@ -207,13 +204,6 @@ tr.trow td .val{font-size:30px;}
   font-size:14px; opacity:0; transition:.25s; z-index:60; pointer-events:none; white-space:nowrap;
 }
 .toast.show{opacity:1; transform:translateX(-50%) translateY(0);}
-<<<<<<< HEAD
-=======
-.note-badge{
-  display:inline-block; font-size:11px; background:#E5B23A33; color:#8A6D1F;
-  border-radius:5px; padding:2px 6px; font-weight:700; vertical-align:1px; margin-left:6px;
-}
->>>>>>> 1c1fc06ae55358b942099500dd91db7346ffc3e3
 </style>
 </head>
 <body>
@@ -238,16 +228,19 @@ tr.trow td .val{font-size:30px;}
    桌遊計分 v1 — schema-driven score sheet
    schema: fields[] of input types: number | counter | tiered | bonus
    storage: IndexedDB with in-memory fallback (artifact 預覽環境冇持久儲存)
-<<<<<<< HEAD
-   遊戲數據: 100% 由 data/ 載入,冇任何內置遊戲;載過嘅會入 IndexedDB "cache" store 供離線用
+   遊戲數據: 100% 由 pipeline/out/ 載入,冇任何內置遊戲;載過嘅會入 IndexedDB "cache" store 供離線用
 ========================================================= */
 
 /* ---------- 遊戲庫:外部數據載入層 ----------
-   App 冇任何內置遊戲。數據 100% 嚟自:
-     data/games-index.json      = 清單(BGG meta + nameZh / accent)
-     data/scoring/{gameId}.json = 揀咗遊戲先 lazy load
+   App 冇任何內置遊戲。數據 100% 嚟自 DATA_BASE 下面:
+     {DATA_BASE}/games-index.json      = 清單(BGG meta + nameZh / accent)
+     {DATA_BASE}/scoring/{gameId}.json = 揀咗遊戲先 lazy load
    兩者 fetch 成功都會寫入 IndexedDB 快取("cache" store),
    下次冇網就由快取讀返。冇計分表嘅遊戲開通用計分表。 */
+
+/* 數據根目錄(單一數據源)。以後搬位淨係改呢一行。 */
+const DATA_BASE = "pipeline/out";
+
 const catalog = {
   list: [],              // 清單
   offline: false,        // index 由快取讀返 = 離線模式
@@ -275,7 +268,7 @@ function indexEntry(e){
 async function loadCatalog(){
   let idx = null;
   try{
-    const res = await fetch("data/games-index.json");
+    const res = await fetch(`${DATA_BASE}/games-index.json`);
     if(!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
     if(!Array.isArray(data) || !data.length) throw new Error("index 空咗");
@@ -325,7 +318,7 @@ async function loadGame(gameId){
   }
   let doc = null;
   try{
-    const res = await fetch(`data/scoring/${gameId}.json`);
+    const res = await fetch(`${DATA_BASE}/scoring/${gameId}.json`);
     if(!res.ok) throw new Error("HTTP " + res.status);
     doc = await res.json();
     if(!doc?.scoring?.fields?.length) throw new Error("計分表格式唔啱");
@@ -355,163 +348,11 @@ const store = (() => {
     return new Promise(res=>{
       try{
         const rq=indexedDB.open("bgtool",2);
-=======
-========================================================= */
-
-/* ---------- 樣本遊戲庫(正式版由 pipeline 生成 JSON 檔) ---------- */
-const GAMES = [
-{
- gameId:"ttr", name:"Ticket to Ride", nameZh:"鐵道任務",
- meta:{weight:1.8,minPlayers:2,maxPlayers:5,playTime:60},
- theme:{accent:"#2A5DA8"},
- scoring:{verified:true,tieBreaker:"完成最多目的地票者勝",fields:[
-  {id:"route",label:"路線分數",icon:"🚂",color:"#DCE8F7",input:"number",min:0},
-  {id:"tdone",label:"完成目的地票",note:"入票面總分",icon:"🎫",color:"#DFF0DC",input:"number",min:0},
-  {id:"tfail",label:"未完成票",note:"入票面總分,自動扣",icon:"❌",color:"#F7DCDC",input:"number",min:0,sign:-1},
-  {id:"longest",label:"最長路線",icon:"🏆",color:"#F7EFD2",input:"bonus",value:10}
- ]}
-},
-{
- gameId:"wingspan", name:"Wingspan", nameZh:"展翅翱翔",
- meta:{weight:2.5,minPlayers:1,maxPlayers:5,playTime:70},
- theme:{accent:"#3E8E9E"},
- scoring:{verified:true,tieBreaker:"個人補給區剩餘食物多者勝",fields:[
-  {id:"birds",label:"鳥卡分數",icon:"🐦",color:"#DCEFF2",input:"number",min:0},
-  {id:"bonus",label:"獎勵卡",icon:"🃏",color:"#EFE3F5",input:"number",min:0},
-  {id:"goals",label:"回合目標",icon:"🎯",color:"#F5E8D8",input:"number",min:0},
-  {id:"eggs",label:"蛋",note:"每隻 1 分",icon:"🥚",color:"#F7F3DC",input:"counter",unitValue:1},
-  {id:"food",label:"儲存食物",note:"每個 1 分",icon:"🪱",color:"#E8F0DC",input:"counter",unitValue:1},
-  {id:"tucked",label:"夾藏卡",note:"每張 1 分",icon:"📥",color:"#E2E7EF",input:"counter",unitValue:1}
- ]}
-},
-{
- gameId:"catan", name:"Catan", nameZh:"卡坦島",
- meta:{weight:2.3,minPlayers:3,maxPlayers:4,playTime:90},
- theme:{accent:"#C4622D"},
- scoring:{verified:true,tieBreaker:"—",fields:[
-  {id:"sett",label:"村莊",note:"每座 1 分",icon:"🏠",color:"#F5E3D5",input:"counter",unitValue:1},
-  {id:"city",label:"城市",note:"每座 2 分",icon:"🏰",color:"#EADCF0",input:"counter",unitValue:2},
-  {id:"road",label:"最長道路",icon:"🛤️",color:"#DCE8DC",input:"bonus",value:2},
-  {id:"army",label:"最大軍隊",icon:"⚔️",color:"#F0DCDC",input:"bonus",value:2},
-  {id:"dev",label:"發展卡分數",note:"每張 1 分",icon:"📜",color:"#F7EFD2",input:"counter",unitValue:1}
- ]}
-},
-{
- gameId:"7wonders", name:"7 Wonders", nameZh:"七大奇蹟",
- meta:{weight:2.3,minPlayers:2,maxPlayers:7,playTime:30},
- theme:{accent:"#A8842A"},
- scoring:{verified:true,tieBreaker:"金幣多者勝",fields:[
-  {id:"military",label:"軍事衝突",note:"可以係負數",icon:"🗡️",color:"#F0DCDC",input:"number",min:-6},
-  {id:"coins",label:"金幣分數",note:"每 3 金 = 1 分",icon:"🪙",color:"#F7EFD2",input:"number",min:0},
-  {id:"wonder",label:"奇蹟",icon:"🗿",color:"#E5E0D5",input:"number",min:0},
-  {id:"civil",label:"民用建築(藍)",icon:"🏛️",color:"#DCE8F7",input:"number",min:0},
-  {id:"science",label:"科學(綠)",icon:"⚗️",color:"#DFF0DC",input:"number",min:0},
-  {id:"commerce",label:"商業(黃)",icon:"⚖️",color:"#F5EDD2",input:"number",min:0},
-  {id:"guild",label:"公會(紫)",icon:"🎭",color:"#EADCF0",input:"number",min:0}
- ]}
-},
-{
- gameId:"azul", name:"Azul", nameZh:"花磚物語",
- meta:{weight:1.8,minPlayers:2,maxPlayers:4,playTime:40},
- theme:{accent:"#345E9C"},
- scoring:{verified:true,tieBreaker:"完成較多橫行者勝",fields:[
-  {id:"track",label:"版圖軌道分數",icon:"🧮",color:"#DCE8F7",input:"number",min:0},
-  {id:"rows",label:"完成橫行",note:"每行 2 分",icon:"↔️",color:"#DFF0DC",input:"counter",unitValue:2},
-  {id:"cols",label:"完成直列",note:"每列 7 分",icon:"↕️",color:"#F5E8D8",input:"counter",unitValue:7},
-  {id:"colors",label:"集齊顏色",note:"每色 10 分",icon:"🎨",color:"#EADCF0",input:"counter",unitValue:10}
- ]}
-},
-{
- gameId:"skymines", name:"Skymines", nameZh:"天空礦業",
- meta:{weight:3.1,minPlayers:1,maxPlayers:4,playTime:120},
- theme:{accent:"#2F7A4D"},
- scoring:{verified:true,tieBreaker:"—",fields:[
-  {id:"cryp",label:"CrypCoin",icon:"🪙",color:"#E5E0D5",input:"number",min:0},
-  {id:"astrogo",label:"Astrogo Enterprises",icon:"🅰️",color:"#F7DCE5",input:"number",min:0},
-  {id:"tawac",label:"Tawac Industries",icon:"🇹",color:"#D8F0EA",input:"number",min:0},
-  {id:"skymine",label:"Skymine Resources",icon:"🇸",color:"#F5EDD2",input:"number",min:0},
-  {id:"minerva",label:"Minerva Corp",icon:"🇲",color:"#E5DCF0",input:"number",min:0},
-  {id:"helium",label:"Helium-3 marker",icon:"🎈",color:"#F0DCDC",input:"number",min:0},
-  {id:"upload",label:"Upload marker",icon:"📡",color:"#DCE8F7",input:"number",min:0}
- ]}
-},
-{
- gameId:"bgg-284378", name:"Kanban EV", nameZh:"看板 EV",
- meta:{weight:4.0,minPlayers:1,maxPlayers:4,playTime:120},
- theme:{accent:"#17879B"},
- scoring:{source:"manual",verified:false,tieBreaker:"車最多者勝 → Tested Designs 最多 → Banked Shifts 最多",fields:[
-  {id:"track_pp",label:"遊戲中已得 PP",note:"計分軌上嘅分數",icon:"📊",color:"#E5E0D5",input:"number",min:0},
-  {id:"final_goal",label:"Final Goal tile",note:"每項要付 1 個 Speech token,入總分",icon:"🎯",color:"#F7EFD2",input:"number",min:0},
-  {id:"shifts",label:"Banked Shifts",note:"每個 1 分",icon:"⏱️",color:"#DCE8F7",input:"counter",unitValue:1},
-  {id:"tokens",label:"Speech token / Book / Parts Voucher",note:"player board 上每個 1 分",icon:"🎟️",color:"#EADCF0",input:"counter",unitValue:1},
-  {id:"car_city",label:"City Car",note:"每架 2 分",icon:"🚗",color:"#DFF0DC",input:"counter",unitValue:2},
-  {id:"car_suv",label:"SUV",note:"每架 3 分",icon:"🚙",color:"#D8F0EA",input:"counter",unitValue:3},
-  {id:"car_truck",label:"Truck",note:"每架 4 分",icon:"🚚",color:"#F5E8D8",input:"counter",unitValue:4},
-  {id:"car_sports",label:"Sports Car",note:"每架 5 分",icon:"🏎️",color:"#F7DCDC",input:"counter",unitValue:5},
-  {id:"car_concept",label:"Concept Car",note:"每架 6 分",icon:"🛸",color:"#E2E7EF",input:"counter",unitValue:6},
-  {id:"training",label:"Training track 名次",note:"各部門 1st 5 / 2nd 3 / 3rd 1,入總分",icon:"📈",color:"#F5EDD2",input:"number",min:0},
-  {id:"tested",label:"Tested Designs",note:"按 Value Parts Track 部件價值,入總分",icon:"🔧",color:"#DCEFF2",input:"number",min:0}
- ]}
-},
-{
- gameId:"bgg-184267", name:"On Mars", nameZh:"On Mars",
- meta:{weight:4.8,minPlayers:1,maxPlayers:4,playTime:150},
- theme:{accent:"#B54A2B"},
- scoring:{source:"manual",verified:false,tieBreaker:"Crystal 最多者勝 → Advanced Building 最多 → Progress cube 最多",fields:[
-  {id:"track_op",label:"遊戲中已得 OP",note:"計分軌上嘅分數",icon:"📊",color:"#E5E0D5",input:"number",min:0},
-  {id:"progress",label:"Progress cubes",note:"入 Progress area 嘅立方數,自動查分",icon:"🧊",color:"#DCE8F7",input:"tiered",
-   table:[[0,0],[1,1],[2,2],[3,4],[4,7],[5,11]]},
-  {id:"ships",label:"Hangar 內 Ship",note:"每隻 3 分",icon:"🚀",color:"#EADCF0",input:"counter",unitValue:3},
-  {id:"colonists",label:"Colonists",note:"Living Quarters 最高位 colonist 旁邊嘅數字",icon:"🧑‍🚀",color:"#F5E8D8",input:"number",min:0},
-  {id:"tech",label:"Tech tiles",note:"Laboratory 各欄下方數字總和",icon:"🔬",color:"#D8F0EA",input:"number",min:0},
-  {id:"adv1",label:"已建 Lvl 1 Advanced Building",note:"每個 3 分",icon:"🏗️",color:"#DFF0DC",input:"counter",unitValue:3},
-  {id:"adv3",label:"已建 Lvl 3 Advanced Building",note:"每個 5 分",icon:"🏛️",color:"#E8F0DC",input:"counter",unitValue:5},
-  {id:"bp1",label:"未起 Lvl 1 Blueprint",note:"每個扣 3 分",icon:"📐",color:"#F7DCDC",input:"counter",unitValue:3,sign:-1},
-  {id:"bp3",label:"未起 Lvl 3 Blueprint",note:"每個扣 5 分",icon:"📕",color:"#F7DCE5",input:"counter",unitValue:5,sign:-1},
-  {id:"scientists",label:"Scientists",note:"每個對應 Advanced Building 3 分,唔理邊個擁有",icon:"🥼",color:"#F5EDD2",input:"counter",unitValue:3},
-  {id:"contracts",label:"Earth Contracts",note:"按卡面加減,可以係負數",icon:"📄",color:"#E2E7EF",input:"number",min:-50}
- ]}
-},
-{
- gameId:"bgg-199792", name:"Everdell", nameZh:"Everdell",
- meta:{weight:2.8,minPlayers:1,maxPlayers:4,playTime:80},
- theme:{accent:"#4A7A46"},
- scoring:{source:"manual",verified:false,tieBreaker:"達成最多 Event 者勝;仍平手則剩低資源最多者勝",fields:[
-  {id:"base",label:"卡牌基礎分",note:"城市入面每張卡卡面分數總和",icon:"🃏",color:"#DFF0DC",input:"number",min:0},
-  {id:"tokens",label:"Point tokens",note:"1 分同 3 分 token 加埋總分",icon:"💠",color:"#F7EFD2",input:"number",min:0},
-  {id:"prosperity",label:"紫色 Prosperity 卡加成",note:"卡面基礎分已計咗喺上面,呢行淨係入 bonus",icon:"👑",color:"#EADCF0",input:"number",min:0},
-  {id:"journey",label:"Journey",note:"工人所在格數值(2/3/4/5)加埋",icon:"🚶",color:"#DCE8F7",input:"number",min:0},
-  {id:"events",label:"Events",note:"Basic + Special Event 總分",icon:"🎪",color:"#F5E8D8",input:"number",min:0}
- ]}
-},
-{
- gameId:"demo-tiered", name:"Tiered Demo", nameZh:"示範:查表計分",
- meta:{weight:0,minPlayers:1,maxPlayers:7,playTime:0}, demo:true,
- theme:{accent:"#7A4D8E"},
- scoring:{verified:true,tieBreaker:"—",fields:[
-  {id:"track",label:"影響力軌",note:"入格數,自動查分",icon:"📈",color:"#EADCF0",input:"tiered",
-   table:[[0,0],[1,2],[2,5],[3,9],[4,14],[5,20]]},
-  {id:"plain",label:"其他分數",icon:"⭐",color:"#F7EFD2",input:"number",min:0}
- ]}
-}
-];
-
-/* ---------- storage(IndexedDB → 記憶體 fallback) ---------- */
-const store = (() => {
-  let db=null, mem={plays:[], lastPlayers:[]}, usingMem=false;
-  function open(){
-    return new Promise(res=>{
-      try{
-        const rq=indexedDB.open("bgtool",1);
->>>>>>> 1c1fc06ae55358b942099500dd91db7346ffc3e3
         rq.onupgradeneeded=e=>{
           const d=e.target.result;
           if(!d.objectStoreNames.contains("plays")) d.createObjectStore("plays",{keyPath:"id"});
           if(!d.objectStoreNames.contains("kv")) d.createObjectStore("kv",{keyPath:"k"});
-<<<<<<< HEAD
           if(!d.objectStoreNames.contains("cache")) d.createObjectStore("cache",{keyPath:"k"});
-=======
->>>>>>> 1c1fc06ae55358b942099500dd91db7346ffc3e3
         };
         rq.onsuccess=e=>{db=e.target.result; res();};
         rq.onerror=()=>{usingMem=true; res();};
@@ -551,7 +392,6 @@ const store = (() => {
     if(usingMem||!db) return;
     try{db.transaction("kv","readwrite").objectStore("kv").put({k,v});}catch(e){}
   }
-<<<<<<< HEAD
   /* 離線快取:games-index / scoring:{gameId} 嘅 JSON 原文 */
   async function putCache(k,v){
     memCache.set(k,v);
@@ -569,9 +409,6 @@ const store = (() => {
     });
   }
   return {open,allPlays,putPlay,delPlay,getKV,setKV,putCache,getCache, isMem:()=>usingMem};
-=======
-  return {open,allPlays,putPlay,delPlay,getKV,setKV, isMem:()=>usingMem};
->>>>>>> 1c1fc06ae55358b942099500dd91db7346ffc3e3
 })();
 
 /* ---------- app state ---------- */
@@ -641,7 +478,6 @@ function render(){
 /* ---------- view: game list ---------- */
 function renderGames(){
   setAccent("#3E7C4F"); barTitle.textContent="桌遊計分";
-<<<<<<< HEAD
   if(catalog.noData){          // 網同快取都冇
     main.innerHTML=`<div class="empty-state"><div class="big">📡</div>
       首次使用需要網絡下載遊戲資料。<br>連咗網再開一次就得,之後離線都用到。</div>`;
@@ -692,34 +528,6 @@ function renderGames(){
     clearTimeout(timer);
     timer=setTimeout(()=>draw(v),120);
   };
-=======
-  main.innerHTML=`
-    <input class="search" id="q" type="search" placeholder="搜尋遊戲⋯" autocomplete="off">
-    <div id="glist"></div>
-    <p class="sheetnote">樣本遊戲庫 · 正式版由 BGG + 生成 pipeline 提供 Top 1000</p>
-  `;
-  const list=$("#glist");
-  function draw(q){
-    const ql=(q||"").trim().toLowerCase();
-    const hits=GAMES.filter(g=>!ql||g.name.toLowerCase().includes(ql)||(g.nameZh||"").includes(q));
-    list.innerHTML=hits.map(g=>`
-      <button class="gcard" data-id="${g.gameId}">
-        <span class="dot" style="background:${g.theme.accent}"></span>
-        <span class="gname">${esc(g.nameZh||g.name)}${g.demo?'<span class="note-badge">示範</span>':""}
-          <small>${esc(g.name)}</small>
-        </span>
-        ${g.meta.weight?`<span class="chip">⚖️ ${g.meta.weight}</span>`:""}
-        <span class="chip">👥 ${g.meta.minPlayers}–${g.meta.maxPlayers}</span>
-      </button>`).join("") || `<div class="empty-state">搵唔到。正式版會有 1000 隻。</div>`;
-    list.querySelectorAll(".gcard").forEach(b=>b.onclick=()=>{
-      S.game=GAMES.find(g=>g.gameId===b.dataset.id);
-      S.editPlayId=null;
-      S.view="setup"; render();
-    });
-  }
-  draw("");
-  $("#q").oninput=e=>draw(e.target.value);
->>>>>>> 1c1fc06ae55358b942099500dd91db7346ffc3e3
 }
 
 /* ---------- view: setup players ---------- */
@@ -775,15 +583,10 @@ function renderSheet(){
   const g=S.game; setAccent(g.theme.accent);
   barTitle.textContent=(g.nameZh||g.name)+(S.editPlayId?" · 編輯":"");
   const fields=g.scoring.fields;
-<<<<<<< HEAD
   const genericNote = g.generic==="offline" ? "通用計分表(離線,未快取專屬表)"
                     : g.generic ? "通用計分表(未有專屬)" : "";
   let html=`<div class="sheetwrap"><table class="sheet">
     <thead><tr><th>${esc(g.name)}${genericNote?`<small class="genericnote">${genericNote}</small>`:""}</th>${S.players.map(p=>`<th>${esc(p)}</th>`).join("")}</tr></thead><tbody>`;
-=======
-  let html=`<div class="sheetwrap"><table class="sheet">
-    <thead><tr><th>${esc(g.name)}</th>${S.players.map(p=>`<th>${esc(p)}</th>`).join("")}</tr></thead><tbody>`;
->>>>>>> 1c1fc06ae55358b942099500dd91db7346ffc3e3
   for(const f of fields){
     html+=`<tr><td><div class="frow-label">
       <span class="fic" style="background:${f.color||"var(--paper-deep)"}">${f.icon||"•"}</span>
@@ -945,11 +748,7 @@ async function renderHistory(){
   setAccent("#3E7C4F"); barTitle.textContent="對局紀錄";
   const all=(await store.allPlays()).sort((a,b)=>b.date.localeCompare(a.date));
   S.historyCache=all;
-<<<<<<< HEAD
   const filterGame = S.historyFilter ? catalog.list.find(g=>g.gameId===S.historyFilter) : null;
-=======
-  const filterGame = S.historyFilter ? GAMES.find(g=>g.gameId===S.historyFilter) : null;
->>>>>>> 1c1fc06ae55358b942099500dd91db7346ffc3e3
   const filterName = filterGame ? (filterGame.nameZh||filterGame.name)
                    : (S.historyFilter ? (all.find(p=>p.gameId===S.historyFilter)?.gameName||S.historyFilter) : null);
   const q=S.historyQuery.trim().toLowerCase();
@@ -995,18 +794,11 @@ async function renderHistory(){
   main.querySelectorAll("[data-edit]").forEach(b=>b.onclick=()=>editPlay(b.dataset.edit));
   bindIO();
 }
-<<<<<<< HEAD
 async function editPlay(id){
   const p=S.historyCache.find(x=>x.id===id);
   if(!p) return;
   let g=null;
   try{ g=await loadGame(p.gameId); }catch(err){ g=null; }
-=======
-function editPlay(id){
-  const p=S.historyCache.find(x=>x.id===id);
-  if(!p) return;
-  const g=GAMES.find(x=>x.gameId===p.gameId);
->>>>>>> 1c1fc06ae55358b942099500dd91db7346ffc3e3
   if(!g){toast("呢隻遊戲唔喺目前遊戲庫,暫時改唔到"); return;}
   S.game=g;
   S.players=p.players.map(x=>x.name);
@@ -1058,15 +850,11 @@ backBtn.onclick=()=>{
 saveBtn.onclick=savePlay;
 
 /* ---------- boot ---------- */
-<<<<<<< HEAD
 (async () => {
   await store.open();
   await loadCatalog();
   render();
 })();
-=======
-store.open().then(render);
->>>>>>> 1c1fc06ae55358b942099500dd91db7346ffc3e3
 </script>
 </body>
 </html>

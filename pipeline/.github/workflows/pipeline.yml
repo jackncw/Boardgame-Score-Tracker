@@ -1,0 +1,39 @@
+name: BGG scoring pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "今次最多生成幾多隻(控制 API 成本)"
+        default: "100"
+  # ⏰ 預留:將來要自動追新遊戲,解開下面兩行(每星期一 03:00 UTC)
+  # schedule:
+  #   - cron: "0 3 * * 1"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Step 1 — 攞排名 index
+        run: node 01-fetch-index.mjs 1000
+
+      - name: Step 2 — 攞 BGG meta(斷點續傳)
+        run: node 02-fetch-meta.mjs
+
+      - name: Step 3 — 生成計分 schema
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node 03-generate-scoring.mjs --limit ${{ github.event.inputs.limit || 100 }}
+
+      - name: Commit 結果
+        run: |
+          git config user.name "pipeline-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add out/
+          git diff --cached --quiet || git commit -m "pipeline: update games data"
+          git push
