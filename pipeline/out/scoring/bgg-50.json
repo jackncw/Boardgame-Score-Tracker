@@ -1,0 +1,59 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-50",
+ "name": "Lost Cities",
+ "nameZh": "失落的城市",
+ "theme": {
+  "accent": "#7A6E4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "yellow",
+    "label": "黃色遠征",
+    "icon": "🟨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "blue",
+    "label": "藍色遠征",
+    "icon": "🟦",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "white",
+    "label": "白色遠征",
+    "icon": "⬜",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "green",
+    "label": "綠色遠征",
+    "icon": "🟩",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "red",
+    "label": "紅色遠征",
+    "icon": "🟥",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

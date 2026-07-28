@@ -530,5 +530,264 @@
   "rank": 300,
   "name": "Aeon's End: The New Age",
   "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 329500,
+  "gameId": "bgg-329500",
+  "rank": 304,
+  "name": "Unconscious Mind",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 198994,
+  "gameId": "bgg-198994",
+  "rank": 309,
+  "name": "Hero Realms",
+  "reason": "以擊倒對手權威值定勝負,無累加計分"
+ },
+ {
+  "bggId": 446497,
+  "gameId": "bgg-446497",
+  "rank": 313,
+  "name": "Hot Streak",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 194655,
+  "gameId": "bgg-194655",
+  "rank": 314,
+  "name": "Santorini",
+  "reason": "抽象對弈,以爬上第三層定勝負,無累加計分"
+ },
+ {
+  "bggId": 434654,
+  "gameId": "bgg-434654",
+  "rank": 316,
+  "name": "Toy Battle",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 230253,
+  "gameId": "bgg-230253",
+  "rank": 319,
+  "name": "Star Realms: Frontiers",
+  "reason": "以擊倒對手權威值定勝負,無累加計分"
+ },
+ {
+  "bggId": 400314,
+  "gameId": "bgg-400314",
+  "rank": 322,
+  "name": "Apiary",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 349067,
+  "gameId": "bgg-349067",
+  "rank": 324,
+  "name": "The Lord of the Rings: The Card Game – Revised Core Set",
+  "reason": "合作制卡牌遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 284653,
+  "gameId": "bgg-284653",
+  "rank": 325,
+  "name": "Mind MGMT: The Psychic Espionage “Game.”",
+  "reason": "一對多隱藏移動遊戲,以達成陣營目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 244271,
+  "gameId": "bgg-244271",
+  "rank": 326,
+  "name": "Dice Throne: Season Two – Battle Chest",
+  "reason": "對戰遊戲,以擊倒對手生命值定勝負,無累加計分"
+ },
+ {
+  "bggId": 356123,
+  "gameId": "bgg-356123",
+  "rank": 327,
+  "name": "Turing Machine",
+  "reason": "推理競速遊戲,以最快推出答案定勝負,無累加計分"
+ },
+ {
+  "bggId": 370591,
+  "gameId": "bgg-370591",
+  "rank": 328,
+  "name": "Dorfromantik: The Board Game",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 331106,
+  "gameId": "bgg-331106",
+  "rank": 329,
+  "name": "The Witcher: Old World",
+  "reason": "以先達成獵魔士試煉條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 760,
+  "gameId": "bgg-760",
+  "rank": 332,
+  "name": "Battle Line",
+  "reason": "雙人對戰,以奪旗定勝負,無累加計分"
+ },
+ {
+  "bggId": 291572,
+  "gameId": "bgg-291572",
+  "rank": 333,
+  "name": "Oath",
+  "reason": "以持有誓約與繼承條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 298047,
+  "gameId": "bgg-298047",
+  "rank": 334,
+  "name": "Marvel United",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 140620,
+  "gameId": "bgg-140620",
+  "rank": 335,
+  "name": "Lewis & Clark: The Expedition",
+  "reason": "競速遊戲,以最快到達目的地定勝負,無累加計分"
+ },
+ {
+  "bggId": 262211,
+  "gameId": "bgg-262211",
+  "rank": 336,
+  "name": "Cloudspire",
+  "reason": "劇本制對戰遊戲,以摧毀對手要塞定勝負,無累加計分"
+ },
+ {
+  "bggId": 2655,
+  "gameId": "bgg-2655",
+  "rank": 337,
+  "name": "Hive",
+  "reason": "抽象對弈,以包圍對手蜂后定勝負,無累加計分"
+ },
+ {
+  "bggId": 27708,
+  "gameId": "bgg-27708",
+  "rank": 338,
+  "name": "1960: The Making of the President",
+  "reason": "雙人選舉遊戲,以選舉人票定勝負,無累加計分"
+ },
+ {
+  "bggId": 246784,
+  "gameId": "bgg-246784",
+  "rank": 341,
+  "name": "Cryptid",
+  "reason": "推理遊戲,以最快搵到神祕生物定勝負,無累加計分"
+ },
+ {
+  "bggId": 223321,
+  "gameId": "bgg-223321",
+  "rank": 344,
+  "name": "Detective: A Modern Crime Board Game",
+  "reason": "合作制解謎遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 239188,
+  "gameId": "bgg-239188",
+  "rank": 350,
+  "name": "Chronicles of Crime",
+  "reason": "合作制解謎遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 46213,
+  "gameId": "bgg-46213",
+  "rank": 352,
+  "name": "Telestrations",
+  "reason": "派對繪畫傳話遊戲,無正式累加計分"
+ },
+ {
+  "bggId": 332800,
+  "gameId": "bgg-332800",
+  "rank": 353,
+  "name": "Summoner Wars (Second Edition)",
+  "reason": "雙人對戰,以擊倒對手召喚師定勝負,無累加計分"
+ },
+ {
+  "bggId": 257499,
+  "gameId": "bgg-257499",
+  "rank": 355,
+  "name": "Arkham Horror (Third Edition)",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 333255,
+  "gameId": "bgg-333255",
+  "rank": 358,
+  "name": "Keep the Heroes Out!",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 146508,
+  "gameId": "bgg-146508",
+  "rank": 359,
+  "name": "T.I.M.E Stories",
+  "reason": "合作制解謎遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 160477,
+  "gameId": "bgg-160477",
+  "rank": 360,
+  "name": "Onitama",
+  "reason": "抽象對弈,以攻陷對手為勝,無累加計分"
+ },
+ {
+  "bggId": 276182,
+  "gameId": "bgg-276182",
+  "rank": 361,
+  "name": "Dead Reckoning",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 417197,
+  "gameId": "bgg-417197",
+  "rank": 364,
+  "name": "Rebirth",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 308119,
+  "gameId": "bgg-308119",
+  "rank": 366,
+  "name": "Pax Renaissance: 2nd Edition",
+  "reason": "以達成陣營勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 411567,
+  "gameId": "bgg-411567",
+  "rank": 367,
+  "name": "The Gang",
+  "reason": "合作制啤牌遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 302723,
+  "gameId": "bgg-302723",
+  "rank": 368,
+  "name": "Forgotten Waters",
+  "reason": "合作制故事遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 454103,
+  "gameId": "bgg-454103",
+  "rank": 370,
+  "name": "Magical Athlete",
+  "reason": "競速遊戲,以到終點名次定勝負,無累加計分"
+ },
+ {
+  "bggId": 155068,
+  "gameId": "bgg-155068",
+  "rank": 371,
+  "name": "Arcadia Quest",
+  "reason": "劇本制對戰遊戲,以完成任務獎章定勝負,無累加計分"
+ },
+ {
+  "bggId": 319966,
+  "gameId": "bgg-319966",
+  "rank": 375,
+  "name": "The King Is Dead: Second Edition",
+  "reason": "區域控制遊戲,以陣營勝負判定,無累加計分"
  }
 ]

@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-204583",
+ "name": "Kingdomino",
+ "nameZh": "王國建造者・骨牌王國",
+ "theme": {
+  "accent": "#5A8C5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "territories",
+    "label": "領地計分",
+    "note": "每塊領地 = 格數 × 皇冠數",
+    "icon": "👑",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "middle",
+    "label": "中央王國(城堡喺正中)",
+    "note": "選用規則",
+    "icon": "🏰",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 10
+   },
+   {
+    "id": "harmony",
+    "label": "和諧(完整 5×5 方陣)",
+    "note": "選用規則",
+    "icon": "🎵",
+    "color": "#EADCF0",
+    "input": "bonus",
+    "value": 5
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

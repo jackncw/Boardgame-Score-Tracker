@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-139976",
+ "name": "Cthulhu Wars",
+ "nameZh": "克蘇魯戰爭",
+ "theme": {
+  "accent": "#5A7A4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "doom",
+    "label": "末日點數",
+    "icon": "💀",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "elder",
+    "label": "長老印記",
+    "icon": "🔯",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

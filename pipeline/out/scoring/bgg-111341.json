@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-111341",
+ "name": "The Great Zimbabwe",
+ "nameZh": "大辛巴威",
+ "theme": {
+  "accent": "#8C6E3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "monument",
+    "label": "紀念碑價值",
+    "note": "自己紀念碑嘅總價值就係得分",
+    "icon": "🗿",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

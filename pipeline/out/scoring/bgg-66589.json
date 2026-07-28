@@ -1,0 +1,67 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-66589",
+ "name": "Navegador",
+ "nameZh": "航海家",
+ "theme": {
+  "accent": "#4A6E9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "factories",
+    "label": "工廠",
+    "icon": "🏭",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "colonies",
+    "label": "殖民地",
+    "icon": "🌴",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "churches",
+    "label": "教堂",
+    "icon": "⛪",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ships",
+    "label": "船隻",
+    "icon": "⛵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "privilege",
+    "label": "特權加成",
+    "icon": "📜",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "剩餘金錢",
+    "icon": "🪙",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

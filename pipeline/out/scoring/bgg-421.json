@@ -1,0 +1,36 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-421",
+ "name": "1830: Railways & Robber Barons",
+ "nameZh": "1830:鐵路與強盜大亨",
+ "theme": {
+  "accent": "#5A5A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cash",
+    "label": "現金",
+    "icon": "💵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shares",
+    "label": "持股價值",
+    "note": "每張股票 × 股價",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

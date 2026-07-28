@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-108745",
+ "name": "Seasons",
+ "nameZh": "四季物語",
+ "theme": {
+  "accent": "#5A8C6E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "crystals",
+    "label": "水晶",
+    "note": "每粒 1 分",
+    "icon": "💎",
+    "color": "#D8EFEC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "cards",
+    "label": "卡牌分數",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "endgame",
+    "label": "終局能量與獎勵",
+    "icon": "✨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
