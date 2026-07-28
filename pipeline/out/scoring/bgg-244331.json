@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-244331",
+ "name": "Blue Lagoon",
+ "nameZh": "藍色潟湖",
+ "theme": {
+  "accent": "#4A8C9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "phase1",
+    "label": "第一階段計分",
+    "icon": "1️⃣",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "phase2",
+    "label": "第二階段計分",
+    "icon": "2️⃣",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

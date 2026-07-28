@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-198740",
+ "name": "Lovecraft Letter",
+ "nameZh": "克蘇魯情書",
+ "theme": {
+  "accent": "#5A7A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tokens",
+    "label": "愛慕標記",
+    "note": "每個 1 分",
+    "icon": "🐙",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

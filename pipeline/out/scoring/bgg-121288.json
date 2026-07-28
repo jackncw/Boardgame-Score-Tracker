@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-121288",
+ "name": "Dixit: Journey",
+ "nameZh": "說書人:旅程",
+ "theme": {
+  "accent": "#7A5A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "storyteller",
+    "label": "做說書人嘅回合得分",
+    "icon": "📖",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "guess",
+    "label": "猜中得分",
+    "icon": "🎯",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "votes",
+    "label": "自己張卡獲得嘅票",
+    "note": "每票 1 分",
+    "icon": "🗳️",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

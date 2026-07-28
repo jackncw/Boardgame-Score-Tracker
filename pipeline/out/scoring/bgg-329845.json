@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-329845",
+ "name": "Stella: Dixit Universe",
+ "nameZh": "史黛拉:說書人宇宙",
+ "theme": {
+  "accent": "#7A5A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "rounds",
+    "label": "各回合得分累計",
+    "icon": "☁️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

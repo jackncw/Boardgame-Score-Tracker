@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-256570",
+ "name": "Crown of Emara",
+ "nameZh": "埃瑪拉之冠",
+ "theme": {
+  "accent": "#7A6E9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "得分(市民軌同議會軌入面較低嗰條)",
+    "icon": "👑",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

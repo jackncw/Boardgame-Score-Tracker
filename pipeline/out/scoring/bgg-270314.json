@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-270314",
+ "name": "Ohanami",
+ "nameZh": "花見",
+ "theme": {
+  "accent": "#C4708C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "round1",
+    "label": "第一輪計分",
+    "icon": "1️⃣",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "round2",
+    "label": "第二輪計分",
+    "icon": "2️⃣",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "round3",
+    "label": "第三輪計分",
+    "icon": "3️⃣",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-3307",
+ "name": "Wallenstein",
+ "nameZh": "華倫斯坦",
+ "theme": {
+  "accent": "#7A4A4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "year1",
+    "label": "第一年計分",
+    "icon": "1️⃣",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "year2",
+    "label": "第二年計分",
+    "icon": "2️⃣",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

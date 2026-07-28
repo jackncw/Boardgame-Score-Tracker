@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-2453",
+ "name": "Blokus",
+ "nameZh": "格格不入",
+ "theme": {
+  "accent": "#4A7A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "squares",
+    "label": "剩餘方格",
+    "note": "每格 -1 分",
+    "icon": "🟦",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "allplaced",
+    "label": "全部方塊放晒",
+    "icon": "🏆",
+    "color": "#DDEFDC",
+    "input": "bonus",
+    "value": 15
+   },
+   {
+    "id": "lastsmall",
+    "label": "最後放單格方塊",
+    "note": "要喺全部放晒嘅前提下",
+    "icon": "▪️",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 5
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

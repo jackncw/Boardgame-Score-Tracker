@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-169654",
+ "name": "Deep Sea Adventure",
+ "nameZh": "深海探險",
+ "theme": {
+  "accent": "#4A6E9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "treasure",
+    "label": "三輪寶物總分",
+    "icon": "🗿",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

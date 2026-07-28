@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-51",
+ "name": "Ricochet Robots",
+ "nameZh": "彈射機械人",
+ "theme": {
+  "accent": "#5A7A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tokens",
+    "label": "已得目標標記",
+    "note": "每個 1 分",
+    "icon": "🤖",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

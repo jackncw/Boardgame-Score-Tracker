@@ -2686,5 +2686,306 @@
   "rank": 900,
   "name": "Evacuation",
   "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 11825,
+  "gameId": "bgg-11825",
+  "rank": 914,
+  "name": "Empire of the Sun: The Pacific War 1941-1945",
+  "reason": "雙人戰棋,以陣營勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 393333,
+  "gameId": "bgg-393333",
+  "rank": 917,
+  "name": "Galileo Galilei",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 387780,
+  "gameId": "bgg-387780",
+  "rank": 920,
+  "name": "Rats of Wistar",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 313889,
+  "gameId": "bgg-313889",
+  "rank": 921,
+  "name": "Hoplomachus: Victorum",
+  "reason": "單人戰役制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 226320,
+  "gameId": "bgg-226320",
+  "rank": 922,
+  "name": "My Little Scythe",
+  "reason": "以最先儲齊 4 個獎盃定勝負,無累加計分"
+ },
+ {
+  "bggId": 218333,
+  "gameId": "bgg-218333",
+  "rank": 923,
+  "name": "Rhino Hero: Super Battle",
+  "reason": "疊高遊戲,以樓層同獎章判定,無累加計分"
+ },
+ {
+  "bggId": 21882,
+  "gameId": "bgg-21882",
+  "rank": 926,
+  "name": "Blue Moon City",
+  "reason": "以最先喺方尖碑放晒水晶定勝負,無累加計分"
+ },
+ {
+  "bggId": 162007,
+  "gameId": "bgg-162007",
+  "rank": 927,
+  "name": "Steampunk Rally",
+  "reason": "競速遊戲,以最先到終點定勝負,無累加計分"
+ },
+ {
+  "bggId": 65532,
+  "gameId": "bgg-65532",
+  "rank": 928,
+  "name": "Defenders of the Realm",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 332290,
+  "gameId": "bgg-332290",
+  "rank": 931,
+  "name": "Stardew Valley: The Board Game",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 422674,
+  "gameId": "bgg-422674",
+  "rank": 935,
+  "name": "Saltfjord",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 155624,
+  "gameId": "bgg-155624",
+  "rank": 936,
+  "name": "Specter Ops",
+  "reason": "一對多追捕遊戲,以捉到/逃脫定勝負,無累加計分"
+ },
+ {
+  "bggId": 181521,
+  "gameId": "bgg-181521",
+  "rank": 937,
+  "name": "Warhammer Quest: The Adventure Card Game",
+  "reason": "合作制卡牌遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 173064,
+  "gameId": "bgg-173064",
+  "rank": 938,
+  "name": "Leaving Earth",
+  "reason": "以完成任務目標定勝負,無統一累加計分"
+ },
+ {
+  "bggId": 300877,
+  "gameId": "bgg-300877",
+  "rank": 939,
+  "name": "New York Zoo",
+  "reason": "以最先填滿自己動物園定勝負,無累加計分"
+ },
+ {
+  "bggId": 214029,
+  "gameId": "bgg-214029",
+  "rank": 940,
+  "name": "SpaceCorp: 2025-2300AD",
+  "reason": "以陣營任務同時代目標判定,無統一累加計分"
+ },
+ {
+  "bggId": 150997,
+  "gameId": "bgg-150997",
+  "rank": 943,
+  "name": "Shadows of Brimstone: Swamps of Death",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 9823,
+  "gameId": "bgg-9823",
+  "rank": 947,
+  "name": "Advanced Squad Leader: Starter Kit #1",
+  "reason": "劇本制戰棋,以劇本勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 338760,
+  "gameId": "bgg-338760",
+  "rank": 950,
+  "name": "Imperial Steam",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 231218,
+  "gameId": "bgg-231218",
+  "rank": 951,
+  "name": "Black Sonata",
+  "reason": "單人推理遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 73171,
+  "gameId": "bgg-73171",
+  "rank": 954,
+  "name": "Earth Reborn",
+  "reason": "劇本制對戰遊戲,以完成任務定勝負,無累加計分"
+ },
+ {
+  "bggId": 204516,
+  "gameId": "bgg-204516",
+  "rank": 957,
+  "name": "878 Vikings: Invasions of England",
+  "reason": "區域控制陣營遊戲,以佔領城市定勝負,無累加計分"
+ },
+ {
+  "bggId": 256382,
+  "gameId": "bgg-256382",
+  "rank": 959,
+  "name": "Disney Villainous: The Worst Takes it All",
+  "reason": "以最先完成個人目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 377470,
+  "gameId": "bgg-377470",
+  "rank": 960,
+  "name": "Sail",
+  "reason": "合作制吃磴遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 294612,
+  "gameId": "bgg-294612",
+  "rank": 961,
+  "name": "Unlock!: Epic Adventures",
+  "reason": "密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表"
+ },
+ {
+  "bggId": 354544,
+  "gameId": "bgg-354544",
+  "rank": 963,
+  "name": "Unmatched: Houdini vs. The Genie",
+  "reason": "對戰遊戲,以擊倒對手生命值定勝負,無累加計分"
+ },
+ {
+  "bggId": 239472,
+  "gameId": "bgg-239472",
+  "rank": 964,
+  "name": "Abomination: The Heir of Frankenstein",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 47185,
+  "gameId": "bgg-47185",
+  "rank": 965,
+  "name": "Warhammer: Invasion",
+  "reason": "雙人對戰卡牌遊戲,以攻陷對手首都定勝負,無累加計分"
+ },
+ {
+  "bggId": 161417,
+  "gameId": "bgg-161417",
+  "rank": 968,
+  "name": "Red7",
+  "reason": "以達成勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 402676,
+  "gameId": "bgg-402676",
+  "rank": 969,
+  "name": "Cities",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 31563,
+  "gameId": "bgg-31563",
+  "rank": 971,
+  "name": "Middle-Earth Quest",
+  "reason": "一對多戰役遊戲,以陣營目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 299047,
+  "gameId": "bgg-299047",
+  "rank": 973,
+  "name": "Disney Villainous: Perfectly Wretched",
+  "reason": "以最先完成個人目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 198830,
+  "gameId": "bgg-198830",
+  "rank": 975,
+  "name": "Heroes of Land, Air & Sea",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 285984,
+  "gameId": "bgg-285984",
+  "rank": 976,
+  "name": "Last Bastion",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 281549,
+  "gameId": "bgg-281549",
+  "rank": 979,
+  "name": "Beast",
+  "reason": "一對多追捕遊戲,以陣營目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 194879,
+  "gameId": "bgg-194879",
+  "rank": 980,
+  "name": "Not Alone",
+  "reason": "一對多不對稱遊戲,以陣營目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 249277,
+  "gameId": "bgg-249277",
+  "rank": 981,
+  "name": "Brazil: Imperial",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 334011,
+  "gameId": "bgg-334011",
+  "rank": 985,
+  "name": "A Gentle Rain",
+  "reason": "單人遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 203417,
+  "gameId": "bgg-203417",
+  "rank": 988,
+  "name": "EXIT: The Game – The Secret Lab",
+  "reason": "密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表"
+ },
+ {
+  "bggId": 171273,
+  "gameId": "bgg-171273",
+  "rank": 989,
+  "name": "FUSE",
+  "reason": "合作制即時遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 422780,
+  "gameId": "bgg-422780",
+  "rank": 994,
+  "name": "Mistborn: The Deckbuilding Game",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 391795,
+  "gameId": "bgg-391795",
+  "rank": 996,
+  "name": "Kinfire Delve: Vainglory's Grotto",
+  "reason": "單人/合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 170416,
+  "gameId": "bgg-170416",
+  "rank": 1000,
+  "name": "Vast: The Crystal Caverns",
+  "reason": "不對稱陣營遊戲,每個角色勝利條件唔同,無統一累加計分"
  }
 ]

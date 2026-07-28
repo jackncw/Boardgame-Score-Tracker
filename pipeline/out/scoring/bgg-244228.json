@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-244228",
+ "name": "Reef",
+ "nameZh": "珊瑚礁",
+ "theme": {
+  "accent": "#4A8C9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "patterns",
+    "label": "圖案組合得分",
+    "icon": "🔷",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "colors",
+    "label": "珊瑚顏色分數",
+    "icon": "🪸",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-201825",
+ "name": "Ex Libris",
+ "nameZh": "藏書閣",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "categories",
+    "label": "書籍類別分數",
+    "icon": "📚",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "alphabet",
+    "label": "書架排序整齊度",
+    "icon": "🔤",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "special",
+    "label": "特殊書籍與助手",
+    "icon": "✨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "banned",
+    "label": "禁書扣分",
+    "icon": "🚫",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

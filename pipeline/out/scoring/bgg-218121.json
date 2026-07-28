@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-218121",
+ "name": "Dice Hospital",
+ "nameZh": "骰子醫院",
+ "theme": {
+  "accent": "#4A8C9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "patients",
+    "label": "已出院病人分數",
+    "icon": "🩺",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "departments",
+    "label": "部門與專科",
+    "icon": "🏥",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "救護車與其他加分",
+    "icon": "🚑",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

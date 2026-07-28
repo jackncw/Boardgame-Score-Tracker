@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-232219",
+ "name": "Dragon Castle",
+ "nameZh": "龍之城堡",
+ "theme": {
+  "accent": "#8C4A6E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tiles",
+    "label": "板塊組合分數",
+    "icon": "🀄",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shrines",
+    "label": "神殿",
+    "icon": "⛩️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "spirits",
+    "label": "精靈與其他加分",
+    "icon": "✨",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

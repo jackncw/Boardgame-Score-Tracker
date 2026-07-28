@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-387378",
+ "name": "MLEM: Space Agency",
+ "nameZh": "喵喵太空總署",
+ "theme": {
+  "accent": "#5A6E9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "planets",
+    "label": "已抵達星球分數",
+    "icon": "🪐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
