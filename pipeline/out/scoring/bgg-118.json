@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-118",
+ "name": "Modern Art",
+ "nameZh": "現代藝術",
+ "theme": {
+  "accent": "#C4544A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cash",
+    "label": "最終現金總額",
+    "note": "四回合完結後手上嘅錢就係得分",
+    "icon": "💵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

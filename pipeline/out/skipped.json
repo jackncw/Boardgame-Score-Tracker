@@ -236,5 +236,152 @@
   "rank": 200,
   "name": "Legendary Encounters: An Alien Deck Building Game",
   "reason": "合作制牌庫構築遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 103885,
+  "gameId": "bgg-103885",
+  "rank": 206,
+  "name": "Star Wars: X-Wing Miniatures Game",
+  "reason": "微縮模型對戰遊戲,以擊毀對手艦隊定勝負,無累加計分"
+ },
+ {
+  "bggId": 2511,
+  "gameId": "bgg-2511",
+  "rank": 207,
+  "name": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
+  "reason": "合作解謎,按案件問答同線索數計分,唔適用累加計分表"
+ },
+ {
+  "bggId": 283355,
+  "gameId": "bgg-283355",
+  "rank": 211,
+  "name": "Dune",
+  "reason": "區域控制陣營遊戲,以佔領據點定勝負,無累加計分"
+ },
+ {
+  "bggId": 329082,
+  "gameId": "bgg-329082",
+  "rank": 212,
+  "name": "Radlands",
+  "reason": "雙人對戰遊戲,以摧毀對手營地定勝負,無累加計分"
+ },
+ {
+  "bggId": 339789,
+  "gameId": "bgg-339789",
+  "rank": 213,
+  "name": "Welcome to the Moon",
+  "reason": "戰役制,每章節計分規則唔同,難以單一計分表覆蓋"
+ },
+ {
+  "bggId": 332686,
+  "gameId": "bgg-332686",
+  "rank": 215,
+  "name": "John Company: Second Edition",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 374173,
+  "gameId": "bgg-374173",
+  "rank": 217,
+  "name": "Star Wars: The Deckbuilding Game",
+  "reason": "雙人對戰牌庫構築,以摧毀對手基地定勝負,無累加計分"
+ },
+ {
+  "bggId": 188920,
+  "gameId": "bgg-188920",
+  "rank": 220,
+  "name": "This War of Mine: The Board Game",
+  "reason": "合作制生存遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 400366,
+  "gameId": "bgg-400366",
+  "rank": 222,
+  "name": "Wondrous Creatures",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 9609,
+  "gameId": "bgg-9609",
+  "rank": 223,
+  "name": "War of the Ring",
+  "reason": "雙人陣營遊戲,以達成勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 342070,
+  "gameId": "bgg-342070",
+  "rank": 224,
+  "name": "Thunder Road: Vendetta",
+  "reason": "競速對戰遊戲,以最後生還定勝負,無累加計分"
+ },
+ {
+  "bggId": 256680,
+  "gameId": "bgg-256680",
+  "rank": 229,
+  "name": "Return to Dark Tower",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 104162,
+  "gameId": "bgg-104162",
+  "rank": 231,
+  "name": "Descent: Journeys in the Dark (Second Edition)",
+  "reason": "合作制戰役遊戲(對抗守關者),無玩家累加計分"
+ },
+ {
+  "bggId": 39463,
+  "gameId": "bgg-39463",
+  "rank": 232,
+  "name": "Cosmic Encounter",
+  "reason": "以取得指定數量外星殖民地定勝負,無累加計分"
+ },
+ {
+  "bggId": 375459,
+  "gameId": "bgg-375459",
+  "rank": 233,
+  "name": "Speakeasy",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 300531,
+  "gameId": "bgg-300531",
+  "rank": 235,
+  "name": "Paleo",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 128882,
+  "gameId": "bgg-128882",
+  "rank": 238,
+  "name": "The Resistance: Avalon",
+  "reason": "社交推理遊戲,以任務成敗定勝負,無累加計分"
+ },
+ {
+  "bggId": 103343,
+  "gameId": "bgg-103343",
+  "rank": 239,
+  "name": "A Game of Thrones: The Board Game (Second Edition)",
+  "reason": "區域控制遊戲,以佔領城堡數定勝負,無累加計分"
+ },
+ {
+  "bggId": 367150,
+  "gameId": "bgg-367150",
+  "rank": 241,
+  "name": "Dune: War for Arrakis",
+  "reason": "雙人不對稱陣營遊戲,以達成勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 282524,
+  "gameId": "bgg-282524",
+  "rank": 246,
+  "name": "Horrified",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 171131,
+  "gameId": "bgg-171131",
+  "rank": 248,
+  "name": "Captain Sonar",
+  "reason": "隊制即時對戰遊戲,以擊沉對手潛艇定勝負,無累加計分"
  }
 ]

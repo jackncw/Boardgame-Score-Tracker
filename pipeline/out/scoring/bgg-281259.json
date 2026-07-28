@@ -1,0 +1,69 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-281259",
+ "name": "The Isle of Cats",
+ "nameZh": "貓島",
+ "theme": {
+  "accent": "#4A8C8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "lessons",
+    "label": "課程卡",
+    "icon": "📘",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "families",
+    "label": "貓咪家族",
+    "icon": "🐈",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "treasures",
+    "label": "珍寶",
+    "icon": "💎",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "baskets",
+    "label": "籃子",
+    "icon": "🧺",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "empty",
+    "label": "船上空格",
+    "icon": "⬜",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "rats",
+    "label": "老鼠",
+    "icon": "🐀",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-244522",
+ "name": "That's Pretty Clever!",
+ "nameZh": "妙不可言",
+ "theme": {
+  "accent": "#7A5A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "yellow",
+    "label": "黃色區",
+    "icon": "🟨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "blue",
+    "label": "藍色區",
+    "icon": "🟦",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "green",
+    "label": "綠色區",
+    "icon": "🟩",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "orange",
+    "label": "橙色區",
+    "icon": "🟧",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "purple",
+    "label": "紫色區",
+    "icon": "🟪",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fox",
+    "label": "狐狸獎勵",
+    "note": "每隻狐狸 = 五區入面最低嗰區嘅分數",
+    "icon": "🦊",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-10630",
+ "name": "Memoir '44",
+ "nameZh": "回憶 '44",
+ "theme": {
+  "accent": "#5A6E4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "medals",
+    "label": "勳章",
+    "note": "每面勳章 1 分",
+    "icon": "🎖️",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

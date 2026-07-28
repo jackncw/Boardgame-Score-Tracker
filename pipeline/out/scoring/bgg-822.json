@@ -1,0 +1,59 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-822",
+ "name": "Carcassonne",
+ "nameZh": "卡卡頌",
+ "theme": {
+  "accent": "#8C7A4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中已得分數",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "roads",
+    "label": "終局:未完成道路",
+    "icon": "🛣️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cities",
+    "label": "終局:未完成城市",
+    "icon": "🏰",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cloisters",
+    "label": "終局:未完成修道院",
+    "icon": "⛪",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "farmers",
+    "label": "終局:農夫",
+    "icon": "🌾",
+    "color": "#ECF3D2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

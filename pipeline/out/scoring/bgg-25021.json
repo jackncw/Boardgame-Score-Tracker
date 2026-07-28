@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-25021",
+ "name": "Sekigahara: The Unification of Japan",
+ "nameZh": "關原之戰",
+ "theme": {
+  "accent": "#8C4A4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "locations",
+    "label": "佔領據點勝利點",
+    "icon": "🏯",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "blocks",
+    "label": "擊斃敵方部隊",
+    "icon": "⚔️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

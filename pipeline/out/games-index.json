@@ -2942,7 +2942,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "貓島",
+  "accent": "#4A8C8C"
  },
  {
   "bggId": 54043,
@@ -2955,7 +2957,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "齋浦爾",
+  "accent": "#C4913C"
  },
  {
   "bggId": 127023,
@@ -2968,7 +2972,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "凱美特",
+  "accent": "#B5654A"
  },
  {
   "bggId": 244522,
@@ -2981,7 +2987,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "妙不可言",
+  "accent": "#7A5A9B"
  },
  {
   "bggId": 265188,
@@ -2994,7 +3002,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "格倫摩爾 II",
+  "accent": "#5A7A5A"
  },
  {
   "bggId": 103885,
@@ -3033,7 +3043,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "馬可波羅 II:為汗效力",
+  "accent": "#9B6E3C"
  },
  {
   "bggId": 233398,
@@ -3046,7 +3058,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "遠航時代",
+  "accent": "#4A6E8C"
  },
  {
   "bggId": 350184,
@@ -3059,7 +3073,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "地球",
+  "accent": "#4E7A4E"
  },
  {
   "bggId": 283355,
@@ -3111,7 +3127,9 @@
   "minPlayers": 1,
   "maxPlayers": 100,
   "playTime": 25,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "歡迎來到...",
+  "accent": "#6E8C9B"
  },
  {
   "bggId": 332686,
@@ -3137,7 +3155,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 25,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "城堡連連睇",
+  "accent": "#8C6E4A"
  },
  {
   "bggId": 374173,
@@ -3163,7 +3183,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "草原",
+  "accent": "#5A8C5A"
  },
  {
   "bggId": 43111,
@@ -3176,7 +3198,9 @@
   "minPlayers": 3,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "舊世界的混沌",
+  "accent": "#7A3C3C"
  },
  {
   "bggId": 188920,
@@ -3202,7 +3226,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "現代藝術",
+  "accent": "#C4544A"
  },
  {
   "bggId": 400366,
@@ -3254,7 +3280,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "回憶 '44",
+  "accent": "#5A6E4A"
  },
  {
   "bggId": 227224,
@@ -3267,7 +3295,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 80,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "紅色大教堂",
+  "accent": "#B5443C"
  },
  {
   "bggId": 199561,
@@ -3280,7 +3310,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "彩窗玻璃",
+  "accent": "#5A6E9B"
  },
  {
   "bggId": 242302,
@@ -3293,7 +3325,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "太空基地",
+  "accent": "#4A5A8C"
  },
  {
   "bggId": 256680,
@@ -3319,7 +3353,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "文明衝突:紀念版",
+  "accent": "#7A6E4A"
  },
  {
   "bggId": 104162,
@@ -3371,7 +3407,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "關原之戰",
+  "accent": "#8C4A4A"
  },
  {
   "bggId": 300531,
@@ -3397,7 +3435,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "瘋狂國王的城堡",
+  "accent": "#7A5A9B"
  },
  {
   "bggId": 188,
@@ -3410,7 +3450,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "圍棋",
+  "accent": "#4A4A4A"
  },
  {
   "bggId": 128882,
@@ -3449,7 +3491,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "卡卡頌",
+  "accent": "#8C7A4A"
  },
  {
   "bggId": 367150,
@@ -3475,7 +3519,9 @@
   "minPlayers": 2,
   "maxPlayers": 3,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "鐵道任務:北歐",
+  "accent": "#3C5A7A"
  },
  {
   "bggId": 287954,
@@ -3488,7 +3534,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "花磚物語:夏宮",
+  "accent": "#4A8C9B"
  },
  {
   "bggId": 17133,
@@ -3501,7 +3549,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "世界鐵道",
+  "accent": "#5A5A5A"
  },
  {
   "bggId": 148228,
@@ -3514,7 +3564,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "璀璨寶石",
+  "accent": "#4A6FA5"
  },
  {
   "bggId": 282524,
@@ -3540,7 +3592,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "祈禱與工作",
+  "accent": "#6E7A5A"
  },
  {
   "bggId": 171131,
@@ -3566,7 +3620,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "村莊",
+  "accent": "#8C6E5A"
  },
  {
   "bggId": 269207,
@@ -3579,7 +3635,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "蒂芬塔爾的酒館",
+  "accent": "#8C5A3C"
  },
  {
   "bggId": 123260,

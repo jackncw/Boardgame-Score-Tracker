@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-233867",
+ "name": "Welcome To...",
+ "nameZh": "歡迎來到...",
+ "theme": {
+  "accent": "#6E8C9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "plans",
+    "label": "建築計劃卡",
+    "icon": "📐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "estates",
+    "label": "屋苑估值",
+    "icon": "🏘️",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "parks",
+    "label": "公園",
+    "icon": "🌳",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "pools",
+    "label": "泳池",
+    "note": "每個 3 分",
+    "icon": "🏊",
+    "color": "#D8EFEC",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "temp",
+    "label": "臨時工",
+    "icon": "👷",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bis",
+    "label": "Bis 重複屋",
+    "note": "每間 -1 分",
+    "icon": "🔁",
+    "color": "#F7E2CE",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "roundabout",
+    "label": "迴旋處",
+    "note": "每個 -3 分",
+    "icon": "🔄",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 3,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

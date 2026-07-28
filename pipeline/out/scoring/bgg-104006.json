@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-104006",
+ "name": "Village",
+ "nameZh": "村莊",
+ "theme": {
+  "accent": "#8C6E5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "chronicle",
+    "label": "村莊史冊",
+    "icon": "📖",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "travel",
+    "label": "旅行",
+    "icon": "🧭",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "church",
+    "label": "教堂",
+    "icon": "⛪",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "market",
+    "label": "市場",
+    "icon": "🛒",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "council",
+    "label": "議會",
+    "icon": "🏛️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "crafts",
+    "label": "手工藝",
+    "icon": "🔨",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftover",
+    "label": "剩餘金錢與穀物",
+    "icon": "🌾",
+    "color": "#ECF3D2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
