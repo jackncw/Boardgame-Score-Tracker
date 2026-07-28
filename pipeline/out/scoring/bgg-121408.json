@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-121408",
+ "name": "Trains",
+ "nameZh": "列車",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "卡牌分數",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rails",
+    "label": "車站與路軌",
+    "icon": "🛤️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "waste",
+    "label": "廢物卡",
+    "icon": "🗑️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

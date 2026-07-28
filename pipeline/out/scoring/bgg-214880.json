@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-214880",
+ "name": "Chicago 1875: City of the Big Shoulders",
+ "nameZh": "芝加哥 1875",
+ "theme": {
+  "accent": "#5A5A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "assets",
+    "label": "最終資產總值",
+    "note": "現金加持股價值",
+    "icon": "💵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

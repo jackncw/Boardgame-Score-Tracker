@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-296912",
+ "name": "Fort",
+ "nameZh": "堡壘",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "fort",
+    "label": "城堡等級",
+    "icon": "🏰",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "perks",
+    "label": "特權與朋友卡",
+    "icon": "🧒",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "stuff",
+    "label": "披薩與玩具",
+    "icon": "🍕",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

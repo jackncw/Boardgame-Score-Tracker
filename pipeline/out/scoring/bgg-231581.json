@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-231581",
+ "name": "AuZtralia",
+ "nameZh": "澳仔大陸",
+ "theme": {
+  "accent": "#B5754A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "farms",
+    "label": "農場與鐵路",
+    "icon": "🚜",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "monsters",
+    "label": "已擊敗古神",
+    "icon": "🐙",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "penalty",
+    "label": "扣分",
+    "icon": "➖",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

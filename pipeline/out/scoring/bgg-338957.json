@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-338957",
+ "name": "Caesar!: Seize Rome in 20 Minutes!",
+ "nameZh": "凱撒!",
+ "theme": {
+  "accent": "#B5443C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "regions",
+    "label": "各區域勝利點",
+    "icon": "🗺️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

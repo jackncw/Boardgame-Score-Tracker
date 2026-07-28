@@ -2280,5 +2280,411 @@
   "rank": 800,
   "name": "Magic Maze",
   "reason": "合作制即時遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 233247,
+  "gameId": "bgg-233247",
+  "rank": 802,
+  "name": "Civilization: A New Dawn",
+  "reason": "以最先完成指定數量目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 3685,
+  "gameId": "bgg-3685",
+  "rank": 803,
+  "name": "Hammer of the Scots",
+  "reason": "雙人戰棋,以佔領區域定勝負,無累加計分"
+ },
+ {
+  "bggId": 174785,
+  "gameId": "bgg-174785",
+  "rank": 804,
+  "name": "Mare Nostrum: Empires",
+  "reason": "以建成奇觀或英雄定勝負,無累加計分"
+ },
+ {
+  "bggId": 373600,
+  "gameId": "bgg-373600",
+  "rank": 805,
+  "name": "Cthulhu: Death May Die – Fear of the Unknown",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 300300,
+  "gameId": "bgg-300300",
+  "rank": 806,
+  "name": "Chronicles of Crime: 1400",
+  "reason": "合作制解謎遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 169255,
+  "gameId": "bgg-169255",
+  "rank": 807,
+  "name": "A Game of Thrones: The Card Game (Second Edition)",
+  "reason": "雙人對戰卡牌遊戲,以搶奪權力點定勝負,無累加計分"
+ },
+ {
+  "bggId": 3201,
+  "gameId": "bgg-3201",
+  "rank": 808,
+  "name": "Lord of the Rings: The Confrontation",
+  "reason": "雙人對戰,以攻陷對手據點定勝負,無累加計分"
+ },
+ {
+  "bggId": 300905,
+  "gameId": "bgg-300905",
+  "rank": 810,
+  "name": "Top Ten",
+  "reason": "合作制派對遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 358737,
+  "gameId": "bgg-358737",
+  "rank": 811,
+  "name": "Leviathan Wilds",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 271518,
+  "gameId": "bgg-271518",
+  "rank": 812,
+  "name": "Disney Villainous: Wicked to the Core",
+  "reason": "以最先完成個人目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 21763,
+  "gameId": "bgg-21763",
+  "rank": 813,
+  "name": "Mr. Jack",
+  "reason": "雙人推理遊戲,以捉到/逃脫定勝負,無累加計分"
+ },
+ {
+  "bggId": 205359,
+  "gameId": "bgg-205359",
+  "rank": 815,
+  "name": "Star Wars: Destiny",
+  "reason": "集換式卡牌對戰,以擊倒對手角色定勝負,無累加計分"
+ },
+ {
+  "bggId": 163166,
+  "gameId": "bgg-163166",
+  "rank": 820,
+  "name": "One Night Ultimate Werewolf: Daybreak",
+  "reason": "社交推理遊戲,以陣營達成條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 420498,
+  "gameId": "bgg-420498",
+  "rank": 821,
+  "name": "Unstoppable",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 29603,
+  "gameId": "bgg-29603",
+  "rank": 824,
+  "name": "D-Day at Omaha Beach",
+  "reason": "單人戰棋,無玩家累加計分"
+ },
+ {
+  "bggId": 267609,
+  "gameId": "bgg-267609",
+  "rank": 825,
+  "name": "Guards of Atlantis II",
+  "reason": "隊制對戰遊戲,以摧毀對手基地定勝負,無累加計分"
+ },
+ {
+  "bggId": 303731,
+  "gameId": "bgg-303731",
+  "rank": 826,
+  "name": "Primal: The Awakening",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 279613,
+  "gameId": "bgg-279613",
+  "rank": 828,
+  "name": "Unlock!: Timeless Adventures",
+  "reason": "密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表"
+ },
+ {
+  "bggId": 132018,
+  "gameId": "bgg-132018",
+  "rank": 829,
+  "name": "Churchill",
+  "reason": "三人陣營戰棋,以陣營勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 358320,
+  "gameId": "bgg-358320",
+  "rank": 831,
+  "name": "Sleeping Gods: Distant Skies",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 212445,
+  "gameId": "bgg-212445",
+  "rank": 833,
+  "name": "Blood Bowl (2016 Edition)",
+  "reason": "球賽對戰遊戲,以入球數定勝負,無累加計分"
+ },
+ {
+  "bggId": 193558,
+  "gameId": "bgg-193558",
+  "rank": 835,
+  "name": "The Oracle of Delphi",
+  "reason": "競速遊戲,以最先完成所有任務定勝負,無累加計分"
+ },
+ {
+  "bggId": 113294,
+  "gameId": "bgg-113294",
+  "rank": 838,
+  "name": "Escape: The Curse of the Temple",
+  "reason": "合作制即時遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 254708,
+  "gameId": "bgg-254708",
+  "rank": 839,
+  "name": "Roll Player Adventures",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 242639,
+  "gameId": "bgg-242639",
+  "rank": 841,
+  "name": "Treasure Island",
+  "reason": "一對多推理遊戲,以搵到寶藏定勝負,無累加計分"
+ },
+ {
+  "bggId": 220517,
+  "gameId": "bgg-220517",
+  "rank": 842,
+  "name": "The Shipwreck Arcana",
+  "reason": "合作制推理遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 352418,
+  "gameId": "bgg-352418",
+  "rank": 844,
+  "name": "Fliptown",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 1513,
+  "gameId": "bgg-1513",
+  "rank": 845,
+  "name": "The Republic of Rome",
+  "reason": "半合作制遊戲,以共同存亡加個人聲望判定,無統一累加計分"
+ },
+ {
+  "bggId": 148729,
+  "gameId": "bgg-148729",
+  "rank": 847,
+  "name": "Maquis",
+  "reason": "單人遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 301255,
+  "gameId": "bgg-301255",
+  "rank": 849,
+  "name": "Whistle Mountain",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 284760,
+  "gameId": "bgg-284760",
+  "rank": 852,
+  "name": "Disney Villainous: Evil Comes Prepared",
+  "reason": "以最先完成個人目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 331787,
+  "gameId": "bgg-331787",
+  "rank": 854,
+  "name": "Tiny Epic Dungeons",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 393429,
+  "gameId": "bgg-393429",
+  "rank": 856,
+  "name": "Critter Kitchen",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 71721,
+  "gameId": "bgg-71721",
+  "rank": 858,
+  "name": "Space Hulk: Death Angel – The Card Game",
+  "reason": "合作制卡牌遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 198953,
+  "gameId": "bgg-198953",
+  "rank": 860,
+  "name": "Pax Renaissance",
+  "reason": "以達成陣營勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 58281,
+  "gameId": "bgg-58281",
+  "rank": 861,
+  "name": "Summoner Wars",
+  "reason": "雙人對戰,以擊倒對手召喚師定勝負,無累加計分"
+ },
+ {
+  "bggId": 167400,
+  "gameId": "bgg-167400",
+  "rank": 862,
+  "name": "Ashes Reborn: Rise of the Phoenixborn",
+  "reason": "雙人對戰,以擊倒對手定勝負,無累加計分"
+ },
+ {
+  "bggId": 156336,
+  "gameId": "bgg-156336",
+  "rank": 865,
+  "name": "Onirim (Second Edition)",
+  "reason": "單人遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 244608,
+  "gameId": "bgg-244608",
+  "rank": 866,
+  "name": "Menara",
+  "reason": "合作制疊塔遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 299169,
+  "gameId": "bgg-299169",
+  "rank": 868,
+  "name": "Spicy",
+  "reason": "唬人卡牌遊戲,以最先出晒牌定勝負,無累加計分"
+ },
+ {
+  "bggId": 385331,
+  "gameId": "bgg-385331",
+  "rank": 871,
+  "name": "Creature Caravan",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 351817,
+  "gameId": "bgg-351817",
+  "rank": 872,
+  "name": "Marvel Zombies: A Zombicide Game",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 45,
+  "gameId": "bgg-45",
+  "rank": 874,
+  "name": "Perudo",
+  "reason": "骰子唬人遊戲,以淘汰對手定勝負,無累加計分"
+ },
+ {
+  "bggId": 238799,
+  "gameId": "bgg-238799",
+  "rank": 876,
+  "name": "Messina 1347",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 393325,
+  "gameId": "bgg-393325",
+  "rank": 877,
+  "name": "Captain Flip",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 280480,
+  "gameId": "bgg-280480",
+  "rank": 878,
+  "name": "Crystal Palace",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 407297,
+  "gameId": "bgg-407297",
+  "rank": 879,
+  "name": "River Valley Glassworks",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 257501,
+  "gameId": "bgg-257501",
+  "rank": 882,
+  "name": "KeyForge: Call of the Archons",
+  "reason": "以搶先鑄成三把鑰匙定勝負,無累加計分"
+ },
+ {
+  "bggId": 183562,
+  "gameId": "bgg-183562",
+  "rank": 883,
+  "name": "Star Wars: X-Wing Miniatures Game – The Force Awakens Core Set",
+  "reason": "微縮模型對戰遊戲,以擊毀對手艦隊定勝負,無累加計分"
+ },
+ {
+  "bggId": 165401,
+  "gameId": "bgg-165401",
+  "rank": 886,
+  "name": "Wir sind das Volk!",
+  "reason": "雙人戰棋,以陣營勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 483,
+  "gameId": "bgg-483",
+  "rank": 888,
+  "name": "Diplomacy",
+  "reason": "以佔領補給中心定勝負,無累加計分"
+ },
+ {
+  "bggId": 143741,
+  "gameId": "bgg-143741",
+  "rank": 890,
+  "name": "BANG! The Dice Game",
+  "reason": "以隱藏身分陣營成敗定勝負,無累加計分"
+ },
+ {
+  "bggId": 393672,
+  "gameId": "bgg-393672",
+  "rank": 891,
+  "name": "Gloomhaven: Buttons & Bugs",
+  "reason": "單人戰役制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 342444,
+  "gameId": "bgg-342444",
+  "rank": 893,
+  "name": "Black Rose Wars: Rebirth",
+  "reason": "PvP 法師對戰,以擊倒對手定勝負,無累加計分"
+ },
+ {
+  "bggId": 203416,
+  "gameId": "bgg-203416",
+  "rank": 894,
+  "name": "EXIT: The Game – The Pharaoh's Tomb",
+  "reason": "密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表"
+ },
+ {
+  "bggId": 372559,
+  "gameId": "bgg-372559",
+  "rank": 896,
+  "name": "Spots",
+  "reason": "以最先儲齊 6 隻狗定勝負,無累加計分"
+ },
+ {
+  "bggId": 20963,
+  "gameId": "bgg-20963",
+  "rank": 899,
+  "name": "Fury of Dracula (Second Edition)",
+  "reason": "一對多追捕遊戲,以捉到/逃脫定勝負,無累加計分"
+ },
+ {
+  "bggId": 382843,
+  "gameId": "bgg-382843",
+  "rank": 900,
+  "name": "Evacuation",
+  "reason": "規則細節不足以確定計分項,避免老作"
  }
 ]

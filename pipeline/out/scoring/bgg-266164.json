@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-266164",
+ "name": "Babylonia",
+ "nameZh": "巴比倫尼亞",
+ "theme": {
+  "accent": "#B5754A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cities",
+    "label": "城市與神廟得分",
+    "icon": "🏛️",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "farms",
+    "label": "農田",
+    "icon": "🌾",
+    "color": "#ECF3D2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "其他加分",
+    "icon": "✨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

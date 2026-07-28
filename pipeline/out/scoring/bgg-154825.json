@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-154825",
+ "name": "Arkwright",
+ "nameZh": "阿克萊特",
+ "theme": {
+  "accent": "#5A5A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "shares",
+    "label": "持股總價值",
+    "note": "股數 × 股價",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

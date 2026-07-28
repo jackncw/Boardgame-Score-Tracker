@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-256788",
+ "name": "Detective Club",
+ "nameZh": "偵探俱樂部",
+ "theme": {
+  "accent": "#7A5A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "rounds",
+    "label": "各回合得分累計",
+    "icon": "🕵️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-241590",
+ "name": "Smart10",
+ "nameZh": "智多 10",
+ "theme": {
+  "accent": "#5A7A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "points",
+    "label": "答對得分",
+    "icon": "🧠",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

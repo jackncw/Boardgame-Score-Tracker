@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-223770",
+ "name": "Startups",
+ "nameZh": "初創公司",
+ "theme": {
+  "accent": "#4A7A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "rounds",
+    "label": "各回合收益累計",
+    "icon": "💵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

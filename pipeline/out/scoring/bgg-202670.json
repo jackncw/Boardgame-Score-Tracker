@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-202670",
+ "name": "Ticket to Ride: Rails & Sails",
+ "nameZh": "鐵道任務:鐵路與航線",
+ "theme": {
+  "accent": "#3C6E7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "routes",
+    "label": "已建成路線分數",
+    "icon": "🚂",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tickets_done",
+    "label": "已完成車票",
+    "icon": "🎫",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tickets_fail",
+    "label": "未完成車票",
+    "icon": "❌",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "harbors",
+    "label": "港口獎勵",
+    "icon": "⚓",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

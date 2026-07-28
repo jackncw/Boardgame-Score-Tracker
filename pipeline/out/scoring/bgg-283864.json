@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-283864",
+ "name": "Trails of Tucana",
+ "nameZh": "圖卡納小徑",
+ "theme": {
+  "accent": "#5A8C6E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cities",
+    "label": "已連接城市",
+    "icon": "🏘️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "hidden",
+    "label": "隱藏路線",
+    "icon": "🗺️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

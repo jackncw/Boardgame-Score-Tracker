@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-249381",
+ "name": "The Estates",
+ "nameZh": "地產",
+ "theme": {
+  "accent": "#8C6E5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "completed",
+    "label": "已完成行嘅建築分數",
+    "icon": "🏢",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "incomplete",
+    "label": "未完成行扣分",
+    "icon": "🚧",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "cash",
+    "label": "剩餘現金",
+    "icon": "💵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
