@@ -1,0 +1,59 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-229853",
+ "name": "Teotihuacan: City of Gods",
+ "nameZh": "眾神之城:特奧蒂瓦坎",
+ "theme": {
+  "accent": "#C97B3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中累積分數",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "pyramid",
+    "label": "金字塔裝飾磚",
+    "icon": "🔺",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "temples",
+    "label": "三條神廟軌",
+    "icon": "⛩️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "masks",
+    "label": "面具收藏",
+    "icon": "🎭",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftover",
+    "label": "剩餘資源(可可等)",
+    "icon": "🍫",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

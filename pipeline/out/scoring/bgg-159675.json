@@ -1,0 +1,76 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-159675",
+ "name": "Fields of Arle",
+ "nameZh": "阿爾勒的田野",
+ "theme": {
+  "accent": "#7A9A4E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "animals",
+    "label": "牲畜(綿羊/牛/馬)",
+    "icon": "🐄",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "icon": "🏠",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "vehicles",
+    "label": "車輛與工具",
+    "icon": "🛒",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goods",
+    "label": "商品與衣物",
+    "icon": "🧵",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fields",
+    "label": "已開發地格與林地",
+    "icon": "🌾",
+    "color": "#ECF3D2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "旅程與其他加分",
+    "icon": "🧭",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "penalty",
+    "label": "未開發地格等扣分",
+    "icon": "➖",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-72125",
+ "name": "Eclipse: New Dawn for the Galaxy",
+ "nameZh": "帝國:銀河新曙光",
+ "theme": {
+  "accent": "#3C4A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "hexes",
+    "label": "控制星域",
+    "note": "每塊控制中星域上印嘅 VP",
+    "icon": "🌌",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "reputation",
+    "label": "聲望磚",
+    "icon": "🎖️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ambassador",
+    "label": "大使",
+    "note": "每個 1 分",
+    "icon": "🤝",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "discovery",
+    "label": "保留嘅發現磚",
+    "note": "面朝下保留 = 2 分",
+    "icon": "🔭",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "tech",
+    "label": "科技軌分數",
+    "icon": "🔬",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "traitor",
+    "label": "叛徒卡",
+    "icon": "🗡️",
+    "color": "#F7DCDC",
+    "input": "bonus",
+    "value": -2
+   },
+   {
+    "id": "species",
+    "label": "種族與其他加減分",
+    "icon": "👽",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

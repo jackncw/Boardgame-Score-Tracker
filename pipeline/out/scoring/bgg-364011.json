@@ -1,0 +1,84 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-364011",
+ "name": "Great Western Trail: Argentina",
+ "nameZh": "大西部之路:阿根廷",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "icon": "🏠",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cattle",
+    "label": "牛隻卡",
+    "icon": "🐄",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "目標卡",
+    "icon": "🎯",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "stations",
+    "label": "車站主標記",
+    "icon": "🚉",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cities",
+    "label": "已送達城市",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "workers",
+    "label": "工人與其他板塊",
+    "icon": "👷",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "剩餘金錢",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "penalty",
+    "label": "危險磚與扣分",
+    "icon": "⚠️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-196340",
+ "name": "Yokohama",
+ "nameZh": "橫濱",
+ "theme": {
+  "accent": "#4A6E8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "orders",
+    "label": "訂單卡",
+    "icon": "📋",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tech",
+    "label": "技術卡",
+    "icon": "⚙️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "houses",
+    "label": "商館與據點",
+    "icon": "🏬",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "foreign",
+    "label": "外國貿易",
+    "icon": "🚢",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "achievement",
+    "label": "成就磚",
+    "icon": "🏅",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "剩餘金錢",
+    "icon": "🪙",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

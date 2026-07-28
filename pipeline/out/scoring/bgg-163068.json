@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-163068",
+ "name": "Trickerion: Legends of Illusion",
+ "nameZh": "魔術師的傳說",
+ "theme": {
+  "accent": "#7A3C5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "fame",
+    "label": "名望軌累積分數",
+    "icon": "🎩",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "endbonus",
+    "label": "終局結算加分",
+    "icon": "✨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

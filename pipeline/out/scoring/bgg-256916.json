@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-256916",
+ "name": "Concordia Venus",
+ "nameZh": "康考迪亞:維納斯",
+ "theme": {
+  "accent": "#9B4A3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vesta",
+    "label": "灶神 Vesta",
+    "note": "金錢同剩餘貨物換算",
+    "icon": "🏺",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "jupiter",
+    "label": "朱庇特 Jupiter",
+    "note": "非磚廠城市嘅房屋",
+    "icon": "⚡",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "saturnus",
+    "label": "農神 Saturnus",
+    "note": "有房屋嘅行省",
+    "icon": "🌾",
+    "color": "#ECF3D2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mercurius",
+    "label": "墨丘利 Mercurius",
+    "note": "生產緊嘅貨物種類",
+    "icon": "⚗️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mars",
+    "label": "戰神 Mars",
+    "note": "殖民者數量",
+    "icon": "⚔️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "minerva",
+    "label": "智慧女神 Minerva",
+    "note": "指定貨物嘅城市",
+    "icon": "🦉",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "concordia",
+    "label": "和諧女神卡",
+    "note": "最先買走 Concordia 卡",
+    "icon": "🕊️",
+    "color": "#F0E4D5",
+    "input": "bonus",
+    "value": 7
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

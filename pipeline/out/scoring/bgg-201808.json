@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-201808",
+ "name": "Clank!: A Deck-Building Adventure",
+ "nameZh": "克朗克!地城尋寶",
+ "theme": {
+  "accent": "#3F7A6D"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "牌庫卡牌分數",
+    "note": "所有卡上嘅 VP 圖示總和",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gold",
+    "label": "金幣",
+    "note": "每 1 金幣 = 1 分",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "artifacts",
+    "label": "神器",
+    "note": "每件神器上印住嘅分數",
+    "icon": "🏺",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "treasures",
+    "label": "寶物與密寶",
+    "note": "猴神像、皇冠、密卷等",
+    "icon": "💎",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mastery",
+    "label": "精通指示物",
+    "note": "要成功返到地面先計",
+    "icon": "👑",
+    "color": "#F7E2CE",
+    "input": "bonus",
+    "value": 20
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

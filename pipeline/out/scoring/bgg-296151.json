@@ -1,0 +1,68 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-296151",
+ "name": "Viscounts of the West Kingdom",
+ "nameZh": "西方王國子爵",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "icon": "🏠",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "castle",
+    "label": "城堡",
+    "icon": "🏰",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "manuscripts",
+    "label": "圖書館手稿",
+    "icon": "📜",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "deck",
+    "label": "牌庫卡牌分數",
+    "icon": "🃏",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "silver",
+    "label": "剩餘銀幣與資源",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "debt",
+    "label": "債務",
+    "icon": "💸",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

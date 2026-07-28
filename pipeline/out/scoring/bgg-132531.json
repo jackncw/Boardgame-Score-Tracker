@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-132531",
+ "name": "Roll for the Galaxy",
+ "nameZh": "銀河骰城",
+ "theme": {
+  "accent": "#5A4A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tiles",
+    "label": "已建設板塊分數",
+    "icon": "🪐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "chips",
+    "label": "VP 籌碼",
+    "icon": "🔵",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "endbonus",
+    "label": "板塊終局加分",
+    "icon": "✨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

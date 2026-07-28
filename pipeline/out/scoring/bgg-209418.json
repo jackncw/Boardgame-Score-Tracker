@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-209418",
+ "name": "Dominion: Second Edition",
+ "nameZh": "多米諾:第二版",
+ "theme": {
+  "accent": "#6E8B9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "回合數少者勝",
+  "fields": [
+   {
+    "id": "estate",
+    "label": "莊園 Estate",
+    "note": "每張 1 分",
+    "icon": "🏡",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "duchy",
+    "label": "公國 Duchy",
+    "note": "每張 3 分",
+    "icon": "🏘️",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "province",
+    "label": "行省 Province",
+    "note": "每張 6 分",
+    "icon": "🏰",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 6
+   },
+   {
+    "id": "curse",
+    "label": "詛咒 Curse",
+    "note": "每張 -1 分",
+    "icon": "💀",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "other",
+    "label": "其他勝利點卡",
+    "note": "花園等按牌庫張數計嘅卡",
+    "icon": "🃏",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-291453",
+ "name": "SCOUT",
+ "nameZh": "偵察",
+ "theme": {
+  "accent": "#D4574E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "captured",
+    "label": "捕獲卡牌與偵察標記",
+    "icon": "🎪",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "hand",
+    "label": "手上剩餘卡牌",
+    "note": "回合結束時仲喺手上嘅卡",
+    "icon": "🃏",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

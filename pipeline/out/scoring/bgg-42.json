@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-42",
+ "name": "Tigris & Euphrates",
+ "nameZh": "底格里斯與幼發拉底",
+ "theme": {
+  "accent": "#B5651D"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "得分(四色勝利點中最少嗰色)",
+    "note": "珍寶可以當任何顏色補足",
+    "icon": "🏛️",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

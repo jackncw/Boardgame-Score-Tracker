@@ -1,0 +1,68 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-102680",
+ "name": "Trajan",
+ "nameZh": "圖拉真",
+ "theme": {
+  "accent": "#9B7A4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中累積分數",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "military",
+    "label": "軍事區域",
+    "icon": "⚔️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "senate",
+    "label": "元老院",
+    "icon": "🏛️",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "construction",
+    "label": "建設區",
+    "icon": "🏗️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "trajan",
+    "label": "圖拉真磚",
+    "icon": "🎖️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "demands",
+    "label": "未滿足嘅民眾需求",
+    "icon": "😠",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

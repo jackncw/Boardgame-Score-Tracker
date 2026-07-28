@@ -1,0 +1,77 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-68448",
+ "name": "7 Wonders",
+ "nameZh": "七大奇蹟",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "military",
+    "label": "軍事衝突",
+    "note": "勝利標記減失敗標記",
+    "icon": "⚔️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "coins",
+    "label": "金幣",
+    "note": "每 3 個金幣 1 分",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "wonder",
+    "label": "奇蹟階段",
+    "icon": "🏗️",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "civil",
+    "label": "藍色 民用建築",
+    "icon": "🔵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "commercial",
+    "label": "黃色 商業建築",
+    "icon": "🟡",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "science",
+    "label": "綠色 科學建築",
+    "icon": "🔬",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "guild",
+    "label": "紫色 公會",
+    "icon": "🟣",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

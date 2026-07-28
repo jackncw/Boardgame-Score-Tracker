@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-122515",
+ "name": "Keyflower",
+ "nameZh": "基花村",
+ "theme": {
+  "accent": "#6E8B5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tiles",
+    "label": "村莊板塊分數",
+    "icon": "🏘️",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "winter",
+    "label": "冬季板塊結算",
+    "icon": "❄️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "skills",
+    "label": "技能磚",
+    "icon": "🧰",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftover",
+    "label": "剩餘工人與資源",
+    "icon": "🧑‍🌾",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

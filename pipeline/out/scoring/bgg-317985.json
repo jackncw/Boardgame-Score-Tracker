@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-317985",
+ "name": "Beyond the Sun",
+ "nameZh": "越過太陽",
+ "theme": {
+  "accent": "#5A4E8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "achievements",
+    "label": "已達成成就",
+    "icon": "🏅",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "systems",
+    "label": "控制嘅星系",
+    "icon": "🪐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tech",
+    "label": "科技等級分數",
+    "icon": "🔬",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "事件與其他加分",
+    "icon": "✨",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

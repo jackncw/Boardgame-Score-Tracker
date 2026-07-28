@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-43015",
+ "name": "Hansa Teutonica",
+ "nameZh": "漢薩同盟",
+ "theme": {
+  "accent": "#8C5A4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中累積分數",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "network",
+    "label": "城市網絡結算",
+    "icon": "🕸️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "control",
+    "label": "控制中嘅城市",
+    "icon": "🏙️",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "其他終局加分",
+    "icon": "✨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

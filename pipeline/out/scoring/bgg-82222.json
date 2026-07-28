@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-82222",
+ "name": "Xia: Legends of a Drift System",
+ "nameZh": "夏亞:漂流星系傳奇",
+ "theme": {
+  "accent": "#4A5A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "missions",
+    "label": "已完成任務",
+    "icon": "📋",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "exploration",
+    "label": "探索與發現",
+    "icon": "🔭",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "titles",
+    "label": "頭銜",
+    "icon": "🏅",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "其他名望",
+    "icon": "⭐",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-391163",
+ "name": "Forest Shuffle",
+ "nameZh": "森林洗牌",
+ "theme": {
+  "accent": "#4E7A4E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "trees",
+    "label": "樹木卡",
+    "icon": "🌳",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "animals",
+    "label": "動物卡",
+    "icon": "🦊",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "plants",
+    "label": "植物、菌類與昆蟲卡",
+    "icon": "🍄",
+    "color": "#ECF3D2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cave",
+    "label": "洞穴卡與其他加分",
+    "icon": "🕳️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

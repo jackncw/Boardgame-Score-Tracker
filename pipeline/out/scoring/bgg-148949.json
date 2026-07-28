@@ -1,0 +1,36 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-148949",
+ "name": "Istanbul",
+ "nameZh": "伊斯坦堡",
+ "theme": {
+  "accent": "#B5654A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "rubies",
+    "label": "紅寶石",
+    "note": "每粒 1 分",
+    "icon": "💎",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "misc",
+    "label": "其他加分",
+    "icon": "✨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

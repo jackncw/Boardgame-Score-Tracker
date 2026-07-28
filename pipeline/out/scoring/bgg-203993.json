@@ -1,0 +1,67 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-203993",
+ "name": "Lorenzo il Magnifico",
+ "nameZh": "偉大的羅倫佐",
+ "theme": {
+  "accent": "#7A4A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "建築卡",
+    "icon": "🏛️",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "characters",
+    "label": "角色卡",
+    "icon": "👤",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ventures",
+    "label": "事業卡",
+    "icon": "⚓",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "territories",
+    "label": "領地卡(軍事軌結算)",
+    "icon": "🌾",
+    "color": "#ECF3D2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "faith",
+    "label": "信仰軌",
+    "icon": "✝️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源與金錢",
+    "icon": "🪙",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-170042",
+ "name": "Raiders of the North Sea",
+ "nameZh": "北海劫掠者",
+ "theme": {
+  "accent": "#4A6E8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "raids",
+    "label": "掠奪板塊",
+    "icon": "🛡️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "plunder",
+    "label": "戰利品(黃金/鐵/牲畜)",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "valkyrie",
+    "label": "女武神軌",
+    "icon": "🕊️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "armour",
+    "label": "盔甲與裝備",
+    "icon": "⚔️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "offerings",
+    "label": "貢品與其他加分",
+    "icon": "🎁",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

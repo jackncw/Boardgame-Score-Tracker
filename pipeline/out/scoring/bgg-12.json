@@ -1,0 +1,70 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-12",
+ "name": "Ra",
+ "nameZh": "拉",
+ "theme": {
+  "accent": "#D9A441"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "pharaoh",
+    "label": "法老王(最多 +5 / 最少 -2)",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "nile",
+    "label": "尼羅河與氾濫",
+    "icon": "🌊",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "civ",
+    "label": "文明磚",
+    "note": "一種都冇要扣分,種類多有加分",
+    "icon": "🏺",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "gold",
+    "label": "黃金磚",
+    "note": "每塊 3 分",
+    "icon": "🪙",
+    "color": "#F7E2CE",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "monument",
+    "label": "紀念碑",
+    "note": "終局按種類同數量結算",
+    "icon": "🗿",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "sun",
+    "label": "終局太陽磚(最高 +5 / 最低 -5)",
+    "icon": "☀️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

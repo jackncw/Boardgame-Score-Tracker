@@ -1,0 +1,77 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-236457",
+ "name": "Architects of the West Kingdom",
+ "nameZh": "西方王國建築師",
+ "theme": {
+  "accent": "#7A6A4E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "已建成建築物",
+    "icon": "🏗️",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cathedral",
+    "label": "大教堂貢獻",
+    "icon": "⛪",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "workshop",
+    "label": "工房與黑市",
+    "icon": "🛠️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "virtue",
+    "label": "德行軌",
+    "note": "高德行加分,低德行扣分",
+    "icon": "😇",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "debt",
+    "label": "債務",
+    "icon": "💸",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "captured",
+    "label": "俘虜嘅工人",
+    "icon": "🔒",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源與銀幣",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

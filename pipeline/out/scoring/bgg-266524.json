@@ -1,0 +1,59 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-266524",
+ "name": "Parks",
+ "nameZh": "國家公園",
+ "theme": {
+  "accent": "#4E7A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "parks",
+    "label": "公園卡",
+    "icon": "🏞️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "year",
+    "label": "年度目標卡",
+    "icon": "📅",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "photos",
+    "label": "照片標記",
+    "icon": "📷",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gear",
+    "label": "裝備與水壺",
+    "icon": "🎒",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftover",
+    "label": "剩餘資源",
+    "icon": "🍃",
+    "color": "#ECF3D2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

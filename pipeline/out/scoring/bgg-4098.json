@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-4098",
+ "name": "Age of Steam",
+ "nameZh": "蒸汽時代",
+ "theme": {
+  "accent": "#5A5A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "income",
+    "label": "收入結算",
+    "icon": "💵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "track_built",
+    "label": "已建路軌",
+    "icon": "🛤️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shares",
+    "label": "已發行股份",
+    "icon": "📉",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "misc",
+    "label": "其他加減分",
+    "icon": "➕",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

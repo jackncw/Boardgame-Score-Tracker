@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-189932",
+ "name": "Tyrants of the Underdark",
+ "nameZh": "幽暗地域的暴君",
+ "theme": {
+  "accent": "#5A3C6E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "troops",
+    "label": "場上士兵",
+    "icon": "🗡️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "sites",
+    "label": "控制中嘅據點",
+    "icon": "🏰",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "deck",
+    "label": "牌庫與內圈卡分數",
+    "icon": "🃏",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "其他加分",
+    "icon": "✨",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
