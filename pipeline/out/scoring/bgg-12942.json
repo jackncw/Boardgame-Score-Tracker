@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-12942",
+ "name": "No Thanks!",
+ "nameZh": "不用了,謝謝!",
+ "theme": {
+  "accent": "#6E7A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "卡牌數值總和",
+    "note": "連號只計最細嗰張",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "chips",
+    "label": "剩餘籌碼",
+    "note": "每個籌碼 -1 分",
+    "icon": "🔵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

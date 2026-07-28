@@ -1,0 +1,59 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-191862",
+ "name": "Imhotep",
+ "nameZh": "印和闐",
+ "theme": {
+  "accent": "#D9A441"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "pyramid",
+    "label": "金字塔",
+    "icon": "🔺",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "temple",
+    "label": "神廟",
+    "icon": "🛕",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "chamber",
+    "label": "墓室",
+    "icon": "⚰️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "obelisk",
+    "label": "方尖碑",
+    "icon": "🗼",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "market",
+    "label": "市場卡",
+    "icon": "🛒",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

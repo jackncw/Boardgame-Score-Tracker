@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-63628",
+ "name": "The Manhattan Project",
+ "nameZh": "曼哈頓計劃",
+ "theme": {
+  "accent": "#6E6E5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "bombs",
+    "label": "已投放炸彈分數",
+    "icon": "💣",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "建築物與其他加分",
+    "icon": "🏗️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

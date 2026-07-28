@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-62222",
+ "name": "Commands & Colors: Napoleonics",
+ "nameZh": "指揮與顏色:拿破崙戰爭",
+ "theme": {
+  "accent": "#5A5A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "banners",
+    "label": "勝利旗幟",
+    "note": "每面旗幟 1 分",
+    "icon": "🚩",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

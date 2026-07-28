@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-205398",
+ "name": "Citadels",
+ "nameZh": "富饒之城(2016 版)",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "districts",
+    "label": "區域建築成本總和",
+    "icon": "🏛️",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "first",
+    "label": "完成 8 區獎勵",
+    "note": "第一位 +4,其後每位 +2",
+    "icon": "🥇",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rainbow",
+    "label": "五種顏色齊全",
+    "icon": "🌈",
+    "color": "#EADCF0",
+    "input": "bonus",
+    "value": 3
+   },
+   {
+    "id": "special",
+    "label": "特殊建築加分",
+    "icon": "✨",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

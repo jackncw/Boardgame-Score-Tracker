@@ -1,0 +1,36 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-158899",
+ "name": "Colt Express",
+ "nameZh": "小蛇快跑",
+ "theme": {
+  "accent": "#C4543C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "loot",
+    "label": "戰利品金額",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gunman",
+    "label": "神槍手獎金",
+    "note": "開槍最多嗰位取得",
+    "icon": "🔫",
+    "color": "#F7DCDC",
+    "input": "bonus",
+    "value": 1000
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

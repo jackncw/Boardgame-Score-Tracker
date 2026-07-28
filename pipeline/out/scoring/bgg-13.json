@@ -1,0 +1,62 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-13",
+ "name": "Catan",
+ "nameZh": "卡坦島",
+ "theme": {
+  "accent": "#C4913C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "settlements",
+    "label": "村莊",
+    "note": "每個 1 分",
+    "icon": "🏠",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "cities",
+    "label": "城市",
+    "note": "每個 2 分",
+    "icon": "🏙️",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "road",
+    "label": "最長道路",
+    "icon": "🛣️",
+    "color": "#E8E8E8",
+    "input": "bonus",
+    "value": 2
+   },
+   {
+    "id": "army",
+    "label": "最大軍隊",
+    "icon": "⚔️",
+    "color": "#F7DCDC",
+    "input": "bonus",
+    "value": 2
+   },
+   {
+    "id": "vpcards",
+    "label": "發展卡勝利點",
+    "note": "每張 1 分",
+    "icon": "🃏",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

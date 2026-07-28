@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-194607",
+ "name": "Mystic Vale",
+ "nameZh": "神秘谷",
+ "theme": {
+  "accent": "#5A7A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "deck",
+    "label": "牌庫卡牌分數",
+    "icon": "🃏",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "vale",
+    "label": "谷地卡分數",
+    "icon": "🏞️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

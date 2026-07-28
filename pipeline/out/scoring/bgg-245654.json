@@ -1,0 +1,62 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-245654",
+ "name": "Railroad Ink: Deep Blue Edition",
+ "nameZh": "鐵路墨水:深藍版",
+ "theme": {
+  "accent": "#3C5A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "exits",
+    "label": "已連接出口分數",
+    "icon": "🚏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rail",
+    "label": "最長鐵路",
+    "icon": "🛤️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "road",
+    "label": "最長公路",
+    "icon": "🛣️",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "center",
+    "label": "中央九格",
+    "note": "每格 1 分",
+    "icon": "🎯",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "errors",
+    "label": "錯誤接口",
+    "note": "每個 -1 分",
+    "icon": "❌",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

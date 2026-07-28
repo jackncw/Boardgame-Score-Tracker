@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-232414",
+ "name": "Oceans",
+ "nameZh": "海洋",
+ "theme": {
+  "accent": "#4A8C9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "food",
+    "label": "已食食物",
+    "note": "每份 1 分",
+    "icon": "🍤",
+    "color": "#D8EFEC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "species",
+    "label": "存活物種嘅族群與體型",
+    "icon": "🐋",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "traits",
+    "label": "存活物種嘅特徵卡",
+    "icon": "🧬",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

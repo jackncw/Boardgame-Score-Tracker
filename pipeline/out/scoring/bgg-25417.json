@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-25417",
+ "name": "BattleLore",
+ "nameZh": "戰爭傳說",
+ "theme": {
+  "accent": "#7A4A4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "banners",
+    "label": "勝利旗幟",
+    "note": "每面旗幟 1 分",
+    "icon": "🚩",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
