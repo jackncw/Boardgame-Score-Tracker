@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-227789",
+ "name": "Heaven & Ale",
+ "nameZh": "天堂與麥酒",
+ "theme": {
+  "accent": "#8C7A4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "終局結算得分",
+    "note": "按最低原料值同酒桶位置換算",
+    "icon": "🍺",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

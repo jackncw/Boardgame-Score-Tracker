@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-357563",
+ "name": "Akropolis",
+ "nameZh": "衛城",
+ "theme": {
+  "accent": "#6E8C9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "districts",
+    "label": "各區域計分",
+    "note": "每區 = 板塊數 × 星星數",
+    "icon": "🏛️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "stones",
+    "label": "剩餘石頭",
+    "note": "每粒 1 分",
+    "icon": "🪨",
+    "color": "#E8E8E8",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

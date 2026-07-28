@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-336986",
+ "name": "Flamecraft",
+ "nameZh": "火焰工藝",
+ "theme": {
+  "accent": "#D4574E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "shops",
+    "label": "商店與升級",
+    "icon": "🏪",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "dragons",
+    "label": "已安置嘅龍",
+    "icon": "🐉",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goods",
+    "label": "剩餘商品與金幣",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

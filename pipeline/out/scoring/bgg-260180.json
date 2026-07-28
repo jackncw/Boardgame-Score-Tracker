@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-260180",
+ "name": "Project L",
+ "nameZh": "拼圖工程",
+ "theme": {
+  "accent": "#5A7A6E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "puzzles",
+    "label": "已完成拼圖分數",
+    "icon": "🧩",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

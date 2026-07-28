@@ -1,0 +1,36 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-70919",
+ "name": "Takenoko",
+ "nameZh": "竹取物語",
+ "theme": {
+  "accent": "#5A9B5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "objectives",
+    "label": "目標卡得分",
+    "icon": "🎯",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "emperor",
+    "label": "皇帝卡",
+    "note": "最先完成指定張數目標卡",
+    "icon": "👘",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 2
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-219513",
+ "name": "Bärenpark",
+ "nameZh": "熊貓公園・熊公園",
+ "theme": {
+  "accent": "#7A8C5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tiles",
+    "label": "板塊分數",
+    "icon": "🧩",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "parks",
+    "label": "完成園區獎勵",
+    "icon": "🏞️",
+    "color": "#ECF3D2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "statues",
+    "label": "雕像與成就",
+    "icon": "🗿",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-247367",
+ "name": "Air, Land, & Sea",
+ "nameZh": "陸海空",
+ "theme": {
+  "accent": "#5A6E7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "points",
+    "label": "各回合得分累計",
+    "icon": "🎖️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

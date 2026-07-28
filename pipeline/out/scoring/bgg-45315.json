@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-45315",
+ "name": "Dungeon Lords",
+ "nameZh": "地城領主",
+ "theme": {
+  "accent": "#6E5A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "dungeon",
+    "label": "地城評分",
+    "icon": "🏰",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "monsters",
+    "label": "怪物與陷阱",
+    "icon": "👹",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "captured",
+    "label": "已擒冒險者",
+    "icon": "🔒",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "penalty",
+    "label": "罰分",
+    "icon": "➖",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

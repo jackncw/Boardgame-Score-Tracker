@@ -5422,7 +5422,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "帝國霸權",
+  "accent": "#5A5A7A"
  },
  {
   "bggId": 345972,
@@ -5435,7 +5437,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "盒中之貓:豪華版",
+  "accent": "#7A5A9B"
  },
  {
   "bggId": 311988,
@@ -5474,7 +5478,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "地城寵物店",
+  "accent": "#7A5A4A"
  },
  {
   "bggId": 379078,
@@ -5487,7 +5493,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "遠征",
+  "accent": "#5A6E8C"
  },
  {
   "bggId": 2653,
@@ -5500,7 +5508,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "亞特蘭提斯大逃亡",
+  "accent": "#4A8C9B"
  },
  {
   "bggId": 260180,
@@ -5513,7 +5523,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "拼圖工程",
+  "accent": "#5A7A6E"
  },
  {
   "bggId": 47,
@@ -5526,7 +5538,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "唐人街",
+  "accent": "#C4543C"
  },
  {
   "bggId": 54,
@@ -5539,7 +5553,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "提卡爾",
+  "accent": "#6E8C5A"
  },
  {
   "bggId": 234277,
@@ -5552,7 +5568,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 100,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "努斯峽灣",
+  "accent": "#4A6E8C"
  },
  {
   "bggId": 38453,
@@ -5578,7 +5596,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "兔子王國",
+  "accent": "#6E9B5A"
  },
  {
   "bggId": 384213,
@@ -5604,7 +5624,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "世紀:香料之路",
+  "accent": "#B5754A"
  },
  {
   "bggId": 22545,
@@ -5617,7 +5639,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "帝國時代 III",
+  "accent": "#8C6E4A"
  },
  {
   "bggId": 408180,
@@ -5643,7 +5667,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "布魯日",
+  "accent": "#8C5A4A"
  },
  {
   "bggId": 143693,
@@ -5656,7 +5682,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 80,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "玻璃之路",
+  "accent": "#6E8C7A"
  },
  {
   "bggId": 202426,
@@ -5669,7 +5697,9 @@
   "minPlayers": 4,
   "maxPlayers": 9,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "星際協商",
+  "accent": "#4A5A8C"
  },
  {
   "bggId": 227789,
@@ -5682,7 +5712,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "天堂與麥酒",
+  "accent": "#8C7A4A"
  },
  {
   "bggId": 155873,
@@ -5695,7 +5727,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "電力公司:豪華版",
+  "accent": "#7A7A4A"
  },
  {
   "bggId": 163967,
@@ -5708,7 +5742,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "小小史詩:銀河",
+  "accent": "#5A4A8C"
  },
  {
   "bggId": 245655,
@@ -5734,7 +5770,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 80,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "斯基泰劫掠者",
+  "accent": "#7A6E4A"
  },
  {
   "bggId": 271601,
@@ -5760,7 +5798,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "帝國拓荒者",
+  "accent": "#8C6E5A"
  },
  {
   "bggId": 397385,
@@ -5773,7 +5813,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 100,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "馬拉開波海盜",
+  "accent": "#4A7A8C"
  },
  {
   "bggId": 336382,
@@ -5812,7 +5854,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "帝國霸權 2030",
+  "accent": "#5A5A7A"
  },
  {
   "bggId": 181279,
@@ -5838,7 +5882,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "火焰工藝",
+  "accent": "#D4574E"
  },
  {
   "bggId": 40692,
@@ -5851,7 +5897,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 80,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "小小世界",
+  "accent": "#6E9B5A"
  },
  {
   "bggId": 188866,
@@ -5903,7 +5951,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "熔爐",
+  "accent": "#8C5A3C"
  },
  {
   "bggId": 285192,
@@ -5955,7 +6005,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 50,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "小發明",
+  "accent": "#5A7A9B"
  },
  {
   "bggId": 304420,
@@ -5968,7 +6020,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 100,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "篝火",
+  "accent": "#B5654A"
  },
  {
   "bggId": 21241,
@@ -6033,7 +6087,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "商人與掠奪者",
+  "accent": "#4A6E8C"
  },
  {
   "bggId": 345584,
@@ -6059,7 +6115,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "陸海空",
+  "accent": "#5A6E7A"
  },
  {
   "bggId": 436126,
@@ -6098,7 +6156,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "熊貓公園・熊公園",
+  "accent": "#7A8C5A"
  },
  {
   "bggId": 172818,
@@ -6111,7 +6171,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "地上與地下",
+  "accent": "#8C6E4A"
  },
  {
   "bggId": 193037,
@@ -6137,7 +6199,9 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "說書人",
+  "accent": "#7A5A9B"
  },
  {
   "bggId": 297030,
@@ -6150,7 +6214,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "太陽方尖碑",
+  "accent": "#C4913C"
  },
  {
   "bggId": 77130,
@@ -6189,7 +6255,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "銀杏城",
+  "accent": "#5A8C6E"
  },
  {
   "bggId": 372,
@@ -6215,7 +6283,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "任務:紅色星球",
+  "accent": "#B5443C"
  },
  {
   "bggId": 334986,
@@ -6241,7 +6311,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "植物園",
+  "accent": "#5A8C5A"
  },
  {
   "bggId": 59959,
@@ -6267,7 +6339,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "深海王國",
+  "accent": "#4A6E9B"
  },
  {
   "bggId": 45315,
@@ -6280,7 +6354,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "地城領主",
+  "accent": "#6E5A7A"
  },
  {
   "bggId": 351040,
@@ -6293,7 +6369,9 @@
   "minPlayers": 2,
   "maxPlayers": 9,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "預備開賭",
+  "accent": "#4A8C5A"
  },
  {
   "bggId": 70919,
@@ -6306,7 +6384,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "竹取物語",
+  "accent": "#5A9B5A"
  },
  {
   "bggId": 13122,
@@ -6345,7 +6425,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "聖胡安",
+  "accent": "#B5754A"
  },
  {
   "bggId": 357563,
@@ -6358,7 +6440,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "衛城",
+  "accent": "#6E8C9B"
  },
  {
   "bggId": 246684,
@@ -6371,7 +6455,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "智能手機公司",
+  "accent": "#4A5A8C"
  },
  {
   "bggId": 181304,

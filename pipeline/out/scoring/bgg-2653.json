@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-2653",
+ "name": "Survive: Escape from Atlantis!",
+ "nameZh": "亞特蘭提斯大逃亡",
+ "theme": {
+  "accent": "#4A8C9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "rescued",
+    "label": "獲救島民分數",
+    "note": "每個島民底面印住嘅分數",
+    "icon": "🚣",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

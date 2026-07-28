@@ -789,5 +789,229 @@
   "rank": 375,
   "name": "The King Is Dead: Second Edition",
   "reason": "區域控制遊戲,以陣營勝負判定,無累加計分"
+ },
+ {
+  "bggId": 354934,
+  "gameId": "bgg-354934",
+  "rank": 376,
+  "name": "Legacy of Yu",
+  "reason": "單人戰役制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 311988,
+  "gameId": "bgg-311988",
+  "rank": 379,
+  "name": "Frostpunk: The Board Game",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 63888,
+  "gameId": "bgg-63888",
+  "rank": 380,
+  "name": "Innovation",
+  "reason": "以搶奪成就數定勝負,無累加計分"
+ },
+ {
+  "bggId": 38453,
+  "gameId": "bgg-38453",
+  "rank": 388,
+  "name": "Space Alert",
+  "reason": "合作制即時遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 384213,
+  "gameId": "bgg-384213",
+  "rank": 390,
+  "name": "Fromage",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 408180,
+  "gameId": "bgg-408180",
+  "rank": 393,
+  "name": "Shackleton Base: A Journey to the Moon",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 245655,
+  "gameId": "bgg-245655",
+  "rank": 400,
+  "name": "The King's Dilemma",
+  "reason": "傳承制議會遊戲,以隱藏議程達成度定勝負,無統一累加計分"
+ },
+ {
+  "bggId": 271601,
+  "gameId": "bgg-271601",
+  "rank": 402,
+  "name": "Feed the Kraken",
+  "reason": "社交推理遊戲,以陣營達成條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 336382,
+  "gameId": "bgg-336382",
+  "rank": 405,
+  "name": "Marvel United: X-Men",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 219650,
+  "gameId": "bgg-219650",
+  "rank": 406,
+  "name": "Arydia: The Paths We Dare Tread",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 181279,
+  "gameId": "bgg-181279",
+  "rank": 408,
+  "name": "Fury of Dracula (Third/Fourth Edition)",
+  "reason": "一對多追捕遊戲,以捉到/逃脫定勝負,無累加計分"
+ },
+ {
+  "bggId": 188866,
+  "gameId": "bgg-188866",
+  "rank": 411,
+  "name": "Awkward Guests: The Walton Case",
+  "reason": "推理解謎遊戲,以指認兇手定勝負,無累加計分"
+ },
+ {
+  "bggId": 187617,
+  "gameId": "bgg-187617",
+  "rank": 412,
+  "name": "Nemo's War (Second Edition)",
+  "reason": "單人遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 93260,
+  "gameId": "bgg-93260",
+  "rank": 413,
+  "name": "Summoner Wars: Master Set",
+  "reason": "雙人對戰,以擊倒對手召喚師定勝負,無累加計分"
+ },
+ {
+  "bggId": 285192,
+  "gameId": "bgg-285192",
+  "rank": 415,
+  "name": "Destinies",
+  "reason": "App 驅動戰役遊戲,以最先完成命運定勝負,無累加計分"
+ },
+ {
+  "bggId": 48726,
+  "gameId": "bgg-48726",
+  "rank": 416,
+  "name": "Alien Frontiers",
+  "reason": "以最先放晒殖民地定勝負,無累加計分"
+ },
+ {
+  "bggId": 59294,
+  "gameId": "bgg-59294",
+  "rank": 417,
+  "name": "Runewars",
+  "reason": "以達成陣營勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 21241,
+  "gameId": "bgg-21241",
+  "rank": 420,
+  "name": "Neuroshima Hex",
+  "reason": "戰術對戰遊戲,以摧毀對手總部定勝負,無累加計分"
+ },
+ {
+  "bggId": 203420,
+  "gameId": "bgg-203420",
+  "rank": 421,
+  "name": "EXIT: The Game – The Abandoned Cabin",
+  "reason": "密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表"
+ },
+ {
+  "bggId": 368173,
+  "gameId": "bgg-368173",
+  "rank": 422,
+  "name": "Let's Go! To Japan",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 172081,
+  "gameId": "bgg-172081",
+  "rank": 423,
+  "name": "Burgle Bros.",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 345584,
+  "gameId": "bgg-345584",
+  "rank": 425,
+  "name": "Mindbug: First Contact",
+  "reason": "雙人對戰,以擊減對手生命值定勝負,無累加計分"
+ },
+ {
+  "bggId": 436126,
+  "gameId": "bgg-436126",
+  "rank": 427,
+  "name": "Finspan",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 274638,
+  "gameId": "bgg-274638",
+  "rank": 428,
+  "name": "Unmatched: Robin Hood vs. Bigfoot",
+  "reason": "對戰遊戲,以擊倒對手生命值定勝負,無累加計分"
+ },
+ {
+  "bggId": 193037,
+  "gameId": "bgg-193037",
+  "rank": 431,
+  "name": "Dead of Winter: The Long Night",
+  "reason": "半合作生存遊戲,以個人危機目標成敗定勝負,無累加計分"
+ },
+ {
+  "bggId": 77130,
+  "gameId": "bgg-77130",
+  "rank": 434,
+  "name": "Sid Meier's Civilization: The Board Game",
+  "reason": "以多種勝利條件擇一達成定勝負,無統一累加計分"
+ },
+ {
+  "bggId": 40354,
+  "gameId": "bgg-40354",
+  "rank": 435,
+  "name": "Maria",
+  "reason": "三人陣營戰棋,以佔領目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 372,
+  "gameId": "bgg-372",
+  "rank": 437,
+  "name": "Schotten Totten",
+  "reason": "雙人對戰,以搶奪界石定勝負,無累加計分"
+ },
+ {
+  "bggId": 334986,
+  "gameId": "bgg-334986",
+  "rank": 439,
+  "name": "Daybreak",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 59959,
+  "gameId": "bgg-59959",
+  "rank": 441,
+  "name": "Letters from Whitechapel",
+  "reason": "一對多追捕遊戲,以捉到/逃脫定勝負,無累加計分"
+ },
+ {
+  "bggId": 13122,
+  "gameId": "bgg-13122",
+  "rank": 446,
+  "name": "Antiquity",
+  "reason": "以最先完成守護聖人目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 334590,
+  "gameId": "bgg-334590",
+  "rank": 447,
+  "name": "For Northwood! A Solo Trick-Taking Game",
+  "reason": "單人吃磴遊戲,無玩家累加計分"
  }
 ]
