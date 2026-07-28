@@ -1699,5 +1699,390 @@
   "rank": 647,
   "name": "Raptor",
   "reason": "雙人不對稱對戰,以達成陣營目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 91312,
+  "gameId": "bgg-91312",
+  "rank": 651,
+  "name": "Discworld: Ankh-Morpork",
+  "reason": "以隱藏身分勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 62227,
+  "gameId": "bgg-62227",
+  "rank": 653,
+  "name": "Labyrinth: The War on Terror, 2001 – ?",
+  "reason": "雙人戰棋,以陣營勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 31999,
+  "gameId": "bgg-31999",
+  "rank": 654,
+  "name": "TZAAR",
+  "reason": "抽象對弈,以對手無法組成棋型定勝負,無累加計分"
+ },
+ {
+  "bggId": 18,
+  "gameId": "bgg-18",
+  "rank": 656,
+  "name": "RoboRally",
+  "reason": "競速遊戲,以最快到達所有檢查點定勝負,無累加計分"
+ },
+ {
+  "bggId": 252328,
+  "gameId": "bgg-252328",
+  "rank": 657,
+  "name": "Star Wars: X-Wing (Second Edition)",
+  "reason": "微縮模型對戰遊戲,以擊毀對手艦隊定勝負,無累加計分"
+ },
+ {
+  "bggId": 296237,
+  "gameId": "bgg-296237",
+  "rank": 660,
+  "name": "Warp's Edge",
+  "reason": "單人遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 307305,
+  "gameId": "bgg-307305",
+  "rank": 661,
+  "name": "Bullet♥︎",
+  "reason": "生存射擊遊戲,以捱過彈幕定勝負,無累加計分"
+ },
+ {
+  "bggId": 128996,
+  "gameId": "bgg-128996",
+  "rank": 664,
+  "name": "1775: Rebellion",
+  "reason": "區域控制陣營遊戲,以佔領殖民地定勝負,無累加計分"
+ },
+ {
+  "bggId": 146791,
+  "gameId": "bgg-146791",
+  "rank": 666,
+  "name": "Shadows of Brimstone: City of the Ancients",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 181530,
+  "gameId": "bgg-181530",
+  "rank": 667,
+  "name": "Runebound (Third Edition)",
+  "reason": "以最先擊敗大魔王定勝負,無累加計分"
+ },
+ {
+  "bggId": 280794,
+  "gameId": "bgg-280794",
+  "rank": 670,
+  "name": "Etherfields",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 171668,
+  "gameId": "bgg-171668",
+  "rank": 673,
+  "name": "The Grizzled",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 97842,
+  "gameId": "bgg-97842",
+  "rank": 677,
+  "name": "Last Will",
+  "reason": "以最快用晒所有金錢定勝負,無累加計分"
+ },
+ {
+  "bggId": 284777,
+  "gameId": "bgg-284777",
+  "rank": 678,
+  "name": "Unmatched: Jurassic Park – InGen vs Raptors",
+  "reason": "對戰遊戲,以擊倒對手生命值定勝負,無累加計分"
+ },
+ {
+  "bggId": 2346,
+  "gameId": "bgg-2346",
+  "rank": 679,
+  "name": "DVONN",
+  "reason": "抽象對弈,以控制棋堆數比較定勝負,無累加計分"
+ },
+ {
+  "bggId": 119506,
+  "gameId": "bgg-119506",
+  "rank": 682,
+  "name": "Freedom: The Underground Railroad",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 127398,
+  "gameId": "bgg-127398",
+  "rank": 683,
+  "name": "Legends of Andor",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 147949,
+  "gameId": "bgg-147949",
+  "rank": 685,
+  "name": "One Night Ultimate Werewolf",
+  "reason": "社交推理遊戲,以陣營達成條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 362944,
+  "gameId": "bgg-362944",
+  "rank": 686,
+  "name": "War of the Ring: The Card Game",
+  "reason": "雙人對戰卡牌遊戲,以陣營勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 248490,
+  "gameId": "bgg-248490",
+  "rank": 688,
+  "name": "Atlantis Rising (Second Edition)",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 256999,
+  "gameId": "bgg-256999",
+  "rank": 692,
+  "name": "Project: ELITE",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 102652,
+  "gameId": "bgg-102652",
+  "rank": 693,
+  "name": "Sentinels of the Multiverse",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 15985,
+  "gameId": "bgg-15985",
+  "rank": 694,
+  "name": "Blood Bowl: Living Rulebook",
+  "reason": "球賽對戰遊戲,以入球數定勝負,無累加計分"
+ },
+ {
+  "bggId": 328866,
+  "gameId": "bgg-328866",
+  "rank": 696,
+  "name": "My Father's Work",
+  "reason": "傳承制戰役遊戲,無統一累加計分"
+ },
+ {
+  "bggId": 22827,
+  "gameId": "bgg-22827",
+  "rank": 697,
+  "name": "StarCraft: The Board Game",
+  "reason": "以達成陣營勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 133848,
+  "gameId": "bgg-133848",
+  "rank": 698,
+  "name": "Euphoria: Build a Better Dystopia",
+  "reason": "以最先放晒 10 粒權威之星定勝負,無累加計分"
+ },
+ {
+  "bggId": 213460,
+  "gameId": "bgg-213460",
+  "rank": 702,
+  "name": "Unlock!: Escape Adventures",
+  "reason": "密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表"
+ },
+ {
+  "bggId": 354570,
+  "gameId": "bgg-354570",
+  "rank": 704,
+  "name": "Undaunted: Stalingrad",
+  "reason": "戰役制對戰遊戲,以劇本目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 105551,
+  "gameId": "bgg-105551",
+  "rank": 706,
+  "name": "Archipelago",
+  "reason": "以隱藏目標同陣營條件定勝負,無統一累加計分"
+ },
+ {
+  "bggId": 281655,
+  "gameId": "bgg-281655",
+  "rank": 707,
+  "name": "High Frontier 4 All",
+  "reason": "以達成多種勝利條件擇一定勝負,無統一累加計分"
+ },
+ {
+  "bggId": 699,
+  "gameId": "bgg-699",
+  "rank": 708,
+  "name": "HeroQuest",
+  "reason": "合作制任務遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 345868,
+  "gameId": "bgg-345868",
+  "rank": 709,
+  "name": "Federation",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 151022,
+  "gameId": "bgg-151022",
+  "rank": 713,
+  "name": "Baseball Highlights: 2045",
+  "reason": "球賽對戰遊戲,以贏波定勝負,無累加計分"
+ },
+ {
+  "bggId": 216734,
+  "gameId": "bgg-216734",
+  "rank": 714,
+  "name": "Dice Throne: Season One",
+  "reason": "對戰遊戲,以擊倒對手生命值定勝負,無累加計分"
+ },
+ {
+  "bggId": 355483,
+  "gameId": "bgg-355483",
+  "rank": 718,
+  "name": "Wandering Towers",
+  "reason": "競速遊戲,以最先集齊法師定勝負,無累加計分"
+ },
+ {
+  "bggId": 131357,
+  "gameId": "bgg-131357",
+  "rank": 719,
+  "name": "Coup",
+  "reason": "以最後生還定勝負,無累加計分"
+ },
+ {
+  "bggId": 133038,
+  "gameId": "bgg-133038",
+  "rank": 720,
+  "name": "Pathfinder Adventure Card Game: Rise of the Runelords – Base Set",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 403441,
+  "gameId": "bgg-403441",
+  "rank": 723,
+  "name": "Windmill Valley",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 363247,
+  "gameId": "bgg-363247",
+  "rank": 726,
+  "name": "Azul: Master Chocolatier",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 266121,
+  "gameId": "bgg-266121",
+  "rank": 727,
+  "name": "Unlock!: Heroic Adventures",
+  "reason": "密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表"
+ },
+ {
+  "bggId": 399941,
+  "gameId": "bgg-399941",
+  "rank": 728,
+  "name": "River of Gold",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 193949,
+  "gameId": "bgg-193949",
+  "rank": 729,
+  "name": "Star Trek: Ascendancy",
+  "reason": "以達成陣營霸權條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 130960,
+  "gameId": "bgg-130960",
+  "rank": 730,
+  "name": "Triumph & Tragedy: European Balance of Power 1936-1945",
+  "reason": "多陣營戰棋,以陣營勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 456440,
+  "gameId": "bgg-456440",
+  "rank": 731,
+  "name": "Cozy Stickerville",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 298231,
+  "gameId": "bgg-298231",
+  "rank": 732,
+  "name": "Skyrise",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 337765,
+  "gameId": "bgg-337765",
+  "rank": 733,
+  "name": "Brian Boru: High King of Ireland",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 444481,
+  "gameId": "bgg-444481",
+  "rank": 734,
+  "name": "Star Wars: Battle of Hoth",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 422541,
+  "gameId": "bgg-422541",
+  "rank": 735,
+  "name": "Star Trek: Captain's Chair",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 369880,
+  "gameId": "bgg-369880",
+  "rank": 739,
+  "name": "Beer & Bread",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 244115,
+  "gameId": "bgg-244115",
+  "rank": 740,
+  "name": "Shards of Infinity",
+  "reason": "以擊倒對手生命值定勝負,無累加計分"
+ },
+ {
+  "bggId": 128780,
+  "gameId": "bgg-128780",
+  "rank": 741,
+  "name": "Pax Porfiriana",
+  "reason": "以達成霸權勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 291845,
+  "gameId": "bgg-291845",
+  "rank": 742,
+  "name": "Three Sisters",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 286063,
+  "gameId": "bgg-286063",
+  "rank": 744,
+  "name": "The 7th Citadel",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 111799,
+  "gameId": "bgg-111799",
+  "rank": 745,
+  "name": "Cuba Libre",
+  "reason": "COIN 系列多陣營遊戲,以陣營勝利條件定勝負,無統一累加計分"
+ },
+ {
+  "bggId": 370913,
+  "gameId": "bgg-370913",
+  "rank": 749,
+  "name": "Star Wars: The Clone Wars",
+  "reason": "合作制遊戲,無玩家累加計分"
  }
 ]

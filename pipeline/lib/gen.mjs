@@ -53,7 +53,12 @@ export const skip = (bggId, reason) => ({ bggId, reason, __skip: true });
 // ---- writer -----------------------------------------------------------
 export function writeBatch(entries) {
   const idx = JSON.parse(readFileSync(INDEX, "utf8"));
-  const byId = new Map(idx.map(g => [g.bggId, g]));
+  // 注意:index 有重複行(同一 bggId 出現兩次),所以要 update 晒所有對應行
+  const byId = new Map();
+  for (const g of idx) {
+    if (!byId.has(g.bggId)) byId.set(g.bggId, []);
+    byId.get(g.bggId).push(g);
+  }
   const skips = existsSync(SKIPPED) ? JSON.parse(readFileSync(SKIPPED, "utf8")) : [];
   const skipIds = new Set(skips.map(s => s.bggId));
 
@@ -61,11 +66,12 @@ export function writeBatch(entries) {
   const kinds = { number: 0, counter: 0, tiered: 0, bonus: 0 };
 
   for (const e of entries) {
-    const row = byId.get(e.bggId);
-    if (!row) throw new Error(`index 搵唔到 bggId=${e.bggId}`);
+    const rows = byId.get(e.bggId);
+    if (!rows) throw new Error(`index 搵唔到 bggId=${e.bggId}`);
+    const row = rows[0];
 
     if (e.__skip) {
-      row.hasScoring = false;
+      for (const r of rows) r.hasScoring = false;
       if (!skipIds.has(e.bggId)) {
         skips.push({ bggId: e.bggId, gameId: row.gameId, rank: row.rank, name: row.name, reason: e.reason });
         skipIds.add(e.bggId);
@@ -94,9 +100,11 @@ export function writeBatch(entries) {
     for (const f of e.fields) kinds[f.input]++;
 
     writeFileSync(join(SCORING, `${row.gameId}.json`), JSON.stringify(doc, null, 1) + "\n", "utf8");
-    row.nameZh = e.nameZh;
-    row.accent = e.accent;
-    row.hasScoring = true;
+    for (const r of rows) {
+      r.nameZh = e.nameZh;
+      r.accent = e.accent;
+      r.hasScoring = true;
+    }
     written++;
   }
 

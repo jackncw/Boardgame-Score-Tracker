@@ -1,0 +1,151 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-5782",
+ "name": "Coloretto",
+ "nameZh": "色彩",
+ "theme": {
+  "accent": "#C4913C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "color1",
+    "label": "得分色 1",
+    "note": "6 張以上都係 21 分",
+    "icon": "🟥",
+    "color": "#F7DCDC",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      10
+     ],
+     [
+      5,
+      15
+     ],
+     [
+      6,
+      21
+     ]
+    ]
+   },
+   {
+    "id": "color2",
+    "label": "得分色 2",
+    "note": "6 張以上都係 21 分",
+    "icon": "🟩",
+    "color": "#DDEFDC",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      10
+     ],
+     [
+      5,
+      15
+     ],
+     [
+      6,
+      21
+     ]
+    ]
+   },
+   {
+    "id": "color3",
+    "label": "得分色 3",
+    "note": "6 張以上都係 21 分",
+    "icon": "🟦",
+    "color": "#DCE8F7",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      10
+     ],
+     [
+      5,
+      15
+     ],
+     [
+      6,
+      21
+     ]
+    ]
+   },
+   {
+    "id": "others",
+    "label": "其他顏色扣分",
+    "note": "同一張對照表,但係要扣",
+    "icon": "➖",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "joker",
+    "label": "+2 卡",
+    "icon": "➕",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-264055",
+ "name": "Draftosaurus",
+ "nameZh": "選龍高手",
+ "theme": {
+  "accent": "#6E9B5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "pens",
+    "label": "各圍欄得分合計",
+    "icon": "🦕",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "trex",
+    "label": "T. rex 加分",
+    "icon": "🦖",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

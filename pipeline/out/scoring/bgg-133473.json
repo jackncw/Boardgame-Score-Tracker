@@ -1,0 +1,95 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-133473",
+ "name": "Sushi Go!",
+ "nameZh": "壽司大亨",
+ "theme": {
+  "accent": "#D4574E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "maki",
+    "label": "壽司卷(卷物多數)",
+    "icon": "🍥",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tempura",
+    "label": "天婦羅(每對)",
+    "note": "每 2 張 5 分",
+    "icon": "🍤",
+    "color": "#F7E2CE",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "sashimi",
+    "label": "刺身(每 3 張)",
+    "note": "每 3 張 10 分",
+    "icon": "🍣",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 10
+   },
+   {
+    "id": "dumpling",
+    "label": "餃子",
+    "icon": "🥟",
+    "color": "#F0E4D5",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      10
+     ],
+     [
+      5,
+      15
+     ]
+    ]
+   },
+   {
+    "id": "nigiri",
+    "label": "握壽司與芥辣",
+    "icon": "🍙",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "pudding",
+    "label": "布甸",
+    "note": "最多 +6,最少 -6",
+    "icon": "🍮",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

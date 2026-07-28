@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-432",
+ "name": "Take 5",
+ "nameZh": "誰是牛頭王",
+ "theme": {
+  "accent": "#C4913C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "牛頭最少者勝",
+  "fields": [
+   {
+    "id": "bulls",
+    "label": "牛頭總數",
+    "note": "每個牛頭 -1 分",
+    "icon": "🐮",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

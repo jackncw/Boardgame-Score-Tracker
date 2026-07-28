@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-97786",
+ "name": "Small World Underground",
+ "nameZh": "小小世界:地底",
+ "theme": {
+  "accent": "#6E5A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "conquest",
+    "label": "各回合征服得分累計",
+    "icon": "⚔️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "special",
+    "label": "種族與能力特別加分",
+    "icon": "✨",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-221965",
+ "name": "The Fox in the Forest",
+ "nameZh": "森林狐狸",
+ "theme": {
+  "accent": "#B5654A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "rounds",
+    "label": "各回合得分累計",
+    "icon": "🦊",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
