@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-366161",
+ "name": "Wingspan Asia",
+ "nameZh": "展翅翱翔:亞洲",
+ "theme": {
+  "accent": "#8C5A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "birds",
+    "label": "鳥卡分數",
+    "note": "棲息地上每張鳥卡右上角分數總和",
+    "icon": "🐦",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bonus_cards",
+    "label": "獎勵卡",
+    "note": "手上已達成嘅獎勵卡分數",
+    "icon": "🎁",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "round_goals",
+    "label": "回合目標",
+    "note": "四個回合嘅名次分加埋",
+    "icon": "🎯",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "eggs",
+    "label": "鳥蛋",
+    "note": "每隻 1 分",
+    "icon": "🥚",
+    "color": "#F7F3DC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "cached_food",
+    "label": "鳥卡上儲存嘅食物",
+    "note": "每個 1 分",
+    "icon": "🌰",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "tucked",
+    "label": "塞入鳥卡下嘅卡",
+    "note": "每張 1 分",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "duet",
+    "label": "Duet 板加分",
+    "note": "雙人 / 亞洲模式專用,冇玩就留 0",
+    "icon": "🎴",
+    "color": "#F7DCE5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

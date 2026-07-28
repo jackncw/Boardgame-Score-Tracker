@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-276025",
+ "name": "Maracaibo",
+ "nameZh": "馬拉開波",
+ "theme": {
+  "accent": "#3C7A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track_vp",
+    "label": "計分軌上 VP",
+    "note": "遊戲途中已得嘅分數",
+    "icon": "📊",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "nations",
+    "label": "三國影響力",
+    "note": "英 / 法 / 西 三國嘅終局結算",
+    "icon": "🚩",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "quests",
+    "label": "任務 & 探索",
+    "icon": "🗺️",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "卡牌 & 剩餘資源",
+    "note": "按規則書換算後入總分",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

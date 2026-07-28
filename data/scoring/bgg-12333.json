@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-12333",
+ "name": "Twilight Struggle",
+ "nameZh": "冷戰熱鬥",
+ "theme": {
+  "accent": "#A83232"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp_track",
+    "label": "VP 軌位置",
+    "note": "美方為負、蘇方為正(依你習慣),可以入負數",
+    "icon": "☢️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": -20
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-35677",
+ "name": "Le Havre",
+ "nameZh": "勒阿弗爾",
+ "theme": {
+  "accent": "#4A6B8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "francs",
+    "label": "法郎現金",
+    "icon": "💵",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "擁有建築物價值",
+    "note": "建築卡上嘅價值總和",
+    "icon": "🏭",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ships",
+    "label": "船隻價值",
+    "icon": "⛵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

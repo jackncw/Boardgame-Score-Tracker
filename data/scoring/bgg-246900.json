@@ -1,0 +1,61 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-246900",
+ "name": "Eclipse: Second Dawn for the Galaxy",
+ "nameZh": "星蝕:銀河第二曙光",
+ "theme": {
+  "accent": "#2E3E6B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "reputation",
+    "label": "聲望磚 & 大使",
+    "icon": "🎖️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "hexes",
+    "label": "控制中嘅星系板塊",
+    "note": "板塊上嘅 VP 數字總和",
+    "icon": "🌌",
+    "color": "#E5DCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tech",
+    "label": "科技軌 VP",
+    "icon": "🔬",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "discovery",
+    "label": "發現磚 & 巨石",
+    "icon": "🗿",
+    "color": "#E2E7EF",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "species",
+    "label": "種族 / 其他加減分",
+    "note": "可以係負數",
+    "icon": "👽",
+    "color": "#D8F0EA",
+    "input": "number",
+    "min": -50
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

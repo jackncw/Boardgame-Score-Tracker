@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-295947",
+ "name": "Cascadia",
+ "nameZh": "Cascadia 山林秘境",
+ "theme": {
+  "accent": "#4A7A5E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "bear",
+    "label": "熊 🐻",
+    "note": "按今局熊卡規則計",
+    "icon": "🐻",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "elk",
+    "label": "麋鹿 🦌",
+    "note": "按今局麋鹿卡規則計",
+    "icon": "🦌",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "salmon",
+    "label": "三文魚 🐟",
+    "note": "按今局三文魚卡規則計",
+    "icon": "🐟",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "hawk",
+    "label": "鷹 🦅",
+    "note": "按今局鷹卡規則計",
+    "icon": "🦅",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fox",
+    "label": "狐狸 🦊",
+    "note": "按今局狐狸卡規則計",
+    "icon": "🦊",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "habitat",
+    "label": "棲地走廊 & 多數獎",
+    "note": "五種地形最大連通區 + 多數獎勵,加埋入總分",
+    "icon": "🌲",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "nature",
+    "label": "剩餘自然標記",
+    "note": "每個 1 分",
+    "icon": "🌰",
+    "color": "#F7F3DC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

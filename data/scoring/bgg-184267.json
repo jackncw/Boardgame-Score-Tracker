@@ -1,0 +1,145 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-184267",
+ "name": "On Mars",
+ "nameZh": "On Mars",
+ "theme": {
+  "accent": "#B54A2B"
+ },
+ "scoring": {
+  "source": "manual",
+  "verified": false,
+  "tieBreaker": "Crystal 最多者勝 → Advanced Building 最多 → Progress cube 最多",
+  "fields": [
+   {
+    "id": "track_op",
+    "label": "遊戲中已得 OP",
+    "note": "計分軌上嘅分數",
+    "icon": "📊",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "progress",
+    "label": "Progress cubes",
+    "note": "入 Progress area 嘅立方數,自動查分",
+    "icon": "🧊",
+    "color": "#DCE8F7",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      7
+     ],
+     [
+      5,
+      11
+     ]
+    ]
+   },
+   {
+    "id": "ships",
+    "label": "Hangar 內 Ship",
+    "note": "每隻 3 分",
+    "icon": "🚀",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "colonists",
+    "label": "Colonists",
+    "note": "Living Quarters 最高位 colonist 旁邊嘅數字",
+    "icon": "🧑‍🚀",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tech",
+    "label": "Tech tiles",
+    "note": "Laboratory 各欄下方數字總和",
+    "icon": "🔬",
+    "color": "#D8F0EA",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "adv1",
+    "label": "已建 Lvl 1 Advanced Building",
+    "note": "每個 3 分",
+    "icon": "🏗️",
+    "color": "#DFF0DC",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "adv3",
+    "label": "已建 Lvl 3 Advanced Building",
+    "note": "每個 5 分",
+    "icon": "🏛️",
+    "color": "#E8F0DC",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "bp1",
+    "label": "未起 Lvl 1 Blueprint",
+    "note": "每個扣 3 分",
+    "icon": "📐",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 3,
+    "sign": -1
+   },
+   {
+    "id": "bp3",
+    "label": "未起 Lvl 3 Blueprint",
+    "note": "每個扣 5 分",
+    "icon": "📕",
+    "color": "#F7DCE5",
+    "input": "counter",
+    "unitValue": 5,
+    "sign": -1
+   },
+   {
+    "id": "scientists",
+    "label": "Scientists",
+    "note": "每個對應 Advanced Building 3 分,唔理邊個擁有",
+    "icon": "🥼",
+    "color": "#F5EDD2",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "contracts",
+    "label": "Earth Contracts",
+    "note": "按卡面加減,可以係負數",
+    "icon": "📄",
+    "color": "#E2E7EF",
+    "input": "number",
+    "min": -50
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

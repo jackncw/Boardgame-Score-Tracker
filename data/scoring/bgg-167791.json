@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-167791",
+ "name": "Terraforming Mars",
+ "nameZh": "殖民火星",
+ "theme": {
+  "accent": "#C0563B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tr",
+    "label": "地球化指數 TR",
+    "note": "計分軌上嘅 Terraform Rating",
+    "icon": "🌡️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "milestones",
+    "label": "里程碑 Milestones",
+    "note": "每個 5 分",
+    "icon": "🏅",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "award_1st",
+    "label": "獎項 第一名",
+    "note": "每個已資助獎項嘅第一名 5 分",
+    "icon": "🥇",
+    "color": "#F5EDD2",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "award_2nd",
+    "label": "獎項 第二名",
+    "note": "每個 2 分;兩人局通常只計第一名,冇就留 0",
+    "icon": "🥈",
+    "color": "#E2E7EF",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "greenery",
+    "label": "綠化區塊",
+    "note": "每塊 1 分",
+    "icon": "🌳",
+    "color": "#DFF0DC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "cities",
+    "label": "城市",
+    "note": "每座城市 = 相鄰綠化區塊數,自己加埋入總分",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "card_vp",
+    "label": "卡牌 VP",
+    "note": "已打出卡牌上嘅 VP(含資源換算)總和",
+    "icon": "🃏",
+    "color": "#E5DCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

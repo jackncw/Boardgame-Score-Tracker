@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-205637",
+ "name": "Arkham Horror: The Card Game",
+ "nameZh": "詭鎮奇談 卡牌版",
+ "theme": {
+  "accent": "#4A5A3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "戰役合作遊戲,冇官方終局計分表;呢度淨係記錄自訂評分",
+    "icon": "🐙",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

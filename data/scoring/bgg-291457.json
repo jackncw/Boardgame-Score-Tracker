@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-291457",
+ "name": "Gloomhaven: Jaws of the Lion",
+ "nameZh": "幽港迷城:雄獅之顎",
+ "theme": {
+  "accent": "#8C5A3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "戰役合作遊戲,冇官方終局計分表;呢度淨係記錄自訂評分",
+    "icon": "⭐",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

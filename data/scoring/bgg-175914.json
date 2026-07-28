@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-175914",
+ "name": "Food Chain Magnate",
+ "nameZh": "食物鏈大亨",
+ "theme": {
+  "accent": "#C0392B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "bank",
+    "label": "銀行存款",
+    "note": "錢就係分,遊戲結束時嘅現金",
+    "icon": "💵",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

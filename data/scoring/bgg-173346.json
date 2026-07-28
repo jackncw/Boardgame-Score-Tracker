@@ -1,0 +1,84 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-173346",
+ "name": "7 Wonders Duel",
+ "nameZh": "七大奇蹟:對決",
+ "theme": {
+  "accent": "#B5893C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "civil",
+    "label": "藍色民用建築",
+    "icon": "🏛️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "science",
+    "label": "綠色科學卡",
+    "icon": "🔭",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "commercial",
+    "label": "黃色商業建築",
+    "icon": "🪙",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "guilds",
+    "label": "紫色公會卡",
+    "icon": "🏦",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "wonders",
+    "label": "奇蹟",
+    "icon": "🗿",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "progress",
+    "label": "進度標記",
+    "icon": "⚗️",
+    "color": "#D8F0EA",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "military",
+    "label": "軍事優勢分",
+    "icon": "⚔️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "coins",
+    "label": "金幣換算",
+    "note": "每 3 個金幣 1 分,自己除完入總分",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

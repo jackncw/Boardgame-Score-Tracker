@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-170216",
+ "name": "Blood Rage",
+ "nameZh": "血怒",
+ "theme": {
+  "accent": "#A33232"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "勝利點 VP",
+    "note": "三個世代累積落嚟嘅計分軌分數",
+    "icon": "🪓",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

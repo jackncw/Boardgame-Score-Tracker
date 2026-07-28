@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-161936",
+ "name": "Pandemic Legacy: Season 1",
+ "nameZh": "瘟疫危機 傳承:第一季",
+ "theme": {
+  "accent": "#C0392B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "合作遊戲,冇官方個人計分表;呢度淨係記錄自訂評分",
+    "icon": "⭐",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

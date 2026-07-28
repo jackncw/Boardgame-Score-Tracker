@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-167355",
+ "name": "Nemesis",
+ "nameZh": "復仇女神號",
+ "theme": {
+  "accent": "#5E5E6B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "半合作,靠達成個人目標決勝,冇累加式計分表;呢度淨係記錄結果",
+    "icon": "👾",
+    "color": "#E2E7EF",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-332772",
+ "name": "Revive",
+ "nameZh": "Revive 復甦",
+ "theme": {
+  "accent": "#4A5A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track_vp",
+    "label": "計分軌上 VP",
+    "note": "遊戲途中已得嘅分數",
+    "icon": "📊",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cities",
+    "label": "城市 & 建築",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tech",
+    "label": "科技 & 人造物",
+    "icon": "⚙️",
+    "color": "#E5DCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "endgame",
+    "label": "終局目標 & 剩餘資源",
+    "note": "按規則書換算後入總分",
+    "icon": "🎯",
+    "color": "#D8F0EA",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

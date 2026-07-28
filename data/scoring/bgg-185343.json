@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-185343",
+ "name": "Anachrony",
+ "nameZh": "時空悖論",
+ "theme": {
+  "accent": "#7A5A3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track_vp",
+    "label": "計分軌上 VP",
+    "note": "遊戲途中已得嘅分數",
+    "icon": "📊",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築物 & 首都",
+    "icon": "🏗️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "endgame_cards",
+    "label": "終局卡 & 突破",
+    "icon": "🃏",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源 & 時間裂縫",
+    "note": "按規則書換算,時間裂縫可能係負分",
+    "icon": "⏳",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": -50
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

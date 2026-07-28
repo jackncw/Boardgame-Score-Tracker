@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-322289",
+ "name": "Darwin's Journey",
+ "nameZh": "達爾文之旅",
+ "theme": {
+  "accent": "#4A7A5E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track_vp",
+    "label": "計分軌上 VP",
+    "note": "遊戲途中已得嘅分數",
+    "icon": "📊",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "specimens",
+    "label": "標本 & 郵寄",
+    "note": "已送出標本嘅終局結算",
+    "icon": "🦎",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "目標卡 & 探索",
+    "icon": "🎯",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "其他終局分",
+    "note": "對應軌道、剩餘資源等按規則書換算",
+    "icon": "🧭",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

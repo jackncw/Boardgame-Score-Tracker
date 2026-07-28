@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-366013",
+ "name": "Heat: Pedal to the Metal",
+ "nameZh": "極速狂飆",
+ "theme": {
+  "accent": "#C0392B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "race_points",
+    "label": "名次積分",
+    "note": "單場比賽用名次決勝;championship 就入該場積分",
+    "icon": "🏁",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-124361",
+ "name": "Concordia",
+ "nameZh": "康考迪亞",
+ "theme": {
+  "accent": "#5A7A9E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vesta",
+    "label": "Vesta 灶神",
+    "note": "錢同資產換算",
+    "icon": "🔥",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "jupiter",
+    "label": "Jupiter 木星神",
+    "note": "非磚頭城市嘅房屋",
+    "icon": "⚡",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "saturnus",
+    "label": "Saturnus 農神",
+    "note": "有房屋嘅省份數",
+    "icon": "🪐",
+    "color": "#E5DCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mercurius",
+    "label": "Mercurius 水星神",
+    "note": "生產緊嘅貨物種類",
+    "icon": "📦",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mars",
+    "label": "Mars 戰神",
+    "note": "殖民者數量",
+    "icon": "⚔️",
+    "color": "#F7DCE5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "minerva",
+    "label": "Minerva 智慧神",
+    "note": "指定貨物城市",
+    "icon": "🦉",
+    "color": "#D8F0EA",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other_gods",
+    "label": "其他神祇卡",
+    "note": "擴充 / 變體神祇,加埋入總分",
+    "icon": "🏛️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

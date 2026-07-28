@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-164153",
+ "name": "Star Wars: Imperial Assault",
+ "nameZh": "星球大戰:帝國突擊",
+ "theme": {
+  "accent": "#3C4A5E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "戰役 / 小規模衝突模式各有結算方式;呢度淨係記錄結果或勝利點",
+    "icon": "⭐",
+    "color": "#E2E7EF",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

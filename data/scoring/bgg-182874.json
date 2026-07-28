@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-182874",
+ "name": "Grand Austria Hotel",
+ "nameZh": "大奧地利酒店",
+ "theme": {
+  "accent": "#9E7A3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track_vp",
+    "label": "計分軌上 VP",
+    "note": "遊戲途中已得嘅分數",
+    "icon": "📊",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "emperor",
+    "label": "皇帝軌",
+    "note": "三次皇帝結算嘅加減分,可以係負數",
+    "icon": "👑",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": -50
+   },
+   {
+    "id": "staff",
+    "label": "員工卡終局分",
+    "icon": "🧑‍🍳",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rooms",
+    "label": "已備妥房間 & 賓客",
+    "icon": "🛏️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

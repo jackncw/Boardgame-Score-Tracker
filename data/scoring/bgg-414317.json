@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-414317",
+ "name": "Harmonies",
+ "nameZh": "Harmonies 自然和諧",
+ "theme": {
+  "accent": "#4A8C7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "animals",
+    "label": "動物卡",
+    "note": "已完成圖案嘅動物卡分數總和",
+    "icon": "🦌",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "terrain",
+    "label": "地形得分",
+    "note": "山、水、樹、建築、田 按規則書逐項計,加埋入總分",
+    "icon": "🏔️",
+    "color": "#D8F0EA",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

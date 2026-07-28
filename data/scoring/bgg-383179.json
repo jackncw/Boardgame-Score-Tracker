@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-383179",
+ "name": "Age of Innovation",
+ "nameZh": "創新時代",
+ "theme": {
+  "accent": "#6B5A9E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track_vp",
+    "label": "計分軌上 VP",
+    "note": "遊戲途中已得嘅分數",
+    "icon": "📊",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "network",
+    "label": "最大連通聚落",
+    "note": "名次分,按規則書入總分",
+    "icon": "🏘️",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cults",
+    "label": "教派軌",
+    "note": "各條教派軌嘅名次分",
+    "icon": "🔮",
+    "color": "#E5DCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源 & 書本",
+    "note": "按規則書換算後入總分",
+    "icon": "📚",
+    "color": "#D8F0EA",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

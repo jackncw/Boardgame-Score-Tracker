@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-337627",
+ "name": "Voidfall",
+ "nameZh": "Voidfall 虛空降臨",
+ "theme": {
+  "accent": "#3C3C6B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "終局計分來源多而且戰役 / 衝突模式唔同,計法唔確定所以直接入總分",
+    "icon": "🌌",
+    "color": "#E2E7EF",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-161533",
+ "name": "Lisboa",
+ "nameZh": "里斯本",
+ "theme": {
+  "accent": "#3C6B6B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "終局計分來源多而且互相聯動,計法唔確定所以直接入總分",
+    "icon": "⭐",
+    "color": "#D8F0EA",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

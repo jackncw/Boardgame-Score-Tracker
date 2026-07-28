@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-418059",
+ "name": "SETI: Search for Extraterrestrial Intelligence",
+ "nameZh": "SETI:搜尋地外文明",
+ "theme": {
+  "accent": "#2C4A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "終局計分來源多,計法唔確定所以直接入總分",
+    "icon": "⭐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

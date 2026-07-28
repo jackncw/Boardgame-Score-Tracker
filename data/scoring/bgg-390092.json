@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-390092",
+ "name": "Ticket to Ride Legacy: Legends of the West",
+ "nameZh": "鐵道任務 Legacy:西部傳奇",
+ "theme": {
+  "accent": "#8C4A3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "routes",
+    "label": "已鋪路線",
+    "note": "每條路線按長度得分,加埋入總分",
+    "icon": "🚂",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tickets",
+    "label": "車票卡",
+    "note": "完成加分、未完成扣分,淨值可以係負數",
+    "icon": "🎫",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": -100
+   },
+   {
+    "id": "bonus",
+    "label": "獎勵 & Legacy 加分",
+    "note": "最長路線、劇本專屬加分等",
+    "icon": "🏆",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

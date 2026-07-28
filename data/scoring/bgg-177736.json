@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-177736",
+ "name": "A Feast for Odin",
+ "nameZh": "奧丁的盛宴",
+ "theme": {
+  "accent": "#3C5A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "boards",
+    "label": "板塊結算",
+    "note": "主板 / 開拓板 已覆蓋格嘅分數",
+    "icon": "🧩",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "assets",
+    "label": "資產",
+    "note": "船、動物、銀幣、開拓地等",
+    "icon": "⛵",
+    "color": "#D8F0EA",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "penalty",
+    "label": "負分",
+    "note": "未覆蓋格等扣分,入正數,app 自動扣",
+    "icon": "➖",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

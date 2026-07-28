@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-209010",
+ "name": "Mechs vs. Minions",
+ "nameZh": "機甲大戰小兵",
+ "theme": {
+  "accent": "#4A6B9E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "戰役合作遊戲,冇官方終局計分表;呢度淨係記錄結果或自訂評分",
+    "icon": "🤖",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

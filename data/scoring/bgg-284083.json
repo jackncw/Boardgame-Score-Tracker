@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-284083",
+ "name": "The Crew: The Quest for Planet Nine",
+ "nameZh": "第九號行星",
+ "theme": {
+  "accent": "#3C4A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "合作吃墩,靠完成任務決勝,冇累加式計分表;呢度淨係記錄結果",
+    "icon": "🚀",
+    "color": "#E2E7EF",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

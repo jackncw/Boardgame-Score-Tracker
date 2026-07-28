@@ -1,0 +1,61 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-266810",
+ "name": "Paladins of the West Kingdom",
+ "nameZh": "西方王國:聖騎士",
+ "theme": {
+  "accent": "#5A6B9E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "建築物 & 前哨站",
+    "icon": "🏰",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "walls",
+    "label": "城牆",
+    "icon": "🧱",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "converts",
+    "label": "皈依者 & 修士",
+    "icon": "🙏",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "order_cards",
+    "label": "修會卡 & 目標",
+    "icon": "📜",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "debt",
+    "label": "債務 & 扣分",
+    "note": "入正數,app 自動扣",
+    "icon": "➖",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-187645",
+ "name": "Star Wars: Rebellion",
+ "nameZh": "星球大戰:義軍崛起",
+ "theme": {
+  "accent": "#3C4A5E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "靠目標 / 時間軌決勝,冇累加式計分表;呢度淨係記錄結果",
+    "icon": "⭐",
+    "color": "#E2E7EF",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

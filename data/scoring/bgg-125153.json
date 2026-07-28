@@ -1,0 +1,36 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-125153",
+ "name": "The Gallerist",
+ "nameZh": "藝廊經紀人",
+ "theme": {
+  "accent": "#8C5A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "money",
+    "label": "金錢",
+    "icon": "💵",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "endgame",
+    "label": "終局結算",
+    "note": "藝術品、聲望、獎章、合約、助手等,按規則書加埋入總分",
+    "icon": "🖼️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

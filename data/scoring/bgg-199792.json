@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-199792",
+ "name": "Everdell",
+ "nameZh": "Everdell",
+ "theme": {
+  "accent": "#4A7A46"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "達成最多 Event 者勝;仍平手則剩餘資源最多者勝",
+  "fields": [
+   {
+    "id": "base",
+    "label": "卡牌基礎分",
+    "note": "城市入面每張卡卡面分數總和",
+    "icon": "🃏",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tokens",
+    "label": "Point tokens",
+    "note": "1 分同 3 分 token 加埋總分",
+    "icon": "💠",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "prosperity",
+    "label": "紫色 Prosperity 卡加成",
+    "note": "卡面基礎分已計咗喺上面,呢行淨係入 bonus",
+    "icon": "👑",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "journey",
+    "label": "Journey",
+    "note": "工人所在格數值加埋",
+    "icon": "🚶",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "events",
+    "label": "Events",
+    "note": "Basic + Special Event 總分",
+    "icon": "🎪",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

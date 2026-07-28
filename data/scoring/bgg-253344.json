@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-253344",
+ "name": "Cthulhu: Death May Die",
+ "nameZh": "克蘇魯:死亡可能終結",
+ "theme": {
+  "accent": "#4A6B4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "合作遊戲,冇官方終局計分表;呢度淨係記錄自訂評分",
+    "icon": "🐙",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

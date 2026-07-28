@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-277659",
+ "name": "Final Girl",
+ "nameZh": "Final Girl 終極女孩",
+ "theme": {
+  "accent": "#A33C4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "單人合作,靠生存 / 擊殺決勝,冇累加式計分表;呢度淨係記錄結果",
+    "icon": "🔪",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

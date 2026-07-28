@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-115746",
+ "name": "War of the Ring: Second Edition",
+ "nameZh": "魔戒聖戰 第二版",
+ "theme": {
+  "accent": "#7A6242"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "靠軍事勝利點 / 魔戒任務決勝,唔係累加式計分表;呢度淨係記錄結果",
+    "icon": "💍",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

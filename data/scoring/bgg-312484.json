@@ -1,0 +1,61 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-312484",
+ "name": "Lost Ruins of Arnak",
+ "nameZh": "阿爾納克遺蹟",
+ "theme": {
+  "accent": "#3C7A5E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "temple",
+    "label": "神廟軌",
+    "note": "研究軌上兩個標記嘅分數",
+    "icon": "⛩️",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "idols",
+    "label": "神像 Idols",
+    "icon": "🗿",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "guardians",
+    "label": "已擊敗守護者",
+    "icon": "👹",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "卡牌 & 遺蹟磚 VP",
+    "note": "手牌、神器、已探索遺蹟上嘅分數",
+    "icon": "🃏",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "assistants",
+    "label": "助手 & 其他",
+    "icon": "🧭",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

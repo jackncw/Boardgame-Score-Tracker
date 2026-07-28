@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-359871",
+ "name": "Arcs",
+ "nameZh": "Arcs 星弧",
+ "theme": {
+  "accent": "#7A3C5E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "ambitions",
+    "label": "野心得分",
+    "note": "各章節已宣告野心嘅名次分,加埋入總分",
+    "icon": "🏆",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他 VP",
+    "note": "卡牌 / 戰役專屬來源",
+    "icon": "🌌",
+    "color": "#E2E7EF",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

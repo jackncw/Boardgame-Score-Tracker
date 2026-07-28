@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-216132",
+ "name": "Clans of Caledonia",
+ "nameZh": "蘇格蘭氏族",
+ "theme": {
+  "accent": "#4A6B7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "contracts",
+    "label": "合約 Contracts",
+    "icon": "📄",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "export",
+    "label": "出口 Export",
+    "note": "出口板名次分",
+    "icon": "🚢",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "scoring_tiles",
+    "label": "終局計分磚",
+    "note": "今局抽到嘅計分條件",
+    "icon": "🎯",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "assets",
+    "label": "資產 & 金錢",
+    "note": "建築、港口、剩餘金錢按規則書換算",
+    "icon": "💰",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

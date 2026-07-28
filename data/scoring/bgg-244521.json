@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-244521",
+ "name": "Quacks",
+ "nameZh": "庸醫神藥",
+ "theme": {
+  "accent": "#7A5A9E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "計分軌上 VP",
+    "note": "九個回合累積落嚟嘅分數",
+    "icon": "🧪",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

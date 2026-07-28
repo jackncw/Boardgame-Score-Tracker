@@ -1,0 +1,63 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-380607",
+ "name": "Great Western Trail: New Zealand",
+ "nameZh": "西部之路:紐西蘭",
+ "theme": {
+  "accent": "#4A8C5E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "sheep",
+    "label": "羊牌 VP",
+    "note": "手上 + 牌庫 + 棄牌堆所有羊牌嘅分數",
+    "icon": "🐑",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築物 VP",
+    "icon": "🏚️",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "目標卡",
+    "note": "已完成加分、未完成扣分,淨值可以係負數",
+    "icon": "📋",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": -50
+   },
+   {
+    "id": "harbours",
+    "label": "港口 & 出口",
+    "note": "已送達目的地嘅標記",
+    "icon": "⚓",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "其他 VP",
+    "note": "工人、船、金錢換算等,加埋入總分",
+    "icon": "💰",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

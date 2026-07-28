@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-251661",
+ "name": "Oathsworn: Into the Deepwood",
+ "nameZh": "Oathsworn:深林誓約",
+ "theme": {
+  "accent": "#3C5A45"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "戰役合作遊戲,冇官方終局計分表;呢度淨係記錄自訂評分",
+    "icon": "⚔️",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

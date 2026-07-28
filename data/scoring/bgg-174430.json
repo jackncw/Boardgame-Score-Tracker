@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-174430",
+ "name": "Gloomhaven",
+ "nameZh": "幽港迷城",
+ "theme": {
+  "accent": "#6B5B4E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "戰役合作遊戲,冇官方終局計分表;呢度淨係記錄自訂評分",
+    "icon": "⭐",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

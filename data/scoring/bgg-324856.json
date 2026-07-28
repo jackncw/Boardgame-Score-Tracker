@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-324856",
+ "name": "The Crew: Mission Deep Sea",
+ "nameZh": "深海謎航",
+ "theme": {
+  "accent": "#2E5A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "合作吃墩,靠完成任務決勝,冇累加式計分表;呢度淨係記錄結果",
+    "icon": "🌊",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

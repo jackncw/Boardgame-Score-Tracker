@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-220308",
+ "name": "Gaia Project",
+ "nameZh": "蓋亞計劃",
+ "theme": {
+  "accent": "#5B4A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track_vp",
+    "label": "計分軌上 VP",
+    "note": "遊戲途中已得嘅分數",
+    "icon": "📊",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "final_tiles",
+    "label": "終局計分磚",
+    "note": "兩塊終局計分條件嘅名次分",
+    "icon": "🎯",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "research",
+    "label": "研究軌",
+    "note": "各研究軌終局分",
+    "icon": "🔬",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源",
+    "note": "按規則書換算後入總分",
+    "icon": "💠",
+    "color": "#D8F0EA",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

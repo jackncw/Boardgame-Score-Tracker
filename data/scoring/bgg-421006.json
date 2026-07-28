@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-421006",
+ "name": "The Lord of the Rings: Duel for Middle-earth",
+ "nameZh": "魔戒:中土對決",
+ "theme": {
+  "accent": "#4A6B3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "多條勝利路線,計法唔確定所以直接入總分",
+    "icon": "💍",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

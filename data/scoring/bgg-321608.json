@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-321608",
+ "name": "Hegemony: Lead Your Class to Victory",
+ "nameZh": "Hegemony:階級之爭",
+ "theme": {
+  "accent": "#A33C3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track_vp",
+    "label": "計分軌上 VP",
+    "note": "遊戲途中已得嘅分數",
+    "icon": "📊",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "class_goals",
+    "label": "階級目標 & 議程",
+    "note": "你嗰個階級專屬嘅終局條件",
+    "icon": "🎯",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "policies",
+    "label": "政策 & 意識形態",
+    "note": "終局政策位置換算",
+    "icon": "🗳️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "assets",
+    "label": "剩餘資產",
+    "note": "金錢、公司、人口等按規則書換算",
+    "icon": "💼",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

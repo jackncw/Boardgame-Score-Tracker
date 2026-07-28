@@ -1,0 +1,147 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-200680",
+ "name": "Agricola (Revised Edition)",
+ "nameZh": "農家樂(修訂版)",
+ "theme": {
+  "accent": "#7A6B3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "fields",
+    "label": "田地",
+    "note": "按官方計分表查(0 個會扣分)",
+    "icon": "🟫",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": -1
+   },
+   {
+    "id": "pastures",
+    "label": "牧場",
+    "note": "按官方計分表查(0 個會扣分)",
+    "icon": "🌿",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": -1
+   },
+   {
+    "id": "grain",
+    "label": "穀物",
+    "note": "按官方計分表查(0 個會扣分)",
+    "icon": "🌾",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": -1
+   },
+   {
+    "id": "vegetables",
+    "label": "蔬菜",
+    "note": "按官方計分表查(0 個會扣分)",
+    "icon": "🥕",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": -1
+   },
+   {
+    "id": "sheep",
+    "label": "羊",
+    "note": "按官方計分表查(0 隻會扣分)",
+    "icon": "🐑",
+    "color": "#E2E7EF",
+    "input": "number",
+    "min": -1
+   },
+   {
+    "id": "boar",
+    "label": "野豬",
+    "note": "按官方計分表查(0 隻會扣分)",
+    "icon": "🐗",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": -1
+   },
+   {
+    "id": "cattle",
+    "label": "牛",
+    "note": "按官方計分表查(0 隻會扣分)",
+    "icon": "🐄",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": -1
+   },
+   {
+    "id": "clay_rooms",
+    "label": "泥屋房間",
+    "note": "每間 1 分",
+    "icon": "🧱",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "stone_rooms",
+    "label": "石屋房間",
+    "note": "每間 2 分",
+    "icon": "🪨",
+    "color": "#E2E7EF",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "family",
+    "label": "家庭成員",
+    "note": "每人 3 分",
+    "icon": "👨‍👩‍👧",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "stables",
+    "label": "已圍欄馬廄",
+    "note": "每個 1 分",
+    "icon": "🏚️",
+    "color": "#F7F3DC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "cards",
+    "label": "卡牌 & 額外分",
+    "note": "職業 / 小改建卡上嘅分數同獎勵",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "unused",
+    "label": "未用空格",
+    "note": "每格扣 1 分,入正數,app 自動扣",
+    "icon": "➖",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "begging",
+    "label": "乞討卡",
+    "note": "每張扣 3 分,入正數,app 自動扣",
+    "icon": "🥣",
+    "color": "#F7DCE5",
+    "input": "counter",
+    "unitValue": 3,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

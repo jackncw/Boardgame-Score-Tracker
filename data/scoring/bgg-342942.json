@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-342942",
+ "name": "Ark Nova",
+ "nameZh": "方舟動物園",
+ "theme": {
+  "accent": "#3E7A5E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "按規則書終局計算(訴求軌 / 保育軌 交叉值),計法唔確定所以直接入總分",
+    "icon": "⭐",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": -100
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

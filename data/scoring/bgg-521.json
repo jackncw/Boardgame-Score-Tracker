@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-521",
+ "name": "Crokinole",
+ "nameZh": "Crokinole 圓盤彈射",
+ "theme": {
+  "accent": "#A5713C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "hole20",
+    "label": "入洞(中心)",
+    "note": "每隻 20 分",
+    "icon": "🕳️",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 20
+   },
+   {
+    "id": "ring15",
+    "label": "15 分圈",
+    "note": "每隻 15 分",
+    "icon": "🔴",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 15
+   },
+   {
+    "id": "ring10",
+    "label": "10 分圈",
+    "note": "每隻 10 分",
+    "icon": "🟠",
+    "color": "#F5EDD2",
+    "input": "counter",
+    "unitValue": 10
+   },
+   {
+    "id": "ring5",
+    "label": "5 分圈",
+    "note": "每隻 5 分",
+    "icon": "🟡",
+    "color": "#F7F3DC",
+    "input": "counter",
+    "unitValue": 5
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

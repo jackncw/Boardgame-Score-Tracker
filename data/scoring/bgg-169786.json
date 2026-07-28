@@ -1,0 +1,63 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-169786",
+ "name": "Scythe",
+ "nameZh": "鐮刀戰爭",
+ "theme": {
+  "accent": "#8C4A3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "coins",
+    "label": "金幣",
+    "icon": "🪙",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "stars",
+    "label": "星星得分",
+    "note": "星星數 × 人氣等級倍率,自己算完入總分",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "territories",
+    "label": "領地得分",
+    "note": "領地數 × 人氣等級倍率",
+    "icon": "🗺️",
+    "color": "#DFF0DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "資源得分",
+    "note": "每 2 個資源 × 人氣等級倍率",
+    "icon": "📦",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築加成",
+    "note": "建築物觸發嘅額外金幣",
+    "icon": "🏠",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-96848",
+ "name": "Mage Knight Board Game",
+ "nameZh": "魔法騎士",
+ "theme": {
+  "accent": "#5A3C7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "fame",
+    "label": "名聲 Fame",
+    "note": "名聲軌上嘅分數",
+    "icon": "🌟",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "titles",
+    "label": "頭銜獎勵",
+    "note": "各項終局頭銜(最強知識 / 最多戰利品等)嘅名次分",
+    "icon": "🏆",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "penalty",
+    "label": "扣分",
+    "note": "未完成 / 受傷等扣分,入正數,app 自動扣",
+    "icon": "➖",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-373106",
+ "name": "Sky Team",
+ "nameZh": "Sky Team",
+ "theme": {
+  "accent": "#3C6B9E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "兩人合作,靠成功降落決勝負,冇累加式計分表;呢度淨係記錄結果",
+    "icon": "✈️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

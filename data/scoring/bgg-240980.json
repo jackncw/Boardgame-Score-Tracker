@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-240980",
+ "name": "Blood on the Clocktower",
+ "nameZh": "血染鐘樓",
+ "theme": {
+  "accent": "#8C3C3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "社交推理,陣營勝負制,冇累加式計分表;呢度淨係記錄結果",
+    "icon": "🕰️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-365717",
+ "name": "Clank!: Catacombs",
+ "nameZh": "Clank!:地下墓穴",
+ "theme": {
+  "accent": "#6B5A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "artifacts",
+    "label": "神器 Artifacts",
+    "note": "卡面分數總和",
+    "icon": "🏺",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gold",
+    "label": "金幣",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "卡牌 & 秘寶 VP",
+    "note": "牌組同 Secret 上嘅分數",
+    "icon": "🃏",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "monsters",
+    "label": "怪物 & 其他磚",
+    "icon": "👹",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

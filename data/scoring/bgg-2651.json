@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-2651",
+ "name": "Power Grid",
+ "nameZh": "電力公司",
+ "theme": {
+  "accent": "#C8862B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "剩餘金錢最多者勝",
+  "fields": [
+   {
+    "id": "cities_powered",
+    "label": "最後一回合供電城市數",
+    "note": "呢個數最大者勝,唔係累加分",
+    "icon": "🏙️",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

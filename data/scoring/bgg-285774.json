@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-285774",
+ "name": "Marvel Champions: The Card Game",
+ "nameZh": "漫威傳奇再起 卡牌版",
+ "theme": {
+  "accent": "#B33A3A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "合作遊戲,冇官方終局計分表;呢度淨係記錄自訂評分",
+    "icon": "🦸",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

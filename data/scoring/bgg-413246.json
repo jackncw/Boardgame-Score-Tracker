@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-413246",
+ "name": "Bomb Busters",
+ "nameZh": "拆彈專家",
+ "theme": {
+  "accent": "#C0392B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "合作遊戲,靠完成任務決勝,冇累加式計分表;呢度淨係記錄結果",
+    "icon": "💣",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

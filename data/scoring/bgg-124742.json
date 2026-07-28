@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-124742",
+ "name": "Android: Netrunner",
+ "nameZh": "機器紀元:潛行駭客",
+ "theme": {
+  "accent": "#3C5A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "agenda",
+    "label": "議程分 Agenda Points",
+    "note": "7 分獲勝(或者對手爆牌 / 死亡)",
+    "icon": "💾",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

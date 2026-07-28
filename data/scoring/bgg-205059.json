@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-205059",
+ "name": "Mansions of Madness: Second Edition",
+ "nameZh": "瘋狂詭宅 第二版",
+ "theme": {
+  "accent": "#4A4A6B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "合作遊戲,冇官方終局計分表;呢度淨係記錄結果或自訂評分",
+    "icon": "🕯️",
+    "color": "#E2E7EF",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

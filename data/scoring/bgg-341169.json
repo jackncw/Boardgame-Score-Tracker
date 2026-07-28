@@ -1,0 +1,70 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-341169",
+ "name": "Great Western Trail: Second Edition",
+ "nameZh": "西部之路 第二版",
+ "theme": {
+  "accent": "#A5713C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cattle",
+    "label": "牛牌 VP",
+    "note": "手上 + 牌庫 + 棄牌堆所有牛牌嘅分數",
+    "icon": "🐄",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築物 VP",
+    "icon": "🏚️",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "目標卡",
+    "note": "已完成加分、未完成扣分,淨值可以係負數",
+    "icon": "📋",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": -50
+   },
+   {
+    "id": "stationmaster",
+    "label": "站長標記 Station Masters",
+    "icon": "🚉",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cities",
+    "label": "已送達城市",
+    "icon": "🏙️",
+    "color": "#D8F0EA",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "其他 VP",
+    "note": "工人、帳篷、危險地、金錢換算等,加埋入總分",
+    "icon": "💰",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

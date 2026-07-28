@@ -1,0 +1,118 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-284378",
+ "name": "Kanban EV",
+ "nameZh": "看板 EV",
+ "theme": {
+  "accent": "#17879B"
+ },
+ "scoring": {
+  "source": "manual",
+  "verified": false,
+  "tieBreaker": "車最多者勝 → Tested Designs 最多 → Banked Shifts 最多",
+  "fields": [
+   {
+    "id": "track_pp",
+    "label": "遊戲中已得 PP",
+    "note": "計分軌上嘅分數",
+    "icon": "📊",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "final_goal",
+    "label": "Final Goal tile",
+    "note": "每項要付 1 個 Speech token,入總分",
+    "icon": "🎯",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shifts",
+    "label": "Banked Shifts",
+    "note": "每個 1 分",
+    "icon": "⏱️",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "tokens",
+    "label": "Speech token / Book / Parts Voucher",
+    "note": "player board 上每個 1 分",
+    "icon": "🎟️",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "car_city",
+    "label": "City Car",
+    "note": "每架 2 分",
+    "icon": "🚗",
+    "color": "#DFF0DC",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "car_suv",
+    "label": "SUV",
+    "note": "每架 3 分",
+    "icon": "🚙",
+    "color": "#D8F0EA",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "car_truck",
+    "label": "Truck",
+    "note": "每架 4 分",
+    "icon": "🚚",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 4
+   },
+   {
+    "id": "car_sports",
+    "label": "Sports Car",
+    "note": "每架 5 分",
+    "icon": "🏎️",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "car_concept",
+    "label": "Concept Car",
+    "note": "每架 6 分",
+    "icon": "🛸",
+    "color": "#E2E7EF",
+    "input": "counter",
+    "unitValue": 6
+   },
+   {
+    "id": "training",
+    "label": "Training track 名次",
+    "note": "各部門 1st 5 / 2nd 3 / 3rd 1,入總分",
+    "icon": "📈",
+    "color": "#F5EDD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tested",
+    "label": "Tested Designs",
+    "note": "按 Value Parts Track 部件價值,入總分",
+    "icon": "🔧",
+    "color": "#DCEFF2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
