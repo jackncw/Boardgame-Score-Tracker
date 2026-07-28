@@ -7181,7 +7181,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "骰子鍛造",
+  "accent": "#8C6E9B"
  },
  {
   "bggId": 236191,
@@ -7194,7 +7196,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "倫敦:第二版",
+  "accent": "#5A6E7A"
  },
  {
   "bggId": 425549,
@@ -7259,7 +7263,9 @@
   "minPlayers": 1,
   "maxPlayers": 2,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "閃電戰!",
+  "accent": "#6E6E5A"
  },
  {
   "bggId": 198773,
@@ -7285,7 +7291,9 @@
   "minPlayers": 3,
   "maxPlayers": 4,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "斯巴達克斯",
+  "accent": "#8C3C3C"
  },
  {
   "bggId": 420087,
@@ -7298,7 +7306,9 @@
   "minPlayers": 3,
   "maxPlayers": 18,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "翻 7",
+  "accent": "#D4574E"
  },
  {
   "bggId": 31594,
@@ -7311,7 +7321,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 100,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "龍年",
+  "accent": "#B5443C"
  },
  {
   "bggId": 256226,
@@ -7324,7 +7336,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "花磚物語:辛特拉玻璃",
+  "accent": "#4A6E9B"
  },
  {
   "bggId": 298069,
@@ -7350,7 +7364,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "鐵道任務:馬克林",
+  "accent": "#8C5A3C"
  },
  {
   "bggId": 215311,
@@ -7363,7 +7379,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "極速賽車",
+  "accent": "#C4543C"
  },
  {
   "bggId": 328565,
@@ -7376,7 +7394,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 35,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "神偷歐洲",
+  "accent": "#5A6E8C"
  },
  {
   "bggId": 404431,
@@ -7402,7 +7422,9 @@
   "minPlayers": 1,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "自由島:狂風之翼",
+  "accent": "#4A7A8C"
  },
  {
   "bggId": 34219,
@@ -7415,7 +7437,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "聖經抄本",
+  "accent": "#8C7A5A"
  },
  {
   "bggId": 33160,
@@ -7428,7 +7452,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "奮進",
+  "accent": "#4A6E8C"
  },
  {
   "bggId": 292375,
@@ -7441,7 +7467,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "長城",
+  "accent": "#8C6E5A"
  },
  {
   "bggId": 138161,
@@ -7467,7 +7495,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "聖胡安:第二版",
+  "accent": "#B5754A"
  },
  {
   "bggId": 293141,
@@ -7480,7 +7510,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "東京之王:黑暗版",
+  "accent": "#4A4A5A"
  },
  {
   "bggId": 1,
@@ -7493,7 +7525,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "選舉大亨",
+  "accent": "#8C4A4A"
  },
  {
   "bggId": 265736,
@@ -7506,7 +7540,9 @@
   "minPlayers": 1,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "小小城鎮",
+  "accent": "#7A8C6E"
  },
  {
   "bggId": 151347,
@@ -7519,7 +7555,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "千年卡牌",
+  "accent": "#7A5A9B"
  },
  {
   "bggId": 150,
@@ -7545,7 +7583,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "穿越沙漠",
+  "accent": "#D9A441"
  },
  {
   "bggId": 422732,
@@ -7571,7 +7611,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "上流社會",
+  "accent": "#9B4A7A"
  },
  {
   "bggId": 325635,
@@ -7597,7 +7639,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 125,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "布魯塞爾 1893",
+  "accent": "#7A5A6E"
  },
  {
   "bggId": 262543,
@@ -7675,7 +7719,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "聖瑪利亞",
+  "accent": "#5A7A8C"
  },
  {
   "bggId": 156858,
@@ -7701,7 +7747,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "演化:氣候",
+  "accent": "#6E8C5A"
  },
  {
   "bggId": 66188,
@@ -7714,7 +7762,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "壁畫",
+  "accent": "#7A5A9B"
  },
  {
   "bggId": 100901,
@@ -7740,7 +7790,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "歷史之旅",
+  "accent": "#8C6E4A"
  },
  {
   "bggId": 186751,
@@ -7766,7 +7818,9 @@
   "minPlayers": 2,
   "maxPlayers": 7,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "種豆",
+  "accent": "#C4913C"
  },
  {
   "bggId": 27162,
@@ -7779,7 +7833,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "王者之堡",
+  "accent": "#7A5A8C"
  },
  {
   "bggId": 251658,

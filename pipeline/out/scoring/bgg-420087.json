@@ -1,0 +1,36 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-420087",
+ "name": "Flip 7",
+ "nameZh": "翻 7",
+ "theme": {
+  "accent": "#D4574E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "數字卡與加成卡",
+    "icon": "🔢",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "flip7",
+    "label": "Flip 7 完成獎勵",
+    "note": "一次翻出 7 張唔同數字加 15 分",
+    "icon": "🎉",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

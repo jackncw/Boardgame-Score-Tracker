@@ -1195,5 +1195,159 @@
   "rank": 499,
   "name": "Unmatched Adventures: Tales to Amaze",
   "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 286751,
+  "gameId": "bgg-286751",
+  "rank": 501,
+  "name": "Zombicide: 2nd Edition",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 425549,
+  "gameId": "bgg-425549",
+  "rank": 504,
+  "name": "Moon Colony Bloodbath",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 315610,
+  "gameId": "bgg-315610",
+  "rank": 505,
+  "name": "Massive Darkness 2: Hellscape",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 101721,
+  "gameId": "bgg-101721",
+  "rank": 506,
+  "name": "Mage Wars Arena",
+  "reason": "雙人法師對決,以擊倒對手定勝負,無累加計分"
+ },
+ {
+  "bggId": 316412,
+  "gameId": "bgg-316412",
+  "rank": 507,
+  "name": "The LOOP",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 198773,
+  "gameId": "bgg-198773",
+  "rank": 509,
+  "name": "Codenames: Pictures",
+  "reason": "隊制猜圖遊戲,無累加計分"
+ },
+ {
+  "bggId": 298069,
+  "gameId": "bgg-298069",
+  "rank": 514,
+  "name": "Cubitos",
+  "reason": "競速遊戲,以最快到終點定勝負,無累加計分"
+ },
+ {
+  "bggId": 404431,
+  "gameId": "bgg-404431",
+  "rank": 518,
+  "name": "Men-Nefer",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 138161,
+  "gameId": "bgg-138161",
+  "rank": 523,
+  "name": "Firefly: The Game",
+  "reason": "以最先完成故事目標定勝負,無累加計分"
+ },
+ {
+  "bggId": 150,
+  "gameId": "bgg-150",
+  "rank": 529,
+  "name": "PitchCar",
+  "reason": "彈射競速遊戲,以最快完成圈數定勝負,無累加計分"
+ },
+ {
+  "bggId": 422732,
+  "gameId": "bgg-422732",
+  "rank": 531,
+  "name": "Agent Avenue",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 325635,
+  "gameId": "bgg-325635",
+  "rank": 533,
+  "name": "Unmatched: Little Red Riding Hood vs. Beowulf",
+  "reason": "對戰遊戲,以擊倒對手生命值定勝負,無累加計分"
+ },
+ {
+  "bggId": 262543,
+  "gameId": "bgg-262543",
+  "rank": 535,
+  "name": "Wavelength",
+  "reason": "隊制猜心派對遊戲,無累加計分"
+ },
+ {
+  "bggId": 355093,
+  "gameId": "bgg-355093",
+  "rank": 536,
+  "name": "Woodcraft",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 338834,
+  "gameId": "bgg-338834",
+  "rank": 537,
+  "name": "MicroMacro: Crime City – Full House",
+  "reason": "合作制找圖解謎遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 371330,
+  "gameId": "bgg-371330",
+  "rank": 538,
+  "name": "Luthier",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 71,
+  "gameId": "bgg-71",
+  "rank": 539,
+  "name": "Civilization",
+  "reason": "以文明發展表推進定勝負,無累加計分"
+ },
+ {
+  "bggId": 156858,
+  "gameId": "bgg-156858",
+  "rank": 541,
+  "name": "Black Orchestra",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 100901,
+  "gameId": "bgg-100901",
+  "rank": 544,
+  "name": "Flash Point: Fire Rescue",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 186751,
+  "gameId": "bgg-186751",
+  "rank": 546,
+  "name": "Mythic Battles: Pantheon",
+  "reason": "微縮模型對戰遊戲,以擊倒對手定勝負,無累加計分"
+ },
+ {
+  "bggId": 251658,
+  "gameId": "bgg-251658",
+  "rank": 549,
+  "name": "Sprawlopolis",
+  "reason": "單人/合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 170771,
+  "gameId": "bgg-170771",
+  "rank": 550,
+  "name": "Sword & Sorcery: Immortal Souls",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
  }
 ]

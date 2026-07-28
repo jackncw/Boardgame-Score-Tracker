@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-220",
+ "name": "High Society",
+ "nameZh": "上流社會",
+ "theme": {
+  "accent": "#9B4A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "luxury",
+    "label": "奢侈品總值",
+    "note": "錢用剩最少嗰位直接出局",
+    "icon": "💎",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-128671",
+ "name": "Spartacus: A Game of Blood and Treachery",
+ "nameZh": "斯巴達克斯",
+ "theme": {
+  "accent": "#8C3C3C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "influence",
+    "label": "影響力",
+    "note": "儲夠 12 點即勝",
+    "icon": "⚔️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
