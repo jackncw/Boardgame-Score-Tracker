@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-223040",
+ "name": "Fantasy Realms",
+ "nameZh": "幻想國度",
+ "theme": {
+  "accent": "#6E4A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "card1",
+    "label": "第 1 張卡",
+    "icon": "1️⃣",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "card2",
+    "label": "第 2 張卡",
+    "icon": "2️⃣",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "card3",
+    "label": "第 3 張卡",
+    "icon": "3️⃣",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "card4",
+    "label": "第 4 張卡",
+    "icon": "4️⃣",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "card5",
+    "label": "第 5 張卡",
+    "icon": "5️⃣",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "card6",
+    "label": "第 6 張卡",
+    "icon": "6️⃣",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "card7",
+    "label": "第 7 張卡",
+    "icon": "7️⃣",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

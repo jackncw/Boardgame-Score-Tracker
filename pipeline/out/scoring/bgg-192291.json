@@ -1,0 +1,59 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-192291",
+ "name": "Sushi Go Party!",
+ "nameZh": "壽司大亨:派對版",
+ "theme": {
+  "accent": "#D4574E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "nigiri",
+    "label": "握壽司",
+    "icon": "🍣",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rolls",
+    "label": "卷物",
+    "icon": "🍥",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "appetizers",
+    "label": "前菜",
+    "icon": "🥟",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "specials",
+    "label": "特製料理",
+    "icon": "✨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "desserts",
+    "label": "甜品",
+    "icon": "🍮",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

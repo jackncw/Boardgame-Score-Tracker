@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-9209",
+ "name": "Ticket to Ride",
+ "nameZh": "鐵道任務",
+ "theme": {
+  "accent": "#B5443C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "routes",
+    "label": "已建成路線分數",
+    "icon": "🚂",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tickets_done",
+    "label": "已完成車票",
+    "icon": "🎫",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tickets_fail",
+    "label": "未完成車票",
+    "icon": "❌",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "longest",
+    "label": "最長連續路線",
+    "icon": "🏆",
+    "color": "#F0E4D5",
+    "input": "bonus",
+    "value": 10
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-367220",
+ "name": "Sea Salt & Paper",
+ "nameZh": "海鹽與紙",
+ "theme": {
+  "accent": "#4A8C9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "combos",
+    "label": "卡牌組合分數",
+    "icon": "🐚",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "colorbonus",
+    "label": "顏色多數獎勵",
+    "icon": "🎨",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

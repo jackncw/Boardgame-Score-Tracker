@@ -3650,7 +3650,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "小城故事",
+  "accent": "#6E8C7A"
  },
  {
   "bggId": 215,
@@ -3663,7 +3665,9 @@
   "minPlayers": 3,
   "maxPlayers": 10,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "鬥地主・提喜",
+  "accent": "#B5443C"
  },
  {
   "bggId": 367220,
@@ -3676,7 +3680,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "海鹽與紙",
+  "accent": "#4A8C9B"
  },
  {
   "bggId": 14105,
@@ -3689,7 +3695,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "指揮與顏色:古代戰爭",
+  "accent": "#8C5A4A"
  },
  {
   "bggId": 385761,
@@ -3702,7 +3710,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "遠方",
+  "accent": "#7A5A9B"
  },
  {
   "bggId": 150376,
@@ -3728,7 +3738,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "安卡:埃及諸神",
+  "accent": "#C4913C"
  },
  {
   "bggId": 241451,
@@ -3754,7 +3766,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "尼德威阿爾",
+  "accent": "#5A4A8C"
  },
  {
   "bggId": 7854,
@@ -3780,7 +3794,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 10,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "克拉斯克",
+  "accent": "#3C5A8C"
  },
  {
   "bggId": 9209,
@@ -3793,7 +3809,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "鐵道任務",
+  "accent": "#B5443C"
  },
  {
   "bggId": 245638,
@@ -3806,7 +3824,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "科英布拉",
+  "accent": "#7A6E4A"
  },
  {
   "bggId": 306735,
@@ -3871,7 +3891,9 @@
   "minPlayers": 3,
   "maxPlayers": 8,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "駱駝大賽:第二版",
+  "accent": "#D9A441"
  },
  {
   "bggId": 329839,
@@ -3923,7 +3945,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "貓貓拼布",
+  "accent": "#C4708C"
  },
  {
   "bggId": 126042,
@@ -3936,7 +3960,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 200,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "國家",
+  "accent": "#7A6E5A"
  },
  {
   "bggId": 223040,
@@ -3949,7 +3975,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "幻想國度",
+  "accent": "#6E4A8C"
  },
  {
   "bggId": 224037,
@@ -3975,7 +4003,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 150,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "蒸餾",
+  "accent": "#8C6E3C"
  },
  {
   "bggId": 232832,
@@ -3988,7 +4018,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "世紀:魔像版",
+  "accent": "#4A7A8C"
  },
  {
   "bggId": 146886,
@@ -4001,7 +4033,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "農場",
+  "accent": "#7A8C5A"
  },
  {
   "bggId": 21050,
@@ -4027,7 +4061,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "遠近之境",
+  "accent": "#B5754A"
  },
  {
   "bggId": 351913,
@@ -4040,7 +4076,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 100,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "提勒圖姆",
+  "accent": "#8C7A5A"
  },
  {
   "bggId": 221194,
@@ -4053,7 +4091,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "恐龍島",
+  "accent": "#4A8C6E"
  },
  {
   "bggId": 129437,
@@ -4092,7 +4132,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "花見小路",
+  "accent": "#C4708C"
  },
  {
   "bggId": 381248,
@@ -4118,7 +4160,9 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "海盜王",
+  "accent": "#3C5A7A"
  },
  {
   "bggId": 192291,
@@ -4131,7 +4175,9 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "壽司大亨:派對版",
+  "accent": "#D4574E"
  },
  {
   "bggId": 199478,
@@ -4157,7 +4203,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "西部傳奇",
+  "accent": "#8C6E4A"
  },
  {
   "bggId": 156129,
@@ -4209,7 +4257,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 50,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "斯凱島",
+  "accent": "#5A7A6E"
  },
  {
   "bggId": 318977,
@@ -4235,7 +4285,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "羅馬榮耀",
+  "accent": "#B5443C"
  },
  {
   "bggId": 311193,
@@ -4248,7 +4300,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "紀元 1800",
+  "accent": "#4A6E8C"
  },
  {
   "bggId": 284189,
@@ -4261,7 +4315,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "羅馬基業",
+  "accent": "#9B7A4A"
  },
  {
   "bggId": 286096,
@@ -4274,7 +4330,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "文明編織",
+  "accent": "#7A5A8C"
  },
  {
   "bggId": 270633,

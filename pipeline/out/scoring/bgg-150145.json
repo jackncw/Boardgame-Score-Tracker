@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-150145",
+ "name": "Skull King",
+ "nameZh": "海盜王",
+ "theme": {
+  "accent": "#3C5A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "bids",
+    "label": "各局出價得分",
+    "note": "叫中加分,叫錯扣分",
+    "icon": "🎯",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "bonus",
+    "label": "獎勵分",
+    "note": "捉到海盜、人魚、海盜王等",
+    "icon": "🏴‍☠️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

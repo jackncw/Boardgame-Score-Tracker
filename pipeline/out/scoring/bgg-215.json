@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-215",
+ "name": "Tichu",
+ "nameZh": "鬥地主・提喜",
+ "theme": {
+  "accent": "#B5443C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "牌面分數",
+    "note": "每局共 100 分嘅牌面分",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "tichu",
+    "label": "報 Tichu 加減分",
+    "note": "成功 +100,失敗 -100",
+    "icon": "📣",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "grand",
+    "label": "報大 Tichu 加減分",
+    "note": "成功 +200,失敗 -200",
+    "icon": "📢",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "onetwo",
+    "label": "一二名(隊友包尾未出牌)",
+    "icon": "🥇",
+    "color": "#EADCF0",
+    "input": "bonus",
+    "value": 200
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

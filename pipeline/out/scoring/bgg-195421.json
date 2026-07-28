@@ -1,0 +1,59 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-195421",
+ "name": "Near and Far",
+ "nameZh": "遠近之境",
+ "theme": {
+  "accent": "#B5754A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "journeys",
+    "label": "旅程與故事",
+    "icon": "🗺️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "icon": "🏠",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "treasure",
+    "label": "寶藏",
+    "icon": "💎",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "reputation",
+    "label": "聲望",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "剩餘金錢與資源",
+    "icon": "🪙",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

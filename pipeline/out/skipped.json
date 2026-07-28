@@ -383,5 +383,152 @@
   "rank": 248,
   "name": "Captain Sonar",
   "reason": "隊制即時對戰遊戲,以擊沉對手潛艇定勝負,無累加計分"
+ },
+ {
+  "bggId": 150376,
+  "gameId": "bgg-150376",
+  "rank": 256,
+  "name": "Dead of Winter: A Crossroads Game",
+  "reason": "半合作生存遊戲,以個人危機目標成敗定勝負,無累加計分"
+ },
+ {
+  "bggId": 241451,
+  "gameId": "bgg-241451",
+  "rank": 258,
+  "name": "Aeon's End: Legacy",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 7854,
+  "gameId": "bgg-7854",
+  "rank": 260,
+  "name": "YINSH",
+  "reason": "抽象對弈,以先取得指定數量環定勝負,無累加計分"
+ },
+ {
+  "bggId": 306735,
+  "gameId": "bgg-306735",
+  "rank": 264,
+  "name": "Under Falling Skies",
+  "reason": "單人合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 91,
+  "gameId": "bgg-91",
+  "rank": 265,
+  "name": "Paths of Glory",
+  "reason": "雙人戰棋,以單一勝利點軌與突然死亡判定,唔需要分項計分表"
+ },
+ {
+  "bggId": 182631,
+  "gameId": "bgg-182631",
+  "rank": 266,
+  "name": "Star Realms: Colony Wars",
+  "reason": "以擊倒對手權威值定勝負,無累加計分"
+ },
+ {
+  "bggId": 188834,
+  "gameId": "bgg-188834",
+  "rank": 267,
+  "name": "Secret Hitler",
+  "reason": "社交推理遊戲,以陣營達成條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 329839,
+  "gameId": "bgg-329839",
+  "rank": 269,
+  "name": "So Clover!",
+  "reason": "合作制猜詞遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 295486,
+  "gameId": "bgg-295486",
+  "rank": 270,
+  "name": "My City",
+  "reason": "傳承戰役制,每章計分規則唔同,難以單一計分表覆蓋"
+ },
+ {
+  "bggId": 54998,
+  "gameId": "bgg-54998",
+  "rank": 271,
+  "name": "Cyclades",
+  "reason": "以先建成指定數量大都會定勝負,無累加計分"
+ },
+ {
+  "bggId": 224037,
+  "gameId": "bgg-224037",
+  "rank": 275,
+  "name": "Codenames: Duet",
+  "reason": "合作制猜詞遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 21050,
+  "gameId": "bgg-21050",
+  "rank": 279,
+  "name": "Combat Commander: Europe",
+  "reason": "劇本制雙人戰棋,以劇本勝利點判定,唔需要分項計分表"
+ },
+ {
+  "bggId": 129437,
+  "gameId": "bgg-129437",
+  "rank": 283,
+  "name": "Legendary: A Marvel Deck Building Game",
+  "reason": "合作制牌庫構築遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 3,
+  "gameId": "bgg-3",
+  "rank": 284,
+  "name": "Samurai",
+  "reason": "以三種身分符記多數比較定勝負,無累加計分"
+ },
+ {
+  "bggId": 381248,
+  "gameId": "bgg-381248",
+  "rank": 286,
+  "name": "Nemesis: Retaliation",
+  "reason": "半合作生存遊戲,以個人目標成敗定勝負,無累加計分"
+ },
+ {
+  "bggId": 199478,
+  "gameId": "bgg-199478",
+  "rank": 289,
+  "name": "Flamme Rouge",
+  "reason": "競速遊戲,以到終點名次定勝負,無累加計分"
+ },
+ {
+  "bggId": 156129,
+  "gameId": "bgg-156129",
+  "rank": 291,
+  "name": "Deception: Murder in Hong Kong",
+  "reason": "社交推理遊戲,以指認兇手定勝負,無累加計分"
+ },
+ {
+  "bggId": 176189,
+  "gameId": "bgg-176189",
+  "rank": 292,
+  "name": "Zombicide: Black Plague",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 274637,
+  "gameId": "bgg-274637",
+  "rank": 293,
+  "name": "Unmatched: Battle of Legends, Volume One",
+  "reason": "對戰遊戲,以擊倒對手生命值定勝負,無累加計分"
+ },
+ {
+  "bggId": 318977,
+  "gameId": "bgg-318977",
+  "rank": 295,
+  "name": "MicroMacro: Crime City",
+  "reason": "合作制找圖解謎遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 270633,
+  "gameId": "bgg-270633",
+  "rank": 300,
+  "name": "Aeon's End: The New Age",
+  "reason": "合作制遊戲,無玩家累加計分"
  }
 ]

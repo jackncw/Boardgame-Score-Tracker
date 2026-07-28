@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-158600",
+ "name": "Hanamikoji",
+ "nameZh": "花見小路",
+ "theme": {
+  "accent": "#C4708C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "charm",
+    "label": "已取得藝妓魅力值",
+    "note": "控制中嘅藝妓魅力值總和",
+    "icon": "🎎",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

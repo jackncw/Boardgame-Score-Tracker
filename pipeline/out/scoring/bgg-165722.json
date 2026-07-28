@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-165722",
+ "name": "KLASK",
+ "nameZh": "克拉斯克",
+ "theme": {
+  "accent": "#3C5A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "points",
+    "label": "得分",
+    "note": "每球 1 分,先到 6 分勝",
+    "icon": "⚫",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

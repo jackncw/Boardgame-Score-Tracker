@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-283155",
+ "name": "Calico",
+ "nameZh": "貓貓拼布",
+ "theme": {
+  "accent": "#C4708C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buttons",
+    "label": "鈕扣",
+    "note": "每粒 3 分",
+    "icon": "🔘",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "cats",
+    "label": "招來嘅貓",
+    "icon": "🐈",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goals",
+    "label": "設計目標磚",
+    "icon": "🎯",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

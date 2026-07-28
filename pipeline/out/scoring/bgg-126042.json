@@ -1,0 +1,59 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-126042",
+ "name": "Nations",
+ "nameZh": "國家",
+ "theme": {
+  "accent": "#7A6E5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中累積分數",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "books",
+    "label": "書籍",
+    "icon": "📚",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "wonders",
+    "label": "奇觀",
+    "icon": "🗿",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "colonies",
+    "label": "殖民地",
+    "icon": "🌍",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "war",
+    "label": "戰爭與其他獎勵",
+    "icon": "⚔️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

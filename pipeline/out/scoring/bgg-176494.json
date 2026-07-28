@@ -1,0 +1,59 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-176494",
+ "name": "Isle of Skye: From Chieftain to King",
+ "nameZh": "斯凱島",
+ "theme": {
+  "accent": "#5A7A6E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "scoring_a",
+    "label": "計分卡 A",
+    "icon": "🅰️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "scoring_b",
+    "label": "計分卡 B",
+    "icon": "🅱️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "scoring_c",
+    "label": "計分卡 C",
+    "icon": "🇨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "scoring_d",
+    "label": "計分卡 D",
+    "icon": "🇩",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "剩餘金錢結算",
+    "icon": "🪙",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
