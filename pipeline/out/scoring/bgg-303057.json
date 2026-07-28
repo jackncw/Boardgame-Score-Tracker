@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-303057",
+ "name": "Pan Am",
+ "nameZh": "泛美航空",
+ "theme": {
+  "accent": "#4A6E9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cash",
+    "label": "現金",
+    "icon": "💵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shares",
+    "label": "股份價值",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

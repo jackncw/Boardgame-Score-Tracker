@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-192458",
+ "name": "51st State: Master Set",
+ "nameZh": "第 51 州:大師版",
+ "theme": {
+  "accent": "#6E7A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中累積分數",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "endgame",
+    "label": "終局結算加分",
+    "icon": "🏚️",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

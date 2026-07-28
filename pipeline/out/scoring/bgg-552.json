@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-552",
+ "name": "Bus",
+ "nameZh": "巴士",
+ "theme": {
+  "accent": "#C4913C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "passengers",
+    "label": "已運送乘客",
+    "note": "每位 1 分",
+    "icon": "🚌",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

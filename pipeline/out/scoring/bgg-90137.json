@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-90137",
+ "name": "Blood Bowl: Team Manager – The Card Game",
+ "nameZh": "血碗:球隊經理",
+ "theme": {
+  "accent": "#5A7A4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "matches",
+    "label": "比賽得分累積",
+    "icon": "🏈",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "upgrades",
+    "label": "升級與贊助加分",
+    "icon": "💪",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

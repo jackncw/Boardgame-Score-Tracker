@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-195539",
+ "name": "The Godfather: Corleone's Empire",
+ "nameZh": "教父:柯里昂帝國",
+ "theme": {
+  "accent": "#6E4A4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "money",
+    "label": "最終金錢總額",
+    "note": "錢最多者勝",
+    "icon": "💵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

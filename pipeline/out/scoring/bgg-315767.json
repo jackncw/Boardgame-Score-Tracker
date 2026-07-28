@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-315767",
+ "name": "Cartographers Heroes",
+ "nameZh": "製圖師:英雄",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "spring",
+    "label": "春季得分",
+    "icon": "🌱",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "summer",
+    "label": "夏季得分",
+    "icon": "☀️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "autumn",
+    "label": "秋季得分",
+    "icon": "🍂",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "winter",
+    "label": "冬季得分",
+    "icon": "❄️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

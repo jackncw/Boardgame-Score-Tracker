@@ -1013,5 +1013,187 @@
   "rank": 447,
   "name": "For Northwood! A Solo Trick-Taking Game",
   "reason": "單人吃磴遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 181304,
+  "gameId": "bgg-181304",
+  "rank": 451,
+  "name": "Mysterium",
+  "reason": "合作制推理遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 319910,
+  "gameId": "bgg-319910",
+  "rank": 454,
+  "name": "Pagan: Fate of Roanoke",
+  "reason": "雙人不對稱隱藏身分遊戲,以達成陣營條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 199042,
+  "gameId": "bgg-199042",
+  "rank": 458,
+  "name": "Harry Potter: Hogwarts Battle",
+  "reason": "合作制牌庫構築遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 171,
+  "gameId": "bgg-171",
+  "rank": 463,
+  "name": "Chess",
+  "reason": "抽象對弈,以將死對手定勝負,無累加計分"
+ },
+ {
+  "bggId": 37046,
+  "gameId": "bgg-37046",
+  "rank": 464,
+  "name": "Ghost Stories",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 41114,
+  "gameId": "bgg-41114",
+  "rank": 465,
+  "name": "The Resistance",
+  "reason": "社交推理遊戲,以陣營達成條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 386368,
+  "gameId": "bgg-386368",
+  "rank": 466,
+  "name": "Ezra and Nehemiah",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 342900,
+  "gameId": "bgg-342900",
+  "rank": 467,
+  "name": "Earthborne Rangers",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 368305,
+  "gameId": "bgg-368305",
+  "rank": 469,
+  "name": "Life of the Amazonia",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 290484,
+  "gameId": "bgg-290484",
+  "rank": 472,
+  "name": "Unsettled",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 335764,
+  "gameId": "bgg-335764",
+  "rank": 474,
+  "name": "Unmatched: Battle of Legends, Volume Two",
+  "reason": "對戰遊戲,以擊倒對手生命值定勝負,無累加計分"
+ },
+ {
+  "bggId": 206480,
+  "gameId": "bgg-206480",
+  "rank": 475,
+  "name": "Imperial Struggle",
+  "reason": "雙人戰棋,以單一勝利點軌判定,唔需要分項計分表"
+ },
+ {
+  "bggId": 385610,
+  "gameId": "bgg-385610",
+  "rank": 476,
+  "name": "Kutná Hora: The City of Silver",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 260428,
+  "gameId": "bgg-260428",
+  "rank": 477,
+  "name": "Fall of Rome",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 365258,
+  "gameId": "bgg-365258",
+  "rank": 479,
+  "name": "World Wonders",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 367498,
+  "gameId": "bgg-367498",
+  "rank": 481,
+  "name": "Horizons of Spirit Island",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 163745,
+  "gameId": "bgg-163745",
+  "rank": 483,
+  "name": "Star Wars: Armada",
+  "reason": "微縮模型對戰遊戲,以擊毀對手艦隊定勝負,無累加計分"
+ },
+ {
+  "bggId": 318243,
+  "gameId": "bgg-318243",
+  "rank": 484,
+  "name": "Hitster",
+  "reason": "音樂猜年份派對遊戲,以最先儲夠卡定勝負,無累加計分"
+ },
+ {
+  "bggId": 352515,
+  "gameId": "bgg-352515",
+  "rank": 486,
+  "name": "Trio",
+  "reason": "以儲齊指定三條組合定勝負,無累加計分"
+ },
+ {
+  "bggId": 15987,
+  "gameId": "bgg-15987",
+  "rank": 488,
+  "name": "Arkham Horror",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 322708,
+  "gameId": "bgg-322708",
+  "rank": 492,
+  "name": "Descent: Legends of the Dark",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 379629,
+  "gameId": "bgg-379629",
+  "rank": 494,
+  "name": "Knarr",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 92415,
+  "gameId": "bgg-92415",
+  "rank": 496,
+  "name": "Skull",
+  "reason": "以贏兩次挑戰定勝負,無累加計分"
+ },
+ {
+  "bggId": 222509,
+  "gameId": "bgg-222509",
+  "rank": 497,
+  "name": "Lords of Hellas",
+  "reason": "以達成多種勝利條件擇一定勝負,無累加計分"
+ },
+ {
+  "bggId": 234,
+  "gameId": "bgg-234",
+  "rank": 498,
+  "name": "Hannibal: Rome vs. Carthage",
+  "reason": "雙人戰棋,以佔領行省定勝負,無累加計分"
+ },
+ {
+  "bggId": 381297,
+  "gameId": "bgg-381297",
+  "rank": 499,
+  "name": "Unmatched Adventures: Tales to Amaze",
+  "reason": "合作制遊戲,無玩家累加計分"
  }
 ]

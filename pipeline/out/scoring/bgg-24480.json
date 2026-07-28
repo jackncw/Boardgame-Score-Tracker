@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-24480",
+ "name": "The Pillars of the Earth",
+ "nameZh": "大教堂",
+ "theme": {
+  "accent": "#8C7A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中累積分數",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "endgame",
+    "label": "終局結算(剩餘金錢等)",
+    "icon": "⛪",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

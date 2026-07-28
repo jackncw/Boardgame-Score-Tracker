@@ -6483,7 +6483,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "把握當下",
+  "accent": "#8C6E4A"
  },
  {
   "bggId": 90137,
@@ -6496,7 +6498,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "血碗:球隊經理",
+  "accent": "#5A7A4A"
  },
  {
   "bggId": 319910,
@@ -6522,7 +6526,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 160,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "帝國:傳奇",
+  "accent": "#5A4A8C"
  },
  {
   "bggId": 552,
@@ -6535,7 +6541,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "巴士",
+  "accent": "#C4913C"
  },
  {
   "bggId": 303057,
@@ -6548,7 +6556,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "泛美航空",
+  "accent": "#4A6E9B"
  },
  {
   "bggId": 199042,
@@ -6574,7 +6584,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "教父:柯里昂帝國",
+  "accent": "#6E4A4A"
  },
  {
   "bggId": 315767,
@@ -6587,7 +6599,9 @@
   "minPlayers": 1,
   "maxPlayers": 100,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "製圖師:英雄",
+  "accent": "#5A6E8C"
  },
  {
   "bggId": 146439,
@@ -6600,7 +6614,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "戰爭傳說:第二版",
+  "accent": "#7A4A4A"
  },
  {
   "bggId": 119890,
@@ -6613,7 +6629,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "農家樂:牧場物語",
+  "accent": "#7A9B5A"
  },
  {
   "bggId": 171,
@@ -6691,7 +6709,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "加倍妙不可言",
+  "accent": "#4A7A8C"
  },
  {
   "bggId": 368305,
@@ -6717,7 +6737,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "巴黎聖母院",
+  "accent": "#6E5A7A"
  },
  {
   "bggId": 284742,
@@ -6730,7 +6752,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "蜂蜜嗡嗡",
+  "accent": "#D9A441"
  },
  {
   "bggId": 290484,
@@ -6756,7 +6780,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "大教堂",
+  "accent": "#8C7A5A"
  },
  {
   "bggId": 335764,
@@ -6821,7 +6847,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "牛頓",
+  "accent": "#5A6E8C"
  },
  {
   "bggId": 365258,
@@ -6847,7 +6875,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "IKI 江戶職人",
+  "accent": "#B5654A"
  },
  {
   "bggId": 367498,
@@ -6873,7 +6903,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "日本:財閥",
+  "accent": "#B5443C"
  },
  {
   "bggId": 163745,
@@ -6912,7 +6944,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "南底格里斯的學者",
+  "accent": "#7A6E9B"
  },
  {
   "bggId": 352515,
@@ -6938,7 +6972,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "高原",
+  "accent": "#8C7A5A"
  },
  {
   "bggId": 15987,
@@ -6964,7 +7000,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "故宮",
+  "accent": "#B5443C"
  },
  {
   "bggId": 39683,
@@ -6977,7 +7015,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "洛陽城外",
+  "accent": "#7A8C5A"
  },
  {
   "bggId": 9217,
@@ -6990,7 +7030,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "聖彼得堡",
+  "accent": "#4A6E8C"
  },
  {
   "bggId": 322708,
@@ -7016,7 +7058,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "第 51 州:大師版",
+  "accent": "#6E7A5A"
  },
  {
   "bggId": 379629,
@@ -7042,7 +7086,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 160,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "布恩湖",
+  "accent": "#4A7A6E"
  },
  {
   "bggId": 92415,
@@ -7107,7 +7153,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "東京之王",
+  "accent": "#C4543C"
  },
  {
   "bggId": 286751,
