@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-270673",
+ "name": "Silver & Gold",
+ "nameZh": "銀與金",
+ "theme": {
+  "accent": "#D9A441"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "已完成卡片分數",
+    "icon": "🗺️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "coins",
+    "label": "硬幣圖示",
+    "icon": "🪙",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "palms",
+    "label": "棕櫚樹獎勵",
+    "icon": "🌴",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

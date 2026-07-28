@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-270239",
+ "name": "Moonrakers",
+ "nameZh": "月光掠奪者",
+ "theme": {
+  "accent": "#4A5A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "contracts",
+    "label": "已完成合約分數",
+    "icon": "📋",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "prestige",
+    "label": "聲望與其他加分",
+    "icon": "⭐",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

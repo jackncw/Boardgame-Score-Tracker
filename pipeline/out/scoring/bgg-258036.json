@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-258036",
+ "name": "Between Two Castles of Mad King Ludwig",
+ "nameZh": "瘋狂國王的雙城",
+ "theme": {
+  "accent": "#7A5A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "得分(兩座城堡入面較低嗰座)",
+    "icon": "🏰",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

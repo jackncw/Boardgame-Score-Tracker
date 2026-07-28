@@ -10690,7 +10690,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 360,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "殖民者",
+  "accent": "#7A8C5A"
  },
  {
   "bggId": 141572,
@@ -10703,7 +10705,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "平裝書",
+  "accent": "#8C6E5A"
  },
  {
   "bggId": 2398,
@@ -10716,7 +10720,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "克里比奇",
+  "accent": "#5A7A5A"
  },
  {
   "bggId": 244114,
@@ -10729,7 +10735,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "黃河與長江",
+  "accent": "#C4913C"
  },
  {
   "bggId": 39351,
@@ -10742,7 +10750,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "汽車工業",
+  "accent": "#5A5A5A"
  },
  {
   "bggId": 153016,
@@ -10768,7 +10778,9 @@
   "minPlayers": 2,
   "maxPlayers": 7,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "帝國之爭",
+  "accent": "#7A4A4A"
  },
  {
   "bggId": 270673,
@@ -10781,7 +10793,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "銀與金",
+  "accent": "#D9A441"
  },
  {
   "bggId": 224710,
@@ -10807,7 +10821,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "翠綠",
+  "accent": "#5A8C5A"
  },
  {
   "bggId": 140603,
@@ -10820,7 +10836,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "法蘭西斯・德瑞克",
+  "accent": "#4A6E8C"
  },
  {
   "bggId": 347305,
@@ -10846,7 +10864,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "底比斯",
+  "accent": "#C4913C"
  },
  {
   "bggId": 135779,
@@ -10924,7 +10944,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "龐貝末日",
+  "accent": "#B5443C"
  },
  {
   "bggId": 41,
@@ -10950,7 +10972,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 150,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "優勢物種:海洋",
+  "accent": "#4A7A8C"
  },
  {
   "bggId": 273330,
@@ -10989,7 +11013,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "卡森市",
+  "accent": "#B5754A"
  },
  {
   "bggId": 6472,
@@ -11015,7 +11041,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "梅爾夫:絲路之心",
+  "accent": "#8C6E4A"
  },
  {
   "bggId": 10547,
@@ -11067,7 +11095,9 @@
   "minPlayers": 2,
   "maxPlayers": 7,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "瘋狂國王的雙城",
+  "accent": "#7A5A9B"
  },
  {
   "bggId": 180593,
@@ -11080,7 +11110,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "血腥客棧",
+  "accent": "#6E4A4A"
  },
  {
   "bggId": 135219,
@@ -11132,7 +11164,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "演化",
+  "accent": "#6E8C5A"
  },
  {
   "bggId": 316624,
@@ -11158,7 +11192,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "王國創建者",
+  "accent": "#5A8C6E"
  },
  {
   "bggId": 441696,
@@ -11197,7 +11233,9 @@
   "minPlayers": 4,
   "maxPlayers": 18,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "時間到!",
+  "accent": "#D4574E"
  },
  {
   "bggId": 171499,
@@ -11210,7 +11248,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "可可豆",
+  "accent": "#8C5A3C"
  },
  {
   "bggId": 361545,
@@ -11236,7 +11276,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "月光掠奪者",
+  "accent": "#4A5A8C"
  },
  {
   "bggId": 326494,
@@ -11275,7 +11317,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "鐵路墨水挑戰:翠綠版",
+  "accent": "#5A8C5A"
  },
  {
   "bggId": 100423,

@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-1353",
+ "name": "Time's Up!",
+ "nameZh": "時間到!",
+ "theme": {
+  "accent": "#D4574E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "round1",
+    "label": "第一輪得分",
+    "icon": "1️⃣",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "round2",
+    "label": "第二輪得分",
+    "icon": "2️⃣",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "round3",
+    "label": "第三輪得分",
+    "icon": "3️⃣",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

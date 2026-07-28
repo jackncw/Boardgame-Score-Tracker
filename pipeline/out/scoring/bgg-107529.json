@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-107529",
+ "name": "Kingdom Builder",
+ "nameZh": "王國創建者",
+ "theme": {
+  "accent": "#5A8C6E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "goal_a",
+    "label": "目標卡 A",
+    "icon": "🅰️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goal_b",
+    "label": "目標卡 B",
+    "icon": "🅱️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goal_c",
+    "label": "目標卡 C",
+    "icon": "🇨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "castles",
+    "label": "相鄰嘅城堡",
+    "note": "每座 3 分",
+    "icon": "🏰",
+    "color": "#F0E4D5",
+    "input": "counter",
+    "unitValue": 3
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

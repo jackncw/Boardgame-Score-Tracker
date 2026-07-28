@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-262941",
+ "name": "Dominant Species: Marine",
+ "nameZh": "優勢物種:海洋",
+ "theme": {
+  "accent": "#4A7A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "dominance",
+    "label": "遊戲中支配卡與計分",
+    "icon": "🐙",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "endtiles",
+    "label": "終局板塊計分",
+    "icon": "🗺️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "misc",
+    "label": "其他加減分",
+    "icon": "➕",
+    "color": "#E8E8E8",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

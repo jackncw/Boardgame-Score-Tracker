@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-39351",
+ "name": "Automobile",
+ "nameZh": "汽車工業",
+ "theme": {
+  "accent": "#5A5A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cash",
+    "label": "最終現金總額",
+    "note": "錢最多者勝",
+    "icon": "💵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

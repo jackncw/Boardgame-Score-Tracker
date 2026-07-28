@@ -2084,5 +2084,201 @@
   "rank": 749,
   "name": "Star Wars: The Clone Wars",
   "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 190082,
+  "gameId": "bgg-190082",
+  "rank": 751,
+  "name": "Whitehall Mystery",
+  "reason": "一對多追捕遊戲,以捉到/逃脫定勝負,無累加計分"
+ },
+ {
+  "bggId": 434906,
+  "gameId": "bgg-434906",
+  "rank": 752,
+  "name": "Tag Team",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 153016,
+  "gameId": "bgg-153016",
+  "rank": 758,
+  "name": "Telestrations: 12 Player Party Pack",
+  "reason": "派對繪畫傳話遊戲,無正式累加計分"
+ },
+ {
+  "bggId": 224710,
+  "gameId": "bgg-224710",
+  "rank": 761,
+  "name": "Zombicide: Green Horde",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 347305,
+  "gameId": "bgg-347305",
+  "rank": 764,
+  "name": "Inventions: Evolution of Ideas",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 135779,
+  "gameId": "bgg-135779",
+  "rank": 766,
+  "name": "A Fake Artist Goes to New York",
+  "reason": "社交推理遊戲,以指認冒牌貨定勝負,無累加計分"
+ },
+ {
+  "bggId": 368061,
+  "gameId": "bgg-368061",
+  "rank": 767,
+  "name": "Zoo Vadis",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 113924,
+  "gameId": "bgg-113924",
+  "rank": 768,
+  "name": "Zombicide",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 123123,
+  "gameId": "bgg-123123",
+  "rank": 769,
+  "name": "BattleCON: Devastation of Indines",
+  "reason": "雙人對戰,以擊倒對手生命值定勝負,無累加計分"
+ },
+ {
+  "bggId": 328479,
+  "gameId": "bgg-328479",
+  "rank": 770,
+  "name": "Living Forest",
+  "reason": "以最先儲齊指定數量圖示定勝負,無累加計分"
+ },
+ {
+  "bggId": 41,
+  "gameId": "bgg-41",
+  "rank": 772,
+  "name": "Can't Stop",
+  "reason": "以先搶到三條數列定勝負,無累加計分"
+ },
+ {
+  "bggId": 273330,
+  "gameId": "bgg-273330",
+  "rank": 774,
+  "name": "Bloodborne: The Board Game",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 160010,
+  "gameId": "bgg-160010",
+  "rank": 775,
+  "name": "Conan",
+  "reason": "一對多劇本制遊戲,以完成任務定勝負,無累加計分"
+ },
+ {
+  "bggId": 6472,
+  "gameId": "bgg-6472",
+  "rank": 777,
+  "name": "A Game of Thrones",
+  "reason": "區域控制遊戲,以佔領城堡數定勝負,無累加計分"
+ },
+ {
+  "bggId": 10547,
+  "gameId": "bgg-10547",
+  "rank": 779,
+  "name": "Betrayal at House on the Hill",
+  "reason": "半合作恐怖遊戲,以陣營成敗定勝負,無累加計分"
+ },
+ {
+  "bggId": 143519,
+  "gameId": "bgg-143519",
+  "rank": 780,
+  "name": "Quantum",
+  "reason": "以最先放晒量子方塊定勝負,無累加計分"
+ },
+ {
+  "bggId": 37904,
+  "gameId": "bgg-37904",
+  "rank": 781,
+  "name": "Formula D",
+  "reason": "競速遊戲,以到終點名次定勝負,無累加計分"
+ },
+ {
+  "bggId": 135219,
+  "gameId": "bgg-135219",
+  "rank": 784,
+  "name": "The Battle of Five Armies",
+  "reason": "雙人戰棋,以陣營勝利條件定勝負,無累加計分"
+ },
+ {
+  "bggId": 42776,
+  "gameId": "bgg-42776",
+  "rank": 785,
+  "name": "Gears of War: The Board Game",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 204472,
+  "gameId": "bgg-204472",
+  "rank": 786,
+  "name": "Sub Terra",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 316624,
+  "gameId": "bgg-316624",
+  "rank": 788,
+  "name": "Stationfall",
+  "reason": "隱藏身分遊戲,以個人目標成敗定勝負,無累加計分"
+ },
+ {
+  "bggId": 441696,
+  "gameId": "bgg-441696",
+  "rank": 790,
+  "name": "Sanctuary",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 447243,
+  "gameId": "bgg-447243",
+  "rank": 791,
+  "name": "Duel for Cardia",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 361545,
+  "gameId": "bgg-361545",
+  "rank": 794,
+  "name": "Twilight Inscription",
+  "reason": "規則細節不足以確定計分項,避免老作"
+ },
+ {
+  "bggId": 326494,
+  "gameId": "bgg-326494",
+  "rank": 796,
+  "name": "The Adventures of Robin Hood",
+  "reason": "合作制戰役遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 24508,
+  "gameId": "bgg-24508",
+  "rank": 797,
+  "name": "Taluva",
+  "reason": "以最先放晒建築物定勝負,無累加計分"
+ },
+ {
+  "bggId": 100423,
+  "gameId": "bgg-100423",
+  "rank": 799,
+  "name": "Elder Sign",
+  "reason": "合作制遊戲,無玩家累加計分"
+ },
+ {
+  "bggId": 209778,
+  "gameId": "bgg-209778",
+  "rank": 800,
+  "name": "Magic Maze",
+  "reason": "合作制即時遊戲,無玩家累加計分"
  }
 ]

@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-39938",
+ "name": "Carson City",
+ "nameZh": "卡森市",
+ "theme": {
+  "accent": "#B5754A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "icon": "🏠",
+    "color": "#F0E4D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "land",
+    "label": "地皮",
+    "icon": "🗺️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "剩餘金錢",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

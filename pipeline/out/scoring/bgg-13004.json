@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-13004",
+ "name": "The Downfall of Pompeii",
+ "nameZh": "龐貝末日",
+ "theme": {
+  "accent": "#B5443C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "rescued",
+    "label": "已救出居民",
+    "note": "每個 1 分",
+    "icon": "🏃",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
