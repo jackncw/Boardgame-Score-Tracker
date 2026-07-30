@@ -218,3 +218,22 @@ PDF 損壞)就仍然係 `pending`,唔可以硬砌。
 同雙人變體大幅扣分,揀最高分嗰個;最高分低過 4 就當搵唔到。
 呢個改動之前會將 Inventors of the South Tigris 嘅**單人假想對手計分**
 當成終局計分 —— 嗰啲數字係簡化值,照抄落去就錯。
+
+## desc-gen —— 最低信度層(2026-07-30 第三次放寬)
+
+搵唔到任何 rulebook 嗰批(約 730 隻),准許靠 **BGG 描述 + 機制判斷**寫
+「純類別表」。用 `gameDesc()`,`lib/gen.mjs` 會出 `source:"desc-gen"`。
+
+**鐵律(check.mjs 會強制)**:
+
+- 一個單價/對照表/bonus 數字都唔准寫 —— **所有欄一定係 `number`**
+- 每份自動補一個 catch-all 欄 `id:"other"`(「其他分數」),類別估漏咗用家有位入
+- 連計分類別都判斷唔到 → **維持 pending,唔准老作類別**
+
+`source` 分三層,一眼分到信度:
+
+| source | 意思 |
+| --- | --- |
+| `rulebook-web` | 讀過官方 rulebook,單價係明文 |
+| `claude-code-gen` | 肯定計分類別,單價未確認故留空 |
+| `desc-gen` | **最低信度** —— 冇 rulebook,只有類別 |

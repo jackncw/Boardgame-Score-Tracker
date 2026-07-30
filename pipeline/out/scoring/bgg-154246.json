@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-154246",
+ "name": "La Isla",
+ "nameZh": "拉伊斯拉",
+ "theme": {
+  "accent": "#4A8C6A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "animals",
+    "label": "已收集動物",
+    "note": "捕獲嘅動物種類同數量帶嚟嘅 VP",
+    "icon": "🦎",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "areas",
+    "label": "區域包圍",
+    "note": "包圍島上區域帶嚟嘅 VP",
+    "icon": "🏝️",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "探險家卡",
+    "note": "已打出探險家卡帶嚟嘅 VP",
+    "icon": "🧭",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

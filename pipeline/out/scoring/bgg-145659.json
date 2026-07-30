@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-145659",
+ "name": "Scoville",
+ "nameZh": "斯科維爾",
+ "theme": {
+  "accent": "#C4543C"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "recipes",
+    "label": "完成訂單",
+    "note": "已完成辣椒訂單卡帶嚟嘅分",
+    "icon": "🌶️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "awards",
+    "label": "獎項",
+    "note": "展覽會獎項帶嚟嘅分",
+    "icon": "🏆",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "peppers",
+    "label": "剩餘辣椒",
+    "note": "終局手上辣椒按規則換到嘅分",
+    "icon": "🫑",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "market",
+    "label": "市集升級",
+    "note": "已購買市集升級帶嚟嘅分",
+    "icon": "🏪",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

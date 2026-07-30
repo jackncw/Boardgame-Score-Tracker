@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-291508",
+ "name": "Tiny Epic Dinosaurs",
+ "nameZh": "微型史詩:恐龍",
+ "theme": {
+  "accent": "#4A8C5A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "dinos",
+    "label": "恐龍",
+    "note": "農場入面嘅恐龍帶嚟嘅 VP",
+    "icon": "🦖",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "contracts",
+    "label": "已完成合約",
+    "note": "完成咗嘅合約帶嚟嘅 VP",
+    "icon": "📋",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fences",
+    "label": "圍欄與土地",
+    "note": "已圍好嘅土地帶嚟嘅 VP",
+    "icon": "🚧",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源",
+    "note": "終局剩低嘅資源按規則換到嘅分",
+    "icon": "🌾",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

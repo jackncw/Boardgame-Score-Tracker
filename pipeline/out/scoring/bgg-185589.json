@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-185589",
+ "name": "Islebound",
+ "nameZh": "島嶼邊界",
+ "theme": {
+  "accent": "#3E8E8A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "note": "已建建築物帶嚟嘅 VP",
+    "icon": "🏛️",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "towns",
+    "label": "已控制城鎮",
+    "note": "控制住嘅城鎮帶嚟嘅 VP",
+    "icon": "🏘️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "reputation",
+    "label": "聲望",
+    "note": "聲望軌上嘅位置帶嚟嘅 VP",
+    "icon": "🏴",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

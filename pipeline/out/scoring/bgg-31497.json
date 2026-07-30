@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-31497",
+ "name": "Oregon",
+ "nameZh": "俄勒岡",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "note": "已建建築帶嚟嘅 VP",
+    "icon": "🏠",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "farmers",
+    "label": "農夫與農作",
+    "note": "農夫同已收農作帶嚟嘅 VP",
+    "icon": "🌾",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gold",
+    "label": "金礦與煤礦",
+    "note": "礦產帶嚟嘅 VP",
+    "icon": "⛏️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

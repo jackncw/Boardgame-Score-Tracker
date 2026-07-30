@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-284936",
+ "name": "Café",
+ "nameZh": "咖啡館",
+ "theme": {
+  "accent": "#7A5A3A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "plantations",
+    "label": "種植園",
+    "note": "已建種植園帶嚟嘅 VP",
+    "icon": "🌱",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "processing",
+    "label": "加工設施",
+    "note": "烘焙同加工設施帶嚟嘅 VP",
+    "icon": "⚙️",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "exports",
+    "label": "出口訂單",
+    "note": "已完成出口帶嚟嘅 VP",
+    "icon": "🚢",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

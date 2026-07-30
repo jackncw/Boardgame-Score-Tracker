@@ -14,6 +14,7 @@ import { execFileSync } from "node:child_process";
 import { join } from "node:path";
 
 const START = Number(process.argv[2]) || 0;
+const WINDOW = Number(process.argv[4]) || 45;   // 抽幾多行(之前 26 行會截斷長清單)
 const COUNT = Number(process.argv[3]) || 10;
 const TMP = process.env.TMPDIR || process.env.TEMP || ".";
 const DIR = join(TMP, "rulebooks");
@@ -52,7 +53,7 @@ for (const h of todo) {
        「score / point / VP」嘅密度,同埋有冇逐項列舉(每項/each)。
        揀分數最高嗰個,唔係第一個撞到嘅。 */
     const density = (from) => {
-      const seg = lines.slice(from, from + 26).join(" ");
+      const seg = lines.slice(from, from + WINDOW).join(" ");
       const hits = (seg.match(/\b(score|scores|scoring|point|points|VP)\b/gi) || []).length;
       const each = (seg.match(/\b(each|every|per)\b/gi) || []).length;
       // 單人/變體段落嘅特徵字,見到就大幅扣分
@@ -77,7 +78,7 @@ for (const h of todo) {
       continue;
     }
     console.log(`錨點 /${best.used}/ @ line ${best.at + 1}(密度 ${best.sc})`);
-    console.log(lines.slice(best.at, best.at + 26).map(s => s.trim()).filter(Boolean).join("\n"));
+    console.log(lines.slice(best.at, best.at + WINDOW).map(s => s.trim()).filter(Boolean).join("\n"));
   } catch (e) {
     console.log(`\n===== ${h.rank} | ${h.bggId} | ${h.name}\n(處理失敗:${e.message.slice(0, 80)})`);
   }

@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-299960",
+ "name": "Alma Mater",
+ "nameZh": "母校",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "students",
+    "label": "學生",
+    "note": "校園入面嘅學生帶嚟嘅威望分",
+    "icon": "🎓",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "books",
+    "label": "書籍與字典",
+    "note": "收藏嘅書籍帶嚟嘅威望分",
+    "icon": "📚",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "research",
+    "label": "研究進度",
+    "note": "研究軌上嘅位置帶嚟嘅威望分",
+    "icon": "🔬",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "halls",
+    "label": "講堂與大師",
+    "note": "講堂同大師帶嚟嘅威望分",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-491",
+ "name": "Web of Power",
+ "nameZh": "權力之網",
+ "theme": {
+  "accent": "#7A4B6B"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cloisters",
+    "label": "修道院多數",
+    "note": "各國按修道院數量多數計嘅分",
+    "icon": "⛪",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "advisors",
+    "label": "顧問多數",
+    "note": "各國按顧問數量多數計嘅分",
+    "icon": "🎓",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "network",
+    "label": "修道院網絡",
+    "note": "相連修道院網絡帶嚟嘅分",
+    "icon": "🔗",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

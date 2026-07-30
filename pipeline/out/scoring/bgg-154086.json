@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-154086",
+ "name": "Gold West",
+ "nameZh": "西部淘金",
+ "theme": {
+  "accent": "#B08D57"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "shipments",
+    "label": "已運出貨物",
+    "note": "運到目的地嘅貨物帶嚟嘅 VP",
+    "icon": "🚚",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "towns",
+    "label": "城鎮",
+    "note": "喺城鎮嘅存在感帶嚟嘅 VP",
+    "icon": "🏘️",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "camps",
+    "label": "營地",
+    "note": "已建營地帶嚟嘅 VP",
+    "icon": "⛺",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "boomtown",
+    "label": "繁榮鎮軌",
+    "note": "繁榮鎮軌上嘅位置帶嚟嘅 VP",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

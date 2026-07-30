@@ -56,6 +56,27 @@ export const gameSrc = (bggId, nameZh, accent, tieBreaker, fields, sourceUrl) =>
   return { bggId, nameZh, accent, tieBreaker, fields, sourceUrl };
 };
 
+/** catch-all —— desc-gen 一定要有,類別估漏咗用家有位入 */
+const OTHER = {
+  id: "other", label: "其他分數",
+  note: "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+  icon: "➕", color: "#E5E0D5", input: "number", min: 0,
+};
+
+/**
+ * 最低信度層 —— 冇 rulebook,靠 BGG 描述 + 機制判斷寫類別。
+ * 鐵律:一個單價/對照表/bonus 數字都唔准寫,所有欄一定係 number。
+ * 自動補 catch-all「其他分數」欄。
+ */
+export const gameDesc = (bggId, nameZh, accent, tieBreaker, fields) => {
+  for (const f of fields) {
+    if (f.input !== "number")
+      throw new Error(`bggId=${bggId}:desc-gen 只准用 n()(${f.id} 係 ${f.input})`);
+  }
+  if (fields.length > 19) throw new Error(`bggId=${bggId}:欄位太多,加埋 other 會爆 20`);
+  return { bggId, nameZh, accent, tieBreaker, fields: [...fields, OTHER], __desc: true };
+};
+
 export const skip = (bggId, reason) => ({ bggId, reason, __skip: true });
 
 // ---- writer -----------------------------------------------------------
@@ -104,7 +125,7 @@ export function writeBatch(entries) {
       nameZh: e.nameZh,
       theme: { accent: e.accent },
       scoring: {
-        source: e.sourceUrl ? "rulebook-web" : "claude-code-gen",
+        source: e.__desc ? "desc-gen" : e.sourceUrl ? "rulebook-web" : "claude-code-gen",
         ...(e.sourceUrl ? { sourceUrl: e.sourceUrl } : {}),
         verified: false,
         tieBreaker: e.tieBreaker,

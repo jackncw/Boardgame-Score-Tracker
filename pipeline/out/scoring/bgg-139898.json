@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-139898",
+ "name": "Brew Crafters",
+ "nameZh": "精釀師",
+ "theme": {
+  "accent": "#7A5A3A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "beers",
+    "label": "已釀啤酒",
+    "note": "完成嘅啤酒配方帶嚟嘅 VP",
+    "icon": "🍺",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "upgrades",
+    "label": "廠房升級",
+    "note": "已購買升級帶嚟嘅 VP",
+    "icon": "🏭",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "workers",
+    "label": "員工與研究",
+    "note": "已聘員工同研究成果帶嚟嘅 VP",
+    "icon": "👷",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

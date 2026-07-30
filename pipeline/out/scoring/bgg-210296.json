@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-210296",
+ "name": "DinoGenics",
+ "nameZh": "恐龍基因",
+ "theme": {
+  "accent": "#4A8C5A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "dinos",
+    "label": "園內恐龍",
+    "note": "公園入面嘅恐龍帶嚟嘅 VP",
+    "icon": "🦕",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "park",
+    "label": "園區設施",
+    "note": "已建設施同圍欄帶嚟嘅 VP",
+    "icon": "🎡",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "contracts",
+    "label": "已完成合約",
+    "note": "完成咗嘅合約帶嚟嘅 VP",
+    "icon": "📋",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

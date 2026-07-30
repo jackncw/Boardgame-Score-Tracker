@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-191051",
+ "name": "Outlive",
+ "nameZh": "倖存者",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "survivors",
+    "label": "生還者",
+    "note": "帶到最後嘅生還者帶嚟嘅分",
+    "icon": "🧑‍🤝‍🧑",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "equipment",
+    "label": "裝備",
+    "note": "已裝配嘅裝備帶嚟嘅分",
+    "icon": "🔧",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源",
+    "note": "終局剩低嘅資源按規則換到嘅分",
+    "icon": "📦",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
