@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-422484",
+ "name": "King of Tokyo: Duel",
+ "nameZh": "東京之王:對決",
+ "theme": {
+  "accent": "#C4543C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "勝利點數",
+    "note": "儲夠指定分數即勝;打低對手亦勝",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

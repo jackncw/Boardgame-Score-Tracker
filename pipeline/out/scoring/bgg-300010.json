@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-300010",
+ "name": "Dragomino",
+ "nameZh": "小小龍骨牌",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "dragons",
+    "label": "小龍寶寶",
+    "note": "配對成功攞到嘅小龍寶寶數目,最多者勝",
+    "icon": "🐉",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

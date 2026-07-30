@@ -23616,7 +23616,9 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "眼明手快",
+  "accent": "#C9553C"
  },
  {
   "bggId": 624,
@@ -23876,7 +23878,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "CABO(第二版)",
+  "accent": "#5A7A8C"
  },
  {
   "bggId": 98527,
@@ -23967,7 +23971,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "小小龍骨牌",
+  "accent": "#6B9B5A"
  },
  {
   "bggId": 10640,
@@ -24019,7 +24025,9 @@
   "minPlayers": 3,
   "maxPlayers": 8,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "各抒己見",
+  "accent": "#C97A9B"
  },
  {
   "bggId": 348096,
@@ -24162,7 +24170,9 @@
   "minPlayers": 4,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "現金與槍",
+  "accent": "#8C3F3F"
  },
  {
   "bggId": 204,
@@ -24357,7 +24367,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "馬拉喀什",
+  "accent": "#C9553C"
  },
  {
   "bggId": 216201,
@@ -24578,7 +24590,9 @@
   "minPlayers": 3,
   "maxPlayers": 7,
   "playTime": 540,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "1817",
+  "accent": "#4A6E4A"
  },
  {
   "bggId": 53093,
@@ -25098,7 +25112,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "東京之王:對決",
+  "accent": "#C4543C"
  },
  {
   "bggId": 424573,
@@ -25202,7 +25218,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "CABO",
+  "accent": "#5A7A8C"
  },
  {
   "bggId": 358816,
@@ -25462,7 +25480,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "八分鐘帝國",
+  "accent": "#7A4A5A"
  },
  {
   "bggId": 481,
@@ -25553,7 +25573,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "1849:西西里鐵道",
+  "accent": "#4A6E4A"
  },
  {
   "bggId": 196202,
@@ -25644,7 +25666,9 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "妙不可言:迪士尼版",
+  "accent": "#7A4A8C"
  },
  {
   "bggId": 142852,
@@ -25657,7 +25681,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "DC 英雄:英雄集結",
+  "accent": "#2A4A8C"
  },
  {
   "bggId": 285265,
@@ -25891,7 +25917,9 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "亂序反應",
+  "accent": "#C9553C"
  },
  {
   "bggId": 251551,
@@ -25943,7 +25971,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "荷蘭閃電",
+  "accent": "#C9A227"
  },
  {
   "bggId": 359394,
@@ -26073,7 +26103,9 @@
   "minPlayers": 1,
   "maxPlayers": 20,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "SET 形色牌",
+  "accent": "#5A8CA8"
  },
  {
   "bggId": 420914,

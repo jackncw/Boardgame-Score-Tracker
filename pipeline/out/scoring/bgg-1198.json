@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-1198",
+ "name": "SET",
+ "nameZh": "SET 形色牌",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "sets",
+    "label": "搶到嘅組合",
+    "note": "全程搶啱 SET 攞到嘅卡組數,最多者勝",
+    "icon": "🔺",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

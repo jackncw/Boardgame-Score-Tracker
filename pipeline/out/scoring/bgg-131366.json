@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-131366",
+ "name": "Eight-Minute Empire",
+ "nameZh": "八分鐘帝國",
+ "theme": {
+  "accent": "#7A4A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "regions",
+    "label": "地區與城市",
+    "note": "控制嘅地區同城市帶嚟嘅分",
+    "icon": "🗺️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goods",
+    "label": "商品組合",
+    "note": "收集嘅商品按套組計嘅分",
+    "icon": "📦",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

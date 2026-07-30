@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-381308",
+ "name": "Dixit: Disney Edition",
+ "nameZh": "妙不可言:迪士尼版",
+ "theme": {
+  "accent": "#7A4A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "各回合估中講故事者嘅牌、或者被人揀中你張牌攞到嘅分,全部加埋",
+    "icon": "🎨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
