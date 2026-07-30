@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-200077",
+ "name": "Mint Works",
+ "nameZh": "薄荷工坊",
+ "theme": {
+  "accent": "#5A9B8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "建築勝利點數",
+    "note": "已建成建築上面印住嘅 VP 總和",
+    "icon": "🏗️",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

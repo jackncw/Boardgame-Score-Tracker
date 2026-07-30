@@ -1,0 +1,73 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-366162",
+ "name": "Clever 4Ever",
+ "nameZh": "越玩越聰明 4Ever",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "yellow",
+    "label": "黃色區",
+    "note": "黃色區完成行列攞到嘅分",
+    "icon": "🟡",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "blue",
+    "label": "藍色區",
+    "note": "藍色區攞到嘅分",
+    "icon": "🔵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "green",
+    "label": "綠色區",
+    "note": "綠色區攞到嘅分",
+    "icon": "🟢",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "orange",
+    "label": "橙色區",
+    "note": "橙色區格仔數字總和",
+    "icon": "🟠",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "purple",
+    "label": "紫色區",
+    "note": "紫色區格仔數字總和",
+    "icon": "🟣",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "foxes",
+    "label": "狐狸獎勵",
+    "note": "每隻狐狸按其他區平均分計",
+    "icon": "🦊",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

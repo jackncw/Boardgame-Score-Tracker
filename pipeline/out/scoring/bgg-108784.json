@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-108784",
+ "name": "Ascension: Storm of Souls",
+ "nameZh": "登峰:靈魂風暴",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "honor",
+    "label": "榮譽點數",
+    "note": "遊戲期間收集嘅榮譽標記,加牌庫入面卡牌上嘅榮譽值",
+    "icon": "🏅",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

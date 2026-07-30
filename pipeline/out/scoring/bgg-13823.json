@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-13823",
+ "name": "Fairy Tale",
+ "nameZh": "童話物語",
+ "theme": {
+  "accent": "#C97A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "卡牌 VP",
+    "note": "面前所有已翻開卡牌按卡面條件計嘅 VP 總和",
+    "icon": "🧚",
+    "color": "#F7D8E0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

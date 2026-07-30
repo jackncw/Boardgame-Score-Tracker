@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-191300",
+ "name": "Archaeology: The New Expedition",
+ "nameZh": "考古學:新探險",
+ "theme": {
+  "accent": "#B08D57"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "treasure",
+    "label": "寶物價值",
+    "note": "手上所有寶物卡同套組嘅價值總和",
+    "icon": "🏺",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

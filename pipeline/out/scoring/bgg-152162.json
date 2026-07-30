@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-152162",
+ "name": "Diamonds",
+ "nameZh": "鑽石",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vault",
+    "label": "金庫鑽石",
+    "note": "金庫入面鑽石嘅價值",
+    "icon": "💎",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "showroom",
+    "label": "陳列室鑽石",
+    "note": "陳列室鑽石按規則計嘅價值",
+    "icon": "🏛️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

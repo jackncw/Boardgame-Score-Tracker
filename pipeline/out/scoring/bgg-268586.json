@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-268586",
+ "name": "6 nimmt! 25 Jahre",
+ "nameZh": "牛頭王 25 週年版",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "bulls",
+    "label": "牛頭",
+    "note": "食落嘅牛頭總數;牛頭越少越好,所以呢欄自動扣分",
+    "icon": "🐮",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

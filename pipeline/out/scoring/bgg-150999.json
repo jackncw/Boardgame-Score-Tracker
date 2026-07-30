@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-150999",
+ "name": "Valley of the Kings",
+ "nameZh": "帝王谷",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "entombed",
+    "label": "已入葬卡牌",
+    "note": "金字塔入面已入葬卡牌上印住嘅 VP",
+    "icon": "⚱️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "sets",
+    "label": "套組獎勵",
+    "note": "同款已入葬卡儲成套組帶嚟嘅額外 VP",
+    "icon": "🏺",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

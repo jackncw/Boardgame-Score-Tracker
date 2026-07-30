@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-279254",
+ "name": "Ecos: First Continent",
+ "nameZh": "生態:初生大陸",
+ "theme": {
+  "accent": "#4A8C6A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "生態卡",
+    "note": "所有已完成生態卡帶嚟嘅 VP 總和",
+    "icon": "🌿",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

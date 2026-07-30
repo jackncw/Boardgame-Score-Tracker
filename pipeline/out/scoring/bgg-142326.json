@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-142326",
+ "name": "Eight-Minute Empire: Legends",
+ "nameZh": "八分鐘帝國:傳奇",
+ "theme": {
+  "accent": "#7A4A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "regions",
+    "label": "地區與城市",
+    "note": "控制嘅地區同城市帶嚟嘅分",
+    "icon": "🗺️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "卡牌目標",
+    "note": "手上卡牌上面嘅計分條件達成後嘅分",
+    "icon": "🃏",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

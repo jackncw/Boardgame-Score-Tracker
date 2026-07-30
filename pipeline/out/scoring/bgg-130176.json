@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-130176",
+ "name": "Tales & Games: The Hare & the Tortoise",
+ "nameZh": "龜兔賽跑",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "各局按你落注嘅動物名次攞到嘅分,全部加埋",
+    "icon": "🐢",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

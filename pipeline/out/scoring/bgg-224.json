@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-224",
+ "name": "History of the World",
+ "nameZh": "世界歷史",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "epochs",
+    "label": "各時代累計得分",
+    "note": "每個時代按帝國佔領嘅地區同紀念碑得嘅分,全部加埋",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

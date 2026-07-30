@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-205597",
+ "name": "Jump Drive",
+ "nameZh": "躍遷引擎",
+ "theme": {
+  "accent": "#3A5A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "卡牌 VP",
+    "note": "已建設施同世界卡上面印住嘅 VP 總和",
+    "icon": "🚀",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bonus",
+    "label": "額外 VP",
+    "note": "卡牌條件帶嚟嘅額外 VP",
+    "icon": "✨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

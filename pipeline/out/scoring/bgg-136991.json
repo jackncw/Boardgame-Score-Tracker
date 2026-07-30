@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-136991",
+ "name": "Loony Quest",
+ "nameZh": "瘋狂大冒險",
+ "theme": {
+  "accent": "#C4543C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "各關累計得分",
+    "note": "每關按畫線命中目標同避開陷阱攞到嘅分,全部加埋",
+    "icon": "✏️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

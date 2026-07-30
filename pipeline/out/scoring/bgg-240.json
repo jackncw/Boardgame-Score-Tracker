@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-240",
+ "name": "Britannia",
+ "nameZh": "不列顛",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "scoring",
+    "label": "計分回合累計得分",
+    "note": "各次計分回合按國家、地區同稱號得嘅分,全部加埋",
+    "icon": "🏴",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

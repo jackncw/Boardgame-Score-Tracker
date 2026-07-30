@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-241477",
+ "name": "Karak",
+ "nameZh": "卡拉克地城",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "treasure",
+    "label": "寶物價值",
+    "note": "擊敗怪物同探索攞到嘅寶物磚價值總和",
+    "icon": "💎",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

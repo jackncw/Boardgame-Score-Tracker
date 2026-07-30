@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-98351",
+ "name": "Core Worlds",
+ "nameZh": "核心世界",
+ "theme": {
+  "accent": "#3A4A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "worlds",
+    "label": "已征服世界",
+    "note": "已征服世界卡上面嘅 VP",
+    "icon": "🪐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "牌庫卡牌",
+    "note": "牌庫、棄牌堆同手上卡牌嘅 VP",
+    "icon": "🃏",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

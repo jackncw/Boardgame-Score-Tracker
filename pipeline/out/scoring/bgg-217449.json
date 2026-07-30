@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-217449",
+ "name": "NMBR 9",
+ "nameZh": "數字九",
+ "theme": {
+  "accent": "#4A6E9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "總分",
+    "note": "每塊數字磚 = 磚上數字 × 佢所在層數;第 0 層唔計分",
+    "icon": "9️⃣",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

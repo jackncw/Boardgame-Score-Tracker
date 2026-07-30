@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-298638",
+ "name": "Sheriff of Nottingham: 2nd Edition",
+ "nameZh": "諾丁漢警長(第二版)",
+ "theme": {
+  "accent": "#7A3A3A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "gold",
+    "label": "金幣",
+    "note": "遊戲結束時手上嘅金幣",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goods",
+    "label": "貨物",
+    "note": "攤位上合法貨物同違禁品嘅價值總和",
+    "icon": "🧺",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "royal",
+    "label": "國王與皇后獎金",
+    "note": "每種貨物數量最多同第二多者攞到嘅獎金",
+    "icon": "👑",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
