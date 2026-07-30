@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-238992",
+ "name": "Call to Adventure",
+ "nameZh": "冒險召喚",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "traits",
+    "label": "特質符文",
+    "note": "角色卡同特質卡上嘅符文帶嚟嘅分",
+    "icon": "🔮",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "story",
+    "label": "故事卡",
+    "note": "已完成故事卡帶嚟嘅分",
+    "icon": "📖",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "destiny",
+    "label": "命運與陣營",
+    "note": "終局命運卡同陣營條件帶嚟嘅分",
+    "icon": "⚖️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-228959",
+ "name": "Alubari: A Nice Cup of Tea",
+ "nameZh": "阿魯巴里",
+ "theme": {
+  "accent": "#4A7A5A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "contracts",
+    "label": "已完成契約",
+    "note": "完成嘅契約卡帶嚟嘅 VP",
+    "icon": "📜",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "note": "已建建築帶嚟嘅 VP",
+    "icon": "🏗️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tea",
+    "label": "茶葉與鐵路",
+    "note": "茶園同鐵路建設帶嚟嘅 VP",
+    "icon": "🍵",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

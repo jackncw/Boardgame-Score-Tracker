@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-238638",
+ "name": "Castell",
+ "nameZh": "疊人塔",
+ "theme": {
+  "accent": "#C4543C"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "performances",
+    "label": "表演成績",
+    "note": "各場表演搭到嘅高度同完成度帶嚟嘅分",
+    "icon": "🤸",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "crowd",
+    "label": "觀眾與名聲",
+    "note": "觀眾同名聲軌帶嚟嘅分",
+    "icon": "👏",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

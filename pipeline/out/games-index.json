@@ -15869,6 +15869,8 @@
   "bggId": 281466,
   "gameId": "bgg-281466",
   "name": "Yedo: Deluxe Master Set",
+  "nameZh": "江戶:豪華大師版",
+  "accent": "#8C3F3F",
   "rank": 1119,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/xWiLk8PDqiLiDHQYteXQSQ__micro/img/kpcfUws4k9k7eq0FM37jZTam7XM=/fit-in/64x64/filters:strip_icc()/pic6869289.jpg",
@@ -15876,7 +15878,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 318553,
@@ -15964,6 +15966,8 @@
   "bggId": 238992,
   "gameId": "bgg-238992",
   "name": "Call to Adventure",
+  "nameZh": "冒險召喚",
+  "accent": "#5A4A7A",
   "rank": 1126,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/oz_C4Hwf1Hb6KHt6KTxJJA__micro/img/4bpXVKNMSjB8DAXHnqY2AIIDkUo=/fit-in/64x64/filters:strip_icc()/pic4165094.jpg",
@@ -15971,7 +15975,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 129948,
@@ -17678,6 +17682,8 @@
   "bggId": 66505,
   "gameId": "bgg-66505",
   "name": "The Speicherstadt",
+  "nameZh": "倉庫城",
+  "accent": "#7A5A3A",
   "rank": 1250,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/3hosF1gT23cgBpv4ZACbtQ__micro/img/9n2qRpMN4N_AChXoOcxNQuq5ACU=/fit-in/64x64/filters:strip_icc()/pic1918131.jpg",
@@ -17685,7 +17691,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 823,
@@ -18331,6 +18337,8 @@
   "bggId": 75449,
   "gameId": "bgg-75449",
   "name": "Firenze",
+  "nameZh": "翡冷翠",
+  "accent": "#B08D57",
   "rank": 1299,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/bufTJIzODlIavAygTgTc9Q__micro/img/aFvMtW5ZCH7vf5R4QKP0yjI65VY=/fit-in/64x64/filters:strip_icc()/pic4262138.jpg",
@@ -18338,12 +18346,14 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 25568,
   "gameId": "bgg-25568",
   "name": "Metropolys",
+  "nameZh": "大都會",
+  "accent": "#5A6E8C",
   "rank": 1300,
   "year": 2008,
   "thumbnail": "https://cf.geekdo-images.com/nDR7wvOFkjReg5RGtIGpng__micro/img/499WBEdYHAMtfrkT0oHLTYOVnmM=/fit-in/64x64/filters:strip_icc()/pic297075.jpg",
@@ -18351,7 +18361,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 150999,
@@ -20905,6 +20915,8 @@
   "bggId": 347767,
   "gameId": "bgg-347767",
   "name": "Ostia",
+  "nameZh": "奧斯提亞",
+  "accent": "#B08D57",
   "rank": 1491,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/YI9u0dAufZ34y24fJc3nFQ__micro/img/VkIlnuJ78hdUDSjE6r-ttckjqsw=/fit-in/64x64/filters:strip_icc()/pic6417261.jpg",
@@ -20912,7 +20924,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 13823,
@@ -21024,6 +21036,8 @@
   "bggId": 439305,
   "gameId": "bgg-439305",
   "name": "Flamecraft Duals",
+  "nameZh": "焰craft 對決",
+  "accent": "#C9553C",
   "rank": 1500,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/wIpk8_5xO9Hh3cAPvWAslQ__micro/img/LycAvhIhNIqN9CkFvTWz48p_r9Q=/fit-in/64x64/filters:strip_icc()/pic8706498.png",
@@ -21031,7 +21045,7 @@
   "minPlayers": 1,
   "maxPlayers": 2,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 256997,
@@ -21063,6 +21077,8 @@
   "bggId": 221318,
   "gameId": "bgg-221318",
   "name": "Whistle Stop",
+  "nameZh": "汽笛小站",
+  "accent": "#4A6E4A",
   "rank": 1503,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/lqMkVVt-crNAadXFzL1Rnw__micro/img/Qjh9YdZyZ4xFBxF_XbypWXI3s6c=/fit-in/64x64/filters:strip_icc()/pic3472683.jpg",
@@ -21070,12 +21086,14 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 330038,
   "gameId": "bgg-330038",
   "name": "Llamaland",
+  "nameZh": "駝馬樂園",
+  "accent": "#6B9B5A",
   "rank": 1504,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/SZS3cUukT7DFA04aNMjD5A__micro/img/sPed15xNw1-SrhF9AtAVHfYr_20=/fit-in/64x64/filters:strip_icc()/pic6036704.jpg",
@@ -21083,7 +21101,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 83195,
@@ -21275,6 +21293,8 @@
   "bggId": 121410,
   "gameId": "bgg-121410",
   "name": "Steam Park",
+  "nameZh": "蒸氣樂園",
+  "accent": "#C9553C",
   "rank": 1519,
   "year": 2013,
   "thumbnail": "https://cf.geekdo-images.com/HA0kPnNDm7O0gh0ukPcGcw__micro/img/NR5S6AZIw_dHak-pSxvsJUzHOv8=/fit-in/64x64/filters:strip_icc()/pic2656302.jpg",
@@ -21282,7 +21302,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 315695,
@@ -21340,6 +21360,8 @@
   "bggId": 171879,
   "gameId": "bgg-171879",
   "name": "Kraftwagen",
+  "nameZh": "汽車工坊",
+  "accent": "#5A6E8C",
   "rank": 1524,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/kd_ysabx0f3Uk4wN0-NP7g__micro/img/7kj96toTqH7zSRNaX5NtEYdhmUE=/fit-in/64x64/filters:strip_icc()/pic3009417.jpg",
@@ -21347,7 +21369,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 253608,
@@ -21394,6 +21416,8 @@
   "bggId": 174660,
   "gameId": "bgg-174660",
   "name": "New York 1901",
+  "nameZh": "紐約 1901",
+  "accent": "#5A6E8C",
   "rank": 1528,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/HTdnmBGtjaS2hgn9IEta9g__micro/img/zv3i6zPmKzCmg6r_eknw4C1RN5k=/fit-in/64x64/filters:strip_icc()/pic2515532.jpg",
@@ -21401,12 +21425,14 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 165986,
   "gameId": "bgg-165986",
   "name": "Royals",
+  "nameZh": "王室",
+  "accent": "#7A4B6B",
   "rank": 1529,
   "year": 2014,
   "thumbnail": "https://cf.geekdo-images.com/Un-yHPPUaH7IpTfiG7ffkw__micro/img/S_zdMyiBkCKxZs7Sxv7LSrhGo_4=/fit-in/64x64/filters:strip_icc()/pic3021582.jpg",
@@ -21414,7 +21440,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 331224,
@@ -21487,6 +21513,8 @@
   "bggId": 173101,
   "gameId": "bgg-173101",
   "name": "Council of 4",
+  "nameZh": "四人議會",
+  "accent": "#7A4B6B",
   "rank": 1535,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/1PVwotn_MXzaG8aRWJBwLw__micro/img/PoSb25vLKXs_mkoOhANI4HKcSw4=/fit-in/64x64/filters:strip_icc()/pic3252438.png",
@@ -21494,12 +21522,14 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 91873,
   "gameId": "bgg-91873",
   "name": "Strasbourg",
+  "nameZh": "史特拉斯堡",
+  "accent": "#8C6239",
   "rank": 1536,
   "year": 2011,
   "thumbnail": "https://cf.geekdo-images.com/5aTSIE4Ayv8K6I6XeJKvug__micro/img/rz-IL4inUE29-H9yGcyqe8tonXY=/fit-in/64x64/filters:strip_icc()/pic951192.jpg",
@@ -21507,7 +21537,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 366310,
@@ -22197,6 +22227,8 @@
   "bggId": 230085,
   "gameId": "bgg-230085",
   "name": "Agra",
+  "nameZh": "阿格拉",
+  "accent": "#C9A227",
   "rank": 1589,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/cb8ydtRuQ-SADwD35oHX9w__micro/img/ZqHtwfoR52WwcfNhGbA0bsFehCo=/fit-in/64x64/filters:strip_icc()/pic3621105.jpg",
@@ -22204,12 +22236,14 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 30381,
   "gameId": "bgg-30381",
   "name": "Hamburgum",
+  "nameZh": "漢堡",
+  "accent": "#7A5A3A",
   "rank": 1590,
   "year": 2007,
   "thumbnail": "https://cf.geekdo-images.com/cl4IPnlurFyQ1rNdFCyQkg__micro/img/bk0yMruk27i-xcSqMkwbWKLg2Dg=/fit-in/64x64/filters:strip_icc()/pic260141.jpg",
@@ -22217,7 +22251,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 315727,
@@ -22249,6 +22283,8 @@
   "bggId": 283294,
   "gameId": "bgg-283294",
   "name": "Yukon Airways",
+  "nameZh": "育空航空",
+  "accent": "#5A9BC4",
   "rank": 1593,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/mlIbxA4RlBjCSudcbtVqNw__micro/img/BHOya0cHAESi5Gw6mCCJukoN4F8=/fit-in/64x64/filters:strip_icc()/pic4830567.jpg",
@@ -22256,7 +22292,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 8045,
@@ -22314,6 +22350,8 @@
   "bggId": 238638,
   "gameId": "bgg-238638",
   "name": "Castell",
+  "nameZh": "疊人塔",
+  "accent": "#C4543C",
   "rank": 1598,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/T421NvY_hmmQ8JNaOi4c8Q__micro/img/mpPBieF6n5Rm5jaYZr04twjX2ek=/fit-in/64x64/filters:strip_icc()/pic3984592.png",
@@ -22321,7 +22359,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 61692,
@@ -24115,6 +24153,8 @@
   "bggId": 146910,
   "gameId": "bgg-146910",
   "name": "Wildcatters",
+  "nameZh": "油田大亨",
+  "accent": "#3A3A5A",
   "rank": 1733,
   "year": 2013,
   "thumbnail": "https://cf.geekdo-images.com/3whJFSwFVKlvaFyzACKpaQ__micro/img/5DdWgqwInMDYkCtr7XhtziiomR8=/fit-in/64x64/filters:strip_icc()/pic3584245.jpg",
@@ -24122,7 +24162,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 300010,
@@ -27484,6 +27524,8 @@
   "bggId": 275913,
   "gameId": "bgg-275913",
   "name": "Bruxelles 1897",
+  "nameZh": "布魯塞爾 1897",
+  "accent": "#7A4B6B",
   "rank": 1988,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/epYZrJ9M2vTl6ITcl28eQg__micro/img/px2ISQvMBhtRvBJ3P5-j8DhqG-4=/fit-in/64x64/filters:strip_icc()/pic4830437.jpg",
@@ -27491,12 +27533,14 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 109125,
   "gameId": "bgg-109125",
   "name": "Wallenstein (Second Edition)",
+  "nameZh": "華倫斯坦(第二版)",
+  "accent": "#8C3F3F",
   "rank": 1989,
   "year": 2012,
   "thumbnail": "https://cf.geekdo-images.com/fntuB839u6K9d51noAE7Jw__micro/img/gBWcL7mLGM4SJDCCVdmhdxWXIVg=/fit-in/64x64/filters:strip_icc()/pic1102879.jpg",
@@ -27504,7 +27548,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 216497,
@@ -34523,6 +34567,8 @@
   "bggId": 253635,
   "gameId": "bgg-253635",
   "name": "Ragusa",
+  "nameZh": "拉古薩",
+  "accent": "#B08D57",
   "rank": 2523,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/oFFRH_pm2QpxVdb2h4Tgsw__micro/img/f-j_FsORMQXgkZt19eMUadvJBwo=/fit-in/64x64/filters:strip_icc()/pic4329951.png",
@@ -34530,7 +34576,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 80,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 142961,
@@ -35107,6 +35153,8 @@
   "bggId": 228959,
   "gameId": "bgg-228959",
   "name": "Alubari: A Nice Cup of Tea",
+  "nameZh": "阿魯巴里",
+  "accent": "#4A7A5A",
   "rank": 2567,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/_1-7QfNv7_22GTEEo4bEEg__micro/img/VTwYV08n9DDViP9LbW0wk5ZI74A=/fit-in/64x64/filters:strip_icc()/pic4949326.jpg",
@@ -35114,7 +35162,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 368676,
@@ -35172,6 +35220,8 @@
   "bggId": 141736,
   "gameId": "bgg-141736",
   "name": "Sail to India",
+  "nameZh": "航向印度",
+  "accent": "#3E6E8E",
   "rank": 2572,
   "year": 2013,
   "thumbnail": "https://cf.geekdo-images.com/v9kLv-QFjWxnxs6HLhZ1Mg__micro/img/Op4At8aTG8tyfzlAOCUiV-RofAs=/fit-in/64x64/filters:strip_icc()/pic1756958.jpg",
@@ -35179,7 +35229,7 @@
   "minPlayers": 3,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 261393,

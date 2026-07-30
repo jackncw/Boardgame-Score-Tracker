@@ -5445,9 +5445,9 @@
   "name": "Yedo: Deluxe Master Set",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "同 Yedo 本體,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1120,
@@ -5515,9 +5515,9 @@
   "name": "Call to Adventure",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1127,
@@ -6755,9 +6755,9 @@
   "name": "The Speicherstadt",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1251,
@@ -7245,9 +7245,9 @@
   "name": "Firenze",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1300,
@@ -7255,9 +7255,9 @@
   "name": "Metropolys",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1301,
@@ -9165,9 +9165,9 @@
   "name": "Ostia",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/ostia.pdf",
+  "note": "據 rulebook 明文生成"
  },
  {
   "rank": 1492,
@@ -9255,9 +9255,9 @@
   "name": "Flamecraft Duals",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/flamecraft-duals.pdf",
+  "note": "據 rulebook 明文生成"
  },
  {
   "rank": 1501,
@@ -9285,9 +9285,9 @@
   "name": "Whistle Stop",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1504,
@@ -9295,9 +9295,9 @@
   "name": "Llamaland",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/llamaland.pdf",
+  "note": "據 rulebook 明文生成"
  },
  {
   "rank": 1505,
@@ -9445,9 +9445,9 @@
   "name": "Steam Park",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1520,
@@ -9495,9 +9495,9 @@
   "name": "Kraftwagen",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1525,
@@ -9535,9 +9535,9 @@
   "name": "New York 1901",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1529,
@@ -9545,9 +9545,9 @@
   "name": "Royals",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1530,
@@ -9605,9 +9605,9 @@
   "name": "Council of 4",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1536,
@@ -9615,9 +9615,9 @@
   "name": "Strasbourg",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1537,
@@ -10145,9 +10145,9 @@
   "name": "Agra",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1590,
@@ -10155,9 +10155,9 @@
   "name": "Hamburgum",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1591,
@@ -10185,9 +10185,9 @@
   "name": "Yukon Airways",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1594,
@@ -10235,9 +10235,9 @@
   "name": "Castell",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1599,
@@ -11585,9 +11585,9 @@
   "name": "Wildcatters",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1734,
@@ -14135,9 +14135,9 @@
   "name": "Bruxelles 1897",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1989,
@@ -14145,9 +14145,9 @@
   "name": "Wallenstein (Second Edition)",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1990,
@@ -19485,9 +19485,9 @@
   "name": "Ragusa",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 2524,
@@ -19925,9 +19925,9 @@
   "name": "Alubari: A Nice Cup of Tea",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 2568,
@@ -19975,9 +19975,9 @@
   "name": "Sail to India",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 2573,

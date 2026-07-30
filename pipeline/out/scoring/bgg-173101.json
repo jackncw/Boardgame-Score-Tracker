@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-173101",
+ "name": "Council of 4",
+ "nameZh": "四人議會",
+ "theme": {
+  "accent": "#7A4B6B"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "已建商行",
+    "note": "各城市入面嘅商行帶嚟嘅 VP",
+    "icon": "🏛️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "networks",
+    "label": "商行網絡",
+    "note": "相連商行同城市群組帶嚟嘅 VP",
+    "icon": "🔗",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "nobility",
+    "label": "貴族軌",
+    "note": "貴族軌上嘅位置帶嚟嘅 VP",
+    "icon": "👑",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "permits",
+    "label": "許可卡與獎勵磚",
+    "note": "持有嘅許可卡同獎勵磚帶嚟嘅 VP",
+    "icon": "📜",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-330038",
+ "name": "Llamaland",
+ "nameZh": "駝馬樂園",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/llamaland.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中駝馬卡分較高者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "llamas",
+    "label": "駝馬卡",
+    "note": "每張駝馬卡按卡面印住嘅 VP 計",
+    "icon": "🦙",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "crops",
+    "label": "剩餘農作物",
+    "note": "每個 1 VP",
+    "icon": "🌽",
+    "color": "#F7E2CE",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "coins",
+    "label": "剩餘金幣",
+    "note": "每 2 個金幣 1 VP,向下取整(呢欄夠兩個當一份)",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "objectives",
+    "label": "目標卡",
+    "note": "達成卡頂條件嘅目標卡,按標記所在格計 VP",
+    "icon": "🎯",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

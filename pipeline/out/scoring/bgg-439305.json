@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-439305",
+ "name": "Flamecraft Duals",
+ "nameZh": "焰craft 對決",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/flamecraft-duals.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中計分堆卡數較多者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "shops",
+    "label": "已計分商店卡",
+    "note": "計分堆入面所有商店卡上嘅星星總和",
+    "icon": "🐉",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "coins",
+    "label": "未用金幣",
+    "note": "每個未使用嘅金幣多 1 星",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

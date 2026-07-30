@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-171879",
+ "name": "Kraftwagen",
+ "nameZh": "汽車工坊",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cars",
+    "label": "已售汽車",
+    "note": "賣出嘅汽車帶嚟嘅 VP",
+    "icon": "🚗",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tech",
+    "label": "技術升級",
+    "note": "已購技術帶嚟嘅 VP",
+    "icon": "⚙️",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "races",
+    "label": "賽事名次",
+    "note": "賽事成績帶嚟嘅 VP",
+    "icon": "🏁",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

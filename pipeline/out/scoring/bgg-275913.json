@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-275913",
+ "name": "Bruxelles 1897",
+ "nameZh": "布魯塞爾 1897",
+ "theme": {
+  "accent": "#7A4B6B"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "art",
+    "label": "藝術作品",
+    "note": "完成嘅藝術作品帶嚟嘅 VP",
+    "icon": "🎨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "note": "已建建築帶嚟嘅 VP",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "nobility",
+    "label": "貴族與聲望",
+    "note": "貴族軌同聲望帶嚟嘅 VP",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

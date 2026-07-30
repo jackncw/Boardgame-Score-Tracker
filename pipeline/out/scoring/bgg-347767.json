@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-347767",
+ "name": "Ostia",
+ "nameZh": "奧斯提亞",
+ "theme": {
+  "accent": "#B08D57"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/ostia.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "建築圖示",
+    "note": "每個建築圖示嘅分值由你獎勵軌嘅位置決定;呢欄入乘完之後嘅總分",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ships",
+    "label": "船隻圖示",
+    "note": "每個船隻圖示同建築圖示同一個分值;呢欄入乘完之後嘅總分",
+    "icon": "⛵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "amphorae",
+    "label": "雙耳瓶標記",
+    "note": "雙耳瓶嘅分值另有一欄,一樣睇獎勵軌位置;呢欄入乘完之後嘅總分",
+    "icon": "🏺",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

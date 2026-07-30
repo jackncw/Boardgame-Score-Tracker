@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-109125",
+ "name": "Wallenstein (Second Edition)",
+ "nameZh": "華倫斯坦(第二版)",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "territories",
+    "label": "領地",
+    "note": "終局控制嘅領地帶嚟嘅 VP",
+    "icon": "🗺️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "note": "領地上嘅教堂、宮殿等帶嚟嘅 VP",
+    "icon": "🏰",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "regions",
+    "label": "地區完整度",
+    "note": "整個地區完全控制帶嚟嘅獎勵 VP",
+    "icon": "🛡️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

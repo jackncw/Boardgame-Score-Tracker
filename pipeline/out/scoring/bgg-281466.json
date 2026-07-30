@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-281466",
+ "name": "Yedo: Deluxe Master Set",
+ "nameZh": "江戶:豪華大師版",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "missions",
+    "label": "已完成任務",
+    "note": "完成咗嘅任務卡帶嚟嘅 VP",
+    "icon": "🥷",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "note": "已購建築物帶嚟嘅 VP",
+    "icon": "🏯",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "prestige",
+    "label": "威望",
+    "note": "威望軌同其他來源帶嚟嘅 VP",
+    "icon": "🎌",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

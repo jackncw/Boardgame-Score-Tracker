@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-221318",
+ "name": "Whistle Stop",
+ "nameZh": "汽笛小站",
+ "theme": {
+  "accent": "#4A6E4A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "deliveries",
+    "label": "已完成運送",
+    "note": "送到目的地嘅貨物帶嚟嘅 VP",
+    "icon": "🚂",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shares",
+    "label": "鐵路股份",
+    "note": "持有嘅股份帶嚟嘅 VP",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "towns",
+    "label": "城鎮與升級",
+    "note": "城鎮同火車升級帶嚟嘅 VP",
+    "icon": "🏘️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

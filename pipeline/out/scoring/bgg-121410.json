@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-121410",
+ "name": "Steam Park",
+ "nameZh": "蒸氣樂園",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "終局手上嘅錢按規則換到嘅分",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rides",
+    "label": "遊樂設施",
+    "note": "已建設施帶嚟嘅 VP",
+    "icon": "🎡",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "visitors",
+    "label": "遊客",
+    "note": "招待到嘅遊客帶嚟嘅 VP",
+    "icon": "🧍",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "dirt",
+    "label": "垃圾",
+    "note": "園內未清嘅垃圾要扣分(呢欄入正數,自動扣)",
+    "icon": "🗑️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
