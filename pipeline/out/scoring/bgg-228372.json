@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-228372",
+ "name": "Iberian Gauge",
+ "nameZh": "伊比利亞軌距",
+ "theme": {
+  "accent": "#4A7A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "遊戲結束時手上嘅錢,加持股派息嘅錢",
+    "icon": "💷",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

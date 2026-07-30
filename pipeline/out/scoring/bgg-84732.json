@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-84732",
+ "name": "Kariba",
+ "nameZh": "卡里巴",
+ "theme": {
+  "accent": "#5A9BC4"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "animals",
+    "label": "動物卡價值",
+    "note": "手上同面前動物卡按卡面數值加埋",
+    "icon": "🦛",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

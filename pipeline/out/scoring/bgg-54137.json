@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-54137",
+ "name": "Battle Sheep",
+ "nameZh": "羊咩咩大作戰",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "visible",
+    "label": "露出嘅格數",
+    "note": "遊戲完結時,棋盤上見到你顏色嘅格仔數,最多者勝",
+    "icon": "🐑",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

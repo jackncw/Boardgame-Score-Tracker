@@ -455,15 +455,15 @@
 | 990 | FUSE | B | - | skip | — | coop/campaign |
 | 992 | EXIT: The Game – The Secret Lab | B | - | skip | — | coop/campaign |
 
-# Phase 2 · rank 1001–3000(900 行)
+# Phase 2 · rank 1001–3000(1100 行)
 
 ## 進度
 
-- 已生成計分表(done):118
+- 已生成計分表(done):128
 - 揾唔到可靠來源(no-source):0
-- 判定唔使做(skip):397
-- 未做(pending):385
-- 路徑 b(直接生成):98 · 路徑 c(網查 rulebook):405
+- 判定唔使做(skip):486
+- 未做(pending):486
+- 路徑 b(直接生成):108 · 路徑 c(網查 rulebook):506
 
 ## 逐隻紀錄
 
@@ -1369,3 +1369,203 @@
 | 1898 | Virus! | - | skip | — | 以最先湊齊四個健康器官定勝負,無累加計分 |
 | 1899 | Magic Realm | - | skip | — | RPG 式探索遊戲,每個角色勝利條件唔同,無統一累加計分 |
 | 1900 | Dungeon Fighter: Second Edition | - | skip | — | 合作制彈射遊戲,無玩家累加計分 |
+| 1901 | Unmatched: Brains and Brawn | - | skip | — | 雙人對戰,以擊倒對手英雄定勝負,無累加計分 |
+| 1902 | Tabannusi: Builders of Ur | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1903 | Joraku | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1904 | Kremlin | - | skip | — | 政治遊戲,以陣營領袖存活定勝負,無累加計分 |
+| 1905 | Junta | - | skip | — | 以瑞士銀行存款定勝負,含淘汰機制,無統一累加計分 |
+| 1906 | Bargain Quest | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1907 | Circadians: Chaos Order | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1908 | The Bottle Imp | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1909 | Kariba | b | done | — | 放寬尺度後直接生成 |
+| 1910 | Masters of Renaissance: Lorenzo il Magnifico – The Card Game | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1911 | Skulk Hollow | - | skip | — | 雙人不對稱對戰,以達成陣營目標定勝負,無累加計分 |
+| 1912 | First in Flight | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1913 | Blokus Trigon | - | skip | — | 抽象對弈,以放得最多方塊定勝負,無累加計分 |
+| 1914 | Coup: Rebellion G54 | - | skip | — | 以最後生還定勝負,無累加計分 |
+| 1915 | World of Warcraft: The Boardgame | - | skip | — | 半合作制遊戲,以擊敗大魔王定勝負,無累加計分 |
+| 1916 | Origin Story | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1917 | Drop It | b | done | — | 放寬尺度後直接生成 |
+| 1918 | DOOM: The Board Game | - | skip | — | 一對多劇本制遊戲,以陣營目標定勝負,無累加計分 |
+| 1919 | Valley of the Kings: Afterlife | b | done | — | 放寬尺度後直接生成 |
+| 1920 | Meuterer | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1921 | Now or Never | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1922 | Box One | - | skip | — | 合作/單人解謎遊戲,無玩家累加計分 |
+| 1923 | Bios: Origins (Second Edition) | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1924 | Iberian Gauge | b | done | — | 放寬尺度後直接生成 |
+| 1925 | Dewan | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1926 | Orichalcum | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1927 | 3 Chapters | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1928 | Planet | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1929 | Curious Cargo | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1930 | Dungeon Mayhem: Monster Madness | - | skip | — | 雙人以上對戰,以擊倒對手生命值定勝負,無累加計分 |
+| 1931 | Aladdin's Dragons | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1932 | Iwari | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1933 | Middle-earth | - | skip | — | 集換式卡牌遊戲,以達成任務定勝負,無累加計分 |
+| 1934 | Galaxy Defenders | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 1935 | Discordia | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1936 | I'm the Boss! | b | done | — | 放寬尺度後直接生成 |
+| 1937 | Sleuth | - | skip | — | 推理遊戲,以最快推出答案定勝負,無累加計分 |
+| 1938 | Haspelknecht: The Story of Early Coal Mining | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1939 | Nova Roma | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1940 | Chocolate Factory | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1941 | Traders of Osaka | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1942 | Horrified: Greek Monsters | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 1943 | Next Station: Paris | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1944 | Indian Summer | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1945 | Freelancers: A Crossroads Game | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 1946 | Yokai Septet | - | skip | — | 隊制吃磴遊戲,以陣營條件定勝負,無累加計分 |
+| 1947 | G.I. JOE Deck-Building Game | - | skip | — | 合作制牌庫構築遊戲,無玩家累加計分 |
+| 1948 | Halls of Hegra | - | skip | — | 單人遊戲,無玩家累加計分 |
+| 1949 | Fractured Sky | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1950 | D-Day Dice | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 1951 | Axis & Allies | - | skip | — | 戰棋,以佔領勝利城市定勝負,無累加計分 |
+| 1952 | Skyjo | b | done | — | 放寬尺度後直接生成 |
+| 1953 | Feya's Swamp | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1954 | Sun Tzu | - | skip | — | 雙人區域控制,以佔領行省定勝負,無累加計分 |
+| 1955 | Phoenix New Horizon | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1956 | Risk 2210 A.D. | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1957 | RAF: The Battle of Britain 1940 | - | skip | — | 單人遊戲,無玩家累加計分 |
+| 1958 | Piepmatz: Little Songbirds | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1959 | Ave Caesar | - | skip | — | 競速遊戲,以最快到終點定勝負,無累加計分 |
+| 1960 | My Village | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1961 | Mystery of the Abbey | - | skip | — | 推理遊戲,以最快指認兇手定勝負,無累加計分 |
+| 1962 | Assassin's Creed: Brotherhood of Venice | - | skip | — | 合作制戰役遊戲,無玩家累加計分 |
+| 1963 | Cosmic Frog | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1964 | La Habana | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1965 | Masmorra: Dungeons of Arcadia | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1966 | Ada's Dream | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1967 | L.L.A.M.A. | b | done | — | 放寬尺度後直接生成 |
+| 1968 | HEXplore It: The Valley of the Dead King | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 1969 | Normandy '44 | - | skip | — | 劇本制戰棋,以劇本勝利條件定勝負,無累加計分 |
+| 1970 | Factory Fun | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1971 | Pirate's Cove | b | done | — | 放寬尺度後直接生成 |
+| 1972 | Nothing Personal | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1973 | De Vulgari Eloquentia | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1974 | Sanctum | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1975 | Warhammer Quest: Blackstone Fortress | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 1976 | Bloodborne: The Card Game | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1977 | Mü & More | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1978 | Light Speed: Arena | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1979 | Undaunted: Battle of Britain | - | skip | — | 雙人劇本制戰棋,以劇本目標定勝負,無累加計分 |
+| 1980 | ICECOOL2 | - | skip | — | 彈射遊戲,以最先儲齊指定魚數定勝負,無累加計分 |
+| 1981 | Welcome Back to the Dungeon | - | skip | — | 賭膽遊戲,以最先贏兩次探險定勝負,無累加計分 |
+| 1982 | Omen: A Reign of War | - | skip | — | 雙人對戰,以搶奪羽毛定勝負,無累加計分 |
+| 1983 | Adventure Land | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1984 | Empire Builder | - | skip | — | 以最先賺夠指定金額定勝負,無累加計分 |
+| 1985 | GKR: Heavy Hitters | - | skip | — | 微縮模型對戰遊戲,以擊毀對手機甲定勝負,無累加計分 |
+| 1986 | Tramways | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1987 | Paranormal Detectives | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1988 | Bruxelles 1897 | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1989 | Wallenstein (Second Edition) | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1990 | District Noir | - | skip | — | 雙人對戰,以達成控制條件定勝負,無累加計分 |
+| 1991 | S.T.A.L.K.E.R. The Board Game | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1992 | A Place for All My Books | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1993 | Tides of Madness | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1994 | Vast: The Mysterious Manor | - | skip | — | 不對稱陣營遊戲,每個角色勝利條件唔同,無統一累加計分 |
+| 1995 | Advanced Squad Leader: Starter Kit #3 | - | skip | — | 劇本制戰棋,以劇本勝利條件定勝負,無累加計分 |
+| 1996 | CV | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1997 | Botanicus | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1998 | Factory Funner | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1999 | Fields of Fire | - | skip | — | 單人遊戲,無玩家累加計分 |
+| 2000 | Abandon All Artichokes | - | skip | — | 以最先清走手上洋薊定勝負,無累加計分 |
+| 2001 | Corps of Discovery: A Game Set in the World of Manifest Destiny | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 2002 | EXIT: The Game – The Forbidden Castle | - | skip | — | 密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表 |
+| 2003 | Bruxelles 1893: Belle Époque | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2004 | dnup | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2005 | Tiny Epic Kingdoms | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2006 | Dungeons & Dragons: Temple of Elemental Evil Board Game | - | skip | — | 合作制戰役遊戲,無玩家累加計分 |
+| 2007 | Mr. President: The American Presidency, 2001-2020 | - | skip | — | 單人遊戲,無玩家累加計分 |
+| 2008 | Ascending Empires | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2009 | Sanssouci | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2010 | Kamisado | - | skip | — | 抽象對弈,以走到對面定勝負,無累加計分 |
+| 2011 | Kabuto Sumo | - | skip | — | 彈射遊戲,以推跌對手定勝負,無累加計分 |
+| 2012 | Marvel Zombies: X-Men Resistance | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 2013 | Warfighter: The WWII Tactical Combat Card Game | - | skip | — | 單人/合作制遊戲,無玩家累加計分 |
+| 2014 | Metro X | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2015 | Bites | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2016 | Revolution! | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2017 | Whirling Witchcraft | - | skip | — | 以最先令對手溢出定勝負,無累加計分 |
+| 2018 | Nekojima | - | skip | — | 疊高遊戲,以對手塔冧定勝負,無累加計分 |
+| 2019 | PitchCar Mini | - | skip | — | 彈射競速遊戲,以最快完成圈數定勝負,無累加計分 |
+| 2020 | Atlantic Chase: The Kriegsmarine Against the Home Fleet 1939-1942 | - | skip | — | 雙人戰棋,以陣營勝利條件定勝負,無累加計分 |
+| 2021 | The Great Split | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2022 | Time Bomb | - | skip | — | 社交推理遊戲,以陣營達成條件定勝負,無累加計分 |
+| 2023 | Necromunda | - | skip | — | 微縮模型對戰遊戲,以擊倒對手定勝負,無累加計分 |
+| 2024 | Fireteam Zero | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 2025 | Oceanos | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2026 | Oregon | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2027 | Noctiluca | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2028 | Fire Tower | - | skip | — | 以燒毀對手瞭望塔定勝負,無累加計分 |
+| 2029 | Power Grid: The First Sparks | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2030 | Pixel Tactics | - | skip | — | 雙人對戰,以擊倒對手首領定勝負,無累加計分 |
+| 2031 | Dice Settlers | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2032 | Daitoshi | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2033 | In the Shadow of the Emperor | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2034 | Android | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2035 | Aristeia! | - | skip | — | 微縮模型對戰遊戲,以完成目標定勝負,無累加計分 |
+| 2036 | Pergamon | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2037 | Marabunta | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2038 | Dice Throne: Season One Rerolled – Battle 1:  Barbarian v. Moon Elf | - | skip | — | 雙人對戰,以擊倒對手生命值定勝負,無累加計分 |
+| 2039 | Spyfall 2 | - | skip | — | 社交推理遊戲,以陣營達成條件定勝負,無累加計分 |
+| 2040 | Polis | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2041 | Sluff Off! | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2042 | Chronicles of Crime: 2400 | - | skip | — | 合作制推理遊戲,無玩家累加計分 |
+| 2043 | Meeple Land | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2044 | The Red Dragon Inn 2 | - | skip | — | 以最後生還定勝負,無累加計分 |
+| 2045 | Beyond Balderdash | b | done | — | 放寬尺度後直接生成 |
+| 2046 | Battle Sheep | b | done | — | 放寬尺度後直接生成 |
+| 2047 | Sword of Rome: Conquest of Italy, 362-272 BC | - | skip | — | 多陣營戰棋,以陣營勝利條件定勝負,無統一累加計分 |
+| 2048 | EXIT: The Game – Advent Calendar: The Mystery of the Ice Cave | - | skip | — | 密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表 |
+| 2049 | Hitster: Guilty Pleasures | - | skip | — | 音樂猜年份派對遊戲,以最先儲夠卡定勝負,無累加計分 |
+| 2050 | Trailblazers | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2051 | Perspectives | - | skip | — | 合作制推理遊戲,無玩家累加計分 |
+| 2052 | Stupor Mundi | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2053 | Imaginarium | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2054 | Unlock! Kids: Detective Stories | - | skip | — | 密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表 |
+| 2055 | Rush M.D. | - | skip | — | 合作制即時遊戲,無玩家累加計分 |
+| 2056 | Marvel: Crisis Protocol Core Set | - | skip | — | 微縮模型對戰遊戲,以完成目標定勝負,無累加計分 |
+| 2057 | Sorcerer City | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2058 | Clans | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2059 | Ants | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2060 | Stellar | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2061 | Adventure Games: The Dungeon | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 2062 | Giants | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2063 | Holland '44: Operation Market-Garden | - | skip | — | 劇本制戰棋,以劇本勝利條件定勝負,無累加計分 |
+| 2064 | Fast Sloths | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2065 | Axis & Allies | - | skip | — | 戰棋,以佔領勝利城市定勝負,無累加計分 |
+| 2066 | Otys | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2067 | Neanderthal | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2068 | Olympos | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2069 | Adventure Tactics: Domianne's Tower | - | skip | — | 合作制戰役遊戲,無玩家累加計分 |
+| 2070 | Ascension Tactics: Miniatures Deckbuilding Game | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2071 | Tenby | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2072 | Timeline: Science & Discoveries | - | skip | — | 以最先放晒手牌定勝負,無累加計分 |
+| 2073 | Love Letter: Adventure Time | - | skip | — | 以最先儲夠指定標記定勝負,無累加計分 |
+| 2074 | 5-Minute Mystery | - | skip | — | 合作制推理遊戲,無玩家累加計分 |
+| 2075 | The Scepter of Zavandor | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2076 | Pendragon: The Fall of Roman Britain | - | skip | — | COIN 系列多陣營遊戲,以陣營勝利條件定勝負,無統一累加計分 |
+| 2077 | Cantaloop: Book 1 – Breaking into Prison | - | skip | — | 單人冒險解謎遊戲,無玩家累加計分 |
+| 2078 | EXIT: The Game – The Haunted Roller Coaster | - | skip | — | 密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表 |
+| 2079 | Etherstone | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2080 | Fjords | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2081 | Patchistory | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2082 | Yomi | - | skip | — | 雙人格鬥遊戲,以擊倒對手生命值定勝負,無累加計分 |
+| 2083 | Ingenious: Travel Edition | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2084 | Navajo Wars | - | skip | — | 單人遊戲,無玩家累加計分 |
+| 2085 | Carcassonne: Amazonas | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2086 | Belratti | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 2087 | Hare & Tortoise | - | skip | — | 競速遊戲,以最快到終點定勝負,無累加計分 |
+| 2088 | Savannah Park | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2089 | Egizia: Shifting Sands | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2090 | Arkham Horror: The Card Game | - | skip | — | 合作制戰役遊戲,無玩家累加計分 |
+| 2091 | Jungle Speed | - | skip | — | 敏捷遊戲,以最快出晒牌定勝負,無累加計分 |
+| 2092 | Ogre | - | skip | — | 雙人戰棋,以摧毀對手單位定勝負,無累加計分 |
+| 2093 | The Ancient World (Second Edition) | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2094 | Village Rails | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2095 | Doomtown: Reloaded | - | skip | — | 雙人對戰,以搶奪控制點定勝負,無累加計分 |
+| 2096 | A Study in Emerald (Second Edition) | - | skip | — | 隱藏陣營遊戲,以陣營條件同淘汰判定,無統一累加計分 |
+| 2097 | Renegade | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 2098 | Andor: The Family Fantasy Game | - | skip | — | 合作制遊戲,無玩家累加計分 |
+| 2099 | Tiny Epic Pirates | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2100 | Ad Astra | c | pending | — | 競爭型終局計分,待網查 rulebook |

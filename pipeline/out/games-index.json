@@ -26274,7 +26274,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "卡里巴",
+  "accent": "#5A9BC4"
  },
  {
   "bggId": 280453,
@@ -26378,7 +26380,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "拋磚入洞",
+  "accent": "#C9A227"
  },
  {
   "bggId": 205317,
@@ -26404,7 +26408,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "帝王谷:來世",
+  "accent": "#C9A227"
  },
  {
   "bggId": 902,
@@ -26469,7 +26475,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "伊比利亞軌距",
+  "accent": "#4A7A5A"
  },
  {
   "bggId": 439742,
@@ -26625,7 +26633,9 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "我係老細",
+  "accent": "#8C3F3F"
  },
  {
   "bggId": 594,
@@ -26833,7 +26843,9 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "Skyjo",
+  "accent": "#5A7A8C"
  },
  {
   "bggId": 438442,
@@ -27028,7 +27040,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "L.L.A.M.A. 草泥馬",
+  "accent": "#C97A9B"
  },
  {
   "bggId": 214484,
@@ -27080,7 +27094,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "海盜灣",
+  "accent": "#3E6E8E"
  },
  {
   "bggId": 120523,
@@ -28042,7 +28058,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "超級鬼扯蛋",
+  "accent": "#C97A9B"
  },
  {
   "bggId": 54137,
@@ -28055,7 +28073,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "羊咩咩大作戰",
+  "accent": "#6B9B5A"
  },
  {
   "bggId": 7480,

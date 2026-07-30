@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-2987",
+ "name": "Pirate's Cove",
+ "nameZh": "海盜灣",
+ "theme": {
+  "accent": "#3E6E8E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "fame",
+    "label": "名聲分",
+    "note": "打贏戰鬥、埋寶藏同賣寶物攞到嘅名聲分總和",
+    "icon": "🏴‍☠️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
