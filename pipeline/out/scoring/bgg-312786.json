@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-312786",
+ "name": "Poetry for Neanderthals",
+ "nameZh": "穴居人詩歌",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "各回合估中卡牌攞到嘅分,扣除犯規嘅罰分",
+    "icon": "🪨",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

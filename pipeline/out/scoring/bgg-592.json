@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-592",
+ "name": "Spades",
+ "nameZh": "黑桃",
+ "theme": {
+  "accent": "#3A3A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "各局按叫牌達標與否計分,加袋數同零叫獎懲,全部加埋",
+    "icon": "♠️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

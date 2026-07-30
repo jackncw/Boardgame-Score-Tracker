@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-113289",
+ "name": "Snake Oil",
+ "nameZh": "蛇油推銷員",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "顧客卡",
+    "note": "說服顧客攞到嘅顧客卡張數,最多者勝",
+    "icon": "🧴",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

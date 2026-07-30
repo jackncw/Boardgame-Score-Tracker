@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-31105",
+ "name": "Archaeology: The Card Game",
+ "nameZh": "考古學:卡牌版",
+ "theme": {
+  "accent": "#B08D57"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "treasure",
+    "label": "寶物價值",
+    "note": "已賣出同手上寶物卡按套組價值加埋",
+    "icon": "🏺",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-1117",
+ "name": "You're Bluffing!",
+ "nameZh": "牛仔交易",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "animals",
+    "label": "動物套組",
+    "note": "已儲齊嘅四隻同款動物按牌面價值計,四款齊有加成",
+    "icon": "🐄",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "剩餘現金",
+    "note": "手上剩低嘅錢",
+    "icon": "💰",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

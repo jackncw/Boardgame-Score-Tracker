@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-172933",
+ "name": "Dragonwood",
+ "nameZh": "龍木森林",
+ "theme": {
+  "accent": "#4A8C5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "creatures",
+    "label": "捕獲嘅生物",
+    "note": "捕到嘅生物卡按卡面分數加埋,加已收集嘅加成卡",
+    "icon": "🐉",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

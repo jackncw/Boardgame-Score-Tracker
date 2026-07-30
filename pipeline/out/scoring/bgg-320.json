@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-320",
+ "name": "Scrabble",
+ "nameZh": "拼字遊戲",
+ "theme": {
+  "accent": "#4A7A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "各次落字按字母分同格仔倍數計嘅分,加七字全出獎勵,減最後剩牌罰分",
+    "icon": "🔤",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

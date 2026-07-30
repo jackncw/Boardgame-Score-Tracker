@@ -31487,7 +31487,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "牛仔交易",
+  "accent": "#C9A227"
  },
  {
   "bggId": 293348,
@@ -31656,7 +31658,9 @@
   "minPlayers": 4,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "黑桃",
+  "accent": "#3A3A5A"
  },
  {
   "bggId": 128667,
@@ -31890,7 +31894,9 @@
   "minPlayers": 3,
   "maxPlayers": 10,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "智慧下注:家庭版",
+  "accent": "#5A8CA8"
  },
  {
   "bggId": 16267,
@@ -32020,7 +32026,9 @@
   "minPlayers": 3,
   "maxPlayers": 10,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "蛇油推銷員",
+  "accent": "#6B9B5A"
  },
  {
   "bggId": 3931,
@@ -32358,7 +32366,9 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "亂序反應:派對版",
+  "accent": "#C9553C"
  },
  {
   "bggId": 198287,
@@ -32384,7 +32394,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "鬼扯蛋",
+  "accent": "#C97A9B"
  },
  {
   "bggId": 37358,
@@ -32423,7 +32435,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "錢!",
+  "accent": "#C9A227"
  },
  {
   "bggId": 291847,
@@ -32462,7 +32476,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "龍木森林",
+  "accent": "#4A8C5A"
  },
  {
   "bggId": 315060,
@@ -32514,7 +32530,9 @@
   "minPlayers": 2,
   "maxPlayers": 12,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "穴居人詩歌",
+  "accent": "#8C6239"
  },
  {
   "bggId": 253684,
@@ -33060,7 +33078,9 @@
   "minPlayers": 2,
   "maxPlayers": 10,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "熊貓皇家賭場",
+  "accent": "#5A8CA8"
  },
  {
   "bggId": 118695,
@@ -33255,7 +33275,9 @@
   "minPlayers": 3,
   "maxPlayers": 10,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "色相線索",
+  "accent": "#7A4A8C"
  },
  {
   "bggId": 320,
@@ -33268,7 +33290,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "拼字遊戲",
+  "accent": "#4A7A5A"
  },
  {
   "bggId": 98918,
@@ -33372,7 +33396,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "考古學:卡牌版",
+  "accent": "#B08D57"
  },
  {
   "bggId": 316287,
@@ -33489,7 +33515,9 @@
   "minPlayers": 5,
   "maxPlayers": 99,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "智慧下注:賭城版",
+  "accent": "#C9A227"
  },
  {
   "bggId": 155255,
@@ -33684,7 +33712,9 @@
   "minPlayers": 4,
   "maxPlayers": 20,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "從眾心理",
+  "accent": "#6B9B5A"
  },
  {
   "bggId": 1111,
@@ -33697,7 +33727,9 @@
   "minPlayers": 4,
   "maxPlayers": 10,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "妙語說書人(Taboo)",
+  "accent": "#C9553C"
  },
  {
   "bggId": 437245,
@@ -33736,7 +33768,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "登峰:領域解封",
+  "accent": "#5A4A7A"
  },
  {
   "bggId": 311900,
@@ -33931,7 +33965,9 @@
   "minPlayers": 3,
   "maxPlayers": 3,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "斯卡特",
+  "accent": "#3A3A5A"
  },
  {
   "bggId": 300192,

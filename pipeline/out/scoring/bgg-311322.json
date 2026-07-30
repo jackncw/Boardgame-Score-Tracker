@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-311322",
+ "name": "Herd Mentality",
+ "nameZh": "從眾心理",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cows",
+    "label": "牛牛標記",
+    "note": "各回合同大多數人答案一致攞到嘅牛牛數,最多者勝",
+    "icon": "🐄",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

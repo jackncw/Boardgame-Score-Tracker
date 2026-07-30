@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-302520",
+ "name": "Hues and Cues",
+ "nameZh": "色相線索",
+ "theme": {
+  "accent": "#7A4A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "各回合估中色格攞到嘅分,加提示者攞到嘅分,全部加埋",
+    "icon": "🎨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
