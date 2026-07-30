@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-355093",
+ "name": "Woodcraft",
+ "nameZh": "木工坊",
+ "theme": {
+  "accent": "#8A6234"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/woodcraft.pdf",
+  "verified": false,
+  "tieBreaker": "每輪行動次序較後者勝(起始玩家一定輸)",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得分",
+    "note": "計分板上嘅分數(含 +50/+100 記號)",
+    "icon": "🪚",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "contracts",
+    "label": "公開合約",
+    "note": "自己認領嘅公開合約上印住嘅分(有人同時認領一樣攞足)",
+    "icon": "📋",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftovers",
+    "label": "剩餘物資",
+    "note": "未用骰子點數 + 藍莓 + 廢料/膠/鋸標記,合計每 10 個 1 分",
+    "icon": "🫐",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "orders",
+    "label": "已完成訂單",
+    "note": "每張按最終聲望計數器所在格嘅分值(未完成訂單先後退 2 格聲望)",
+    "icon": "📦",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

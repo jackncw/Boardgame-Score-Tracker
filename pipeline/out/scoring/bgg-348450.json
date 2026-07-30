@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-348450",
+ "name": "Lacrimosa",
+ "nameZh": "安魂曲",
+ "theme": {
+  "accent": "#6E5773"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/lacrimosa.pdf",
+  "verified": false,
+  "tieBreaker": "對安魂曲貢獻較多者勝;再比 Opus 卡較多;仍平手則共享勝利",
+  "fields": [
+   {
+    "id": "vp_track",
+    "label": "遊戲中已得 VP",
+    "icon": "🎼",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "royal_court",
+    "label": "皇家宮廷板塊",
+    "note": "每塊條件(指定 Opus 類型 / 指定樂章上有安魂曲標記)達成先計;每張 Opus、每個標記只可以用一次",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "requiem",
+    "label": "安魂曲樂章",
+    "note": "每個樂章先睇邊個作曲家貢獻最多(中立標記計入多數但唔得分);配到最多果位攞高分值,另一位攞低分值,平手兩邊都低分值",
+    "icon": "🕯️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "story",
+    "label": "剩餘故事點",
+    "note": "個人板軌道加剩餘標記,每 2 點 1 分",
+    "icon": "📖",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ducats",
+    "label": "剩餘金錢",
+    "note": "每 3 達克特 1 分",
+    "icon": "🪙",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

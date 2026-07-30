@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-369880",
+ "name": "Beer & Bread",
+ "nameZh": "啤酒與麵包",
+ "theme": {
+  "accent": "#C08A3E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/beer-bread.pdf",
+  "verified": false,
+  "tieBreaker": "另一種貨品(較高果個)總分高者勝;仍平手由冇風車嘅玩家勝",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終分數",
+    "note": "分開計啤酒總分同麵包總分,較低果個先係最終分數(所以呢度只填一個數)",
+    "icon": "🍺",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

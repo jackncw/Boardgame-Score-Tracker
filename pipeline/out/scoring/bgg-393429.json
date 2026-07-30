@@ -1,0 +1,71 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-393429",
+ "name": "Critter Kitchen",
+ "nameZh": "小動物廚房",
+ "theme": {
+  "accent": "#D96C4F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/critterkitchen.pdf",
+  "verified": false,
+  "tieBreaker": "計分軌行得最遠者勝;仍平手比優先權軌領先者",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得星",
+    "icon": "⭐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "most_soup",
+    "label": "湯同濃湯總值最高",
+    "note": "1 星(平手大家都攞)",
+    "icon": "🍲",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 1
+   },
+   {
+    "id": "all_courses",
+    "label": "七道菜齊全",
+    "note": "每道菜最少 1 樣食材就 1 星",
+    "icon": "🍽️",
+    "color": "#F7F3DC",
+    "input": "bonus",
+    "value": 1
+   },
+   {
+    "id": "best_course",
+    "label": "各道菜最佳",
+    "note": "七道菜逐道,品質最高果個 1 星(平手大家都攞)",
+    "icon": "👨‍🍳",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "rumors",
+    "label": "傳聞卡",
+    "icon": "🗣️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bonus",
+    "label": "獎勵分",
+    "icon": "🎁",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

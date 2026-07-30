@@ -4664,6 +4664,8 @@
   "bggId": 400314,
   "gameId": "bgg-400314",
   "name": "Apiary",
+  "nameZh": "星際蜂巢",
+  "accent": "#E3A72F",
   "rank": 322,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/dT1vJbUizZFmJAphKg-byA__micro/img/i_QoQBvWPIjyS80MzDGKql1OZT4=/fit-in/64x64/filters:strip_icc()/pic7720813.png",
@@ -4671,7 +4673,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 128621,
@@ -7092,6 +7094,8 @@
   "bggId": 379629,
   "gameId": "bgg-379629",
   "name": "Knarr",
+  "nameZh": "維京商船",
+  "accent": "#3E6B8A",
   "rank": 494,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/PaYRAlezMGDlLt8LXmR_sQ__micro/img/eUHHqCRKNrxnzyoSysnppEoPmpY=/fit-in/64x64/filters:strip_icc()/pic7857343.png",
@@ -7099,7 +7103,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 343905,
@@ -7688,6 +7692,8 @@
   "bggId": 355093,
   "gameId": "bgg-355093",
   "name": "Woodcraft",
+  "nameZh": "木工坊",
+  "accent": "#8A6234",
   "rank": 536,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/S1_USNVBwzwidSpxAoKhuw__micro/img/8qjVWtUbYZJsoqmZU1i3WFCWxz0=/fit-in/64x64/filters:strip_icc()/pic6940296.jpg",
@@ -7695,7 +7701,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 338834,
@@ -8048,6 +8054,8 @@
   "bggId": 383607,
   "gameId": "bgg-383607",
   "name": "Barcelona",
+  "nameZh": "巴塞隆拿",
+  "accent": "#C75146",
   "rank": 562,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/clBx1kfB-8OpO86B2-vsgg__micro/img/nRwCmhB45m4ms1J7d9VhNVER5qQ=/fit-in/64x64/filters:strip_icc()/pic7442376.jpg",
@@ -8055,7 +8063,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 158899,
@@ -8834,6 +8842,8 @@
   "bggId": 348450,
   "gameId": "bgg-348450",
   "name": "Lacrimosa",
+  "nameZh": "安魂曲",
+  "accent": "#6E5773",
   "rank": 618,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/0aS85HPSKKGHGVvWQEEZew__micro/img/pLDUO4Za1AsDbHBw4l2W43q6x9s=/fit-in/64x64/filters:strip_icc()/pic6795274.jpg",
@@ -8841,7 +8851,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 6249,
@@ -10303,6 +10313,8 @@
   "bggId": 403441,
   "gameId": "bgg-403441",
   "name": "Windmill Valley",
+  "nameZh": "風車山谷",
+  "accent": "#6BA368",
   "rank": 723,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/Z3mBHQuawFfI3ZTQ8Z64CA__micro/img/yiaf1-4w6M9VZcbVu93C4IWzx7E=/fit-in/64x64/filters:strip_icc()/pic7796391.jpg",
@@ -10310,7 +10322,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 46,
@@ -10424,6 +10436,8 @@
   "bggId": 298231,
   "gameId": "bgg-298231",
   "name": "Skyrise",
+  "nameZh": "摩天都市",
+  "accent": "#4C6EAF",
   "rank": 732,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/wQNNMPNOm43VMYPAPpJdEA__micro/img/E106MCzmx_uc2M0O1WgfxnvXJyY=/fit-in/64x64/filters:strip_icc()/pic8160197.jpg",
@@ -10431,7 +10445,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 337765,
@@ -10521,6 +10535,8 @@
   "bggId": 369880,
   "gameId": "bgg-369880",
   "name": "Beer & Bread",
+  "nameZh": "啤酒與麵包",
+  "accent": "#C08A3E",
   "rank": 739,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/vPRTRJce1GOsUf6M_dWd-g__micro/img/9Y52jeb3dNuQNgzN9o3RaxV-HCw=/fit-in/64x64/filters:strip_icc()/pic7064178.jpg",
@@ -10528,7 +10544,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 244115,
@@ -12142,6 +12158,8 @@
   "bggId": 393429,
   "gameId": "bgg-393429",
   "name": "Critter Kitchen",
+  "nameZh": "小動物廚房",
+  "accent": "#D96C4F",
   "rank": 856,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/w72-A0u4uH2j_YqGwu4E0w__micro/img/ccmFahvgMFjquESpoT0Mom3iwQ4=/fit-in/64x64/filters:strip_icc()/pic7594267.jpg",
@@ -12149,7 +12167,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 123540,

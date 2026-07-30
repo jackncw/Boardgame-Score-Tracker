@@ -1,0 +1,91 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-298231",
+ "name": "Skyrise",
+ "nameZh": "摩天都市",
+ "theme": {
+  "accent": "#4C6EAF"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/skyrise.pdf",
+  "verified": false,
+  "tieBreaker": "最先起完自己最後一座建築物者勝",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得聲望",
+    "note": "包括第一紀元結算",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "island_control",
+    "label": "島嶼控制",
+    "note": "每個控制到嘅島 5 分",
+    "icon": "🏝️",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "panorama",
+    "label": "全景卡",
+    "note": "每次達成卡上目標都攞一次分",
+    "icon": "🌄",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "key_large",
+    "label": "大城市之鑰",
+    "note": "10 分",
+    "icon": "🗝️",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 10
+   },
+   {
+    "id": "key_small",
+    "label": "細城市之鑰",
+    "note": "4 分",
+    "icon": "🔑",
+    "color": "#F7F3DC",
+    "input": "bonus",
+    "value": 4
+   },
+   {
+    "id": "commissions",
+    "label": "委託圓盤",
+    "note": "每個委託盤:數自己插圖上嘅贊助盤、多餘社區盤、城市之鑰同委託盤,每個 1 分",
+    "icon": "📀",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "structures",
+    "label": "建築物結算",
+    "note": "四種顏色社區逐種移除自己建築,每座按該色最右圓盤欄頂分值(最少 2 分)",
+    "icon": "🏗️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "secret",
+    "label": "秘密目標卡",
+    "icon": "🤫",
+    "color": "#F0E4DC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

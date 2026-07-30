@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-403441",
+ "name": "Windmill Valley",
+ "nameZh": "風車山谷",
+ "theme": {
+  "accent": "#6BA368"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/windmill-valley.pdf",
+  "verified": false,
+  "tieBreaker": "田地入面鬱金香球莖最多者勝;再比儲藏區球莖;再比主板上風車數目;仍平手則共享勝利",
+  "fields": [
+   {
+    "id": "vp_track",
+    "label": "遊戲中已得 VP",
+    "icon": "🌷",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "contracts",
+    "label": "農場板上合約",
+    "note": "逐張按自己條件計分",
+    "icon": "📜",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "windmill_groups",
+    "label": "空置風車組",
+    "note": "每組按田地入面球莖顏色計:白 1、黃 1、紅 2、紫 2、黑 3 分/粒",
+    "icon": "🌬️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "patches",
+    "label": "完整行同列",
+    "note": "完整行同色攞高分值,否則低分值;完整列全部唔同色攞欄頂分,有同色就扣該分",
+    "icon": "🟩",
+    "color": "#DDEFDC",
+    "input": "number"
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

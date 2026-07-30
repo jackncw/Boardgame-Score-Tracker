@@ -13,10 +13,10 @@
 
 ## 進度
 
-- 已生成計分表(done):15
+- 已生成計分表(done):24
 - 揾唔到可靠來源(no-source):1
 - 判定唔使做(skip):328
-- 未做(pending):83
+- 未做(pending):74
 
 ## 逐隻紀錄
 
@@ -104,7 +104,7 @@
 | 314 | Santorini | B | skip | — | coop/campaign |
 | 316 | Toy Battle | C | pending | — | 待研究判斷 |
 | 319 | Star Realms: Frontiers | B | skip | — | coop/campaign |
-| 322 | Apiary | A | pending | — | 競爭型終局計分 |
+| 322 | Apiary | A | done | [link](https://bghub.org/r/apiary.pdf) | 官方 rulebook r10;各項分值靠板塊/卡片故 number |
 | 324 | The Lord of the Rings: The Card Game – Revised Core Set | B | skip | — | coop/campaign |
 | 325 | Mind MGMT: The Psychic Espionage “Game.” | B | skip | — | coop/campaign |
 | 326 | Dice Throne: Season Two – Battle Chest | B | skip | — | coop/campaign |
@@ -188,7 +188,7 @@
 | 486 | Trio | B | skip | — | coop/campaign |
 | 488 | Arkham Horror | B | skip | — | coop/campaign |
 | 492 | Descent: Legends of the Dark | B | skip | — | coop/campaign |
-| 494 | Knarr | A | pending | — | 競爭型終局計分 |
+| 494 | Knarr | A | done | [link](https://bghub.org/r/knarr.pdf) | 官方 rulebook;冇終局結算,只有計分軌一個 field |
 | 496 | Skull | B | skip | — | coop/campaign |
 | 497 | Lords of Hellas | B | skip | — | coop/campaign |
 | 498 | Hannibal: Rome vs. Carthage | B | skip | — | coop/campaign |
@@ -206,7 +206,7 @@
 | 531 | Agent Avenue | C | pending | — | 待研究判斷 |
 | 533 | Unmatched: Little Red Riding Hood vs. Beowulf | B | skip | — | coop/campaign |
 | 535 | Wavelength | B | skip | — | coop/campaign |
-| 536 | Woodcraft | A | pending | — | 競爭型終局計分 |
+| 536 | Woodcraft | A | done | [link](https://bghub.org/r/woodcraft.pdf) | 官方 rulebook;剩餘每 10 個 1 分明文 |
 | 537 | MicroMacro: Crime City – Full House | B | skip | — | coop/campaign |
 | 538 | Luthier | A | done | [link](https://bghub.org/r/luthier.pdf) | 官方 rulebook;專長工人 1 分明文,首席對照表未列故 number |
 | 539 | Civilization | B | skip | — | coop/campaign |
@@ -222,7 +222,7 @@
 | 555 | The Lord of the Rings: The Confrontation | B | skip | — | coop/campaign |
 | 558 | Unmatched Game System | B | skip | — | coop/campaign |
 | 560 | Fire in the Lake | B | skip | — | coop/campaign |
-| 562 | Barcelona | A | pending | — | 競爭型終局計分 |
+| 562 | Barcelona | A | done | [link](https://bghub.org/r/barcelona.pdf) | 官方 rulebook;三項終局全部查板上表 |
 | 564 | Reign of Cthulhu | B | skip | — | coop/campaign |
 | 566 | Sherlock Holmes Consulting Detective: Jack the Ripper & West End Adventures | C | pending | — | 待研究判斷 |
 | 568 | Mice and Mystics | B | skip | — | coop/campaign |
@@ -249,7 +249,7 @@
 | 612 | EXIT: The Game – Dead Man on the Orient Express | B | skip | — | coop/campaign |
 | 613 | Forbidden Desert | B | skip | — | coop/campaign |
 | 615 | Stuffed Fables | B | skip | — | coop/campaign |
-| 618 | Lacrimosa | A | pending | — | 競爭型終局計分 |
+| 618 | Lacrimosa | A | done | [link](https://bghub.org/r/lacrimosa.pdf) | 官方 rulebook;故事點每 2 分、金錢每 3 分 明文 |
 | 622 | Junk Art | B | skip | — | coop/campaign |
 | 623 | Pandemic: The Cure | B | skip | — | coop/campaign |
 | 625 | Mansions of Madness | B | skip | — | coop/campaign |
@@ -302,18 +302,18 @@
 | 718 | Wandering Towers | B | skip | — | coop/campaign |
 | 719 | Coup | B | skip | — | coop/campaign |
 | 720 | Pathfinder Adventure Card Game: Rise of the Runelords – Base Set | B | skip | — | coop/campaign |
-| 723 | Windmill Valley | A | pending | — | 競爭型終局計分 |
+| 723 | Windmill Valley | A | done | [link](https://bghub.org/r/windmill-valley.pdf) | 官方 rulebook;球莖顏色 1/1/2/2/3 分明文 |
 | 726 | Azul: Master Chocolatier | A | pending | — | 競爭型終局計分 |
 | 727 | Unlock!: Heroic Adventures | B | skip | — | coop/campaign |
 | 728 | River of Gold | A | pending | — | 競爭型終局計分 |
 | 729 | Star Trek: Ascendancy | B | skip | — | coop/campaign |
 | 730 | Triumph & Tragedy: European Balance of Power 1936-1945 | B | skip | — | coop/campaign |
 | 731 | Cozy Stickerville | C | pending | — | 待研究判斷 |
-| 732 | Skyrise | A | pending | — | 競爭型終局計分 |
+| 732 | Skyrise | A | done | [link](https://bghub.org/r/skyrise.pdf) | 官方 rulebook;島嶼 5 分、大細鑰匙 10/4 分 明文 |
 | 733 | Brian Boru: High King of Ireland | A | pending | — | 競爭型終局計分 |
 | 734 | Star Wars: Battle of Hoth | B | skip | — | coop/campaign |
 | 735 | Star Trek: Captain's Chair | C | pending | — | 待研究判斷 |
-| 739 | Beer & Bread | A | pending | — | 競爭型終局計分 |
+| 739 | Beer & Bread | A | done | [link](https://bghub.org/r/beer-bread.pdf) | 官方 rulebook;最終分 = 啤酒/麵包較低者,唔係加總,所以只設 1 個 field |
 | 740 | Shards of Infinity | B | skip | — | coop/campaign |
 | 741 | Pax Porfiriana | B | skip | — | coop/campaign |
 | 742 | Three Sisters | A | pending | — | 競爭型終局計分 |
@@ -380,7 +380,7 @@
 | 849 | Whistle Mountain | A | pending | — | 競爭型終局計分 |
 | 852 | Disney Villainous: Evil Comes Prepared | B | skip | — | coop/campaign |
 | 854 | Tiny Epic Dungeons | B | skip | — | coop/campaign |
-| 856 | Critter Kitchen | A | pending | — | 競爭型終局計分 |
+| 856 | Critter Kitchen | A | done | [link](https://bghub.org/r/critterkitchen.pdf) | 官方 rulebook;最多湯 1 星、七道菜 1 星、每道最佳 1 星 明文 |
 | 858 | Space Hulk: Death Angel – The Card Game | B | skip | — | coop/campaign |
 | 860 | Pax Renaissance | B | skip | — | coop/campaign |
 | 861 | Summoner Wars | B | skip | — | coop/campaign |

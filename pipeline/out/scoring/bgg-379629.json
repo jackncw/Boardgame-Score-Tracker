@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-379629",
+ "name": "Knarr",
+ "nameZh": "維京商船",
+ "theme": {
+  "accent": "#3E6B8A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/knarr.pdf",
+  "verified": false,
+  "tieBreaker": "招募者同銀手鐲加起最多者勝",
+  "fields": [
+   {
+    "id": "score_track",
+    "label": "計分軌總分",
+    "note": "Knarr 冇終局結算,分數全部喺遊戲途中累積落計分軌(有人到 40 分就觸發結束)",
+    "icon": "⛵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

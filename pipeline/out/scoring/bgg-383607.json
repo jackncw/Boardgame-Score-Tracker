@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-383607",
+ "name": "Barcelona",
+ "nameZh": "巴塞隆拿",
+ "theme": {
+  "accent": "#C75146"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/barcelona.pdf",
+  "verified": false,
+  "tieBreaker": "Cerdà 軌較前者勝;再比聖家堂軌;再比主板上建築標記最多;仍平手則共享勝利",
+  "fields": [
+   {
+    "id": "vp_track",
+    "label": "遊戲中已得 VP",
+    "note": "包括三次 Cerdà 計分",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cobblestones",
+    "label": "鋪石",
+    "note": "按由倉庫移走嘅鋪石數,攞玩家板上最右邊仲見到嘅分數",
+    "icon": "🧱",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "passengers",
+    "label": "乘客",
+    "note": "按已放置乘客數,攞最右邊未被蓋住嘅乘客格分數",
+    "icon": "🚋",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "modernisme",
+    "label": "現代主義板塊",
+    "note": "每塊:達成條件次數 × 板塊分值 × 對應標記位置嘅倍數",
+    "icon": "🎨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

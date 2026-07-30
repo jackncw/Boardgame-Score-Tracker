@@ -742,9 +742,9 @@
   "bggId": 400314,
   "name": "Apiary",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/apiary.pdf",
+  "note": "官方 rulebook r10;各項分值靠板塊/卡片故 number"
  },
  {
   "rank": 324,
@@ -1498,9 +1498,9 @@
   "bggId": 379629,
   "name": "Knarr",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/knarr.pdf",
+  "note": "官方 rulebook;冇終局結算,只有計分軌一個 field"
  },
  {
   "rank": 496,
@@ -1660,9 +1660,9 @@
   "bggId": 355093,
   "name": "Woodcraft",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/woodcraft.pdf",
+  "note": "官方 rulebook;剩餘每 10 個 1 分明文"
  },
  {
   "rank": 537,
@@ -1804,9 +1804,9 @@
   "bggId": 383607,
   "name": "Barcelona",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/barcelona.pdf",
+  "note": "官方 rulebook;三項終局全部查板上表"
  },
  {
   "rank": 564,
@@ -2047,9 +2047,9 @@
   "bggId": 348450,
   "name": "Lacrimosa",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/lacrimosa.pdf",
+  "note": "官方 rulebook;故事點每 2 分、金錢每 3 分 明文"
  },
  {
   "rank": 622,
@@ -2524,9 +2524,9 @@
   "bggId": 403441,
   "name": "Windmill Valley",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/windmill-valley.pdf",
+  "note": "官方 rulebook;球莖顏色 1/1/2/2/3 分明文"
  },
  {
   "rank": 726,
@@ -2587,9 +2587,9 @@
   "bggId": 298231,
   "name": "Skyrise",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/skyrise.pdf",
+  "note": "官方 rulebook;島嶼 5 分、大細鑰匙 10/4 分 明文"
  },
  {
   "rank": 733,
@@ -2623,9 +2623,9 @@
   "bggId": 369880,
   "name": "Beer & Bread",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/beer-bread.pdf",
+  "note": "官方 rulebook;最終分 = 啤酒/麵包較低者,唔係加總,所以只設 1 個 field"
  },
  {
   "rank": 740,
@@ -3226,9 +3226,9 @@
   "bggId": 393429,
   "name": "Critter Kitchen",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/critterkitchen.pdf",
+  "note": "官方 rulebook;最多湯 1 星、七道菜 1 星、每道最佳 1 星 明文"
  },
  {
   "rank": 858,

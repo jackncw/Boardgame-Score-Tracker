@@ -1,0 +1,89 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-400314",
+ "name": "Apiary",
+ "nameZh": "星際蜂巢",
+ "theme": {
+  "accent": "#E3A72F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/apiary.pdf",
+  "verified": false,
+  "tieBreaker": "在場工蜂(板上或停泊墊上)較多者勝;仍平手則共享勝利",
+  "fields": [
+   {
+    "id": "vp_track",
+    "label": "遊戲中已得 VP",
+    "note": "探索獎勵、農場收入、蜂巢艙格獎勵、建造獎勵等已記低嘅分",
+    "icon": "🐝",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "hibernation",
+    "label": "冬眠蜂巢區塊多數",
+    "note": "每區按冬眠標記最多(部分有第二多)攞分;第一名平手就平分(向下取整),該區冇第二名分",
+    "icon": "🛌",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "seeds",
+    "label": "種子卡",
+    "note": "已種落嘅種子卡達成條件",
+    "icon": "🌱",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "built",
+    "label": "已建造嘅農場/招募/發展",
+    "icon": "🏗️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "carvings",
+    "label": "雕刻板塊",
+    "note": "達成雕刻上嘅條件",
+    "icon": "🗿",
+    "color": "#F0E4DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "queens_favor",
+    "label": "蜂后恩寵軌",
+    "note": "軌上位置對應嘅分數",
+    "icon": "👑",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "hive_mat",
+    "label": "填滿蜂巢板同框架",
+    "icon": "🍯",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "faction",
+    "label": "派系終局能力",
+    "icon": "🧬",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
