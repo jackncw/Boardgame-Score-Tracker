@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-129437",
+ "name": "Legendary: A Marvel Deck Building Game",
+ "nameZh": "漫威傳奇",
+ "theme": {
+  "accent": "#C0392B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://gamerules.com/rules/marvel-legendary/",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "villains",
+    "label": "擊敗嘅反派",
+    "note": "勝利堆入面每張反派卡印住嘅分數",
+    "icon": "😈",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "henchmen",
+    "label": "擊敗嘅爪牙",
+    "note": "每張爪牙卡印住嘅分數",
+    "icon": "🗡️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tactics",
+    "label": "首腦戰術卡",
+    "note": "每張戰術卡印住嘅分數",
+    "icon": "🎴",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bystanders",
+    "label": "拯救嘅旁觀者",
+    "note": "每位 1 分",
+    "icon": "🧍",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

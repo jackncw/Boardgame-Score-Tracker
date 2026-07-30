@@ -13,10 +13,10 @@
 
 ## 進度
 
-- 已生成計分表(done):0
-- 揾唔到可靠來源(no-source):0
+- 已生成計分表(done):15
+- 揾唔到可靠來源(no-source):1
 - 判定唔使做(skip):328
-- 未做(pending):99
+- 未做(pending):83
 
 ## 逐隻紀錄
 
@@ -24,7 +24,7 @@
 | ---: | --- | :-: | --- | --- | --- |
 | 107 | Arkham Horror: The Card Game (Revised Core Set) | B | skip | — | coop/campaign |
 | 108 | Aeon's End | B | skip | — | coop/campaign |
-| 110 | Galactic Cruise | A | pending | — | 待研究 |
+| 110 | Galactic Cruise | A | done | [link](https://bghub.org/r/galacticcruise.pdf) | 官方 Training Manual;各項分值靠板塊/卡片,全部 number |
 | 118 | Decrypto | B | skip | — | coop/campaign |
 | 120 | Robinson Crusoe: Adventures on the Cursed Island | B | skip | — | coop/campaign |
 | 122 | The Quest for El Dorado | B | skip | — | coop/campaign |
@@ -44,7 +44,7 @@
 | 164 | The Elder Scrolls: Betrayal of the Second Era | C | pending | — | 待研究判斷 |
 | 165 | Too Many Bones: Undertow | B | skip | — | coop/campaign |
 | 168 | The 7th Continent | B | skip | — | coop/campaign |
-| 170 | Andromeda's Edge | A | pending | — | 競爭型終局計分 |
+| 170 | Andromeda's Edge | A | done | [link](https://cardboardalchemy.com/downloads/AndromedasEdge_Rulebook_sm.pdf) | 官方 rulebook;受損模組 −2/個、領袖 1 分/個 有明文 |
 | 171 | Rajas of the Ganges | C | pending | — | 待研究判斷 |
 | 172 | Magic: The Gathering | B | skip | — | coop/campaign |
 | 174 | Pandemic | B | skip | — | coop/campaign |
@@ -64,13 +64,13 @@
 | 215 | John Company: Second Edition | C | pending | — | 待研究判斷 |
 | 217 | Star Wars: The Deckbuilding Game | B | skip | — | coop/campaign |
 | 220 | This War of Mine: The Board Game | B | skip | — | coop/campaign |
-| 222 | Wondrous Creatures | A | pending | — | 競爭型終局計分 |
+| 222 | Wondrous Creatures | A | done | [link](https://drive.google.com/file/d/1_h2Mm0AcNhPVoM91SSdgqhNsuwVpFpOU/view) | 官方 rulebook v2.2;獎盃 3 分、資源每 4 個 1 分 有明文 |
 | 223 | War of the Ring | B | skip | — | coop/campaign |
 | 224 | Thunder Road: Vendetta | B | skip | — | coop/campaign |
 | 229 | Return to Dark Tower | B | skip | — | coop/campaign |
 | 231 | Descent: Journeys in the Dark (Second Edition) | B | skip | — | coop/campaign |
 | 232 | Cosmic Encounter | B | skip | — | coop/campaign |
-| 233 | Speakeasy | A | pending | — | 競爭型終局計分 |
+| 233 | Speakeasy | A | no-source | — | Lacerda 2025 新作,官方 rulebook 未公開下載;BGG files 需登入 |
 | 235 | Paleo | B | skip | — | coop/campaign |
 | 238 | The Resistance: Avalon | B | skip | — | coop/campaign |
 | 239 | A Game of Thrones: The Board Game (Second Edition) | B | skip | — | coop/campaign |
@@ -89,7 +89,7 @@
 | 271 | Cyclades | B | skip | — | coop/campaign |
 | 275 | Codenames: Duet | B | skip | — | coop/campaign |
 | 279 | Combat Commander: Europe | B | skip | — | coop/campaign |
-| 283 | Legendary: A Marvel Deck Building Game | A | pending | — | 競爭型終局計分 |
+| 283 | Legendary: A Marvel Deck Building Game | A | done | [link](https://gamerules.com/rules/marvel-legendary/) | 非出版社原文(gamerules.com);只有旁觀者 1 分係明文 |
 | 284 | Samurai | C | pending | — | 待研究判斷 |
 | 286 | Nemesis: Retaliation | B | skip | — | coop/campaign |
 | 289 | Flamme Rouge | B | skip | — | coop/campaign |
@@ -98,7 +98,7 @@
 | 293 | Unmatched: Battle of Legends, Volume One | B | skip | — | coop/campaign |
 | 295 | MicroMacro: Crime City | B | skip | — | coop/campaign |
 | 300 | Aeon's End: The New Age | B | skip | — | coop/campaign |
-| 304 | Unconscious Mind | A | pending | — | 競爭型終局計分 |
+| 304 | Unconscious Mind | A | done | [link](https://fantasiaboardgames.com/wp-content/uploads/2024/11/UM-Rulebook-250x250mm_v2_WEB.pdf) | 官方 rulebook;心形盒 2 分、靈感 1 分 有明文 |
 | 309 | Hero Realms | B | skip | — | coop/campaign |
 | 313 | Hot Streak | C | pending | — | 待研究判斷 |
 | 314 | Santorini | B | skip | — | coop/campaign |
@@ -127,8 +127,8 @@
 | 358 | Keep the Heroes Out! | B | skip | — | coop/campaign |
 | 359 | T.I.M.E Stories | B | skip | — | coop/campaign |
 | 360 | Onitama | B | skip | — | coop/campaign |
-| 361 | Dead Reckoning | A | pending | — | 競爭型終局計分 |
-| 364 | Rebirth | A | pending | — | 競爭型終局計分 |
+| 361 | Dead Reckoning | A | done | [link](https://bghub.org/r/deadreckoning.pdf) | 官方 rulebook;建築 1、基本升級 1、進階升級 2 明文 |
+| 364 | Rebirth | A | done | [link](https://bghub.org/r/rebirth.pdf) | 官方 rulebook;城堡 5 分 明文 |
 | 366 | Pax Renaissance: 2nd Edition | B | skip | — | coop/campaign |
 | 367 | The Gang | B | skip | — | coop/campaign |
 | 368 | Forgotten Waters | B | skip | — | coop/campaign |
@@ -139,7 +139,7 @@
 | 379 | Frostpunk: The Board Game | B | skip | — | coop/campaign |
 | 380 | Innovation | B | skip | — | coop/campaign |
 | 388 | Space Alert | B | skip | — | coop/campaign |
-| 390 | Fromage | A | pending | — | 競爭型終局計分 |
+| 390 | Fromage | A | done | [link](https://bghub.org/r/fromage.pdf) | 官方 rulebook;四個場地查板上表故用 number |
 | 393 | Shackleton Base: A Journey to the Moon | A | pending | — | 競爭型終局計分 |
 | 400 | The King's Dilemma | C | pending | — | 待研究判斷 |
 | 402 | Feed the Kraken | B | skip | — | coop/campaign |
@@ -154,10 +154,10 @@
 | 417 | Runewars | B | skip | — | coop/campaign |
 | 420 | Neuroshima Hex | B | skip | — | coop/campaign |
 | 421 | EXIT: The Game – The Abandoned Cabin | B | skip | — | coop/campaign |
-| 422 | Let's Go! To Japan | A | pending | — | 競爭型終局計分 |
+| 422 | Let's Go! To Japan | A | done | [link](https://bghub.org/r/letsgotojapan.pdf) | 官方 rulebook;研究標記 1 分 明文 |
 | 423 | Burgle Bros. | B | skip | — | coop/campaign |
 | 425 | Mindbug: First Contact | B | skip | — | coop/campaign |
-| 427 | Finspan | A | pending | — | 競爭型終局計分 |
+| 427 | Finspan | A | done | [link](https://thetablepriest.com/wp-content/uploads/2025/01/Finspan-Rulebook-EN.pdf) | 官方 rulebook;被吃魚/卵/幼魚 1 分、魚群 6 分 明文 |
 | 428 | Unmatched: Robin Hood vs. Bigfoot | B | skip | — | coop/campaign |
 | 431 | Dead of Winter: The Long Night | B | skip | — | coop/campaign |
 | 434 | Sid Meier's Civilization: The Board Game | B | skip | — | coop/campaign |
@@ -173,15 +173,15 @@
 | 463 | Chess | B | skip | — | coop/campaign |
 | 464 | Ghost Stories | B | skip | — | coop/campaign |
 | 465 | The Resistance | B | skip | — | coop/campaign |
-| 466 | Ezra and Nehemiah | A | pending | — | 競爭型終局計分 |
+| 466 | Ezra and Nehemiah | A | done | [link](https://bghub.org/r/ezraandnehemiah.pdf) | 官方 rulebook;發展板塊 2 分、祭壇領先 3 分 明文 |
 | 467 | Earthborne Rangers | B | skip | — | coop/campaign |
-| 469 | Life of the Amazonia | A | pending | — | 競爭型終局計分 |
+| 469 | Life of the Amazonia | A | done | [link](https://bghub.org/r/lifeoftheamazonia.pdf) | 官方 rulebook;種子 1 分、最後玩家 5 分 明文 |
 | 472 | Unsettled | B | skip | — | coop/campaign |
 | 474 | Unmatched: Battle of Legends, Volume Two | B | skip | — | coop/campaign |
 | 475 | Imperial Struggle | C | pending | — | 待研究判斷 |
 | 476 | Kutná Hora: The City of Silver | A | pending | — | 競爭型終局計分 |
 | 477 | Fall of Rome | B | skip | — | coop/campaign |
-| 479 | World Wonders | A | pending | — | 競爭型終局計分 |
+| 479 | World Wonders | A | done | [link](https://bghub.org/r/worldwonders.pdf) | 官方 rulebook;天然資源/城區 1 分、貸款 −2 明文 |
 | 481 | Horizons of Spirit Island | B | skip | — | coop/campaign |
 | 483 | Star Wars: Armada | B | skip | — | coop/campaign |
 | 484 | Hitster | B | skip | — | coop/campaign |
@@ -200,7 +200,7 @@
 | 507 | The LOOP | B | skip | — | coop/campaign |
 | 509 | Codenames: Pictures | B | skip | — | coop/campaign |
 | 514 | Cubitos | B | skip | — | coop/campaign |
-| 518 | Men-Nefer | A | pending | — | 競爭型終局計分 |
+| 518 | Men-Nefer | A | done | [link](https://bghub.org/r/mennefer.pdf) | 官方 rulebook;各項查板上軌道故用 number |
 | 523 | Firefly: The Game | B | skip | — | coop/campaign |
 | 529 | PitchCar | B | skip | — | coop/campaign |
 | 531 | Agent Avenue | C | pending | — | 待研究判斷 |
@@ -208,7 +208,7 @@
 | 535 | Wavelength | B | skip | — | coop/campaign |
 | 536 | Woodcraft | A | pending | — | 競爭型終局計分 |
 | 537 | MicroMacro: Crime City – Full House | B | skip | — | coop/campaign |
-| 538 | Luthier | A | pending | — | 競爭型終局計分 |
+| 538 | Luthier | A | done | [link](https://bghub.org/r/luthier.pdf) | 官方 rulebook;專長工人 1 分明文,首席對照表未列故 number |
 | 539 | Civilization | B | skip | — | coop/campaign |
 | 541 | Black Orchestra | B | skip | — | coop/campaign |
 | 544 | Flash Point: Fire Rescue | B | skip | — | coop/campaign |

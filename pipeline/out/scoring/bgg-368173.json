@@ -1,0 +1,70 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-368173",
+ "name": "Let's Go! To Japan",
+ "nameZh": "去日本吧!",
+ "theme": {
+  "accent": "#D94F5C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/letsgotojapan.pdf",
+  "verified": false,
+  "tieBreaker": "共享勝利(想分高下就比體驗軌上 5 個標記合共行過幾多格)",
+  "fields": [
+   {
+    "id": "itinerary",
+    "label": "行程日子",
+    "note": "記分紙上每日行程嘅分數總和",
+    "icon": "🗾",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "stress",
+    "label": "壓力軌",
+    "icon": "😣",
+    "color": "#F7DCDC",
+    "input": "number"
+   },
+   {
+    "id": "happiness",
+    "label": "幸福軌",
+    "icon": "😊",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "experience",
+    "label": "體驗軌",
+    "note": "5 個體驗標記各按停留格數計分(去到「12」格 = 15 分為上限)",
+    "icon": "⛩️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "trains",
+    "label": "火車",
+    "icon": "🚄",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "research",
+    "label": "剩餘研究標記",
+    "note": "每個 1 分",
+    "icon": "🔍",
+    "color": "#DCF0F0",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

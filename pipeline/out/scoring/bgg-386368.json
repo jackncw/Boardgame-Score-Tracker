@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-386368",
+ "name": "Ezra and Nehemiah",
+ "nameZh": "以斯拉與尼希米",
+ "theme": {
+  "accent": "#B08D57"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/ezraandnehemiah.pdf",
+  "verified": false,
+  "tieBreaker": "祭壇軌上標記最右者勝(同格則下面嘅標記算前)",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得 VP",
+    "note": "主板計分軌上嘅分數",
+    "icon": "🕍",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "silver",
+    "label": "剩餘銀",
+    "note": "每 5 銀 1 分(金=3 銀,石/木/食物=2 銀,灰燼=1 銀)",
+    "icon": "🪙",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "developments",
+    "label": "發展板塊",
+    "note": "每塊 2 分",
+    "icon": "🧱",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "altar_leader",
+    "label": "祭壇領先者",
+    "note": "3 分",
+    "icon": "🔥",
+    "color": "#F7DCDC",
+    "input": "bonus",
+    "value": 3
+   },
+   {
+    "id": "walls",
+    "label": "城牆同城門",
+    "note": "卡左下角印住嘅分數",
+    "icon": "🧱",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "scribes",
+    "label": "書記",
+    "note": "按所在列右端嘅分值",
+    "icon": "✍️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "scrolls",
+    "label": "頂列卷軸板塊",
+    "note": "按卷軸自己嘅計分條件",
+    "icon": "📜",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

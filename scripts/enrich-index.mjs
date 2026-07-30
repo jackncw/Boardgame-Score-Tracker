@@ -81,6 +81,7 @@ const enriched = index.map(entry => {
   }
   if (!("nameZh" in out) && nameZh) out.nameZh = nameZh;
   if (!("accent" in out) && accent) out.accent = accent;
+  out.hasScoring = true;   // 有 scoring 檔就一定係 true
   return out;
 });
 

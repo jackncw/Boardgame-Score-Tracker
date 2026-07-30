@@ -1,0 +1,72 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-400366",
+ "name": "Wondrous Creatures",
+ "nameZh": "奇妙生物",
+ "theme": {
+  "accent": "#2E8B77"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://drive.google.com/file/d/1_h2Mm0AcNhPVoM91SSdgqhNsuwVpFpOU/view",
+  "verified": false,
+  "tieBreaker": "獎盃多者勝;仍平手比剩餘資源最多;再平手則共享勝利",
+  "fields": [
+   {
+    "id": "vp_track",
+    "label": "遊戲中已得 VP",
+    "note": "計分軌上嘅分數",
+    "icon": "🦋",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "end_cards",
+    "label": "終局卡(紅鈴)分數",
+    "icon": "🔔",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "creature_end",
+    "label": "生物卡終局分",
+    "note": "儲備區所有生物卡嘅紅印終局分",
+    "icon": "🐾",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "achievements",
+    "label": "已完成成就格",
+    "icon": "🏅",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "trophies",
+    "label": "獎盃",
+    "note": "每個 3 分",
+    "icon": "🏆",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "leftovers",
+    "label": "剩餘資源同捕蝶網",
+    "note": "合計每 4 個 1 分",
+    "icon": "🍄",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

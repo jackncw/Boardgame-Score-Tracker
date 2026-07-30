@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-384213",
+ "name": "Fromage",
+ "nameZh": "乳酪工坊",
+ "theme": {
+  "accent": "#D9A441"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/fromage.pdf",
+  "verified": false,
+  "tieBreaker": "造咗最多乳酪者勝;仍平手則共享勝利",
+  "fields": [
+   {
+    "id": "festival",
+    "label": "節慶廣場",
+    "note": "數自己相鄰乳酪組,查板上對照表(可以計多組)",
+    "icon": "🎪",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fromagerie",
+    "label": "乳酪專門店",
+    "note": "數放咗乳酪嘅不同層架查表,再加有分數獎勵層架上每個乳酪嘅分",
+    "icon": "🧀",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bistro",
+    "label": "小酒館",
+    "note": "按自己配對數查表,每隻碟按青銅/白銀/黃金計分",
+    "icon": "🍽️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "villes",
+    "label": "城市",
+    "note": "六個地區,影響力最多者攞顧客標記(按人數定值);平手攞平手面",
+    "icon": "🗺️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "structures",
+    "label": "建築同訂單卡",
+    "note": "建築能力同訂單卡嘅終局分",
+    "icon": "🏭",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源",
+    "note": "每 2 個未用資源 1 分",
+    "icon": "🪵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

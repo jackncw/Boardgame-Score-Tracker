@@ -1,0 +1,84 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-365258",
+ "name": "World Wonders",
+ "nameZh": "世界奇觀",
+ "theme": {
+  "accent": "#C9973E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/worldwonders.pdf",
+  "verified": false,
+  "tieBreaker": "紀念碑最多者勝",
+  "fields": [
+   {
+    "id": "population",
+    "label": "人口軌",
+    "note": "標記到達或經過每個環 1 分",
+    "icon": "👥",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "least_resource",
+    "label": "最少生產嘅資源",
+    "note": "三條資源軌入面最低果條嘅數值",
+    "icon": "🌾",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "monuments",
+    "label": "紀念碑",
+    "note": "紀念碑卡上每個環 1 分",
+    "icon": "🗿",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "natural",
+    "label": "天然資源",
+    "note": "每個同自己地圖上棋件相鄰嘅可見天然資源 1 分",
+    "icon": "🌲",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "districts",
+    "label": "城區",
+    "note": "每塊四邊都被綠地以外嘅東西包圍嘅建築板塊 1 分",
+    "icon": "🏛️",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "objectives",
+    "label": "公共目標卡",
+    "note": "進階規則:達成得最好嘅玩家攞卡上分數",
+    "icon": "🎯",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "loans",
+    "label": "未還清貸款",
+    "note": "每張 −2",
+    "icon": "💸",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 2,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

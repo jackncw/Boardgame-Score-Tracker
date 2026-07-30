@@ -1,0 +1,91 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-358661",
+ "name": "Andromeda's Edge",
+ "nameZh": "仙女座邊境",
+ "theme": {
+  "accent": "#6B4FA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://cardboardalchemy.com/downloads/AndromedasEdge_Rulebook_sm.pdf",
+  "verified": false,
+  "tieBreaker": "模組最多者勝;仍平手比資源最多;再平手則共享勝利",
+  "fields": [
+   {
+    "id": "vp_track",
+    "label": "遊戲中已得 VP",
+    "note": "計分軌上嘅分數",
+    "icon": "🌌",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "progress",
+    "label": "五條進度軌",
+    "note": "每條軌自己標記旁邊印住嘅分數",
+    "icon": "📊",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "developments",
+    "label": "建設",
+    "note": "每個建設按對應進度軌到達嘅等級計分(1 級 5 分)",
+    "icon": "🏙️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "damaged_modules",
+    "label": "受損模組",
+    "note": "每個站上受損模組 −2(受損船艦唔扣)",
+    "icon": "💥",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 2,
+    "sign": -1
+   },
+   {
+    "id": "vault",
+    "label": "金庫獎勵",
+    "note": "按商業軌到達嘅金庫獎勵,每個未用資源(含戰術卡)計分",
+    "icon": "💎",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "civ_modules",
+    "label": "文明模組",
+    "note": "站上未受損文明模組嘅終局分",
+    "icon": "🏛️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leaders",
+    "label": "留守領袖",
+    "note": "留喺自己站上每位領袖 1 分",
+    "icon": "🧑‍🚀",
+    "color": "#F7F3DC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "other",
+    "label": "陣營能力等其他分",
+    "icon": "✨",
+    "color": "#F0E4DC",
+    "input": "number"
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

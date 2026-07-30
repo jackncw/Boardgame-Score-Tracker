@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-368305",
+ "name": "Life of the Amazonia",
+ "nameZh": "亞馬遜生態",
+ "theme": {
+  "accent": "#2E7D4F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/lifeoftheamazonia.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "animals",
+    "label": "基礎動物",
+    "note": "每張動物卡自己嘅計分條件(每隻/每組/每群落/整片叢林)",
+    "icon": "🐆",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "scenery",
+    "label": "已購景觀卡",
+    "icon": "🌄",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "terrain_track",
+    "label": "地形板塊軌",
+    "note": "自己標記所在格分數",
+    "icon": "🗺️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tree_track",
+    "label": "樹木軌",
+    "icon": "🌳",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "flower_track",
+    "label": "水生花軌",
+    "icon": "🌸",
+    "color": "#F0DCE8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "seeds",
+    "label": "未用種子",
+    "note": "每粒 1 分",
+    "icon": "🌱",
+    "color": "#F7F3DC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "final_player",
+    "label": "最後一位玩家",
+    "note": "5 分",
+    "icon": "🏁",
+    "color": "#DCE8F7",
+    "input": "bonus",
+    "value": 5
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

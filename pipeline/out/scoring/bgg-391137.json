@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-391137",
+ "name": "Galactic Cruise",
+ "nameZh": "銀河郵輪",
+ "theme": {
+  "accent": "#3B5BA5"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/galacticcruise.pdf",
+  "verified": false,
+  "tieBreaker": "進度軌上進度方塊最多者勝;仍平手比聲望;再平手比駕駛艙得分;最後由回合順序較後者勝",
+  "fields": [
+   {
+    "id": "vp_track",
+    "label": "遊戲中已得 VP",
+    "note": "計分軌上嘅分數",
+    "icon": "🚀",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "supplies",
+    "label": "剩餘物資",
+    "note": "資源/金錢/廣告/議程卡/藍圖合計每 3 個 1 分",
+    "icon": "📦",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "progress",
+    "label": "第三區進度計分",
+    "note": "該區方塊數 × 主板上自己顏色機翼數(含溢出區)",
+    "icon": "📈",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "reputation",
+    "label": "聲望",
+    "note": "聲望軌上到達過嘅最高分數門檻",
+    "icon": "⭐",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "segments",
+    "label": "穿梭機艙段",
+    "note": "自己穿梭機上每個艙段印住嘅分數",
+    "icon": "🛰️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "developments",
+    "label": "發展區",
+    "note": "玩家板發展區最右邊空欄嘅分數",
+    "icon": "🏗️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cockpits",
+    "label": "駕駛艙",
+    "note": "每個駕駛艙按自己條件計分;未發射嘅該駕駛艙 −5",
+    "icon": "🎛️",
+    "color": "#DCF0F0",
+    "input": "number"
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

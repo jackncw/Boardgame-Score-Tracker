@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-404431",
+ "name": "Men-Nefer",
+ "nameZh": "孟斐斯",
+ "theme": {
+  "accent": "#C8A96B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/mennefer.pdf",
+  "verified": false,
+  "tieBreaker": "心同羽毛所在格數值相加最高者勝;仍平手則共享勝利",
+  "fields": [
+   {
+    "id": "pp_track",
+    "label": "之前紀元已得 PP",
+    "note": "第一、二紀元收成階段累積落計分軌嘅分",
+    "icon": "🏺",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "duat",
+    "label": "杜阿特(心 vs 羽毛)",
+    "note": "未交叉:兩者之間每格 −1;已交叉:每格 +1",
+    "icon": "🪶",
+    "color": "#F7DCDC",
+    "input": "number"
+   },
+   {
+    "id": "contracts",
+    "label": "貿易契約",
+    "note": "已達成翻面嘅契約(含之前紀元)按背面數值計分",
+    "icon": "📜",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "necropolis",
+    "label": "墓地石棺",
+    "note": "每具石棺 = 佢兩側垂直嘅馬斯塔巴板塊分數之和",
+    "icon": "⚰️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "obelisk",
+    "label": "方尖碑",
+    "note": "球體到達/超過嘅最後一個計分格分數",
+    "icon": "🔺",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "pyramid",
+    "label": "大金字塔軌",
+    "note": "石灰岩塊到達/超過嘅最後一個計分格分數",
+    "icon": "🔻",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "queens",
+    "label": "王后金字塔",
+    "note": "每座:該座嘅許可數 × 對應板塊指定元素嘅數量,再加埋",
+    "icon": "👑",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -22,9 +22,9 @@
   "bggId": 391137,
   "name": "Galactic Cruise",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/galacticcruise.pdf",
+  "note": "官方 Training Manual;各項分值靠板塊/卡片,全部 number"
  },
  {
   "rank": 118,
@@ -202,9 +202,9 @@
   "bggId": 358661,
   "name": "Andromeda's Edge",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://cardboardalchemy.com/downloads/AndromedasEdge_Rulebook_sm.pdf",
+  "note": "官方 rulebook;受損模組 −2/個、領袖 1 分/個 有明文"
  },
  {
   "rank": 171,
@@ -382,9 +382,9 @@
   "bggId": 400366,
   "name": "Wondrous Creatures",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://drive.google.com/file/d/1_h2Mm0AcNhPVoM91SSdgqhNsuwVpFpOU/view",
+  "note": "官方 rulebook v2.2;獎盃 3 分、資源每 4 個 1 分 有明文"
  },
  {
   "rank": 223,
@@ -436,9 +436,9 @@
   "bggId": 375459,
   "name": "Speakeasy",
   "cat": "A",
-  "result": "pending",
+  "result": "no-source",
   "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "note": "Lacerda 2025 新作,官方 rulebook 未公開下載;BGG files 需登入"
  },
  {
   "rank": 235,
@@ -607,9 +607,9 @@
   "bggId": 129437,
   "name": "Legendary: A Marvel Deck Building Game",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://gamerules.com/rules/marvel-legendary/",
+  "note": "非出版社原文(gamerules.com);只有旁觀者 1 分係明文"
  },
  {
   "rank": 284,
@@ -688,9 +688,9 @@
   "bggId": 329500,
   "name": "Unconscious Mind",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://fantasiaboardgames.com/wp-content/uploads/2024/11/UM-Rulebook-250x250mm_v2_WEB.pdf",
+  "note": "官方 rulebook;心形盒 2 分、靈感 1 分 有明文"
  },
  {
   "rank": 309,
@@ -949,18 +949,18 @@
   "bggId": 276182,
   "name": "Dead Reckoning",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/deadreckoning.pdf",
+  "note": "官方 rulebook;建築 1、基本升級 1、進階升級 2 明文"
  },
  {
   "rank": 364,
   "bggId": 417197,
   "name": "Rebirth",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/rebirth.pdf",
+  "note": "官方 rulebook;城堡 5 分 明文"
  },
  {
   "rank": 366,
@@ -1057,9 +1057,9 @@
   "bggId": 384213,
   "name": "Fromage",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/fromage.pdf",
+  "note": "官方 rulebook;四個場地查板上表故用 number"
  },
  {
   "rank": 393,
@@ -1192,9 +1192,9 @@
   "bggId": 368173,
   "name": "Let's Go! To Japan",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/letsgotojapan.pdf",
+  "note": "官方 rulebook;研究標記 1 分 明文"
  },
  {
   "rank": 423,
@@ -1219,9 +1219,9 @@
   "bggId": 436126,
   "name": "Finspan",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://thetablepriest.com/wp-content/uploads/2025/01/Finspan-Rulebook-EN.pdf",
+  "note": "官方 rulebook;被吃魚/卵/幼魚 1 分、魚群 6 分 明文"
  },
  {
   "rank": 428,
@@ -1363,9 +1363,9 @@
   "bggId": 386368,
   "name": "Ezra and Nehemiah",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/ezraandnehemiah.pdf",
+  "note": "官方 rulebook;發展板塊 2 分、祭壇領先 3 分 明文"
  },
  {
   "rank": 467,
@@ -1381,9 +1381,9 @@
   "bggId": 368305,
   "name": "Life of the Amazonia",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/lifeoftheamazonia.pdf",
+  "note": "官方 rulebook;種子 1 分、最後玩家 5 分 明文"
  },
  {
   "rank": 472,
@@ -1435,9 +1435,9 @@
   "bggId": 365258,
   "name": "World Wonders",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/worldwonders.pdf",
+  "note": "官方 rulebook;天然資源/城區 1 分、貸款 −2 明文"
  },
  {
   "rank": 481,
@@ -1606,9 +1606,9 @@
   "bggId": 404431,
   "name": "Men-Nefer",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/mennefer.pdf",
+  "note": "官方 rulebook;各項查板上軌道故用 number"
  },
  {
   "rank": 523,
@@ -1678,9 +1678,9 @@
   "bggId": 371330,
   "name": "Luthier",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/luthier.pdf",
+  "note": "官方 rulebook;專長工人 1 分明文,首席對照表未列故 number"
  },
  {
   "rank": 539,

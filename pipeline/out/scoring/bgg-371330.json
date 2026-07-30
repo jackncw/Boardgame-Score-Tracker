@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-371330",
+ "name": "Luthier",
+ "nameZh": "製琴師",
+ "theme": {
+  "accent": "#8B4A2F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/luthier.pdf",
+  "verified": false,
+  "tieBreaker": "換分之後剩低金錢最多者勝;仍平手則共享勝利",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得聲望",
+    "icon": "🎻",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "first_chairs",
+    "label": "首席位置",
+    "note": "按佔住嘅首席數查規則書對照表",
+    "icon": "🪑",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "patrons",
+    "label": "贊助人終局能力",
+    "note": "已完成嘅贊助人卡終局效果",
+    "icon": "🎩",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bench",
+    "label": "工作台上樂器",
+    "note": "每件值佢總聲望嘅一半(向上取整)",
+    "icon": "🪚",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goals",
+    "label": "個人目標卡",
+    "note": "每張只計已達成嘅最高等級",
+    "icon": "🎯",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "specialists",
+    "label": "專長工人卡",
+    "note": "每張 1 分",
+    "icon": "🧑‍🔧",
+    "color": "#DCF0F0",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "leftovers",
+    "label": "剩餘靈感/金錢/材料/學徒",
+    "note": "合計每 10 個 1 分,餘數盡量留做金錢(用嚟決勝)",
+    "icon": "💰",
+    "color": "#F0E4DC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

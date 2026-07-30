@@ -53,7 +53,8 @@ function build() {
   const seen = new Set();
   const rows = [];
   for (const g of index) {
-    if (g.hasScoring) continue;
+    // 已經入咗紀錄嘅照留(hasScoring 變 true 係我哋今次做出嚟嘅結果)
+    if (g.hasScoring && !prev.has(g.bggId)) continue;
     if (seen.has(g.bggId)) continue;
     seen.add(g.bggId);
     const cat = A.has(g.bggId) ? "A" : C.has(g.bggId) ? "C" : "B";

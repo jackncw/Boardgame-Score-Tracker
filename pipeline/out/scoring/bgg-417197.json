@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-417197",
+ "name": "Rebirth",
+ "nameZh": "重生",
+ "theme": {
+  "accent": "#4A7C59"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/rebirth.pdf",
+  "verified": false,
+  "tieBreaker": "由控制愛丁堡城堡嘅玩家勝;若第一名平手者都冇控制,則改由控制史特靈城堡嘅玩家勝",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得分",
+    "note": "計分軌上嘅分數(放置板塊即時得分)",
+    "icon": "🏘️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "incomplete",
+    "label": "未完成聚落",
+    "note": "每塊喺未完成聚落嘅聚落板塊,得分等於佢嘅影響力",
+    "icon": "🧱",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "castles",
+    "label": "控制嘅城堡",
+    "note": "每座 5 分",
+    "icon": "🏰",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "missions",
+    "label": "任務卡",
+    "note": "達成條件嘅任務卡分數(大教堂獎勵卡無條件 3 分)",
+    "icon": "📜",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

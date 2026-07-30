@@ -1,0 +1,92 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-329500",
+ "name": "Unconscious Mind",
+ "nameZh": "潛意識",
+ "theme": {
+  "accent": "#7A5C9E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://fantasiaboardgames.com/wp-content/uploads/2024/11/UM-Rulebook-250x250mm_v2_WEB.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp_track",
+    "label": "遊戲中已得 VP",
+    "note": "勝利分軌上嘅分數",
+    "icon": "🛋️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "reputation",
+    "label": "聲望軌",
+    "note": "聲望等級分;軌上最前者每張已發表論文同每位痊癒客戶各 2 分,第二者各 1 分",
+    "icon": "🎩",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "districts",
+    "label": "不同城區洞察",
+    "note": "按有自己顏色洞察嘅不同城區數,查城市圖分數(2 區 = 10 分)",
+    "icon": "🗺️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "notebook",
+    "label": "完成筆記列",
+    "note": "按完成列數查玩家板分數(2 列 = 5 分)",
+    "icon": "📓",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tags",
+    "label": "不同地點標記",
+    "note": "按不同標記種類數查玩家板分數(六種齊 = 15 分)",
+    "icon": "🏷️",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "case_study",
+    "label": "個案研究客戶",
+    "note": "已除去悲傷層嘅個案研究客戶終局條件",
+    "icon": "🧠",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "hearts",
+    "label": "剩餘心形盒",
+    "note": "每個 2 分",
+    "icon": "💗",
+    "color": "#F0DCE8",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "bright_ideas",
+    "label": "剩餘靈感",
+    "note": "每個 1 分(3 杯咖啡可換 1 個靈感)",
+    "icon": "💡",
+    "color": "#DCF0F0",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

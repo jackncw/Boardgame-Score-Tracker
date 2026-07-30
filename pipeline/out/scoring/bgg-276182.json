@@ -1,0 +1,92 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-276182",
+ "name": "Dead Reckoning",
+ "nameZh": "航位推算",
+ "theme": {
+  "accent": "#2F6690"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/deadreckoning.pdf",
+  "verified": false,
+  "tieBreaker": "數自己船上同牌庫所有卡嘅大炮數,最多者勝",
+  "fields": [
+   {
+    "id": "achievements",
+    "label": "已完成成就",
+    "note": "成就卡上印住嘅金幣值",
+    "icon": "🏅",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "coins",
+    "label": "金幣",
+    "note": "寶箱、船上、同自己控制島嶼上嘅金幣",
+    "icon": "🪙",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築",
+    "note": "自己控制島嶼上每座建築 1 分",
+    "icon": "🏚️",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "advancements",
+    "label": "進階能力",
+    "note": "卡上同旁邊嘅進階能力,每 2 個 1 分",
+    "icon": "⚙️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "basic_upgrades",
+    "label": "基本船隻升級",
+    "note": "每個 1 分(被蓋住嘅一樣計)",
+    "icon": "🔧",
+    "color": "#DCF0F0",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "adv_upgrades",
+    "label": "進階船隻升級",
+    "note": "每個 2 分(被蓋住嘅一樣計)",
+    "icon": "⛵",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "end_advancements",
+    "label": "終局進階效果",
+    "note": "進階能力上嘅終局計分效果",
+    "icon": "🧭",
+    "color": "#F0E4DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "islands",
+    "label": "島嶼影響力",
+    "note": "每個島按影響力方塊多寡分第一/第二(部分島有第三)名次分",
+    "icon": "🏝️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
