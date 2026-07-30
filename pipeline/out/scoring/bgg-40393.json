@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-40393",
+ "name": "FITS",
+ "nameZh": "FITS",
+ "theme": {
+  "accent": "#7A4A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "四塊板各自按露出符號同空格計嘅分,全部加埋",
+    "icon": "🧩",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

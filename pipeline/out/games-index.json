@@ -34058,7 +34058,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "陰鬱家族",
+  "accent": "#5A4A7A"
  },
  {
   "bggId": 32412,
@@ -34097,7 +34099,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "劇院經理",
+  "accent": "#C4543C"
  },
  {
   "bggId": 144239,
@@ -34227,7 +34231,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "維度",
+  "accent": "#5A8CA8"
  },
  {
   "bggId": 156496,
@@ -34357,7 +34363,9 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "雷霆石進階:努美拉",
+  "accent": "#5A4A7A"
  },
  {
   "bggId": 169318,
@@ -34383,7 +34391,9 @@
   "minPlayers": 1,
   "maxPlayers": 8,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "輕鬆一點",
+  "accent": "#C9A227"
  },
  {
   "bggId": 298635,
@@ -34422,7 +34432,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "FITS",
+  "accent": "#7A4A8C"
  },
  {
   "bggId": 191925,
@@ -34591,7 +34603,9 @@
   "minPlayers": 4,
   "maxPlayers": 8,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "壞蛋分贓",
+  "accent": "#8C3F3F"
  },
  {
   "bggId": 247585,
@@ -34669,7 +34683,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "戰鎚地下世界:夜臨",
+  "accent": "#6B3A3A"
  },
  {
   "bggId": 222219,
@@ -34747,7 +34763,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "1882:阿西尼博亞",
+  "accent": "#4A6E4A"
  },
  {
   "bggId": 130060,
@@ -35059,7 +35077,9 @@
   "minPlayers": 3,
   "maxPlayers": 28,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "Flip 7:復仇版",
+  "accent": "#C9553C"
  },
  {
   "bggId": 559,
@@ -35072,7 +35092,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "地鐵",
+  "accent": "#5A6E8C"
  },
  {
   "bggId": 125752,
@@ -35280,7 +35302,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "鐵道任務:三藩市",
+  "accent": "#B5343C"
  },
  {
   "bggId": 406498,
@@ -35345,7 +35369,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "老媽的女僕",
+  "accent": "#C97A9B"
  },
  {
   "bggId": 3720,
@@ -35540,7 +35566,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "DC 英雄:永恆邪惡",
+  "accent": "#2A4A8C"
  },
  {
   "bggId": 168998,
@@ -35969,7 +35997,9 @@
   "minPlayers": 2,
   "maxPlayers": 7,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "海姆立奇公司",
+  "accent": "#7A5A8C"
  },
  {
   "bggId": 36811,
@@ -36060,7 +36090,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "瞌睡皇后",
+  "accent": "#C97A9B"
  },
  {
   "bggId": 196354,
@@ -36138,7 +36170,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "鐵道任務:阿姆斯特丹",
+  "accent": "#B5343C"
  },
  {
   "bggId": 91620,
@@ -36294,7 +36328,9 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "毒藥",
+  "accent": "#7A4A8C"
  },
  {
   "bggId": 354132,
@@ -36593,7 +36629,9 @@
   "minPlayers": 3,
   "maxPlayers": 7,
   "playTime": 420,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "1822:大不列顛鐵道",
+  "accent": "#4A6E4A"
  },
  {
   "bggId": 86246,

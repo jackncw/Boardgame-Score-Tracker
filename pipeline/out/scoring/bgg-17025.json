@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-17025",
+ "name": "Poison",
+ "nameZh": "毒藥",
+ "theme": {
+  "accent": "#7A4A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "penalty",
+    "label": "罰分",
+    "note": "食落嘅牌按規則計嘅罰分;分數越低越好,所以呢欄自動扣分",
+    "icon": "🧪",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

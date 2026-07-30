@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-463441",
+ "name": "Flip 7: With A Vengeance",
+ "nameZh": "Flip 7:復仇版",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "各局停手時卡面數值加獎勵,全部加埋",
+    "icon": "🎴",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

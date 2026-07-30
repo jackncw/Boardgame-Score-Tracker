@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-382",
+ "name": "Heimlich & Co.",
+ "nameZh": "海姆立奇公司",
+ "theme": {
+  "accent": "#7A5A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "各次計分按自己特工喺場景嘅位置得嘅分,全部加埋",
+    "icon": "🕵️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

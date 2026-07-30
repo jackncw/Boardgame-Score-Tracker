@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-73",
+ "name": "Show Manager",
+ "nameZh": "劇院經理",
+ "theme": {
+  "accent": "#C4543C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "各齣劇演出收入減開支後嘅錢,最多者勝",
+    "icon": "🎭",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

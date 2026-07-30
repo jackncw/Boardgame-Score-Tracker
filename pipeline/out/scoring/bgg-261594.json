@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-261594",
+ "name": "Warhammer Underworlds: Nightvault",
+ "nameZh": "戰鎚地下世界:夜臨",
+ "theme": {
+  "accent": "#6B3A3A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "glory",
+    "label": "榮耀點數",
+    "note": "達成目標卡攞到嘅榮耀點總和",
+    "icon": "⚔️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

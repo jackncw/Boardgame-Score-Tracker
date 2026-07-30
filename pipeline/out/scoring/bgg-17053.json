@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-17053",
+ "name": "Sleeping Queens",
+ "nameZh": "瞌睡皇后",
+ "theme": {
+  "accent": "#C97A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "queens",
+    "label": "皇后點數",
+    "note": "叫醒咗嘅皇后卡按卡面點數加埋",
+    "icon": "👑",
+    "color": "#F7D8E0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

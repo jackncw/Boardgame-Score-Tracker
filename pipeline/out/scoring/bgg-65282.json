@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-65282",
+ "name": "Tanto Cuore",
+ "nameZh": "老媽的女僕",
+ "theme": {
+  "accent": "#C97A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "牌庫卡牌勝利點數",
+    "note": "遊戲結束時你擁有嘅所有卡上嘅 VP 總和",
+    "icon": "🧹",
+    "color": "#F7D8E0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
