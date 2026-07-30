@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-351526",
+ "name": "Encyclopedia",
+ "nameZh": "百科全書",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/encyclopedia.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中已出版動物卡較多者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中累積嘅分",
+    "note": "六個回合期間喺計分軌儲落嘅分",
+    "icon": "📖",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "research",
+    "label": "研究方塊收藏",
+    "note": "中央板各分類區上你嘅研究方塊按價值計",
+    "icon": "🔬",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "continents",
+    "label": "大洲收藏",
+    "note": "同一大洲類型嘅收藏,包括已出版動物卡同同色專家卡",
+    "icon": "🌍",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "experts",
+    "label": "生效專家卡",
+    "note": "生效專家卡帶嚟嘅額外分",
+    "icon": "🎓",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "seals",
+    "label": "皇家印璽",
+    "note": "每個 4 VP",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 4
+   },
+   {
+    "id": "coins",
+    "label": "剩餘金幣",
+    "note": "每 2 個金幣 1 VP(呢欄入對數,兩個當一個)",
+    "icon": "🪙",
+    "color": "#F7E2CE",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "expeditions",
+    "label": "遠征標記",
+    "note": "每個 1 VP",
+    "icon": "🧭",
+    "color": "#E5E0D5",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

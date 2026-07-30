@@ -459,10 +459,10 @@
 
 ## 進度
 
-- 已生成計分表(done):223
+- 已生成計分表(done):228
 - 揾唔到可靠來源(no-source):0
 - 判定唔使做(skip):880
-- 未做(pending):897
+- 未做(pending):892
 - 路徑 b(直接生成):190 · 路徑 c(網查 rulebook):930
 
 ## 逐隻紀錄
@@ -612,7 +612,7 @@
 | 1141 | Small World of Warcraft | b | done | — | 每回合收勝利硬幣,比總額 |
 | 1142 | Rolling Realms | c | pending | — | roll & write,待網查 rulebook |
 | 1143 | Lowlands | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1144 | Santa Monica | c | pending | — | rulebook 有,但終局計分散落各處冇統一清單,要再細讀 |
+| 1144 | Santa Monica | c | done | [link](https://bghub.org/r/santamonica.pdf) | 單價印喺磚同卡面(圖),文字抽唔到 → 只寫類別,全部 number |
 | 1145 | Meeple Circus | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1146 | Concept | c | done | [link](https://bghub.org/r/concept.pdf) | 雙倍代幣 2 分、單倍代幣 1 分 |
 | 1147 | Sentinels of the Multiverse: Definitive Edition | - | skip | — | 合作制遊戲,無玩家累加計分 |
@@ -665,11 +665,11 @@
 | 1194 | Container: 10th Anniversary Jumbo Edition! | c | done | [link](https://bghub.org/r/container.pdf) | 同《貨櫃》本體同一套終局計分 |
 | 1195 | Little Town | b | done | — | 建築 + 目標卡 + 金幣 |
 | 1196 | Riverboat | c | done | [link](https://bghub.org/r/riverboat.pdf) | 軌上分 + 港口計分 + 新奧爾良探員 20/10/5 |
-| 1197 | Comic Hunters | c | pending | — | rulebook 有,但錨點落咗雙人變體,終局計分要再細讀 |
+| 1197 | Comic Hunters | c | done | [link](https://bghub.org/r/comic-hunters.pdf) | 收藏規模對照表印喺圖,文字抽唔到 → 只寫類別,全部 number |
 | 1198 | World of Warcraft: Wrath of the Lich King | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1199 | Brew Crafters | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1200 | Cat Lady | b | done | — | 貓/玩具/衣裝/貓草 − 走失貓 |
-| 1201 | Orloj: The Prague Astronomical Clock | c | pending | — | rulebook 有,但錨點落咗助手卡描述,終局計分清單要再細讀 |
+| 1201 | Orloj: The Prague Astronomical Clock | c | pending | — | 正文只搵到助手卡個別加分,搵唔到終局計分主清單 |
 | 1202 | Septima | c | done | [link](https://bghub.org/r/septima.pdf) | 智慧為單位:軌上分/占卜目標/病人軌/幸運符 2/藥水 1/材料每兩件 1 |
 | 1203 | Tempel des Schreckens | - | skip | — | 社交推理遊戲,以陣營達成條件定勝負,無累加計分 |
 | 1204 | Ecos: First Continent | b | done | — | 放寬尺度後直接生成 |
@@ -799,7 +799,7 @@
 | 1328 | The Initiative | - | skip | — | 合作制戰役遊戲,無玩家累加計分 |
 | 1329 | Obscurio | - | skip | — | 合作制含內鬼遊戲,無玩家累加計分 |
 | 1330 | Ascension: Return of the Fallen | b | done | — | 放寬尺度後直接生成 |
-| 1331 | Arborea | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1331 | Arborea | c | pending | — | 錨點落咗單人對手(Feronia)嘅計分,唔係多人終局計分 |
 | 1332 | Unmatched: Jurassic Park – Dr. Sattler vs. T. Rex | - | skip | — | 雙人對戰,以擊倒對手英雄定勝負,無累加計分 |
 | 1333 | Dream Home | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1334 | Star Wars: Jabba's Palace – A Love Letter Game | - | skip | — | 以最先儲夠指定標記定勝負,無累加計分 |
@@ -807,12 +807,12 @@
 | 1336 | Islebound | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1337 | The Game | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1338 | The Isofarian Guard | - | skip | — | 合作制戰役遊戲,無玩家累加計分 |
-| 1339 | Ironwood | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1339 | Ironwood | c | pending | — | 搵唔到計分段落錨點,要人手睇 |
 | 1340 | Cockroach Poker Royal | - | skip | — | 唬人卡牌遊戲,以儲齊四張同款即敗定勝負,無累加計分 |
 | 1341 | Genotype: A Mendelian Genetics Game | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1342 | 20 Strong | - | skip | — | 單人遊戲,無玩家累加計分 |
 | 1343 | Rallyman: GT | - | skip | — | 競速遊戲,以最快到終點定勝負,無累加計分 |
-| 1344 | Encyclopedia | c | pending | — | bghub 有 rulebook,但終局計分印喺玩家板背面(圖),文字抽唔到 |
+| 1344 | Encyclopedia | c | done | [link](https://bghub.org/r/encyclopedia.pdf) | 研究方塊/大洲收藏/專家卡/皇家印璽 4/每 2 金幣 1/遠征標記 1 |
 | 1345 | Tales & Games: The Hare & the Tortoise | b | done | — | 放寬尺度後直接生成 |
 | 1346 | Coconuts | - | skip | — | 彈射遊戲,以最先疊齊杯定勝負,無累加計分 |
 | 1347 | Fallout | - | skip | — | 以陣營議程影響力定勝負,無統一累加計分 |
@@ -825,8 +825,8 @@
 | 1354 | ROVE: Results-Oriented Versatile Explorer | - | skip | — | 單人遊戲,無玩家累加計分 |
 | 1355 | Zendo | - | skip | — | 歸納推理遊戲,以最先猜中規則定勝負,無累加計分 |
 | 1356 | Shadow Hunters | - | skip | — | 隱藏身分遊戲,以陣營條件定勝負,無累加計分 |
-| 1357 | Dice Miner | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1358 | Terror in Meeple City | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1357 | Dice Miner | c | done | [link](https://bghub.org/r/dice-miner.pdf) | 規則書冇列終局分項,用三回合累計單欄 |
+| 1358 | Terror in Meeple City | c | done | [link](https://bghub.org/r/terror-in-meeple-city.pdf) | 角色/米寶/樓層/牙齒;隊制取較低分 |
 | 1359 | Unlock!: Mythic Adventures | - | skip | — | 密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表 |
 | 1360 | Ikusa | - | skip | — | 戰棋,以佔領領土定勝負,無累加計分 |
 | 1361 | Santorini: Pantheon Edition | - | skip | — | 抽象對弈,以爬上第三層定勝負,無累加計分 |

@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-310632",
+ "name": "Dice Miner",
+ "nameZh": "骰子礦工",
+ "theme": {
+  "accent": "#7A5A3A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/dice-miner.pdf",
+  "verified": false,
+  "tieBreaker": "同分者重擲全部骰再計一次分,直到分出勝負",
+  "fields": [
+   {
+    "id": "score",
+    "label": "三回合累計得分",
+    "note": "三個回合計分階段嘅分數加埋,最高者勝",
+    "icon": "⛏️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

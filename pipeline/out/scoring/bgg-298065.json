@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-298065",
+ "name": "Santa Monica",
+ "nameZh": "聖莫尼卡",
+ "theme": {
+  "accent": "#E0A87A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/santamonica.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "features",
+    "label": "特色磚",
+    "note": "每張起始特色磚有佢自己嘅計分方式,按磚面所示計",
+    "icon": "🏖️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rings",
+    "label": "活動圈",
+    "note": "卡上活動圈填啱指定人物種類同數量先計分,分數印喺卡面",
+    "icon": "⭕",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "footprints",
+    "label": "腳印標記",
+    "note": "遊戲期間放低嘅腳印標記,按起始特色磚嘅方式計分",
+    "icon": "👣",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objective",
+    "label": "計分目標磚",
+    "note": "本局揀咗嘅計分目標磚達成後計嘅分",
+    "icon": "🎯",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

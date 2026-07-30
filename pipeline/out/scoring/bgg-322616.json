@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-322616",
+ "name": "Comic Hunters",
+ "nameZh": "漫畫獵人",
+ "theme": {
+  "accent": "#C4543C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/comic-hunters.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "highlights",
+    "label": "亮點軌",
+    "note": "三條亮點軌各自按你標記嘅位置計 VP",
+    "icon": "✨",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "variety",
+    "label": "收藏多樣性",
+    "note": "面前唔同英雄嘅收藏數越多,VP 越高;只得兩本嘅收藏唔計入多樣性",
+    "icon": "🦸",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "collections",
+    "label": "收藏規模",
+    "note": "每個收藏按入面漫畫本數查對照表計 VP",
+    "icon": "📚",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

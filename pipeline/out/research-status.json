@@ -5695,9 +5695,9 @@
   "name": "Santa Monica",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "rulebook 有,但終局計分散落各處冇統一清單,要再細讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/santamonica.pdf",
+  "note": "單價印喺磚同卡面(圖),文字抽唔到 → 只寫類別,全部 number"
  },
  {
   "rank": 1145,
@@ -6225,9 +6225,9 @@
   "name": "Comic Hunters",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "rulebook 有,但錨點落咗雙人變體,終局計分要再細讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/comic-hunters.pdf",
+  "note": "收藏規模對照表印喺圖,文字抽唔到 → 只寫類別,全部 number"
  },
  {
   "rank": 1198,
@@ -6267,7 +6267,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "rulebook 有,但錨點落咗助手卡描述,終局計分清單要再細讀"
+  "note": "正文只搵到助手卡個別加分,搵唔到終局計分主清單"
  },
  {
   "rank": 1202,
@@ -7567,7 +7567,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "錨點落咗單人對手(Feronia)嘅計分,唔係多人終局計分"
  },
  {
   "rank": 1332,
@@ -7647,7 +7647,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "搵唔到計分段落錨點,要人手睇"
  },
  {
   "rank": 1340,
@@ -7695,9 +7695,9 @@
   "name": "Encyclopedia",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有 rulebook,但終局計分印喺玩家板背面(圖),文字抽唔到"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/encyclopedia.pdf",
+  "note": "研究方塊/大洲收藏/專家卡/皇家印璽 4/每 2 金幣 1/遠征標記 1"
  },
  {
   "rank": 1345,
@@ -7825,9 +7825,9 @@
   "name": "Dice Miner",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/dice-miner.pdf",
+  "note": "規則書冇列終局分項,用三回合累計單欄"
  },
  {
   "rank": 1358,
@@ -7835,9 +7835,9 @@
   "name": "Terror in Meeple City",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/terror-in-meeple-city.pdf",
+  "note": "角色/米寶/樓層/牙齒;隊制取較低分"
  },
  {
   "rank": 1359,

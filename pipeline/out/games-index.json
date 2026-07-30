@@ -16172,6 +16172,8 @@
   "bggId": 298065,
   "gameId": "bgg-298065",
   "name": "Santa Monica",
+  "nameZh": "聖莫尼卡",
+  "accent": "#E0A87A",
   "rank": 1144,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/6Jp00SquFOCnQSlP8RGHXw__micro/img/CeN_loEzE7HDlbIxx1za8py3ykg=/fit-in/64x64/filters:strip_icc()/pic5177758.jpg",
@@ -16179,7 +16181,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 193214,
@@ -16875,6 +16877,8 @@
   "bggId": 322616,
   "gameId": "bgg-322616",
   "name": "Comic Hunters",
+  "nameZh": "漫畫獵人",
+  "accent": "#C4543C",
   "rank": 1197,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/9kc6ILrD2NPsvRUmzBK_aA__micro/img/QDLBHyvFGeHncf6kUxadaaVtmes=/fit-in/64x64/filters:strip_icc()/pic8269454.jpg",
@@ -16882,7 +16886,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 342848,
@@ -18848,6 +18852,8 @@
   "bggId": 351526,
   "gameId": "bgg-351526",
   "name": "Encyclopedia",
+  "nameZh": "百科全書",
+  "accent": "#8C6239",
   "rank": 1344,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/sL-5ZjHTK3EUJDiv0tlilg__micro/img/kKQfNbFs9Iw88OqR2xtRBHyvuj0=/fit-in/64x64/filters:strip_icc()/pic6515523.png",
@@ -18855,7 +18861,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 130176,
@@ -19025,6 +19031,8 @@
   "bggId": 310632,
   "gameId": "bgg-310632",
   "name": "Dice Miner",
+  "nameZh": "骰子礦工",
+  "accent": "#7A5A3A",
   "rank": 1357,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/K03e7G5PaII4S5ILIWPNfw__micro/img/GT2OW8_Ic3foZ28Ps1aqaPtXW-E=/fit-in/64x64/filters:strip_icc()/pic5440150.jpg",
@@ -19032,12 +19040,14 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 97903,
   "gameId": "bgg-97903",
   "name": "Terror in Meeple City",
+  "nameZh": "米寶市浩劫",
+  "accent": "#8C3F3F",
   "rank": 1358,
   "year": 2013,
   "thumbnail": "https://cf.geekdo-images.com/loyFNu06XcKcRcoouNkn5Q__micro/img/uOro-A-z5u1Zk4eRuY3vL1aNY4w=/fit-in/64x64/filters:strip_icc()/pic2482302.jpg",
@@ -19045,7 +19055,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 302425,

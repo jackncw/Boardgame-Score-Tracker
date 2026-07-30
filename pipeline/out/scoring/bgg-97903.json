@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-97903",
+ "name": "Terror in Meeple City",
+ "nameZh": "米寶市浩劫",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/terror-in-meeple-city.pdf",
+  "verified": false,
+  "tieBreaker": "隊制:一隊嘅分數取兩人之中較低嗰個,較高者勝",
+  "fields": [
+   {
+    "id": "character",
+    "label": "角色卡",
+    "note": "達成角色卡條件攞到嘅分",
+    "icon": "🦖",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "meeples",
+    "label": "米寶",
+    "note": "食咗或撞冧嘅米寶按規則計嘅分",
+    "icon": "🧍",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "floors",
+    "label": "樓層",
+    "note": "撞冧嘅樓層按規則計嘅分",
+    "icon": "🏢",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "teeth",
+    "label": "牙齒",
+    "note": "剩餘牙齒按規則計嘅分",
+    "icon": "🦷",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
