@@ -62,3 +62,52 @@ Sonnet 每隻遊戲 input+output 約 1.5–2K tokens,1000 隻大概 US$10–15 �
 - BGG 有時回 202(排隊),script 會自動等,唔係 error
 - 排名清單來自 beefsack/bgg-ranking-historicals(每日 dump),
   如果呢個來源停更,step 1 要換來源(BGG 官方冇排名清單 API)
+
+## 網查 rulebook 生成計分表(2026-07 開始嘅第二階段)
+
+目標:`games-index.json` 入面 `hasScoring:false` 嘅 427 隻,逐隻上網搵官方
+rulebook,有根有據先生成 `out/scoring/bgg-*.json`。
+
+### 工具
+
+```bash
+node log.mjs                      # 重建分流 + render out/research-log.md
+node log.mjs set <bggId> <result> <sourceUrl> <note>   # result: done|no-source|skip
+node log.mjs stats
+```
+
+`out/research-status.json` 係單一真相,`out/research-log.md` 由佢 render。
+
+### 分流(A/B/C)
+
+- **A** 競爭型、有終局計分 → 今次目標(51 隻)
+- **B** 合作/戰役/闖關/無累加計分 → 唔做,維持 `hasScoring:false`(328 隻)
+- **C** 未確定,研究時一併判斷(48 隻)
+
+### 揾 rulebook 嘅路數(由快到慢)
+
+1. `https://bghub.org/r/<slug>.pdf` —— rulebook 鏡像,slug 有時係
+   `letsgotojapan`,有時係 `windmill-valley`,兩種都試。命中率約一半。
+2. 出版社官網:`riograndegames.com/wp-content/uploads/...`、
+   `filemanager.czechgames.com/storage/files/<game>/rules/...`、
+   `cardboardalchemy.com/downloads/...`、`fantasiaboardgames.com/wp-content/...`
+3. WebSearch「<game> rulebook pdf」→ 揀出版社域名果條。
+4. BGG **files 頁下載唔到**(`/file/download/...` 回 403,要登入),
+   但 `https://api.geekdo.com/api/files?ajax=1&objectid=<bggId>&objecttype=thing`
+   可以確認官方 rulebook 存唔存在、叫咩名。
+
+### 讀 PDF
+
+```bash
+curl -sL -A "Mozilla/5.0" -o x.pdf "<url>"
+pdftotext -raw x.pdf x.txt      # -raw 最準;-layout 對多欄設計會攪亂
+grep -n -i "final scoring\|end of the game" x.txt
+```
+
+### 生成規則(加辣版)
+
+- `source: "rulebook-web"` + `sourceUrl`(額外欄位,驗證器唔查,人手抽查用)
+- 單價/對照表/bonus 值:**只准寫 rulebook 明文有嘅數**。
+  「唔肯定」= 「份 rulebook 冇講」,唔係「記唔記得」→ 一律 `number`
+- `verified: false`;label 繁中(香港用語);內容用自己文字寫,唔照抄原文
+- 每 10 隻跑 `node check.mjs` + `node ../scripts/enrich-index.mjs`,每 20 隻 commit
