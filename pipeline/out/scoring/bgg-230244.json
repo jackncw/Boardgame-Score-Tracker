@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-230244",
+ "name": "Black Angel",
+ "nameZh": "黑天使號",
+ "theme": {
+  "accent": "#3A3A5A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "planets",
+    "label": "星球開發",
+    "note": "已開發星球帶嚟嘅 VP",
+    "icon": "🪐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "robots",
+    "label": "機械人",
+    "note": "已部署機械人帶嚟嘅 VP",
+    "icon": "🤖",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cargo",
+    "label": "貨物與科技",
+    "note": "運送嘅貨物同已取科技帶嚟嘅 VP",
+    "icon": "📦",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "目標卡",
+    "note": "已達成目標帶嚟嘅 VP",
+    "icon": "🎯",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-319807",
+ "name": "Shogun no Katana",
+ "nameZh": "將軍之刀",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "swords",
+    "label": "已鑄刀劍",
+    "note": "鑄成嘅刀按品質計嘅 VP",
+    "icon": "🗡️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "orders",
+    "label": "已完成訂單",
+    "note": "交付咗嘅訂單帶嚟嘅 VP",
+    "icon": "📜",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "reputation",
+    "label": "聲望與大名",
+    "note": "聲望軌同大名關係帶嚟嘅 VP",
+    "icon": "🎌",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

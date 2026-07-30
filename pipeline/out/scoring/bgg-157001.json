@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-157001",
+ "name": "Trains: Rising Sun",
+ "nameZh": "列車:旭日",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "牌庫卡牌",
+    "note": "牌庫入面卡牌上嘅 VP",
+    "icon": "🚉",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "stations",
+    "label": "車站與鐵路",
+    "note": "已建車站同鐵路帶嚟嘅 VP",
+    "icon": "🚂",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "waste",
+    "label": "廢物卡",
+    "note": "牌庫入面嘅廢物卡要扣分(呢欄入正數,自動扣)",
+    "icon": "🗑️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

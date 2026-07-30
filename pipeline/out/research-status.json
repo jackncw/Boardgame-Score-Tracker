@@ -4275,9 +4275,9 @@
   "name": "Gentes",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1003,
@@ -4375,9 +4375,9 @@
   "name": "Roam",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1013,
@@ -4455,9 +4455,9 @@
   "name": "Dinosaur World",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1021,
@@ -4555,9 +4555,9 @@
   "name": "Black Angel",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1031,
@@ -4795,9 +4795,9 @@
   "name": "Scarface 1920",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1055,
@@ -4865,9 +4865,9 @@
   "name": "The Wolves",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1062,
@@ -4895,9 +4895,9 @@
   "name": "Nightmare Productions",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1065,
@@ -4905,9 +4905,9 @@
   "name": "Tribune: Primus Inter Pares",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型,待網查 rulebook 確認勝負判定"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1066,
@@ -5045,9 +5045,9 @@
   "name": "Merchants of the Dark Road",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1080,
@@ -5555,9 +5555,9 @@
   "name": "Genoa",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1131,
@@ -5635,9 +5635,9 @@
   "name": "Tidal Blades: Heroes of the Reef",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1139,
@@ -5685,9 +5685,9 @@
   "name": "Lowlands",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1144,
@@ -5705,9 +5705,9 @@
   "name": "Meeple Circus",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1146,
@@ -5775,9 +5775,9 @@
   "name": "Era: Medieval Age",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1153,
@@ -5845,9 +5845,9 @@
   "name": "Maharaja: The Game of Palace Building in India",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型,待網查 rulebook 確認勝負判定"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1160,
@@ -5895,9 +5895,9 @@
   "name": "The Castles of Burgundy: The Card Game",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1165,
@@ -5955,9 +5955,9 @@
   "name": "Stonespine Architects",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1171,
@@ -5975,9 +5975,9 @@
   "name": "Canopy",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1173,
@@ -5985,9 +5985,9 @@
   "name": "Tiny Epic Quest",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1174,
@@ -6185,9 +6185,9 @@
   "name": "Deep Regrets",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1194,
@@ -10385,9 +10385,9 @@
   "name": "Hacienda",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1614,
@@ -10415,9 +10415,9 @@
   "name": "Renature",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1617,
@@ -10455,9 +10455,9 @@
   "name": "Peloponnes",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1621,
@@ -10515,9 +10515,9 @@
   "name": "Mission: Red Planet",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1627,
@@ -10525,9 +10525,9 @@
   "name": "Java",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1628,
@@ -10575,9 +10575,9 @@
   "name": "Ulm",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1633,
@@ -10615,9 +10615,9 @@
   "name": "The Golden Ages",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1637,
@@ -10975,9 +10975,9 @@
   "name": "Museum",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1673,
@@ -11085,9 +11085,9 @@
   "name": "Trains: Rising Sun",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1684,
@@ -11855,9 +11855,9 @@
   "name": "Villages of Valeria",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1761,
@@ -12935,9 +12935,9 @@
   "name": "Tenpenny Parks",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1869,
@@ -12945,9 +12945,9 @@
   "name": "Minecraft: Builders & Biomes",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1870,
@@ -12955,9 +12955,9 @@
   "name": "Shogun no Katana",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1871,
@@ -13045,9 +13045,9 @@
   "name": "Amyitis",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1880,

@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-19100",
+ "name": "Hacienda",
+ "nameZh": "莊園",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "land",
+    "label": "土地",
+    "note": "買落嘅土地帶嚟嘅 VP",
+    "icon": "🌾",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "animals",
+    "label": "牲口",
+    "note": "牧養嘅牲口帶嚟嘅 VP",
+    "icon": "🐄",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "markets",
+    "label": "市集連結",
+    "note": "接駁到市集帶嚟嘅 VP",
+    "icon": "🛒",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "water",
+    "label": "水源與農作",
+    "note": "水源同農作帶嚟嘅 VP",
+    "icon": "💧",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

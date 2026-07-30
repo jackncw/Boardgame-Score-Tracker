@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-191876",
+ "name": "Ulm",
+ "nameZh": "烏爾姆",
+ "theme": {
+  "accent": "#7A5A8C"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cathedral",
+    "label": "大教堂",
+    "note": "大教堂進度帶嚟嘅 VP",
+    "icon": "⛪",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "barrels",
+    "label": "木桶與貨物",
+    "note": "收集嘅木桶同貨物帶嚟嘅 VP",
+    "icon": "🛢️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "contracts",
+    "label": "契約卡",
+    "note": "已完成契約帶嚟嘅 VP",
+    "icon": "📜",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

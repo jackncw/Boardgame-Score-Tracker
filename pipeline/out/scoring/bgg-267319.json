@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-267319",
+ "name": "Roam",
+ "nameZh": "漫遊",
+ "theme": {
+  "accent": "#7A4B6B"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "characters",
+    "label": "已招募角色",
+    "note": "招募到嘅角色卡帶嚟嘅 VP",
+    "icon": "🧙",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tiles",
+    "label": "已佔領地圖磚",
+    "note": "佔到嘅地圖磚帶嚟嘅 VP",
+    "icon": "🗺️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

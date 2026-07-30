@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-294702",
+ "name": "Tenpenny Parks",
+ "nameZh": "十便士樂園",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "attractions",
+    "label": "遊樂設施",
+    "note": "已建設施帶嚟嘅 VP",
+    "icon": "🎢",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "land",
+    "label": "已開發土地",
+    "note": "清好嘅土地同佈局帶嚟嘅 VP",
+    "icon": "🌲",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tickets",
+    "label": "門票與遊客",
+    "note": "門票同遊客帶嚟嘅 VP",
+    "icon": "🎟️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

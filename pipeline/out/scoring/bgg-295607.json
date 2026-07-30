@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-295607",
+ "name": "Canopy",
+ "nameZh": "樹冠",
+ "theme": {
+  "accent": "#4A8C5A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "trees",
+    "label": "樹木",
+    "note": "已種樹木帶嚟嘅 VP",
+    "icon": "🌳",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "animals",
+    "label": "動物",
+    "note": "吸引到嘅動物帶嚟嘅 VP",
+    "icon": "🦜",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "plants",
+    "label": "植物與地被",
+    "note": "植物卡帶嚟嘅 VP",
+    "icon": "🌿",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "hazards",
+    "label": "災害",
+    "note": "災害卡造成嘅扣分(呢欄入正數,自動扣)",
+    "icon": "🪓",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

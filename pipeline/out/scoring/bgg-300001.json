@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-300001",
+ "name": "Renature",
+ "nameZh": "自然重生",
+ "theme": {
+  "accent": "#4A8C5A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "areas",
+    "label": "區域多數",
+    "note": "各區按骨牌多數計嘅 VP",
+    "icon": "🗺️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "plants",
+    "label": "動植物",
+    "note": "放置嘅動植物帶嚟嘅 VP",
+    "icon": "🦌",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

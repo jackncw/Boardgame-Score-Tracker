@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-164338",
+ "name": "The Golden Ages",
+ "nameZh": "黃金時代",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "note": "已建建築帶嚟嘅 VP",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "wonders",
+    "label": "奇觀",
+    "note": "已建奇觀帶嚟嘅 VP",
+    "icon": "🗿",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "territory",
+    "label": "領土與殖民",
+    "note": "控制嘅領土同殖民地帶嚟嘅 VP",
+    "icon": "🗺️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "culture",
+    "label": "文化與科技",
+    "note": "文化同科技進展帶嚟嘅 VP",
+    "icon": "📜",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

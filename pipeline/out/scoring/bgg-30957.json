@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-30957",
+ "name": "Tribune: Primus Inter Pares",
+ "nameZh": "護民官",
+ "theme": {
+  "accent": "#B08D57"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "factions",
+    "label": "派系卡",
+    "note": "手上派系卡帶嚟嘅 VP",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "majorities",
+    "label": "派系多數",
+    "note": "各派系按影響力多數計嘅 VP",
+    "icon": "👑",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goals",
+    "label": "目標達成",
+    "note": "已達成勝利條件項目帶嚟嘅 VP",
+    "icon": "🎯",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

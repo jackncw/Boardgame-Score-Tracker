@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-9440",
+ "name": "Maharaja: The Game of Palace Building in India",
+ "nameZh": "大君",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "palaces",
+    "label": "宮殿",
+    "note": "已建宮殿帶嚟嘅分",
+    "icon": "🕌",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "houses",
+    "label": "商行",
+    "note": "已建商行帶嚟嘅分",
+    "icon": "🏠",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "終局手上嘅錢",
+    "icon": "💰",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

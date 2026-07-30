@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-324090",
+ "name": "Scarface 1920",
+ "nameZh": "疤面煞星 1920",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "territories",
+    "label": "地盤控制",
+    "note": "終局各地盤按控制權計嘅 VP",
+    "icon": "🗺️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "missions",
+    "label": "已完成任務",
+    "note": "完成嘅任務帶嚟嘅 VP",
+    "icon": "🔫",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "終局手上嘅錢按規則換到嘅分",
+    "icon": "💵",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

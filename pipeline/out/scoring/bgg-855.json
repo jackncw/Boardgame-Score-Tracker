@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-855",
+ "name": "Java",
+ "nameZh": "爪哇",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "palaces",
+    "label": "宮殿",
+    "note": "已建宮殿帶嚟嘅 VP",
+    "icon": "🏯",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "festivals",
+    "label": "慶典",
+    "note": "舉辦慶典帶嚟嘅 VP",
+    "icon": "🎊",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "irrigation",
+    "label": "灌溉與地形",
+    "note": "灌溉同地形佈局帶嚟嘅 VP",
+    "icon": "💧",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

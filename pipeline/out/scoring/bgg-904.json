@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-904",
+ "name": "Nightmare Productions",
+ "nameZh": "夢幻製片廠",
+ "theme": {
+  "accent": "#C4543C"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "movies",
+    "label": "已開拍電影",
+    "note": "完成嘅電影按票房計嘅分",
+    "icon": "🎬",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "終局手上嘅錢",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

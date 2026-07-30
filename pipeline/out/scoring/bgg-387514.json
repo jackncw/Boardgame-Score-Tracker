@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-387514",
+ "name": "Stonespine Architects",
+ "nameZh": "石脊建築師",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "rooms",
+    "label": "地城房間",
+    "note": "已鋪房間帶嚟嘅 VP",
+    "icon": "🚪",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "treasures",
+    "label": "寶物",
+    "note": "地城入面嘅寶物帶嚟嘅 VP",
+    "icon": "💎",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "monsters",
+    "label": "怪物",
+    "note": "安置嘅怪物帶嚟嘅 VP",
+    "icon": "👹",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "layout",
+    "label": "佈局獎勵",
+    "note": "地城佈局條件達成帶嚟嘅 VP",
+    "icon": "🧭",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-368058",
+ "name": "The Wolves",
+ "nameZh": "狼群",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "territory",
+    "label": "地盤",
+    "note": "控制嘅地盤帶嚟嘅 VP",
+    "icon": "🗺️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "packs",
+    "label": "狼群規模",
+    "note": "狼群大細帶嚟嘅 VP",
+    "icon": "🐺",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "dens",
+    "label": "巢穴與嚎叫",
+    "note": "已建巢穴同嚎叫範圍帶嚟嘅 VP",
+    "icon": "🕳️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "prey",
+    "label": "獵物",
+    "note": "捕到嘅獵物帶嚟嘅 VP",
+    "icon": "🦌",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

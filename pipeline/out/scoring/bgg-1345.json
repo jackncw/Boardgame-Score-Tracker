@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-1345",
+ "name": "Genoa",
+ "nameZh": "熱那亞商人",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "終局手上嘅錢,最多者勝",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "assets",
+    "label": "貨物與特權",
+    "note": "剩餘貨物、訂單同特權按規則換到嘅錢",
+    "icon": "📦",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

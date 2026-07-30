@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-397931",
+ "name": "Deep Regrets",
+ "nameZh": "深海遺憾",
+ "theme": {
+  "accent": "#3A4A6B"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "fish",
+    "label": "已捕魚獲",
+    "note": "捕到嘅魚按卡面計嘅分",
+    "icon": "🐟",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gear",
+    "label": "裝備與升級",
+    "note": "已購裝備帶嚟嘅分",
+    "icon": "🎣",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "regret",
+    "label": "遺憾與瘋狂",
+    "note": "遺憾同瘋狂造成嘅扣分(呢欄入正數,自動扣)",
+    "icon": "🌀",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
