@@ -560,7 +560,7 @@
 | 1089 | Outfoxed! | - | skip | — | 合作制兒童推理遊戲,無玩家累加計分 |
 | 1090 | Tak | - | skip | — | 抽象對弈,以築成通路定勝負,無累加計分 |
 | 1091 | Last Night on Earth: The Zombie Game | - | skip | — | 一對多劇本制遊戲,以陣營目標定勝負,無累加計分 |
-| 1092 | Carcassonne: The City | c | pending | — | 計分同本體唔同,待網查 rulebook |
+| 1092 | Carcassonne: The City | c | pending | — | bghub 有鏡像但係 OCR 殘缺(字母同數字有缺失),唔可靠;要另揾清晰版 |
 | 1093 | Castles of Mad King Ludwig: Collector's Edition | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1094 | Grove: 9 card solitaire game | - | skip | — | 單人遊戲,無玩家累加計分 |
 | 1095 | Washington's War | - | skip | — | 雙人 CDG 戰棋,以陣營勝利條件定勝負,無累加計分 |

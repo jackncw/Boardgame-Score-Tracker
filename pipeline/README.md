@@ -63,6 +63,25 @@ Sonnet 每隻遊戲 input+output 約 1.5–2K tokens,1000 隻大概 US$10–15 �
 - 排名清單來自 beefsack/bgg-ranking-historicals(每日 dump),
   如果呢個來源停更,step 1 要換來源(BGG 官方冇排名清單 API)
 
+## ⚠️ 未解決:BGG_API_TOKEN
+
+`02-fetch-meta.mjs` 而家一定要 token —— BGG XML API 唔帶 `Authorization`
+直接回 **HTTP 401**(2026-07-30 實測)。token 唔喺 env 就跑唔到,
+即係 `games-index.json` 停留喺 999 個 entry(rank 1–1000),
+而 rank 1001–3000 嘅 raw 資料已經喺 `games-index-raw.json`。
+
+補返 token 之後,順序係:
+
+```bash
+export BGG_API_TOKEN=…          # PowerShell: $env:BGG_API_TOKEN = "…"
+cd pipeline && node 02-fetch-meta.mjs      # 約 2000 隻,BGG 禮儀 delay 下約 5 分鐘
+cd .. && node scripts/fix-index.mjs        # 去重 + 由最新 dump 更新 rank + 排序
+node scripts/enrich-index.mjs              # 補 nameZh / accent / hasScoring
+```
+
+`lib/gen.mjs` 已經改成 index 未有 entry 都照寫得 scoring 檔(由 raw index
+借 gameId/name),所以生成工作唔使等 token;等 token 返嚟先補 index 側。
+
 ## 網查 rulebook 生成計分表(2026-07 開始嘅第二階段)
 
 目標:`games-index.json` 入面 `hasScoring:false` 嘅 427 隻,逐隻上網搵官方
@@ -111,3 +130,29 @@ grep -n -i "final scoring\|end of the game" x.txt
   「唔肯定」= 「份 rulebook 冇講」,唔係「記唔記得」→ 一律 `number`
 - `verified: false`;label 繁中(香港用語);內容用自己文字寫,唔照抄原文
 - 每 10 隻跑 `node check.mjs` + `node ../scripts/enrich-index.mjs`,每 20 隻 commit
+
+## Phase 2:rank 1001–3000(2026-07-30 開始)
+
+分流唔再用 A/B/C,改用**路徑 b / c**(同 `log.mjs` 嘅 `path` 欄一致):
+
+- **skip** — 合作/戰役/闖關/無累加計分 → 唔生成
+- **路徑 b** — 對終局計分 100% 肯定 → `game()`,`source:"claude-code-gen"`
+- **路徑 c** — 唔係 100% 肯定 → 上網搵官方 rulebook →
+  `gameSrc(…, sourceUrl)`,`source:"rulebook-web"`;揾唔到可靠來源就
+  `result:"no-source"`,**唔好生成**
+
+批次檔命名 `batches/pXXXX*.mjs`(X = 起始 rank),同 phase 1 嘅 `bXXX.mjs` 分開。
+
+```bash
+node batches/p1001.mjs                 # 跑批次(每份即時過 validate)
+node log.mjs bulk <file.json>          # 批量記錄:[{bggId, path, result, sourceUrl, note}]
+node log.mjs stats                     # phase 1 / phase 2 分開睇
+node check.mjs                         # 全量驗證
+```
+
+### 揾 rulebook 嘅命中率(實測 rank 1001–1100)
+
+bghub.org 鏡像試 41 隻,中 16 隻(約 39%)。冇鏡像果啲要去出版社官網,
+WebSearch 通常只回落地頁唔係 PDF,要多一步 fetch 攞下載連結。
+另外 bghub 有啲係 OCR 掃描版(例如 `carcassonne-the-city.pdf`),
+字母同數字有缺失 —— **呢種唔算可靠來源,唔好用嚟寫單價**。
