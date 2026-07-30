@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-25669",
+ "name": "Qwirkle",
+ "nameZh": "Qwirkle",
+ "theme": {
+  "accent": "#5A7FA8"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "總分",
+    "note": "全程逐次擺牌得分嘅累計,含最先出晒牌嘅 6 分獎勵",
+    "icon": "🔷",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

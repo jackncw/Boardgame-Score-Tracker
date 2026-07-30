@@ -1,0 +1,104 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-252153",
+ "name": "Tang Garden",
+ "nameZh": "唐園",
+ "theme": {
+  "accent": "#A85A4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/tang-garden.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中賺得嘅金幣",
+    "note": "計分軌上遊戲期間累積嘅金幣",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "lotus_peony",
+    "label": "蓮花 + 牡丹配對",
+    "note": "每一對 6 金幣",
+    "icon": "🌸",
+    "color": "#F7D8E0",
+    "input": "counter",
+    "unitValue": 6
+   },
+   {
+    "id": "bird_fish",
+    "label": "雀鳥 + 游魚配對",
+    "note": "每一對 6 金幣",
+    "icon": "🐦",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 6
+   },
+   {
+    "id": "pavilion",
+    "label": "亭台卡名次",
+    "note": "最多者 12 金幣,第二多者 6 金幣;並列時按規則平分",
+    "icon": "🏯",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "trees",
+    "label": "不同樹木卡",
+    "note": "按一套入面不同樹種數計;夠牌儲多過一套就每套各自計",
+    "icon": "🌳",
+    "color": "#DDEFDC",
+    "input": "tiered",
+    "table": [
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      9
+     ],
+     [
+      4,
+      16
+     ],
+     [
+      5,
+      25
+     ]
+    ]
+   },
+   {
+    "id": "bridges",
+    "label": "橋卡",
+    "note": "每張 2 金幣",
+    "icon": "🌉",
+    "color": "#E5E0D5",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "characters",
+    "label": "人物同視線",
+    "note": "人物本身帶嚟嘅金幣,加人物視線範圍內每件裝飾 1 金幣",
+    "icon": "👤",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

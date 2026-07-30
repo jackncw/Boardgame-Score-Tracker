@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-402283",
+ "name": "Courtisans",
+ "nameZh": "宮廷寵臣",
+ "theme": {
+  "accent": "#7A4B6B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/courtisans.pdf",
+  "verified": false,
+  "tieBreaker": "同分者共享勝利",
+  "fields": [
+   {
+    "id": "esteemed",
+    "label": "得寵家族嘅朝臣",
+    "note": "每張 +1 分;貴族當兩張計",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "disgraced",
+    "label": "失寵家族嘅朝臣",
+    "note": "每張 -1 分;貴族當兩張計",
+    "icon": "💀",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "missions",
+    "label": "已達成嘅秘密任務",
+    "note": "每張 +3 分;未達成嘅唔計",
+    "icon": "🗝️",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 3
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

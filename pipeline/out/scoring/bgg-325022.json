@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-325022",
+ "name": "Coffee Traders",
+ "nameZh": "咖啡商人",
+ "theme": {
+  "accent": "#6B4A2F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/coffee-traders.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "bar_delivery",
+    "label": "咖啡吧交貨",
+    "note": "每個計分標記下面印住嘅 VP",
+    "icon": "☕",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bar_bonus",
+    "label": "咖啡吧欄位獎勵",
+    "note": "每一欄咖啡豆最多者 4 VP,第二多者 2 VP;同數時以喺橫額較低者為先",
+    "icon": "🏆",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "milestones",
+    "label": "已達成里程碑",
+    "note": "已完成里程碑帶嚟嘅 VP",
+    "icon": "🎯",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "coop",
+    "label": "合作社品質名次",
+    "note": "每個合作社按品質值(QV)名次:第一 16 VP、第二 8 VP;4–5 人局第三 4 VP。QV:第 1/2/3 級種植園各 1/2/3;有種植園先計建築,醫院 2、其他建築各 1",
+    "icon": "🌱",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "arabica",
+    "label": "阿拉比卡軌",
+    "note": "累加計:六行都到第 2 欄或以上 +3;六行都到第 3 欄或以上再 +7;每行到第 6 欄或以上 +6;每行啱啱喺第 7 欄 +4",
+    "icon": "📈",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

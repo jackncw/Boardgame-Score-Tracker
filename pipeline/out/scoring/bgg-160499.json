@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-160499",
+ "name": "King of New York",
+ "nameZh": "紐約之王",
+ "theme": {
+  "accent": "#4A7FA8"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "勝利點數",
+    "note": "儲夠 20 分即勝;全滅剩一隻怪獸亦勝",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

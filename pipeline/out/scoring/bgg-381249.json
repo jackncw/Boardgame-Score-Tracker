@@ -1,0 +1,30 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-381249",
+ "name": "Rebel Princess",
+ "nameZh": "叛逆公主",
+ "theme": {
+  "accent": "#B05A7A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/rebel-princess.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中零求婚回合數較多者勝",
+  "fields": [
+   {
+    "id": "proposals",
+    "label": "求婚數",
+    "note": "各回合吃到嘅求婚標記總數;求婚越少越好,所以呢欄自動扣分",
+    "icon": "💍",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

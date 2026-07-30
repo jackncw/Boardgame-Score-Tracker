@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-329465",
+ "name": "Red Rising",
+ "nameZh": "紅色崛起",
+ "theme": {
+  "accent": "#B03A3A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/red-rising.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "手牌角色卡",
+    "note": "手上角色卡嘅 VP,加卡面能力帶嚟嘅分",
+    "icon": "🃏",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "helium",
+    "label": "氦",
+    "note": "每粒 3 分",
+    "icon": "💎",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "sovereign",
+    "label": "君主標記",
+    "note": "遊戲結束時持有 +10 分",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 10
+   },
+   {
+    "id": "influence",
+    "label": "學院影響力",
+    "note": "學院上每粒影響力按規則計 4 / 2 / 1 分",
+    "icon": "🏛️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fleet",
+    "label": "艦隊軌",
+    "note": "按艦隊軌上嘅位置計 0 至 43 分",
+    "icon": "🚀",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "excess_cards",
+    "label": "超過 7 張嘅手牌",
+    "note": "多過 7 張,每多一張 -10 分",
+    "icon": "🗑️",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 10,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

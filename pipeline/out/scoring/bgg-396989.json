@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-396989",
+ "name": "Evenfall",
+ "nameZh": "Evenfall",
+ "theme": {
+  "accent": "#4A3A6B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/evenfall.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中剩餘魔力較多者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中累積嘅 VP",
+    "note": "計分軌上已有嘅分數",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "specialists",
+    "label": "專家",
+    "note": "氏族入面所有專家嘅 VP",
+    "icon": "🧙",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "council",
+    "label": "議會成員終局效果",
+    "note": "有終局效果嘅議會成員 VP",
+    "icon": "🏛️",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rituals",
+    "label": "儀式同權力之地",
+    "note": "內圈嘅儀式同權力之地 VP;放咗力量石嗰個儀式 VP 加倍",
+    "icon": "🔮",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

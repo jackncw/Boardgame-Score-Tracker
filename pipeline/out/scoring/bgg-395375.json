@@ -1,0 +1,103 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-395375",
+ "name": "Art Society",
+ "nameZh": "藝術社交界",
+ "theme": {
+  "accent": "#9C6B4F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/art-society.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中手上剩餘競標牌總值較高者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "vogue",
+    "label": "時尚類畫作(×5)",
+    "note": "聲望排第一嘅畫種,每幅 5 分;構成失禮嘅唔計",
+    "icon": "🎨",
+    "color": "#F7D8E0",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "popular",
+    "label": "受歡迎類畫作(×4)",
+    "note": "聲望排第二,每幅 4 分",
+    "icon": "🖼️",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 4
+   },
+   {
+    "id": "admired",
+    "label": "受讚賞類畫作(×3)",
+    "note": "聲望排第三,每幅 3 分",
+    "icon": "🏞️",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "recognized",
+    "label": "獲認可類畫作(×2)",
+    "note": "聲望排第四,每幅 2 分",
+    "icon": "🖌️",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "decor",
+    "label": "裝飾磚盾牌",
+    "note": "每塊裝飾磚上嘅盾牌數即係分數",
+    "icon": "🛡️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "eyeline",
+    "label": "視線區內最高聲望畫作",
+    "note": "每幅 +3 分,即使構成失禮一樣計",
+    "icon": "👁️",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "full_gallery",
+    "label": "畫廊填滿",
+    "note": "牆上冇空位 +5 分",
+    "icon": "🏛️",
+    "color": "#E5E0D5",
+    "input": "bonus",
+    "value": 5
+   },
+   {
+    "id": "corners",
+    "label": "未鋪到嘅牆角",
+    "note": "每個角 -2 分",
+    "icon": "📐",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 2,
+    "sign": -1
+   },
+   {
+    "id": "excess",
+    "label": "多餘畫作",
+    "note": "每幅 -2 分;助手拎住嗰幅唔計",
+    "icon": "📦",
+    "color": "#F2E0D8",
+    "input": "counter",
+    "unitValue": 2,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

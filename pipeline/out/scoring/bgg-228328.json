@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-228328",
+ "name": "Rurik: Dawn of Kiev",
+ "nameZh": "留里克:基輔黎明",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/rurik-dawn-of-kiev.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中統治最多地區者勝;再同分則金幣最多者勝",
+  "fields": [
+   {
+    "id": "claim1",
+    "label": "宣稱軌一",
+    "note": "按標記喺軌上嘅位置計分(最底 1 分,最頂 8 分)",
+    "icon": "1️⃣",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "claim2",
+    "label": "宣稱軌二",
+    "note": "同上",
+    "icon": "2️⃣",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "claim3",
+    "label": "宣稱軌三",
+    "note": "同上",
+    "icon": "3️⃣",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "warfare",
+    "label": "戰爭軌名次",
+    "note": "第一名 3 分,第二名 1 分;並列第一一樣得 3 分,但唔再頒第二名",
+    "icon": "⚔️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "agenda",
+    "label": "議程卡達成",
+    "note": "達成議程卡上嘅目標 +2 分",
+    "icon": "📜",
+    "color": "#EADCF0",
+    "input": "bonus",
+    "value": 2
+   },
+   {
+    "id": "deeds",
+    "label": "功績卡",
+    "note": "每張已完成嘅功績卡按卡面計 1 或 2 分",
+    "icon": "🏆",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

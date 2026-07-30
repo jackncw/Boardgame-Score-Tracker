@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-420805",
+ "name": "Black Forest",
+ "nameZh": "黑森林",
+ "theme": {
+  "accent": "#4A6B4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/black-forest.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中若有人觸發遊戲結束,該人勝;否則下一個輪到行動嘅玩家勝",
+  "fields": [
+   {
+    "id": "glass",
+    "label": "玻璃",
+    "note": "每個玻璃 1 分",
+    "icon": "🫙",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "cooking",
+    "label": "烹飪轉盤",
+    "note": "轉盤大指針指住嘅分數",
+    "icon": "🍲",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "estates",
+    "label": "小莊園",
+    "note": "每個 2 分",
+    "icon": "🏡",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "livestock",
+    "label": "牧場上嘅牲口",
+    "note": "每隻 1 分;唔喺牧場上嘅唔計分",
+    "icon": "🐄",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "note": "每座建築星星入面印住嘅分數",
+    "icon": "🏠",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "building_end",
+    "label": "建築終局效果",
+    "note": "建築物寫明喺終局先計嘅分數",
+    "icon": "✨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

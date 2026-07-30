@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-37380",
+ "name": "Roll Through the Ages: The Bronze Age",
+ "nameZh": "歷史巨輪:青銅時代",
+ "theme": {
+  "accent": "#B08D57"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "monuments",
+    "label": "紀念碑",
+    "note": "已建成紀念碑嘅分數(先建成者分數較高)",
+    "icon": "🏛️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "developments",
+    "label": "發展",
+    "note": "已購買發展項本身嘅分數",
+    "icon": "📜",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "dev_bonus",
+    "label": "發展額外加分",
+    "note": "如帝國、農業等按條件額外計嘅分",
+    "icon": "✨",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "disasters",
+    "label": "災難扣分",
+    "note": "因災難而扣嘅分數(入正數,自動扣)",
+    "icon": "☠️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

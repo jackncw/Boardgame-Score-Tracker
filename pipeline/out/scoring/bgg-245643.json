@@ -1,0 +1,107 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-245643",
+ "name": "Luxor",
+ "nameZh": "盧克索",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/luxor.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中持有價值較高石棺者勝;都冇石棺則共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中儲得嘅 VP",
+    "note": "計分軌上由寶物磚等得返嚟嘅分數",
+    "icon": "📜",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "sets",
+    "label": "寶物套組",
+    "note": "一套 = 花瓶 + 雕像 + 首飾各一;萬用寶物磚一套最多用兩塊",
+    "icon": "🏺",
+    "color": "#EADCF0",
+    "input": "tiered",
+    "table": [
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      3,
+      12
+     ],
+     [
+      4,
+      18
+     ],
+     [
+      5,
+      25
+     ],
+     [
+      6,
+      33
+     ],
+     [
+      7,
+      42
+     ],
+     [
+      8,
+      52
+     ]
+    ]
+   },
+   {
+    "id": "scarabs",
+    "label": "聖甲蟲",
+    "note": "每塊聖甲蟲磚計佢印住嘅 VP",
+    "icon": "🪲",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "adventurers",
+    "label": "探險家最終位置",
+    "note": "每個探險家按身邊牆上聖甲蟲顯示嘅 VP;仲喺樓梯或阿努比斯像嗰啲計 0 分",
+    "icon": "🚶",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "sarcophagi",
+    "label": "石棺",
+    "note": "最先入墓室嗰個 5 分,第二個 3 分",
+    "icon": "⚱️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "keys",
+    "label": "剩餘鎖匙",
+    "note": "每條 1 分",
+    "icon": "🗝️",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

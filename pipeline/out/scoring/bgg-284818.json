@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-284818",
+ "name": "Caylus 1303",
+ "nameZh": "凱呂斯 1303",
+ "theme": {
+  "accent": "#7A6A5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/caylus1303.pdf",
+  "verified": false,
+  "tieBreaker": "同分者共享勝利",
+  "fields": [
+   {
+    "id": "pp",
+    "label": "威望點(PP)標記",
+    "note": "第九回合完結時,面前所有 PP 標記總和",
+    "icon": "🏅",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftover",
+    "label": "終局剩餘物(每個 2 PP)",
+    "note": "規則書寫「終局仲持有嘅每個 ▢ 得 2 PP」,個圖示係咩物品請照規則書確認",
+    "icon": "💎",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 2
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

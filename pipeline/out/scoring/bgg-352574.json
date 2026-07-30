@@ -1,0 +1,86 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-352574",
+ "name": "Fit to Print",
+ "nameZh": "排版付印",
+ "theme": {
+  "accent": "#6B6B6B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/fit-to-print.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中星期日攞到較細號完成標記者勝",
+  "fields": [
+   {
+    "id": "articles",
+    "label": "報道",
+    "note": "四個回合累計嘅報道分",
+    "icon": "📰",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "photos",
+    "label": "相片",
+    "note": "累計相片分,按相鄰報道嘅類型計",
+    "icon": "📷",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "centerpiece",
+    "label": "頭條磚",
+    "note": "累計頭條磚分,含佢帶嘅額外獎勵",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "whitespace",
+    "label": "留白名次",
+    "note": "每回合比最大留白區:最細者 +3 分,最大者 -1 分,其餘 +1 分",
+    "icon": "⬜",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "mood",
+    "label": "情緒失衡",
+    "note": "笑臉同哭臉圖示數之差,累計扣分",
+    "icon": "😐",
+    "color": "#F2E0D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "unplaced",
+    "label": "未擺放嘅磚",
+    "note": "留喺 3D 枱面嘅每塊 -1 分",
+    "icon": "🗂️",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "ad_penalty",
+    "label": "廣告收入罰分",
+    "note": "兩人局若廣告收入少過對手 $5 以上,扣 10 分。註:多人局廣告收入最低者直接出局,冇資格贏",
+    "icon": "💵",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

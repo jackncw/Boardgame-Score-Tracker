@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-12962",
+ "name": "Reef Encounter",
+ "nameZh": "珊瑚礁奇遇",
+ "theme": {
+  "accent": "#E08A6B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/reef-encounter.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "polyps",
+    "label": "鸚哥魚食咗嘅珊瑚息肉",
+    "note": "每塊息肉磚 1 分,加該顏色喺珊瑚磚頂部每重複出現一次多 1 分,即每塊值 1 至 5 分",
+    "icon": "🐠",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

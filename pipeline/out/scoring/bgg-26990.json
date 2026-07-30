@@ -1,0 +1,66 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-26990",
+ "name": "Container",
+ "nameZh": "貨櫃",
+ "theme": {
+  "accent": "#3E6E8E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/container.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中工廠區剩低貨櫃較多者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "cash",
+    "label": "手上現金",
+    "note": "終局結算前手頭嘅現金",
+    "icon": "💵",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "island",
+    "label": "貨櫃島貨櫃價值",
+    "note": "先棄走計分區入面最多嗰隻色,剩低嘅按你張終局計分卡計總值",
+    "icon": "🏝️",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ship",
+    "label": "船上同離岸銀行暫存區貨櫃",
+    "note": "每個 $3,唔分顏色",
+    "icon": "🚢",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "harbor",
+    "label": "港口區貨櫃",
+    "note": "每個 $2(工廠區嘅係 $0)",
+    "icon": "⚓",
+    "color": "#E5E0D5",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "loans",
+    "label": "未償還貸款",
+    "note": "每筆本金 $10 加 $1 利息,合共扣 $11",
+    "icon": "🏦",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 11,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

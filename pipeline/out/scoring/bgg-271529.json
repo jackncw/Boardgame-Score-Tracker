@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-271529",
+ "name": "Botanik",
+ "nameZh": "植物機械",
+ "theme": {
+  "accent": "#6E9B5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/botanik.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中機器入面磚數較多者勝",
+  "fields": [
+   {
+    "id": "groups",
+    "label": "同色 3 格以上組合嘅磚",
+    "note": "計分前先移走所有冇經水管連到源頭嘅磚;剩低嘅,同色相鄰滿 3 格嘅組合每塊 1 分",
+    "icon": "🔧",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "flowers",
+    "label": "有效嘅花",
+    "note": "每朵 1 分;植物同蔬菜上面嘅花,要用水管連到同色磚先計",
+    "icon": "🌸",
+    "color": "#F7D8E0",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

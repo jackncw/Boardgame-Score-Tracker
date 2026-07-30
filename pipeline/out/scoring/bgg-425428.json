@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-425428",
+ "name": "Survive The Island",
+ "nameZh": "生存:逃離孤島",
+ "theme": {
+  "accent": "#3E8E8A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "rescued",
+    "label": "獲救生物點數",
+    "note": "每隻成功登陸大陸嘅生物,計底面點數總和",
+    "icon": "🚢",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
