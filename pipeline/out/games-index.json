@@ -20960,7 +20960,9 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "德國心臟病(搶鬼)",
+  "accent": "#C4543C"
  },
  {
   "bggId": 135382,
@@ -21077,7 +21079,9 @@
   "minPlayers": 1,
   "maxPlayers": 8,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "挑戰者!沙灘盃",
+  "accent": "#5A9BC4"
  },
  {
   "bggId": 299252,
@@ -21220,7 +21224,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "18Chesapeake",
+  "accent": "#4A6E4A"
  },
  {
   "bggId": 41916,
@@ -21337,7 +21343,9 @@
   "minPlayers": 1,
   "maxPlayers": 8,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "巡迴演出",
+  "accent": "#C9553C"
  },
  {
   "bggId": 173101,
@@ -21558,7 +21566,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "哥本哈根",
+  "accent": "#3E8E8A"
  },
  {
   "bggId": 42452,
@@ -21818,7 +21828,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 25,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "烏邦果",
+  "accent": "#C9A227"
  },
  {
   "bggId": 223855,
@@ -21857,7 +21869,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "鐵道任務:德國",
+  "accent": "#B5343C"
  },
  {
   "bggId": 446493,
@@ -22195,7 +22209,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "超技巧彈珠機:四連台",
+  "accent": "#7A4A8C"
  },
  {
   "bggId": 17396,
@@ -22598,7 +22614,9 @@
   "minPlayers": 2,
   "maxPlayers": 7,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "德國蟲蟲",
+  "accent": "#C9A227"
  },
  {
   "bggId": 191876,
@@ -22637,7 +22655,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "斷頭台",
+  "accent": "#8C3F3F"
  },
  {
   "bggId": 268012,
@@ -22754,7 +22774,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "卡胡納",
+  "accent": "#5A9BC4"
  },
  {
   "bggId": 38863,
@@ -23027,7 +23049,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "曼哈頓",
+  "accent": "#5A6E8C"
  },
  {
   "bggId": 132372,
@@ -23066,7 +23090,9 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "演化",
+  "accent": "#4A8C5A"
  },
  {
   "bggId": 436821,
@@ -23118,7 +23144,9 @@
   "minPlayers": 1,
   "maxPlayers": 6,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "金星商人",
+  "accent": "#3A5A8C"
  },
  {
   "bggId": 204505,
@@ -23209,7 +23237,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "亂鬥聯盟:都係你嘅錯!",
+  "accent": "#7A4A8C"
  },
  {
   "bggId": 150312,

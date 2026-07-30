@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-15818",
+ "name": "Pick-omino",
+ "nameZh": "德國蟲蟲",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "worms",
+    "label": "蟲仔數目",
+    "note": "面前所有骨牌磚上面嘅蟲仔圖案總數,最多者勝",
+    "icon": "🐛",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

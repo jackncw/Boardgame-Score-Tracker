@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-302524",
+ "name": "Super-Skill Pinball: 4-Cade",
+ "nameZh": "超技巧彈珠機:四連台",
+ "theme": {
+  "accent": "#7A4A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "彈珠機分數",
+    "note": "三局球按機台規則劃格攞到嘅分,全部加埋",
+    "icon": "🕹️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

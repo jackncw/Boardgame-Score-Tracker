@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-116",
+ "name": "Guillotine",
+ "nameZh": "斷頭台",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "nobles",
+    "label": "貴族點數",
+    "note": "三日收集嘅貴族卡按卡面點數加埋,含卡牌互動帶嚟嘅加減",
+    "icon": "🗡️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-83195",
+ "name": "Ghost Blitz",
+ "nameZh": "德國心臟病(搶鬼)",
+ "theme": {
+  "accent": "#C4543C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "贏到嘅卡牌",
+    "note": "搶啱公仔攞到嘅卡牌張數,最多者勝",
+    "icon": "👻",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-394",
+ "name": "Kahuna",
+ "nameZh": "卡胡納",
+ "theme": {
+  "accent": "#5A9BC4"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "三次計分按控制島嶼數之差得嘅分,全部加埋",
+    "icon": "🏝️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

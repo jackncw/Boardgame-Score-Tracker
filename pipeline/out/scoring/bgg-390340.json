@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-390340",
+ "name": "Challengers! Beach Cup",
+ "nameZh": "挑戰者!沙灘盃",
+ "theme": {
+  "accent": "#5A9BC4"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "trophy",
+    "label": "獎盃分",
+    "note": "決賽名次同各輪表現攞到嘅獎盃分",
+    "icon": "🏆",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

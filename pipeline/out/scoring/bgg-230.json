@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-230",
+ "name": "Merchant of Venus",
+ "nameZh": "金星商人",
+ "theme": {
+  "accent": "#3A5A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "wealth",
+    "label": "總資產",
+    "note": "現金,加飛船同已建設施等資產嘅價值",
+    "icon": "🚀",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-269595",
+ "name": "Copenhagen",
+ "nameZh": "哥本哈根",
+ "theme": {
+  "accent": "#3E8E8A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "分數",
+    "note": "完成外牆行同列攞到嘅分;先到 12 分即觸發結束",
+    "icon": "🏠",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
