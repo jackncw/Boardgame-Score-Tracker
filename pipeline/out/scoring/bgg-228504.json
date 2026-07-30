@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-228504",
+ "name": "Cat Lady",
+ "nameZh": "貓奴",
+ "theme": {
+  "accent": "#C97A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cats",
+    "label": "貓咪",
+    "note": "已餵飽嘅貓咪按規則計嘅分",
+    "icon": "🐈",
+    "color": "#F7D8E0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "toys",
+    "label": "玩具",
+    "note": "玩具卡帶嚟嘅分",
+    "icon": "🧸",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "costumes",
+    "label": "衣裝",
+    "note": "衣裝卡帶嚟嘅分",
+    "icon": "👗",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "catnip",
+    "label": "貓草",
+    "note": "貓草帶嚟嘅分",
+    "icon": "🌿",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "lost_cats",
+    "label": "走失貓",
+    "note": "走失貓卡要扣分",
+    "icon": "🚪",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

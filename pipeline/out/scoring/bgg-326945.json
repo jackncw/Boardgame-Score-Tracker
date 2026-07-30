@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-326945",
+ "name": "Castles of Mad King Ludwig: Collector's Edition",
+ "nameZh": "瘋狂路德維希的城堡(收藏版)",
+ "theme": {
+  "accent": "#7A5A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track",
+    "label": "計分軌分數",
+    "note": "遊戲期間起房間同完成條件時,喺計分軌儲落嘅分",
+    "icon": "🏰",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bonus_cards",
+    "label": "獎勵卡",
+    "note": "終局按獎勵卡條件計嘅分",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "favors",
+    "label": "國王恩惠",
+    "note": "國王恩惠帶嚟嘅分數",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

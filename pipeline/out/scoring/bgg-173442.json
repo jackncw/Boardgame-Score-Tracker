@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-173442",
+ "name": "Empires: Age of Discovery",
+ "nameZh": "帝國:大發現時代",
+ "theme": {
+  "accent": "#3E6E8E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中得嘅 VP",
+    "note": "各回合由殖民者同貿易貨物得返嚟嘅分",
+    "icon": "⛵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "note": "終局時你擁有嘅建築物分數",
+    "icon": "🏛️",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "discoveries",
+    "label": "發現",
+    "note": "已取得發現卡嘅分數",
+    "icon": "🧭",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "capital",
+    "label": "首都人口",
+    "note": "首都入面人口帶嚟嘅分數",
+    "icon": "🏰",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "merchandise",
+    "label": "商品",
+    "note": "商品組合帶嚟嘅分數",
+    "icon": "📦",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

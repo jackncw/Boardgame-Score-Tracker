@@ -4314,20 +4314,20 @@
   "bggId": 30645,
   "name": "Tammany Hall",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "四次選舉累計得分(放寬尺度)"
  },
  {
   "rank": 1007,
   "bggId": 173442,
   "name": "Empires: Age of Discovery",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "軌上分/建築/發現/首都/商品"
  },
  {
   "rank": 1008,
@@ -4444,10 +4444,10 @@
   "bggId": 122298,
   "name": "Morels",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "已烹調蘑菇分數"
  },
  {
   "rank": 1020,
@@ -4514,10 +4514,10 @@
   "bggId": 12002,
   "name": "Jambo",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型,待網查 rulebook 確認勝負判定"
+  "note": "金幣總額"
  },
  {
   "rank": 1027,
@@ -4714,10 +4714,10 @@
   "bggId": 110277,
   "name": "Among the Stars",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "設施卡 + 目標卡"
  },
  {
   "rank": 1047,
@@ -4764,10 +4764,10 @@
   "bggId": 266722,
   "name": "Rumble Nation",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "地區名次分"
  },
  {
   "rank": 1052,
@@ -5104,10 +5104,10 @@
   "bggId": 53953,
   "name": "Thunderstone",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "牌庫所有卡上嘅 VP"
  },
  {
   "rank": 1086,
@@ -5184,10 +5184,10 @@
   "bggId": 326945,
   "name": "Castles of Mad King Ludwig: Collector's Edition",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "計分軌 + 獎勵卡 + 國王恩惠"
  },
  {
   "rank": 1094,
@@ -5404,10 +5404,10 @@
   "bggId": 94,
   "name": "Union Pacific",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "股票制,待網查 rulebook 確認計分回合"
+  "note": "計分回合持股名次累計"
  },
  {
   "rank": 1116,
@@ -5424,10 +5424,10 @@
   "bggId": 160851,
   "name": "Lanterns: The Harvest Festival",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "奉獻磚 + 燈籠卡套組 + 恩惠標記"
  },
  {
   "rank": 1118,
@@ -5574,10 +5574,10 @@
   "bggId": 27588,
   "name": "Zooloretto",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "每個獸欄按物種數查表,要 rulebook 對表"
+  "note": "獸欄 + 販賣亭 − 倉庫"
  },
  {
   "rank": 1133,
@@ -5614,10 +5614,10 @@
   "bggId": 202408,
   "name": "Adrenaline",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "以傷害/擊殺計分,待網查 rulebook"
+  "note": "傷害軌 + 擊殺軌"
  },
  {
   "rank": 1137,
@@ -5934,10 +5934,10 @@
   "bggId": 276894,
   "name": "Ticket to Ride: London",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "計分同本體唔同(有區域獎勵),待網查 rulebook"
+  "note": "路線 + 行政區 + 車票 ±"
  },
  {
   "rank": 1169,
@@ -6064,10 +6064,10 @@
   "bggId": 15817,
   "name": "Manila",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型,待網查 rulebook 確認計分"
+  "note": "金錢 + 股份"
  },
  {
   "rank": 1182,
@@ -6204,10 +6204,10 @@
   "bggId": 241266,
   "name": "Little Town",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "建築 + 目標卡 + 金幣"
  },
  {
   "rank": 1196,
@@ -6254,9 +6254,9 @@
   "bggId": 228504,
   "name": "Cat Lady",
   "cat": "-",
-  "path": "c",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "貓/玩具/衣裝/貓草 − 走失貓"
  }
 ]

@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-27588",
+ "name": "Zooloretto",
+ "nameZh": "動物園大亨",
+ "theme": {
+  "accent": "#4A8C5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "enclosures",
+    "label": "獸欄",
+    "note": "每個獸欄按入面嘅動物數同種類計分",
+    "icon": "🦁",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "stalls",
+    "label": "販賣亭",
+    "note": "已放置販賣亭帶嚟嘅分數",
+    "icon": "🍿",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "barn",
+    "label": "倉庫",
+    "note": "留喺倉庫嘅動物同販賣亭要扣分",
+    "icon": "🏚️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

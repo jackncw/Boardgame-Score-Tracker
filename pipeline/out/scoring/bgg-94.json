@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-94",
+ "name": "Union Pacific",
+ "nameZh": "聯合太平洋",
+ "theme": {
+  "accent": "#4A6E4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "計分回合得分",
+    "note": "各次計分回合按你喺每間鐵路公司嘅持股名次得嘅分,加聯合太平洋股票嘅分,全部加埋",
+    "icon": "🚂",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

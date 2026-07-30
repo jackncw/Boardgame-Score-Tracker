@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-276894",
+ "name": "Ticket to Ride: London",
+ "nameZh": "鐵道任務:倫敦",
+ "theme": {
+  "accent": "#B5343C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "routes",
+    "label": "路線",
+    "note": "已佔領路線按長度計嘅分",
+    "icon": "🚌",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "districts",
+    "label": "行政區獎勵",
+    "note": "連通行政區帶嚟嘅獎勵分",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tickets_done",
+    "label": "已完成車票",
+    "note": "已完成目的地車票嘅分",
+    "icon": "🎫",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tickets_failed",
+    "label": "未完成車票",
+    "note": "未完成嘅車票要扣分",
+    "icon": "❌",
+    "color": "#F2E0D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

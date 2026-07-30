@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-30645",
+ "name": "Tammany Hall",
+ "nameZh": "坦慕尼廳",
+ "theme": {
+  "accent": "#7A5A3A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "elections",
+    "label": "選舉得分",
+    "note": "四次選舉逐次按控制嘅選區同族裔獎勵得分,全部加埋",
+    "icon": "🗳️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

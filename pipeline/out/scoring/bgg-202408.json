@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-202408",
+ "name": "Adrenaline",
+ "nameZh": "腎上腺素",
+ "theme": {
+  "accent": "#C43A3A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "damage",
+    "label": "傷害軌得分",
+    "note": "每個玩家嘅傷害軌按你造成嘅傷害名次分配嘅分",
+    "icon": "💥",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "killshots",
+    "label": "擊殺軌",
+    "note": "擊殺軌上按你嘅擊殺標記名次分配嘅分",
+    "icon": "💀",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

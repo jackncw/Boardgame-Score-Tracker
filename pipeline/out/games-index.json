@@ -14296,6 +14296,8 @@
   "bggId": 30645,
   "gameId": "bgg-30645",
   "name": "Tammany Hall",
+  "nameZh": "坦慕尼廳",
+  "accent": "#7A5A3A",
   "rank": 1006,
   "year": 2007,
   "thumbnail": "https://cf.geekdo-images.com/Oesqx8u3Wuwa0S1JcsQREg__micro/img/pJn2VkyaqoonloGAJ2ujr545-sU=/fit-in/64x64/filters:strip_icc()/pic5585780.png",
@@ -14303,12 +14305,14 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 173442,
   "gameId": "bgg-173442",
   "name": "Empires: Age of Discovery",
+  "nameZh": "帝國:大發現時代",
+  "accent": "#3E6E8E",
   "rank": 1007,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/5Z_ZH3J9AcC1cmGce7a2Gw__micro/img/ksyo28x6GXdKy0ia4Du00TLFLbY=/fit-in/64x64/filters:strip_icc()/pic2420342.jpg",
@@ -14316,7 +14320,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 150,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 219215,
@@ -14467,6 +14471,8 @@
   "bggId": 122298,
   "gameId": "bgg-122298",
   "name": "Morels",
+  "nameZh": "菇菇森林",
+  "accent": "#8C6239",
   "rank": 1019,
   "year": 2012,
   "thumbnail": "https://cf.geekdo-images.com/79RzPdM2pxmtmNV-bdU7LQ__micro/img/s7c1w6tcUoZrWAntVR8mNo-r-kE=/fit-in/64x64/filters:strip_icc()/pic1284667.jpg",
@@ -14474,7 +14480,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 317457,
@@ -14560,6 +14566,8 @@
   "bggId": 12002,
   "gameId": "bgg-12002",
   "name": "Jambo",
+  "nameZh": "Jambo 非洲商旅",
+  "accent": "#B5651D",
   "rank": 1026,
   "year": 2004,
   "thumbnail": "https://cf.geekdo-images.com/ZHpHR-6b7ZjQ97mulBg2fg__micro/img/2-llMeK8-sPQyO8rEOcFg7WCl1g=/fit-in/64x64/filters:strip_icc()/pic253740.jpg",
@@ -14567,7 +14575,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 197443,
@@ -14826,6 +14834,8 @@
   "bggId": 110277,
   "gameId": "bgg-110277",
   "name": "Among the Stars",
+  "nameZh": "星海之間",
+  "accent": "#3A3A6B",
   "rank": 1046,
   "year": 2012,
   "thumbnail": "https://cf.geekdo-images.com/xM5-XAyoh7NwuVoguwgEsQ__micro/img/nwC3_y4p6zj2t6xdn-6A12BHVBU=/fit-in/64x64/filters:strip_icc()/pic2037906.jpg",
@@ -14833,7 +14843,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 163602,
@@ -14893,6 +14903,8 @@
   "bggId": 266722,
   "gameId": "bgg-266722",
   "name": "Rumble Nation",
+  "nameZh": "亂世爭霸",
+  "accent": "#8C3F3F",
   "rank": 1051,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/B0V2pKNNy32oC53CC9b0NA__micro/img/G3Zy9M0DadDic_mtCRF5LL9W4Qs=/fit-in/64x64/filters:strip_icc()/pic8828234.jpg",
@@ -14900,7 +14912,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 228328,
@@ -15355,6 +15367,8 @@
   "bggId": 53953,
   "gameId": "bgg-53953",
   "name": "Thunderstone",
+  "nameZh": "雷霆石",
+  "accent": "#5A4A7A",
   "rank": 1085,
   "year": 2009,
   "thumbnail": "https://cf.geekdo-images.com/pVyy-LSVBIMQ0GUsvsIfww__micro/img/y7uEhWDhVNNjXTvns7YQDZso4xA=/fit-in/64x64/filters:strip_icc()/pic544780.jpg",
@@ -15362,7 +15376,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 293207,
@@ -15459,6 +15473,8 @@
   "bggId": 326945,
   "gameId": "bgg-326945",
   "name": "Castles of Mad King Ludwig: Collector's Edition",
+  "nameZh": "瘋狂路德維希的城堡(收藏版)",
+  "accent": "#7A5A8C",
   "rank": 1093,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/djWGzAqcGYKhQCKo6Xeg-g__micro/img/8TeUOTbM_jjrVPCRbbx0N6dqJIY=/fit-in/64x64/filters:strip_icc()/pic5932932.png",
@@ -15466,7 +15482,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 329873,
@@ -15751,6 +15767,8 @@
   "bggId": 94,
   "gameId": "bgg-94",
   "name": "Union Pacific",
+  "nameZh": "聯合太平洋",
+  "accent": "#4A6E4A",
   "rank": 1115,
   "year": 1999,
   "thumbnail": "https://cf.geekdo-images.com/69chi17STdg_NfBrM7UpHA__micro/img/kJsHwT1yhwlvS6h_rFADEcyR5j4=/fit-in/64x64/filters:strip_icc()/pic226392.jpg",
@@ -15758,7 +15776,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 199966,
@@ -15777,6 +15795,8 @@
   "bggId": 160851,
   "gameId": "bgg-160851",
   "name": "Lanterns: The Harvest Festival",
+  "nameZh": "燈籠:豐收節",
+  "accent": "#C9553C",
   "rank": 1117,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/JmY4nVWwW98qEn0NRbKdTw__micro/img/6apbW267uJcPRtwllvHWDsYjnEw=/fit-in/64x64/filters:strip_icc()/pic2372790.png",
@@ -15784,7 +15804,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 166384,
@@ -15976,6 +15996,8 @@
   "bggId": 27588,
   "gameId": "bgg-27588",
   "name": "Zooloretto",
+  "nameZh": "動物園大亨",
+  "accent": "#4A8C5A",
   "rank": 1132,
   "year": 2007,
   "thumbnail": "https://cf.geekdo-images.com/WiO4FLeGBs-_88UQdpHrcA__micro/img/JgTn9ApWn44nlmXGGcZY_GSF2NQ=/fit-in/64x64/filters:strip_icc()/pic7758113.jpg",
@@ -15983,7 +16005,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 207830,
@@ -16030,6 +16052,8 @@
   "bggId": 202408,
   "gameId": "bgg-202408",
   "name": "Adrenaline",
+  "nameZh": "腎上腺素",
+  "accent": "#C43A3A",
   "rank": 1136,
   "year": 2016,
   "thumbnail": "https://cf.geekdo-images.com/TiNI7bUCR2RPFMlvKEC9TQ__micro/img/gayP6D3fAxL4WL-jb9wTkSD-mw4=/fit-in/64x64/filters:strip_icc()/pic3476604.jpg",
@@ -16037,7 +16061,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 113997,
@@ -16452,6 +16476,8 @@
   "bggId": 276894,
   "gameId": "bgg-276894",
   "name": "Ticket to Ride: London",
+  "nameZh": "鐵道任務:倫敦",
+  "accent": "#B5343C",
   "rank": 1168,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/gJq8JOmOmmZSFpbrWGQMDQ__micro/img/7AolrwbMaFwIKQxahIxR0TPQhSk=/fit-in/64x64/filters:strip_icc()/pic4666620.png",
@@ -16459,7 +16485,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 425445,
@@ -16621,6 +16647,8 @@
   "bggId": 15817,
   "gameId": "bgg-15817",
   "name": "Manila",
+  "nameZh": "馬尼拉",
+  "accent": "#C9A227",
   "rank": 1181,
   "year": 2005,
   "thumbnail": "https://cf.geekdo-images.com/dU0cm4_NP8QiQqiXP9Jclw__micro/img/fYYoW1uyZvIfBmR5m84nvsG1RXU=/fit-in/64x64/filters:strip_icc()/pic902372.jpg",
@@ -16628,7 +16656,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 491,
@@ -16803,6 +16831,8 @@
   "bggId": 241266,
   "gameId": "bgg-241266",
   "name": "Little Town",
+  "nameZh": "小小城鎮",
+  "accent": "#6B9B7A",
   "rank": 1195,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/PhNY4VQAob6x4GjWHmbTsQ__micro/img/jNrjWdErm-0sg0azZwUEjJkh9bU=/fit-in/64x64/filters:strip_icc()/pic4624124.jpg",
@@ -16810,7 +16840,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 227515,
@@ -16870,6 +16900,8 @@
   "bggId": 228504,
   "gameId": "bgg-228504",
   "name": "Cat Lady",
+  "nameZh": "貓奴",
+  "accent": "#C97A9B",
   "rank": 1200,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/tnx6ExxyUmIlga9tFSrR6g__micro/img/lsHezNd7Om8UTw0yFie5FMR4H_8=/fit-in/64x64/filters:strip_icc()/pic3864115.jpg",
@@ -16877,7 +16909,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 429405,

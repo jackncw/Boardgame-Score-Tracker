@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-15817",
+ "name": "Manila",
+ "nameZh": "馬尼拉",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "遊戲結束時手上嘅錢,加持有股份換到嘅錢",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
