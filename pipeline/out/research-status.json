@@ -4577,7 +4577,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 1033,
@@ -4757,7 +4757,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "擴充,計分沿用本體但有新項,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 1051,
@@ -5457,7 +5457,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "roll & write,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 1121,
@@ -6195,9 +6195,9 @@
   "name": "Container: 10th Anniversary Jumbo Edition!",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "同《貨櫃》本體但版本有差異,要對返 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/container.pdf",
+  "note": "同《貨櫃》本體同一套終局計分"
  },
  {
   "rank": 1195,
@@ -6535,9 +6535,9 @@
   "name": "The Castles of Tuscany",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/thecastlesoftuscany.pdf",
+  "note": "紅軌分 + 未用物件每個 1 分 + 每 3 張手牌 1 分"
  },
  {
   "rank": 1229,
@@ -6877,7 +6877,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "bghub 有 rulebook,但搵唔到明確終局計分段落"
  },
  {
   "rank": 1263,
@@ -7697,7 +7697,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "bghub 有 rulebook,但終局計分印喺玩家板背面(圖),文字抽唔到"
  },
  {
   "rank": 1345,
@@ -8127,7 +8127,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 1388,
@@ -8555,9 +8555,9 @@
   "name": "Paris",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/paris.pdf",
+  "note": "軌上分 + 行政區名次獎勵 + 27 號磚法郎"
  },
  {
   "rank": 1431,
@@ -9887,7 +9887,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 1564,
@@ -9987,7 +9987,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 1574,
@@ -10437,7 +10437,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 1619,
@@ -11167,7 +11167,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 1692,
@@ -11267,7 +11267,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 1702,
@@ -11937,7 +11937,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 1769,
@@ -13107,7 +13107,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 1886,
@@ -14287,7 +14287,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 2004,
@@ -14547,7 +14547,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 2030,
@@ -15107,7 +15107,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 2086,
@@ -17227,7 +17227,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 2298,
@@ -17607,7 +17607,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 2336,
@@ -18287,7 +18287,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 2404,
@@ -18377,7 +18377,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 2413,
@@ -19327,7 +19327,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 2508,
@@ -23957,7 +23957,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表"
  },
  {
   "rank": 2971,

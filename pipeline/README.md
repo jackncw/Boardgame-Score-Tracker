@@ -169,3 +169,20 @@ WebSearch 通常只回落地頁唔係 PDF,要多一步 fetch 攞下載連結。
 
 **冇放寬嘅紅線**:`unitValue` / `tiered` 對照表 / `bonus` 值
 一律只准寫 rulebook 明文見到嘅數。唔肯定就降級做 `number`。
+
+### probe-bghub.mjs —— 批量探 bghub 有冇 rulebook
+
+```bash
+node probe-bghub.mjs [起始 rank] [結束 rank]
+```
+
+由 `research-status.json` 攞 `result:"pending"` 嘅遊戲,自動由名生 slug 去探
+bghub,結果寫入 `out/bghub-hits.json`(命中)同 `out/bghub-miss.json`(冇中,
+下次唔會重探)。實測 rank 1001–3000 探 910 隻,命中 199 隻(約 22%)。
+
+**⚠️ 衍生作陷阱**:「Terraforming Mars: The Dice Game」會配到
+`terraformingmars.pdf`(本體規則書),「Cascadia: Rolling Rivers」會配到
+`cascadia.pdf`。骰子版/roll & write 版嘅計分同本體完全唔同 —— **用本體規則書
+寫衍生作嘅計分表係錯嘅**。script 已經改咗唔用主標題變體,但舊資料入面
+命中嘅記錄有 `suspect: true` 標記,`research-status.json` 亦有警告 note,
+一律當冇來源處理。

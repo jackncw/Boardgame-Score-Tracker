@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-300327",
+ "name": "The Castles of Tuscany",
+ "nameZh": "托斯卡尼城堡",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/thecastlesoftuscany.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中地區板空格最多者勝;再同分則綠軌分數最少者勝;再同分則剩餘地區卡最少者勝",
+  "fields": [
+   {
+    "id": "track",
+    "label": "紅色計分軌分數",
+    "note": "三輪計分後,由綠軌轉入紅軌嘅累計分數",
+    "icon": "🔴",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "unused",
+    "label": "未用嘅物件",
+    "note": "終局時每塊未擺嘅六角板、木六角、大理石同工人各 1 分",
+    "icon": "📦",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "cards",
+    "label": "手牌",
+    "note": "手上每 3 張卡 1 分",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-282954",
+ "name": "Paris",
+ "nameZh": "巴黎",
+ "theme": {
+  "accent": "#7A5A8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/paris.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中法郎較多者勝;再同分則全盤建築同地標總值較高者勝",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中累積嘅 VP",
+    "note": "買建築同攞獎勵磚時喺 VP 軌儲落嘅分",
+    "icon": "🗼",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "districts",
+    "label": "行政區獎勵",
+    "note": "每個有 VP 磚嘅行政區,計你放咗鎖匙嘅建築同地標總值,按第一/第二/第三名攞磚上對應嘅 VP;喺該區冇買過嘢就唔計",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "francs",
+    "label": "法郎(27 號獎勵磚)",
+    "note": "持有 27 號獎勵磚嘅話,每 1 法郎 1 VP",
+    "icon": "💶",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

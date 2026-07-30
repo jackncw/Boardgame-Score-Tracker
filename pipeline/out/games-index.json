@@ -16818,6 +16818,8 @@
   "bggId": 229892,
   "gameId": "bgg-229892",
   "name": "Container: 10th Anniversary Jumbo Edition!",
+  "nameZh": "貨櫃:十週年加大版",
+  "accent": "#3E6E8E",
   "rank": 1194,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/vKQFumMc1tLcHyXUsqumyw__micro/img/C412M6SaQ1KqKxuNRL_ia5r8rwU=/fit-in/64x64/filters:strip_icc()/pic3603816.jpg",
@@ -16825,7 +16827,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 241266,
@@ -17280,6 +17282,8 @@
   "bggId": 300327,
   "gameId": "bgg-300327",
   "name": "The Castles of Tuscany",
+  "nameZh": "托斯卡尼城堡",
+  "accent": "#8C6239",
   "rank": 1228,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/_MfRr0gL7MZkqhea1qIyeA__micro/img/P2lce4jo1aafsg0VqckOI7vBJOw=/fit-in/64x64/filters:strip_icc()/pic5657331.jpg",
@@ -17287,7 +17291,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 108784,
@@ -19966,6 +19970,8 @@
   "bggId": 282954,
   "gameId": "bgg-282954",
   "name": "Paris",
+  "nameZh": "巴黎",
+  "accent": "#7A5A8C",
   "rank": 1430,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/ImP902coxwYfSUF4sbw_nw__micro/img/ablPQNOavXeQUJcmbeDhT3cvtdc=/fit-in/64x64/filters:strip_icc()/pic5159421.jpg",
@@ -19973,7 +19979,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 338628,
