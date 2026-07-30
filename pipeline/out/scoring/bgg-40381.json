@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-40381",
+ "name": "Modern Art Card Game",
+ "nameZh": "現代藝術:卡牌版",
+ "theme": {
+  "accent": "#7A4A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "各輪賣畫同結算收到嘅錢總額,最多者勝",
+    "icon": "🖼️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

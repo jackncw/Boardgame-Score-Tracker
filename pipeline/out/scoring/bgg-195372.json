@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-195372",
+ "name": "Krazy Wordz: Nicht 100% jugendfrei",
+ "nameZh": "怪字大亂鬥",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "各回合估中人哋作嘅字、或者自己嘅字被估中攞到嘅分,全部加埋",
+    "icon": "🔤",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

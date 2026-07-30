@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-12166",
+ "name": "Funkenschlag",
+ "nameZh": "電力公司(原版)",
+ "theme": {
+  "accent": "#5A7A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cities",
+    "label": "供電城市數",
+    "note": "最後一回合成功供電嘅城市數;同數時以手上餘錢較多者勝",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

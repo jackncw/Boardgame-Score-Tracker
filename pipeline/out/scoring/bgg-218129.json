@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-218129",
+ "name": "Catch the Moon",
+ "nameZh": "攀月梯",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tears",
+    "label": "淚滴",
+    "note": "失手攞到嘅淚滴標記數;越少越好,所以呢欄自動扣分",
+    "icon": "💧",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

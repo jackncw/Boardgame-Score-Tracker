@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-770",
+ "name": "Loot",
+ "nameZh": "海盜搶劫",
+ "theme": {
+  "accent": "#3E6E8E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "loot",
+    "label": "掠奪所得",
+    "note": "搶到嘅商船卡按卡面金幣值加埋",
+    "icon": "🏴‍☠️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

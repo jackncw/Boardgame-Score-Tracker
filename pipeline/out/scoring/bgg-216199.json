@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-216199",
+ "name": "Smash Up: Big in Japan",
+ "nameZh": "亂鬥聯盟:日本狂潮",
+ "theme": {
+  "accent": "#7A4A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "勝利點數",
+    "note": "攻陷基地攞到嘅 VP,加卡牌帶嚟嘅 VP;先到 15 分觸發結束",
+    "icon": "⭐",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

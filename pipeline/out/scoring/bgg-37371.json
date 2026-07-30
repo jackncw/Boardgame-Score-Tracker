@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-37371",
+ "name": "Piece o' Cake",
+ "nameZh": "分蛋糕",
+ "theme": {
+  "accent": "#C97A9B"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "總分",
+    "note": "食咗嘅蛋糕塊按口味數值加埋,加每款最多者攞到嘅忌廉分",
+    "icon": "🍰",
+    "color": "#F7D8E0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

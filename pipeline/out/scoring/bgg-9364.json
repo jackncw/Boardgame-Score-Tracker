@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-9364",
+ "name": "Doppelkopf",
+ "nameZh": "雙頭牌",
+ "theme": {
+  "accent": "#3A3A5A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "累計得分",
+    "note": "各局按叫牌陣營同吃到嘅牌點計嘅分,全部加埋",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

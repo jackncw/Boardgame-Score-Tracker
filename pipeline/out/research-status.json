@@ -21258,5 +21258,3005 @@
   "result": "skip",
   "sourceUrl": "",
   "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2701,
+  "bggId": 419074,
+  "name": "Fairy Ring",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2702,
+  "bggId": 153064,
+  "name": "Good Cop Bad Cop",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2703,
+  "bggId": 294230,
+  "name": "Remember Our Trip",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2704,
+  "bggId": 278751,
+  "name": "In Front of the Elevators",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2705,
+  "bggId": 119391,
+  "name": "Il Vecchio",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2706,
+  "bggId": 281960,
+  "name": "Kingdomino Duel",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2707,
+  "bggId": 54307,
+  "name": "Chronicle",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2708,
+  "bggId": 118063,
+  "name": "Android: Infiltration",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2709,
+  "bggId": 99,
+  "name": "Fortress America",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2710,
+  "bggId": 350755,
+  "name": "King of Monster Island",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2711,
+  "bggId": 15954,
+  "name": "Conquest of Paradise",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2712,
+  "bggId": 28,
+  "name": "Illuminati",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2713,
+  "bggId": 422374,
+  "name": "Lone Wolves",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2714,
+  "bggId": 295944,
+  "name": "EXIT: The Game – The Enchanted Forest",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2715,
+  "bggId": 15510,
+  "name": "Tower of Babel",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2716,
+  "bggId": 31790,
+  "name": "Crusade and Revolution: The Spanish Civil War, 1936-1939",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2717,
+  "bggId": 424,
+  "name": "1870: Railroading Across the Trans Mississippi from 1870",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2718,
+  "bggId": 331571,
+  "name": "My Gold Mine",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2719,
+  "bggId": 235817,
+  "name": "Space Explorers",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2720,
+  "bggId": 88408,
+  "name": "Nightfall",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2721,
+  "bggId": 129459,
+  "name": "Duel of Ages II",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2722,
+  "bggId": 21632,
+  "name": "To Court the King",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2723,
+  "bggId": 634,
+  "name": "River Dragons",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2724,
+  "bggId": 9364,
+  "name": "Doppelkopf",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2725,
+  "bggId": 377793,
+  "name": "Jekyll & Hyde vs Scotland Yard",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2726,
+  "bggId": 144826,
+  "name": "Zombie 15'",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2727,
+  "bggId": 266529,
+  "name": "Metal Gear Solid: The Board Game",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2728,
+  "bggId": 192802,
+  "name": "Days of Ire: Budapest 1956",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2729,
+  "bggId": 177354,
+  "name": "Frostgrave",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2730,
+  "bggId": 114031,
+  "name": "Copycat",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2731,
+  "bggId": 256874,
+  "name": "Legendary Encounters: The X-Files Deck Building Game",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2732,
+  "bggId": 360896,
+  "name": "Tiny Epic Vikings",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2733,
+  "bggId": 35488,
+  "name": "The Name of the Rose",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2734,
+  "bggId": 317372,
+  "name": "EXIT: The Game – The Gate Between Worlds",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2735,
+  "bggId": 356314,
+  "name": "EXIT: The Game – Advent Calendar: The Silent Storm",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2736,
+  "bggId": 2569,
+  "name": "Pick Picknic",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2737,
+  "bggId": 398162,
+  "name": "MicroMacro: Crime City – Showdown",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2738,
+  "bggId": 241987,
+  "name": "Dual Powers: Revolution 1917",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2739,
+  "bggId": 40237,
+  "name": "Long Shot",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2740,
+  "bggId": 191963,
+  "name": "Thunder & Lightning",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2741,
+  "bggId": 349948,
+  "name": "Ceres",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2742,
+  "bggId": 2596,
+  "name": "Villa Paletti",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2743,
+  "bggId": 132,
+  "name": "Caesar & Cleopatra",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2744,
+  "bggId": 394127,
+  "name": "Yokai Pagoda",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2745,
+  "bggId": 54361,
+  "name": "Heroscape Master Set:  Battle for the Underdark",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2746,
+  "bggId": 206327,
+  "name": "The King's Guild",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2747,
+  "bggId": 214032,
+  "name": "Founders of Gloomhaven",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2748,
+  "bggId": 266504,
+  "name": "Dig Your Way Out",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2749,
+  "bggId": 37371,
+  "name": "Piece o' Cake",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2750,
+  "bggId": 6779,
+  "name": "The Ark of the Covenant",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2751,
+  "bggId": 333539,
+  "name": "The Siege of Runedar",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2752,
+  "bggId": 85036,
+  "name": "20th Century",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2753,
+  "bggId": 168788,
+  "name": "Rum & Bones",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2754,
+  "bggId": 288080,
+  "name": "Dice Realms",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2755,
+  "bggId": 2381,
+  "name": "Scattergories",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2756,
+  "bggId": 411255,
+  "name": "Solstis",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2757,
+  "bggId": 36946,
+  "name": "Red November",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2758,
+  "bggId": 40990,
+  "name": "Word on the Street",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2759,
+  "bggId": 119637,
+  "name": "Zug um Zug: Deutschland",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2760,
+  "bggId": 2961,
+  "name": "Confusion: Espionage and Deception in the Cold War",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2761,
+  "bggId": 137155,
+  "name": "Potato Man",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2762,
+  "bggId": 205867,
+  "name": "Bohnanza: The Duel",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2763,
+  "bggId": 231038,
+  "name": "Dreamscape",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2764,
+  "bggId": 66214,
+  "name": "Samarkand: Routes to Riches",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2765,
+  "bggId": 366456,
+  "name": "My Shelfie",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2766,
+  "bggId": 374866,
+  "name": "Robotrick",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2767,
+  "bggId": 88126,
+  "name": "Time's Up! Family",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2768,
+  "bggId": 369142,
+  "name": "Savernake Forest",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2769,
+  "bggId": 340237,
+  "name": "Wonder Book",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2770,
+  "bggId": 344789,
+  "name": "Skytear Horde",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2771,
+  "bggId": 281075,
+  "name": "Welcome to New Las Vegas",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2772,
+  "bggId": 236461,
+  "name": "The Game: Face to Face",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2773,
+  "bggId": 383579,
+  "name": "BOOoop.",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2774,
+  "bggId": 226519,
+  "name": "EXIT: The Game – The House of Riddles",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2775,
+  "bggId": 205494,
+  "name": "Machi Koro: Bright Lights, Big City",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2776,
+  "bggId": 81640,
+  "name": "Florenza",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2777,
+  "bggId": 770,
+  "name": "Loot",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2778,
+  "bggId": 130,
+  "name": "Iron Dragon",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2779,
+  "bggId": 396251,
+  "name": "Invincible: The Hero-Building Game",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2780,
+  "bggId": 262540,
+  "name": "Freshwater Fly",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2781,
+  "bggId": 620,
+  "name": "We the People",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2782,
+  "bggId": 343433,
+  "name": "Tír na nÓg",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2783,
+  "bggId": 35761,
+  "name": "Sylla",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2784,
+  "bggId": 31552,
+  "name": "Wings of War: Deluxe Set",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2785,
+  "bggId": 327831,
+  "name": "Lost Cities: Roll & Write",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2786,
+  "bggId": 218311,
+  "name": "Deckscape: Test Time",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2787,
+  "bggId": 67888,
+  "name": "Lords of Scotland",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2788,
+  "bggId": 131835,
+  "name": "Boss Monster: The Dungeon Building Card Game",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2789,
+  "bggId": 89910,
+  "name": "Run, Fight, or Die!",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2790,
+  "bggId": 62871,
+  "name": "Zombie Dice",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2791,
+  "bggId": 75476,
+  "name": "Inca Empire",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2792,
+  "bggId": 172737,
+  "name": "High Frontier (Third Edition)",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2793,
+  "bggId": 9027,
+  "name": "Oasis",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2794,
+  "bggId": 1270,
+  "name": "Star Wars Customizable Card Game",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2795,
+  "bggId": 377420,
+  "name": "Mind Space",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2796,
+  "bggId": 8107,
+  "name": "Risk: The Lord of the Rings Trilogy Edition",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2797,
+  "bggId": 349963,
+  "name": "Age of Comics: The Golden Years",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2798,
+  "bggId": 378200,
+  "name": "Triqueta",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2799,
+  "bggId": 1116,
+  "name": "Oh Hell!",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2800,
+  "bggId": 150293,
+  "name": "The Ravens of Thri Sahashri",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2801,
+  "bggId": 112092,
+  "name": "Shadowrift",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2802,
+  "bggId": 122240,
+  "name": "Last Night on Earth: Timber Peak",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2803,
+  "bggId": 284616,
+  "name": "Small Samurai Empires",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2804,
+  "bggId": 2570,
+  "name": "Atlantic Star",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2805,
+  "bggId": 228411,
+  "name": "Iron Curtain",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2806,
+  "bggId": 441850,
+  "name": "Echoes of Time",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2807,
+  "bggId": 274093,
+  "name": "Quirky Circuits",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2808,
+  "bggId": 299452,
+  "name": "Dale of Merchants 3",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2809,
+  "bggId": 296043,
+  "name": "Four Gardens",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2810,
+  "bggId": 17240,
+  "name": "That's Life!",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2811,
+  "bggId": 354568,
+  "name": "Amun-Re: 20th Anniversary Edition",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2812,
+  "bggId": 421310,
+  "name": "Beyond the Horizon",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2813,
+  "bggId": 280789,
+  "name": "Pandemic: Rapid Response",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2814,
+  "bggId": 8481,
+  "name": "Crusader Rex",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2815,
+  "bggId": 299027,
+  "name": "Colt Super Express",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2816,
+  "bggId": 255664,
+  "name": "The Binding of Isaac: Four Souls",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2817,
+  "bggId": 422126,
+  "name": "Intarsia",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2818,
+  "bggId": 162823,
+  "name": "El Gaucho",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2819,
+  "bggId": 394334,
+  "name": "Sunrise Lane",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2820,
+  "bggId": 220588,
+  "name": "Gandhi: The Decolonization of British India, 1917 – 1947",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2821,
+  "bggId": 118247,
+  "name": "Lucky Numbers",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2822,
+  "bggId": 133632,
+  "name": "Mythotopia",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2823,
+  "bggId": 258309,
+  "name": "First Contact",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2824,
+  "bggId": 2165,
+  "name": "Pokémon Trading Card Game",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2825,
+  "bggId": 925,
+  "name": "Werewolf",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2826,
+  "bggId": 229414,
+  "name": "Tulip Bubble",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2827,
+  "bggId": 117,
+  "name": "Ta Yü",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2828,
+  "bggId": 412963,
+  "name": "Regicide Legacy",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2829,
+  "bggId": 92190,
+  "name": "Super Dungeon Explore",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2830,
+  "bggId": 257283,
+  "name": "Tiny Epic Mechs",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2831,
+  "bggId": 215463,
+  "name": "Tokyo Highway: 2 Players Version",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2832,
+  "bggId": 421374,
+  "name": "Landmarks",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2833,
+  "bggId": 214293,
+  "name": "Mountains of Madness",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2834,
+  "bggId": 402207,
+  "name": "YRO",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2835,
+  "bggId": 409496,
+  "name": "The Quacks of Quedlinburg: The Duel",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2836,
+  "bggId": 158339,
+  "name": "Lost Legacy: The Starship",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2837,
+  "bggId": 197572,
+  "name": "Warhammer Quest: Silver Tower",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2838,
+  "bggId": 411861,
+  "name": "Unmatched: The Witcher – Realms Fall",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2839,
+  "bggId": 311731,
+  "name": "Freedom Five: A Sentinel Comics Board Game",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2840,
+  "bggId": 219217,
+  "name": "Arena: The Contest",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2841,
+  "bggId": 212281,
+  "name": "Village Attacks",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2842,
+  "bggId": 151247,
+  "name": "Greed",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2843,
+  "bggId": 162388,
+  "name": "BattleCON: Fate of Indines",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2844,
+  "bggId": 154509,
+  "name": "Kingsport Festival",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2845,
+  "bggId": 443,
+  "name": "Code 777",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2846,
+  "bggId": 181960,
+  "name": "Portal of Heroes",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2847,
+  "bggId": 248900,
+  "name": "Ceylon",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2848,
+  "bggId": 189453,
+  "name": "Victorian Masterminds",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2849,
+  "bggId": 40381,
+  "name": "Modern Art Card Game",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2850,
+  "bggId": 313065,
+  "name": "Transmissions",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2851,
+  "bggId": 1125,
+  "name": "Big Shot",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2852,
+  "bggId": 273814,
+  "name": "Deliverance",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2853,
+  "bggId": 300936,
+  "name": "Via Magica",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2854,
+  "bggId": 19764,
+  "name": "PÜNCT",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2855,
+  "bggId": 391752,
+  "name": "Steam Power",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2856,
+  "bggId": 255570,
+  "name": "Brotherhood & Unity",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2857,
+  "bggId": 638,
+  "name": "Hera and Zeus",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2858,
+  "bggId": 358690,
+  "name": "Mantis",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2859,
+  "bggId": 40769,
+  "name": "Valdora",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2860,
+  "bggId": 381435,
+  "name": "General Orders: World War II",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2861,
+  "bggId": 143157,
+  "name": "SOS Titanic",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2862,
+  "bggId": 126996,
+  "name": "King's Forge",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2863,
+  "bggId": 383158,
+  "name": "Nunatak: Temple of Ice",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2864,
+  "bggId": 118536,
+  "name": "Police Precinct",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2865,
+  "bggId": 154875,
+  "name": "Silent Victory: U.S. Submarines in the Pacific, 1941-45",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2866,
+  "bggId": 255507,
+  "name": "Orbis",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2867,
+  "bggId": 243358,
+  "name": "Space Park",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2868,
+  "bggId": 153,
+  "name": "Take 5!",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2869,
+  "bggId": 164698,
+  "name": "Fresh Fish",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2870,
+  "bggId": 328211,
+  "name": "Vegetable Stock",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2871,
+  "bggId": 405923,
+  "name": "Moonrollers",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2872,
+  "bggId": 25277,
+  "name": "Richard III: The Wars of the Roses",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2873,
+  "bggId": 189052,
+  "name": "Sea of Clouds",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2874,
+  "bggId": 123219,
+  "name": "OddVille",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2875,
+  "bggId": 296626,
+  "name": "Sonora",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2876,
+  "bggId": 410209,
+  "name": "Hitster: Summer Party",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2877,
+  "bggId": 281515,
+  "name": "Company of Heroes",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2878,
+  "bggId": 239840,
+  "name": "Micropolis",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2879,
+  "bggId": 220827,
+  "name": "Planet Apocalypse",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2880,
+  "bggId": 2603,
+  "name": "The Lord of the Rings Trading Card Game",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2881,
+  "bggId": 209325,
+  "name": "The Game: Extreme",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2882,
+  "bggId": 245352,
+  "name": "Unlock!: Secret Adventures – A Noside Story",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2883,
+  "bggId": 56933,
+  "name": "Penguin Party",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2884,
+  "bggId": 209324,
+  "name": "The World of SMOG: Rise of Moloch",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2885,
+  "bggId": 43152,
+  "name": "Assyria",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2886,
+  "bggId": 218129,
+  "name": "Catch the Moon",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2887,
+  "bggId": 415054,
+  "name": "Piña Coladice",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2888,
+  "bggId": 319793,
+  "name": "Happy City",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2889,
+  "bggId": 431998,
+  "name": "Point Galaxy",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2890,
+  "bggId": 27848,
+  "name": "Age of Conan: The Strategy Board Game",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2891,
+  "bggId": 353815,
+  "name": "Skate Summer",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2892,
+  "bggId": 457386,
+  "name": "Carnuta",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2893,
+  "bggId": 431994,
+  "name": "Propolis",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2894,
+  "bggId": 136056,
+  "name": "Asante",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2895,
+  "bggId": 262201,
+  "name": "Sword & Sorcery: Ancient Chronicles",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2896,
+  "bggId": 271754,
+  "name": "Spire's End",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2897,
+  "bggId": 285157,
+  "name": "Legendary: A James Bond Deck Building Game",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2898,
+  "bggId": 195372,
+  "name": "Krazy Wordz: Nicht 100% jugendfrei",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2899,
+  "bggId": 371183,
+  "name": "Joyride: Survival of the Fastest",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2900,
+  "bggId": 296694,
+  "name": "BattleTech: A Game of Armored Combat",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2901,
+  "bggId": 367396,
+  "name": "Avalon: Big Box",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2902,
+  "bggId": 148601,
+  "name": "1944: Race to the Rhine",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2903,
+  "bggId": 331398,
+  "name": "Mythic Battles: Ragnarök",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2904,
+  "bggId": 31759,
+  "name": "BattleTech: Introductory Box Set",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2905,
+  "bggId": 414685,
+  "name": "Mesos",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2906,
+  "bggId": 227758,
+  "name": "Kokoro: Avenue of the Kodama",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2907,
+  "bggId": 66849,
+  "name": "Safranito",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2908,
+  "bggId": 8730,
+  "name": "Flying Colors",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2909,
+  "bggId": 267475,
+  "name": "Stay Cool",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2910,
+  "bggId": 58110,
+  "name": "Horse Fever",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2911,
+  "bggId": 329450,
+  "name": "Equinox",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2912,
+  "bggId": 71882,
+  "name": "Conquest of Planet Earth: The Space Alien Game",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2913,
+  "bggId": 344768,
+  "name": "Mobile Markets: A Smartphone Inc. Game",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2914,
+  "bggId": 248949,
+  "name": "Skull Tales: Full Sail!",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2915,
+  "bggId": 15953,
+  "name": "Wings of War: Burning Drachens",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2916,
+  "bggId": 295945,
+  "name": "EXIT: The Game – The Cemetery of the Knight",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2917,
+  "bggId": 15290,
+  "name": "R-Eco",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2918,
+  "bggId": 322195,
+  "name": "Kokopelli",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2919,
+  "bggId": 260757,
+  "name": "Lift Off",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2920,
+  "bggId": 262477,
+  "name": "Mercado de Lisboa",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2921,
+  "bggId": 230200,
+  "name": "Overbooked",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2922,
+  "bggId": 73316,
+  "name": "Magnum Sal",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2923,
+  "bggId": 376740,
+  "name": "Undergrove",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2924,
+  "bggId": 128898,
+  "name": "New Amsterdam",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2925,
+  "bggId": 144864,
+  "name": "Ascension: Darkness Unleashed",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2926,
+  "bggId": 173105,
+  "name": "The Great War",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2927,
+  "bggId": 303954,
+  "name": "Pax Viking",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2928,
+  "bggId": 415036,
+  "name": "Medical Mysteries: NYC Emergency Room",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2929,
+  "bggId": 374502,
+  "name": "Stranger Things: Upside Down",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2930,
+  "bggId": 949,
+  "name": "Twixt",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2931,
+  "bggId": 205507,
+  "name": "Key to the City: London",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2932,
+  "bggId": 172503,
+  "name": "Mage Wars Academy",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2933,
+  "bggId": 12166,
+  "name": "Funkenschlag",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2934,
+  "bggId": 283152,
+  "name": "Monikers: Serious Nonsense",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2935,
+  "bggId": 176530,
+  "name": "Xenon Profiteer",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2936,
+  "bggId": 38531,
+  "name": "Powerboats",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2937,
+  "bggId": 36399,
+  "name": "The Napoleonic Wars (Second Edition)",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2938,
+  "bggId": 191071,
+  "name": "Mythical Dice",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2939,
+  "bggId": 137031,
+  "name": "Ancient Terrible Things",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2940,
+  "bggId": 10550,
+  "name": "Big Boggle",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2941,
+  "bggId": 378983,
+  "name": "Tipperary",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2942,
+  "bggId": 181293,
+  "name": "Alien Artifacts",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2943,
+  "bggId": 257759,
+  "name": "The River",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2944,
+  "bggId": 280032,
+  "name": "Fossilis",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2945,
+  "bggId": 270636,
+  "name": "My Farm Shop",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2946,
+  "bggId": 367047,
+  "name": "Caldera Park",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2947,
+  "bggId": 341974,
+  "name": "Power Plants",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2948,
+  "bggId": 154182,
+  "name": "Helios",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2949,
+  "bggId": 29073,
+  "name": "Blockers!",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2950,
+  "bggId": 267401,
+  "name": "Lawyer Up",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2951,
+  "bggId": 111148,
+  "name": "Würfel Bohnanza",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2952,
+  "bggId": 358669,
+  "name": "12 Chip Trick",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2953,
+  "bggId": 5781,
+  "name": "Edel, Stein & Reich",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2954,
+  "bggId": 67185,
+  "name": "Sobek",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2955,
+  "bggId": 129050,
+  "name": "P.I.",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2956,
+  "bggId": 217,
+  "name": "A la carte",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2957,
+  "bggId": 367379,
+  "name": "Deal with the Devil",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2958,
+  "bggId": 401325,
+  "name": "The Witcher: Path of Destiny",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2959,
+  "bggId": 333055,
+  "name": "Subastral",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2960,
+  "bggId": 198138,
+  "name": "Enchanters",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2961,
+  "bggId": 152765,
+  "name": "Thunderstone Advance: Worlds Collide",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2962,
+  "bggId": 156138,
+  "name": "Happy Pigs",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2963,
+  "bggId": 367527,
+  "name": "Fields of Fire: Deluxe Edition",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2964,
+  "bggId": 250442,
+  "name": "Crypt",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2965,
+  "bggId": 283387,
+  "name": "Rocketmen",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2966,
+  "bggId": 265683,
+  "name": "Second Chance",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2967,
+  "bggId": 422019,
+  "name": "Duck & Cover",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2968,
+  "bggId": 251053,
+  "name": "Let's Make a Bus Route",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2969,
+  "bggId": 234621,
+  "name": "Tybor the Builder",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2970,
+  "bggId": 407317,
+  "name": "Cascadia: Rolling Hills",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2971,
+  "bggId": 352823,
+  "name": "Galileo Project",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2972,
+  "bggId": 313,
+  "name": "Big Boss",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2973,
+  "bggId": 247104,
+  "name": "Blitz Bowl",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2974,
+  "bggId": 4491,
+  "name": "Cave Troll",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2975,
+  "bggId": 3085,
+  "name": "Gang of Four",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2976,
+  "bggId": 204286,
+  "name": "Big Trouble in Little China: The Game",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2977,
+  "bggId": 270293,
+  "name": "Gorinto",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2978,
+  "bggId": 313531,
+  "name": "Rustling Leaves",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2979,
+  "bggId": 29972,
+  "name": "El Capitán",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2980,
+  "bggId": 401636,
+  "name": "Tacta",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2981,
+  "bggId": 298060,
+  "name": "Truffle Shuffle",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2982,
+  "bggId": 92044,
+  "name": "Dungeons & Dragons: Conquest of Nerath Board Game",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2983,
+  "bggId": 303554,
+  "name": "Winter Kingdom",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2984,
+  "bggId": 377704,
+  "name": "Tales of the Arthurian Knights",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2985,
+  "bggId": 72,
+  "name": "Verräter",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2986,
+  "bggId": 216199,
+  "name": "Smash Up: Big in Japan",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2987,
+  "bggId": 209003,
+  "name": "Commands & Colors: Medieval",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 2988,
+  "bggId": 234248,
+  "name": "Voodoo Prince",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2989,
+  "bggId": 251890,
+  "name": "Gunkimono",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2990,
+  "bggId": 138704,
+  "name": "Northern Pacific",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2991,
+  "bggId": 368609,
+  "name": "Abducktion",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2992,
+  "bggId": 302280,
+  "name": "Shifting Stones",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分"
+ },
+ {
+  "rank": 2993,
+  "bggId": 118705,
+  "name": "Ghost Blitz 2",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2994,
+  "bggId": 10997,
+  "name": "Boomtown",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2995,
+  "bggId": 31483,
+  "name": "Constantinopolis",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2996,
+  "bggId": 1293,
+  "name": "Boggle",
+  "cat": "-",
+  "path": "b",
+  "result": "done",
+  "sourceUrl": "",
+  "note": "放寬尺度後直接生成"
+ },
+ {
+  "rank": 2997,
+  "bggId": 37120,
+  "name": "Pack & Stack",
+  "cat": "-",
+  "path": "c",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "競爭型終局計分,待網查 rulebook"
+ },
+ {
+  "rank": 2998,
+  "bggId": 198609,
+  "name": "Fate of the Elder Gods",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "合作/單人/密室逃脫遊戲,無玩家累加計分"
+ },
+ {
+  "rank": 2999,
+  "bggId": 284587,
+  "name": "Bloodstones",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
+ },
+ {
+  "rank": 3000,
+  "bggId": 180956,
+  "name": "One Night Ultimate Vampire",
+  "cat": "-",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "戰棋/劇本制/對戰遊戲,以陣營或擊倒對手定勝負,無累加計分"
  }
 ]

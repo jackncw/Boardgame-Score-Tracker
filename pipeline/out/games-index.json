@@ -20953,6 +20953,8 @@
   "bggId": 83195,
   "gameId": "bgg-83195",
   "name": "Ghost Blitz",
+  "nameZh": "德國心臟病(搶鬼)",
+  "accent": "#C4543C",
   "rank": 1505,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/tvZTjFnPvt2LrY6NGSbeuQ__micro/img/Nb0u8xbd4Vg63Ufm4hQ_TBLdmhQ=/fit-in/64x64/filters:strip_icc()/pic2034769.jpg",
@@ -20960,9 +20962,7 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "德國心臟病(搶鬼)",
-  "accent": "#C4543C"
+  "hasScoring": true
  },
  {
   "bggId": 135382,
@@ -21072,6 +21072,8 @@
   "bggId": 390340,
   "gameId": "bgg-390340",
   "name": "Challengers! Beach Cup",
+  "nameZh": "挑戰者!沙灘盃",
+  "accent": "#5A9BC4",
   "rank": 1514,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/QZWrLoOoruqb0YRDQT-jng__micro/img/n4GiPD9G44bX9gaQ3ll8JKmKbLY=/fit-in/64x64/filters:strip_icc()/pic7683878.png",
@@ -21079,9 +21081,7 @@
   "minPlayers": 1,
   "maxPlayers": 8,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "挑戰者!沙灘盃",
-  "accent": "#5A9BC4"
+  "hasScoring": true
  },
  {
   "bggId": 299252,
@@ -21217,6 +21217,8 @@
   "bggId": 253608,
   "gameId": "bgg-253608",
   "name": "18Chesapeake",
+  "nameZh": "18Chesapeake",
+  "accent": "#4A6E4A",
   "rank": 1525,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/35WEzAn97LPqUhMogcqpfA__micro/img/IT0jpc4MhCGzzRnOXzklwSowxTY=/fit-in/64x64/filters:strip_icc()/pic4743849.png",
@@ -21224,9 +21226,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 180,
-  "hasScoring": true,
-  "nameZh": "18Chesapeake",
-  "accent": "#4A6E4A"
+  "hasScoring": true
  },
  {
   "bggId": 41916,
@@ -21336,6 +21336,8 @@
   "bggId": 251412,
   "gameId": "bgg-251412",
   "name": "On Tour",
+  "nameZh": "巡迴演出",
+  "accent": "#C9553C",
   "rank": 1534,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/EGpkuw3B0B708kurJe7XRw__micro/img/AbqNp3hrGho4R50L0d9vuKU07hI=/fit-in/64x64/filters:strip_icc()/pic6973178.png",
@@ -21343,9 +21345,7 @@
   "minPlayers": 1,
   "maxPlayers": 8,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "巡迴演出",
-  "accent": "#C9553C"
+  "hasScoring": true
  },
  {
   "bggId": 173101,
@@ -21559,6 +21559,8 @@
   "bggId": 269595,
   "gameId": "bgg-269595",
   "name": "Copenhagen",
+  "nameZh": "哥本哈根",
+  "accent": "#3E8E8A",
   "rank": 1551,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/9rxcvgJyZ4_gJ651hMBU_A__micro/img/CQpu7L7ITJWWPii_M8Ya1pcDTjA=/fit-in/64x64/filters:strip_icc()/pic4518807.jpg",
@@ -21566,9 +21568,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 40,
-  "hasScoring": true,
-  "nameZh": "哥本哈根",
-  "accent": "#3E8E8A"
+  "hasScoring": true
  },
  {
   "bggId": 42452,
@@ -21821,6 +21821,8 @@
   "bggId": 16986,
   "gameId": "bgg-16986",
   "name": "Ubongo",
+  "nameZh": "烏邦果",
+  "accent": "#C9A227",
   "rank": 1571,
   "year": 2003,
   "thumbnail": "https://cf.geekdo-images.com/0wSuQbmk4nPwNytp9_zzPw__micro/img/FHqVT7C4hDAPdyGN69I4CM4scsM=/fit-in/64x64/filters:strip_icc()/pic4597123.jpg",
@@ -21828,9 +21830,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 25,
-  "hasScoring": true,
-  "nameZh": "烏邦果",
-  "accent": "#C9A227"
+  "hasScoring": true
  },
  {
   "bggId": 223855,
@@ -21862,6 +21862,8 @@
   "bggId": 225244,
   "gameId": "bgg-225244",
   "name": "Ticket to Ride: Germany",
+  "nameZh": "鐵道任務:德國",
+  "accent": "#B5343C",
   "rank": 1574,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/GHcyEOsBUOrWrmdXbbAb7w__micro/img/vOm42XGhCCZruc5PpfvwCnjduGw=/fit-in/64x64/filters:strip_icc()/pic3506961.jpg",
@@ -21869,9 +21871,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": true,
-  "nameZh": "鐵道任務:德國",
-  "accent": "#B5343C"
+  "hasScoring": true
  },
  {
   "bggId": 446493,
@@ -22202,6 +22202,8 @@
   "bggId": 302524,
   "gameId": "bgg-302524",
   "name": "Super-Skill Pinball: 4-Cade",
+  "nameZh": "超技巧彈珠機:四連台",
+  "accent": "#7A4A8C",
   "rank": 1600,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/Tmm3TEDHjb4daehm9sgstQ__micro/img/rJS29Wk4leZqyfdF2JN-CR8zIIM=/fit-in/64x64/filters:strip_icc()/pic5295593.jpg",
@@ -22209,9 +22211,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "超技巧彈珠機:四連台",
-  "accent": "#7A4A8C"
+  "hasScoring": true
  },
  {
   "bggId": 17396,
@@ -22607,6 +22607,8 @@
   "bggId": 15818,
   "gameId": "bgg-15818",
   "name": "Pick-omino",
+  "nameZh": "德國蟲蟲",
+  "accent": "#C9A227",
   "rank": 1631,
   "year": 2005,
   "thumbnail": "https://cf.geekdo-images.com/gWIFE9exHsFPBwTlja41Yg__micro/img/vtT7TmExwW2NKB0N7Z8BT5B5de0=/fit-in/64x64/filters:strip_icc()/pic2345051.jpg",
@@ -22614,9 +22616,7 @@
   "minPlayers": 2,
   "maxPlayers": 7,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "德國蟲蟲",
-  "accent": "#C9A227"
+  "hasScoring": true
  },
  {
   "bggId": 191876,
@@ -22648,6 +22648,8 @@
   "bggId": 116,
   "gameId": "bgg-116",
   "name": "Guillotine",
+  "nameZh": "斷頭台",
+  "accent": "#8C3F3F",
   "rank": 1634,
   "year": 1998,
   "thumbnail": "https://cf.geekdo-images.com/gDbDLBdIZfkU9rc8rK4g2g__micro/img/VYaRwMt1UPaX5hhLCZeLbWUgXPQ=/fit-in/64x64/filters:strip_icc()/pic9528692.jpg",
@@ -22655,9 +22657,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "斷頭台",
-  "accent": "#8C3F3F"
+  "hasScoring": true
  },
  {
   "bggId": 268012,
@@ -22767,6 +22767,8 @@
   "bggId": 394,
   "gameId": "bgg-394",
   "name": "Kahuna",
+  "nameZh": "卡胡納",
+  "accent": "#5A9BC4",
   "rank": 1643,
   "year": 1998,
   "thumbnail": "https://cf.geekdo-images.com/UdhhVlmQihMbvlNSvY1lUA__micro/img/xJzn2guaVyFKCaXb9JSKtzyzVQI=/fit-in/64x64/filters:strip_icc()/pic2606165.jpg",
@@ -22774,9 +22776,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 40,
-  "hasScoring": true,
-  "nameZh": "卡胡納",
-  "accent": "#5A9BC4"
+  "hasScoring": true
  },
  {
   "bggId": 38863,
@@ -23042,6 +23042,8 @@
   "bggId": 199,
   "gameId": "bgg-199",
   "name": "Manhattan",
+  "nameZh": "曼哈頓",
+  "accent": "#5A6E8C",
   "rank": 1664,
   "year": 1994,
   "thumbnail": "https://cf.geekdo-images.com/J38tww49pGTsp3bmgEekkA__micro/img/ewUqF5-WN41zhalNXyRCjitzapk=/fit-in/64x64/filters:strip_icc()/pic3573055.png",
@@ -23049,9 +23051,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "曼哈頓",
-  "accent": "#5A6E8C"
+  "hasScoring": true
  },
  {
   "bggId": 132372,
@@ -23083,6 +23083,8 @@
   "bggId": 1159,
   "gameId": "bgg-1159",
   "name": "Evo",
+  "nameZh": "演化",
+  "accent": "#4A8C5A",
   "rank": 1667,
   "year": 2001,
   "thumbnail": "https://cf.geekdo-images.com/OlpxzxL2SVr4gQvCSaL4JQ__micro/img/tmyAqHX3zwzmib9QR_7pYkXATFA=/fit-in/64x64/filters:strip_icc()/pic1100790.jpg",
@@ -23090,9 +23092,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": true,
-  "nameZh": "演化",
-  "accent": "#4A8C5A"
+  "hasScoring": true
  },
  {
   "bggId": 436821,
@@ -23137,6 +23137,8 @@
   "bggId": 230,
   "gameId": "bgg-230",
   "name": "Merchant of Venus",
+  "nameZh": "金星商人",
+  "accent": "#3A5A8C",
   "rank": 1671,
   "year": 1988,
   "thumbnail": "https://cf.geekdo-images.com/FZ7aD_jdYDqpcSBQ1rkT8A__micro/img/HmqrXyDbvJpDGufI7KXiMBsKlY8=/fit-in/64x64/filters:strip_icc()/pic159117.jpg",
@@ -23144,9 +23146,7 @@
   "minPlayers": 1,
   "maxPlayers": 6,
   "playTime": 180,
-  "hasScoring": true,
-  "nameZh": "金星商人",
-  "accent": "#3A5A8C"
+  "hasScoring": true
  },
  {
   "bggId": 204505,
@@ -23230,6 +23230,8 @@
   "bggId": 177802,
   "gameId": "bgg-177802",
   "name": "Smash Up: It's Your Fault!",
+  "nameZh": "亂鬥聯盟:都係你嘅錯!",
+  "accent": "#7A4A8C",
   "rank": 1678,
   "year": 2016,
   "thumbnail": "https://cf.geekdo-images.com/9oxsjNlu9BL54x6Vtvkzsg__micro/img/KDNX7aWmtQVi-pAfIfKw1gcDy50=/fit-in/64x64/filters:strip_icc()/pic2843367.jpg",
@@ -23237,9 +23239,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 60,
-  "hasScoring": true,
-  "nameZh": "亂鬥聯盟:都係你嘅錯!",
-  "accent": "#7A4A8C"
+  "hasScoring": true
  },
  {
   "bggId": 150312,
@@ -23609,6 +23609,8 @@
   "bggId": 63268,
   "gameId": "bgg-63268",
   "name": "Spot it!",
+  "nameZh": "眼明手快",
+  "accent": "#C9553C",
   "rank": 1707,
   "year": 2009,
   "thumbnail": "https://cf.geekdo-images.com/hqDT4HbEb2eNCyMOeiGj-g__micro/img/c3qDMBsQ9c0G_oawP6cTzQ6yicw=/fit-in/64x64/filters:strip_icc()/pic6477003.png",
@@ -23616,9 +23618,7 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 15,
-  "hasScoring": true,
-  "nameZh": "眼明手快",
-  "accent": "#C9553C"
+  "hasScoring": true
  },
  {
   "bggId": 624,
@@ -23871,6 +23871,8 @@
   "bggId": 271321,
   "gameId": "bgg-271321",
   "name": "CABO (Second Edition)",
+  "nameZh": "CABO(第二版)",
+  "accent": "#5A7A8C",
   "rank": 1727,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/UXg5z353Vs3aI90_TfL4pQ__micro/img/5ITciQQ3f7PRJyKx2Jf26FChKCY=/fit-in/64x64/filters:strip_icc()/pic4572408.jpg",
@@ -23878,9 +23880,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "CABO(第二版)",
-  "accent": "#5A7A8C"
+  "hasScoring": true
  },
  {
   "bggId": 98527,
@@ -23964,6 +23964,8 @@
   "bggId": 300010,
   "gameId": "bgg-300010",
   "name": "Dragomino",
+  "nameZh": "小小龍骨牌",
+  "accent": "#6B9B5A",
   "rank": 1734,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/S_Cpk3j3Z3ceNJBPNg4l7w__micro/img/ZSIvB2WNILCj_pE4wZa9bpouons=/fit-in/64x64/filters:strip_icc()/pic5212561.png",
@@ -23971,9 +23973,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": true,
-  "nameZh": "小小龍骨牌",
-  "accent": "#6B9B5A"
+  "hasScoring": true
  },
  {
   "bggId": 10640,
@@ -24018,6 +24018,8 @@
   "bggId": 33604,
   "gameId": "bgg-33604",
   "name": "Say Anything",
+  "nameZh": "各抒己見",
+  "accent": "#C97A9B",
   "rank": 1738,
   "year": 2008,
   "thumbnail": "https://cf.geekdo-images.com/6yVHs8Xa9H3-10ls3H8Ojw__micro/img/1WpKhmE2FysxHnGUVhvN2Y8DV1Y=/fit-in/64x64/filters:strip_icc()/pic4222162.jpg",
@@ -24025,9 +24027,7 @@
   "minPlayers": 3,
   "maxPlayers": 8,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "各抒己見",
-  "accent": "#C97A9B"
+  "hasScoring": true
  },
  {
   "bggId": 348096,
@@ -24163,6 +24163,8 @@
   "bggId": 19237,
   "gameId": "bgg-19237",
   "name": "Ca$h 'n Gun$",
+  "nameZh": "現金與槍",
+  "accent": "#8C3F3F",
   "rank": 1749,
   "year": 2005,
   "thumbnail": "https://cf.geekdo-images.com/_UpTZr1itCcHdnnbuTUnQQ__micro/img/bZYwWVdrrsz3IvAbeczynpzumyc=/fit-in/64x64/filters:strip_icc()/pic87523.jpg",
@@ -24170,9 +24172,7 @@
   "minPlayers": 4,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "現金與槍",
-  "accent": "#8C3F3F"
+  "hasScoring": true
  },
  {
   "bggId": 204,
@@ -24360,6 +24360,8 @@
   "bggId": 29223,
   "gameId": "bgg-29223",
   "name": "Marrakech",
+  "nameZh": "馬拉喀什",
+  "accent": "#C9553C",
   "rank": 1764,
   "year": 2007,
   "thumbnail": "https://cf.geekdo-images.com/JFE29MODWOFXreEmM-xhyQ__micro/img/8J4DEJFEyhDiNRjEFJJ8dZspLII=/fit-in/64x64/filters:strip_icc()/pic8594649.jpg",
@@ -24367,9 +24369,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "馬拉喀什",
-  "accent": "#C9553C"
+  "hasScoring": true
  },
  {
   "bggId": 216201,
@@ -24583,6 +24583,8 @@
   "bggId": 63170,
   "gameId": "bgg-63170",
   "name": "1817",
+  "nameZh": "1817",
+  "accent": "#4A6E4A",
   "rank": 1781,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/ljswtJbDAR_bcgSkF2PSOw__micro/img/1tNS_D-DpeigewO_I_tkap6c6Xs=/fit-in/64x64/filters:strip_icc()/pic4895040.png",
@@ -24590,9 +24592,7 @@
   "minPlayers": 3,
   "maxPlayers": 7,
   "playTime": 540,
-  "hasScoring": true,
-  "nameZh": "1817",
-  "accent": "#4A6E4A"
+  "hasScoring": true
  },
  {
   "bggId": 53093,
@@ -25105,6 +25105,8 @@
   "bggId": 422484,
   "gameId": "bgg-422484",
   "name": "King of Tokyo: Duel",
+  "nameZh": "東京之王:對決",
+  "accent": "#C4543C",
   "rank": 1821,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/Mv8h6f50NWlxqKSmyxIOIw__micro/img/1CUG1_kHarkLcloTGBfjz1Hgu9g=/fit-in/64x64/filters:strip_icc()/pic8243567.jpg",
@@ -25112,9 +25114,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "東京之王:對決",
-  "accent": "#C4543C"
+  "hasScoring": true
  },
  {
   "bggId": 424573,
@@ -25211,6 +25211,8 @@
   "bggId": 73664,
   "gameId": "bgg-73664",
   "name": "Cabo",
+  "nameZh": "CABO",
+  "accent": "#5A7A8C",
   "rank": 1829,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/xm0CoWYr8kO0EaqlaVdVWQ__micro/img/qwuPNkw-C2gY7tidRIteo6jU92A=/fit-in/64x64/filters:strip_icc()/pic754318.jpg",
@@ -25218,9 +25220,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "CABO",
-  "accent": "#5A7A8C"
+  "hasScoring": true
  },
  {
   "bggId": 358816,
@@ -25473,6 +25473,8 @@
   "bggId": 131366,
   "gameId": "bgg-131366",
   "name": "Eight-Minute Empire",
+  "nameZh": "八分鐘帝國",
+  "accent": "#7A4A5A",
   "rank": 1849,
   "year": 2012,
   "thumbnail": "https://cf.geekdo-images.com/HKj7MIw-zV-AmQ7PfoltRg__micro/img/_sxQZ5Kh1a_bO8ffbuBQqcc7dnU=/fit-in/64x64/filters:strip_icc()/pic1443212.jpg",
@@ -25480,9 +25482,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "八分鐘帝國",
-  "accent": "#7A4A5A"
+  "hasScoring": true
  },
  {
   "bggId": 481,
@@ -25566,6 +25566,8 @@
   "bggId": 3097,
   "gameId": "bgg-3097",
   "name": "1849: The Game of Sicilian Railways",
+  "nameZh": "1849:西西里鐵道",
+  "accent": "#4A6E4A",
   "rank": 1856,
   "year": 1998,
   "thumbnail": "https://cf.geekdo-images.com/x_QbmcYgiDWe-UvJDbDFjQ__micro/img/02c5Wj3sSek0L7J7L49S4tZkERo=/fit-in/64x64/filters:strip_icc()/pic5142773.jpg",
@@ -25573,9 +25575,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 180,
-  "hasScoring": true,
-  "nameZh": "1849:西西里鐵道",
-  "accent": "#4A6E4A"
+  "hasScoring": true
  },
  {
   "bggId": 196202,
@@ -25659,6 +25659,8 @@
   "bggId": 381308,
   "gameId": "bgg-381308",
   "name": "Dixit: Disney Edition",
+  "nameZh": "妙不可言:迪士尼版",
+  "accent": "#7A4A8C",
   "rank": 1863,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/BhkW--GOy1cSYH5b7jmSag__micro/img/oxdTRodfGNGcTnbGHKaAldM7Aas=/fit-in/64x64/filters:strip_icc()/pic7403703.png",
@@ -25666,14 +25668,14 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "妙不可言:迪士尼版",
-  "accent": "#7A4A8C"
+  "hasScoring": true
  },
  {
   "bggId": 142852,
   "gameId": "bgg-142852",
   "name": "DC Deck-Building Game: Heroes Unite",
+  "nameZh": "DC 英雄:英雄集結",
+  "accent": "#2A4A8C",
   "rank": 1864,
   "year": 2014,
   "thumbnail": "https://cf.geekdo-images.com/mmzLEMiTU19aU-qpyJ8AkQ__micro/img/xlr44QIHfQdUPx5zaaUeuWnV_1s=/fit-in/64x64/filters:strip_icc()/pic9703850.png",
@@ -25681,9 +25683,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "DC 英雄:英雄集結",
-  "accent": "#2A4A8C"
+  "hasScoring": true
  },
  {
   "bggId": 285265,
@@ -25910,6 +25910,8 @@
   "bggId": 67877,
   "gameId": "bgg-67877",
   "name": "Anomia",
+  "nameZh": "亂序反應",
+  "accent": "#C9553C",
   "rank": 1882,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/1gZRgquVpNQkykUEXjNwUA__micro/img/bRkUyqUbzZD8mBUBtiosq8B5Grk=/fit-in/64x64/filters:strip_icc()/pic9642079.jpg",
@@ -25917,9 +25919,7 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "亂序反應",
-  "accent": "#C9553C"
+  "hasScoring": true
  },
  {
   "bggId": 251551,
@@ -25964,6 +25964,8 @@
   "bggId": 148203,
   "gameId": "bgg-148203",
   "name": "Dutch Blitz",
+  "nameZh": "荷蘭閃電",
+  "accent": "#C9A227",
   "rank": 1886,
   "year": 1960,
   "thumbnail": "https://cf.geekdo-images.com/ipuSaHTjxDpXAee-3vttiA__micro/img/THQx6O7X5J1YpIWHnrqkP3jl_9k=/fit-in/64x64/filters:strip_icc()/pic336418.jpg",
@@ -25971,9 +25973,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": true,
-  "nameZh": "荷蘭閃電",
-  "accent": "#C9A227"
+  "hasScoring": true
  },
  {
   "bggId": 359394,
@@ -26096,6 +26096,8 @@
   "bggId": 1198,
   "gameId": "bgg-1198",
   "name": "SET",
+  "nameZh": "SET 形色牌",
+  "accent": "#5A8CA8",
   "rank": 1896,
   "year": 1988,
   "thumbnail": "https://cf.geekdo-images.com/uEtWO_Ag8OxbG6NkSZbH6A__micro/img/8IaABNDxGfKxn4Pho8-fvRoF7Pw=/fit-in/64x64/filters:strip_icc()/pic7627182.png",
@@ -26103,9 +26105,7 @@
   "minPlayers": 1,
   "maxPlayers": 20,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "SET 形色牌",
-  "accent": "#5A8CA8"
+  "hasScoring": true
  },
  {
   "bggId": 420914,
@@ -26267,6 +26267,8 @@
   "bggId": 84732,
   "gameId": "bgg-84732",
   "name": "Kariba",
+  "nameZh": "卡里巴",
+  "accent": "#5A9BC4",
   "rank": 1909,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/K92SFm86Thp6flcFmAX0wQ__micro/img/TuZSFAdw-o7f-KBjC7CgXfDpld4=/fit-in/64x64/filters:strip_icc()/pic8624565.png",
@@ -26274,9 +26276,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": true,
-  "nameZh": "卡里巴",
-  "accent": "#5A9BC4"
+  "hasScoring": true
  },
  {
   "bggId": 280453,
@@ -26373,6 +26373,8 @@
   "bggId": 244916,
   "gameId": "bgg-244916",
   "name": "Drop It",
+  "nameZh": "拋磚入洞",
+  "accent": "#C9A227",
   "rank": 1917,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/CwlOEAEzD-O09vdbvyD2Gw__micro/img/wf-uZKdfQL-5D5crKHIQTo_Fc3E=/fit-in/64x64/filters:strip_icc()/pic7988716.jpg",
@@ -26380,9 +26382,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "拋磚入洞",
-  "accent": "#C9A227"
+  "hasScoring": true
  },
  {
   "bggId": 205317,
@@ -26401,6 +26401,8 @@
   "bggId": 175223,
   "gameId": "bgg-175223",
   "name": "Valley of the Kings: Afterlife",
+  "nameZh": "帝王谷:來世",
+  "accent": "#C9A227",
   "rank": 1919,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/PqoEulSFarx64L6EYMn-qg__micro/img/4IjLHO7F8JEASKMQQmIGTDbZK0Y=/fit-in/64x64/filters:strip_icc()/pic2456554.jpg",
@@ -26408,9 +26410,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "帝王谷:來世",
-  "accent": "#C9A227"
+  "hasScoring": true
  },
  {
   "bggId": 902,
@@ -26468,6 +26468,8 @@
   "bggId": 228372,
   "gameId": "bgg-228372",
   "name": "Iberian Gauge",
+  "nameZh": "伊比利亞軌距",
+  "accent": "#4A7A5A",
   "rank": 1924,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/SMVRFdGdP8i45UmlHHZafw__micro/img/n021PJLwJ5cSl8EaWbisZyjYD6o=/fit-in/64x64/filters:strip_icc()/pic6336687.jpg",
@@ -26475,9 +26477,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": true,
-  "nameZh": "伊比利亞軌距",
-  "accent": "#4A7A5A"
+  "hasScoring": true
  },
  {
   "bggId": 439742,
@@ -26626,6 +26626,8 @@
   "bggId": 115,
   "gameId": "bgg-115",
   "name": "I'm the Boss!",
+  "nameZh": "我係老細",
+  "accent": "#8C3F3F",
   "rank": 1936,
   "year": 1994,
   "thumbnail": "https://cf.geekdo-images.com/BwLVB048K-u7s_VfRZZibQ__micro/img/O3FNOVN3jEYwfK9gcRcdirRBG4o=/fit-in/64x64/filters:strip_icc()/pic7810845.png",
@@ -26633,9 +26635,7 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": true,
-  "nameZh": "我係老細",
-  "accent": "#8C3F3F"
+  "hasScoring": true
  },
  {
   "bggId": 594,
@@ -26836,6 +26836,8 @@
   "bggId": 204135,
   "gameId": "bgg-204135",
   "name": "Skyjo",
+  "nameZh": "Skyjo",
+  "accent": "#5A7A8C",
   "rank": 1952,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/NMNeoJY6aU6C2EJz67YEfA__micro/img/_0NZ2OqSDHmSaSk8DJsDlyfucLE=/fit-in/64x64/filters:strip_icc()/pic4559127.jpg",
@@ -26843,9 +26845,7 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "Skyjo",
-  "accent": "#5A7A8C"
+  "hasScoring": true
  },
  {
   "bggId": 438442,
@@ -27033,6 +27033,8 @@
   "bggId": 266083,
   "gameId": "bgg-266083",
   "name": "L.L.A.M.A.",
+  "nameZh": "L.L.A.M.A. 草泥馬",
+  "accent": "#C97A9B",
   "rank": 1967,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/_K4k5XqtcHc947wtMcwafA__micro/img/f92BPg_r6Owk9rjmzGigV-1Ke0E=/fit-in/64x64/filters:strip_icc()/pic4961695.jpg",
@@ -27040,9 +27042,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "L.L.A.M.A. 草泥馬",
-  "accent": "#C97A9B"
+  "hasScoring": true
  },
  {
   "bggId": 214484,
@@ -27087,6 +27087,8 @@
   "bggId": 2987,
   "gameId": "bgg-2987",
   "name": "Pirate's Cove",
+  "nameZh": "海盜灣",
+  "accent": "#3E6E8E",
   "rank": 1971,
   "year": 2002,
   "thumbnail": "https://cf.geekdo-images.com/URwfRDpsxoSyN0T-Do7qrA__micro/img/D8HBfcmx1nXmDCCoiJPYvJEAMfY=/fit-in/64x64/filters:strip_icc()/pic162248.jpg",
@@ -27094,9 +27096,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": true,
-  "nameZh": "海盜灣",
-  "accent": "#3E6E8E"
+  "hasScoring": true
  },
  {
   "bggId": 120523,
@@ -28051,6 +28051,8 @@
   "bggId": 1544,
   "gameId": "bgg-1544",
   "name": "Beyond Balderdash",
+  "nameZh": "超級鬼扯蛋",
+  "accent": "#C97A9B",
   "rank": 2045,
   "year": 1993,
   "thumbnail": "https://cf.geekdo-images.com/FfLekRrX3dNKQAfTsYuVxw__micro/img/BOyWTgcjHvf-Q8nJwv7rpdA9Km8=/fit-in/64x64/filters:strip_icc()/pic3364.jpg",
@@ -28058,14 +28060,14 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "超級鬼扯蛋",
-  "accent": "#C97A9B"
+  "hasScoring": true
  },
  {
   "bggId": 54137,
   "gameId": "bgg-54137",
   "name": "Battle Sheep",
+  "nameZh": "羊咩咩大作戰",
+  "accent": "#6B9B5A",
   "rank": 2046,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/CyRdRpZaIsCb4B8zfotI4Q__micro/img/gKfY2slo2JqWx1HuPpYxPRIZexQ=/fit-in/64x64/filters:strip_icc()/pic1887253.jpg",
@@ -28073,9 +28075,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": true,
-  "nameZh": "羊咩咩大作戰",
-  "accent": "#6B9B5A"
+  "hasScoring": true
  },
  {
   "bggId": 7480,
@@ -28783,6 +28783,8 @@
   "bggId": 337,
   "gameId": "bgg-337",
   "name": "Circus Flohcati",
+  "nameZh": "跳蚤馬戲團",
+  "accent": "#C4543C",
   "rank": 2101,
   "year": 1998,
   "thumbnail": "https://cf.geekdo-images.com/h-HgnES2sJu6_j_L00HYxA__micro/img/F9g6miZVGUCrYZEZpAA83GQ6dlY=/fit-in/64x64/filters:strip_icc()/pic7594785.jpg",
@@ -28790,9 +28792,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 15,
-  "hasScoring": true,
-  "nameZh": "跳蚤馬戲團",
-  "accent": "#C4543C"
+  "hasScoring": true
  },
  {
   "bggId": 221769,
@@ -28811,6 +28811,8 @@
   "bggId": 265256,
   "gameId": "bgg-265256",
   "name": "PUSH",
+  "nameZh": "PUSH 賭一鋪",
+  "accent": "#C9A227",
   "rank": 2103,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/6mcfJ0qM9BW-tVi8ylg_uQ__micro/img/m0IQBCn4rmt2202wtqkRIF3_MkA=/fit-in/64x64/filters:strip_icc()/pic5197222.jpg",
@@ -28818,9 +28820,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 25,
-  "hasScoring": true,
-  "nameZh": "PUSH 賭一鋪",
-  "accent": "#C9A227"
+  "hasScoring": true
  },
  {
   "bggId": 390173,
@@ -28865,6 +28865,8 @@
   "bggId": 122294,
   "gameId": "bgg-122294",
   "name": "Ascension: Immortal Heroes",
+  "nameZh": "登峰:不朽英雄",
+  "accent": "#5A4A7A",
   "rank": 2107,
   "year": 2012,
   "thumbnail": "https://cf.geekdo-images.com/L-xuJsLMDA-gYDmE12-3iQ__micro/img/z216pe47nqczSIx7Z5mA7ejZ1_Q=/fit-in/64x64/filters:strip_icc()/pic1514751.jpg",
@@ -28872,9 +28874,7 @@
   "minPlayers": 1,
   "maxPlayers": 2,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "登峰:不朽英雄",
-  "accent": "#5A4A7A"
+  "hasScoring": true
  },
  {
   "bggId": 424280,
@@ -28906,6 +28906,8 @@
   "bggId": 46396,
   "gameId": "bgg-46396",
   "name": "Ubongo 3D",
+  "nameZh": "烏邦果 3D",
+  "accent": "#C9A227",
   "rank": 2110,
   "year": 2009,
   "thumbnail": "https://cf.geekdo-images.com/WDzyiNLC4jxbxVLvovGp8w__micro/img/Uxn9PEI9yySlO7LlVuhW0NDC50Y=/fit-in/64x64/filters:strip_icc()/pic6220818.jpg",
@@ -28913,9 +28915,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "烏邦果 3D",
-  "accent": "#C9A227"
+  "hasScoring": true
  },
  {
   "bggId": 248158,
@@ -29077,6 +29077,8 @@
   "bggId": 325810,
   "gameId": "bgg-325810",
   "name": "Ascension: 10 Year Anniversary Edition",
+  "nameZh": "登峰:十週年版",
+  "accent": "#5A4A7A",
   "rank": 2123,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/WAVSY1esA_LxaQ1bSOYItA__micro/img/v3DErc-sOPkYBh4SxC2b8v9Kpfk=/fit-in/64x64/filters:strip_icc()/pic6276455.png",
@@ -29084,9 +29086,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "登峰:十週年版",
-  "accent": "#5A4A7A"
+  "hasScoring": true
  },
  {
   "bggId": 330084,
@@ -29209,6 +29209,8 @@
   "bggId": 208895,
   "gameId": "bgg-208895",
   "name": "New York Slice",
+  "nameZh": "紐約披薩",
+  "accent": "#C9553C",
   "rank": 2133,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/pqJB3ccbvCW4Fii-uQG1kA__micro/img/VXswNRdEaJyW2JHGme-1BsEdRe4=/fit-in/64x64/filters:strip_icc()/pic3211823.jpg",
@@ -29216,9 +29218,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "紐約披薩",
-  "accent": "#C9553C"
+  "hasScoring": true
  },
  {
   "bggId": 123239,
@@ -29510,6 +29510,8 @@
   "bggId": 12750,
   "gameId": "bgg-12750",
   "name": "1860: Railways on the Isle of Wight",
+  "nameZh": "1860:懷特島鐵道",
+  "accent": "#4A6E4A",
   "rank": 2156,
   "year": 2004,
   "thumbnail": "https://cf.geekdo-images.com/Y64Vz03QU9IReVefxyVcBQ__micro/img/SbsrMfh8dtSwnojgoGL850xv_lY=/fit-in/64x64/filters:strip_icc()/pic6637838.jpg",
@@ -29517,9 +29519,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 240,
-  "hasScoring": true,
-  "nameZh": "1860:懷特島鐵道",
-  "accent": "#4A6E4A"
+  "hasScoring": true
  },
  {
   "bggId": 273910,
@@ -29538,6 +29538,8 @@
   "bggId": 41933,
   "gameId": "bgg-41933",
   "name": "Arctic Scavengers",
+  "nameZh": "北極拾荒者",
+  "accent": "#5A7A8C",
   "rank": 2158,
   "year": 2009,
   "thumbnail": "https://cf.geekdo-images.com/XByHh6nI7S3pv6wn2lCodQ__micro/img/mYp07j04xCaXX0YyfgyJDVPE8kQ=/fit-in/64x64/filters:strip_icc()/pic1114682.jpg",
@@ -29545,9 +29547,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": true,
-  "nameZh": "北極拾荒者",
-  "accent": "#5A7A8C"
+  "hasScoring": true
  },
  {
   "bggId": 349750,
@@ -29696,6 +29696,8 @@
   "bggId": 423,
   "gameId": "bgg-423",
   "name": "1856: Railroading in Upper Canada from 1856",
+  "nameZh": "1856:上加拿大鐵道",
+  "accent": "#4A6E4A",
   "rank": 2170,
   "year": 1995,
   "thumbnail": "https://cf.geekdo-images.com/zqZhLWMGNSHmWtRTWHEKYQ__micro/img/SBufwpy3WJBn43TO88mb62LmVSY=/fit-in/64x64/filters:strip_icc()/pic159311.jpg",
@@ -29703,9 +29705,7 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 300,
-  "hasScoring": true,
-  "nameZh": "1856:上加拿大鐵道",
-  "accent": "#4A6E4A"
+  "hasScoring": true
  },
  {
   "bggId": 266964,
@@ -30153,6 +30153,8 @@
   "bggId": 49,
   "gameId": "bgg-49",
   "name": "Mamma Mia!",
+  "nameZh": "媽媽咪呀!",
+  "accent": "#C9553C",
   "rank": 2205,
   "year": 1998,
   "thumbnail": "https://cf.geekdo-images.com/R4sklz_ELBN5nLFTwagvLQ__micro/img/W6nRB4dGoEPNSWKflA2-5LKzjxI=/fit-in/64x64/filters:strip_icc()/pic2824027.jpg",
@@ -30160,9 +30162,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "媽媽咪呀!",
-  "accent": "#C9553C"
+  "hasScoring": true
  },
  {
   "bggId": 285894,
@@ -30454,6 +30454,8 @@
   "bggId": 28086,
   "gameId": "bgg-28086",
   "name": "Age of War",
+  "nameZh": "戰國時代",
+  "accent": "#8C3F3F",
   "rank": 2228,
   "year": 2006,
   "thumbnail": "https://cf.geekdo-images.com/ckMBSPJ-KFsvS_jTXmfcmQ__micro/img/a1ldlhTW9MK_xrw-zoOysrt9S28=/fit-in/64x64/filters:strip_icc()/pic1977202.jpg",
@@ -30461,9 +30463,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "戰國時代",
-  "accent": "#8C3F3F"
+  "hasScoring": true
  },
  {
   "bggId": 143185,
@@ -30716,6 +30716,8 @@
   "bggId": 138233,
   "gameId": "bgg-138233",
   "name": "Ascension: Rise of Vigil",
+  "nameZh": "登峰:微光崛起",
+  "accent": "#5A4A7A",
   "rank": 2248,
   "year": 2013,
   "thumbnail": "https://cf.geekdo-images.com/0GR1dNrCSyrMt2wfUGLahA__micro/img/p6XW8eUp_nuxDZLStQLunQI2Oyk=/fit-in/64x64/filters:strip_icc()/pic1937190.jpg",
@@ -30723,9 +30725,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "登峰:微光崛起",
-  "accent": "#5A4A7A"
+  "hasScoring": true
  },
  {
   "bggId": 61487,
@@ -30757,6 +30757,8 @@
   "bggId": 6887,
   "gameId": "bgg-6887",
   "name": "Hearts",
+  "nameZh": "傷心小棧",
+  "accent": "#8C3F3F",
   "rank": 2251,
   "year": 1850,
   "thumbnail": "https://cf.geekdo-images.com/zZn7Q-Q17_I9VtBx9EqQeQ__micro/img/IgeZJRyQw9uf69mjCNx8et9KnCA=/fit-in/64x64/filters:strip_icc()/pic1393547.jpg",
@@ -30764,9 +30766,7 @@
   "minPlayers": 3,
   "maxPlayers": 7,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "傷心小棧",
-  "accent": "#8C3F3F"
+  "hasScoring": true
  },
  {
   "bggId": 24742,
@@ -30915,6 +30915,8 @@
   "bggId": 107255,
   "gameId": "bgg-107255",
   "name": "Evo (Second Edition)",
+  "nameZh": "演化(第二版)",
+  "accent": "#4A8C5A",
   "rank": 2263,
   "year": 2011,
   "thumbnail": "https://cf.geekdo-images.com/uynRkzz8ccFo3aEtU8aC8w__micro/img/2mB3novGpPBsbQyvEsratrdXiew=/fit-in/64x64/filters:strip_icc()/pic1042089.jpg",
@@ -30922,9 +30924,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": true,
-  "nameZh": "演化(第二版)",
-  "accent": "#4A8C5A"
+  "hasScoring": true
  },
  {
   "bggId": 142079,
@@ -31034,6 +31034,8 @@
   "bggId": 198487,
   "gameId": "bgg-198487",
   "name": "Smash Up: Cease and Desist",
+  "nameZh": "亂鬥聯盟:停止侵權",
+  "accent": "#7A4A8C",
   "rank": 2272,
   "year": 2016,
   "thumbnail": "https://cf.geekdo-images.com/GCXx48iQBCNZCowehd-QTA__micro/img/MadJBT-PYDIdNsi-Bi7zRwOKcmM=/fit-in/64x64/filters:strip_icc()/pic3261056.jpg",
@@ -31041,9 +31043,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "亂鬥聯盟:停止侵權",
-  "accent": "#7A4A8C"
+  "hasScoring": true
  },
  {
   "bggId": 4396,
@@ -31283,6 +31283,8 @@
   "bggId": 205610,
   "gameId": "bgg-205610",
   "name": "A Game of Thrones: Hand of the King",
+  "nameZh": "權力遊戲:國王之手",
+  "accent": "#6B3A3A",
   "rank": 2291,
   "year": 2016,
   "thumbnail": "https://cf.geekdo-images.com/eKmDyXnsFmnzF5cuv32hjA__micro/img/Vnr0q8V_UEnMlKcXf2tli4gSpT0=/fit-in/64x64/filters:strip_icc()/pic3122395.jpg",
@@ -31290,9 +31292,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "權力遊戲:國王之手",
-  "accent": "#6B3A3A"
+  "hasScoring": true
  },
  {
   "bggId": 226634,
@@ -31480,6 +31480,8 @@
   "bggId": 1117,
   "gameId": "bgg-1117",
   "name": "You're Bluffing!",
+  "nameZh": "牛仔交易",
+  "accent": "#C9A227",
   "rank": 2306,
   "year": 1985,
   "thumbnail": "https://cf.geekdo-images.com/j7k4vyu3nOY0vOlizLznZQ__micro/img/XAtU3NHK95c-wDs0C1MehdIwuWk=/fit-in/64x64/filters:strip_icc()/pic1068602.jpg",
@@ -31487,9 +31489,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "牛仔交易",
-  "accent": "#C9A227"
+  "hasScoring": true
  },
  {
   "bggId": 293348,
@@ -31651,6 +31651,8 @@
   "bggId": 592,
   "gameId": "bgg-592",
   "name": "Spades",
+  "nameZh": "黑桃",
+  "accent": "#3A3A5A",
   "rank": 2319,
   "year": 1938,
   "thumbnail": "https://cf.geekdo-images.com/hP26HZHWGKFmbmmPktaXWQ__micro/img/gdpCqCyaeFzjo9HJ8mi4rIc3GXo=/fit-in/64x64/filters:strip_icc()/pic1977642.jpg",
@@ -31658,9 +31660,7 @@
   "minPlayers": 4,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": true,
-  "nameZh": "黑桃",
-  "accent": "#3A3A5A"
+  "hasScoring": true
  },
  {
   "bggId": 128667,
@@ -31887,6 +31887,8 @@
   "bggId": 66588,
   "gameId": "bgg-66588",
   "name": "Wits & Wagers Family",
+  "nameZh": "智慧下注:家庭版",
+  "accent": "#5A8CA8",
   "rank": 2337,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/ScQODaP8QC5mXrRn8qTHOg__micro/img/010L1G4yCpwu0W5xqSaoga_IB3U=/fit-in/64x64/filters:strip_icc()/pic664569.jpg",
@@ -31894,9 +31896,7 @@
   "minPlayers": 3,
   "maxPlayers": 10,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "智慧下注:家庭版",
-  "accent": "#5A8CA8"
+  "hasScoring": true
  },
  {
   "bggId": 16267,
@@ -32019,6 +32019,8 @@
   "bggId": 113289,
   "gameId": "bgg-113289",
   "name": "Snake Oil",
+  "nameZh": "蛇油推銷員",
+  "accent": "#6B9B5A",
   "rank": 2347,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/XSUSI_i20qf3-n07nbfnRg__micro/img/mBpLVe71ZOmjOR-BqRGEfILEjGE=/fit-in/64x64/filters:strip_icc()/pic5075755.jpg",
@@ -32026,9 +32028,7 @@
   "minPlayers": 3,
   "maxPlayers": 10,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "蛇油推銷員",
-  "accent": "#6B9B5A"
+  "hasScoring": true
  },
  {
   "bggId": 3931,
@@ -32359,6 +32359,8 @@
   "bggId": 142271,
   "gameId": "bgg-142271",
   "name": "Anomia: Party Edition",
+  "nameZh": "亂序反應:派對版",
+  "accent": "#C9553C",
   "rank": 2373,
   "year": 2013,
   "thumbnail": "https://cf.geekdo-images.com/aONz4E-8u8HKwjlADeqT8A__micro/img/uuWmMQUsLHRA0J-jIQNnnUE85O0=/fit-in/64x64/filters:strip_icc()/pic4991869.jpg",
@@ -32366,9 +32368,7 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "亂序反應:派對版",
-  "accent": "#C9553C"
+  "hasScoring": true
  },
  {
   "bggId": 198287,
@@ -32387,6 +32387,8 @@
   "bggId": 163,
   "gameId": "bgg-163",
   "name": "Balderdash",
+  "nameZh": "鬼扯蛋",
+  "accent": "#C97A9B",
   "rank": 2375,
   "year": 1984,
   "thumbnail": "https://cf.geekdo-images.com/hXNqiCcLt9AJzcqBSsyKiQ__micro/img/YsKdwRAwwJVVRNU2XcbPCumLcOE=/fit-in/64x64/filters:strip_icc()/pic5121000.jpg",
@@ -32394,9 +32396,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": true,
-  "nameZh": "鬼扯蛋",
-  "accent": "#C97A9B"
+  "hasScoring": true
  },
  {
   "bggId": 37358,
@@ -32428,6 +32428,8 @@
   "bggId": 125,
   "gameId": "bgg-125",
   "name": "Money!",
+  "nameZh": "錢!",
+  "accent": "#C9A227",
   "rank": 2378,
   "year": 1999,
   "thumbnail": "https://cf.geekdo-images.com/spgIw75EFPR1TViSoe0Sgg__micro/img/3cO4YeiMt7zpmBmlRx_w6PmQhRs=/fit-in/64x64/filters:strip_icc()/pic8469504.jpg",
@@ -32435,9 +32437,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "錢!",
-  "accent": "#C9A227"
+  "hasScoring": true
  },
  {
   "bggId": 291847,
@@ -32469,6 +32469,8 @@
   "bggId": 172933,
   "gameId": "bgg-172933",
   "name": "Dragonwood",
+  "nameZh": "龍木森林",
+  "accent": "#4A8C5A",
   "rank": 2381,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/npY6grU545xPiRkCAmcdSA__micro/img/aQcXgKofbTCmZQY2qr1u6vK55dw=/fit-in/64x64/filters:strip_icc()/pic2401338.jpg",
@@ -32476,9 +32478,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "龍木森林",
-  "accent": "#4A8C5A"
+  "hasScoring": true
  },
  {
   "bggId": 315060,
@@ -32523,6 +32523,8 @@
   "bggId": 312786,
   "gameId": "bgg-312786",
   "name": "Poetry for Neanderthals",
+  "nameZh": "穴居人詩歌",
+  "accent": "#8C6239",
   "rank": 2385,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/CDlBjXSPT-3Zyrj8ENBkvQ__micro/img/KNEKmwOWJe3anmGPV63Fqeysg2Y=/fit-in/64x64/filters:strip_icc()/pic5702797.jpg",
@@ -32530,9 +32532,7 @@
   "minPlayers": 2,
   "maxPlayers": 12,
   "playTime": 15,
-  "hasScoring": true,
-  "nameZh": "穴居人詩歌",
-  "accent": "#8C6239"
+  "hasScoring": true
  },
  {
   "bggId": 253684,
@@ -33071,6 +33071,8 @@
   "bggId": 398996,
   "gameId": "bgg-398996",
   "name": "Panda Royale",
+  "nameZh": "熊貓皇家賭場",
+  "accent": "#5A8CA8",
   "rank": 2427,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/4qSXZhz2Y57goC704eI0RQ__micro/img/TCWps3-ujswIFZ1xGy--cNgNGR8=/fit-in/64x64/filters:strip_icc()/pic7684828.png",
@@ -33078,9 +33080,7 @@
   "minPlayers": 2,
   "maxPlayers": 10,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "熊貓皇家賭場",
-  "accent": "#5A8CA8"
+  "hasScoring": true
  },
  {
   "bggId": 118695,
@@ -33268,6 +33268,8 @@
   "bggId": 302520,
   "gameId": "bgg-302520",
   "name": "Hues and Cues",
+  "nameZh": "色相線索",
+  "accent": "#7A4A8C",
   "rank": 2442,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__micro/img/msO01ExlfKoelDgfTfuaeiJvu6k=/fit-in/64x64/filters:strip_icc()/pic5390676.jpg",
@@ -33275,14 +33277,14 @@
   "minPlayers": 3,
   "maxPlayers": 10,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "色相線索",
-  "accent": "#7A4A8C"
+  "hasScoring": true
  },
  {
   "bggId": 320,
   "gameId": "bgg-320",
   "name": "Scrabble",
+  "nameZh": "拼字遊戲",
+  "accent": "#4A7A5A",
   "rank": 2443,
   "year": 1948,
   "thumbnail": "https://cf.geekdo-images.com/mVmmntn2oQd0PfFrWBvwIQ__micro/img/jbVAipPy6sXqMPQuTxPyOXtiLoo=/fit-in/64x64/filters:strip_icc()/pic404651.jpg",
@@ -33290,9 +33292,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": true,
-  "nameZh": "拼字遊戲",
-  "accent": "#4A7A5A"
+  "hasScoring": true
  },
  {
   "bggId": 98918,
@@ -33389,6 +33389,8 @@
   "bggId": 31105,
   "gameId": "bgg-31105",
   "name": "Archaeology: The Card Game",
+  "nameZh": "考古學:卡牌版",
+  "accent": "#B08D57",
   "rank": 2451,
   "year": 2007,
   "thumbnail": "https://cf.geekdo-images.com/er9ZIDI_AkN7IiVnNO19hg__micro/img/vvgc1g4wiiEu7fJ3fS4aP5lfDzc=/fit-in/64x64/filters:strip_icc()/pic1432672.jpg",
@@ -33396,9 +33398,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "考古學:卡牌版",
-  "accent": "#B08D57"
+  "hasScoring": true
  },
  {
   "bggId": 316287,
@@ -33508,6 +33508,8 @@
   "bggId": 286428,
   "gameId": "bgg-286428",
   "name": "Wits & Wagers: It's Vegas, Baby!",
+  "nameZh": "智慧下注:賭城版",
+  "accent": "#C9A227",
   "rank": 2460,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/cKSBLQPsKojVoe5NLgISNg__micro/img/QZ8mzHYsQWd1nc0YYJNrQ6b-xMQ=/fit-in/64x64/filters:strip_icc()/pic5055423.png",
@@ -33515,9 +33517,7 @@
   "minPlayers": 5,
   "maxPlayers": 99,
   "playTime": 40,
-  "hasScoring": true,
-  "nameZh": "智慧下注:賭城版",
-  "accent": "#C9A227"
+  "hasScoring": true
  },
  {
   "bggId": 155255,
@@ -33705,6 +33705,8 @@
   "bggId": 311322,
   "gameId": "bgg-311322",
   "name": "Herd Mentality",
+  "nameZh": "從眾心理",
+  "accent": "#6B9B5A",
   "rank": 2475,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/85hYrpSl9Aoh2TgMf4CiDA__micro/img/KzaRVU6-4580kQOHH6opNcMAAaI=/fit-in/64x64/filters:strip_icc()/pic5509026.png",
@@ -33712,14 +33714,14 @@
   "minPlayers": 4,
   "maxPlayers": 20,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "從眾心理",
-  "accent": "#6B9B5A"
+  "hasScoring": true
  },
  {
   "bggId": 1111,
   "gameId": "bgg-1111",
   "name": "Taboo",
+  "nameZh": "妙語說書人(Taboo)",
+  "accent": "#C9553C",
   "rank": 2476,
   "year": 1989,
   "thumbnail": "https://cf.geekdo-images.com/TdOB9V-wTf0LenXk8QWo-A__micro/img/ndKNlHA8yypm_jBnGTUmq_gJOtk=/fit-in/64x64/filters:strip_icc()/pic8377520.jpg",
@@ -33727,9 +33729,7 @@
   "minPlayers": 4,
   "maxPlayers": 10,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "妙語說書人(Taboo)",
-  "accent": "#C9553C"
+  "hasScoring": true
  },
  {
   "bggId": 437245,
@@ -33761,6 +33761,8 @@
   "bggId": 157026,
   "gameId": "bgg-157026",
   "name": "Ascension: Realms Unraveled",
+  "nameZh": "登峰:領域解封",
+  "accent": "#5A4A7A",
   "rank": 2479,
   "year": 2014,
   "thumbnail": "https://cf.geekdo-images.com/R6bPVkFxqQEJ3m8tkTWMzQ__micro/img/aqps2SgBaDoJIeXx5UaXRKWPo3U=/fit-in/64x64/filters:strip_icc()/pic2054959.png",
@@ -33768,9 +33770,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "登峰:領域解封",
-  "accent": "#5A4A7A"
+  "hasScoring": true
  },
  {
   "bggId": 311900,
@@ -33958,6 +33958,8 @@
   "bggId": 6819,
   "gameId": "bgg-6819",
   "name": "Skat",
+  "nameZh": "斯卡特",
+  "accent": "#3A3A5A",
   "rank": 2494,
   "year": 1810,
   "thumbnail": "https://cf.geekdo-images.com/2n21-A8TXn5QtW66nUmDEg__micro/img/EfZmb-ygFrnsaWoLNp_bY3pIJtg=/fit-in/64x64/filters:strip_icc()/pic1837483.jpg",
@@ -33965,9 +33967,7 @@
   "minPlayers": 3,
   "maxPlayers": 3,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "斯卡特",
-  "accent": "#3A3A5A"
+  "hasScoring": true
  },
  {
   "bggId": 300192,
@@ -34051,6 +34051,8 @@
   "bggId": 12692,
   "gameId": "bgg-12692",
   "name": "Gloom",
+  "nameZh": "陰鬱家族",
+  "accent": "#5A4A7A",
   "rank": 2501,
   "year": 2005,
   "thumbnail": "https://cf.geekdo-images.com/jD7_Ir8gL_9AXC-wjnqjHg__micro/img/nZ-rpfOOh1Gkd_JLKAR5UV6fIEY=/fit-in/64x64/filters:strip_icc()/pic2080481.jpg",
@@ -34058,9 +34060,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": true,
-  "nameZh": "陰鬱家族",
-  "accent": "#5A4A7A"
+  "hasScoring": true
  },
  {
   "bggId": 32412,
@@ -34092,6 +34092,8 @@
   "bggId": 73,
   "gameId": "bgg-73",
   "name": "Show Manager",
+  "nameZh": "劇院經理",
+  "accent": "#C4543C",
   "rank": 2504,
   "year": 1996,
   "thumbnail": "https://cf.geekdo-images.com/WHjeQ11i9CxHvne1FryFZw__micro/img/GDEu1cl3WxKvCblIXGxhJvdK9q8=/fit-in/64x64/filters:strip_icc()/pic3717385.png",
@@ -34099,9 +34101,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": true,
-  "nameZh": "劇院經理",
-  "accent": "#C4543C"
+  "hasScoring": true
  },
  {
   "bggId": 144239,
@@ -34224,6 +34224,8 @@
   "bggId": 153318,
   "gameId": "bgg-153318",
   "name": "Dimension",
+  "nameZh": "維度",
+  "accent": "#5A8CA8",
   "rank": 2514,
   "year": 2014,
   "thumbnail": "https://cf.geekdo-images.com/Vj0m4_QxSOH4MgQe-b0EYg__micro/img/w-59TlqpTFpqQUH52q1_fL_YDYA=/fit-in/64x64/filters:strip_icc()/pic2606156.jpg",
@@ -34231,9 +34233,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "維度",
-  "accent": "#5A8CA8"
+  "hasScoring": true
  },
  {
   "bggId": 156496,
@@ -34356,6 +34356,8 @@
   "bggId": 142961,
   "gameId": "bgg-142961",
   "name": "Thunderstone Advance: Numenera",
+  "nameZh": "雷霆石進階:努美拉",
+  "accent": "#5A4A7A",
   "rank": 2524,
   "year": 2013,
   "thumbnail": "https://cf.geekdo-images.com/LpsKXV2FJlbKwB29ZcYmYA__micro/img/S35VOMpYtrLwo03dVtoNuBzBFPI=/fit-in/64x64/filters:strip_icc()/pic1683747.jpg",
@@ -34363,9 +34365,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": true,
-  "nameZh": "雷霆石進階:努美拉",
-  "accent": "#5A4A7A"
+  "hasScoring": true
  },
  {
   "bggId": 169318,
@@ -34384,6 +34384,8 @@
   "bggId": 128,
   "gameId": "bgg-128",
   "name": "Take it Easy!",
+  "nameZh": "輕鬆一點",
+  "accent": "#C9A227",
   "rank": 2526,
   "year": 1983,
   "thumbnail": "https://cf.geekdo-images.com/4uhHaI4jH-S9SqQ3s9dIrw__micro/img/RxOuRc1MVEiRAmJIrk3LOlXQNhA=/fit-in/64x64/filters:strip_icc()/pic3108440.jpg",
@@ -34391,9 +34393,7 @@
   "minPlayers": 1,
   "maxPlayers": 8,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "輕鬆一點",
-  "accent": "#C9A227"
+  "hasScoring": true
  },
  {
   "bggId": 298635,
@@ -34425,6 +34425,8 @@
   "bggId": 40393,
   "gameId": "bgg-40393",
   "name": "FITS",
+  "nameZh": "FITS",
+  "accent": "#7A4A8C",
   "rank": 2529,
   "year": 2009,
   "thumbnail": "https://cf.geekdo-images.com/MS3fx6x4NfGMrDmGsSo3Hg__micro/img/EddY-F_o9USwJhi6ES5Kh7bB9Sw=/fit-in/64x64/filters:strip_icc()/pic422822.jpg",
@@ -34432,9 +34434,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "FITS",
-  "accent": "#7A4A8C"
+  "hasScoring": true
  },
  {
   "bggId": 191925,
@@ -34596,6 +34596,8 @@
   "bggId": 255615,
   "gameId": "bgg-255615",
   "name": "GoodCritters",
+  "nameZh": "壞蛋分贓",
+  "accent": "#8C3F3F",
   "rank": 2542,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/3dcCBokxRf3Jy1GuZlZm1Q__micro/img/cz-pTX1kS2Rq56r2GPxLMQaJW-Y=/fit-in/64x64/filters:strip_icc()/pic4783029.jpg",
@@ -34603,9 +34605,7 @@
   "minPlayers": 4,
   "maxPlayers": 8,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "壞蛋分贓",
-  "accent": "#8C3F3F"
+  "hasScoring": true
  },
  {
   "bggId": 247585,
@@ -34676,6 +34676,8 @@
   "bggId": 261594,
   "gameId": "bgg-261594",
   "name": "Warhammer Underworlds: Nightvault",
+  "nameZh": "戰鎚地下世界:夜臨",
+  "accent": "#6B3A3A",
   "rank": 2548,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/viScuLBeqS4GcnSc545R1w__micro/img/d3-segfx2I5rXzVxB3isYCR10O4=/fit-in/64x64/filters:strip_icc()/pic4327788.jpg",
@@ -34683,9 +34685,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 60,
-  "hasScoring": true,
-  "nameZh": "戰鎚地下世界:夜臨",
-  "accent": "#6B3A3A"
+  "hasScoring": true
  },
  {
   "bggId": 222219,
@@ -34756,6 +34756,8 @@
   "bggId": 282435,
   "gameId": "bgg-282435",
   "name": "1882: Assiniboia",
+  "nameZh": "1882:阿西尼博亞",
+  "accent": "#4A6E4A",
   "rank": 2554,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/EoZQyUiTIiprEC-pvVRN2Q__micro/img/WFpAq_dLj3OJS8gCkLwf4EPcxn8=/fit-in/64x64/filters:strip_icc()/pic5322648.jpg",
@@ -34763,9 +34765,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 180,
-  "hasScoring": true,
-  "nameZh": "1882:阿西尼博亞",
-  "accent": "#4A6E4A"
+  "hasScoring": true
  },
  {
   "bggId": 130060,
@@ -35070,6 +35070,8 @@
   "bggId": 463441,
   "gameId": "bgg-463441",
   "name": "Flip 7: With A Vengeance",
+  "nameZh": "Flip 7:復仇版",
+  "accent": "#C9553C",
   "rank": 2578,
   "year": 2026,
   "thumbnail": "https://cf.geekdo-images.com/ZW3pPCcG069GkXkk7HSHlg__micro/img/izcqdQP-08sfKjXf8ubNjOWeoFw=/fit-in/64x64/filters:strip_icc()/pic9385115.jpg",
@@ -35077,14 +35079,14 @@
   "minPlayers": 3,
   "maxPlayers": 28,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "Flip 7:復仇版",
-  "accent": "#C9553C"
+  "hasScoring": true
  },
  {
   "bggId": 559,
   "gameId": "bgg-559",
   "name": "Metro",
+  "nameZh": "地鐵",
+  "accent": "#5A6E8C",
   "rank": 2579,
   "year": 1997,
   "thumbnail": "https://cf.geekdo-images.com/kQDUq7v6SaBSXLRSTd4eww__micro/img/0Z4zOk0FNgW-VhO9gicyg4RjpI4=/fit-in/64x64/filters:strip_icc()/pic3389098.jpg",
@@ -35092,9 +35094,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "地鐵",
-  "accent": "#5A6E8C"
+  "hasScoring": true
  },
  {
   "bggId": 125752,
@@ -35295,6 +35295,8 @@
   "bggId": 362541,
   "gameId": "bgg-362541",
   "name": "Ticket to Ride: San Francisco",
+  "nameZh": "鐵道任務:三藩市",
+  "accent": "#B5343C",
   "rank": 2595,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/pIwUHxze-vcbThTE9JrRgg__micro/img/B5FlXDSBNNk7KGzWp9wuAcKyrkM=/fit-in/64x64/filters:strip_icc()/pic6850090.png",
@@ -35302,9 +35304,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": true,
-  "nameZh": "鐵道任務:三藩市",
-  "accent": "#B5343C"
+  "hasScoring": true
  },
  {
   "bggId": 406498,
@@ -35362,6 +35362,8 @@
   "bggId": 65282,
   "gameId": "bgg-65282",
   "name": "Tanto Cuore",
+  "nameZh": "老媽的女僕",
+  "accent": "#C97A9B",
   "rank": 2600,
   "year": 2009,
   "thumbnail": "https://cf.geekdo-images.com/k6I3xK6AEB-crMT7xU7hrQ__micro/img/Dpry-Dh8os58-bwiPypybJp8hQo=/fit-in/64x64/filters:strip_icc()/pic1751753.jpg",
@@ -35369,9 +35371,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": true,
-  "nameZh": "老媽的女僕",
-  "accent": "#C97A9B"
+  "hasScoring": true
  },
  {
   "bggId": 3720,
@@ -35559,6 +35559,8 @@
   "bggId": 155463,
   "gameId": "bgg-155463",
   "name": "DC Deck-Building Game: Forever Evil",
+  "nameZh": "DC 英雄:永恆邪惡",
+  "accent": "#2A4A8C",
   "rank": 2615,
   "year": 2014,
   "thumbnail": "https://cf.geekdo-images.com/yca2_XogEIUoY7v1YQL6EA__micro/img/1anTJnWe2qs1bjo6HE7UW8FUXGE=/fit-in/64x64/filters:strip_icc()/pic2454379.jpg",
@@ -35566,9 +35568,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 75,
-  "hasScoring": true,
-  "nameZh": "DC 英雄:永恆邪惡",
-  "accent": "#2A4A8C"
+  "hasScoring": true
  },
  {
   "bggId": 168998,
@@ -35990,6 +35990,8 @@
   "bggId": 382,
   "gameId": "bgg-382",
   "name": "Heimlich & Co.",
+  "nameZh": "海姆立奇公司",
+  "accent": "#7A5A8C",
   "rank": 2648,
   "year": 1984,
   "thumbnail": "https://cf.geekdo-images.com/dTrLw84p0NUyaMnYkqmxew__micro/img/2e9NkUVaS2RoTGMi2EZY7o2MSoM=/fit-in/64x64/filters:strip_icc()/pic3989541.png",
@@ -35997,9 +35999,7 @@
   "minPlayers": 2,
   "maxPlayers": 7,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "海姆立奇公司",
-  "accent": "#7A5A8C"
+  "hasScoring": true
  },
  {
   "bggId": 36811,
@@ -36083,6 +36083,8 @@
   "bggId": 17053,
   "gameId": "bgg-17053",
   "name": "Sleeping Queens",
+  "nameZh": "瞌睡皇后",
+  "accent": "#C97A9B",
   "rank": 2655,
   "year": 2005,
   "thumbnail": "https://cf.geekdo-images.com/hkJWvm7VJD4yqrbjCHmLFA__micro/img/lkHLlD7bQffGWrGlz2iU7Juk9Do=/fit-in/64x64/filters:strip_icc()/pic2401336.jpg",
@@ -36090,9 +36092,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 20,
-  "hasScoring": true,
-  "nameZh": "瞌睡皇后",
-  "accent": "#C97A9B"
+  "hasScoring": true
  },
  {
   "bggId": 196354,
@@ -36163,6 +36163,8 @@
   "bggId": 309113,
   "gameId": "bgg-309113",
   "name": "Ticket to Ride: Amsterdam",
+  "nameZh": "鐵道任務:阿姆斯特丹",
+  "accent": "#B5343C",
   "rank": 2661,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/ySS22WYTUX0SikxAsMnx4w__micro/img/mm2aM0As39rozN_yTE4e3nrFP6Y=/fit-in/64x64/filters:strip_icc()/pic5399450.png",
@@ -36170,9 +36172,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 15,
-  "hasScoring": true,
-  "nameZh": "鐵道任務:阿姆斯特丹",
-  "accent": "#B5343C"
+  "hasScoring": true
  },
  {
   "bggId": 91620,
@@ -36321,6 +36321,8 @@
   "bggId": 17025,
   "gameId": "bgg-17025",
   "name": "Poison",
+  "nameZh": "毒藥",
+  "accent": "#7A4A8C",
   "rank": 2673,
   "year": 2005,
   "thumbnail": "https://cf.geekdo-images.com/tTaHGpCEQLnl3B4s078Dwg__micro/img/6Sl3KRQfZYg0rp1cAZ4d69a3ASU=/fit-in/64x64/filters:strip_icc()/pic8968937.jpg",
@@ -36328,9 +36330,7 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": true,
-  "nameZh": "毒藥",
-  "accent": "#7A4A8C"
+  "hasScoring": true
  },
  {
   "bggId": 354132,
@@ -36622,6 +36622,8 @@
   "bggId": 193867,
   "gameId": "bgg-193867",
   "name": "1822: The Railways of Great Britain",
+  "nameZh": "1822:大不列顛鐵道",
+  "accent": "#4A6E4A",
   "rank": 2696,
   "year": 2016,
   "thumbnail": "https://cf.geekdo-images.com/NzCMkl4koXY5SiacFHE4Fg__micro/img/Cl-NhNw7F5_k_edElAnHyLwddB4=/fit-in/64x64/filters:strip_icc()/pic5449534.png",
@@ -36629,9 +36631,7 @@
   "minPlayers": 3,
   "maxPlayers": 7,
   "playTime": 420,
-  "hasScoring": true,
-  "nameZh": "1822:大不列顛鐵道",
-  "accent": "#4A6E4A"
+  "hasScoring": true
  },
  {
   "bggId": 86246,
@@ -36897,6 +36897,8 @@
   "bggId": 424,
   "gameId": "bgg-424",
   "name": "1870: Railroading Across the Trans Mississippi from 1870",
+  "nameZh": "1870:橫越密西西比鐵道",
+  "accent": "#4A6E4A",
   "rank": 2717,
   "year": 1992,
   "thumbnail": "https://cf.geekdo-images.com/vsbzlxw-DEe4wEBcT3z_ng__micro/img/zgk833Mv2N731vfhgS1yPGxP4Fs=/fit-in/64x64/filters:strip_icc()/pic159312.jpg",
@@ -36904,7 +36906,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 360,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 331571,
@@ -36988,6 +36990,8 @@
   "bggId": 9364,
   "gameId": "bgg-9364",
   "name": "Doppelkopf",
+  "nameZh": "雙頭牌",
+  "accent": "#3A3A5A",
   "rank": 2724,
   "year": 1895,
   "thumbnail": "https://cf.geekdo-images.com/VYuFYs6PFqns1oMPvGnyQQ__micro/img/BsseNvLPvv2M3Uxft2Oqj3yUuf0=/fit-in/64x64/filters:strip_icc()/pic9214086.jpg",
@@ -36995,7 +36999,7 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 377793,
@@ -37144,6 +37148,8 @@
   "bggId": 2569,
   "gameId": "bgg-2569",
   "name": "Pick Picknic",
+  "nameZh": "野餐搶食",
+  "accent": "#6B9B5A",
   "rank": 2736,
   "year": 2001,
   "thumbnail": "https://cf.geekdo-images.com/-zs7cdjOoIvDQRqw7l9dNQ__micro/img/j2LOLI3AZTad7TGMujjBQUtRN-U=/fit-in/64x64/filters:strip_icc()/pic26444.jpg",
@@ -37151,7 +37157,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 398162,
@@ -37183,6 +37189,8 @@
   "bggId": 40237,
   "gameId": "bgg-40237",
   "name": "Long Shot",
+  "nameZh": "長勝賽馬",
+  "accent": "#4A7A4A",
   "rank": 2739,
   "year": 2009,
   "thumbnail": "https://cf.geekdo-images.com/xNQIfDmFKjy6QVuYo7xDwA__micro/img/lm3wxUEpfBwec_P0gujhoeah2ME=/fit-in/64x64/filters:strip_icc()/pic420679.jpg",
@@ -37190,7 +37198,7 @@
   "minPlayers": 3,
   "maxPlayers": 8,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 191963,
@@ -37313,6 +37321,8 @@
   "bggId": 37371,
   "gameId": "bgg-37371",
   "name": "Piece o' Cake",
+  "nameZh": "分蛋糕",
+  "accent": "#C97A9B",
   "rank": 2749,
   "year": 2008,
   "thumbnail": "https://cf.geekdo-images.com/V0sx6y7s9v73PkQ-qToUkg__micro/img/gI_HcuzDWqXGfpmnmdZREQD7Hqc=/fit-in/64x64/filters:strip_icc()/pic629711.jpg",
@@ -37320,7 +37330,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 6779,
@@ -37391,6 +37401,8 @@
   "bggId": 2381,
   "gameId": "bgg-2381",
   "name": "Scattergories",
+  "nameZh": "聯想接龍",
+  "accent": "#C9553C",
   "rank": 2755,
   "year": 1988,
   "thumbnail": "https://cf.geekdo-images.com/eIL4hvMb7ZPgizc7BZOh-g__micro/img/PzJG2vojGQzSiP1t8y4-niN5cDA=/fit-in/64x64/filters:strip_icc()/pic4994410.jpg",
@@ -37398,7 +37410,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 411255,
@@ -37443,6 +37455,8 @@
   "bggId": 119637,
   "gameId": "bgg-119637",
   "name": "Zug um Zug: Deutschland",
+  "nameZh": "鐵道任務:德國(德版)",
+  "accent": "#B5343C",
   "rank": 2759,
   "year": 2012,
   "thumbnail": "https://cf.geekdo-images.com/hLD-_4_cx5GwpO41XY5c7Q__micro/img/M6e11_TZsPbOlbdG1O2i7rPwNXE=/fit-in/64x64/filters:strip_icc()/pic1420706.jpg",
@@ -37450,7 +37464,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 2961,
@@ -37677,6 +37691,8 @@
   "bggId": 770,
   "gameId": "bgg-770",
   "name": "Loot",
+  "nameZh": "海盜搶劫",
+  "accent": "#3E6E8E",
   "rank": 2777,
   "year": 1992,
   "thumbnail": "https://cf.geekdo-images.com/dlbZb-s9Taj5XqtFoOr3cg__micro/img/6WXBsW8-V5tALWPJq5-PysoMoNk=/fit-in/64x64/filters:strip_icc()/pic8548587.jpg",
@@ -37684,7 +37700,7 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 130,
@@ -37963,6 +37979,8 @@
   "bggId": 1116,
   "gameId": "bgg-1116",
   "name": "Oh Hell!",
+  "nameZh": "叫牌吃磴",
+  "accent": "#5A6E8C",
   "rank": 2799,
   "year": 1930,
   "thumbnail": "https://cf.geekdo-images.com/Q3j5xIGSTZzw_Nd7lEDPzw__micro/img/eRMx9DX7fOgWQ6uYJgw9X13OFfU=/fit-in/64x64/filters:strip_icc()/pic616572.jpg",
@@ -37970,7 +37988,7 @@
   "minPlayers": 3,
   "maxPlayers": 7,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 150293,
@@ -38106,6 +38124,8 @@
   "bggId": 17240,
   "gameId": "bgg-17240",
   "name": "That's Life!",
+  "nameZh": "人生無常",
+  "accent": "#8C6239",
   "rank": 2810,
   "year": 2005,
   "thumbnail": "https://cf.geekdo-images.com/fnH6cwR6hPjjQ6SbrRl0ig__micro/img/GwE-Y8ElqBKNPkA3SM5vc0vFLBE=/fit-in/64x64/filters:strip_icc()/pic108094.jpg",
@@ -38113,7 +38133,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 354568,
@@ -38522,6 +38542,8 @@
   "bggId": 151247,
   "gameId": "bgg-151247",
   "name": "Greed",
+  "nameZh": "貪婪",
+  "accent": "#8C3F3F",
   "rank": 2842,
   "year": 2014,
   "thumbnail": "https://cf.geekdo-images.com/1LWj6rrebu8GAlQpauBISA__micro/img/S4vzWGNKmJFwx_Nzw-j-q6062aI=/fit-in/64x64/filters:strip_icc()/pic1949247.jpg",
@@ -38529,7 +38551,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 162388,
@@ -38613,6 +38635,8 @@
   "bggId": 40381,
   "gameId": "bgg-40381",
   "name": "Modern Art Card Game",
+  "nameZh": "現代藝術:卡牌版",
+  "accent": "#7A4A8C",
   "rank": 2849,
   "year": 2008,
   "thumbnail": "https://cf.geekdo-images.com/IaDnOasIk_DG1AqGWOGrnw__micro/img/3PhccQbn-DtrkRQrjkfNE_vqzX0=/fit-in/64x64/filters:strip_icc()/pic5476259.jpg",
@@ -38620,7 +38644,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 313065,
@@ -38639,6 +38663,8 @@
   "bggId": 1125,
   "gameId": "bgg-1125",
   "name": "Big Shot",
+  "nameZh": "大買家",
+  "accent": "#C9A227",
   "rank": 2851,
   "year": 2001,
   "thumbnail": "https://cf.geekdo-images.com/1hgmcVxQpqQbjGgANRFEbg__micro/img/3PCWAiH_xcJT3-9Uaye7wX2OtJ8=/fit-in/64x64/filters:strip_icc()/pic8898750.jpg",
@@ -38646,7 +38672,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 273814,
@@ -38730,6 +38756,8 @@
   "bggId": 358690,
   "gameId": "bgg-358690",
   "name": "Mantis",
+  "nameZh": "螳螂",
+  "accent": "#6B9B5A",
   "rank": 2858,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/lEkzT07ZX_iDNBusFDS_jA__micro/img/3sMK5HSQW2JYc2QOOD50mmLgSyE=/fit-in/64x64/filters:strip_icc()/pic6811649.png",
@@ -38737,7 +38765,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 10,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 40769,
@@ -38860,6 +38888,8 @@
   "bggId": 153,
   "gameId": "bgg-153",
   "name": "Take 5!",
+  "nameZh": "牛頭王",
+  "accent": "#8C3F3F",
   "rank": 2868,
   "year": 1998,
   "thumbnail": "https://cf.geekdo-images.com/zlQWc50FPDG44QagA2mfhw__micro/img/pluXrhj__yXP5Ko4ImETnsNYCMU=/fit-in/64x64/filters:strip_icc()/pic586627.jpg",
@@ -38867,7 +38897,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 164698,
@@ -39055,6 +39085,8 @@
   "bggId": 56933,
   "gameId": "bgg-56933",
   "name": "Penguin Party",
+  "nameZh": "企鵝派對",
+  "accent": "#5A9BC4",
   "rank": 2883,
   "year": 2008,
   "thumbnail": "https://cf.geekdo-images.com/9vU5xTgzZzv0eClFA7Aqjw__micro/img/7MckgJS8YRpma9G8o3apALXskiw=/fit-in/64x64/filters:strip_icc()/pic7976026.png",
@@ -39062,7 +39094,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 209324,
@@ -39094,6 +39126,8 @@
   "bggId": 218129,
   "gameId": "bgg-218129",
   "name": "Catch the Moon",
+  "nameZh": "攀月梯",
+  "accent": "#5A6E8C",
   "rank": 2886,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/aP1eb0AC--mJ2tGrzdbf6w__micro/img/8tviJ2H3ksRn_BCVWtggWdTmB2Q=/fit-in/64x64/filters:strip_icc()/pic6630227.jpg",
@@ -39101,7 +39135,7 @@
   "minPlayers": 1,
   "maxPlayers": 6,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 415054,
@@ -39250,6 +39284,8 @@
   "bggId": 195372,
   "gameId": "bgg-195372",
   "name": "Krazy Wordz: Nicht 100% jugendfrei",
+  "nameZh": "怪字大亂鬥",
+  "accent": "#C9553C",
   "rank": 2898,
   "year": 2016,
   "thumbnail": "https://cf.geekdo-images.com/NdWyWo_GN139_LpPdEukew__micro/img/NJk425pBfcDpf1Re6AWGz7KeL84=/fit-in/64x64/filters:strip_icc()/pic2982657.jpg",
@@ -39257,7 +39293,7 @@
   "minPlayers": 3,
   "maxPlayers": 7,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 371183,
@@ -39393,6 +39429,8 @@
   "bggId": 267475,
   "gameId": "bgg-267475",
   "name": "Stay Cool",
+  "nameZh": "冷靜點",
+  "accent": "#5A8CA8",
   "rank": 2909,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/nNHGboSx2J0DLALg4W5k4A__micro/img/UljbEXbwG3q_ytnDLRNdE_PAKIk=/fit-in/64x64/filters:strip_icc()/pic5182093.jpg",
@@ -39400,7 +39438,7 @@
   "minPlayers": 3,
   "maxPlayers": 7,
   "playTime": 25,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 58110,
@@ -39601,6 +39639,8 @@
   "bggId": 144864,
   "gameId": "bgg-144864",
   "name": "Ascension: Darkness Unleashed",
+  "nameZh": "登峰:黑暗解放",
+  "accent": "#5A4A7A",
   "rank": 2925,
   "year": 2013,
   "thumbnail": "https://cf.geekdo-images.com/K-ohG57DnjkH48n1cPQIkA__micro/img/uqiY6Ga91Ttg3DnM8_p25vVRWjo=/fit-in/64x64/filters:strip_icc()/pic2056871.jpg",
@@ -39608,7 +39648,7 @@
   "minPlayers": 1,
   "maxPlayers": 2,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 173105,
@@ -39705,6 +39745,8 @@
   "bggId": 12166,
   "gameId": "bgg-12166",
   "name": "Funkenschlag",
+  "nameZh": "電力公司(原版)",
+  "accent": "#5A7A8C",
   "rank": 2933,
   "year": 2001,
   "thumbnail": "https://cf.geekdo-images.com/0xIYkCweerI9xdubVktBLQ__micro/img/cP1Qk4qcR4boRp1Z9NvVHhzXPsc=/fit-in/64x64/filters:strip_icc()/pic186713.jpg",
@@ -39712,7 +39754,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 283152,
@@ -39796,6 +39838,8 @@
   "bggId": 10550,
   "gameId": "bgg-10550",
   "name": "Big Boggle",
+  "nameZh": "大拼字骰",
+  "accent": "#C9A227",
   "rank": 2940,
   "year": 1979,
   "thumbnail": "https://cf.geekdo-images.com/icSRqJUKPqpQt2Davax2pw__micro/img/l4YgzR0mUFdLqbvGRdV0VExd4uY=/fit-in/64x64/filters:strip_icc()/pic914821.jpg",
@@ -39803,7 +39847,7 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 10,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 378983,
@@ -40069,6 +40113,8 @@
   "bggId": 152765,
   "gameId": "bgg-152765",
   "name": "Thunderstone Advance: Worlds Collide",
+  "nameZh": "雷霆石進階:世界碰撞",
+  "accent": "#5A4A7A",
   "rank": 2961,
   "year": 2014,
   "thumbnail": "https://cf.geekdo-images.com/OViI7l8j2auXioPpU5wfKw__micro/img/SzVZm4pRDbnPThMyPUc5d04y3qY=/fit-in/64x64/filters:strip_icc()/pic1888624.jpg",
@@ -40076,7 +40122,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 156138,
@@ -40212,6 +40258,8 @@
   "bggId": 313,
   "gameId": "bgg-313",
   "name": "Big Boss",
+  "nameZh": "大老闆",
+  "accent": "#8C6239",
   "rank": 2972,
   "year": 1994,
   "thumbnail": "https://cf.geekdo-images.com/88O6qyRRVOvWL9f7dh2_Pw__micro/img/dG5qC9HtG7h08XfZ6DVZ4VeQDYc=/fit-in/64x64/filters:strip_icc()/pic7468155.png",
@@ -40219,7 +40267,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 247104,
@@ -40251,6 +40299,8 @@
   "bggId": 3085,
   "gameId": "bgg-3085",
   "name": "Gang of Four",
+  "nameZh": "四人幫",
+  "accent": "#8C3F3F",
   "rank": 2975,
   "year": 1990,
   "thumbnail": "https://cf.geekdo-images.com/-naB4DfmUy8ER4kNRKmQPw__micro/img/Bome-UjN7DRuigbZgVmNbdM4Qv4=/fit-in/64x64/filters:strip_icc()/pic149652.jpg",
@@ -40258,7 +40308,7 @@
   "minPlayers": 3,
   "maxPlayers": 4,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 204286,
@@ -40394,6 +40444,8 @@
   "bggId": 216199,
   "gameId": "bgg-216199",
   "name": "Smash Up: Big in Japan",
+  "nameZh": "亂鬥聯盟:日本狂潮",
+  "accent": "#7A4A8C",
   "rank": 2986,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/kyXDwTzDIWjtJZun_JCULA__micro/img/7GjQrN1I5qZ0zx5ynb7lfGl0iHE=/fit-in/64x64/filters:strip_icc()/pic3406958.jpg",
@@ -40401,7 +40453,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 209003,
@@ -40485,6 +40537,8 @@
   "bggId": 118705,
   "gameId": "bgg-118705",
   "name": "Ghost Blitz 2",
+  "nameZh": "德國心臟病 2",
+  "accent": "#C4543C",
   "rank": 2993,
   "year": 2012,
   "thumbnail": "https://cf.geekdo-images.com/gZINyKRulzqWyOEEUuR01A__micro/img/GuT9W02nOFMpOeeYtipV9xqNoJM=/fit-in/64x64/filters:strip_icc()/pic1855044.jpg",
@@ -40492,12 +40546,14 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 10997,
   "gameId": "bgg-10997",
   "name": "Boomtown",
+  "nameZh": "淘金鎮",
+  "accent": "#B08D57",
   "rank": 2994,
   "year": 2004,
   "thumbnail": "https://cf.geekdo-images.com/vhSwPyIL6n4kkmkaxfS6Zg__micro/img/IvSn3MIeFchrmi-zcMlRAZPFbtU=/fit-in/64x64/filters:strip_icc()/pic49310.jpg",
@@ -40505,7 +40561,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 31483,
@@ -40524,6 +40580,8 @@
   "bggId": 1293,
   "gameId": "bgg-1293",
   "name": "Boggle",
+  "nameZh": "拼字骰",
+  "accent": "#C9A227",
   "rank": 2996,
   "year": 1972,
   "thumbnail": "https://cf.geekdo-images.com/dsI6-jUj8mzOuC6gL4e42w__micro/img/1ckbXTPcpKu8O6Q1-eSITvBbt-Q=/fit-in/64x64/filters:strip_icc()/pic7024967.jpg",
@@ -40531,7 +40589,7 @@
   "minPlayers": 1,
   "maxPlayers": 8,
   "playTime": 10,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 37120,

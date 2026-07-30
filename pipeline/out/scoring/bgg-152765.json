@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-152765",
+ "name": "Thunderstone Advance: Worlds Collide",
+ "nameZh": "雷霆石進階:世界碰撞",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "deck_vp",
+    "label": "牌庫卡牌勝利點數",
+    "note": "遊戲結束時你擁有嘅所有卡上嘅 VP 總和",
+    "icon": "💠",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
