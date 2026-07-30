@@ -15460,6 +15460,8 @@
   "bggId": 12902,
   "gameId": "bgg-12902",
   "name": "Carcassonne: The City",
+  "nameZh": "卡卡頌:城市",
+  "accent": "#8C6239",
   "rank": 1092,
   "year": 2004,
   "thumbnail": "https://cf.geekdo-images.com/tLrK0_NslFKQL6OvpEqi-w__micro/img/LHKTDuQiuYsE_Mx7bgBgv3YTUpo=/fit-in/64x64/filters:strip_icc()/pic839808.jpg",
@@ -15467,7 +15469,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 326945,
@@ -15596,6 +15598,8 @@
   "bggId": 252526,
   "gameId": "bgg-252526",
   "name": "Pictomania (Second Edition)",
+  "nameZh": "妙筆神猜(第二版)",
+  "accent": "#C9553C",
   "rank": 1102,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/AXnDLnuXrmbQRoFpCMvTJA__micro/img/qylIC6DxpjToKoLcyfxWwVmnDLY=/fit-in/64x64/filters:strip_icc()/pic4122381.jpg",
@@ -15603,7 +15607,7 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 79127,
@@ -15700,6 +15704,8 @@
   "bggId": 98229,
   "gameId": "bgg-98229",
   "name": "Pictomania",
+  "nameZh": "妙筆神猜",
+  "accent": "#C9553C",
   "rank": 1110,
   "year": 2011,
   "thumbnail": "https://cf.geekdo-images.com/0m0X8qZxfARpz0lmzjxSEw__micro/img/sbuEQmoYShfyUJHiEnUcu_n6q3o=/fit-in/64x64/filters:strip_icc()/pic2360788.png",
@@ -15707,7 +15713,7 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 25,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 303553,
@@ -15944,6 +15950,8 @@
   "bggId": 386405,
   "gameId": "bgg-386405",
   "name": "Come Sail Away!",
+  "nameZh": "揚帆出海!",
+  "accent": "#3E6E8E",
   "rank": 1128,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/T8ZyGekIgq12Isq7BzgT-Q__micro/img/m9x5IAAVxxREMWAj-1KIp7RcMRk=/fit-in/64x64/filters:strip_icc()/pic7655631.jpg",
@@ -15951,7 +15959,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 25,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 313010,
@@ -15983,6 +15991,8 @@
   "bggId": 284108,
   "gameId": "bgg-284108",
   "name": "Pictures",
+  "nameZh": "拍立得",
+  "accent": "#C9A227",
   "rank": 1131,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/pR7dcr6bs5TIOHOhKIoe_A__micro/img/34I5odoblHYMTBzajbTICrI6RRw=/fit-in/64x64/filters:strip_icc()/pic4946885.jpg",
@@ -15990,7 +16000,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 27588,
@@ -16188,6 +16198,8 @@
   "bggId": 147151,
   "gameId": "bgg-147151",
   "name": "Concept",
+  "nameZh": "概念",
+  "accent": "#5A8CA8",
   "rank": 1146,
   "year": 2013,
   "thumbnail": "https://cf.geekdo-images.com/hHFs0_KRoW_FJ0cMIVgZcw__micro/img/3LlKd32m_a_24y140cCMYergqfs=/fit-in/64x64/filters:strip_icc()/pic4991925.jpg",
@@ -16195,7 +16207,7 @@
   "minPlayers": 4,
   "maxPlayers": 12,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 335212,
@@ -16930,6 +16942,8 @@
   "bggId": 360692,
   "gameId": "bgg-360692",
   "name": "Septima",
+  "nameZh": "賽普提瑪",
+  "accent": "#5A4A7A",
   "rank": 1202,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/TEx3V_COEF6Vik8y3Ax3hA__micro/img/h9U3dXqSM1DVD2WHLHd2PPlVAB4=/fit-in/64x64/filters:strip_icc()/pic6810993.jpg",
@@ -16937,7 +16951,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 100,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 206915,
@@ -16999,6 +17013,8 @@
   "bggId": 362986,
   "gameId": "bgg-362986",
   "name": "Tribes of the Wind",
+  "nameZh": "風之部族",
+  "accent": "#4A8C6A",
   "rank": 1207,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/G_moxnKfgJ4w_NGmr9T6Lg__micro/img/N43Ven84RjFwOmoODqzCp-hh3M8=/fit-in/64x64/filters:strip_icc()/pic6871609.jpg",
@@ -17006,7 +17022,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 242722,
@@ -17038,6 +17054,8 @@
   "bggId": 437306,
   "gameId": "bgg-437306",
   "name": "Parks (Second Edition)",
+  "nameZh": "國家公園(第二版)",
+  "accent": "#4A7A4A",
   "rank": 1210,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/hHnw1JGLaEkJXaOv8bm6YQ__micro/img/_iFYgK8TRdVFqTK62pgrOVPNbek=/fit-in/64x64/filters:strip_icc()/pic8660069.jpg",
@@ -17045,7 +17063,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 177524,
@@ -17159,6 +17177,8 @@
   "bggId": 419195,
   "gameId": "bgg-419195",
   "name": "Fishing",
+  "nameZh": "釣魚",
+  "accent": "#3E8E8A",
   "rank": 1219,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/LjqYcVKq6YrQ0rJ4H4Lusg__micro/img/lcTZJ3maDwdZq5NJpY1xFFib0-8=/fit-in/64x64/filters:strip_icc()/pic8149442.png",
@@ -17166,7 +17186,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 52461,

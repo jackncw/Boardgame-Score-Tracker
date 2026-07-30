@@ -1,0 +1,66 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-386405",
+ "name": "Come Sail Away!",
+ "nameZh": "揚帆出海!",
+ "theme": {
+  "accent": "#3E6E8E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/come-sail-away.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中翻面房間攞嘅 VP 較多者勝;再同分則不滿乘客較少者勝",
+  "fields": [
+   {
+    "id": "rooms",
+    "label": "已翻面房間磚",
+    "note": "船上每塊已翻面房間磚按磚上印住嘅 VP 計",
+    "icon": "🛏️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "passengers",
+    "label": "正面房間入面嘅乘客",
+    "note": "船內每個正面房間上嘅乘客各 1 VP;大樓梯嗰啲唔計",
+    "icon": "🧑‍🤝‍🧑",
+    "color": "#D8EFEC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "bonus_tokens",
+    "label": "獎勵計分標記",
+    "note": "每個 3 VP",
+    "icon": "🎖️",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "luggage",
+    "label": "行李軌",
+    "note": "行李標記到達或越過嘅最右格上印住嘅 VP",
+    "icon": "🧳",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "disgruntled",
+    "label": "不滿乘客",
+    "note": "不滿乘客磚上每個乘客 -1 VP",
+    "icon": "😠",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

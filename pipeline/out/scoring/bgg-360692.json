@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-360692",
+ "name": "Septima",
+ "nameZh": "賽普提瑪",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/septima.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中賺到嘅智慧",
+    "note": "遊戲期間攞到嘅智慧標記總和",
+    "icon": "🔮",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "divinations",
+    "label": "占卜之書目標",
+    "note": "可揀嘅目標數量以你女巫團嘅女巫數為上限;達成條件先計該項智慧",
+    "icon": "📖",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "patients",
+    "label": "病人軌",
+    "note": "每條病人軌按到達嘅最高等級計智慧;三條軌都到達嘅每個等級另加 6 智慧",
+    "icon": "🌿",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "charms",
+    "label": "剩餘幸運符",
+    "note": "每個 2 智慧",
+    "icon": "🍀",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "potions",
+    "label": "剩餘藥水",
+    "note": "每支 1 智慧",
+    "icon": "🧪",
+    "color": "#F7D8E0",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "ingredients",
+    "label": "剩餘材料與水晶",
+    "note": "每兩件計 1 智慧(材料同水晶可任意組合)",
+    "icon": "💎",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

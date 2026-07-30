@@ -459,10 +459,10 @@
 
 ## 進度
 
-- 已生成計分表(done):213
+- 已生成計分表(done):223
 - 揾唔到可靠來源(no-source):0
 - 判定唔使做(skip):880
-- 未做(pending):907
+- 未做(pending):897
 - 路徑 b(直接生成):190 · 路徑 c(網查 rulebook):930
 
 ## 逐隻紀錄
@@ -560,7 +560,7 @@
 | 1089 | Outfoxed! | - | skip | — | 合作制兒童推理遊戲,無玩家累加計分 |
 | 1090 | Tak | - | skip | — | 抽象對弈,以築成通路定勝負,無累加計分 |
 | 1091 | Last Night on Earth: The Zombie Game | - | skip | — | 一對多劇本制遊戲,以陣營目標定勝負,無累加計分 |
-| 1092 | Carcassonne: The City | c | pending | — | bghub 有鏡像但係 OCR 殘缺(字母同數字有缺失),唔可靠;要另揾清晰版 |
+| 1092 | Carcassonne: The City | c | done | [link](https://bghub.org/r/carcassonne-the-city.pdf) | OCR 掃描版,只寫得出項目類別(管家/守衛),單價冇寫 |
 | 1093 | Castles of Mad King Ludwig: Collector's Edition | b | done | — | 計分軌 + 獎勵卡 + 國王恩惠 |
 | 1094 | Grove: 9 card solitaire game | - | skip | — | 單人遊戲,無玩家累加計分 |
 | 1095 | Washington's War | - | skip | — | 雙人 CDG 戰棋,以陣營勝利條件定勝負,無累加計分 |
@@ -570,7 +570,7 @@
 | 1099 | Cockroach Poker | - | skip | — | 唬人卡牌遊戲,以儲齊四張同款即敗定勝負,無累加計分 |
 | 1100 | Coffee Traders | c | done | [link](https://bghub.org/r/coffee-traders.pdf) | 咖啡吧交貨+欄位 4/2、里程碑、合作社 16/8/4、阿拉比卡軌 |
 | 1101 | San Marco | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1102 | Pictomania (Second Edition) | c | pending | — | bghub 有 rulebook,未讀 |
+| 1102 | Pictomania (Second Edition) | c | done | [link](https://bghub.org/r/pictomania-second-edition.pdf) | 五回合累計 |
 | 1103 | Star Trek: Fleet Captains | - | skip | — | 劇本制對戰遊戲,以完成任務定勝負,無累加計分 |
 | 1104 | Formula Dé | - | skip | — | 競速遊戲,以最快到終點定勝負,無累加計分 |
 | 1105 | Jaws | - | skip | — | 一對多不對稱遊戲,以陣營目標定勝負,無累加計分 |
@@ -578,7 +578,7 @@
 | 1107 | Akrotiri | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1108 | Rock Hard: 1977 | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1109 | Yedo | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1110 | Pictomania | c | pending | — | bghub 有 rulebook(同二版共用),未讀 |
+| 1110 | Pictomania | c | done | [link](https://bghub.org/r/pictomania.pdf) | 五回合累計 |
 | 1111 | Skulls of Sedlec | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1112 | Cross Clues | - | skip | — | 合作制猜詞遊戲,無玩家累加計分 |
 | 1113 | DC Deck-Building Game | b | done | — | 牌庫所有卡上嘅 VP 總和 |
@@ -596,10 +596,10 @@
 | 1125 | Dungeons & Dragons: Castle Ravenloft Board Game | - | skip | — | 合作制戰役遊戲,無玩家累加計分 |
 | 1126 | Call to Adventure | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1127 | The Palaces of Carrara | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1128 | Come Sail Away! | c | pending | — | bghub 有 rulebook,未讀 |
+| 1128 | Come Sail Away! | c | done | [link](https://bghub.org/r/come-sail-away.pdf) | 房間磚/乘客 1/獎勵標記 3/行李軌/不滿乘客 -1 |
 | 1129 | Cosmic Encounter: 42nd Anniversary Edition | - | skip | — | 以最先取得五個外星殖民地定勝負,無累加計分 |
 | 1130 | Genoa | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1131 | Pictures | c | pending | — | bghub 有 rulebook,未讀 |
+| 1131 | Pictures | c | done | [link](https://bghub.org/r/pictures.pdf) | 五回合累計 |
 | 1132 | Zooloretto | b | done | — | 獸欄 + 販賣亭 − 倉庫 |
 | 1133 | 5-Minute Dungeon | - | skip | — | 合作制即時遊戲,無玩家累加計分 |
 | 1134 | The Anarchy | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -612,9 +612,9 @@
 | 1141 | Small World of Warcraft | b | done | — | 每回合收勝利硬幣,比總額 |
 | 1142 | Rolling Realms | c | pending | — | roll & write,待網查 rulebook |
 | 1143 | Lowlands | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1144 | Santa Monica | c | pending | — | bghub 有 rulebook,未讀 |
+| 1144 | Santa Monica | c | pending | — | rulebook 有,但終局計分散落各處冇統一清單,要再細讀 |
 | 1145 | Meeple Circus | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1146 | Concept | c | pending | — | bghub 有 rulebook,未讀 |
+| 1146 | Concept | c | done | [link](https://bghub.org/r/concept.pdf) | 雙倍代幣 2 分、單倍代幣 1 分 |
 | 1147 | Sentinels of the Multiverse: Definitive Edition | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1148 | Orchard: 9 card solitaire game | - | skip | — | 單人遊戲,無玩家累加計分 |
 | 1149 | Bridge | - | skip | — | 橋牌計分分 rubber/duplicate 等多種制度,難以單一計分表覆蓋 |
@@ -665,20 +665,20 @@
 | 1194 | Container: 10th Anniversary Jumbo Edition! | c | done | [link](https://bghub.org/r/container.pdf) | 同《貨櫃》本體同一套終局計分 |
 | 1195 | Little Town | b | done | — | 建築 + 目標卡 + 金幣 |
 | 1196 | Riverboat | c | done | [link](https://bghub.org/r/riverboat.pdf) | 軌上分 + 港口計分 + 新奧爾良探員 20/10/5 |
-| 1197 | Comic Hunters | c | pending | — | bghub 有 rulebook,未讀 |
+| 1197 | Comic Hunters | c | pending | — | rulebook 有,但錨點落咗雙人變體,終局計分要再細讀 |
 | 1198 | World of Warcraft: Wrath of the Lich King | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1199 | Brew Crafters | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1200 | Cat Lady | b | done | — | 貓/玩具/衣裝/貓草 − 走失貓 |
-| 1201 | Orloj: The Prague Astronomical Clock | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1202 | Septima | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1201 | Orloj: The Prague Astronomical Clock | c | pending | — | rulebook 有,但錨點落咗助手卡描述,終局計分清單要再細讀 |
+| 1202 | Septima | c | done | [link](https://bghub.org/r/septima.pdf) | 智慧為單位:軌上分/占卜目標/病人軌/幸運符 2/藥水 1/材料每兩件 1 |
 | 1203 | Tempel des Schreckens | - | skip | — | 社交推理遊戲,以陣營達成條件定勝負,無累加計分 |
 | 1204 | Ecos: First Continent | b | done | — | 放寬尺度後直接生成 |
 | 1205 | Britannia | b | done | — | 放寬尺度後直接生成 |
-| 1206 | In the Footsteps of Darwin | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1207 | Tribes of the Wind | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1206 | In the Footsteps of Darwin | c | pending | — | ⚠️ PDF xref 損壞(pdftotext 報 damaged),抽唔到可靠文字 |
+| 1207 | Tribes of the Wind | c | done | [link](https://bghub.org/r/tribesofthewind.pdf) | 村莊 3、神殿 3-4 座 3/7、污染對照表 12-7-3-0、板塊數表未讀到用 number |
 | 1208 | Here I Stand: 500th Anniversary Edition | - | skip | — | 多陣營 CDG 戰棋,每個勢力勝利條件唔同,無統一累加計分 |
 | 1209 | Hawaii | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1210 | Parks (Second Edition) | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1210 | Parks (Second Edition) | c | done | [link](https://bghub.org/r/parks-second-edition.pdf) | 公園/相片/熱情卡/秋季獎勵/首家標記 |
 | 1211 | ICECOOL | - | skip | — | 彈射遊戲,以最先儲齊指定魚數定勝負,無累加計分 |
 | 1212 | Herbaceous | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1213 | Habitats | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -687,7 +687,7 @@
 | 1216 | Chronicles of Avel | - | skip | — | 合作制冒險遊戲,無玩家累加計分 |
 | 1217 | Smash Up: Science Fiction Double Feature | b | done | — | 放寬尺度後直接生成 |
 | 1218 | Oriflamme | b | done | — | 放寬尺度後直接生成 |
-| 1219 | Fishing | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1219 | Fishing | c | done | [link](https://bghub.org/r/fishing.pdf) | 八回合累計 |
 | 1220 | Legacy: The Testament of Duke de Crecy | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1221 | Core Worlds | b | done | — | 放寬尺度後直接生成 |
 | 1222 | Unlock!: Game Adventures | - | skip | — | 密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表 |

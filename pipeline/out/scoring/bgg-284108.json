@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-284108",
+ "name": "Pictures",
+ "nameZh": "拍立得",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/pictures.pdf",
+  "verified": false,
+  "tieBreaker": "同分者並列勝出",
+  "fields": [
+   {
+    "id": "score",
+    "label": "五回合累計得分",
+    "note": "五個回合嘅分數加埋,最高者勝",
+    "icon": "📷",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

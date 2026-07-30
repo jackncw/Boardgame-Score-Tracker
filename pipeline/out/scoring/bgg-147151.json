@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-147151",
+ "name": "Concept",
+ "nameZh": "概念",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/concept.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "double",
+    "label": "雙倍代幣",
+    "note": "最先估中答案攞到,每個 2 VP",
+    "icon": "💠",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "single",
+    "label": "單倍代幣",
+    "note": "出題隊伍嘅字被估中時攞到,每個 1 VP",
+    "icon": "🔹",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

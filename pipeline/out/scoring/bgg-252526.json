@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-252526",
+ "name": "Pictomania (Second Edition)",
+ "nameZh": "妙筆神猜(第二版)",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/pictomania-second-edition.pdf",
+  "verified": false,
+  "tieBreaker": "同分者並列勝出",
+  "fields": [
+   {
+    "id": "score",
+    "label": "五回合累計得分",
+    "note": "五個回合嘅分數加埋,最高者勝",
+    "icon": "✏️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

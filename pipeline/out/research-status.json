@@ -5175,9 +5175,9 @@
   "name": "Carcassonne: The City",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有鏡像但係 OCR 殘缺(字母同數字有缺失),唔可靠;要另揾清晰版"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/carcassonne-the-city.pdf",
+  "note": "OCR 掃描版,只寫得出項目類別(管家/守衛),單價冇寫"
  },
  {
   "rank": 1093,
@@ -5275,9 +5275,9 @@
   "name": "Pictomania (Second Edition)",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有 rulebook,未讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/pictomania-second-edition.pdf",
+  "note": "五回合累計"
  },
  {
   "rank": 1103,
@@ -5355,9 +5355,9 @@
   "name": "Pictomania",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有 rulebook(同二版共用),未讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/pictomania.pdf",
+  "note": "五回合累計"
  },
  {
   "rank": 1111,
@@ -5535,9 +5535,9 @@
   "name": "Come Sail Away!",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有 rulebook,未讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/come-sail-away.pdf",
+  "note": "房間磚/乘客 1/獎勵標記 3/行李軌/不滿乘客 -1"
  },
  {
   "rank": 1129,
@@ -5565,9 +5565,9 @@
   "name": "Pictures",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有 rulebook,未讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/pictures.pdf",
+  "note": "五回合累計"
  },
  {
   "rank": 1132,
@@ -5697,7 +5697,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "bghub 有 rulebook,未讀"
+  "note": "rulebook 有,但終局計分散落各處冇統一清單,要再細讀"
  },
  {
   "rank": 1145,
@@ -5715,9 +5715,9 @@
   "name": "Concept",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有 rulebook,未讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/concept.pdf",
+  "note": "雙倍代幣 2 分、單倍代幣 1 分"
  },
  {
   "rank": 1147,
@@ -6227,7 +6227,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "bghub 有 rulebook,未讀"
+  "note": "rulebook 有,但錨點落咗雙人變體,終局計分要再細讀"
  },
  {
   "rank": 1198,
@@ -6267,7 +6267,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "rulebook 有,但錨點落咗助手卡描述,終局計分清單要再細讀"
  },
  {
   "rank": 1202,
@@ -6275,9 +6275,9 @@
   "name": "Septima",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/septima.pdf",
+  "note": "智慧為單位:軌上分/占卜目標/病人軌/幸運符 2/藥水 1/材料每兩件 1"
  },
  {
   "rank": 1203,
@@ -6317,7 +6317,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "⚠️ PDF xref 損壞(pdftotext 報 damaged),抽唔到可靠文字"
  },
  {
   "rank": 1207,
@@ -6325,9 +6325,9 @@
   "name": "Tribes of the Wind",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/tribesofthewind.pdf",
+  "note": "村莊 3、神殿 3-4 座 3/7、污染對照表 12-7-3-0、板塊數表未讀到用 number"
  },
  {
   "rank": 1208,
@@ -6355,9 +6355,9 @@
   "name": "Parks (Second Edition)",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/parks-second-edition.pdf",
+  "note": "公園/相片/熱情卡/秋季獎勵/首家標記"
  },
  {
   "rank": 1211,
@@ -6445,9 +6445,9 @@
   "name": "Fishing",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/fishing.pdf",
+  "note": "八回合累計"
  },
  {
   "rank": 1220,

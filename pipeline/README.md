@@ -186,3 +186,16 @@ bghub,結果寫入 `out/bghub-hits.json`(命中)同 `out/bghub-miss.json`(冇中
 寫衍生作嘅計分表係錯嘅**。script 已經改咗唔用主標題變體,但舊資料入面
 命中嘅記錄有 `suspect: true` 標記,`research-status.json` 亦有警告 note,
 一律當冇來源處理。
+
+### extract-scoring.mjs —— 批量抽計分段落
+
+```bash
+node extract-scoring.mjs <起始索引> <幾多隻>   # 例:node extract-scoring.mjs 0 12
+```
+
+由 `bghub-hits.json` 順住 rank 抓 PDF,`pdftotext -raw` 之後由**尾向頭**搵
+`final scoring` / `end game scoring` / `end of the game` 等錨點,只印出嗰段
+26 行。自動跳過 `suspect:true` 同已經 `done` 嘅,PDF 有 cache 唔會重覆下載。
+
+實測命中率:抽到清晰終局計分清單嘅約一半,其餘係錨點落錯位置
+(落咗變體規則或卡牌描述)、計分表印喺圖入面、或者 PDF xref 損壞。

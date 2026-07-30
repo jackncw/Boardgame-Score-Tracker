@@ -1,0 +1,91 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-362986",
+ "name": "Tribes of the Wind",
+ "nameZh": "風之部族",
+ "theme": {
+  "accent": "#4A8C6A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/tribesofthewind.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "first_five",
+    "label": "最先建成第五條村",
+    "note": "持有遊戲結束標記 +5 VP",
+    "icon": "🏁",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 5
+   },
+   {
+    "id": "villages",
+    "label": "村莊標記",
+    "note": "地形區入面每個村莊標記 3 VP",
+    "icon": "🏘️",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "temples",
+    "label": "神殿",
+    "note": "地形區放咗 4 座神殿 7 VP,只放到 3 座 3 VP",
+    "icon": "⛩️",
+    "color": "#EADCF0",
+    "input": "tiered",
+    "table": [
+     [
+      3,
+      3
+     ],
+     [
+      4,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "pollution",
+    "label": "污染",
+    "note": "按仲有污染標記嘅地形格數計:0 格 12 VP、1 格 7 VP、2 格 3 VP、3 格或以上 0 VP",
+    "icon": "☁️",
+    "color": "#F2D8D8",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      12
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   {
+    "id": "tiles",
+    "label": "地形板塊",
+    "note": "按地形區入面嘅板塊數(含起始板塊)查規則書嘅對照表計 VP",
+    "icon": "🗺️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

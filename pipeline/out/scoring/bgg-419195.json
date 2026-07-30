@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-419195",
+ "name": "Fishing",
+ "nameZh": "釣魚",
+ "theme": {
+  "accent": "#3E8E8A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/fishing.pdf",
+  "verified": false,
+  "tieBreaker": "同分者並列勝出",
+  "fields": [
+   {
+    "id": "score",
+    "label": "八回合累計得分",
+    "note": "八個回合嘅分數加埋,最高者勝",
+    "icon": "🎣",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

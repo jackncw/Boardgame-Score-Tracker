@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-12902",
+ "name": "Carcassonne: The City",
+ "nameZh": "卡卡頌:城市",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/carcassonne-the-city.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "stewards",
+    "label": "管家(住宅區)",
+    "note": "你擁有嘅住宅區,按相鄰市集數計分;住宅區完成與否都計",
+    "icon": "🏠",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "guards",
+    "label": "守衛(城牆)",
+    "note": "每個守衛望住嘅一行/一列城市磚,按入面嘅公共建築同歷史建築計分",
+    "icon": "🛡️",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

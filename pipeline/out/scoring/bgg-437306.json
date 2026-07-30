@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-437306",
+ "name": "Parks (Second Edition)",
+ "nameZh": "國家公園(第二版)",
+ "theme": {
+  "accent": "#4A7A4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/parks-second-edition.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "parks",
+    "label": "已到訪公園",
+    "note": "已收集嘅公園卡按卡面 VP 計",
+    "icon": "🏞️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "photos",
+    "label": "相片與相片獎勵",
+    "note": "已影嘅相加相片獎勵帶嚟嘅 VP",
+    "icon": "📷",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "passion",
+    "label": "熱情卡",
+    "note": "已達成熱情卡條件攞到嘅 VP",
+    "icon": "❤️",
+    "color": "#F7D8E0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fall_bonus",
+    "label": "秋季獎勵",
+    "note": "秋季結算帶嚟嘅 VP",
+    "icon": "🍂",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "first_player",
+    "label": "首家標記",
+    "note": "終局持有首家標記帶嚟嘅 VP",
+    "icon": "🥇",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
