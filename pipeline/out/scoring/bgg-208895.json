@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-208895",
+ "name": "New York Slice",
+ "nameZh": "紐約披薩",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "總分",
+    "note": "分到嘅披薩塊按規則計嘅分,加獎勵同扣分",
+    "icon": "🍕",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

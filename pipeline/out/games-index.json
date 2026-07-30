@@ -28790,7 +28790,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "跳蚤馬戲團",
+  "accent": "#C4543C"
  },
  {
   "bggId": 221769,
@@ -28816,7 +28818,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 25,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "PUSH 賭一鋪",
+  "accent": "#C9A227"
  },
  {
   "bggId": 390173,
@@ -28868,7 +28872,9 @@
   "minPlayers": 1,
   "maxPlayers": 2,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "登峰:不朽英雄",
+  "accent": "#5A4A7A"
  },
  {
   "bggId": 424280,
@@ -28907,7 +28913,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "烏邦果 3D",
+  "accent": "#C9A227"
  },
  {
   "bggId": 248158,
@@ -29076,7 +29084,9 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "登峰:十週年版",
+  "accent": "#5A4A7A"
  },
  {
   "bggId": 330084,
@@ -29206,7 +29216,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "紐約披薩",
+  "accent": "#C9553C"
  },
  {
   "bggId": 123239,
@@ -29505,7 +29517,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "1860:懷特島鐵道",
+  "accent": "#4A6E4A"
  },
  {
   "bggId": 273910,
@@ -29531,7 +29545,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "北極拾荒者",
+  "accent": "#5A7A8C"
  },
  {
   "bggId": 349750,
@@ -29687,7 +29703,9 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 300,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "1856:上加拿大鐵道",
+  "accent": "#4A6E4A"
  },
  {
   "bggId": 266964,
@@ -30142,7 +30160,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "媽媽咪呀!",
+  "accent": "#C9553C"
  },
  {
   "bggId": 285894,
@@ -30441,7 +30461,9 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "戰國時代",
+  "accent": "#8C3F3F"
  },
  {
   "bggId": 143185,
@@ -30701,7 +30723,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "登峰:微光崛起",
+  "accent": "#5A4A7A"
  },
  {
   "bggId": 61487,
@@ -30740,7 +30764,9 @@
   "minPlayers": 3,
   "maxPlayers": 7,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "傷心小棧",
+  "accent": "#8C3F3F"
  },
  {
   "bggId": 24742,
@@ -30896,7 +30922,9 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "演化(第二版)",
+  "accent": "#4A8C5A"
  },
  {
   "bggId": 142079,
@@ -31013,7 +31041,9 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "亂鬥聯盟:停止侵權",
+  "accent": "#7A4A8C"
  },
  {
   "bggId": 4396,
@@ -31260,7 +31290,9 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true,
+  "nameZh": "權力遊戲:國王之手",
+  "accent": "#6B3A3A"
  },
  {
   "bggId": 226634,

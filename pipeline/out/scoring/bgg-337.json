@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-337",
+ "name": "Circus Flohcati",
+ "nameZh": "跳蚤馬戲團",
+ "theme": {
+  "accent": "#C4543C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "score",
+    "label": "總分",
+    "note": "每色卡牌最大數值加埋,再加已收集嘅表演套組同金幣獎勵",
+    "icon": "🎪",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

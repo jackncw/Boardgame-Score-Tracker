@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-28086",
+ "name": "Age of War",
+ "nameZh": "戰國時代",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "castles",
+    "label": "城堡分數",
+    "note": "攻下嘅城堡卡按卡面分數加埋,加齊套家族嘅加成",
+    "icon": "🏯",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

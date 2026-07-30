@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-49",
+ "name": "Mamma Mia!",
+ "nameZh": "媽媽咪呀!",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "pizzas",
+    "label": "焗好嘅薄餅",
+    "note": "成功焗起嘅薄餅張數,最多者勝",
+    "icon": "🍕",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

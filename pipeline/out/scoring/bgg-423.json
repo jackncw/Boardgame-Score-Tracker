@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-423",
+ "name": "1856: Railroading in Upper Canada from 1856",
+ "nameZh": "1856:上加拿大鐵道",
+ "theme": {
+  "accent": "#4A6E4A"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "networth",
+    "label": "總身家",
+    "note": "現金,加手上所有股票按當時股價計嘅價值",
+    "icon": "🚂",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

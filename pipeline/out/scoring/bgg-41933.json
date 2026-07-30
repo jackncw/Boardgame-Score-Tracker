@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-41933",
+ "name": "Arctic Scavengers",
+ "nameZh": "北極拾荒者",
+ "theme": {
+  "accent": "#5A7A8C"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tribe",
+    "label": "部落人數",
+    "note": "遊戲結束時你部落入面嘅生還者總數,最多者勝",
+    "icon": "🧊",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
