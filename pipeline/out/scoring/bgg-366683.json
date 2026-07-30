@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-366683",
+ "name": "Raising Robots",
+ "nameZh": "養育機械人",
+ "theme": {
+  "accent": "#5A7A8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/raising-robots.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中遊戲區機械人卡 VP 較多者勝;再同分則職業卡 VP 較多者勝",
+  "fields": [
+   {
+    "id": "robots",
+    "label": "遊戲區機械人卡",
+    "note": "遊戲區入面機械人卡帶嚟嘅 VP",
+    "icon": "🤖",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "classes",
+    "label": "職業卡",
+    "note": "玩家板左邊每張職業卡按佢嘅條件計 VP",
+    "icon": "🎓",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "inventory",
+    "label": "庫存 VP",
+    "note": "庫存區標示嘅 VP",
+    "icon": "📦",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftovers",
+    "label": "零碎資源同手牌",
+    "note": "庫存入面每粒電池同資源(含膠紙)、手上每張機械人卡各 1/3 VP,加埋後向下取整",
+    "icon": "🔋",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

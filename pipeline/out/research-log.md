@@ -459,10 +459,10 @@
 
 ## 進度
 
-- 已生成計分表(done):228
+- 已生成計分表(done):231
 - 揾唔到可靠來源(no-source):0
 - 判定唔使做(skip):880
-- 未做(pending):892
+- 未做(pending):889
 - 路徑 b(直接生成):190 · 路徑 c(網查 rulebook):930
 
 ## 逐隻紀錄
@@ -894,7 +894,7 @@
 | 1423 | Karak | b | done | — | 放寬尺度後直接生成 |
 | 1424 | Castle Panic | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1425 | The City of Kings | - | skip | — | 合作制遊戲,無玩家累加計分 |
-| 1426 | Ancient Knowledge | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1426 | Ancient Knowledge | c | done | [link](https://bghub.org/r/ancientknowledge.pdf) | VP 圖示喺 PDF 變亂碼,只寫類別 |
 | 1427 | Spirits of the Wild | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1428 | Netrunner | - | skip | — | 雙人不對稱對戰,以搶奪議程定勝負,無累加計分 |
 | 1429 | Claim | - | skip | — | 雙人吃磴遊戲,以取得多數陣營定勝負,無累加計分 |
@@ -905,9 +905,9 @@
 | 1434 | Things in Rings | - | skip | — | 合作制推理遊戲,無玩家累加計分 |
 | 1435 | Riftforce | - | skip | — | 雙人對戰,以最先儲夠十二分定勝負,無終局分項計分 |
 | 1436 | Kinfire Delve: Scorn's Stockade | - | skip | — | 合作制遊戲,無玩家累加計分 |
-| 1437 | Inventors of the South Tigris | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1437 | Inventors of the South Tigris | c | done | [link](https://bghub.org/r/inventorsofthesouthtigris.pdf) | 類別由單人章節列出(明言同多人一樣),但嗰啲數字係假想對手簡化值,故唔寫單價 |
 | 1438 | Wendake | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1439 | Rolling Heights | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1439 | Rolling Heights | c | pending | — | PDF 嘅計分圖示全部變亂碼,連類別都認唔出 |
 | 1440 | Europa Universalis: The Price of Power | - | skip | — | 多陣營戰棋,以陣營勝利條件定勝負,無統一累加計分 |
 | 1441 | Disney Lorcana | - | skip | — | 集換式卡牌對戰,以最先儲夠傳說值定勝負,無累加計分 |
 | 1442 | Wilderness War | - | skip | — | 雙人 CDG 戰棋,以陣營勝利條件定勝負,無累加計分 |
@@ -926,7 +926,7 @@
 | 1455 | Back to the Future: Back in Time | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1456 | Diamonds | b | done | — | 放寬尺度後直接生成 |
 | 1457 | Tower Up | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1458 | Raising Robots | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1458 | Raising Robots | c | done | [link](https://bghub.org/r/raising-robots.pdf) | 機械人卡/職業卡/庫存/零碎資源每件 1/3 |
 | 1459 | Oltréé | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1460 | Risk: Star Wars Edition | - | skip | — | 不對稱陣營遊戲,以達成陣營目標定勝負,無累加計分 |
 | 1461 | Hansa | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -944,7 +944,7 @@
 | 1473 | Stronghold | - | skip | — | 雙人不對稱攻城遊戲,以守住/攻陷定勝負,無累加計分 |
 | 1474 | Dead Man's Draw | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1475 | Blood Bowl: Second Season Edition | - | skip | — | 球賽對戰遊戲,以入球數定勝負,無累加計分 |
-| 1476 | Gutenberg | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1476 | Gutenberg | c | pending | — | 錨點搵啱,但清單喺 26 行窗口外被截斷,要擴大窗口再讀 |
 | 1477 | Wild Space | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1478 | Tussie Mussie | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1479 | Sons of Anarchy: Men of Mayhem | c | pending | — | 競爭型終局計分,待網查 rulebook |

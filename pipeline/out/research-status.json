@@ -8515,9 +8515,9 @@
   "name": "Ancient Knowledge",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/ancientknowledge.pdf",
+  "note": "VP 圖示喺 PDF 變亂碼,只寫類別"
  },
  {
   "rank": 1427,
@@ -8625,9 +8625,9 @@
   "name": "Inventors of the South Tigris",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/inventorsofthesouthtigris.pdf",
+  "note": "類別由單人章節列出(明言同多人一樣),但嗰啲數字係假想對手簡化值,故唔寫單價"
  },
  {
   "rank": 1438,
@@ -8647,7 +8647,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "PDF 嘅計分圖示全部變亂碼,連類別都認唔出"
  },
  {
   "rank": 1440,
@@ -8835,9 +8835,9 @@
   "name": "Raising Robots",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/raising-robots.pdf",
+  "note": "機械人卡/職業卡/庫存/零碎資源每件 1/3"
  },
  {
   "rank": 1459,
@@ -9017,7 +9017,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "錨點搵啱,但清單喺 26 行窗口外被截斷,要擴大窗口再讀"
  },
  {
   "rank": 1477,

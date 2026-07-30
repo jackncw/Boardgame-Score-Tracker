@@ -211,3 +211,10 @@ node extract-scoring.mjs <起始索引> <幾多隻>   # 例:node extract-scoring
 
 **條件**:正文要講得出係邊幾個計分項目。連類別都講唔出(錨點落錯位、
 PDF 損壞)就仍然係 `pending`,唔可以硬砌。
+
+**錨點揀選**:唔係揀第一個撞到嘅。每個候選都睇跟住 26 行入面
+`score/point/VP` 同 `each/every/per` 嘅密度,再對單人章節嘅特徵字
+(`solo` / `automa` / `dummy` / `your opponent scores` / `they score`)
+同雙人變體大幅扣分,揀最高分嗰個;最高分低過 4 就當搵唔到。
+呢個改動之前會將 Inventors of the South Tigris 嘅**單人假想對手計分**
+當成終局計分 —— 嗰啲數字係簡化值,照抄落去就錯。

@@ -19948,6 +19948,8 @@
   "bggId": 338093,
   "gameId": "bgg-338093",
   "name": "Ancient Knowledge",
+  "nameZh": "遠古知識",
+  "accent": "#B08D57",
   "rank": 1426,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/EDJ1Xynm6XjAKeG-q2B85A__micro/img/XQl3NjXqnRc4YqGZ5Dd6uXoQFXY=/fit-in/64x64/filters:strip_icc()/pic7600216.jpg",
@@ -19955,7 +19957,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 256606,
@@ -20093,6 +20095,8 @@
   "bggId": 378387,
   "gameId": "bgg-378387",
   "name": "Inventors of the South Tigris",
+  "nameZh": "南底格里斯的發明家",
+  "accent": "#7A5A3A",
   "rank": 1437,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/bQKqrr_k9mbi2v80hwkyPw__micro/img/GWFqSgxB8psJJb-RXgLvRJiJh3M=/fit-in/64x64/filters:strip_icc()/pic7282971.png",
@@ -20100,7 +20104,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 229265,
@@ -20372,6 +20376,8 @@
   "bggId": 366683,
   "gameId": "bgg-366683",
   "name": "Raising Robots",
+  "nameZh": "養育機械人",
+  "accent": "#5A7A8C",
   "rank": 1458,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/kGmrDjZ1ZZ3HddqqN8aqnQ__micro/img/QF7Is4fQ6e-oNFpcYgx90HQEiIk=/fit-in/64x64/filters:strip_icc()/pic7366753.png",
@@ -20379,7 +20385,7 @@
   "minPlayers": 1,
   "maxPlayers": 6,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 293835,

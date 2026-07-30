@@ -1,0 +1,66 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-338093",
+ "name": "Ancient Knowledge",
+ "nameZh": "遠古知識",
+ "theme": {
+  "accent": "#B08D57"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/ancientknowledge.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中知識標記較少者勝;仍同分則年紀最大者勝",
+  "fields": [
+   {
+    "id": "monuments",
+    "label": "過去區嘅紀念碑卡",
+    "note": "過去區每張紀念碑卡,計佢彩色帶上見到嘅 VP(有冇轉向都計)",
+    "icon": "🗿",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "effects",
+    "label": "紀念碑卡效果",
+    "note": "過去區部分紀念碑卡本身帶嘅額外 VP",
+    "icon": "✨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tech",
+    "label": "第二級科技卡",
+    "note": "每張第二級科技卡帶嚟嘅 VP",
+    "icon": "⚙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "timeline",
+    "label": "時間軸剩餘紀念碑",
+    "note": "時間軸上仲未落到過去區嘅紀念碑,按規則書計 VP(卡上印住嘅 VP 唔計)",
+    "icon": "⏳",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "penalty",
+    "label": "知識區扣分",
+    "note": "板上指定區域入面嘅知識標記,按規則書扣 VP(呢欄入正數,自動扣)",
+    "icon": "📉",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

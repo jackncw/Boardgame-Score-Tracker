@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-378387",
+ "name": "Inventors of the South Tigris",
+ "nameZh": "南底格里斯的發明家",
+ "theme": {
+  "accent": "#7A5A3A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/inventorsofthesouthtigris.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "guilds",
+    "label": "公會多數",
+    "note": "各公會按你嘅影響力名次計 VP",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "research",
+    "label": "研究磚",
+    "note": "河道上每個影響力按印住嘅數值計 VP",
+    "icon": "📜",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "workshops",
+    "label": "工坊磚",
+    "note": "已收集嘅工坊磚按磚上印住嘅 VP 計",
+    "icon": "🔨",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "inventions",
+    "label": "發明磚",
+    "note": "已放置嘅發明磚計 VP",
+    "icon": "💡",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "influence",
+    "label": "建造者與出版者影響力",
+    "note": "兩條影響力軌按規則書計 VP",
+    "icon": "🖋️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "devices",
+    "label": "已建造同出版嘅裝置",
+    "note": "裝置板上你嘅影響力,加裝置卡上嘅計分條件",
+    "icon": "⚗️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "silver",
+    "label": "剩餘銀幣",
+    "note": "供應區剩低嘅銀幣按規則書換 VP",
+    "icon": "🪙",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
