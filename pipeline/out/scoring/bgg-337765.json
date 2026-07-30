@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-337765",
+ "name": "Brian Boru: High King of Ireland",
+ "nameZh": "布萊恩·博魯:愛爾蘭至高王",
+ "theme": {
+  "accent": "#2E7D4F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/brian-boru-high-king-of-ireland.pdf",
+  "verified": false,
+  "tieBreaker": "宣稱標記最多者勝;再比婚姻卡最多;仍平手則共享勝利",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得分",
+    "icon": "☘️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "most_coins",
+    "label": "金錢最多",
+    "note": "1 分;有人平手就冇人得分",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 1
+   },
+   {
+    "id": "active_town",
+    "label": "持有活躍城鎮標記",
+    "note": "1 分",
+    "icon": "🏘️",
+    "color": "#F7F3DC",
+    "input": "bonus",
+    "value": 1
+   },
+   {
+    "id": "renown",
+    "label": "聲望標記",
+    "note": "每個 1 分",
+    "icon": "🎖️",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "claim_own",
+    "label": "自己面前嘅宣稱標記",
+    "note": "面朝上先計,按標記印住嘅分數(面朝下唔計)",
+    "icon": "🏳️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "claim_board",
+    "label": "板上宣稱標記",
+    "note": "該地區城鎮最多者(含平手)攞標記分數一半,向下取整",
+    "icon": "🗺️",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "regions",
+    "label": "控制城鎮嘅地區數",
+    "note": "1–2 區 0 分、3–4 區 1 分、5 區 3 分、6 區 5 分、7 區 7 分、8 區 10 分",
+    "icon": "🧭",
+    "color": "#F7DCDC",
+    "input": "tiered",
+    "table": [[0, 0], [1, 0], [2, 0], [3, 1], [4, 1], [5, 3], [6, 5], [7, 7], [8, 10]]
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-338760",
+ "name": "Imperial Steam",
+ "nameZh": "帝國蒸汽",
+ "theme": {
+  "accent": "#6E4B3A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/imperialsteam.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "cash",
+    "label": "手上金錢",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "income",
+    "label": "最後一次收入",
+    "note": "同第 4 階段一樣;有 Semmering 標記就加倍",
+    "icon": "🚂",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goods",
+    "label": "火車同倉庫嘅貨物",
+    "note": "每個賣 10 基爾德",
+    "icon": "📦",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 10
+   },
+   {
+    "id": "keys",
+    "label": "城市鑰匙",
+    "note": "大金鑰匙 = 對應樞紐城市影響力標記正下方嘅金額;細銀鑰匙 = 最近嗰個細綠旗嘅金額",
+    "icon": "🗝️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "hubs",
+    "label": "影響力唔高過自己嘅樞紐城市",
+    "note": "1 個 10、2 個 30、3 個 60、4 個 100 基爾德",
+    "icon": "🏙️",
+    "color": "#F7F3DC",
+    "input": "tiered",
+    "table": [[0, 0], [1, 10], [2, 30], [3, 60], [4, 100]]
+   },
+   {
+    "id": "contracts",
+    "label": "合約",
+    "note": "格全滿就攞合約金額,否則要付出;冇人接通維也納–的里雅斯特就全部作廢",
+    "icon": "📄",
+    "color": "#DCF0F0",
+    "input": "number"
+   },
+   {
+    "id": "track_fees",
+    "label": "借用他人路軌",
+    "note": "每經過一段付該段影響力最高嘅玩家 20 基爾德",
+    "icon": "🛤️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "shareholders",
+    "label": "股東扣減",
+    "note": "每位股東扣總金錢嘅 10%(自己計好個數字入落嚟)",
+    "icon": "🏦",
+    "color": "#F0DCE8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

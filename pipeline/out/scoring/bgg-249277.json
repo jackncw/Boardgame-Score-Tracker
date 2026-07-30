@@ -1,0 +1,86 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-249277",
+ "name": "Brazil: Imperial",
+ "nameZh": "巴西帝國",
+ "theme": {
+  "accent": "#2E8B57"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/brazilimperial.pdf",
+  "verified": false,
+  "tieBreaker": "地圖上科學生產標記最多者勝",
+  "fields": [
+   {
+    "id": "military",
+    "label": "已部署軍事單位",
+    "icon": "⚔️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "products",
+    "label": "已生產產品",
+    "icon": "🏭",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "paintings",
+    "label": "取得嘅畫作",
+    "icon": "🖼️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "missions",
+    "label": "任務卡",
+    "note": "第一、二紀元已揭示嘅任務,加第三紀元達成嘅目標",
+    "icon": "📜",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gold_cards",
+    "label": "黃金卡",
+    "icon": "🪙",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "exploration",
+    "label": "探索板塊",
+    "icon": "🧭",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "palaces",
+    "label": "地圖上宮殿 II–VI",
+    "icon": "🏰",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築/城市板塊",
+    "note": "包括奪取返嚟嘅板塊",
+    "icon": "🏘️",
+    "color": "#F0E4DC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

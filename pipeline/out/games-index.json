@@ -10358,6 +10358,8 @@
   "bggId": 363247,
   "gameId": "bgg-363247",
   "name": "Azul: Master Chocolatier",
+  "nameZh": "花磚物語:巧克力大師",
+  "accent": "#7B4B2A",
   "rank": 726,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/CHIy1KMWI-LCkiux4q81Fg__micro/img/5jrvBkB58eYmejlkdEMX__qB6YI=/fit-in/64x64/filters:strip_icc()/pic6871709.png",
@@ -10365,7 +10367,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 266121,
@@ -10451,6 +10453,8 @@
   "bggId": 337765,
   "gameId": "bgg-337765",
   "name": "Brian Boru: High King of Ireland",
+  "nameZh": "布萊恩·博魯:愛爾蘭至高王",
+  "accent": "#2E7D4F",
   "rank": 733,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/S-Ro5X2B6x2V6bana2f0fA__micro/img/HiQUjvPZ5IYNgMdNZyRMWYoIxSg=/fit-in/64x64/filters:strip_icc()/pic6149105.jpg",
@@ -10458,7 +10462,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 444481,
@@ -12438,6 +12442,8 @@
   "bggId": 238799,
   "gameId": "bgg-238799",
   "name": "Messina 1347",
+  "nameZh": "墨西拿 1347",
+  "accent": "#6B7A8F",
   "rank": 876,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/Pw9TGohEb7PITFJnuq48bQ__micro/img/oYRFZ8c1O2y9o4xVZotgnoi1_qQ=/fit-in/64x64/filters:strip_icc()/pic6397342.jpg",
@@ -12445,12 +12451,14 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 140,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 393325,
   "gameId": "bgg-393325",
   "name": "Captain Flip",
+  "nameZh": "翻牌船長",
+  "accent": "#1F7A8C",
   "rank": 877,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/7vSkMR7exNsU7ZfRgJKodQ__micro/img/UDGcs6bbJ-eCvWLDT_949etPXGg=/fit-in/64x64/filters:strip_icc()/pic7784394.png",
@@ -12458,12 +12466,14 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 280480,
   "gameId": "bgg-280480",
   "name": "Crystal Palace",
+  "nameZh": "水晶宮",
+  "accent": "#7EA8BE",
   "rank": 878,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/oHsLn5t1BvKOX4zJO8_Tmw__micro/img/8B9JZNM8DJidweTrKx1sXWuWnrw=/fit-in/64x64/filters:strip_icc()/pic4949194.jpg",
@@ -12471,7 +12481,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 150,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 407297,
@@ -13021,6 +13031,8 @@
   "bggId": 393333,
   "gameId": "bgg-393333",
   "name": "Galileo Galilei",
+  "nameZh": "伽利略",
+  "accent": "#2C4A7C",
   "rank": 917,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/VxVtboFXPDhqw6Zd5Pcsrg__micro/img/olNXoEso5QRNyvondCVTvDQIdmw=/fit-in/64x64/filters:strip_icc()/pic7883604.jpg",
@@ -13028,7 +13040,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 100,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 253499,
@@ -13275,6 +13287,8 @@
   "bggId": 422674,
   "gameId": "bgg-422674",
   "name": "Saltfjord",
+  "nameZh": "鹽峽灣",
+  "accent": "#3D6B8C",
   "rank": 935,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/yl84ULuBdp57YQ8E42B-iQ__micro/img/oZ-oE9g8gAEu0s2mHpqa9YRAmHo=/fit-in/64x64/filters:strip_icc()/pic8257140.jpg",
@@ -13282,7 +13296,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 155624,
@@ -13484,6 +13498,8 @@
   "bggId": 338760,
   "gameId": "bgg-338760",
   "name": "Imperial Steam",
+  "nameZh": "帝國蒸汽",
+  "accent": "#6E4B3A",
   "rank": 950,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/detq5U6nwb3WDd8ecKex_A__micro/img/vHlh2N3adpBWAdQRK-jyfZb_vWM=/fit-in/64x64/filters:strip_icc()/pic6277816.jpg",
@@ -13491,7 +13507,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 231218,
@@ -13747,6 +13763,8 @@
   "bggId": 402676,
   "gameId": "bgg-402676",
   "name": "Cities",
+  "nameZh": "城市",
+  "accent": "#4F7CAC",
   "rank": 969,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/jJsq3gVshPzWL9MJnhmO_A__micro/img/9w-ng5VpNYEvahmpQIm_t8U0q0Q=/fit-in/64x64/filters:strip_icc()/pic7977800.jpg",
@@ -13754,7 +13772,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 256570,
@@ -13913,6 +13931,8 @@
   "bggId": 249277,
   "gameId": "bgg-249277",
   "name": "Brazil: Imperial",
+  "nameZh": "巴西帝國",
+  "accent": "#2E8B57",
   "rank": 981,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/KuiDNcMdWaeDe5_-rISFRQ__micro/img/XwEOQZwMB2VInay_FAIpGG4DhYw=/fit-in/64x64/filters:strip_icc()/pic6222695.jpg",
@@ -13920,7 +13940,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 100,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 156943,

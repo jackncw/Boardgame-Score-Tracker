@@ -1,0 +1,45 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-393325",
+ "name": "Captain Flip",
+ "nameZh": "翻牌船長",
+ "theme": {
+  "accent": "#1F7A8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/captain-flip.pdf",
+  "verified": false,
+  "tieBreaker": "平手玩家之中有藏寶圖果個勝,否則共享勝利",
+  "fields": [
+   {
+    "id": "coins",
+    "label": "遊戲中收集嘅金幣",
+    "note": "由左至右逐欄結算",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "characters",
+    "label": "角色終局效果",
+    "icon": "🏴‍☠️",
+    "color": "#EADCF0",
+    "input": "number"
+   },
+   {
+    "id": "board_c",
+    "label": "C 板覆蓋格獎勵",
+    "note": "只限用 C 板時",
+    "icon": "🗺️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

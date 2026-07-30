@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-238799",
+ "name": "Messina 1347",
+ "nameZh": "墨西拿 1347",
+ "theme": {
+  "accent": "#6B7A8F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/messina1347.pdf",
+  "verified": false,
+  "tieBreaker": "重新安置街區最多者勝;再比重新安置過最高分嘅街區",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得分",
+    "icon": "⛪",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rats",
+    "label": "老鼠罰分",
+    "note": "每個老鼠標記先喺人氣軌後退 1 格,再按規則書表格扣分",
+    "icon": "🐀",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "registers",
+    "label": "各登記軌位置",
+    "note": "扣完老鼠之後,睇自己喺每條登記軌所在格印住嘅分",
+    "icon": "📈",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "popularity_rank",
+    "label": "人氣軌名次",
+    "note": "2 人:第一 5 分;3–4 人:10 / 7 / 3 分(平手比火焰標記,大火算 2 個)",
+    "icon": "🎖️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "repopulated",
+    "label": "重新安置嘅街區",
+    "note": "每個已重新安置嘅六角格印住嘅分(重置板塊嗰 2 分唔再計)",
+    "icon": "🏘️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftovers",
+    "label": "剩餘代幣",
+    "note": "硬幣 + 火焰 + 大火 + 木材合計 ÷ 3(向下取整)",
+    "icon": "🪵",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

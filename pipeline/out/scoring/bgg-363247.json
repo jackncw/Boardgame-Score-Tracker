@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-363247",
+ "name": "Azul: Master Chocolatier",
+ "nameZh": "花磚物語:巧克力大師",
+ "theme": {
+  "accent": "#7B4B2A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/azul-master-chocolatier.pdf",
+  "verified": false,
+  "tieBreaker": "完整橫行較多者勝;仍平手則共享勝利",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得分",
+    "note": "計分軌上嘅分數",
+    "icon": "🍫",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rows",
+    "label": "完整橫行",
+    "note": "巧克力盒入面每條 5 格連續橫行 2 分",
+    "icon": "➡️",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "columns",
+    "label": "完整直行",
+    "note": "每條 5 格連續直行 7 分",
+    "icon": "⬇️",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 7
+   },
+   {
+    "id": "colors",
+    "label": "集齊顏色",
+    "note": "每種顏色放齊 5 塊 10 分",
+    "icon": "🎨",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 10
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

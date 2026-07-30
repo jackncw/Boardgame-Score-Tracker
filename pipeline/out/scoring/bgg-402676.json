@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-402676",
+ "name": "Cities",
+ "nameZh": "城市",
+ "theme": {
+  "accent": "#4F7CAC"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/cities.pdf",
+  "verified": false,
+  "tieBreaker": "成就板得分較高者勝",
+  "fields": [
+   {
+    "id": "achievements",
+    "label": "城市成就板",
+    "note": "自己放咗成就環嘅位置下面印住嘅分數",
+    "icon": "🏅",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "scoring_cards",
+    "label": "計分卡",
+    "note": "每張達成要求嘅計分卡,社區入面每出現一次都計一次",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "water_park",
+    "label": "水域同公園區",
+    "note": "每區按區內不同特色板塊數 1/2/3/4 → 1/3/6/10 分,每區只計一組",
+    "icon": "🌊",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "monuments",
+    "label": "紀念碑特色板塊",
+    "note": "每塊 2 分",
+    "icon": "🗽",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 2
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

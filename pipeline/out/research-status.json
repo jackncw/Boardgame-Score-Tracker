@@ -2533,9 +2533,9 @@
   "bggId": 363247,
   "name": "Azul: Master Chocolatier",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/azul-master-chocolatier.pdf",
+  "note": "官方 rulebook;橫行 2、直行 7、集色 10 分 明文"
  },
  {
   "rank": 727,
@@ -2596,9 +2596,9 @@
   "bggId": 337765,
   "name": "Brian Boru: High King of Ireland",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/brian-boru-high-king-of-ireland.pdf",
+  "note": "官方 rulebook;地區數對照表 0/1/3/5/7/10 明文,用 tiered"
  },
  {
   "rank": 734,
@@ -3325,27 +3325,27 @@
   "bggId": 238799,
   "name": "Messina 1347",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/messina1347.pdf",
+  "note": "官方 rulebook;老鼠對照表未抽到故 number"
  },
  {
   "rank": 877,
   "bggId": 393325,
   "name": "Captain Flip",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/captain-flip.pdf",
+  "note": "官方 rulebook;分數即金幣"
  },
  {
   "rank": 878,
   "bggId": 280480,
   "name": "Crystal Palace",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/crystalpalace.pdf",
+  "note": "官方 rulebook;話題 6/4/2、黑市 3/2/1、空研究格 −2 明文"
  },
  {
   "rank": 879,
@@ -3469,9 +3469,9 @@
   "bggId": 393333,
   "name": "Galileo Galilei",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/galileo-galilei.pdf",
+  "note": "官方 rulebook;大學/裁判所值靠板塊故 number"
  },
  {
   "rank": 920,
@@ -3550,9 +3550,9 @@
   "bggId": 422674,
   "name": "Saltfjord",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/saltfjord.pdf",
+  "note": "官方 rulebook;每 3 魚 1 分、4 箱一組 3 分 明文"
  },
  {
   "rank": 936,
@@ -3622,9 +3622,9 @@
   "bggId": 338760,
   "name": "Imperial Steam",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/imperialsteam.pdf",
+  "note": "官方 rulebook;貨物 10、樞紐 10/30/60/100 明文;股東 10% 要玩家自己計"
  },
  {
   "rank": 951,
@@ -3721,9 +3721,9 @@
   "bggId": 402676,
   "name": "Cities",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/cities.pdf",
+  "note": "官方 rulebook;水域/公園 1/3/6/10、紀念碑 2 分 明文"
  },
  {
   "rank": 971,
@@ -3784,9 +3784,9 @@
   "bggId": 249277,
   "name": "Brazil: Imperial",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/brazilimperial.pdf",
+  "note": "官方 rulebook;八類計分項,分值靠卡/板塊故 number"
  },
  {
   "rank": 985,

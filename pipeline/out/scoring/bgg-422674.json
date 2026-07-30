@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-422674",
+ "name": "Saltfjord",
+ "nameZh": "鹽峽灣",
+ "theme": {
+  "accent": "#3D6B8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/saltfjord.pdf",
+  "verified": false,
+  "tieBreaker": "酒館入面玩家標記較左者勝",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得分",
+    "icon": "🐟",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fishing_tokens",
+    "label": "船上剩餘捕魚標記",
+    "note": "先攞返資源同分數(漁船區域旁邊嘅唔計分)",
+    "icon": "🎣",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fish",
+    "label": "剩餘魚",
+    "note": "非魚資源全部賣成魚之後,每 3 條魚 1 分",
+    "icon": "🐠",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "crate_sets",
+    "label": "板條箱套組",
+    "note": "每 4 個喺唔同碼頭外嘅板條箱一組,每組 3 分",
+    "icon": "📦",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "crates",
+    "label": "板條箱板塊",
+    "note": "全部翻開,按上面印住嘅分數",
+    "icon": "🗃️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

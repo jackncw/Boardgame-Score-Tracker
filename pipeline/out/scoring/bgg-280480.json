@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-280480",
+ "name": "Crystal Palace",
+ "nameZh": "水晶宮",
+ "theme": {
+  "accent": "#7EA8BE"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/crystalpalace.pdf",
+  "verified": false,
+  "tieBreaker": "平手嘅玩家一齊贏",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得 VP",
+    "icon": "🏛️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buzz",
+    "label": "話題軌名次",
+    "note": "第一 6 分、第二 4 分、第三 2 分,其餘 0;平手平分該級數分(向下取整)",
+    "icon": "📣",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "black_market",
+    "label": "黑市助手",
+    "note": "位置最高 3 分、第二 2 分、第三 1 分",
+    "icon": "🕵️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objective",
+    "label": "目標軌等級",
+    "note": "只計現時到達嘅等級",
+    "icon": "🎯",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "loans",
+    "label": "貸款",
+    "note": "每張按貸款板塊印住嘅分數扣分",
+    "icon": "💸",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "empty_research",
+    "label": "空研究格",
+    "note": "玩家板上每個空格(冇研究板塊/貸款/10 鎊紙幣)−2",
+    "icon": "🔬",
+    "color": "#F0DCE8",
+    "input": "counter",
+    "unitValue": 2,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

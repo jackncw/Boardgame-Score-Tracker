@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-393333",
+ "name": "Galileo Galilei",
+ "nameZh": "伽利略",
+ "theme": {
+  "accent": "#2C4A7C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/galileo-galilei.pdf",
+  "verified": false,
+  "tieBreaker": "剩餘觀測骰點數總和最高者勝;再比剩餘象限標記最多;仍平手則共享勝利",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得 VP",
+    "icon": "🔭",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "university",
+    "label": "大學",
+    "note": "每條軌:該軌 Scale 板塊分值 × 自己嘅數量(觀測、彗星、星座、藏書)",
+    "icon": "🎓",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "inquisition",
+    "label": "宗教裁判所",
+    "note": "每個裁判官標記按地窖格底部數字計(黑色圖示扣分);最右格完全說服嘅每個 +1",
+    "icon": "⛪",
+    "color": "#F7DCDC",
+    "input": "number"
+   },
+   {
+    "id": "reputation",
+    "label": "名聲(審判庭標記)",
+    "note": "按標記位置加或減分",
+    "icon": "📜",
+    "color": "#F7EFD2",
+    "input": "number"
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

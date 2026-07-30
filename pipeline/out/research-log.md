@@ -13,10 +13,10 @@
 
 ## 進度
 
-- 已生成計分表(done):24
+- 已生成計分表(done):34
 - 揾唔到可靠來源(no-source):1
 - 判定唔使做(skip):328
-- 未做(pending):74
+- 未做(pending):64
 
 ## 逐隻紀錄
 
@@ -303,14 +303,14 @@
 | 719 | Coup | B | skip | — | coop/campaign |
 | 720 | Pathfinder Adventure Card Game: Rise of the Runelords – Base Set | B | skip | — | coop/campaign |
 | 723 | Windmill Valley | A | done | [link](https://bghub.org/r/windmill-valley.pdf) | 官方 rulebook;球莖顏色 1/1/2/2/3 分明文 |
-| 726 | Azul: Master Chocolatier | A | pending | — | 競爭型終局計分 |
+| 726 | Azul: Master Chocolatier | A | done | [link](https://bghub.org/r/azul-master-chocolatier.pdf) | 官方 rulebook;橫行 2、直行 7、集色 10 分 明文 |
 | 727 | Unlock!: Heroic Adventures | B | skip | — | coop/campaign |
 | 728 | River of Gold | A | pending | — | 競爭型終局計分 |
 | 729 | Star Trek: Ascendancy | B | skip | — | coop/campaign |
 | 730 | Triumph & Tragedy: European Balance of Power 1936-1945 | B | skip | — | coop/campaign |
 | 731 | Cozy Stickerville | C | pending | — | 待研究判斷 |
 | 732 | Skyrise | A | done | [link](https://bghub.org/r/skyrise.pdf) | 官方 rulebook;島嶼 5 分、大細鑰匙 10/4 分 明文 |
-| 733 | Brian Boru: High King of Ireland | A | pending | — | 競爭型終局計分 |
+| 733 | Brian Boru: High King of Ireland | A | done | [link](https://bghub.org/r/brian-boru-high-king-of-ireland.pdf) | 官方 rulebook;地區數對照表 0/1/3/5/7/10 明文,用 tiered |
 | 734 | Star Wars: Battle of Hoth | B | skip | — | coop/campaign |
 | 735 | Star Trek: Captain's Chair | C | pending | — | 待研究判斷 |
 | 739 | Beer & Bread | A | done | [link](https://bghub.org/r/beer-bread.pdf) | 官方 rulebook;最終分 = 啤酒/麵包較低者,唔係加總,所以只設 1 個 field |
@@ -391,9 +391,9 @@
 | 871 | Creature Caravan | A | pending | — | 競爭型終局計分 |
 | 872 | Marvel Zombies: A Zombicide Game | B | skip | — | coop/campaign |
 | 874 | Perudo | B | skip | — | coop/campaign |
-| 876 | Messina 1347 | A | pending | — | 競爭型終局計分 |
-| 877 | Captain Flip | A | pending | — | 競爭型終局計分 |
-| 878 | Crystal Palace | A | pending | — | 競爭型終局計分 |
+| 876 | Messina 1347 | A | done | [link](https://bghub.org/r/messina1347.pdf) | 官方 rulebook;老鼠對照表未抽到故 number |
+| 877 | Captain Flip | A | done | [link](https://bghub.org/r/captain-flip.pdf) | 官方 rulebook;分數即金幣 |
+| 878 | Crystal Palace | A | done | [link](https://bghub.org/r/crystalpalace.pdf) | 官方 rulebook;話題 6/4/2、黑市 3/2/1、空研究格 −2 明文 |
 | 879 | River Valley Glassworks | A | pending | — | 競爭型終局計分 |
 | 882 | KeyForge: Call of the Archons | B | skip | — | coop/campaign |
 | 883 | Star Wars: X-Wing Miniatures Game – The Force Awakens Core Set | B | skip | — | coop/campaign |
@@ -407,7 +407,7 @@
 | 899 | Fury of Dracula (Second Edition) | B | skip | — | coop/campaign |
 | 900 | Evacuation | A | pending | — | 競爭型終局計分 |
 | 914 | Empire of the Sun: The Pacific War 1941-1945 | B | skip | — | coop/campaign |
-| 917 | Galileo Galilei | A | pending | — | 競爭型終局計分 |
+| 917 | Galileo Galilei | A | done | [link](https://bghub.org/r/galileo-galilei.pdf) | 官方 rulebook;大學/裁判所值靠板塊故 number |
 | 920 | Rats of Wistar | A | pending | — | 競爭型終局計分 |
 | 921 | Hoplomachus: Victorum | B | skip | — | coop/campaign |
 | 922 | My Little Scythe | B | skip | — | coop/campaign |
@@ -416,7 +416,7 @@
 | 927 | Steampunk Rally | B | skip | — | coop/campaign |
 | 928 | Defenders of the Realm | B | skip | — | coop/campaign |
 | 931 | Stardew Valley: The Board Game | B | skip | — | coop/campaign |
-| 935 | Saltfjord | A | pending | — | 競爭型終局計分 |
+| 935 | Saltfjord | A | done | [link](https://bghub.org/r/saltfjord.pdf) | 官方 rulebook;每 3 魚 1 分、4 箱一組 3 分 明文 |
 | 936 | Specter Ops | B | skip | — | coop/campaign |
 | 937 | Warhammer Quest: The Adventure Card Game | B | skip | — | coop/campaign |
 | 938 | Leaving Earth | C | pending | — | 待研究判斷 |
@@ -424,7 +424,7 @@
 | 940 | SpaceCorp: 2025-2300AD | C | pending | — | 待研究判斷 |
 | 943 | Shadows of Brimstone: Swamps of Death | B | skip | — | coop/campaign |
 | 947 | Advanced Squad Leader: Starter Kit #1 | B | skip | — | coop/campaign |
-| 950 | Imperial Steam | A | pending | — | 競爭型終局計分 |
+| 950 | Imperial Steam | A | done | [link](https://bghub.org/r/imperialsteam.pdf) | 官方 rulebook;貨物 10、樞紐 10/30/60/100 明文;股東 10% 要玩家自己計 |
 | 951 | Black Sonata | B | skip | — | coop/campaign |
 | 954 | Earth Reborn | B | skip | — | coop/campaign |
 | 957 | 878 Vikings: Invasions of England | B | skip | — | coop/campaign |
@@ -435,14 +435,14 @@
 | 964 | Abomination: The Heir of Frankenstein | A | pending | — | 競爭型終局計分 |
 | 965 | Warhammer: Invasion | B | skip | — | coop/campaign |
 | 968 | Red7 | B | skip | — | coop/campaign |
-| 969 | Cities | A | pending | — | 競爭型終局計分 |
+| 969 | Cities | A | done | [link](https://bghub.org/r/cities.pdf) | 官方 rulebook;水域/公園 1/3/6/10、紀念碑 2 分 明文 |
 | 971 | Middle-Earth Quest | B | skip | — | coop/campaign |
 | 973 | Disney Villainous: Perfectly Wretched | B | skip | — | coop/campaign |
 | 975 | Heroes of Land, Air & Sea | A | pending | — | 競爭型終局計分 |
 | 976 | Last Bastion | B | skip | — | coop/campaign |
 | 979 | Beast | B | skip | — | coop/campaign |
 | 980 | Not Alone | B | skip | — | coop/campaign |
-| 981 | Brazil: Imperial | A | pending | — | 競爭型終局計分 |
+| 981 | Brazil: Imperial | A | done | [link](https://bghub.org/r/brazilimperial.pdf) | 官方 rulebook;八類計分項,分值靠卡/板塊故 number |
 | 985 | A Gentle Rain | C | pending | — | 待研究判斷 |
 | 988 | EXIT: The Game – The Secret Lab | B | skip | — | coop/campaign |
 | 989 | FUSE | B | skip | — | coop/campaign |
