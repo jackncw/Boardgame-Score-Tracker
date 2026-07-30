@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-362452",
+ "name": "Atiwa",
+ "nameZh": "阿蒂瓦",
+ "theme": {
+  "accent": "#4A7A4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/atiwa.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中污染標記較少者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "gold",
+    "label": "黃金",
+    "note": "每個黃金 1 分",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "cards",
+    "label": "板面卡牌",
+    "note": "所有卡左上角分數加埋;留意部分地形卡係負分",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "supply",
+    "label": "供應板",
+    "note": "每行最右邊嗰個空格上嘅數字加埋;整行放滿嘅話該行 0 分。上限:野生動物 2、樹 6、果實 3、家庭 25、山羊 7",
+    "icon": "📋",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "trained",
+    "label": "已受訓家庭",
+    "note": "每個已受訓家庭 1 分",
+    "icon": "👨‍👩‍👧",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "bats",
+    "label": "果蝠",
+    "note": "超過 10 隻先計:總數減 10 就係分數;10 隻或以下計 0 分,唔會負分",
+    "icon": "🦇",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "missing_food",
+    "label": "食物短缺",
+    "note": "遊戲期間累積落嚟嘅缺糧負分",
+    "icon": "🍽️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

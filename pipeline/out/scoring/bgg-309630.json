@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-309630",
+ "name": "Small World of Warcraft",
+ "nameZh": "小小世界:魔獸世界",
+ "theme": {
+  "accent": "#4A7A3E"
+ },
+ "scoring": {
+  "source": "claude-code-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "coins",
+    "label": "勝利硬幣",
+    "note": "全程每回合收到嘅勝利硬幣總額",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

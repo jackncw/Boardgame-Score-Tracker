@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-227515",
+ "name": "Riverboat",
+ "nameZh": "河船",
+ "theme": {
+  "accent": "#6B8E9B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/riverboat.pdf",
+  "verified": false,
+  "tieBreaker": "同分者並列勝出",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中累積嘅 VP",
+    "note": "計分軌上遊戲期間得返嚟嘅分",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "harbor",
+    "label": "港口計分",
+    "note": "港口長行得最遠嗰位,佢經過或到達嘅每塊汽船磚計全額 VP(VP = 該船容量);其他人計一半,無條件進位。港口長身前嗰啲磚一律唔計",
+    "icon": "⚓",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "agents",
+    "label": "新奧爾良探員名次",
+    "note": "第一名 20 分、第二名 10 分、第三名 5 分、第四名 0 分;喺新奧爾良至少要有 1 個探員先有得計",
+    "icon": "🕵️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

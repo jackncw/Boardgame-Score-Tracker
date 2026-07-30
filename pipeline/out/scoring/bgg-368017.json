@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-368017",
+ "name": "Point City",
+ "nameZh": "點數城市",
+ "theme": {
+  "accent": "#4A6E9B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/pointcity.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中未用資源卡較多者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "建築卡分數",
+    "note": "已建成建築卡上面印住嘅分數總和",
+    "icon": "🏢",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "civic",
+    "label": "公民標記",
+    "note": "公民標記帶嚟嘅分數;只計永久資源,未用卡上嘅資源唔計",
+    "icon": "🎖️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

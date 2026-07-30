@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-340041",
+ "name": "Kingdomino Origins",
+ "nameZh": "骨牌王國:起源",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/kingdominoorigins.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "comfort",
+    "label": "舒適度分數",
+    "note": "基礎分:每片領地嘅格數 × 該片領地上嘅火焰數,全部加埋",
+    "icon": "🔥",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "骨牌上剩餘木製資源",
+    "note": "模式二:終局仲留喺骨牌上嘅每個木製資源 1 分(方格上嘅圖案唔算資源)",
+    "icon": "🪵",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "totems",
+    "label": "圖騰磚",
+    "note": "模式二:每塊圖騰磚上印住嘅獎勵分",
+    "icon": "🗿",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cavemen",
+    "label": "穴居人獎勵",
+    "note": "模式三:所有穴居人帶嚟嘅獎勵分",
+    "icon": "🧔",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "empire_fire",
+    "label": "火之帝國",
+    "note": "選用規則:茅屋喺領地正中 +10 分;領地未砌完但茅屋仍喺 5×5 正中一樣計",
+    "icon": "🏕️",
+    "color": "#F5E8D8",
+    "input": "bonus",
+    "value": 10
+   },
+   {
+    "id": "homo_habilis",
+    "label": "巧人",
+    "note": "選用規則:5×5 領地完整而且全程冇棄過骨牌 +5 分",
+    "icon": "🧬",
+    "color": "#E5E0D5",
+    "input": "bonus",
+    "value": 5
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

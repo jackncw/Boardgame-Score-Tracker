@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-318983",
+ "name": "Faiyum",
+ "nameZh": "法尤姆",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/faiyum.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中剩餘資源同金錢較多者勝",
+  "fields": [
+   {
+    "id": "reputation",
+    "label": "聲望",
+    "note": "聲望軌上嘅總數,聲望最多者勝",
+    "icon": "🏺",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
