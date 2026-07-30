@@ -22,7 +22,10 @@ for (const f of files) {
   // 額外檢查:spec / 今次任務要求,lib/validate.mjs 冇覆蓋嘅部分
   if (`${doc.gameId}.json` !== f) errs.push(`檔名同 gameId 唔夾(gameId=${doc.gameId})`);
   if (typeof doc.nameZh !== "string" || !doc.nameZh) errs.push("nameZh 缺失");
-  if (doc.scoring?.source !== "claude-code-gen") errs.push(`source 要係 claude-code-gen(而家:${doc.scoring?.source})`);
+  if (!["claude-code-gen", "rulebook-web"].includes(doc.scoring?.source))
+    errs.push(`source 要係 claude-code-gen / rulebook-web(而家:${doc.scoring?.source})`);
+  if (doc.scoring?.source === "rulebook-web" && !doc.scoring?.sourceUrl)
+    errs.push("source=rulebook-web 要有 sourceUrl");
   if (doc.scoring?.verified !== false) errs.push("verified 要係 false");
   if (!doc.scoring?.tieBreaker) errs.push("tieBreaker 缺失");
   for (const fl of doc.scoring?.fields ?? []) {
