@@ -9,6 +9,7 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const OUT = join(HERE, "..", "out");
 const SCORING = join(OUT, "scoring");
 const INDEX = join(OUT, "games-index.json");
+const RAW = join(OUT, "games-index-raw.json");
 const SKIPPED = join(OUT, "skipped.json");
 
 // ---- field helpers ----------------------------------------------------
@@ -45,8 +46,15 @@ export const b = (id, label, icon, color, value, note) =>
   ({ ...base(id, label, icon, color, note), input: "bonus", value });
 
 // ---- game def ---------------------------------------------------------
+/** 路徑 b —— 對終局計分 100% 肯定,直接生成 */
 export const game = (bggId, nameZh, accent, tieBreaker, fields) =>
   ({ bggId, nameZh, accent, tieBreaker, fields });
+
+/** 路徑 c —— 據網上官方 rulebook 生成,必須帶 sourceUrl */
+export const gameSrc = (bggId, nameZh, accent, tieBreaker, fields, sourceUrl) => {
+  if (!sourceUrl) throw new Error(`bggId=${bggId}:gameSrc 一定要有 sourceUrl`);
+  return { bggId, nameZh, accent, tieBreaker, fields, sourceUrl };
+};
 
 export const skip = (bggId, reason) => ({ bggId, reason, __skip: true });
 
@@ -59,16 +67,25 @@ export function writeBatch(entries) {
     if (!byId.has(g.bggId)) byId.set(g.bggId, []);
     byId.get(g.bggId).push(g);
   }
+  // index 未擴到 rank 3000 之前,rank>1000 嘅遊戲喺 games-index.json 仲未有 entry。
+  // 果陣由 games-index-raw.json 借 gameId/name 出嚟寫 scoring 檔,
+  // index 側嘅 hasScoring 等 02-fetch-meta + enrich-index.mjs 補。
+  const rawById = new Map(
+    (existsSync(RAW) ? JSON.parse(readFileSync(RAW, "utf8")) : [])
+      .map(g => [g.id, { bggId: g.id, gameId: `bgg-${g.id}`, rank: g.rank, name: g.name }])
+  );
+
   const skips = existsSync(SKIPPED) ? JSON.parse(readFileSync(SKIPPED, "utf8")) : [];
   const skipIds = new Set(skips.map(s => s.bggId));
 
-  let written = 0, skipped = 0;
+  let written = 0, skipped = 0, pendingIndex = 0;
   const kinds = { number: 0, counter: 0, tiered: 0, bonus: 0 };
 
   for (const e of entries) {
-    const rows = byId.get(e.bggId);
-    if (!rows) throw new Error(`index 搵唔到 bggId=${e.bggId}`);
-    const row = rows[0];
+    const rows = byId.get(e.bggId) ?? [];
+    const row = rows[0] ?? rawById.get(e.bggId);
+    if (!row) throw new Error(`index / raw index 都搵唔到 bggId=${e.bggId}`);
+    if (!rows.length) pendingIndex++;
 
     if (e.__skip) {
       for (const r of rows) r.hasScoring = false;
@@ -87,7 +104,8 @@ export function writeBatch(entries) {
       nameZh: e.nameZh,
       theme: { accent: e.accent },
       scoring: {
-        source: "claude-code-gen",
+        source: e.sourceUrl ? "rulebook-web" : "claude-code-gen",
+        ...(e.sourceUrl ? { sourceUrl: e.sourceUrl } : {}),
         verified: false,
         tieBreaker: e.tieBreaker,
         fields: e.fields,
@@ -113,4 +131,6 @@ export function writeBatch(entries) {
 
   const total = idx.filter(g => g.hasScoring).length;
   console.log(`寫入 ${written} 份,跳過 ${skipped} 隻 | field 類型 ${JSON.stringify(kinds)} | 總覆蓋 ${total}/${idx.length}`);
+  if (pendingIndex)
+    console.log(`  ⏳ 其中 ${pendingIndex} 隻 index 仲未有 entry(等 02-fetch-meta + enrich-index.mjs 補 hasScoring)`);
 }

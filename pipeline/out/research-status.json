@@ -4,6 +4,7 @@
   "bggId": 359609,
   "name": "Arkham Horror: The Card Game (Revised Core Set)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -13,6 +14,7 @@
   "bggId": 191189,
   "name": "Aeon's End",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -22,15 +24,17 @@
   "bggId": 391137,
   "name": "Galactic Cruise",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/galacticcruise.pdf",
   "note": "官方 Training Manual;各項分值靠板塊/卡片,全部 number"
  },
  {
-  "rank": 118,
+  "rank": 117,
   "bggId": 225694,
   "name": "Decrypto",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -40,6 +44,7 @@
   "bggId": 121921,
   "name": "Robinson Crusoe: Adventures on the Cursed Island",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -49,6 +54,7 @@
   "bggId": 217372,
   "name": "The Quest for El Dorado",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -58,6 +64,7 @@
   "bggId": 155821,
   "name": "Inis",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -67,15 +74,17 @@
   "bggId": 37111,
   "name": "Battlestar Galactica: The Board Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 128,
+  "rank": 129,
   "bggId": 310100,
   "name": "Nemesis: Lockdown",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -85,6 +94,7 @@
   "bggId": 429293,
   "name": "The Lord of the Rings: The Fellowship of the Ring – Trick-Taking Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -94,6 +104,7 @@
   "bggId": 264220,
   "name": "Tainted Grail: The Fall of Avalon",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -103,6 +114,7 @@
   "bggId": 146021,
   "name": "Eldritch Horror",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -112,6 +124,7 @@
   "bggId": 269385,
   "name": "The Lord of the Rings: Journeys in Middle-Earth",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -121,6 +134,7 @@
   "bggId": 218417,
   "name": "Aeon's End: War Eternal",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -130,6 +144,7 @@
   "bggId": 175155,
   "name": "Forbidden Stars",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -139,6 +154,7 @@
   "bggId": 254640,
   "name": "Just One",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -148,6 +164,7 @@
   "bggId": 325494,
   "name": "ISS Vanguard",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -157,6 +174,7 @@
   "bggId": 198928,
   "name": "Iberia",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -166,15 +184,17 @@
   "bggId": 178900,
   "name": "Codenames",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 164,
+  "rank": 163,
   "bggId": 356080,
   "name": "The Elder Scrolls: Betrayal of the Second Era",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -184,6 +204,7 @@
   "bggId": 235802,
   "name": "Too Many Bones: Undertow",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -193,42 +214,47 @@
   "bggId": 180263,
   "name": "The 7th Continent",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 170,
+  "rank": 169,
   "bggId": 358661,
   "name": "Andromeda's Edge",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://cardboardalchemy.com/downloads/AndromedasEdge_Rulebook_sm.pdf",
   "note": "官方 rulebook;受損模組 −2/個、領袖 1 分/個 有明文"
  },
  {
   "rank": 171,
-  "bggId": 220877,
-  "name": "Rajas of the Ganges",
-  "cat": "C",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
- },
- {
-  "rank": 172,
   "bggId": 463,
   "name": "Magic: The Gathering",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
+ },
+ {
+  "rank": 172,
+  "bggId": 220877,
+  "name": "Rajas of the Ganges",
+  "cat": "C",
+  "path": "-",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "待研究判斷"
  },
  {
   "rank": 174,
   "bggId": 30549,
   "name": "Pandemic",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -238,6 +264,7 @@
   "bggId": 147020,
   "name": "Star Realms",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -247,6 +274,7 @@
   "bggId": 249259,
   "name": "War Chest",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -256,6 +284,7 @@
   "bggId": 268864,
   "name": "Undaunted: Normandy",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -265,6 +294,7 @@
   "bggId": 77423,
   "name": "The Lord of the Rings: The Card Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -274,6 +304,7 @@
   "bggId": 274364,
   "name": "Watergate",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -283,15 +314,17 @@
   "bggId": 294484,
   "name": "Unmatched: Cobble & Fog",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 195,
+  "rank": 193,
   "bggId": 420033,
   "name": "Vantage",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -301,6 +334,7 @@
   "bggId": 146652,
   "name": "Legendary Encounters: An Alien Deck Building Game",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -310,15 +344,17 @@
   "bggId": 103885,
   "name": "Star Wars: X-Wing Miniatures Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 207,
+  "rank": 208,
   "bggId": 2511,
   "name": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -328,6 +364,7 @@
   "bggId": 283355,
   "name": "Dune",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -337,6 +374,7 @@
   "bggId": 329082,
   "name": "Radlands",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -346,6 +384,7 @@
   "bggId": 339789,
   "name": "Welcome to the Moon",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -355,6 +394,7 @@
   "bggId": 332686,
   "name": "John Company: Second Edition",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -364,33 +404,37 @@
   "bggId": 374173,
   "name": "Star Wars: The Deckbuilding Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 220,
-  "bggId": 188920,
-  "name": "This War of Mine: The Board Game",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 222,
   "bggId": 400366,
   "name": "Wondrous Creatures",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://drive.google.com/file/d/1_h2Mm0AcNhPVoM91SSdgqhNsuwVpFpOU/view",
   "note": "官方 rulebook v2.2;獎盃 3 分、資源每 4 個 1 分 有明文"
+ },
+ {
+  "rank": 221,
+  "bggId": 188920,
+  "name": "This War of Mine: The Board Game",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
  },
  {
   "rank": 223,
   "bggId": 9609,
   "name": "War of the Ring",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -400,6 +444,7 @@
   "bggId": 342070,
   "name": "Thunder Road: Vendetta",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -409,69 +454,77 @@
   "bggId": 256680,
   "name": "Return to Dark Tower",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 231,
-  "bggId": 104162,
-  "name": "Descent: Journeys in the Dark (Second Edition)",
-  "cat": "B",
-  "result": "skip",
+  "rank": 230,
+  "bggId": 375459,
+  "name": "Speakeasy",
+  "cat": "A",
+  "path": "-",
+  "result": "no-source",
   "sourceUrl": "",
-  "note": "coop/campaign"
+  "note": "Lacerda 2025 新作,官方 rulebook 未公開下載;BGG files 需登入"
  },
  {
   "rank": 232,
-  "bggId": 39463,
-  "name": "Cosmic Encounter",
+  "bggId": 104162,
+  "name": "Descent: Journeys in the Dark (Second Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 233,
-  "bggId": 375459,
-  "name": "Speakeasy",
-  "cat": "A",
-  "result": "no-source",
+  "bggId": 39463,
+  "name": "Cosmic Encounter",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "Lacerda 2025 新作,官方 rulebook 未公開下載;BGG files 需登入"
+  "note": "coop/campaign"
  },
  {
   "rank": 235,
   "bggId": 300531,
   "name": "Paleo",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 238,
-  "bggId": 128882,
-  "name": "The Resistance: Avalon",
+  "bggId": 367150,
+  "name": "Dune: War for Arrakis",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 239,
-  "bggId": 103343,
-  "name": "A Game of Thrones: The Board Game (Second Edition)",
+  "bggId": 128882,
+  "name": "The Resistance: Avalon",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 241,
-  "bggId": 367150,
-  "name": "Dune: War for Arrakis",
+  "rank": 240,
+  "bggId": 103343,
+  "name": "A Game of Thrones: The Board Game (Second Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -481,6 +534,7 @@
   "bggId": 282524,
   "name": "Horrified",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -490,15 +544,17 @@
   "bggId": 171131,
   "name": "Captain Sonar",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 256,
+  "rank": 255,
   "bggId": 150376,
   "name": "Dead of Winter: A Crossroads Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -508,6 +564,7 @@
   "bggId": 241451,
   "name": "Aeon's End: Legacy",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -517,6 +574,7 @@
   "bggId": 7854,
   "name": "YINSH",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -526,6 +584,7 @@
   "bggId": 306735,
   "name": "Under Falling Skies",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -535,6 +594,7 @@
   "bggId": 91,
   "name": "Paths of Glory",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -544,6 +604,7 @@
   "bggId": 182631,
   "name": "Star Realms: Colony Wars",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -553,6 +614,7 @@
   "bggId": 188834,
   "name": "Secret Hitler",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -562,6 +624,7 @@
   "bggId": 329839,
   "name": "So Clover!",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -571,6 +634,7 @@
   "bggId": 295486,
   "name": "My City",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -580,6 +644,7 @@
   "bggId": 54998,
   "name": "Cyclades",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -589,6 +654,7 @@
   "bggId": 224037,
   "name": "Codenames: Duet",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -598,42 +664,47 @@
   "bggId": 21050,
   "name": "Combat Commander: Europe",
   "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 281,
+  "bggId": 381248,
+  "name": "Nemesis: Retaliation",
+  "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 283,
-  "bggId": 129437,
-  "name": "Legendary: A Marvel Deck Building Game",
-  "cat": "A",
-  "result": "done",
-  "sourceUrl": "https://gamerules.com/rules/marvel-legendary/",
-  "note": "非出版社原文(gamerules.com);只有旁觀者 1 分係明文"
- },
- {
-  "rank": 284,
   "bggId": 3,
   "name": "Samurai",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
-  "rank": 286,
-  "bggId": 381248,
-  "name": "Nemesis: Retaliation",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
+  "rank": 284,
+  "bggId": 129437,
+  "name": "Legendary: A Marvel Deck Building Game",
+  "cat": "A",
+  "path": "-",
+  "result": "done",
+  "sourceUrl": "https://gamerules.com/rules/marvel-legendary/",
+  "note": "非出版社原文(gamerules.com);只有旁觀者 1 分係明文"
  },
  {
   "rank": 289,
   "bggId": 199478,
   "name": "Flamme Rouge",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -643,6 +714,7 @@
   "bggId": 156129,
   "name": "Deception: Murder in Hong Kong",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -652,6 +724,7 @@
   "bggId": 176189,
   "name": "Zombicide: Black Plague",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -661,24 +734,27 @@
   "bggId": 274637,
   "name": "Unmatched: Battle of Legends, Volume One",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 295,
+  "rank": 294,
   "bggId": 318977,
   "name": "MicroMacro: Crime City",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 300,
+  "rank": 301,
   "bggId": 270633,
   "name": "Aeon's End: The New Age",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -688,6 +764,7 @@
   "bggId": 329500,
   "name": "Unconscious Mind",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://fantasiaboardgames.com/wp-content/uploads/2024/11/UM-Rulebook-250x250mm_v2_WEB.pdf",
   "note": "官方 rulebook;心形盒 2 分、靈感 1 分 有明文"
@@ -697,42 +774,47 @@
   "bggId": 198994,
   "name": "Hero Realms",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 313,
+  "rank": 311,
   "bggId": 446497,
   "name": "Hot Streak",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
   "rank": 314,
-  "bggId": 194655,
-  "name": "Santorini",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 316,
   "bggId": 434654,
   "name": "Toy Battle",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
-  "rank": 319,
+  "rank": 315,
+  "bggId": 194655,
+  "name": "Santorini",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 317,
   "bggId": 230253,
   "name": "Star Realms: Frontiers",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -742,15 +824,17 @@
   "bggId": 400314,
   "name": "Apiary",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/apiary.pdf",
   "note": "官方 rulebook r10;各項分值靠板塊/卡片故 number"
  },
  {
-  "rank": 324,
+  "rank": 323,
   "bggId": 349067,
   "name": "The Lord of the Rings: The Card Game – Revised Core Set",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -760,6 +844,7 @@
   "bggId": 284653,
   "name": "Mind MGMT: The Psychic Espionage “Game.”",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -769,6 +854,7 @@
   "bggId": 244271,
   "name": "Dice Throne: Season Two – Battle Chest",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -778,6 +864,7 @@
   "bggId": 356123,
   "name": "Turing Machine",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -787,6 +874,7 @@
   "bggId": 370591,
   "name": "Dorfromantik: The Board Game",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -796,51 +884,57 @@
   "bggId": 331106,
   "name": "The Witcher: Old World",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 332,
-  "bggId": 760,
-  "name": "Battle Line",
+  "bggId": 262211,
+  "name": "Cloudspire",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 333,
-  "bggId": 291572,
-  "name": "Oath",
+  "bggId": 760,
+  "name": "Battle Line",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 334,
-  "bggId": 298047,
-  "name": "Marvel United",
+  "bggId": 140620,
+  "name": "Lewis & Clark: The Expedition",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 335,
-  "bggId": 140620,
-  "name": "Lewis & Clark: The Expedition",
+  "bggId": 291572,
+  "name": "Oath",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 336,
-  "bggId": 262211,
-  "name": "Cloudspire",
+  "bggId": 298047,
+  "name": "Marvel United",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -850,6 +944,7 @@
   "bggId": 2655,
   "name": "Hive",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -859,6 +954,7 @@
   "bggId": 27708,
   "name": "1960: The Making of the President",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -868,15 +964,17 @@
   "bggId": 246784,
   "name": "Cryptid",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 344,
+  "rank": 346,
   "bggId": 223321,
   "name": "Detective: A Modern Crime Board Game",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -886,6 +984,7 @@
   "bggId": 239188,
   "name": "Chronicles of Crime",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -895,6 +994,7 @@
   "bggId": 46213,
   "name": "Telestrations",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -904,6 +1004,7 @@
   "bggId": 332800,
   "name": "Summoner Wars (Second Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -913,6 +1014,7 @@
   "bggId": 257499,
   "name": "Arkham Horror (Third Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -922,6 +1024,7 @@
   "bggId": 333255,
   "name": "Keep the Heroes Out!",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -931,6 +1034,7 @@
   "bggId": 146508,
   "name": "T.I.M.E Stories",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -940,6 +1044,7 @@
   "bggId": 160477,
   "name": "Onitama",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -949,6 +1054,7 @@
   "bggId": 276182,
   "name": "Dead Reckoning",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/deadreckoning.pdf",
   "note": "官方 rulebook;建築 1、基本升級 1、進階升級 2 明文"
@@ -958,42 +1064,47 @@
   "bggId": 417197,
   "name": "Rebirth",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/rebirth.pdf",
   "note": "官方 rulebook;城堡 5 分 明文"
  },
  {
-  "rank": 366,
-  "bggId": 308119,
-  "name": "Pax Renaissance: 2nd Edition",
+  "rank": 365,
+  "bggId": 454103,
+  "name": "Magical Athlete",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 367,
-  "bggId": 411567,
-  "name": "The Gang",
+  "bggId": 302723,
+  "name": "Forgotten Waters",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 368,
-  "bggId": 302723,
-  "name": "Forgotten Waters",
+  "bggId": 308119,
+  "name": "Pax Renaissance: 2nd Edition",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 370,
-  "bggId": 454103,
-  "name": "Magical Athlete",
+  "rank": 369,
+  "bggId": 411567,
+  "name": "The Gang",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1003,42 +1114,47 @@
   "bggId": 155068,
   "name": "Arcadia Quest",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 375,
-  "bggId": 319966,
-  "name": "The King Is Dead: Second Edition",
-  "cat": "C",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
- },
- {
-  "rank": 376,
   "bggId": 354934,
   "name": "Legacy of Yu",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
+ },
+ {
+  "rank": 376,
+  "bggId": 319966,
+  "name": "The King Is Dead: Second Edition",
+  "cat": "C",
+  "path": "-",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "待研究判斷"
  },
  {
   "rank": 379,
   "bggId": 311988,
   "name": "Frostpunk: The Board Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 380,
+  "rank": 381,
   "bggId": 63888,
   "name": "Innovation",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1048,24 +1164,27 @@
   "bggId": 38453,
   "name": "Space Alert",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 390,
+  "rank": 389,
   "bggId": 384213,
   "name": "Fromage",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/fromage.pdf",
   "note": "官方 rulebook;四個場地查板上表故用 number"
  },
  {
-  "rank": 393,
+  "rank": 391,
   "bggId": 408180,
   "name": "Shackleton Base: A Journey to the Moon",
   "cat": "A",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "競爭型終局計分"
@@ -1075,15 +1194,17 @@
   "bggId": 245655,
   "name": "The King's Dilemma",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
-  "rank": 402,
+  "rank": 401,
   "bggId": 271601,
   "name": "Feed the Kraken",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1093,6 +1214,7 @@
   "bggId": 336382,
   "name": "Marvel United: X-Men",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1102,6 +1224,7 @@
   "bggId": 219650,
   "name": "Arydia: The Paths We Dare Tread",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1111,6 +1234,7 @@
   "bggId": 181279,
   "name": "Fury of Dracula (Third/Fourth Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1120,6 +1244,7 @@
   "bggId": 188866,
   "name": "Awkward Guests: The Walton Case",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1129,6 +1254,7 @@
   "bggId": 187617,
   "name": "Nemo's War (Second Edition)",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -1138,6 +1264,7 @@
   "bggId": 93260,
   "name": "Summoner Wars: Master Set",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1147,6 +1274,7 @@
   "bggId": 285192,
   "name": "Destinies",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1156,6 +1284,7 @@
   "bggId": 48726,
   "name": "Alien Frontiers",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -1165,6 +1294,7 @@
   "bggId": 59294,
   "name": "Runewars",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1174,6 +1304,7 @@
   "bggId": 21241,
   "name": "Neuroshima Hex",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1183,6 +1314,7 @@
   "bggId": 203420,
   "name": "EXIT: The Game – The Abandoned Cabin",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1192,15 +1324,27 @@
   "bggId": 368173,
   "name": "Let's Go! To Japan",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/letsgotojapan.pdf",
   "note": "官方 rulebook;研究標記 1 分 明文"
  },
  {
   "rank": 423,
+  "bggId": 436126,
+  "name": "Finspan",
+  "cat": "A",
+  "path": "-",
+  "result": "done",
+  "sourceUrl": "https://thetablepriest.com/wp-content/uploads/2025/01/Finspan-Rulebook-EN.pdf",
+  "note": "官方 rulebook;被吃魚/卵/幼魚 1 分、魚群 6 分 明文"
+ },
+ {
+  "rank": 424,
   "bggId": 172081,
   "name": "Burgle Bros.",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1210,24 +1354,17 @@
   "bggId": 345584,
   "name": "Mindbug: First Contact",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
- },
- {
-  "rank": 427,
-  "bggId": 436126,
-  "name": "Finspan",
-  "cat": "A",
-  "result": "done",
-  "sourceUrl": "https://thetablepriest.com/wp-content/uploads/2025/01/Finspan-Rulebook-EN.pdf",
-  "note": "官方 rulebook;被吃魚/卵/幼魚 1 分、魚群 6 分 明文"
  },
  {
   "rank": 428,
   "bggId": 274638,
   "name": "Unmatched: Robin Hood vs. Bigfoot",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1237,6 +1374,7 @@
   "bggId": 193037,
   "name": "Dead of Winter: The Long Night",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1246,15 +1384,17 @@
   "bggId": 77130,
   "name": "Sid Meier's Civilization: The Board Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 435,
+  "rank": 436,
   "bggId": 40354,
   "name": "Maria",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1264,6 +1404,7 @@
   "bggId": 372,
   "name": "Schotten Totten",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1273,6 +1414,7 @@
   "bggId": 334986,
   "name": "Daybreak",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1282,6 +1424,7 @@
   "bggId": 59959,
   "name": "Letters from Whitechapel",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1291,6 +1434,7 @@
   "bggId": 13122,
   "name": "Antiquity",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1300,24 +1444,27 @@
   "bggId": 334590,
   "name": "For Northwood! A Solo Trick-Taking Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 451,
-  "bggId": 181304,
-  "name": "Mysterium",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 454,
+  "rank": 450,
   "bggId": 319910,
   "name": "Pagan: Fate of Roanoke",
   "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 452,
+  "bggId": 181304,
+  "name": "Mysterium",
+  "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1327,6 +1474,7 @@
   "bggId": 199042,
   "name": "Harry Potter: Hogwarts Battle",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1336,6 +1484,7 @@
   "bggId": 171,
   "name": "Chess",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1345,6 +1494,7 @@
   "bggId": 37046,
   "name": "Ghost Stories",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1354,6 +1504,7 @@
   "bggId": 41114,
   "name": "The Resistance",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1363,6 +1514,7 @@
   "bggId": 386368,
   "name": "Ezra and Nehemiah",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/ezraandnehemiah.pdf",
   "note": "官方 rulebook;發展板塊 2 分、祭壇領先 3 分 明文"
@@ -1372,6 +1524,7 @@
   "bggId": 342900,
   "name": "Earthborne Rangers",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1381,6 +1534,7 @@
   "bggId": 368305,
   "name": "Life of the Amazonia",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/lifeoftheamazonia.pdf",
   "note": "官方 rulebook;種子 1 分、最後玩家 5 分 明文"
@@ -1390,42 +1544,47 @@
   "bggId": 290484,
   "name": "Unsettled",
   "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 474,
-  "bggId": 335764,
-  "name": "Unmatched: Battle of Legends, Volume Two",
-  "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 475,
-  "bggId": 206480,
-  "name": "Imperial Struggle",
-  "cat": "C",
-  "result": "pending",
+  "bggId": 335764,
+  "name": "Unmatched: Battle of Legends, Volume Two",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "coop/campaign"
  },
  {
   "rank": 476,
   "bggId": 385610,
   "name": "Kutná Hora: The City of Silver",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://filemanager.czechgames.com/storage/files/kutna-hora-the-city-of-silver/rules/kutna-hora-rules-en.pdf",
   "note": "CGE 官方 rulebook;收入 ÷10、其他剩餘 1 分明文"
  },
  {
   "rank": 477,
+  "bggId": 206480,
+  "name": "Imperial Struggle",
+  "cat": "C",
+  "path": "-",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "待研究判斷"
+ },
+ {
+  "rank": 478,
   "bggId": 260428,
   "name": "Fall of Rome",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1435,15 +1594,17 @@
   "bggId": 365258,
   "name": "World Wonders",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/worldwonders.pdf",
   "note": "官方 rulebook;天然資源/城區 1 分、貸款 −2 明文"
  },
  {
-  "rank": 481,
+  "rank": 482,
   "bggId": 367498,
   "name": "Horizons of Spirit Island",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1453,15 +1614,17 @@
   "bggId": 163745,
   "name": "Star Wars: Armada",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 484,
+  "rank": 485,
   "bggId": 318243,
   "name": "Hitster",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1471,6 +1634,7 @@
   "bggId": 352515,
   "name": "Trio",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1480,6 +1644,7 @@
   "bggId": 15987,
   "name": "Arkham Horror",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1489,15 +1654,17 @@
   "bggId": 322708,
   "name": "Descent: Legends of the Dark",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 494,
+  "rank": 493,
   "bggId": 379629,
   "name": "Knarr",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/knarr.pdf",
   "note": "官方 rulebook;冇終局結算,只有計分軌一個 field"
@@ -1507,6 +1674,7 @@
   "bggId": 92415,
   "name": "Skull",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1516,69 +1684,77 @@
   "bggId": 222509,
   "name": "Lords of Hellas",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 498,
-  "bggId": 234,
-  "name": "Hannibal: Rome vs. Carthage",
+  "bggId": 381297,
+  "name": "Unmatched Adventures: Tales to Amaze",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 499,
-  "bggId": 381297,
-  "name": "Unmatched Adventures: Tales to Amaze",
+  "bggId": 234,
+  "name": "Hannibal: Rome vs. Carthage",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 501,
-  "bggId": 286751,
-  "name": "Zombicide: 2nd Edition",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 504,
+  "rank": 500,
   "bggId": 425549,
   "name": "Moon Colony Bloodbath",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
+ },
+ {
+  "rank": 502,
+  "bggId": 286751,
+  "name": "Zombicide: 2nd Edition",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
  },
  {
   "rank": 505,
   "bggId": 315610,
   "name": "Massive Darkness 2: Hellscape",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 506,
-  "bggId": 101721,
-  "name": "Mage Wars Arena",
+  "bggId": 316412,
+  "name": "The LOOP",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 507,
-  "bggId": 316412,
-  "name": "The LOOP",
+  "bggId": 101721,
+  "name": "Mage Wars Arena",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1588,6 +1764,7 @@
   "bggId": 198773,
   "name": "Codenames: Pictures",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1597,6 +1774,7 @@
   "bggId": 298069,
   "name": "Cubitos",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1606,6 +1784,7 @@
   "bggId": 404431,
   "name": "Men-Nefer",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/mennefer.pdf",
   "note": "官方 rulebook;各項查板上軌道故用 number"
@@ -1615,6 +1794,7 @@
   "bggId": 138161,
   "name": "Firefly: The Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1624,15 +1804,17 @@
   "bggId": 150,
   "name": "PitchCar",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 531,
+  "rank": 530,
   "bggId": 422732,
   "name": "Agent Avenue",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -1642,6 +1824,7 @@
   "bggId": 325635,
   "name": "Unmatched: Little Red Riding Hood vs. Beowulf",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1651,69 +1834,87 @@
   "bggId": 262543,
   "name": "Wavelength",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 536,
+  "bggId": 371330,
+  "name": "Luthier",
+  "cat": "A",
+  "path": "-",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/luthier.pdf",
+  "note": "官方 rulebook;專長工人 1 分明文,首席對照表未列故 number"
+ },
+ {
+  "rank": 537,
   "bggId": 355093,
   "name": "Woodcraft",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/woodcraft.pdf",
   "note": "官方 rulebook;剩餘每 10 個 1 分明文"
  },
  {
-  "rank": 537,
+  "rank": 538,
   "bggId": 338834,
   "name": "MicroMacro: Crime City – Full House",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
- },
- {
-  "rank": 538,
-  "bggId": 371330,
-  "name": "Luthier",
-  "cat": "A",
-  "result": "done",
-  "sourceUrl": "https://bghub.org/r/luthier.pdf",
-  "note": "官方 rulebook;專長工人 1 分明文,首席對照表未列故 number"
  },
  {
   "rank": 539,
   "bggId": 71,
   "name": "Civilization",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 541,
+  "rank": 540,
   "bggId": 156858,
   "name": "Black Orchestra",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 544,
+  "bggId": 424219,
+  "name": "Zenith",
+  "cat": "C",
+  "path": "-",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "待研究判斷"
+ },
+ {
+  "rank": 545,
   "bggId": 100901,
   "name": "Flash Point: Fire Rescue",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 546,
+  "rank": 548,
   "bggId": 186751,
   "name": "Mythic Battles: Pantheon",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1723,33 +1924,27 @@
   "bggId": 251658,
   "name": "Sprawlopolis",
   "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 550,
-  "bggId": 170771,
-  "name": "Sword & Sorcery: Immortal Souls",
-  "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 551,
-  "bggId": 17392,
-  "name": "Here I Stand",
-  "cat": "C",
-  "result": "pending",
+  "bggId": 170771,
+  "name": "Sword & Sorcery: Immortal Souls",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "coop/campaign"
  },
  {
   "rank": 552,
-  "bggId": 424219,
-  "name": "Zenith",
+  "bggId": 17392,
+  "name": "Here I Stand",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -1759,6 +1954,7 @@
   "bggId": 307002,
   "name": "Regicide",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1768,6 +1964,7 @@
   "bggId": 54625,
   "name": "Space Hulk (Third Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1777,6 +1974,7 @@
   "bggId": 18833,
   "name": "The Lord of the Rings: The Confrontation",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1786,33 +1984,37 @@
   "bggId": 295564,
   "name": "Unmatched Game System",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 560,
-  "bggId": 144189,
-  "name": "Fire in the Lake",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 562,
   "bggId": 383607,
   "name": "Barcelona",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/barcelona.pdf",
   "note": "官方 rulebook;三項終局全部查板上表"
+ },
+ {
+  "rank": 561,
+  "bggId": 144189,
+  "name": "Fire in the Lake",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
  },
  {
   "rank": 564,
   "bggId": 192153,
   "name": "Reign of Cthulhu",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1822,6 +2024,7 @@
   "bggId": 204305,
   "name": "Sherlock Holmes Consulting Detective: Jack the Ripper & West End Adventures",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -1831,15 +2034,17 @@
   "bggId": 124708,
   "name": "Mice and Mystics",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 574,
+  "rank": 573,
   "bggId": 256952,
   "name": "Zombie Kidz Evolution",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1849,24 +2054,27 @@
   "bggId": 406652,
   "name": "Compile: Main 1",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 576,
-  "bggId": 11170,
-  "name": "Heroscape Master Set: Rise of the Valkyrie",
+  "bggId": 290359,
+  "name": "Undaunted: North Africa",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 580,
-  "bggId": 290359,
-  "name": "Undaunted: North Africa",
+  "rank": 577,
+  "bggId": 11170,
+  "name": "Heroscape Master Set: Rise of the Valkyrie",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1876,6 +2084,7 @@
   "bggId": 175095,
   "name": "Dawn of the Zeds (Third Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1885,6 +2094,7 @@
   "bggId": 242705,
   "name": "Aeon Trespass: Odyssey",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1894,42 +2104,47 @@
   "bggId": 36932,
   "name": "Claustrophobia",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 585,
+  "rank": 586,
   "bggId": 121,
   "name": "Dune",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
+ },
+ {
+  "rank": 587,
+  "bggId": 357873,
+  "name": "The Old King's Crown",
+  "cat": "C",
+  "path": "-",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "待研究判斷"
  },
  {
   "rank": 588,
   "bggId": 243,
   "name": "Advanced Squad Leader",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
- },
- {
-  "rank": 591,
-  "bggId": 357873,
-  "name": "The Old King's Crown",
-  "cat": "C",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
  },
  {
   "rank": 592,
   "bggId": 239942,
   "name": "Black Rose Wars",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -1939,6 +2154,7 @@
   "bggId": 43570,
   "name": "Friday",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1948,6 +2164,7 @@
   "bggId": 169427,
   "name": "Middara: Unintentional Malum – Act 1",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1957,6 +2174,7 @@
   "bggId": 15062,
   "name": "Shadows over Camelot",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1966,6 +2184,7 @@
   "bggId": 371433,
   "name": "Terrorscape",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1975,6 +2194,7 @@
   "bggId": 98778,
   "name": "Hanabi",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -1984,42 +2204,47 @@
   "bggId": 440540,
   "name": "Take Time",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
-  "rank": 608,
+  "rank": 606,
   "bggId": 424981,
   "name": "Eternal Decks",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
   "rank": 610,
-  "bggId": 340466,
-  "name": "Unfathomable",
+  "bggId": 415776,
+  "name": "Kingdom Legacy: Feudal Kingdom",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 611,
-  "bggId": 415776,
-  "name": "Kingdom Legacy: Feudal Kingdom",
+  "bggId": 226522,
+  "name": "EXIT: The Game – Dead Man on the Orient Express",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 612,
-  "bggId": 226522,
-  "name": "EXIT: The Game – Dead Man on the Orient Express",
+  "bggId": 340466,
+  "name": "Unfathomable",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2029,6 +2254,7 @@
   "bggId": 136063,
   "name": "Forbidden Desert",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2038,6 +2264,7 @@
   "bggId": 233312,
   "name": "Stuffed Fables",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2047,6 +2274,7 @@
   "bggId": 348450,
   "name": "Lacrimosa",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/lacrimosa.pdf",
   "note": "官方 rulebook;故事點每 2 分、金錢每 3 分 明文"
@@ -2056,6 +2284,7 @@
   "bggId": 193042,
   "name": "Junk Art",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2065,6 +2294,7 @@
   "bggId": 150658,
   "name": "Pandemic: The Cure",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2074,6 +2304,7 @@
   "bggId": 83330,
   "name": "Mansions of Madness",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2083,6 +2314,7 @@
   "bggId": 380619,
   "name": "Cyclades: Legendary Edition",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2092,6 +2324,7 @@
   "bggId": 240196,
   "name": "Betrayal Legacy",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2101,15 +2334,17 @@
   "bggId": 17226,
   "name": "Descent: Journeys in the Dark",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 633,
+  "rank": 634,
   "bggId": 387866,
   "name": "Star Wars: Unlimited",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2119,6 +2354,7 @@
   "bggId": 105134,
   "name": "Risk Legacy",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2128,6 +2364,7 @@
   "bggId": 284435,
   "name": "Nova Luna",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2137,6 +2374,7 @@
   "bggId": 84419,
   "name": "Space Empires 4X",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2146,6 +2384,7 @@
   "bggId": 712,
   "name": "Blood Bowl (Third Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2155,6 +2394,7 @@
   "bggId": 197376,
   "name": "Charterstone",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -2164,6 +2404,7 @@
   "bggId": 144797,
   "name": "Argent: The Consortium",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -2173,15 +2414,17 @@
   "bggId": 218074,
   "name": "Detective: City of Angels",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 647,
+  "rank": 648,
   "bggId": 177639,
   "name": "Raptor",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2191,60 +2434,67 @@
   "bggId": 91312,
   "name": "Discworld: Ankh-Morpork",
   "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 653,
-  "bggId": 62227,
-  "name": "Labyrinth: The War on Terror, 2001 – ?",
-  "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 654,
-  "bggId": 31999,
-  "name": "TZAAR",
+  "bggId": 62227,
+  "name": "Labyrinth: The War on Terror, 2001 – ?",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 656,
-  "bggId": 18,
-  "name": "RoboRally",
+  "rank": 655,
+  "bggId": 31999,
+  "name": "TZAAR",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 657,
+  "bggId": 18,
+  "name": "RoboRally",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 658,
   "bggId": 252328,
   "name": "Star Wars: X-Wing (Second Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 660,
-  "bggId": 296237,
-  "name": "Warp's Edge",
+  "bggId": 307305,
+  "name": "Bullet♥︎",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 661,
-  "bggId": 307305,
-  "name": "Bullet♥︎",
+  "bggId": 296237,
+  "name": "Warp's Edge",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2254,6 +2504,7 @@
   "bggId": 128996,
   "name": "1775: Rebellion",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2263,6 +2514,7 @@
   "bggId": 146791,
   "name": "Shadows of Brimstone: City of the Ancients",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2272,6 +2524,7 @@
   "bggId": 181530,
   "name": "Runebound (Third Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2281,6 +2534,7 @@
   "bggId": 280794,
   "name": "Etherfields",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2290,24 +2544,27 @@
   "bggId": 171668,
   "name": "The Grizzled",
   "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 676,
+  "bggId": 97842,
+  "name": "Last Will",
+  "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 677,
-  "bggId": 97842,
-  "name": "Last Will",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 678,
   "bggId": 284777,
   "name": "Unmatched: Jurassic Park – InGen vs Raptors",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2317,42 +2574,47 @@
   "bggId": 2346,
   "name": "DVONN",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 682,
+  "rank": 681,
   "bggId": 119506,
   "name": "Freedom: The Underground Railroad",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 683,
-  "bggId": 127398,
-  "name": "Legends of Andor",
+  "rank": 684,
+  "bggId": 362944,
+  "name": "War of the Ring: The Card Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 685,
-  "bggId": 147949,
-  "name": "One Night Ultimate Werewolf",
+  "bggId": 127398,
+  "name": "Legends of Andor",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 686,
-  "bggId": 362944,
-  "name": "War of the Ring: The Card Game",
+  "bggId": 147949,
+  "name": "One Night Ultimate Werewolf",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2362,6 +2624,7 @@
   "bggId": 248490,
   "name": "Atlantis Rising (Second Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2371,24 +2634,27 @@
   "bggId": 256999,
   "name": "Project: ELITE",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 693,
-  "bggId": 102652,
-  "name": "Sentinels of the Multiverse",
+  "bggId": 15985,
+  "name": "Blood Bowl: Living Rulebook",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 694,
-  "bggId": 15985,
-  "name": "Blood Bowl: Living Rulebook",
+  "bggId": 102652,
+  "name": "Sentinels of the Multiverse",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2398,87 +2664,97 @@
   "bggId": 328866,
   "name": "My Father's Work",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
   "rank": 697,
-  "bggId": 22827,
-  "name": "StarCraft: The Board Game",
-  "cat": "C",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
- },
- {
-  "rank": 698,
   "bggId": 133848,
   "name": "Euphoria: Build a Better Dystopia",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
+ },
+ {
+  "rank": 698,
+  "bggId": 22827,
+  "name": "StarCraft: The Board Game",
+  "cat": "C",
+  "path": "-",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "待研究判斷"
  },
  {
   "rank": 702,
   "bggId": 213460,
   "name": "Unlock!: Escape Adventures",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 704,
+  "rank": 703,
   "bggId": 354570,
   "name": "Undaunted: Stalingrad",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 706,
-  "bggId": 105551,
-  "name": "Archipelago",
+  "bggId": 281655,
+  "name": "High Frontier 4 All",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
   "rank": 707,
-  "bggId": 281655,
-  "name": "High Frontier 4 All",
+  "bggId": 105551,
+  "name": "Archipelago",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
   "rank": 708,
-  "bggId": 699,
-  "name": "HeroQuest",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 709,
   "bggId": 345868,
   "name": "Federation",
   "cat": "A",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "競爭型終局計分"
+ },
+ {
+  "rank": 709,
+  "bggId": 699,
+  "name": "HeroQuest",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
  },
  {
   "rank": 713,
   "bggId": 151022,
   "name": "Baseball Highlights: 2045",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2488,15 +2764,17 @@
   "bggId": 216734,
   "name": "Dice Throne: Season One",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 718,
+  "rank": 715,
   "bggId": 355483,
   "name": "Wandering Towers",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2506,159 +2784,177 @@
   "bggId": 131357,
   "name": "Coup",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 720,
+  "bggId": 456440,
+  "name": "Cozy Stickerville",
+  "cat": "C",
+  "path": "-",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "待研究判斷"
+ },
+ {
+  "rank": 722,
   "bggId": 133038,
   "name": "Pathfinder Adventure Card Game: Rise of the Runelords – Base Set",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 723,
+  "rank": 725,
   "bggId": 403441,
   "name": "Windmill Valley",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/windmill-valley.pdf",
   "note": "官方 rulebook;球莖顏色 1/1/2/2/3 分明文"
  },
  {
-  "rank": 726,
+  "rank": 727,
   "bggId": 363247,
   "name": "Azul: Master Chocolatier",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/azul-master-chocolatier.pdf",
   "note": "官方 rulebook;橫行 2、直行 7、集色 10 分 明文"
- },
- {
-  "rank": 727,
-  "bggId": 266121,
-  "name": "Unlock!: Heroic Adventures",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
  },
  {
   "rank": 728,
   "bggId": 399941,
   "name": "River of Gold",
   "cat": "A",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "競爭型終局計分"
  },
  {
   "rank": 729,
-  "bggId": 193949,
-  "name": "Star Trek: Ascendancy",
-  "cat": "B",
-  "result": "skip",
+  "bggId": 422541,
+  "name": "Star Trek: Captain's Chair",
+  "cat": "C",
+  "path": "-",
+  "result": "pending",
   "sourceUrl": "",
-  "note": "coop/campaign"
+  "note": "待研究判斷"
  },
  {
   "rank": 730,
-  "bggId": 130960,
-  "name": "Triumph & Tragedy: European Balance of Power 1936-1945",
+  "bggId": 266121,
+  "name": "Unlock!: Heroic Adventures",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 731,
-  "bggId": 456440,
-  "name": "Cozy Stickerville",
-  "cat": "C",
-  "result": "pending",
+  "bggId": 444481,
+  "name": "Star Wars: Battle of Hoth",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "coop/campaign"
  },
  {
   "rank": 732,
+  "bggId": 193949,
+  "name": "Star Trek: Ascendancy",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 733,
   "bggId": 298231,
   "name": "Skyrise",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/skyrise.pdf",
   "note": "官方 rulebook;島嶼 5 分、大細鑰匙 10/4 分 明文"
  },
  {
-  "rank": 733,
-  "bggId": 337765,
-  "name": "Brian Boru: High King of Ireland",
-  "cat": "A",
-  "result": "done",
-  "sourceUrl": "https://bghub.org/r/brian-boru-high-king-of-ireland.pdf",
-  "note": "官方 rulebook;地區數對照表 0/1/3/5/7/10 明文,用 tiered"
- },
- {
   "rank": 734,
-  "bggId": 444481,
-  "name": "Star Wars: Battle of Hoth",
+  "bggId": 130960,
+  "name": "Triumph & Tragedy: European Balance of Power 1936-1945",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 735,
-  "bggId": 422541,
-  "name": "Star Trek: Captain's Chair",
-  "cat": "C",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "bggId": 337765,
+  "name": "Brian Boru: High King of Ireland",
+  "cat": "A",
+  "path": "-",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/brian-boru-high-king-of-ireland.pdf",
+  "note": "官方 rulebook;地區數對照表 0/1/3/5/7/10 明文,用 tiered"
  },
  {
-  "rank": 739,
+  "rank": 738,
   "bggId": 369880,
   "name": "Beer & Bread",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/beer-bread.pdf",
   "note": "官方 rulebook;最終分 = 啤酒/麵包較低者,唔係加總,所以只設 1 個 field"
  },
  {
   "rank": 740,
-  "bggId": 244115,
-  "name": "Shards of Infinity",
+  "bggId": 128780,
+  "name": "Pax Porfiriana",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 741,
-  "bggId": 128780,
-  "name": "Pax Porfiriana",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 742,
   "bggId": 291845,
   "name": "Three Sisters",
   "cat": "A",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "競爭型終局計分"
+ },
+ {
+  "rank": 742,
+  "bggId": 244115,
+  "name": "Shards of Infinity",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
  },
  {
   "rank": 744,
   "bggId": 286063,
   "name": "The 7th Citadel",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2668,6 +2964,7 @@
   "bggId": 111799,
   "name": "Cuba Libre",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2677,51 +2974,57 @@
   "bggId": 370913,
   "name": "Star Wars: The Clone Wars",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 751,
-  "bggId": 190082,
-  "name": "Whitehall Mystery",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 752,
   "bggId": 434906,
   "name": "Tag Team",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
+ },
+ {
+  "rank": 752,
+  "bggId": 190082,
+  "name": "Whitehall Mystery",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
  },
  {
   "rank": 758,
   "bggId": 153016,
   "name": "Telestrations: 12 Player Party Pack",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 761,
+  "rank": 760,
   "bggId": 224710,
   "name": "Zombicide: Green Horde",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 764,
+  "rank": 762,
   "bggId": 347305,
   "name": "Inventions: Evolution of Ideas",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/inventions-evolution-of-ideas.pdf",
   "note": "官方 rulebook;影響力 1/5/10 明文"
@@ -2731,6 +3034,7 @@
   "bggId": 135779,
   "name": "A Fake Artist Goes to New York",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2740,6 +3044,7 @@
   "bggId": 368061,
   "name": "Zoo Vadis",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://gamers-hq.de/media/pdf/95/28/ee/ZV_Rules_-SMALL.pdf",
   "note": "官方 rulebook;分數即月桂葉面值總和,只有 1 個 field"
@@ -2749,6 +3054,7 @@
   "bggId": 113924,
   "name": "Zombicide",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2758,6 +3064,7 @@
   "bggId": 123123,
   "name": "BattleCON: Devastation of Indines",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2767,15 +3074,17 @@
   "bggId": 328479,
   "name": "Living Forest",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 772,
+  "rank": 771,
   "bggId": 41,
   "name": "Can't Stop",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2785,6 +3094,7 @@
   "bggId": 273330,
   "name": "Bloodborne: The Board Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2794,15 +3104,17 @@
   "bggId": 160010,
   "name": "Conan",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 777,
+  "rank": 778,
   "bggId": 6472,
   "name": "A Game of Thrones",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2812,6 +3124,7 @@
   "bggId": 10547,
   "name": "Betrayal at House on the Hill",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2821,6 +3134,7 @@
   "bggId": 143519,
   "name": "Quantum",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2830,60 +3144,67 @@
   "bggId": 37904,
   "name": "Formula D",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 784,
-  "bggId": 135219,
-  "name": "The Battle of Five Armies",
-  "cat": "B",
-  "result": "skip",
+  "bggId": 447243,
+  "name": "Duel for Cardia",
+  "cat": "C",
+  "path": "-",
+  "result": "pending",
   "sourceUrl": "",
-  "note": "coop/campaign"
+  "note": "待研究判斷"
  },
  {
   "rank": 785,
-  "bggId": 42776,
-  "name": "Gears of War: The Board Game",
+  "bggId": 135219,
+  "name": "The Battle of Five Armies",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 786,
-  "bggId": 204472,
-  "name": "Sub Terra",
+  "bggId": 441696,
+  "name": "Sanctuary",
+  "cat": "C",
+  "path": "-",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "待研究判斷"
+ },
+ {
+  "rank": 787,
+  "bggId": 42776,
+  "name": "Gears of War: The Board Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 788,
-  "bggId": 316624,
-  "name": "Stationfall",
-  "cat": "C",
-  "result": "pending",
+  "bggId": 204472,
+  "name": "Sub Terra",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "coop/campaign"
  },
  {
   "rank": 790,
-  "bggId": 441696,
-  "name": "Sanctuary",
+  "bggId": 316624,
+  "name": "Stationfall",
   "cat": "C",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
- },
- {
-  "rank": 791,
-  "bggId": 447243,
-  "name": "Duel for Cardia",
-  "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -2893,6 +3214,7 @@
   "bggId": 361545,
   "name": "Twilight Inscription",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/twilightinscription.pdf",
   "note": "官方 rulebook;各表小計(工業表每 2 貿易貨物 +1 明文)"
@@ -2902,6 +3224,7 @@
   "bggId": 326494,
   "name": "The Adventures of Robin Hood",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2911,6 +3234,7 @@
   "bggId": 24508,
   "name": "Taluva",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -2920,6 +3244,7 @@
   "bggId": 100423,
   "name": "Elder Sign",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -2929,87 +3254,97 @@
   "bggId": 209778,
   "name": "Magic Maze",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 802,
-  "bggId": 233247,
-  "name": "Civilization: A New Dawn",
+  "rank": 801,
+  "bggId": 373600,
+  "name": "Cthulhu: Death May Die – Fear of the Unknown",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 803,
-  "bggId": 3685,
-  "name": "Hammer of the Scots",
+  "bggId": 233247,
+  "name": "Civilization: A New Dawn",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 804,
-  "bggId": 174785,
-  "name": "Mare Nostrum: Empires",
+  "bggId": 3685,
+  "name": "Hammer of the Scots",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 805,
-  "bggId": 373600,
-  "name": "Cthulhu: Death May Die – Fear of the Unknown",
+  "bggId": 174785,
+  "name": "Mare Nostrum: Empires",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 806,
+  "bggId": 358737,
+  "name": "Leviathan Wilds",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 807,
   "bggId": 300300,
   "name": "Chronicles of Crime: 1400",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
-  "rank": 807,
+  "rank": 808,
   "bggId": 169255,
   "name": "A Game of Thrones: The Card Game (Second Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 808,
+  "rank": 809,
   "bggId": 3201,
   "name": "Lord of the Rings: The Confrontation",
   "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 810,
-  "bggId": 300905,
-  "name": "Top Ten",
-  "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 811,
-  "bggId": 358737,
-  "name": "Leviathan Wilds",
+  "bggId": 300905,
+  "name": "Top Ten",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3019,132 +3354,147 @@
   "bggId": 271518,
   "name": "Disney Villainous: Wicked to the Core",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 813,
+  "rank": 814,
   "bggId": 21763,
   "name": "Mr. Jack",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 815,
+  "rank": 817,
   "bggId": 205359,
   "name": "Star Wars: Destiny",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 820,
-  "bggId": 163166,
-  "name": "One Night Ultimate Werewolf: Daybreak",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 821,
+  "rank": 818,
   "bggId": 420498,
   "name": "Unstoppable",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
-  "rank": 824,
-  "bggId": 29603,
-  "name": "D-Day at Omaha Beach",
+  "rank": 821,
+  "bggId": 163166,
+  "name": "One Night Ultimate Werewolf: Daybreak",
   "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 822,
+  "bggId": 303731,
+  "name": "Primal: The Awakening",
+  "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 825,
-  "bggId": 267609,
-  "name": "Guards of Atlantis II",
+  "bggId": 29603,
+  "name": "D-Day at Omaha Beach",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 826,
-  "bggId": 303731,
-  "name": "Primal: The Awakening",
+  "bggId": 267609,
+  "name": "Guards of Atlantis II",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 828,
-  "bggId": 279613,
-  "name": "Unlock!: Timeless Adventures",
+  "rank": 827,
+  "bggId": 358320,
+  "name": "Sleeping Gods: Distant Skies",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 829,
-  "bggId": 132018,
-  "name": "Churchill",
-  "cat": "C",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
- },
- {
-  "rank": 831,
-  "bggId": 358320,
-  "name": "Sleeping Gods: Distant Skies",
+  "bggId": 279613,
+  "name": "Unlock!: Timeless Adventures",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
+ },
+ {
+  "rank": 830,
+  "bggId": 132018,
+  "name": "Churchill",
+  "cat": "C",
+  "path": "-",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "待研究判斷"
  },
  {
   "rank": 833,
   "bggId": 212445,
   "name": "Blood Bowl (2016 Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 835,
+  "rank": 836,
   "bggId": 193558,
   "name": "The Oracle of Delphi",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 838,
-  "bggId": 113294,
-  "name": "Escape: The Curse of the Temple",
+  "bggId": 254708,
+  "name": "Roll Player Adventures",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 839,
-  "bggId": 254708,
-  "name": "Roll Player Adventures",
+  "bggId": 113294,
+  "name": "Escape: The Curse of the Temple",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3154,6 +3504,7 @@
   "bggId": 242639,
   "name": "Treasure Island",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3163,15 +3514,17 @@
   "bggId": 220517,
   "name": "The Shipwreck Arcana",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 844,
+  "rank": 843,
   "bggId": 352418,
   "name": "Fliptown",
   "cat": "A",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "競爭型終局計分"
@@ -3181,6 +3534,7 @@
   "bggId": 1513,
   "name": "The Republic of Rome",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3190,6 +3544,7 @@
   "bggId": 148729,
   "name": "Maquis",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3199,6 +3554,7 @@
   "bggId": 301255,
   "name": "Whistle Mountain",
   "cat": "A",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "競爭型終局計分"
@@ -3208,6 +3564,7 @@
   "bggId": 284760,
   "name": "Disney Villainous: Evil Comes Prepared",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3217,15 +3574,17 @@
   "bggId": 331787,
   "name": "Tiny Epic Dungeons",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 856,
+  "rank": 855,
   "bggId": 393429,
   "name": "Critter Kitchen",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/critterkitchen.pdf",
   "note": "官方 rulebook;最多湯 1 星、七道菜 1 星、每道最佳 1 星 明文"
@@ -3235,6 +3594,7 @@
   "bggId": 71721,
   "name": "Space Hulk: Death Angel – The Card Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3244,6 +3604,7 @@
   "bggId": 198953,
   "name": "Pax Renaissance",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3253,15 +3614,17 @@
   "bggId": 58281,
   "name": "Summoner Wars",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 862,
+  "rank": 864,
   "bggId": 167400,
   "name": "Ashes Reborn: Rise of the Phoenixborn",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3271,6 +3634,7 @@
   "bggId": 156336,
   "name": "Onirim (Second Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3280,33 +3644,37 @@
   "bggId": 244608,
   "name": "Menara",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 868,
-  "bggId": 299169,
-  "name": "Spicy",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 871,
   "bggId": 385331,
   "name": "Creature Caravan",
   "cat": "A",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "競爭型終局計分"
+ },
+ {
+  "rank": 869,
+  "bggId": 299169,
+  "name": "Spicy",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
  },
  {
   "rank": 872,
   "bggId": 351817,
   "name": "Marvel Zombies: A Zombicide Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3316,15 +3684,17 @@
   "bggId": 45,
   "name": "Perudo",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 876,
+  "rank": 875,
   "bggId": 238799,
   "name": "Messina 1347",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/messina1347.pdf",
   "note": "官方 rulebook;老鼠對照表未抽到故 number"
@@ -3334,33 +3704,37 @@
   "bggId": 393325,
   "name": "Captain Flip",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/captain-flip.pdf",
   "note": "官方 rulebook;分數即金幣"
  },
  {
   "rank": 878,
-  "bggId": 280480,
-  "name": "Crystal Palace",
-  "cat": "A",
-  "result": "done",
-  "sourceUrl": "https://bghub.org/r/crystalpalace.pdf",
-  "note": "官方 rulebook;話題 6/4/2、黑市 3/2/1、空研究格 −2 明文"
- },
- {
-  "rank": 879,
   "bggId": 407297,
   "name": "River Valley Glassworks",
   "cat": "A",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "競爭型終局計分"
+ },
+ {
+  "rank": 880,
+  "bggId": 280480,
+  "name": "Crystal Palace",
+  "cat": "A",
+  "path": "-",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/crystalpalace.pdf",
+  "note": "官方 rulebook;話題 6/4/2、黑市 3/2/1、空研究格 −2 明文"
  },
  {
   "rank": 882,
   "bggId": 257501,
   "name": "KeyForge: Call of the Archons",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3370,15 +3744,17 @@
   "bggId": 183562,
   "name": "Star Wars: X-Wing Miniatures Game – The Force Awakens Core Set",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 886,
+  "rank": 887,
   "bggId": 165401,
   "name": "Wir sind das Volk!",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3388,24 +3764,27 @@
   "bggId": 483,
   "name": "Diplomacy",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 890,
-  "bggId": 143741,
-  "name": "BANG! The Dice Game",
+  "bggId": 393672,
+  "name": "Gloomhaven: Buttons & Bugs",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 891,
-  "bggId": 393672,
-  "name": "Gloomhaven: Buttons & Bugs",
+  "rank": 892,
+  "bggId": 143741,
+  "name": "BANG! The Dice Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3415,6 +3794,7 @@
   "bggId": 342444,
   "name": "Black Rose Wars: Rebirth",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -3424,6 +3804,7 @@
   "bggId": 203416,
   "name": "EXIT: The Game – The Pharaoh's Tomb",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3433,6 +3814,7 @@
   "bggId": 372559,
   "name": "Spots",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3442,6 +3824,7 @@
   "bggId": 20963,
   "name": "Fury of Dracula (Second Edition)",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3451,60 +3834,67 @@
   "bggId": 382843,
   "name": "Evacuation",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://www.riograndegames.com/wp-content/uploads/2023/09/Evacuation-1.pdf",
   "note": "官方 rulebook;罰籌/未撤離/缺體育場 各 −1、笑臉 +2/+1 明文"
  },
  {
-  "rank": 914,
+  "rank": 912,
   "bggId": 11825,
   "name": "Empire of the Sun: The Pacific War 1941-1945",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 917,
+  "rank": 915,
   "bggId": 393333,
   "name": "Galileo Galilei",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/galileo-galilei.pdf",
   "note": "官方 rulebook;大學/裁判所值靠板塊故 number"
  },
  {
   "rank": 920,
-  "bggId": 387780,
-  "name": "Rats of Wistar",
-  "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
- },
- {
-  "rank": 921,
   "bggId": 313889,
   "name": "Hoplomachus: Victorum",
   "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 921,
+  "bggId": 226320,
+  "name": "My Little Scythe",
+  "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 922,
-  "bggId": 226320,
-  "name": "My Little Scythe",
-  "cat": "B",
-  "result": "skip",
+  "bggId": 387780,
+  "name": "Rats of Wistar",
+  "cat": "A",
+  "path": "-",
+  "result": "pending",
   "sourceUrl": "",
-  "note": "coop/campaign"
+  "note": "競爭型終局計分"
  },
  {
   "rank": 923,
   "bggId": 218333,
   "name": "Rhino Hero: Super Battle",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3514,6 +3904,7 @@
   "bggId": 21882,
   "name": "Blue Moon City",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3523,33 +3914,37 @@
   "bggId": 162007,
   "name": "Steampunk Rally",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 928,
+  "rank": 929,
   "bggId": 65532,
   "name": "Defenders of the Realm",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 931,
+  "rank": 932,
   "bggId": 332290,
   "name": "Stardew Valley: The Board Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 935,
+  "rank": 934,
   "bggId": 422674,
   "name": "Saltfjord",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/saltfjord.pdf",
   "note": "官方 rulebook;每 3 魚 1 分、4 箱一組 3 分 明文"
@@ -3559,6 +3954,7 @@
   "bggId": 155624,
   "name": "Specter Ops",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3568,6 +3964,7 @@
   "bggId": 181521,
   "name": "Warhammer Quest: The Adventure Card Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3577,6 +3974,7 @@
   "bggId": 173064,
   "name": "Leaving Earth",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -3586,6 +3984,7 @@
   "bggId": 300877,
   "name": "New York Zoo",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3595,6 +3994,7 @@
   "bggId": 214029,
   "name": "SpaceCorp: 2025-2300AD",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
@@ -3604,42 +4004,47 @@
   "bggId": 150997,
   "name": "Shadows of Brimstone: Swamps of Death",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 947,
+  "rank": 948,
   "bggId": 9823,
   "name": "Advanced Squad Leader: Starter Kit #1",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 950,
+  "rank": 949,
+  "bggId": 231218,
+  "name": "Black Sonata",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 951,
   "bggId": 338760,
   "name": "Imperial Steam",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/imperialsteam.pdf",
   "note": "官方 rulebook;貨物 10、樞紐 10/30/60/100 明文;股東 10% 要玩家自己計"
  },
  {
-  "rank": 951,
-  "bggId": 231218,
-  "name": "Black Sonata",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 954,
+  "rank": 953,
   "bggId": 73171,
   "name": "Earth Reborn",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3649,42 +4054,47 @@
   "bggId": 204516,
   "name": "878 Vikings: Invasions of England",
   "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 958,
+  "bggId": 294612,
+  "name": "Unlock!: Epic Adventures",
+  "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 959,
-  "bggId": 256382,
-  "name": "Disney Villainous: The Worst Takes it All",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 960,
   "bggId": 377470,
   "name": "Sail",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 961,
-  "bggId": 294612,
-  "name": "Unlock!: Epic Adventures",
+  "bggId": 256382,
+  "name": "Disney Villainous: The Worst Takes it All",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 963,
+  "rank": 962,
   "bggId": 354544,
   "name": "Unmatched: Houdini vs. The Genie",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3694,6 +4104,7 @@
   "bggId": 239472,
   "name": "Abomination: The Heir of Frankenstein",
   "cat": "A",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "競爭型終局計分"
@@ -3703,6 +4114,7 @@
   "bggId": 47185,
   "name": "Warhammer: Invasion",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3712,6 +4124,7 @@
   "bggId": 161417,
   "name": "Red7",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3721,6 +4134,7 @@
   "bggId": 402676,
   "name": "Cities",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/cities.pdf",
   "note": "官方 rulebook;水域/公園 1/3/6/10、紀念碑 2 分 明文"
@@ -3730,6 +4144,7 @@
   "bggId": 31563,
   "name": "Middle-Earth Quest",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3739,33 +4154,37 @@
   "bggId": 299047,
   "name": "Disney Villainous: Perfectly Wretched",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 975,
-  "bggId": 198830,
-  "name": "Heroes of Land, Air & Sea",
-  "cat": "A",
-  "result": "done",
-  "sourceUrl": "https://bghub.org/r/heroes-of-land-air-sea.pdf",
-  "note": "官方 rulebook;控制區域 1 分明文,其餘查首都板故 number"
- },
- {
-  "rank": 976,
   "bggId": 285984,
   "name": "Last Bastion",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
+ },
+ {
+  "rank": 977,
+  "bggId": 198830,
+  "name": "Heroes of Land, Air & Sea",
+  "cat": "A",
+  "path": "-",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/heroes-of-land-air-sea.pdf",
+  "note": "官方 rulebook;控制區域 1 分明文,其餘查首都板故 number"
  },
  {
   "rank": 979,
   "bggId": 281549,
   "name": "Beast",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
@@ -3775,69 +4194,77 @@
   "bggId": 194879,
   "name": "Not Alone",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 981,
+  "rank": 982,
   "bggId": 249277,
   "name": "Brazil: Imperial",
   "cat": "A",
+  "path": "-",
   "result": "done",
   "sourceUrl": "https://bghub.org/r/brazilimperial.pdf",
   "note": "官方 rulebook;八類計分項,分值靠卡/板塊故 number"
  },
  {
-  "rank": 985,
+  "rank": 984,
   "bggId": 334011,
   "name": "A Gentle Rain",
   "cat": "C",
+  "path": "-",
   "result": "pending",
   "sourceUrl": "",
   "note": "待研究判斷"
  },
  {
   "rank": 988,
-  "bggId": 203417,
-  "name": "EXIT: The Game – The Secret Lab",
+  "bggId": 422780,
+  "name": "Mistborn: The Deckbuilding Game",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
   "rank": 989,
-  "bggId": 171273,
-  "name": "FUSE",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 994,
-  "bggId": 422780,
-  "name": "Mistborn: The Deckbuilding Game",
-  "cat": "B",
-  "result": "skip",
-  "sourceUrl": "",
-  "note": "coop/campaign"
- },
- {
-  "rank": 996,
   "bggId": 391795,
   "name": "Kinfire Delve: Vainglory's Grotto",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
  },
  {
-  "rank": 1000,
+  "rank": 990,
+  "bggId": 171273,
+  "name": "FUSE",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 992,
+  "bggId": 203417,
+  "name": "EXIT: The Game – The Secret Lab",
+  "cat": "B",
+  "path": "-",
+  "result": "skip",
+  "sourceUrl": "",
+  "note": "coop/campaign"
+ },
+ {
+  "rank": 1001,
   "bggId": 170416,
   "name": "Vast: The Crystal Caverns",
   "cat": "B",
+  "path": "-",
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
