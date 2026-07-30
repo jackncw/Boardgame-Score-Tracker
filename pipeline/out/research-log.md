@@ -13,10 +13,10 @@
 
 ## 進度
 
-- 已生成計分表(done):34
+- 已生成計分表(done):40
 - 揾唔到可靠來源(no-source):1
 - 判定唔使做(skip):328
-- 未做(pending):64
+- 未做(pending):58
 
 ## 逐隻紀錄
 
@@ -179,7 +179,7 @@
 | 472 | Unsettled | B | skip | — | coop/campaign |
 | 474 | Unmatched: Battle of Legends, Volume Two | B | skip | — | coop/campaign |
 | 475 | Imperial Struggle | C | pending | — | 待研究判斷 |
-| 476 | Kutná Hora: The City of Silver | A | pending | — | 競爭型終局計分 |
+| 476 | Kutná Hora: The City of Silver | A | done | [link](https://filemanager.czechgames.com/storage/files/kutna-hora-the-city-of-silver/rules/kutna-hora-rules-en.pdf) | CGE 官方 rulebook;收入 ÷10、其他剩餘 1 分明文 |
 | 477 | Fall of Rome | B | skip | — | coop/campaign |
 | 479 | World Wonders | A | done | [link](https://bghub.org/r/worldwonders.pdf) | 官方 rulebook;天然資源/城區 1 分、貸款 −2 明文 |
 | 481 | Horizons of Spirit Island | B | skip | — | coop/campaign |
@@ -324,9 +324,9 @@
 | 752 | Tag Team | C | pending | — | 待研究判斷 |
 | 758 | Telestrations: 12 Player Party Pack | B | skip | — | coop/campaign |
 | 761 | Zombicide: Green Horde | B | skip | — | coop/campaign |
-| 764 | Inventions: Evolution of Ideas | A | pending | — | 競爭型終局計分 |
+| 764 | Inventions: Evolution of Ideas | A | done | [link](https://bghub.org/r/inventions-evolution-of-ideas.pdf) | 官方 rulebook;影響力 1/5/10 明文 |
 | 766 | A Fake Artist Goes to New York | B | skip | — | coop/campaign |
-| 767 | Zoo Vadis | A | pending | — | 競爭型終局計分 |
+| 767 | Zoo Vadis | A | done | [link](https://gamers-hq.de/media/pdf/95/28/ee/ZV_Rules_-SMALL.pdf) | 官方 rulebook;分數即月桂葉面值總和,只有 1 個 field |
 | 768 | Zombicide | B | skip | — | coop/campaign |
 | 769 | BattleCON: Devastation of Indines | B | skip | — | coop/campaign |
 | 770 | Living Forest | B | skip | — | coop/campaign |
@@ -343,7 +343,7 @@
 | 788 | Stationfall | C | pending | — | 待研究判斷 |
 | 790 | Sanctuary | C | pending | — | 待研究判斷 |
 | 791 | Duel for Cardia | C | pending | — | 待研究判斷 |
-| 794 | Twilight Inscription | A | pending | — | 競爭型終局計分 |
+| 794 | Twilight Inscription | A | done | [link](https://bghub.org/r/twilightinscription.pdf) | 官方 rulebook;各表小計(工業表每 2 貿易貨物 +1 明文) |
 | 796 | The Adventures of Robin Hood | B | skip | — | coop/campaign |
 | 797 | Taluva | C | pending | — | 待研究判斷 |
 | 799 | Elder Sign | B | skip | — | coop/campaign |
@@ -405,7 +405,7 @@
 | 894 | EXIT: The Game – The Pharaoh's Tomb | B | skip | — | coop/campaign |
 | 896 | Spots | B | skip | — | coop/campaign |
 | 899 | Fury of Dracula (Second Edition) | B | skip | — | coop/campaign |
-| 900 | Evacuation | A | pending | — | 競爭型終局計分 |
+| 900 | Evacuation | A | done | [link](https://www.riograndegames.com/wp-content/uploads/2023/09/Evacuation-1.pdf) | 官方 rulebook;罰籌/未撤離/缺體育場 各 −1、笑臉 +2/+1 明文 |
 | 914 | Empire of the Sun: The Pacific War 1941-1945 | B | skip | — | coop/campaign |
 | 917 | Galileo Galilei | A | done | [link](https://bghub.org/r/galileo-galilei.pdf) | 官方 rulebook;大學/裁判所值靠板塊故 number |
 | 920 | Rats of Wistar | A | pending | — | 競爭型終局計分 |
@@ -438,7 +438,7 @@
 | 969 | Cities | A | done | [link](https://bghub.org/r/cities.pdf) | 官方 rulebook;水域/公園 1/3/6/10、紀念碑 2 分 明文 |
 | 971 | Middle-Earth Quest | B | skip | — | coop/campaign |
 | 973 | Disney Villainous: Perfectly Wretched | B | skip | — | coop/campaign |
-| 975 | Heroes of Land, Air & Sea | A | pending | — | 競爭型終局計分 |
+| 975 | Heroes of Land, Air & Sea | A | done | [link](https://bghub.org/r/heroes-of-land-air-sea.pdf) | 官方 rulebook;控制區域 1 分明文,其餘查首都板故 number |
 | 976 | Last Bastion | B | skip | — | coop/campaign |
 | 979 | Beast | B | skip | — | coop/campaign |
 | 980 | Not Alone | B | skip | — | coop/campaign |

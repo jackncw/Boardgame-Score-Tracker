@@ -1,0 +1,77 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-382843",
+ "name": "Evacuation",
+ "nameZh": "大撤離",
+ "theme": {
+  "accent": "#A0522D"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://www.riograndegames.com/wp-content/uploads/2023/09/Evacuation-1.pdf",
+  "verified": false,
+  "tieBreaker": "新世界有 3 個或以上體育場者優先;再比笑臉最多;仍平手就比第二低、第三低嘅生產標記",
+  "fields": [
+   {
+    "id": "lowest_production",
+    "label": "最低生產標記等級",
+    "note": "三個生產標記入面最低果個(呢個就係基礎分)",
+    "icon": "🏭",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "penalties",
+    "label": "罰籌",
+    "note": "每個 −1",
+    "icon": "⚠️",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "unevacuated",
+    "label": "未撤離嘅舊世界地點",
+    "note": "每個 −1",
+    "icon": "🏚️",
+    "color": "#F0DCE8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "missing_stadiums",
+    "label": "唔夠嘅體育場",
+    "note": "新世界應該有 3 個,每差一個 −1",
+    "icon": "🏟️",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "happy_first",
+    "label": "笑臉最多",
+    "note": "+2(兩人局只 +1);平手大家都攞 +2 而冇人攞第二名",
+    "icon": "😀",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 2
+   },
+   {
+    "id": "happy_second",
+    "label": "笑臉第二多",
+    "note": "+1(兩人局冇呢項)",
+    "icon": "🙂",
+    "color": "#F7F3DC",
+    "input": "bonus",
+    "value": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

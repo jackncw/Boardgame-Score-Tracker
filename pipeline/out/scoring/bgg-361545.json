@@ -1,0 +1,63 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-361545",
+ "name": "Twilight Inscription",
+ "nameZh": "暮光戰記:書寫版",
+ "theme": {
+  "accent": "#3B2E5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/twilightinscription.pdf",
+  "verified": false,
+  "tieBreaker": "剩餘已取得選票最多者勝;仍平手就結盟共享勝利",
+  "fields": [
+   {
+    "id": "navigation",
+    "label": "航行表小計",
+    "note": "表上已取得資產分 + 已完成目標分",
+    "icon": "🚀",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "industry",
+    "label": "工業表小計",
+    "note": "資產分 + 目標分,另外每 2 個剩餘貿易貨物加 1 分",
+    "icon": "🏭",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "warfare",
+    "label": "戰爭表小計",
+    "icon": "⚔️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "expansion",
+    "label": "擴張表小計",
+    "icon": "🌌",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mecatol",
+    "label": "梅卡托雷克斯表",
+    "note": "名字寫喺表上果格嘅獎勵",
+    "icon": "👑",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

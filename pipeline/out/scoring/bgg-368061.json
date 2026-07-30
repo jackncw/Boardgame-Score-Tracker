@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-368061",
+ "name": "Zoo Vadis",
+ "nameZh": "動物園之路",
+ "theme": {
+  "accent": "#4E8C57"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://gamers-hq.de/media/pdf/95/28/ee/ZV_Rules_-SMALL.pdf",
+  "verified": false,
+  "tieBreaker": "最早入到明星展區果隻物種勝(明星展區格位按號碼順序填滿)",
+  "fields": [
+   {
+    "id": "laurels",
+    "label": "月桂葉總值",
+    "note": "「I」標記 1 分,其餘標記按面值 2–5;明星展區冇自己動物就冇資格贏,月桂葉當冇用",
+    "icon": "🌿",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

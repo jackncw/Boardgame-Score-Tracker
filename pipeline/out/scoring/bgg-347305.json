@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-347305",
+ "name": "Inventions: Evolution of Ideas",
+ "nameZh": "發明:思想的演化",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/inventions-evolution-of-ideas.pdf",
+  "verified": false,
+  "tieBreaker": "進步地圖上板塊最多者勝;再比社會板左邊發明最多;再比人口最多(供應區剩低嘅市民最少)",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得 IP",
+    "icon": "💡",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "influence",
+    "label": "影響力軌等級",
+    "note": "按到達等級 1 / 5 / 10 IP",
+    "icon": "📈",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "wealth_tiles",
+    "label": "社會板上財富板塊",
+    "note": "逐塊按玩家輔助卡上嘅條件計分",
+    "icon": "🏛️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "private_goals",
+    "label": "私人目標卡",
+    "note": "只可以計自己任選嘅 2 張",
+    "icon": "🎯",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -6840,6 +6840,8 @@
   "bggId": 385610,
   "gameId": "bgg-385610",
   "name": "Kutná Hora: The City of Silver",
+  "nameZh": "庫特納霍拉:白銀之城",
+  "accent": "#8E9AAF",
   "rank": 476,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/ar_YhktX6VcXBLcEfnu_dw__micro/img/MXrs63_O5KSfgZ216S_g8bFOHXo=/fit-in/64x64/filters:strip_icc()/pic7464921.png",
@@ -6847,7 +6849,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 260428,
@@ -10894,6 +10896,8 @@
   "bggId": 347305,
   "gameId": "bgg-347305",
   "name": "Inventions: Evolution of Ideas",
+  "nameZh": "發明:思想的演化",
+  "accent": "#8C6239",
   "rank": 764,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/aXqSKhZ-J7Xl-TTWRCEq4g__micro/img/uJekPy4Eh8geRScby0hiVbpcwuA=/fit-in/64x64/filters:strip_icc()/pic7032801.jpg",
@@ -10901,7 +10905,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 150,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 30869,
@@ -10935,6 +10939,8 @@
   "bggId": 368061,
   "gameId": "bgg-368061",
   "name": "Zoo Vadis",
+  "nameZh": "動物園之路",
+  "accent": "#4E8C57",
   "rank": 767,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/Kl3NjtNKpuJNPjdBQtdsow__micro/img/9E_AGklTBVCDrARqi7q5SAGKl3w=/fit-in/64x64/filters:strip_icc()/pic6988937.jpg",
@@ -10942,7 +10948,7 @@
   "minPlayers": 3,
   "maxPlayers": 7,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 113924,
@@ -11306,6 +11312,8 @@
   "bggId": 361545,
   "gameId": "bgg-361545",
   "name": "Twilight Inscription",
+  "nameZh": "暮光戰記:書寫版",
+  "accent": "#3B2E5A",
   "rank": 794,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/g36va6ofPCzNZXF-9GEpCg__micro/img/pP2E7EZdcWZwsgjEkYmeTLOkxtg=/fit-in/64x64/filters:strip_icc()/pic7132023.png",
@@ -11313,7 +11321,7 @@
   "minPlayers": 1,
   "maxPlayers": 8,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 270239,
@@ -12780,6 +12788,8 @@
   "bggId": 382843,
   "gameId": "bgg-382843",
   "name": "Evacuation",
+  "nameZh": "大撤離",
+  "accent": "#A0522D",
   "rank": 900,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/tNO7HW6Hn_O3xY11R80pFA__micro/img/wYR4O_Q7PHnipC7yImpvjHidkCM=/fit-in/64x64/filters:strip_icc()/pic7672387.jpg",
@@ -12787,7 +12797,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 150,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 121288,
@@ -13849,6 +13859,8 @@
   "bggId": 198830,
   "gameId": "bgg-198830",
   "name": "Heroes of Land, Air & Sea",
+  "nameZh": "陸海空英雄",
+  "accent": "#8C3A3A",
   "rank": 975,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/MAIDRapFcDC08pmZIBM7EQ__micro/img/k7zrkUMg9SS38bMjdRxQCjUZfUY=/fit-in/64x64/filters:strip_icc()/pic3315057.png",
@@ -13856,7 +13868,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 285984,

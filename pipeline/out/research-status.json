@@ -1417,9 +1417,9 @@
   "bggId": 385610,
   "name": "Kutná Hora: The City of Silver",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://filemanager.czechgames.com/storage/files/kutna-hora-the-city-of-silver/rules/kutna-hora-rules-en.pdf",
+  "note": "CGE 官方 rulebook;收入 ÷10、其他剩餘 1 分明文"
  },
  {
   "rank": 477,
@@ -2722,9 +2722,9 @@
   "bggId": 347305,
   "name": "Inventions: Evolution of Ideas",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/inventions-evolution-of-ideas.pdf",
+  "note": "官方 rulebook;影響力 1/5/10 明文"
  },
  {
   "rank": 766,
@@ -2740,9 +2740,9 @@
   "bggId": 368061,
   "name": "Zoo Vadis",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://gamers-hq.de/media/pdf/95/28/ee/ZV_Rules_-SMALL.pdf",
+  "note": "官方 rulebook;分數即月桂葉面值總和,只有 1 個 field"
  },
  {
   "rank": 768,
@@ -2893,9 +2893,9 @@
   "bggId": 361545,
   "name": "Twilight Inscription",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/twilightinscription.pdf",
+  "note": "官方 rulebook;各表小計(工業表每 2 貿易貨物 +1 明文)"
  },
  {
   "rank": 796,
@@ -3451,9 +3451,9 @@
   "bggId": 382843,
   "name": "Evacuation",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://www.riograndegames.com/wp-content/uploads/2023/09/Evacuation-1.pdf",
+  "note": "官方 rulebook;罰籌/未撤離/缺體育場 各 −1、笑臉 +2/+1 明文"
  },
  {
   "rank": 914,
@@ -3748,9 +3748,9 @@
   "bggId": 198830,
   "name": "Heroes of Land, Air & Sea",
   "cat": "A",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/heroes-of-land-air-sea.pdf",
+  "note": "官方 rulebook;控制區域 1 分明文,其餘查首都板故 number"
  },
  {
   "rank": 976,

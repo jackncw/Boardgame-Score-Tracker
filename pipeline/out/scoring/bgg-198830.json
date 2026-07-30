@@ -1,0 +1,89 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-198830",
+ "name": "Heroes of Land, Air & Sea",
+ "nameZh": "陸海空英雄",
+ "theme": {
+  "accent": "#8C3A3A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/heroes-of-land-air-sea.pdf",
+  "verified": false,
+  "tieBreaker": "三種資源總數最多者勝;仍平手則共享勝利",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得分",
+    "note": "施法、戰鬥、部分探索標記攞到嘅分",
+    "icon": "⚔️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "units",
+    "label": "場上單位同船隻",
+    "note": "按首都板上列明嘅分值(供應區嘅唔計)",
+    "icon": "🛡️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "已完成建築",
+    "icon": "🏛️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "towers",
+    "label": "已建塔樓",
+    "note": "每座按距離首都幾多個陸地區域計",
+    "icon": "🗼",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "capital",
+    "label": "首都最終等級",
+    "note": "按首都板;第 1 級冇分",
+    "icon": "🏰",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "spells",
+    "label": "已抄錄法術",
+    "icon": "📖",
+    "color": "#DCF0F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "regions",
+    "label": "控制嘅陸地同海域",
+    "note": "每個 1 分(唔計自己首都同海岸);區域內有單位或建築就算控制",
+    "icon": "🗺️",
+    "color": "#F7F3DC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "bonuses",
+    "label": "建築能力同探索標記獎勵",
+    "icon": "✨",
+    "color": "#F0E4DC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

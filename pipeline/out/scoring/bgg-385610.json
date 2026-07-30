@@ -1,0 +1,73 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-385610",
+ "name": "Kutná Hora: The City of Silver",
+ "nameZh": "庫特納霍拉:白銀之城",
+ "theme": {
+  "accent": "#8E9AAF"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://filemanager.czechgames.com/storage/files/kutna-hora-the-city-of-silver/rules/kutna-hora-rules-en.pdf",
+  "verified": false,
+  "tieBreaker": "剩餘格羅申最多者勝",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中已得分",
+    "note": "包括最後三輪嘅貴族計分階段",
+    "icon": "⛏️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "城中建築",
+    "note": "逐棟計:相鄰建築或板邊上每個相符圓點 1 分",
+    "icon": "🏠",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mines",
+    "label": "礦坑",
+    "note": "逐行數總星數查板上分值,再按自己名次攞分;零星唔得分,平手名次攞足分",
+    "icon": "⭐",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "income",
+    "label": "收入",
+    "note": "最終經濟狀態下嘅收入 ÷ 10(向下取整)",
+    "icon": "💰",
+    "color": "#F7F3DC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "reputation",
+    "label": "名聲軌",
+    "note": "按標記最終位置加或減分",
+    "icon": "🎗️",
+    "color": "#F7DCDC",
+    "input": "number"
+   },
+   {
+    "id": "extras",
+    "label": "其他剩餘",
+    "note": "自己板上槽位入面每塊建築板塊、每個認領咗但冇起嘅地塊、每個未用鵜鶘標記各 1 分",
+    "icon": "🦆",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
