@@ -459,10 +459,10 @@
 
 ## 進度
 
-- 已生成計分表(done):343
+- 已生成計分表(done):345
 - 揾唔到可靠來源(no-source):0
 - 判定唔使做(skip):880
-- 未做(pending):777
+- 未做(pending):775
 - 路徑 b(直接生成):190 · 路徑 c(網查 rulebook):930
 
 ## 逐隻紀錄
@@ -1174,7 +1174,7 @@
 | 1703 | Age of Galaxy | c | done | [link](https://bghub.org/r/age-of-galaxy.pdf) | 聲望/星系/遺物/意識形態;計分物用圖示表示,PDF 抽唔到故唔寫單價 |
 | 1704 | After the Empire | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1705 | Infinity Gauntlet: A Love Letter Game | - | skip | — | 不對稱陣營遊戲,以達成陣營目標定勝負,無累加計分 |
-| 1706 | Terracotta Army | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1706 | Terracotta Army | c | pending | — | 錨點落咗雕像描述,終局計分主清單喺 p.19 未讀到 |
 | 1707 | Spot it! | b | done | — | 放寬尺度後直接生成 |
 | 1708 | Quoridor | - | skip | — | 抽象對弈,以最先到對面定勝負,無累加計分 |
 | 1709 | Naga Raja | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -1185,11 +1185,11 @@
 | 1714 | Star Trek: Catan | - | skip | — | 以最先儲夠十分定勝負,無終局分項計分 |
 | 1715 | Dice Throne: Season Two – Gunslinger v. Samurai | - | skip | — | 雙人對戰,以擊倒對手生命值定勝負,無累加計分 |
 | 1716 | Room 25 | - | skip | — | 合作/含內鬼遊戲,以逃出定勝負,無累加計分 |
-| 1717 | Robot Quest Arena | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1717 | Robot Quest Arena | c | pending | — | 規則書冇列終局分項清單 |
 | 1718 | Get on Board: New York & London | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1719 | Barony | - | skip | — | 以最先升到公爵定勝負,無終局分項計分 |
 | 1720 | Titan | - | skip | — | 淘汰制戰棋,以消滅對手泰坦定勝負,無累加計分 |
-| 1721 | Mariposas | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1721 | Mariposas | c | done | [link](https://bghub.org/r/mariposas.pdf) | 生命週期卡每張 1、蝴蝶分佈、能力代幣 |
 | 1722 | Salem 1692 | - | skip | — | 社交推理遊戲,以陣營達成條件定勝負,無累加計分 |
 | 1723 | Fire & Axe: A Viking Saga | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1724 | Beasty Bar | - | skip | — | 以最先送兩隻動物入場定勝負,無累加計分 |
@@ -1198,7 +1198,7 @@
 | 1727 | CABO (Second Edition) | b | done | — | 放寬尺度後直接生成 |
 | 1728 | Gloom of Kilforth: A Fantasy Quest Game | - | skip | — | 單人/合作制遊戲,無玩家累加計分 |
 | 1729 | Flatiron | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1730 | Asara | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1730 | Asara | c | done | [link](https://bghub.org/r/asara.pdf) | 四次年度評比 + 最終評比(最高塔/最多塔) |
 | 1731 | Mystery Rummy: Jack the Ripper | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1732 | NEOM | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1733 | Wildcatters | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |

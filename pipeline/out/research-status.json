@@ -11317,7 +11317,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "錨點落咗雕像描述,終局計分主清單喺 p.19 未讀到"
  },
  {
   "rank": 1707,
@@ -11427,7 +11427,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "規則書冇列終局分項清單"
  },
  {
   "rank": 1718,
@@ -11465,9 +11465,9 @@
   "name": "Mariposas",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/mariposas.pdf",
+  "note": "生命週期卡每張 1、蝴蝶分佈、能力代幣"
  },
  {
   "rank": 1722,
@@ -11555,9 +11555,9 @@
   "name": "Asara",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/asara.pdf",
+  "note": "四次年度評比 + 最終評比(最高塔/最多塔)"
  },
  {
   "rank": 1731,

@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-297978",
+ "name": "Mariposas",
+ "nameZh": "帝王蝶遷徙",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/mariposas.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中累積嘅分",
+    "note": "計分軌上遊戲期間儲落嘅分",
+    "icon": "🦋",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "lifecycle",
+    "label": "生命週期卡",
+    "note": "每張生命週期卡 1 分",
+    "icon": "🐛",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "butterflies",
+    "label": "終局蝴蝶分佈",
+    "note": "終局按蝴蝶喺地圖上(包括米卻肯州)嘅分佈計分",
+    "icon": "🌸",
+    "color": "#F7D8E0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tokens",
+    "label": "能力代幣",
+    "note": "已取得嘅生命週期能力代幣,部分喺終局額外計分",
+    "icon": "🎫",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
