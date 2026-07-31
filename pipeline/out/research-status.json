@@ -9855,9 +9855,9 @@
   "name": "World Order",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/worldorder.pdf",
+  "note": "第 3/6 回合區域計分 + 陣營專屬能力"
  },
  {
   "rank": 1561,
@@ -10005,9 +10005,9 @@
   "name": "Recall",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/recall.pdf",
+  "note": "六條路徑各一欄 + 專精獎勵;第六條被窗口截斷,用「其餘路徑卡」兜底"
  },
  {
   "rank": 1576,

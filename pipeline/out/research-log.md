@@ -459,10 +459,10 @@
 
 ## 進度
 
-- 已生成計分表(done):336
+- 已生成計分表(done):338
 - 揾唔到可靠來源(no-source):0
 - 判定唔使做(skip):880
-- 未做(pending):784
+- 未做(pending):782
 - 路徑 b(直接生成):190 · 路徑 c(網查 rulebook):930
 
 ## 逐隻紀錄
@@ -1028,7 +1028,7 @@
 | 1557 | burncycle | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1558 | Machina Arcana (Second/Third Edition) | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1559 | No Retreat! The Russian Front | - | skip | — | 雙人戰棋,以陣營勝利條件定勝負,無累加計分 |
-| 1560 | World Order | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1560 | World Order | c | done | [link](https://bghub.org/r/worldorder.pdf) | 第 3/6 回合區域計分 + 陣營專屬能力 |
 | 1561 | Coloma | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1562 | Qwinto | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1563 | Carcassonne: South Seas | c | pending | — | ⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表 |
@@ -1043,7 +1043,7 @@
 | 1572 | Sentient | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1573 | Carcassonne: Winter Edition | c | pending | — | ⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表 |
 | 1574 | Ticket to Ride: Germany | b | done | — | 放寬尺度後直接生成 |
-| 1575 | Recall | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1575 | Recall | c | done | [link](https://bghub.org/r/recall.pdf) | 六條路徑各一欄 + 專精獎勵;第六條被窗口截斷,用「其餘路徑卡」兜底 |
 | 1576 | Covenant | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1577 | Vikings Gone Wild | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1578 | Watson & Holmes | c | pending | — | 競爭型終局計分,待網查 rulebook |

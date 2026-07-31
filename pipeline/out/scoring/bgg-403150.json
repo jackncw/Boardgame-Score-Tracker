@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-403150",
+ "name": "World Order",
+ "nameZh": "世界秩序",
+ "theme": {
+  "accent": "#3A4A6B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/worldorder.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "scoring_rounds",
+    "label": "計分回合得分",
+    "note": "第 3、6 回合,每個永久影響力格填滿嘅地區:自己每粒影響力方塊 1 VP,再按方塊多數攞地區右下角列明嘅第一/第二…名獎勵",
+    "icon": "🌐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "faction",
+    "label": "陣營專屬能力",
+    "note": "計分階段嘅陣營能力加減分(例如俄羅斯勢力範圍、中國 FDI 網絡、美國過度擴張罰分),按規則書該陣營嘅對照表計",
+    "icon": "🏛️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-446493",
+ "name": "Recall",
+ "nameZh": "回想",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/recall.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "knowledge",
+    "label": "知識之路",
+    "note": "每條知識軌,計你標記到達過嘅最高分數符號",
+    "icon": "📚",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ancients",
+    "label": "先民之路",
+    "note": "每粒白、灰、黑能力石計分;自己顏色嘅石唔計",
+    "icon": "🗿",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "legends",
+    "label": "傳奇之路",
+    "note": "每個已建金庫計分",
+    "icon": "🏛️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "efficiency",
+    "label": "效率之路",
+    "note": "所有鎖匙卡上印住嘅分,包括仲喺插槽入面嗰啲",
+    "icon": "🗝️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ambition",
+    "label": "野心之路",
+    "note": "每種遺物方塊顏色,計你玩家板上最右邊嗰粒方塊下面印住嘅分",
+    "icon": "💎",
+    "color": "#F7D8E0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "specialization",
+    "label": "專精獎勵",
+    "note": "放咗自己標記嗰啲路徑卡,額外計卡下半部嘅專精獎勵(分 A / B 面)",
+    "icon": "⭐",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other_paths",
+    "label": "其餘路徑卡",
+    "note": "上面冇列到嘅路徑卡計分,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
