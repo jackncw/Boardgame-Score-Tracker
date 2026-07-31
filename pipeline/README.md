@@ -187,6 +187,11 @@ bghub,結果寫入 `out/bghub-hits.json`(命中)同 `out/bghub-miss.json`(冇中
 命中嘅記錄有 `suspect: true` 標記,`research-status.json` 亦有警告 note,
 一律當冇來源處理。
 
+**⚠️ 第二種配錯:slug 啱但內容係另一隻遊戲。**`everdell-duo.pdf` 落到手
+其實係 *Evergreen* 嘅規則書(季節/生物群系/樹/光),同 Everdell Duo 完全冇關。
+`suspect` 標記捉唔到呢種 —— 所以讀 PDF 嗰陣一定要對返正文嘅專有名詞係咪
+真係嗰隻遊戲,唔好淨係信 slug。
+
 ### extract-scoring.mjs —— 批量抽計分段落
 
 ```bash
@@ -250,11 +255,14 @@ node coverage-report.mjs      # → out/coverage-report.md
 
 ## 呢條線嘅狀態(2026-07-31)
 
-主動生成**已收官**。餘下工作只有兩類:
+主動生成**已收官**,而且 `out/bghub-hits.json` 嘅存貨亦**已經清空** ——
+非 suspect 嘅 179 隻全部有結論(done 167、skip 7、no-source 5),
+`extract-scoring.mjs` 再跑都唔會有新嘢出。
 
-1. `out/bghub-hits.json` 仲有一批探到 PDF 但未讀嘅(數目見 coverage-report),
-   用 `node extract-scoring.mjs <索引> <幾多隻>` 逐批清
-2. 其餘 pending 係刻意留白 —— 冇 rulebook 而且判斷唔到計分類別。
-   **唔好為咗谷覆蓋率而降信度**,desc-gen 已經係底線
+餘下 pending 係刻意留白 —— 冇 rulebook 而且判斷唔到計分類別。
+**唔好為咗谷覆蓋率而降信度**,desc-gen 已經係底線。
+
+之後轉入「有人玩到先補」模式:玩家撞到冇計分表嘅遊戲先至補嗰隻。
+要開新來源嘅話,落手方向係出版社官網,唔係再探 bghub。
 
 之後轉入「有人玩到先補」模式:玩家撞到冇計分表嘅遊戲先至補嗰隻。
