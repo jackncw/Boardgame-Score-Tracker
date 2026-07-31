@@ -237,3 +237,24 @@ PDF 損壞)就仍然係 `pending`,唔可以硬砌。
 | `rulebook-web` | 讀過官方 rulebook,單價係明文 |
 | `claude-code-gen` | 肯定計分類別,單價未確認故留空 |
 | `desc-gen` | **最低信度** —— 冇 rulebook,只有類別 |
+
+## coverage-report.mjs —— 收官報告
+
+```bash
+node coverage-report.mjs      # → out/coverage-report.md
+```
+
+由現場數據 render,唔好人手改。補完任何計分表之後重跑就更新。
+內容:總覆蓋、按 rank 段分佈、四層信度數目、pending 分類統計、
+同埋 desc-gen 全名單(信度最低,開放用戶修正嘅第一批)。
+
+## 呢條線嘅狀態(2026-07-31)
+
+主動生成**已收官**。餘下工作只有兩類:
+
+1. `out/bghub-hits.json` 仲有一批探到 PDF 但未讀嘅(數目見 coverage-report),
+   用 `node extract-scoring.mjs <索引> <幾多隻>` 逐批清
+2. 其餘 pending 係刻意留白 —— 冇 rulebook 而且判斷唔到計分類別。
+   **唔好為咗谷覆蓋率而降信度**,desc-gen 已經係底線
+
+之後轉入「有人玩到先補」模式:玩家撞到冇計分表嘅遊戲先至補嗰隻。
