@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-3",
+ "name": "Samurai",
+ "nameZh": "武士",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/samurai.pdf",
+  "verified": false,
+  "tieBreaker": "三個階級各自比棋子數攞領袖代幣,代幣最多者勝;若果大家都只得一個代幣,就比其餘兩個階級嘅棋子數;再同分先至比全部棋子總數(即係呢張表嘅總分)",
+  "fields": [
+   {
+    "id": "rice",
+    "label": "稻米",
+    "note": "屏風後搶到嘅稻米(農民)階級棋子數",
+    "icon": "🌾",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buddha",
+    "label": "佛像",
+    "note": "屏風後搶到嘅佛像(宗教)階級棋子數",
+    "icon": "🛕",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "helmet",
+    "label": "頭盔",
+    "note": "屏風後搶到嘅頭盔(武士)階級棋子數",
+    "icon": "⛩️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-295486",
+ "name": "My City",
+ "nameZh": "我的城市",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/my-city.pdf",
+  "verified": false,
+  "tieBreaker": "同分時上排空嘅淺綠格較少者勝;再同分就比下一排,如此類推",
+  "fields": [
+   {
+    "id": "start",
+    "label": "起始分",
+    "note": "永恆遊戲(遊戲板背面)版本;計分標記由 10 分起計",
+    "icon": "🎬",
+    "color": "#F5E8D8",
+    "input": "bonus",
+    "value": 10
+   },
+   {
+    "id": "trees",
+    "label": "露出嘅雙樹格",
+    "note": "每個仲睇得見嘅雙樹格 +2 分",
+    "icon": "🌳",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "rocks",
+    "label": "露出嘅雙石格",
+    "note": "每個仲睇得見嘅雙石格 -2 分",
+    "icon": "🪨",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 2,
+    "sign": -1
+   },
+   {
+    "id": "empty",
+    "label": "空嘅淺綠格",
+    "note": "每個仲空住嘅淺綠格 -1 分",
+    "icon": "⬜",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "groups",
+    "label": "三色最大連片",
+    "note": "黃、紅、藍每種顏色最大一片相連建築嘅數量,三個數加埋",
+    "icon": "🏘️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "church",
+    "label": "達標教堂",
+    "note": "三邊各有一種唔同顏色建築嘅教堂,每座 +3 分",
+    "icon": "⛪",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "well",
+    "label": "四面建滿嘅水井",
+    "note": "四邊都有建築嘅水井,每個 +4 分",
+    "icon": "🕳️",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 4
+   },
+   {
+    "id": "gold",
+    "label": "金礦搶先",
+    "note": "最先喺兩條金礦脈上都建咗屋,+3 分",
+    "icon": "⛏️",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "pass",
+    "label": "過牌",
+    "note": "每次 pass 但仍然留喺該局,-1 分",
+    "icon": "🚫",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

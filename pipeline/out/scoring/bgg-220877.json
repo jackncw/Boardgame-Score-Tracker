@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-220877",
+ "name": "Rajas of the Ganges",
+ "nameZh": "恆河王侯",
+ "theme": {
+  "accent": "#C9772E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/rajasoftheganges.pdf",
+  "verified": false,
+  "tieBreaker": "兩個標記交錯即觸發終局;有多過一位交錯,以名聲軌同金錢軌兩個標記嘅名聲差距最大者勝;仍平手就最早交錯嗰位勝",
+  "fields": [
+   {
+    "id": "fame",
+    "label": "名聲點數",
+    "note": "名聲標記喺名聲軌上嘅位置",
+    "icon": "🏵️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "金錢標記喺金錢軌上嘅位置",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

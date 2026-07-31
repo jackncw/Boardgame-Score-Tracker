@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-434654",
+ "name": "Toy Battle",
+ "nameZh": "玩具大戰",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/toy-battle.pdf",
+  "verified": false,
+  "tieBreaker": "攻佔敵方總部、或者夠地形指定嘅勳章數即刻勝出;若果有人抽唔到又放唔到部隊而完場,勳章多者勝,平手時觸發完場嗰位輸",
+  "fields": [
+   {
+    "id": "medals",
+    "label": "勳章",
+    "note": "控制區域攞到嘅勳章總數",
+    "icon": "🎖️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

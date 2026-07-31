@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-339789",
+ "name": "Welcome to the Moon",
+ "nameZh": "歡迎來到月球",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/welcome-to-the-moon.pdf",
+  "verified": false,
+  "tieBreaker": "同分時系統錯誤格較少者勝",
+  "fields": [
+   {
+    "id": "missions",
+    "label": "已完成任務",
+    "note": "今次冒險完成咗嘅任務卡分數加埋",
+    "icon": "🎯",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "areas",
+    "label": "計分區得分",
+    "note": "呢次冒險各個計分區(溫室、模組、規劃⋯⋯)嘅得分;八個冒險嘅計分區唔同,照你張紙計",
+    "icon": "🌕",
+    "color": "#E8E4F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "errors",
+    "label": "系統錯誤罰分",
+    "note": "系統錯誤格按該冒險嘅規則扣分;呢欄入正數,app 會自動扣",
+    "icon": "⚠️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

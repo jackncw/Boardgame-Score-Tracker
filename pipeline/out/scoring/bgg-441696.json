@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-441696",
+ "name": "Sanctuary",
+ "nameZh": "動物庇護所",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/sanctuary.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "animals",
+    "label": "動物板塊",
+    "note": "黃色動物板塊嘅分;有啲固定分,有啲睇相鄰或者全園指定圖示嘅數量",
+    "icon": "🦁",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築板塊",
+    "note": "藍色建築板塊嘅分",
+    "icon": "🏛️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "projects",
+    "label": "項目板塊",
+    "note": "紫色項目板塊嘅分",
+    "icon": "🧪",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "open",
+    "label": "開放區域",
+    "note": "開放區域嘅分",
+    "icon": "🌿",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "conservation",
+    "label": "保育成就標記",
+    "note": "放咗上保育板嘅成就標記分數",
+    "icon": "🌍",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "markers",
+    "label": "袋子同剩餘保育標記",
+    "note": "手上每個袋子標記、每個未用嘅保育標記,各 2 分",
+    "icon": "🎒",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "endgame",
+    "label": "終局標記",
+    "note": "觸發終局攞到嘅標記:10 分或者 5 分",
+    "icon": "🏁",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

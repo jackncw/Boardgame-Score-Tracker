@@ -1,0 +1,84 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-408180",
+ "name": "Shackleton Base: A Journey to the Moon",
+ "nameZh": "沙克爾頓基地:月球之旅",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/shackletonbaseajourneytothemoon.pdf",
+  "verified": false,
+  "tieBreaker": "同分時聲望較高者勝;仍平手就共享勝利",
+  "fields": [
+   {
+    "id": "projects",
+    "label": "資助項目",
+    "note": "你資助咗嘅項目卡上嘅勝利點",
+    "icon": "📜",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "labs",
+    "label": "實驗室太空人",
+    "note": "每座實驗室按相符類型太空人 1/2/3 名,得 2/5/10 分",
+    "icon": "🔬",
+    "color": "#E8E4F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "reputation",
+    "label": "聲望",
+    "note": "聲望軌位置對應嘅勝利點",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "corp1",
+    "label": "企業一",
+    "note": "最上面嗰張企業表,按佢自己寫嘅方式計終局分",
+    "icon": "🏢",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "corp2",
+    "label": "企業二",
+    "note": "中間嗰張企業表嘅終局分",
+    "icon": "🏢",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "corp3",
+    "label": "企業三",
+    "note": "最底嗰張企業表嘅終局分",
+    "icon": "🏢",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "debt",
+    "label": "欠繳維護扣分",
+    "note": "聲望標記跌落 0 以下之後,仲欠幾多信用點就每點扣 2 分;呢欄入扣分數,app 會自動扣",
+    "icon": "💸",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

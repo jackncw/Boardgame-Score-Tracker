@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-22827",
+ "name": "StarCraft: The Board Game",
+ "nameZh": "星海爭霸:桌上遊戲",
+ "theme": {
+  "accent": "#5A7A8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/starcrafttheboardgame.pdf",
+  "verified": false,
+  "tieBreaker": "同分時按規則書 p.17 比資源、領土、基地、工人",
+  "fields": [
+   {
+    "id": "conquest",
+    "label": "征服點數",
+    "note": "累積嘅征服點數;夠 30 點(組隊則兩人合計 30 點)觸發一般勝利",
+    "icon": "⚔️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

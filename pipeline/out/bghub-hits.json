@@ -1212,5 +1212,191 @@
   "name": "Cascadia: Rolling Hills",
   "url": "https://bghub.org/r/cascadia.pdf",
   "suspect": true
+ },
+ {
+  "bggId": 420033,
+  "rank": 193,
+  "name": "Vantage",
+  "url": "https://bghub.org/r/vantage.pdf"
+ },
+ {
+  "bggId": 356080,
+  "rank": 163,
+  "name": "The Elder Scrolls: Betrayal of the Second Era",
+  "url": "https://bghub.org/r/the-elder-scrolls-betrayal-of-the-second-era.pdf"
+ },
+ {
+  "bggId": 339789,
+  "rank": 213,
+  "name": "Welcome to the Moon",
+  "url": "https://bghub.org/r/welcome-to-the-moon.pdf"
+ },
+ {
+  "bggId": 332686,
+  "rank": 215,
+  "name": "John Company: Second Edition",
+  "url": "https://bghub.org/r/john-company-second-edition.pdf"
+ },
+ {
+  "bggId": 220877,
+  "rank": 172,
+  "name": "Rajas of the Ganges",
+  "url": "https://bghub.org/r/rajasoftheganges.pdf"
+ },
+ {
+  "bggId": 3,
+  "rank": 283,
+  "name": "Samurai",
+  "url": "https://bghub.org/r/samurai.pdf"
+ },
+ {
+  "bggId": 295486,
+  "rank": 270,
+  "name": "My City",
+  "url": "https://bghub.org/r/my-city.pdf"
+ },
+ {
+  "bggId": 434654,
+  "rank": 314,
+  "name": "Toy Battle",
+  "url": "https://bghub.org/r/toy-battle.pdf"
+ },
+ {
+  "bggId": 223321,
+  "rank": 346,
+  "name": "Detective: A Modern Crime Board Game",
+  "url": "https://bghub.org/r/detective-a-modern-crime-board-game.pdf"
+ },
+ {
+  "bggId": 370591,
+  "rank": 328,
+  "name": "Dorfromantik: The Board Game",
+  "url": "https://bghub.org/r/dorfromantik-the-board-game.pdf"
+ },
+ {
+  "bggId": 239188,
+  "rank": 350,
+  "name": "Chronicles of Crime",
+  "url": "https://bghub.org/r/chronicles-of-crime.pdf"
+ },
+ {
+  "bggId": 245655,
+  "rank": 400,
+  "name": "The King's Dilemma",
+  "url": "https://bghub.org/r/the-kings-dilemma.pdf"
+ },
+ {
+  "bggId": 408180,
+  "rank": 391,
+  "name": "Shackleton Base: A Journey to the Moon",
+  "url": "https://bghub.org/r/shackletonbaseajourneytothemoon.pdf"
+ },
+ {
+  "bggId": 446497,
+  "rank": 311,
+  "name": "Hot Streak",
+  "url": "https://bghub.org/r/hot-streak.pdf"
+ },
+ {
+  "bggId": 425549,
+  "rank": 500,
+  "name": "Moon Colony Bloodbath",
+  "url": "https://bghub.org/r/moon-colony-bloodbath.pdf"
+ },
+ {
+  "bggId": 424219,
+  "rank": 544,
+  "name": "Zenith",
+  "url": "https://bghub.org/r/zenith.pdf"
+ },
+ {
+  "bggId": 17392,
+  "rank": 552,
+  "name": "Here I Stand",
+  "url": "https://bghub.org/r/here-i-stand.pdf"
+ },
+ {
+  "bggId": 422732,
+  "rank": 530,
+  "name": "Agent Avenue",
+  "url": "https://bghub.org/r/agentavenue.pdf"
+ },
+ {
+  "bggId": 440540,
+  "rank": 605,
+  "name": "Take Time",
+  "url": "https://bghub.org/r/take-time.pdf"
+ },
+ {
+  "bggId": 239942,
+  "rank": 592,
+  "name": "Black Rose Wars",
+  "url": "https://bghub.org/r/blackrosewars.pdf"
+ },
+ {
+  "bggId": 65781,
+  "rank": 701,
+  "name": "London",
+  "url": "https://bghub.org/r/london.pdf"
+ },
+ {
+  "bggId": 456440,
+  "rank": 720,
+  "name": "Cozy Stickerville",
+  "url": "https://bghub.org/r/cozy-stickerville.pdf"
+ },
+ {
+  "bggId": 399941,
+  "rank": 728,
+  "name": "River of Gold",
+  "url": "https://bghub.org/r/river-of-gold.pdf"
+ },
+ {
+  "bggId": 422541,
+  "rank": 729,
+  "name": "Star Trek: Captain's Chair",
+  "url": "https://bghub.org/r/star-trek-captains-chair.pdf"
+ },
+ {
+  "bggId": 434906,
+  "rank": 751,
+  "name": "Tag Team",
+  "url": "https://bghub.org/r/tag-team.pdf"
+ },
+ {
+  "bggId": 447243,
+  "rank": 784,
+  "name": "Duel for Cardia",
+  "url": "https://bghub.org/r/duel-for-cardia.pdf"
+ },
+ {
+  "bggId": 441696,
+  "rank": 786,
+  "name": "Sanctuary",
+  "url": "https://bghub.org/r/sanctuary.pdf"
+ },
+ {
+  "bggId": 316624,
+  "rank": 790,
+  "name": "Stationfall",
+  "url": "https://bghub.org/r/stationfall.pdf"
+ },
+ {
+  "bggId": 22827,
+  "rank": 698,
+  "name": "StarCraft: The Board Game",
+  "url": "https://bghub.org/r/starcrafttheboardgame.pdf"
+ },
+ {
+  "bggId": 420498,
+  "rank": 818,
+  "name": "Unstoppable",
+  "url": "https://bghub.org/r/unstoppable.pdf"
+ },
+ {
+  "bggId": 132018,
+  "rank": 830,
+  "name": "Churchill",
+  "url": "https://bghub.org/r/churchill.pdf"
  }
 ]

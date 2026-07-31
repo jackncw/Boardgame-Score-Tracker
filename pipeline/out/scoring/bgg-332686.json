@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-332686",
+ "name": "John Company: Second Edition",
+ "nameZh": "約翰公司(第二版)",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/john-company-second-edition.pdf",
+  "verified": false,
+  "tieBreaker": "窗口圖示最多者勝;仍平手就按首相順序(由首相起順時針)",
+  "fields": [
+   {
+    "id": "vp_track",
+    "label": "遊戲中勝利點",
+    "note": "勝利點標記喺軌上嘅位置 —— 獎品、配偶、承諾卡等遊戲期間加減落去嘅分",
+    "icon": "📈",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "power",
+    "label": "權力獎勵",
+    "note": "權力最多同第二多嘅玩家,按板上表格(視乎邊個回合完場)攞到嘅勝利點",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shares",
+    "label": "公司股份",
+    "note": "公司生還:每份股份 × 宮廷上顯示嘅勝利點值;公司倒閉:同一數值改為扣分",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "workshops",
+    "label": "工坊",
+    "note": "公司倒閉先計,每間工坊 1 分",
+    "icon": "🔨",
+    "color": "#E8E4F0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

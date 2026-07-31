@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-422541",
+ "name": "Star Trek: Captain's Chair",
+ "nameZh": "星艦奇航記:艦長之椅",
+ "theme": {
+  "accent": "#5A7A8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/star-trek-captains-chair.pdf",
+  "verified": false,
+  "tieBreaker": "分數較高者勝;同分時雙方都贏",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "卡牌勝利點",
+    "note": "你所有卡上印住嘅勝利點總和;有星號嘅按卡面 SPECIAL 說明計",
+    "icon": "🖖",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "focus",
+    "label": "專長軌 × 焦點圖示",
+    "note": "每條專長軌攞到嘅最高乘數 × 相符焦點圖示嘅卡數;一個任務都未完成就呢欄計 0",
+    "icon": "🔭",
+    "color": "#E8E4F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "missions",
+    "label": "任務完成",
+    "note": "用艦長板進階面先計:每個有完成標記嘅任務按印住嘅分",
+    "icon": "🎯",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

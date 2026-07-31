@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-239942",
+ "name": "Black Rose Wars",
+ "nameZh": "黑玫瑰戰爭",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/blackrosewars.pdf",
+  "verified": false,
+  "tieBreaker": "同分時由持有王冠嗰位決定邊個做新任大師",
+  "fields": [
+   {
+    "id": "power",
+    "label": "遊戲中權力點",
+    "note": "遊戲期間累積落嚟嘅權力點(30 點觸發終局)",
+    "icon": "✨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "quests",
+    "label": "任務排名獎勵",
+    "note": "按完成任務數排名,查規則書表格攞權力點;同名次者各少攞 1 點",
+    "icon": "📜",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "trophies",
+    "label": "戰利品代幣排名獎勵",
+    "note": "按搶到嘅戰利品代幣數排名攞權力點;同名次者各少攞 1 點",
+    "icon": "🏆",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rooms",
+    "label": "不穩定房間代幣",
+    "note": "摧毀房間攞到嘅活化代幣,按代幣上印住嘅點數加埋",
+    "icon": "💥",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "crown",
+    "label": "王冠",
+    "note": "完場時持有王冠代幣 +1 權力點",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

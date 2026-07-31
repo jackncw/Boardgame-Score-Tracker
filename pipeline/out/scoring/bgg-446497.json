@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-446497",
+ "name": "Hot Streak",
+ "nameZh": "賭馬狂熱",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/hot-streak.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "race1",
+    "label": "第一場派彩",
+    "note": "第一場賽果結算攞到嘅錢;側注輸咗會係負數",
+    "icon": "🏁",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "race2",
+    "label": "第二場派彩",
+    "note": "第二場賽果結算攞到嘅錢",
+    "icon": "🏁",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "race3",
+    "label": "第三場派彩",
+    "note": "第三場結算;你自選嗰張注飛派彩加倍 —— 負數一樣會加倍",
+    "icon": "🏆",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

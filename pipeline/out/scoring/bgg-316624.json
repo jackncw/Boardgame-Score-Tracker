@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-316624",
+ "name": "Stationfall",
+ "nameZh": "太空站墜落",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/stationfall.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "agenda",
+    "label": "秘密身份議程",
+    "note": "你秘密身份卡上議程達成攞到嘅分 —— 主要分數來源",
+    "icon": "🕵️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bc",
+    "label": "額外角色獎勵分",
+    "note": "你另一張角色卡(BC)嘅朋友分同怨恨分",
+    "icon": "🤝",
+    "color": "#E8E4F0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

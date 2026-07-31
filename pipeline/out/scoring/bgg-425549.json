@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-425549",
+ "name": "Moon Colony Bloodbath",
+ "nameZh": "月球殖民地大屠殺",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/moon-colony-bloodbath.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "mat",
+    "label": "玩家墊上嘅人",
+    "note": "完場時仲喺你玩家墊上嘅人",
+    "icon": "🧑‍🚀",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築上嘅人",
+    "note": "你手上建築卡印住嘅人數",
+    "icon": "🏗️",
+    "color": "#E8E4F0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -195,9 +195,9 @@
   "name": "The Elder Scrolls: Betrayal of the Second Era",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:合作遊戲"
  },
  {
   "rank": 165,
@@ -244,10 +244,10 @@
   "bggId": 220877,
   "name": "Rajas of the Ganges",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/rajasoftheganges.pdf",
+  "note": "resweep:兩軌交錯決勝,兩欄都係軌上位置"
  },
  {
   "rank": 174,
@@ -325,9 +325,9 @@
   "name": "Vantage",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:合作遊戲"
  },
  {
   "rank": 200,
@@ -384,20 +384,20 @@
   "bggId": 339789,
   "name": "Welcome to the Moon",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/welcome-to-the-moon.pdf",
+  "note": "resweep:八個冒險計分區唔同,只寫大類"
  },
  {
   "rank": 215,
   "bggId": 332686,
   "name": "John Company: Second Edition",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/john-company-second-edition.pdf",
+  "note": "resweep:規則書 FINAL SCORING 明文"
  },
  {
   "rank": 217,
@@ -634,10 +634,10 @@
   "bggId": 295486,
   "name": "My City",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/my-city.pdf",
+  "note": "resweep:寫永恆遊戲(板背面)版本,單價全部明文"
  },
  {
   "rank": 271,
@@ -684,10 +684,10 @@
   "bggId": 3,
   "name": "Samurai",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/samurai.pdf",
+  "note": "resweep:多數決,但最後 tie-break 係棋子總數"
  },
  {
   "rank": 284,
@@ -784,20 +784,20 @@
   "bggId": 446497,
   "name": "Hot Streak",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/hot-streak.pdf",
+  "note": "resweep:三場派彩加埋"
  },
  {
   "rank": 314,
   "bggId": 434654,
   "name": "Toy Battle",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/toy-battle.pdf",
+  "note": "resweep:勳章決勝"
  },
  {
   "rank": 315,
@@ -875,9 +875,9 @@
   "name": "Dorfromantik: The Board Game",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:合作遊戲"
  },
  {
   "rank": 329,
@@ -975,9 +975,9 @@
   "name": "Detective: A Modern Crime Board Game",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:合作查案,分數由 app 結算"
  },
  {
   "rank": 350,
@@ -985,9 +985,9 @@
   "name": "Chronicles of Crime",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:合作遊戲"
  },
  {
   "rank": 352,
@@ -1184,20 +1184,20 @@
   "bggId": 408180,
   "name": "Shackleton Base: A Journey to the Moon",
   "cat": "A",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/shackletonbaseajourneytothemoon.pdf",
+  "note": "resweep:endgame scoring 明文"
  },
  {
   "rank": 400,
   "bggId": 245655,
   "name": "The King's Dilemma",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/the-kings-dilemma.pdf",
+  "note": "resweep:議程點三大來源"
  },
  {
   "rank": 401,
@@ -1714,10 +1714,10 @@
   "bggId": 425549,
   "name": "Moon Colony Bloodbath",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/moon-colony-bloodbath.pdf",
+  "note": "resweep:PDF 係掃描版,只寫類別"
  },
  {
   "rank": 502,
@@ -1815,9 +1815,9 @@
   "name": "Agent Avenue",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:即時勝負,冇累加計分"
  },
  {
   "rank": 533,
@@ -1895,9 +1895,9 @@
   "name": "Zenith",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:即時勝利條件,冇累加計分"
  },
  {
   "rank": 545,
@@ -1944,10 +1944,10 @@
   "bggId": 17392,
   "name": "Here I Stand",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/here-i-stand.pdf",
+  "note": "resweep:規則書 9.4 base/special/bonus 三大類"
  },
  {
   "rank": 553,
@@ -2144,10 +2144,10 @@
   "bggId": 239942,
   "name": "Black Rose Wars",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/blackrosewars.pdf",
+  "note": "resweep:排名獎勵表印喺圖,留 number"
  },
  {
   "rank": 595,
@@ -2205,9 +2205,9 @@
   "name": "Take Time",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:合作遊戲"
  },
  {
   "rank": 606,
@@ -2684,10 +2684,20 @@
   "bggId": 22827,
   "name": "StarCraft: The Board Game",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/starcrafttheboardgame.pdf",
+  "note": "resweep:征服點數"
+ },
+ {
+  "rank": 701,
+  "bggId": 65781,
+  "name": "London",
+  "cat": "-",
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/london.pdf",
+  "note": "resweep:log 漏網;規則書計分明文"
  },
  {
   "rank": 702,
@@ -2795,9 +2805,9 @@
   "name": "Cozy Stickerville",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:合作,冇輸贏"
  },
  {
   "rank": 722,
@@ -2834,20 +2844,20 @@
   "bggId": 399941,
   "name": "River of Gold",
   "cat": "A",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/river-of-gold.pdf",
+  "note": "resweep:PDF 係掃描版,只寫類別"
  },
  {
   "rank": 729,
   "bggId": 422541,
   "name": "Star Trek: Captain's Chair",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/star-trek-captains-chair.pdf",
+  "note": "resweep:final scoring 明文"
  },
  {
   "rank": 730,
@@ -2985,9 +2995,9 @@
   "name": "Tag Team",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:KO 決勝,冇累加計分"
  },
  {
   "rank": 752,
@@ -3154,10 +3164,10 @@
   "bggId": 447243,
   "name": "Duel for Cardia",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/duel-for-cardia.pdf",
+  "note": "resweep:印章決勝"
  },
  {
   "rank": 785,
@@ -3174,10 +3184,10 @@
   "bggId": 441696,
   "name": "Sanctuary",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/sanctuary.pdf",
+  "note": "resweep:final scoring 明文"
  },
  {
   "rank": 787,
@@ -3204,10 +3214,10 @@
   "bggId": 316624,
   "name": "Stationfall",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/stationfall.pdf",
+  "note": "resweep:分數來源係各自秘密身份議程,只寫大類"
  },
  {
   "rank": 794,
@@ -3385,9 +3395,9 @@
   "name": "Unstoppable",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:打 boss 合作/單人"
  },
  {
   "rank": 821,
@@ -3454,10 +3464,10 @@
   "bggId": 132018,
   "name": "Churchill",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/churchill.pdf",
+  "note": "resweep:規則書 9.4 勝利點表逐條明文"
  },
  {
   "rank": 833,
@@ -4258,6 +4268,16 @@
   "result": "skip",
   "sourceUrl": "",
   "note": "coop/campaign"
+ },
+ {
+  "rank": 999,
+  "bggId": 56692,
+  "name": "Parade",
+  "cat": "-",
+  "path": "-",
+  "result": "pending",
+  "sourceUrl": "",
+  "note": "resweep:log 漏網,重掃補入"
  },
  {
   "rank": 1001,

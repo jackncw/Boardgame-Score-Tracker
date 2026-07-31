@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-17392",
+ "name": "Here I Stand",
+ "nameZh": "宗教改革戰爭",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/here-i-stand.pdf",
+  "verified": false,
+  "tieBreaker": "任何一方夠 25 VP 即標準勝利;第 9 回合完仍未分勝負就 VP 最高者勝,同分比上一回合 VP,再同分逐回合向前推",
+  "fields": [
+   {
+    "id": "base",
+    "label": "基礎 VP",
+    "note": "勢力卡上未被覆蓋嘅 VP 空格(新教方按新教宗教影響力計,除唔盡就捨去)",
+    "icon": "🗺️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "special",
+    "label": "特殊 VP",
+    "note": "本勢力專屬條款:鄂圖曼海盜軌、哈布斯堡選帝侯、英格蘭男嗣、法國城堡、教廷聖伯多祿軌等",
+    "icon": "⚜️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bonus",
+    "label": "獎勵 VP",
+    "note": "辯論燒死/失勢、成功探索同征服、哥白尼、戰爭勝利標記、意大利之主、聖經翻譯等",
+    "icon": "🎖️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

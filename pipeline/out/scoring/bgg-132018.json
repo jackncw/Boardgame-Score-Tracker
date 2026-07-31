@@ -1,0 +1,101 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-132018",
+ "name": "Churchill",
+ "nameZh": "邱吉爾",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/churchill.pdf",
+  "verified": false,
+  "tieBreaker": "終局按 4.4 調整分數(分差大過 15、或者軸心未投降要擲骰調整);同分時美國有原子彈就美國勝,蘇聯獨佔德國就蘇聯勝,否則邱吉爾勝",
+  "fields": [
+   {
+    "id": "alignment",
+    "label": "政治立場標記",
+    "note": "每個有你政治立場標記嘅國家或殖民地格 3 分",
+    "icon": "🚩",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "network",
+    "label": "秘密網絡",
+    "note": "冇政治立場標記但有你秘密網絡嘅國家格,每格 1 分",
+    "icon": "🕸️",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "issues",
+    "label": "全球議題優勢",
+    "note": "每項停喺你優勢位置嘅全球議題 5 分",
+    "icon": "🌐",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "conference",
+    "label": "會議勝利標記",
+    "note": "美英每個 3 分,蘇聯每個 5 分",
+    "icon": "🤝",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "colonies",
+    "label": "殖民地(英國專有)",
+    "note": "英國先計:每個冇秘密網絡又冇政治立場標記嘅殖民地格 2 分",
+    "icon": "🏴",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "axis",
+    "label": "軸心國前線",
+    "note": "軸心國投降時,每個你有前線嘅軸心國 8 分(美英前線兩國各得 8 分)",
+    "icon": "⚔️",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 8
+   },
+   {
+    "id": "europe",
+    "label": "歐洲戰場加分",
+    "note": "意大利中部/北部、諾曼第先後、德國佔領、德國科技標記等(規則書 9.4 H–P)",
+    "icon": "🇪🇺",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "pacific",
+    "label": "太平洋戰場加分",
+    "note": "沖繩、九州、台灣、朝鮮、菲律賓、美軍軍種競爭等(9.4 Q–W)",
+    "icon": "🌊",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "abomb",
+    "label": "原子彈相關",
+    "note": "曼哈頓間諜網、三一試爆等(9.4 X–Z)",
+    "icon": "☢️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

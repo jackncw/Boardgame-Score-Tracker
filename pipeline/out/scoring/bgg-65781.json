@@ -1,0 +1,67 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-65781",
+ "name": "London",
+ "nameZh": "倫敦",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/london.pdf",
+  "verified": false,
+  "tieBreaker": "同分時貧窮點最少者勝;再同分比佔據自治市數目;仍同分比手上最高分嗰張分數卡",
+  "fields": [
+   {
+    "id": "money_vp",
+    "label": "金錢換分",
+    "note": "還清貸款之後,每 £3 得 1 分",
+    "icon": "💷",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "boroughs",
+    "label": "自治市",
+    "note": "每個有你建築標記嘅自治市按板上數值計分;該區有地鐵標記就再加 2 分",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "建築展示區",
+    "note": "展示區入面每張卡(就算已翻轉或者被蓋住)按卡上數值計分",
+    "icon": "🃏",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "loans",
+    "label": "未還貸款",
+    "note": "每筆未還嘅 £10 貸款扣 7 分",
+    "icon": "🏦",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 7,
+    "sign": -1
+   },
+   {
+    "id": "poverty",
+    "label": "貧窮點",
+    "note": "全枱一齊減去最少嗰位嘅貧窮點之後,查板上貧窮表扣分;呢欄入扣分數,app 會自動扣",
+    "icon": "🥀",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

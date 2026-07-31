@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-447243",
+ "name": "Duel for Cardia",
+ "nameZh": "卡迪亞決鬥",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/duel-for-cardia.pdf",
+  "verified": false,
+  "tieBreaker": "雙方都夠 5 個印章就繼續打,直到有一方較多、或者用其他方式取勝",
+  "fields": [
+   {
+    "id": "signets",
+    "label": "印章",
+    "note": "你卡上嘅印章數;第三階段回合結束時夠 5 個即勝",
+    "icon": "💍",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

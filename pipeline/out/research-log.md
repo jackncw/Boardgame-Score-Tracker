@@ -6,7 +6,7 @@
 **c** = 上網搵官方 rulebook 先生成(`source:"rulebook-web"` + sourceUrl);
 **-** = 唔使生成(合作/戰役/闖關/無累加計分)。
 
-# Phase 1 · rank 1–1000(426 行)
+# Phase 1 · rank 1–1000(428 行)
 
 ## 分流
 
@@ -15,14 +15,14 @@
 | A | 競爭型、有終局計分 → 目標 | 51 |
 | B | 合作/戰役/闖關/無累加計分 → 唔做,維持 hasScoring:false | 327 |
 | C | 未確定,研究時一併判斷 | 48 |
-| **合計** | | **426** |
+| **合計** | | **428** |
 
 ## 進度
 
-- 已生成計分表(done):40
+- 已生成計分表(done):60
 - 揾唔到可靠來源(no-source):1
-- 判定唔使做(skip):327
-- 未做(pending):58
+- 判定唔使做(skip):338
+- 未做(pending):29
 
 ## 逐隻紀錄
 
@@ -47,12 +47,12 @@
 | 159 | ISS Vanguard | B | - | skip | — | coop/campaign |
 | 160 | Iberia | B | - | skip | — | coop/campaign |
 | 161 | Codenames | B | - | skip | — | coop/campaign |
-| 163 | The Elder Scrolls: Betrayal of the Second Era | C | - | pending | — | 待研究判斷 |
+| 163 | The Elder Scrolls: Betrayal of the Second Era | C | - | skip | — | resweep:合作遊戲 |
 | 165 | Too Many Bones: Undertow | B | - | skip | — | coop/campaign |
 | 168 | The 7th Continent | B | - | skip | — | coop/campaign |
 | 169 | Andromeda's Edge | A | - | done | [link](https://cardboardalchemy.com/downloads/AndromedasEdge_Rulebook_sm.pdf) | 官方 rulebook;受損模組 −2/個、領袖 1 分/個 有明文 |
 | 171 | Magic: The Gathering | B | - | skip | — | coop/campaign |
-| 172 | Rajas of the Ganges | C | - | pending | — | 待研究判斷 |
+| 172 | Rajas of the Ganges | C | c | done | [link](https://bghub.org/r/rajasoftheganges.pdf) | resweep:兩軌交錯決勝,兩欄都係軌上位置 |
 | 174 | Pandemic | B | - | skip | — | coop/campaign |
 | 178 | Star Realms | B | - | skip | — | coop/campaign |
 | 182 | War Chest | B | - | skip | — | coop/campaign |
@@ -60,14 +60,14 @@
 | 187 | The Lord of the Rings: The Card Game | B | - | skip | — | coop/campaign |
 | 189 | Watergate | B | - | skip | — | coop/campaign |
 | 190 | Unmatched: Cobble & Fog | B | - | skip | — | coop/campaign |
-| 193 | Vantage | C | - | pending | — | 待研究判斷 |
+| 193 | Vantage | C | - | skip | — | resweep:合作遊戲 |
 | 200 | Legendary Encounters: An Alien Deck Building Game | C | - | pending | — | 待研究判斷 |
 | 206 | Star Wars: X-Wing Miniatures Game | B | - | skip | — | coop/campaign |
 | 208 | Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases | C | - | pending | — | 待研究判斷 |
 | 211 | Dune | B | - | skip | — | coop/campaign |
 | 212 | Radlands | B | - | skip | — | coop/campaign |
-| 213 | Welcome to the Moon | C | - | pending | — | 待研究判斷 |
-| 215 | John Company: Second Edition | C | - | pending | — | 待研究判斷 |
+| 213 | Welcome to the Moon | C | c | done | [link](https://bghub.org/r/welcome-to-the-moon.pdf) | resweep:八個冒險計分區唔同,只寫大類 |
+| 215 | John Company: Second Edition | C | c | done | [link](https://bghub.org/r/john-company-second-edition.pdf) | resweep:規則書 FINAL SCORING 明文 |
 | 217 | Star Wars: The Deckbuilding Game | B | - | skip | — | coop/campaign |
 | 220 | Wondrous Creatures | A | - | done | [link](https://drive.google.com/file/d/1_h2Mm0AcNhPVoM91SSdgqhNsuwVpFpOU/view) | 官方 rulebook v2.2;獎盃 3 分、資源每 4 個 1 分 有明文 |
 | 221 | This War of Mine: The Board Game | B | - | skip | — | coop/campaign |
@@ -91,12 +91,12 @@
 | 266 | Star Realms: Colony Wars | B | - | skip | — | coop/campaign |
 | 267 | Secret Hitler | B | - | skip | — | coop/campaign |
 | 269 | So Clover! | B | - | skip | — | coop/campaign |
-| 270 | My City | C | - | pending | — | 待研究判斷 |
+| 270 | My City | C | c | done | [link](https://bghub.org/r/my-city.pdf) | resweep:寫永恆遊戲(板背面)版本,單價全部明文 |
 | 271 | Cyclades | B | - | skip | — | coop/campaign |
 | 275 | Codenames: Duet | B | - | skip | — | coop/campaign |
 | 279 | Combat Commander: Europe | B | - | skip | — | coop/campaign |
 | 281 | Nemesis: Retaliation | B | - | skip | — | coop/campaign |
-| 283 | Samurai | C | - | pending | — | 待研究判斷 |
+| 283 | Samurai | C | c | done | [link](https://bghub.org/r/samurai.pdf) | resweep:多數決,但最後 tie-break 係棋子總數 |
 | 284 | Legendary: A Marvel Deck Building Game | A | - | done | [link](https://gamerules.com/rules/marvel-legendary/) | 非出版社原文(gamerules.com);只有旁觀者 1 分係明文 |
 | 289 | Flamme Rouge | B | - | skip | — | coop/campaign |
 | 291 | Deception: Murder in Hong Kong | B | - | skip | — | coop/campaign |
@@ -106,8 +106,8 @@
 | 301 | Aeon's End: The New Age | B | - | skip | — | coop/campaign |
 | 304 | Unconscious Mind | A | - | done | [link](https://fantasiaboardgames.com/wp-content/uploads/2024/11/UM-Rulebook-250x250mm_v2_WEB.pdf) | 官方 rulebook;心形盒 2 分、靈感 1 分 有明文 |
 | 309 | Hero Realms | B | - | skip | — | coop/campaign |
-| 311 | Hot Streak | C | - | pending | — | 待研究判斷 |
-| 314 | Toy Battle | C | - | pending | — | 待研究判斷 |
+| 311 | Hot Streak | C | c | done | [link](https://bghub.org/r/hot-streak.pdf) | resweep:三場派彩加埋 |
+| 314 | Toy Battle | C | c | done | [link](https://bghub.org/r/toy-battle.pdf) | resweep:勳章決勝 |
 | 315 | Santorini | B | - | skip | — | coop/campaign |
 | 317 | Star Realms: Frontiers | B | - | skip | — | coop/campaign |
 | 322 | Apiary | A | - | done | [link](https://bghub.org/r/apiary.pdf) | 官方 rulebook r10;各項分值靠板塊/卡片故 number |
@@ -115,7 +115,7 @@
 | 325 | Mind MGMT: The Psychic Espionage “Game.” | B | - | skip | — | coop/campaign |
 | 326 | Dice Throne: Season Two – Battle Chest | B | - | skip | — | coop/campaign |
 | 327 | Turing Machine | B | - | skip | — | coop/campaign |
-| 328 | Dorfromantik: The Board Game | C | - | pending | — | 待研究判斷 |
+| 328 | Dorfromantik: The Board Game | C | - | skip | — | resweep:合作遊戲 |
 | 329 | The Witcher: Old World | B | - | skip | — | coop/campaign |
 | 332 | Cloudspire | B | - | skip | — | coop/campaign |
 | 333 | Battle Line | B | - | skip | — | coop/campaign |
@@ -125,8 +125,8 @@
 | 337 | Hive | B | - | skip | — | coop/campaign |
 | 338 | 1960: The Making of the President | B | - | skip | — | coop/campaign |
 | 341 | Cryptid | B | - | skip | — | coop/campaign |
-| 346 | Detective: A Modern Crime Board Game | C | - | pending | — | 待研究判斷 |
-| 350 | Chronicles of Crime | C | - | pending | — | 待研究判斷 |
+| 346 | Detective: A Modern Crime Board Game | C | - | skip | — | resweep:合作查案,分數由 app 結算 |
+| 350 | Chronicles of Crime | C | - | skip | — | resweep:合作遊戲 |
 | 352 | Telestrations | B | - | skip | — | coop/campaign |
 | 353 | Summoner Wars (Second Edition) | B | - | skip | — | coop/campaign |
 | 355 | Arkham Horror (Third Edition) | B | - | skip | — | coop/campaign |
@@ -146,8 +146,8 @@
 | 381 | Innovation | B | - | skip | — | coop/campaign |
 | 388 | Space Alert | B | - | skip | — | coop/campaign |
 | 389 | Fromage | A | - | done | [link](https://bghub.org/r/fromage.pdf) | 官方 rulebook;四個場地查板上表故用 number |
-| 391 | Shackleton Base: A Journey to the Moon | A | - | pending | — | 競爭型終局計分 |
-| 400 | The King's Dilemma | C | - | pending | — | 待研究判斷 |
+| 391 | Shackleton Base: A Journey to the Moon | A | c | done | [link](https://bghub.org/r/shackletonbaseajourneytothemoon.pdf) | resweep:endgame scoring 明文 |
+| 400 | The King's Dilemma | C | c | done | [link](https://bghub.org/r/the-kings-dilemma.pdf) | resweep:議程點三大來源 |
 | 401 | Feed the Kraken | B | - | skip | — | coop/campaign |
 | 405 | Marvel United: X-Men | B | - | skip | — | coop/campaign |
 | 406 | Arydia: The Paths We Dare Tread | B | - | skip | — | coop/campaign |
@@ -199,7 +199,7 @@
 | 497 | Lords of Hellas | B | - | skip | — | coop/campaign |
 | 498 | Unmatched Adventures: Tales to Amaze | B | - | skip | — | coop/campaign |
 | 499 | Hannibal: Rome vs. Carthage | B | - | skip | — | coop/campaign |
-| 500 | Moon Colony Bloodbath | C | - | pending | — | 待研究判斷 |
+| 500 | Moon Colony Bloodbath | C | c | done | [link](https://bghub.org/r/moon-colony-bloodbath.pdf) | resweep:PDF 係掃描版,只寫類別 |
 | 502 | Zombicide: 2nd Edition | B | - | skip | — | coop/campaign |
 | 505 | Massive Darkness 2: Hellscape | B | - | skip | — | coop/campaign |
 | 506 | The LOOP | B | - | skip | — | coop/campaign |
@@ -209,7 +209,7 @@
 | 518 | Men-Nefer | A | - | done | [link](https://bghub.org/r/mennefer.pdf) | 官方 rulebook;各項查板上軌道故用 number |
 | 523 | Firefly: The Game | B | - | skip | — | coop/campaign |
 | 529 | PitchCar | B | - | skip | — | coop/campaign |
-| 530 | Agent Avenue | C | - | pending | — | 待研究判斷 |
+| 530 | Agent Avenue | C | - | skip | — | resweep:即時勝負,冇累加計分 |
 | 533 | Unmatched: Little Red Riding Hood vs. Beowulf | B | - | skip | — | coop/campaign |
 | 535 | Wavelength | B | - | skip | — | coop/campaign |
 | 536 | Luthier | A | - | done | [link](https://bghub.org/r/luthier.pdf) | 官方 rulebook;專長工人 1 分明文,首席對照表未列故 number |
@@ -217,12 +217,12 @@
 | 538 | MicroMacro: Crime City – Full House | B | - | skip | — | coop/campaign |
 | 539 | Civilization | B | - | skip | — | coop/campaign |
 | 540 | Black Orchestra | B | - | skip | — | coop/campaign |
-| 544 | Zenith | C | - | pending | — | 待研究判斷 |
+| 544 | Zenith | C | - | skip | — | resweep:即時勝利條件,冇累加計分 |
 | 545 | Flash Point: Fire Rescue | B | - | skip | — | coop/campaign |
 | 548 | Mythic Battles: Pantheon | B | - | skip | — | coop/campaign |
 | 549 | Sprawlopolis | B | - | skip | — | coop/campaign |
 | 551 | Sword & Sorcery: Immortal Souls | B | - | skip | — | coop/campaign |
-| 552 | Here I Stand | C | - | pending | — | 待研究判斷 |
+| 552 | Here I Stand | C | c | done | [link](https://bghub.org/r/here-i-stand.pdf) | resweep:規則書 9.4 base/special/bonus 三大類 |
 | 553 | Regicide | B | - | skip | — | coop/campaign |
 | 554 | Space Hulk (Third Edition) | B | - | skip | — | coop/campaign |
 | 555 | The Lord of the Rings: The Confrontation | B | - | skip | — | coop/campaign |
@@ -242,13 +242,13 @@
 | 586 | Dune | B | - | skip | — | coop/campaign |
 | 587 | The Old King's Crown | C | - | pending | — | 待研究判斷 |
 | 588 | Advanced Squad Leader | B | - | skip | — | coop/campaign |
-| 592 | Black Rose Wars | C | - | pending | — | 待研究判斷 |
+| 592 | Black Rose Wars | C | c | done | [link](https://bghub.org/r/blackrosewars.pdf) | resweep:排名獎勵表印喺圖,留 number |
 | 595 | Friday | B | - | skip | — | coop/campaign |
 | 596 | Middara: Unintentional Malum – Act 1 | B | - | skip | — | coop/campaign |
 | 598 | Shadows over Camelot | B | - | skip | — | coop/campaign |
 | 600 | Terrorscape | B | - | skip | — | coop/campaign |
 | 603 | Hanabi | B | - | skip | — | coop/campaign |
-| 605 | Take Time | C | - | pending | — | 待研究判斷 |
+| 605 | Take Time | C | - | skip | — | resweep:合作遊戲 |
 | 606 | Eternal Decks | C | - | pending | — | 待研究判斷 |
 | 610 | Kingdom Legacy: Feudal Kingdom | B | - | skip | — | coop/campaign |
 | 611 | EXIT: The Game – Dead Man on the Orient Express | B | - | skip | — | coop/campaign |
@@ -296,7 +296,8 @@
 | 694 | Sentinels of the Multiverse | B | - | skip | — | coop/campaign |
 | 696 | My Father's Work | C | - | pending | — | 待研究判斷 |
 | 697 | Euphoria: Build a Better Dystopia | B | - | skip | — | coop/campaign |
-| 698 | StarCraft: The Board Game | C | - | pending | — | 待研究判斷 |
+| 698 | StarCraft: The Board Game | C | c | done | [link](https://bghub.org/r/starcrafttheboardgame.pdf) | resweep:征服點數 |
+| 701 | London | - | c | done | [link](https://bghub.org/r/london.pdf) | resweep:log 漏網;規則書計分明文 |
 | 702 | Unlock!: Escape Adventures | B | - | skip | — | coop/campaign |
 | 703 | Undaunted: Stalingrad | B | - | skip | — | coop/campaign |
 | 706 | High Frontier 4 All | C | - | pending | — | 待研究判斷 |
@@ -307,12 +308,12 @@
 | 714 | Dice Throne: Season One | B | - | skip | — | coop/campaign |
 | 715 | Wandering Towers | B | - | skip | — | coop/campaign |
 | 719 | Coup | B | - | skip | — | coop/campaign |
-| 720 | Cozy Stickerville | C | - | pending | — | 待研究判斷 |
+| 720 | Cozy Stickerville | C | - | skip | — | resweep:合作,冇輸贏 |
 | 722 | Pathfinder Adventure Card Game: Rise of the Runelords – Base Set | B | - | skip | — | coop/campaign |
 | 725 | Windmill Valley | A | - | done | [link](https://bghub.org/r/windmill-valley.pdf) | 官方 rulebook;球莖顏色 1/1/2/2/3 分明文 |
 | 727 | Azul: Master Chocolatier | A | - | done | [link](https://bghub.org/r/azul-master-chocolatier.pdf) | 官方 rulebook;橫行 2、直行 7、集色 10 分 明文 |
-| 728 | River of Gold | A | - | pending | — | 競爭型終局計分 |
-| 729 | Star Trek: Captain's Chair | C | - | pending | — | 待研究判斷 |
+| 728 | River of Gold | A | c | done | [link](https://bghub.org/r/river-of-gold.pdf) | resweep:PDF 係掃描版,只寫類別 |
+| 729 | Star Trek: Captain's Chair | C | c | done | [link](https://bghub.org/r/star-trek-captains-chair.pdf) | resweep:final scoring 明文 |
 | 730 | Unlock!: Heroic Adventures | B | - | skip | — | coop/campaign |
 | 731 | Star Wars: Battle of Hoth | B | - | skip | — | coop/campaign |
 | 732 | Star Trek: Ascendancy | B | - | skip | — | coop/campaign |
@@ -326,7 +327,7 @@
 | 744 | The 7th Citadel | B | - | skip | — | coop/campaign |
 | 745 | Cuba Libre | B | - | skip | — | coop/campaign |
 | 749 | Star Wars: The Clone Wars | B | - | skip | — | coop/campaign |
-| 751 | Tag Team | C | - | pending | — | 待研究判斷 |
+| 751 | Tag Team | C | - | skip | — | resweep:KO 決勝,冇累加計分 |
 | 752 | Whitehall Mystery | B | - | skip | — | coop/campaign |
 | 758 | Telestrations: 12 Player Party Pack | B | - | skip | — | coop/campaign |
 | 760 | Zombicide: Green Horde | B | - | skip | — | coop/campaign |
@@ -343,12 +344,12 @@
 | 779 | Betrayal at House on the Hill | B | - | skip | — | coop/campaign |
 | 780 | Quantum | B | - | skip | — | coop/campaign |
 | 781 | Formula D | B | - | skip | — | coop/campaign |
-| 784 | Duel for Cardia | C | - | pending | — | 待研究判斷 |
+| 784 | Duel for Cardia | C | c | done | [link](https://bghub.org/r/duel-for-cardia.pdf) | resweep:印章決勝 |
 | 785 | The Battle of Five Armies | B | - | skip | — | coop/campaign |
-| 786 | Sanctuary | C | - | pending | — | 待研究判斷 |
+| 786 | Sanctuary | C | c | done | [link](https://bghub.org/r/sanctuary.pdf) | resweep:final scoring 明文 |
 | 787 | Gears of War: The Board Game | B | - | skip | — | coop/campaign |
 | 788 | Sub Terra | B | - | skip | — | coop/campaign |
-| 790 | Stationfall | C | - | pending | — | 待研究判斷 |
+| 790 | Stationfall | C | c | done | [link](https://bghub.org/r/stationfall.pdf) | resweep:分數來源係各自秘密身份議程,只寫大類 |
 | 794 | Twilight Inscription | A | - | done | [link](https://bghub.org/r/twilightinscription.pdf) | 官方 rulebook;各表小計(工業表每 2 貿易貨物 +1 明文) |
 | 796 | The Adventures of Robin Hood | B | - | skip | — | coop/campaign |
 | 797 | Taluva | C | - | pending | — | 待研究判斷 |
@@ -366,14 +367,14 @@
 | 812 | Disney Villainous: Wicked to the Core | B | - | skip | — | coop/campaign |
 | 814 | Mr. Jack | B | - | skip | — | coop/campaign |
 | 817 | Star Wars: Destiny | B | - | skip | — | coop/campaign |
-| 818 | Unstoppable | C | - | pending | — | 待研究判斷 |
+| 818 | Unstoppable | C | - | skip | — | resweep:打 boss 合作/單人 |
 | 821 | One Night Ultimate Werewolf: Daybreak | B | - | skip | — | coop/campaign |
 | 822 | Primal: The Awakening | B | - | skip | — | coop/campaign |
 | 825 | D-Day at Omaha Beach | B | - | skip | — | coop/campaign |
 | 826 | Guards of Atlantis II | B | - | skip | — | coop/campaign |
 | 827 | Sleeping Gods: Distant Skies | B | - | skip | — | coop/campaign |
 | 829 | Unlock!: Timeless Adventures | B | - | skip | — | coop/campaign |
-| 830 | Churchill | C | - | pending | — | 待研究判斷 |
+| 830 | Churchill | C | c | done | [link](https://bghub.org/r/churchill.pdf) | resweep:規則書 9.4 勝利點表逐條明文 |
 | 833 | Blood Bowl (2016 Edition) | B | - | skip | — | coop/campaign |
 | 836 | The Oracle of Delphi | B | - | skip | — | coop/campaign |
 | 838 | Roll Player Adventures | B | - | skip | — | coop/campaign |
@@ -454,6 +455,7 @@
 | 989 | Kinfire Delve: Vainglory's Grotto | B | - | skip | — | coop/campaign |
 | 990 | FUSE | B | - | skip | — | coop/campaign |
 | 992 | EXIT: The Game – The Secret Lab | B | - | skip | — | coop/campaign |
+| 999 | Parade | - | - | pending | — | resweep:log 漏網,重掃補入 |
 
 # Phase 2 · rank 1001–3000(2000 行)
 

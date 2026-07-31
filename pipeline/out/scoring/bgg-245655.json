@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-245655",
+ "name": "The King's Dilemma",
+ "nameZh": "國王的難題",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/the-kings-dilemma.pdf",
+  "verified": false,
+  "tieBreaker": "同分共享勝利,由主持人決定邊位聯姻",
+  "fields": [
+   {
+    "id": "agenda_res",
+    "label": "秘密議程:資源目標",
+    "note": "秘密議程卡上資源目標達成攞到嘅議程點",
+    "icon": "📜",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "agenda_money",
+    "label": "秘密議程:金錢排名",
+    "note": "秘密議程卡下方金錢排名目標攞到嘅議程點",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "open",
+    "label": "公開議程代幣",
+    "note": "正面代幣:對應資源喺資源軌最高 +3、第二高 +1;負面代幣:最低 -3、第二低 -1",
+    "icon": "🎭",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "power",
+    "label": "權力代幣多數",
+    "note": "屏風後剩低權力代幣最多 +2,第二多 +1;同名次者一齊攞",
+    "icon": "🗝️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

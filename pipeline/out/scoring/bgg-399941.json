@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-399941",
+ "name": "River of Gold",
+ "nameZh": "黃金之河",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/river-of-gold.pdf",
+  "verified": false,
+  "tieBreaker": "同分時剩低神恩較多者勝;仍平手就共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中得分",
+    "note": "遊戲期間喺計分軌上攞到嘅分",
+    "icon": "📈",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "influence",
+    "label": "地區影響力",
+    "note": "每個地區按影響力第一/二/三名攞該區計分板上嘅分;佔到長老格會令該區得分加倍",
+    "icon": "🗾",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "customers",
+    "label": "顧客數量",
+    "note": "按送到嘅顧客總數查顧客表計分",
+    "icon": "🧑‍🤝‍🧑",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "customer_bonus",
+    "label": "顧客類型獎勵",
+    "note": "送過貨畀商人、貴族、工匠嘅玩家,攞嗰啲顧客卡上嘅終局勝利點",
+    "icon": "💠",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

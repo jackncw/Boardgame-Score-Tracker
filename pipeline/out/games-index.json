@@ -2524,6 +2524,8 @@
   "bggId": 220877,
   "gameId": "bgg-220877",
   "name": "Rajas of the Ganges",
+  "nameZh": "恆河王侯",
+  "accent": "#C9772E",
   "rank": 172,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/hR5sxxqNY3gjvLwifaqRww__micro/img/sKKxT9rwkJ1mq4miIA7vKBB4QKU=/fit-in/64x64/filters:strip_icc()/pic3646165.jpg",
@@ -2531,7 +2533,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 304783,
@@ -3111,6 +3113,8 @@
   "bggId": 339789,
   "gameId": "bgg-339789",
   "name": "Welcome to the Moon",
+  "nameZh": "歡迎來到月球",
+  "accent": "#5A6E8C",
   "rank": 213,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/eCdiHCB9OobumwaGl4dbOQ__micro/img/6K_aZTlB2UrkycZtsGePxYZ0VR8=/fit-in/64x64/filters:strip_icc()/pic6204967.png",
@@ -3118,7 +3122,7 @@
   "minPlayers": 1,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 233867,
@@ -3139,6 +3143,8 @@
   "bggId": 332686,
   "gameId": "bgg-332686",
   "name": "John Company: Second Edition",
+  "nameZh": "約翰公司(第二版)",
+  "accent": "#8C3F3F",
   "rank": 215,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/TAdE4z_bwAAjJlmPrkmKhA__micro/img/p-jXC_52uBEepuByknlKsP48BEI=/fit-in/64x64/filters:strip_icc()/pic6601629.jpg",
@@ -3146,7 +3152,7 @@
   "minPlayers": 1,
   "maxPlayers": 6,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 416851,
@@ -3918,6 +3924,8 @@
   "bggId": 295486,
   "gameId": "bgg-295486",
   "name": "My City",
+  "nameZh": "我的城市",
+  "accent": "#6B9B5A",
   "rank": 270,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/fz4aYmycg9baQlm_DzwyKA__micro/img/T2TnwHpFlUId1opgZ4GC6jksj_4=/fit-in/64x64/filters:strip_icc()/pic7443423.jpg",
@@ -3925,7 +3933,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 54998,
@@ -4103,6 +4111,8 @@
   "bggId": 3,
   "gameId": "bgg-3",
   "name": "Samurai",
+  "nameZh": "武士",
+  "accent": "#8C3F3F",
   "rank": 283,
   "year": 1998,
   "thumbnail": "https://cf.geekdo-images.com/o9-sNXmFS_TLAb7ZlZ4dRA__micro/img/2FokcSwvRLQgyYC6_QK3Lme6dlc=/fit-in/64x64/filters:strip_icc()/pic3211873.jpg",
@@ -4110,7 +4120,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 129437,
@@ -4507,6 +4517,8 @@
   "bggId": 446497,
   "gameId": "bgg-446497",
   "name": "Hot Streak",
+  "nameZh": "賭馬狂熱",
+  "accent": "#C9553C",
   "rank": 311,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/co36SqyPYlM1QwVW6XSwyQ__micro/img/NDS5JO8k1CIZrfNDIFwrAI2PMNE=/fit-in/64x64/filters:strip_icc()/pic8933083.jpg",
@@ -4514,7 +4526,7 @@
   "minPlayers": 2,
   "maxPlayers": 8,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 277085,
@@ -4550,6 +4562,8 @@
   "bggId": 434654,
   "gameId": "bgg-434654",
   "name": "Toy Battle",
+  "nameZh": "玩具大戰",
+  "accent": "#C9553C",
   "rank": 314,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/GuhpuTKFteZEIhPTFvEpJw__micro/img/u4uW-HzzKA4nG45XyNo_9tB4MbM=/fit-in/64x64/filters:strip_icc()/pic8589750.jpg",
@@ -4557,7 +4571,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 194655,
@@ -5635,6 +5649,8 @@
   "bggId": 408180,
   "gameId": "bgg-408180",
   "name": "Shackleton Base: A Journey to the Moon",
+  "nameZh": "沙克爾頓基地:月球之旅",
+  "accent": "#5A6E8C",
   "rank": 391,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/XE4S_nXyHVvld2BOrDmA7Q__micro/img/cM_nVlx84JssOUYqJ9VzO9J2Ks4=/fit-in/64x64/filters:strip_icc()/pic7897060.jpg",
@@ -5642,7 +5658,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 209685,
@@ -5768,6 +5784,8 @@
   "bggId": 245655,
   "gameId": "bgg-245655",
   "name": "The King's Dilemma",
+  "nameZh": "國王的難題",
+  "accent": "#8C3F3F",
   "rank": 400,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/FJlTdSMkK5hMNtCympJFmg__micro/img/oArgx9p7RYiMnLVBGx7mmL_HfWw=/fit-in/64x64/filters:strip_icc()/pic5429837.jpg",
@@ -5775,7 +5793,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 271601,
@@ -7193,6 +7211,8 @@
   "bggId": 425549,
   "gameId": "bgg-425549",
   "name": "Moon Colony Bloodbath",
+  "nameZh": "月球殖民地大屠殺",
+  "accent": "#5A6E8C",
   "rank": 500,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/KDrRxEKQMmHyM0QQ2ONX4Q__micro/img/RjnDXYSgA-T3PdHnIjH0cr2i4nA=/fit-in/64x64/filters:strip_icc()/pic8638247.jpg",
@@ -7200,7 +7220,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 286751,
@@ -7918,6 +7938,8 @@
   "bggId": 17392,
   "gameId": "bgg-17392",
   "name": "Here I Stand",
+  "nameZh": "宗教改革戰爭",
+  "accent": "#8C6239",
   "rank": 552,
   "year": 2006,
   "thumbnail": "https://cf.geekdo-images.com/SaJz1vt6j4njvkhDaplSHA__micro/img/mhsDtcWAuihodQhSEHIdfIZHyNw=/fit-in/64x64/filters:strip_icc()/pic353047.jpg",
@@ -7925,7 +7947,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 360,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 307002,
@@ -8480,6 +8502,8 @@
   "bggId": 239942,
   "gameId": "bgg-239942",
   "name": "Black Rose Wars",
+  "nameZh": "黑玫瑰戰爭",
+  "accent": "#5A4A7A",
   "rank": 592,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/Nam2TVpVSvHIuAsbocL9cw__micro/img/DX7HqbschhX8drcfe-jNwe_9mLQ=/fit-in/64x64/filters:strip_icc()/pic6892325.jpg",
@@ -8487,7 +8511,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 478,
@@ -9964,6 +9988,8 @@
   "bggId": 22827,
   "gameId": "bgg-22827",
   "name": "StarCraft: The Board Game",
+  "nameZh": "星海爭霸:桌上遊戲",
+  "accent": "#5A7A8C",
   "rank": 698,
   "year": 2007,
   "thumbnail": "https://cf.geekdo-images.com/tXwlK5uyyxaMzXG65NZ3Xg__micro/img/noFICWCgdGJXGPtPntuzypoUzAg=/fit-in/64x64/filters:strip_icc()/pic265704.jpg",
@@ -9971,7 +9997,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 15363,
@@ -10007,6 +10033,8 @@
   "bggId": 65781,
   "gameId": "bgg-65781",
   "name": "London",
+  "nameZh": "倫敦",
+  "accent": "#8C6239",
   "rank": 701,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/Wb9zwcnPNX-wSNvVcWYNjQ__micro/img/RFuYkaFAPnpnkSrgjWh1GbAiOcg=/fit-in/64x64/filters:strip_icc()/pic770317.jpg",
@@ -10014,7 +10042,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 213460,
@@ -10386,6 +10414,8 @@
   "bggId": 399941,
   "gameId": "bgg-399941",
   "name": "River of Gold",
+  "nameZh": "黃金之河",
+  "accent": "#C9A227",
   "rank": 728,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/ysqfvJ1HckeCUTIyTMubWQ__micro/img/UCIoeZ0BO6B7RJLkLxr9YhQpHIk=/fit-in/64x64/filters:strip_icc()/pic7697889.jpg",
@@ -10393,12 +10423,14 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 422541,
   "gameId": "bgg-422541",
   "name": "Star Trek: Captain's Chair",
+  "nameZh": "星艦奇航記:艦長之椅",
+  "accent": "#5A7A8C",
   "rank": 729,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/Ft_wPFLBXESSipuF1-t8gQ__micro/img/MZDYiR_hgSG0QD1K9dZcV8JoH8k=/fit-in/64x64/filters:strip_icc()/pic8243925.jpg",
@@ -10406,7 +10438,7 @@
   "minPlayers": 1,
   "maxPlayers": 2,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 266121,
@@ -11172,6 +11204,8 @@
   "bggId": 447243,
   "gameId": "bgg-447243",
   "name": "Duel for Cardia",
+  "nameZh": "卡迪亞決鬥",
+  "accent": "#5A4A7A",
   "rank": 784,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/e-Xx7mz_tgisEx2Aq4Wa6w__micro/img/Hx0dVRkefYIL2xH6DLn-rq2KjyI=/fit-in/64x64/filters:strip_icc()/pic8910865.png",
@@ -11179,7 +11213,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 135219,
@@ -11198,6 +11232,8 @@
   "bggId": 441696,
   "gameId": "bgg-441696",
   "name": "Sanctuary",
+  "nameZh": "動物庇護所",
+  "accent": "#6B9B5A",
   "rank": 786,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/C6V2VCtf1_7cavenn7Is3A__micro/img/tvxkKNDduJQTSox_42RDifoA338=/fit-in/64x64/filters:strip_icc()/pic8932906.jpg",
@@ -11205,7 +11241,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 100,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 42776,
@@ -11252,6 +11288,8 @@
   "bggId": 316624,
   "gameId": "bgg-316624",
   "name": "Stationfall",
+  "nameZh": "太空站墜落",
+  "accent": "#5A6E8C",
   "rank": 790,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/eUiju5SqZbkNt8gnEofrTw__micro/img/eDbhO2VSfAUoY0OdjSkL2G_Hmg4=/fit-in/64x64/filters:strip_icc()/pic6035127.png",
@@ -11259,7 +11297,7 @@
   "minPlayers": 1,
   "maxPlayers": 9,
   "playTime": 150,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 107529,
@@ -11804,6 +11842,8 @@
   "bggId": 132018,
   "gameId": "bgg-132018",
   "name": "Churchill",
+  "nameZh": "邱吉爾",
+  "accent": "#8C6239",
   "rank": 830,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/wnzE76dkpb6qhSrmF2Fifw__micro/img/H5zt-0DcmyyNQudzgbdwiEVn6aA=/fit-in/64x64/filters:strip_icc()/pic2467234.jpg",
@@ -11811,7 +11851,7 @@
   "minPlayers": 1,
   "maxPlayers": 3,
   "playTime": 300,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 296912,
