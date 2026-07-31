@@ -25789,6 +25789,8 @@
   "bggId": 401216,
   "gameId": "bgg-401216",
   "name": "Cascadero",
+  "nameZh": "使者之路",
+  "accent": "#C9773C",
   "rank": 1855,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/yQDaiaHhxRRLA27gFoMO1Q__micro/img/DWra_SCAYiOop0_p1220Hr9QRJU=/fit-in/64x64/filters:strip_icc()/pic7732734.jpg",
@@ -25796,7 +25798,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 3097,
@@ -25830,6 +25832,8 @@
   "bggId": 309105,
   "gameId": "bgg-309105",
   "name": "Sagani",
+  "nameZh": "薩加尼",
+  "accent": "#5A8C6E",
   "rank": 1858,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/SvW9cN5oSkHfaU6Znt8hRA__micro/img/KvWdL8_jN-Vs94i8gE6KcGUVH3o=/fit-in/64x64/filters:strip_icc()/pic5410757.png",
@@ -25837,7 +25841,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 929,
@@ -25869,6 +25873,8 @@
   "bggId": 406854,
   "gameId": "bgg-406854",
   "name": "Odin",
+  "nameZh": "奧丁",
+  "accent": "#5A6E8C",
   "rank": 1861,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/hh5YOk9OQ3e0uJbMOfvT2g__micro/img/WfIaORCx5TsznrFXcCqhqLNtH3E=/fit-in/64x64/filters:strip_icc()/pic7921978.jpg",
@@ -25876,7 +25882,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 214396,
@@ -26128,6 +26134,8 @@
   "bggId": 431038,
   "gameId": "bgg-431038",
   "name": "Azul Duel",
+  "nameZh": "花磚物語:對決",
+  "accent": "#3C6E9B",
   "rank": 1880,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/wcYNm1g5mtv6LNZGok_PZw__micro/img/65b-Qgez1GxPVaiP359VomBzuGo=/fit-in/64x64/filters:strip_icc()/pic8491761.png",
@@ -26135,7 +26143,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 420077,
@@ -26249,6 +26257,8 @@
   "bggId": 314582,
   "gameId": "bgg-314582",
   "name": "Amsterdam",
+  "nameZh": "阿姆斯特丹",
+  "accent": "#B5563C",
   "rank": 1889,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/BD9dnn5PW2pQz4xKVMpvMQ__micro/img/8VOD4UKIuj8eXpmebBSOR_pYv4o=/fit-in/64x64/filters:strip_icc()/pic5536136.jpg",
@@ -26256,7 +26266,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 351594,
@@ -26753,6 +26763,8 @@
   "bggId": 423517,
   "gameId": "bgg-423517",
   "name": "3 Chapters",
+  "nameZh": "三章物語",
+  "accent": "#8C5AA8",
   "rank": 1927,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/es3F2drfUOIVnqsTds3BDQ__micro/img/Wb9xktdDTKDvUolzx-c8qzRKPkY=/fit-in/64x64/filters:strip_icc()/pic8940639.png",
@@ -26760,7 +26772,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 252929,
@@ -26805,6 +26817,8 @@
   "bggId": 492,
   "gameId": "bgg-492",
   "name": "Aladdin's Dragons",
+  "nameZh": "阿拉丁與魔龍",
+  "accent": "#B58C3C",
   "rank": 1931,
   "year": 2000,
   "thumbnail": "https://cf.geekdo-images.com/GFgQQ4ZMH8kr3LsGvYHZHw__micro/img/LQ_08G4AikUFBhhrBtNseLRKuCw=/fit-in/64x64/filters:strip_icc()/pic143493.jpg",
@@ -26812,7 +26826,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 270109,
@@ -26913,6 +26927,8 @@
   "bggId": 370789,
   "gameId": "bgg-370789",
   "name": "Nova Roma",
+  "nameZh": "新羅馬",
+  "accent": "#B5563C",
   "rank": 1939,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/zEv4IVUrCK9CpNrO54b7Kg__micro/img/tCW9niICCEQ_1esxDQN3Bxr_wTk=/fit-in/64x64/filters:strip_icc()/pic7071623.jpg",
@@ -26920,7 +26936,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 240567,
@@ -27101,6 +27117,8 @@
   "bggId": 438442,
   "gameId": "bgg-438442",
   "name": "Feya's Swamp",
+  "nameZh": "菲雅沼澤",
+  "accent": "#5A8C6E",
   "rank": 1953,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/lxzo9PekKd4TRyBUlLH7Yw__micro/img/Ho-zququG1mztWkEpnhYym-Ix8w=/fit-in/64x64/filters:strip_icc()/pic8703614.png",
@@ -27108,7 +27126,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 100,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 18745,
@@ -27127,6 +27145,8 @@
   "bggId": 419704,
   "gameId": "bgg-419704",
   "name": "Phoenix New Horizon",
+  "nameZh": "鳳凰:新地平線",
+  "accent": "#C9773C",
   "rank": 1955,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/qdUx6XBGT3KATMtacOM0jg__micro/img/zbGCQ-Dkv1l37DRSjQlXqIMjqv4=/fit-in/64x64/filters:strip_icc()/pic8162751.jpg",
@@ -27134,7 +27154,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 1829,
@@ -27231,6 +27251,8 @@
   "bggId": 295905,
   "gameId": "bgg-295905",
   "name": "Cosmic Frog",
+  "nameZh": "宇宙蛙",
+  "accent": "#5A8C8C",
   "rank": 1963,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/AIpQGJA6fG1ArnX-5F1tsA__micro/img/xMOf_zfHpSSxOLDaSmTaeqz15TY=/fit-in/64x64/filters:strip_icc()/pic5278075.png",
@@ -27238,7 +27260,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 57925,
@@ -27272,6 +27294,8 @@
   "bggId": 413469,
   "gameId": "bgg-413469",
   "name": "Ada's Dream",
+  "nameZh": "艾達之夢",
+  "accent": "#7A5AA8",
   "rank": 1966,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/i3YeleJsNmnvcKdwgW3TKA__micro/img/Wf4ubE1k3-1ftJ3QGXqtrflJqEw=/fit-in/64x64/filters:strip_icc()/pic8030666.jpg",
@@ -27279,7 +27303,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 266083,
@@ -27774,6 +27798,8 @@
   "bggId": 432456,
   "gameId": "bgg-432456",
   "name": "dnup",
+  "nameZh": "dnup",
+  "accent": "#5A8CA8",
   "rank": 2004,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/mhNZFwA0kAS0gX2Tjh0pJw__micro/img/RcgLE1eKgU-Yxx9O7anGm3HfYBw=/fit-in/64x64/filters:strip_icc()/pic9490614.jpg",
@@ -27781,7 +27807,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 148951,
@@ -28146,6 +28172,8 @@
   "bggId": 402677,
   "gameId": "bgg-402677",
   "name": "Daitoshi",
+  "nameZh": "大都市",
+  "accent": "#B5563C",
   "rank": 2032,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/RCQf2kr9tPW3RrrZj-9lvA__micro/img/8IsMMwgtrS9SW5dRqOqGrwTl1l8=/fit-in/64x64/filters:strip_icc()/pic7774194.jpg",
@@ -28153,7 +28181,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 13780,
@@ -28172,6 +28200,8 @@
   "bggId": 39339,
   "gameId": "bgg-39339",
   "name": "Android",
+  "nameZh": "機器紀元",
+  "accent": "#4A5A7A",
   "rank": 2034,
   "year": 2008,
   "thumbnail": "https://cf.geekdo-images.com/gm1pY1yQzd_9VNDcZzQIxQ__micro/img/GB_l7TKPE0bgmGyNyVAcYWxy8C0=/fit-in/64x64/filters:strip_icc()/pic400196.jpg",
@@ -28179,7 +28209,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 230889,
@@ -28198,6 +28228,8 @@
   "bggId": 90040,
   "gameId": "bgg-90040",
   "name": "Pergamon",
+  "nameZh": "帕加馬",
+  "accent": "#B58C3C",
   "rank": 2036,
   "year": 2011,
   "thumbnail": "https://cf.geekdo-images.com/086YBTGlbnI4Y1xMV6rtBA__micro/img/FteDsxQMrrVE88mPFwmJqtjKWOk=/fit-in/64x64/filters:strip_icc()/pic6389152.png",
@@ -28205,12 +28237,14 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 403265,
   "gameId": "bgg-403265",
   "name": "Marabunta",
+  "nameZh": "行軍蟻",
+  "accent": "#C9553C",
   "rank": 2037,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/yzedKGCMj8TUaOno47NLJA__micro/img/W6k55x5BjvW5SGDS6-taAsGejhI=/fit-in/64x64/filters:strip_icc()/pic7828666.jpg",
@@ -28218,7 +28252,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 322561,
@@ -28250,6 +28284,8 @@
   "bggId": 303551,
   "gameId": "bgg-303551",
   "name": "Polis",
+  "nameZh": "城邦爭霸",
+  "accent": "#B58C3C",
   "rank": 2040,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/sR9vKUFfimiNWW7dOSkBMg__micro/img/2O8fja1F-1fhOCoArgpmLjVN42k=/fit-in/64x64/filters:strip_icc()/pic5264401.jpg",
@@ -28257,7 +28293,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 8129,
@@ -28384,6 +28420,8 @@
   "bggId": 352454,
   "gameId": "bgg-352454",
   "name": "Trailblazers",
+  "nameZh": "開路先鋒",
+  "accent": "#5A8C6E",
   "rank": 2050,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/jjLaKzZiy432J-5uKg_c5w__micro/img/_pKKE71QDrdj4ISSDIzOJ359q6Y=/fit-in/64x64/filters:strip_icc()/pic6772212.jpg",
@@ -28391,7 +28429,7 @@
   "minPlayers": 1,
   "maxPlayers": 8,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 400995,
@@ -28410,6 +28448,8 @@
   "bggId": 392492,
   "gameId": "bgg-392492",
   "name": "Stupor Mundi",
+  "nameZh": "世界奇蹟",
+  "accent": "#B5563C",
   "rank": 2052,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/SJvK-Hq72xOiJ_JsmB1dGA__micro/img/RHMJBbFIh_bxzdvvspDr_Ri02vQ=/fit-in/64x64/filters:strip_icc()/pic7585104.jpg",
@@ -28417,7 +28457,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 150,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 218804,
@@ -28566,6 +28606,8 @@
   "bggId": 277597,
   "gameId": "bgg-277597",
   "name": "Fast Sloths",
+  "nameZh": "樹懶快跑",
+  "accent": "#8C7A5A",
   "rank": 2064,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/npoS63eOgDeO2lnDgDOPMg__micro/img/fian2toxTX2jwfmNIcaFyu1JjxI=/fit-in/64x64/filters:strip_icc()/pic4866116.jpg",
@@ -28573,7 +28615,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 10093,
@@ -28605,6 +28647,8 @@
   "bggId": 171662,
   "gameId": "bgg-171662",
   "name": "Neanderthal",
+  "nameZh": "尼安德塔人",
+  "accent": "#8C6E4A",
   "rank": 2067,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/OVQoIXkAMIyXXqMd3RjhNg__micro/img/keBXvERYCiBSXaqTh5szleK_as8=/fit-in/64x64/filters:strip_icc()/pic3936693.jpg",
@@ -28612,7 +28656,7 @@
   "minPlayers": 1,
   "maxPlayers": 3,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 92319,
@@ -28761,6 +28805,8 @@
   "bggId": 412086,
   "gameId": "bgg-412086",
   "name": "Etherstone",
+  "nameZh": "以太石",
+  "accent": "#5A5A8C",
   "rank": 2079,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/K0DaAMxsEtQV7h7ac47OGQ__micro/img/b2drcDVMdra_LDE0g20NndslzbA=/fit-in/64x64/filters:strip_icc()/pic7986687.png",
@@ -28768,12 +28814,14 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 15511,
   "gameId": "bgg-15511",
   "name": "Fjords",
+  "nameZh": "峽灣",
+  "accent": "#5A8CA8",
   "rank": 2080,
   "year": 2005,
   "thumbnail": "https://cf.geekdo-images.com/5lLbSwazSo9jibcsJGvu3w__micro/img/s0q52s1hfLgZfjTkfjgaox7z-Dk=/fit-in/64x64/filters:strip_icc()/pic8639545.jpg",
@@ -28781,7 +28829,7 @@
   "minPlayers": 1,
   "maxPlayers": 2,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 144041,
@@ -29021,6 +29069,8 @@
   "bggId": 309430,
   "gameId": "bgg-309430",
   "name": "Tiny Epic Pirates",
+  "nameZh": "小小史詩:海盜",
+  "accent": "#8C3F3F",
   "rank": 2099,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/OACc4dCZKetKnT2hzAO1Mg__micro/img/2S9Shv7V517sFUbynLO5RTG06lQ=/fit-in/64x64/filters:strip_icc()/pic5410377.jpg",
@@ -29028,7 +29078,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 38343,
@@ -29062,6 +29112,8 @@
   "bggId": 221769,
   "gameId": "bgg-221769",
   "name": "Bios: Megafauna (Second Edition)",
+  "nameZh": "生態:巨獸(第二版)",
+  "accent": "#6B8C4A",
   "rank": 2102,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/RA8mln_pt3TUeoPCckvCYQ__micro/img/OwzjpMNaclyr70NnIij6MqaPNN8=/fit-in/64x64/filters:strip_icc()/pic4095180.jpg",
@@ -29069,7 +29121,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 265256,
@@ -29237,6 +29289,8 @@
   "bggId": 321277,
   "gameId": "bgg-321277",
   "name": "Tinners' Trail (Second Edition)",
+  "nameZh": "錫礦之路(第二版)",
+  "accent": "#8C6E4A",
   "rank": 2115,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/6V1-JGsuUzyRJlVaj01iGA__micro/img/4jSPIt5aOHMV85CF2dMoNVAocKY=/fit-in/64x64/filters:strip_icc()/pic5688132.png",
@@ -29244,7 +29298,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 34194,
@@ -29382,6 +29436,8 @@
   "bggId": 252446,
   "gameId": "bgg-252446",
   "name": "Key Flow",
+  "nameZh": "關鍵流動",
+  "accent": "#5A8C6E",
   "rank": 2126,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/1o7i-hnpCiWC45QUnSOAgA__micro/img/eHt6LCHGMtJn49EoepEAtqBImTE=/fit-in/64x64/filters:strip_icc()/pic4264435.jpg",
@@ -29389,7 +29445,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 149951,
@@ -29527,6 +29583,8 @@
   "bggId": 351538,
   "gameId": "bgg-351538",
   "name": "Bamboo",
+  "nameZh": "竹",
+  "accent": "#6B9B5A",
   "rank": 2137,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/JPk8CpExdhywjxerrXWXBQ__micro/img/KHc5VDh1BVweYb4wpDpTpazayE0=/fit-in/64x64/filters:strip_icc()/pic7141455.jpg",
@@ -29534,7 +29592,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 110,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 217083,

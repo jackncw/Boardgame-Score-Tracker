@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-221769",
+ "name": "Bios: Megafauna (Second Edition)",
+ "nameZh": "生態:巨獸(第二版)",
+ "theme": {
+  "accent": "#6B8C4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/bios-megafauna-second-edition.pdf",
+  "verified": false,
+  "tieBreaker": "同分者共享名次",
+  "fields": [
+   {
+    "id": "fossils",
+    "label": "化石紀錄",
+    "note": "每張有化石圖示嘅卡或者化石標記 1 分",
+    "icon": "🦴",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "population",
+    "label": "族群",
+    "note": "地圖上每個自己顏色嘅生物木偶 1 分",
+    "icon": "🐾",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "tableau",
+    "label": "版圖卡",
+    "note": "自己版圖入面每張有化石圖示嘅卡 1 分(包括工具、美狄亞、基因型)",
+    "icon": "🃏",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "mutualism",
+    "label": "共生",
+    "note": "共生卡上面每個宿主木偶 1 分",
+    "icon": "🤝",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "emotions",
+    "label": "情緒",
+    "note": "每種情緒 1 分;另外擁有「語言」再加 3 分",
+    "icon": "🧠",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

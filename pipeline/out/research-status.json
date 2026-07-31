@@ -12805,9 +12805,9 @@
   "name": "Cascadero",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/cascadero.pdf",
+  "note": "rulebook:全程VP軌,冇終局結算;勝出要行到第三面成就旗"
  },
  {
   "rank": 1856,
@@ -12835,9 +12835,9 @@
   "name": "Sagani",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/sagani.pdf",
+  "note": "rulebook 明文:獎勵 5 分/次、雜音圓片 -2 分/個"
  },
  {
   "rank": 1859,
@@ -12865,9 +12865,9 @@
   "name": "Odin",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/odin.pdf",
+  "note": "rulebook 明文:每手剩牌每張 1 分,最少分者勝"
  },
  {
   "rank": 1862,
@@ -13026,8 +13026,8 @@
   "cat": "-",
   "path": "c",
   "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "sourceUrl": "https://bghub.org/r/glasgow.pdf",
+  "note": "PDF 字型無法抽字(pdftotext 出亂碼),唔可靠"
  },
  {
   "rank": 1878,
@@ -13055,9 +13055,9 @@
   "name": "Azul Duel",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/azul-duel.pdf",
+  "note": "rulebook 明文列齊計分板塊分值,但每局只用 3-4 張故合併做一欄 number"
  },
  {
   "rank": 1881,
@@ -13145,9 +13145,9 @@
   "name": "Amsterdam",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/amsterdam.pdf",
+  "note": "rulebook 明文:罰分 -3/-5/-7、徽章 3 分/個、剩餘每兩件 1 分;城區對照表印喺圖故留 number"
  },
  {
   "rank": 1890,
@@ -13525,9 +13525,9 @@
   "name": "3 Chapters",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/3-chapters.pdf",
+  "note": "rulebook 明文:星 2 分、心 1 分、每兩粒寶石 1 分、寶石最多加 4 粒"
  },
  {
   "rank": 1928,
@@ -13565,9 +13565,9 @@
   "name": "Aladdin's Dragons",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/aladdins-dragons.pdf",
+  "note": "rulebook 明文:神器最多者勝,卷軸破同分"
  },
  {
   "rank": 1932,
@@ -13645,9 +13645,9 @@
   "name": "Nova Roma",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/nova-roma.pdf",
+  "note": "用多人 END GAME 章節(line 715),唔係 solo 章節;戰車 3/衝線 5/動物 2-5-9/馬賽克 2-3-5 全部明文"
  },
  {
   "rank": 1940,
@@ -13785,9 +13785,9 @@
   "name": "Feya's Swamp",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/feyasswamp.pdf",
+  "note": "rulebook 明文:島 = 聚落 × 靈魂格;6 張計分卡每局用 2 張故合併做一欄"
  },
  {
   "rank": 1954,
@@ -13805,9 +13805,9 @@
   "name": "Phoenix New Horizon",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/phoenix-new-horizon.pdf",
+  "note": "rulebook 明文能量軌 1/2/4/6、發展軌 3/6/10;對講機值隨殖民者位置變故留 number"
  },
  {
   "rank": 1956,
@@ -13885,9 +13885,9 @@
   "name": "Cosmic Frog",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/cosmic-frog.pdf",
+  "note": "擺放分/多樣性分兩類明確,但長度對照表印喺圖故全部 number"
  },
  {
   "rank": 1964,
@@ -13915,9 +13915,9 @@
   "name": "Ada's Dream",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/adas-dream.pdf",
+  "note": "rulebook 11 項明文;每疊圓片 2 分、齒輪缺一 -2 分、剩書 1 分明文,其餘分值係圖示故 number"
  },
  {
   "rank": 1967,
@@ -14295,9 +14295,9 @@
   "name": "dnup",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/dnup.pdf",
+  "note": "PDF 部分 OCR 不良但計分句可讀:出清第一攞 2 標記、第二攞 1,夠 4 個即勝"
  },
  {
   "rank": 2005,
@@ -14575,9 +14575,9 @@
   "name": "Daitoshi",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/daitoshi.pdf",
+  "note": "rulebook 明文四條荒野軌乘數結構;軌上分值印喺板故 number;剩餘每 2 件 1 分明文"
  },
  {
   "rank": 2033,
@@ -14595,9 +14595,9 @@
   "name": "Android",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/android.pdf",
+  "note": "rulebook 明文 +15/+5/+4/+3/+3/-1;拼圖連結會改動個別值,已喺 note 講明"
  },
  {
   "rank": 2035,
@@ -14615,9 +14615,9 @@
   "name": "Pergamon",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/pergamon.pdf",
+  "note": "rulebook 明文:每收藏 1-6 分、最舊獎 2 分、終局 3/2/1"
  },
  {
   "rank": 2037,
@@ -14625,9 +14625,9 @@
   "name": "Marabunta",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/marabunta.pdf",
+  "note": "rulebook 明文:區域贏家攞計分葉圓圈數 2-8 分,葉值逐區唔同故 number"
  },
  {
   "rank": 2038,
@@ -14655,9 +14655,9 @@
   "name": "Polis",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/polis.pdf",
+  "note": "rulebook 明文:人口每粒 1 分 + 威望 + 已完成工程終局獎"
  },
  {
   "rank": 2041,
@@ -14755,9 +14755,9 @@
   "name": "Trailblazers",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/trailblazers.pdf",
+  "note": "rulebook 明文:環線每個路標 1 分;目標卡分值印喺卡故 number"
  },
  {
   "rank": 2051,
@@ -14775,9 +14775,9 @@
   "name": "Stupor Mundi",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/stupor-mundi.pdf",
+  "note": "rulebook line 1066 明文:每座建築 +1、建築多數 +4/+2(兩人局無 +2)"
  },
  {
   "rank": 2053,
@@ -14895,9 +14895,9 @@
   "name": "Fast Sloths",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/fast-sloths.pdf",
+  "note": "rulebook 明文:葉子最多者勝,夠 8 塊即刻贏"
  },
  {
   "rank": 2065,
@@ -14925,9 +14925,9 @@
   "name": "Neanderthal",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/neanderthal.pdf",
+  "note": "三張性別卡分值表唔同,故合併做一欄 number,三表全文寫入 note"
  },
  {
   "rank": 2068,
@@ -15045,9 +15045,9 @@
   "name": "Etherstone",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/etherstone.pdf",
+  "note": "rulebook 明文:標記 1 分、觸發標記 +2、生命每 2 點 1 分、虛空契約 -7、腐化 -3"
  },
  {
   "rank": 2080,
@@ -15055,9 +15055,9 @@
   "name": "Fjords",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/fjords.pdf",
+  "note": "rulebook 明文:每個放低嘅維京人 1 分"
  },
  {
   "rank": 2081,
@@ -15245,9 +15245,9 @@
   "name": "Tiny Epic Pirates",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/tiny-epic-pirates.pdf",
+  "note": "rulebook 明文:最先埋 3 個寶藏者勝,同分比傳奇等級"
  },
  {
   "rank": 2100,
@@ -15275,9 +15275,9 @@
   "name": "Bios: Megafauna (Second Edition)",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/bios-megafauna-second-edition.pdf",
+  "note": "rulebook A7 明文:五項各 1 VP,語言 +3"
  },
  {
   "rank": 2103,
@@ -15405,9 +15405,9 @@
   "name": "Tinners' Trail (Second Edition)",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/tinners-trail-second-edition.pdf",
+  "note": "rulebook 明文:冇終局計分,只有分數軌"
  },
  {
   "rank": 2116,
@@ -15515,9 +15515,9 @@
   "name": "Key Flow",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/key-flow.pdf",
+  "note": "計分全部由卡面規則決定故合併做一欄;剩餘金幣 1 分明文"
  },
  {
   "rank": 2127,
@@ -15625,9 +15625,9 @@
   "name": "Bamboo",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/bamboo.pdf",
+  "note": "rulebook 明文:每款森林之靈 2 HP、左右每差 1 點 -2 HP、平衡磚半分進位、進階空格 -1"
  },
  {
   "rank": 2138,

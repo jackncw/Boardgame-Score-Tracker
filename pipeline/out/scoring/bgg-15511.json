@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-15511",
+ "name": "Fjords",
+ "nameZh": "峽灣",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/fjords.pdf",
+  "verified": false,
+  "tieBreaker": "同分可以再打一局將兩局分數加埋分勝負",
+  "fields": [
+   {
+    "id": "vikings",
+    "label": "已放維京人",
+    "note": "喺場上放低嘅維京人,每個 1 分。如果對手根本冇可能爭到而自己又用晒維京人,嗰啲無爭議嘅地塊照當有維京人計",
+    "icon": "🛶",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-351538",
+ "name": "Bamboo",
+ "nameZh": "竹",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/bamboo.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中家園磚舒適值總和較高者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中幸福值",
+    "note": "四個回合完結時幸福值標記喺軌上嘅數",
+    "icon": "🎋",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "spirits",
+    "label": "森林之靈磚",
+    "note": "遊戲期間攞到嘅唔同款森林之靈磚,每款 2 分(用咗定冇用都照計,同款只計一次)",
+    "icon": "🦊",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "harmony",
+    "label": "家園失衡",
+    "note": "將家園左邊 6 格嘅舒適值總和同右邊 6 格比,每差 1 點就 -2 分。入負數",
+    "icon": "⚖️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "balance",
+    "label": "未計分平衡磚",
+    "note": "未計過分嘅平衡磚,如果圖案已經正確砌出就攞磚上分值嘅一半(除唔盡就進位);圖案未達成就冇效果",
+    "icon": "🧘",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "advanced",
+    "label": "進階模式空格",
+    "note": "只限進階模式:每個有特殊指示而冇冚到嘅格 -1 分。唔玩進階模式入 0",
+    "icon": "🚩",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-419704",
+ "name": "Phoenix New Horizon",
+ "nameZh": "鳳凰:新地平線",
+ "theme": {
+  "accent": "#C9773C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/phoenix-new-horizon.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中釋放最多殖民者者勝;再同分睇能量軌較高;再同分睇燃料較多",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中累計分",
+    "note": "四個回合期間儲落嘅分數",
+    "icon": "🚀",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "intercoms",
+    "label": "對講機計分",
+    "note": "逐個對講機睇自己殖民者企喺邊個位置,再乘符合條件嘅次數。指定類型建築每座 3/2/1 分(按位置);指定區域每座再生器 3/2/1 分;指定等級再生器 —— 金色 6/5/4 分、銅同銀 4/3/2 分;每張完成嘅任務卡 2/1/半 分(捨去);另有一款直接攞 10/8/5 分",
+    "icon": "📡",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tech",
+    "label": "科技卡",
+    "note": "逐張第四級科技卡按卡上條件結算。條件包括:指定類型建築每座 3 分、指定區域每座再生器 3 分、每張完成任務卡 2 分",
+    "icon": "🔬",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築計分",
+    "note": "逐種建築計:該種建築數量 × 建築計分軌上自己徽章所指嘅分值,全部加埋",
+    "icon": "🏗️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "energy",
+    "label": "能量軌",
+    "note": "指揮台能量軌上能量指示物嘅位置:第 9/10/11/12 格分別 1/2/4/6 分;唔夠第 9 格 0 分",
+    "icon": "⚡",
+    "color": "#F7EFD2",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      9,
+      1
+     ],
+     [
+      10,
+      2
+     ],
+     [
+      11,
+      4
+     ],
+     [
+      12,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "development",
+    "label": "發展軌",
+    "note": "睇指揮台上最低嗰個發展指示物:喺第 2/3/4 格分別 3/6/10 分",
+    "icon": "📈",
+    "color": "#DDEFDC",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      10
+     ]
+    ]
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

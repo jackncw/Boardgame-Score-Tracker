@@ -1,0 +1,120 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-413469",
+ "name": "Ada's Dream",
+ "nameZh": "艾達之夢",
+ "theme": {
+  "accent": "#7A5AA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/adas-dream.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中造齒輪較多者勝;再同分睇磨坊區骰值總和;再同分睇順時針最接近首家者",
+  "fields": [
+   {
+    "id": "objectives",
+    "label": "目標",
+    "note": "自己有放圓片嘅目標,各攞卡上印住嘅分",
+    "icon": "🎯",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "travel",
+    "label": "遊歷",
+    "note": "自己有放圓片嘅大學磚,各攞磚上印住嘅分;另外每塊自己嘅圓片,每有一塊圓片壓喺佢上面就 2 分",
+    "icon": "🎓",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "lecture",
+    "label": "講學",
+    "note": "每行機構:圓片最多嗰個攞該行印住嘅分;同數就所有同數玩家各攞一半",
+    "icon": "📖",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "meeting",
+    "label": "會面",
+    "note": "每間會面室:圓片最多攞室上面嗰個 2 分科學計分標記,其餘有圓片嘅攞 1 分標記;同數就所有同數玩家攞 1 分標記、其他人冇。之後每個科學計分標記:標記上面嘅值 × 自己相應科學嘅夥伴卡張數",
+    "icon": "🤝",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "partners",
+    "label": "夥伴卡",
+    "note": "手上所有夥伴卡印住嘅分加埋,負數照計",
+    "icon": "👥",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "programs",
+    "label": "程式磚",
+    "note": "每塊放咗喺板上嘅程式磚睇同一行嘅骰:夠三粒而且合條件就攞磚上印住嘅分;唔夠三粒或者唔合就 0 分",
+    "icon": "💾",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "lines",
+    "label": "完成行列",
+    "note": "一行(橫行或者直列)有三粒骰加兩塊齒輪磚先算完成。由左至右、由上至下順住計出個值,最後個值受蒸汽動力封頂。所有完成行列加埋",
+    "icon": "📐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gears",
+    "label": "未造齒輪",
+    "note": "十二個齒輪入面每個造唔到嘅 -2 分",
+    "icon": "⚙️",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 2,
+    "sign": -1
+   },
+   {
+    "id": "innovation",
+    "label": "創新軌",
+    "note": "標記停喺創新軌上層有印分數嘅格,就攞嗰格印住嘅分",
+    "icon": "💡",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "assignments",
+    "label": "任務計分標記",
+    "note": "每個任務計分標記:標記上面嘅值 × 自己喺相應顏色欄嘅任務數",
+    "icon": "📋",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftover",
+    "label": "剩餘資源",
+    "note": "每本剩書 1 分;剩低嘅金屬、煤、黃銅任意夾夠 10 件 1 分",
+    "icon": "📚",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

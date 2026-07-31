@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-431038",
+ "name": "Azul Duel",
+ "nameZh": "花磚物語:對決",
+ "theme": {
+  "accent": "#3C6E9B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/azul-duel.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中累計分",
+    "note": "五個回合期間放磚即時得分、減去每回合破損磚扣分之後,計分軌上嘅分數",
+    "icon": "🔷",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tablets",
+    "label": "計分板塊獎勵",
+    "note": "終局逐張計分板塊結算(每局隨機用 3 或 4 張)。板塊條件同分值:完整直行(6 磚)每行 7 分;圓頂外圈每格磚 1 分;完整斜線(6 磚)每條 10 分(最多兩條);四角每塊填滿嘅圓頂板 3 分或 8 分(依板塊圖示);全部彩色格填滿嘅話每格 2 分(有一格空就完全唔計);每個空嘅特殊磚位 -3 分;完整橫行(6 磚)每行 3 分;每條有 5 種或以上唔同顏色磚嘅橫行 4 分。只結算今局用嗰幾張",
+    "icon": "📜",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

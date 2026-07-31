@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-303551",
+ "name": "Polis",
+ "nameZh": "城邦爭霸",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/polis.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中資源(鐵/木/酒/銀/麥)總數較多者勝;再同分則兩人同列奧林匹斯",
+  "fields": [
+   {
+    "id": "population",
+    "label": "人口",
+    "note": "自己控制嘅所有城邦卡上面嘅人口方塊,每粒 1 分",
+    "icon": "👥",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "prestige",
+    "label": "威望",
+    "note": "遊戲結束時手上嘅威望值",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "projects",
+    "label": "工程獎勵",
+    "note": "城邦卡上所有已完成工程,喺威望圖示旁邊藍色方格印住嘅終局威望獎勵加埋",
+    "icon": "🏗️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

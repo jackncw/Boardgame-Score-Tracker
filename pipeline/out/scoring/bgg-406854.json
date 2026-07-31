@@ -1,0 +1,30 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-406854",
+ "name": "Odin",
+ "nameZh": "奧丁",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/odin.pdf",
+  "verified": false,
+  "tieBreaker": "同分者共享勝利",
+  "fields": [
+   {
+    "id": "points",
+    "label": "累計罰分",
+    "note": "每手牌結束時,手上剩低每張牌 1 分,各手加埋。分數越少越好,所以呢欄自動扣分。有人夠指定分數(建議 15 分)就完場,最少分者勝",
+    "icon": "🃏",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

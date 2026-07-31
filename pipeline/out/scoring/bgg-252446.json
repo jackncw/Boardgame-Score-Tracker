@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-252446",
+ "name": "Key Flow",
+ "nameZh": "關鍵流動",
+ "theme": {
+  "accent": "#5A8C6E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/key-flow.pdf",
+  "verified": false,
+  "tieBreaker": "同分依次比:綿羊較多者勝、豬較多者勝、牛較多者勝",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "村莊卡計分",
+    "note": "冬季結束時逐張村莊卡按卡上印住嘅規則計分。卡種包括動物計分卡、運輸同船計分卡、資源計分卡、資源+技能磚計分卡、技能磚計分卡、人偶計分卡、人偶卡同標記計分卡,以及秋季倉儲卡(穀倉、鐵匠、石場、木場,按運上去嘅資源計)。同一張有圖示嘅卡只可以分配俾一張計分卡。呢欄入所有卡加埋嘅分",
+    "icon": "🏘️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gold",
+    "label": "剩餘金幣",
+    "note": "冇喺其他地方計過嘅金幣,每個 1 分",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

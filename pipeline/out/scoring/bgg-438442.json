@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-438442",
+ "name": "Feya's Swamp",
+ "nameZh": "菲雅沼澤",
+ "theme": {
+  "accent": "#5A8C6E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/feyasswamp.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中累計分",
+    "note": "四個回合期間儲落嘅勝利分",
+    "icon": "🐸",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "islands",
+    "label": "島嶼計分",
+    "note": "沼澤板上逐個島計:自己喺該島嘅聚落數 × 該島上面嘅靈魂格數,全部加埋",
+    "icon": "🏝️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "scorecards",
+    "label": "計分卡",
+    "note": "每局隨機用 2 張(共 6 種)。六種條件同分值:沼澤上最大一組相連同色聚落數量嘅平方;每個貼住神殿格嘅聚落 5 分;每個自己聚落最多(同數都算)嘅島 3 分;每個自己剛好只有 1 個聚落嘅島 5 分;最大島上每個自己嘅聚落 4 分;最細島上每個自己嘅聚落 4 分。只計今局嗰 2 張",
+    "icon": "🃏",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

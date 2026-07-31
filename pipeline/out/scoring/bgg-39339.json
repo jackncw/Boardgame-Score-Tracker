@@ -1,0 +1,84 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-39339",
+ "name": "Android",
+ "nameZh": "機器紀元",
+ "theme": {
+  "accent": "#4A5A7A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/android.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中只得一人猜中兇手就嗰個勝,否則共享勝利",
+  "fields": [
+   {
+    "id": "hunches",
+    "label": "預感",
+    "note": "猜中兇手 +15 分;猜中無辜者 +5 分。呢欄入兩者加埋嘅分",
+    "icon": "🔎",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "plots",
+    "label": "劇情結局",
+    "note": "每個達成嘅劇情結局按卡上印住嘅值計,可以係正可以係負(1 分或以上係「好結局」,-1 分或以下係「壞結局」)",
+    "icon": "🎬",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "conspiracy",
+    "label": "陰謀標記",
+    "note": "每個陰謀標記 4 分",
+    "icon": "🕵️",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 4
+   },
+   {
+    "id": "haas",
+    "label": "Haas 標記",
+    "note": "每個 Haas 標記 3 分",
+    "icon": "🏢",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "jinteki",
+    "label": "Jinteki 標記",
+    "note": "每個 Jinteki 標記 3 分",
+    "icon": "🧬",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "trauma",
+    "label": "創傷指示物",
+    "note": "每個創傷指示物 -1 分",
+    "icon": "💔",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "favors",
+    "label": "人情",
+    "note": "人情本身 0 分,但陰謀拼圖嘅連結可以令佢有分。呢欄入拼圖連結改動之後計到嘅分(NPC 人情按標記上顯示嘅每種人情都攞加成)",
+    "icon": "🎁",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

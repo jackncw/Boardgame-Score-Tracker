@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-392492",
+ "name": "Stupor Mundi",
+ "nameZh": "世界奇蹟",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/stupor-mundi.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track",
+    "label": "計分軌",
+    "note": "遊戲結束時計分圓片喺 VP 軌嘅位置",
+    "icon": "📿",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "structures",
+    "label": "城堡建築",
+    "note": "自己城堡入面每座建築 1 分",
+    "icon": "🏰",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "majority",
+    "label": "建築多數獎",
+    "note": "城堡建築最多嘅玩家(同數全部)各 4 分,第二多嘅(同數全部)各 2 分。兩人局唔派 2 分嗰份",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

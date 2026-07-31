@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-401216",
+ "name": "Cascadero",
+ "nameZh": "使者之路",
+ "theme": {
+  "accent": "#C9773C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/cascadero.pdf",
+  "verified": false,
+  "tieBreaker": "同分時以第一回合較後行動嘅玩家勝",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "勝利分",
+    "note": "盾牌喺計分軌行到嘅總分。全程靠觸發城鎮計分逐次前進,冇終局結算。注意:只有立方體行到自己成就軌最後一格(第三面成就旗)嘅玩家先有資格勝出;冇人達標就分最高者算小勝",
+    "icon": "🛡️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

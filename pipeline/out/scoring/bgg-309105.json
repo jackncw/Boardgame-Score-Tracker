@@ -1,0 +1,58 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-309105",
+ "name": "Sagani",
+ "nameZh": "薩加尼",
+ "theme": {
+  "accent": "#5A8C6E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/sagani.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "harmony",
+    "label": "和諧軌分數",
+    "note": "遊戲結束時和諧軌上嘅分數",
+    "icon": "🎵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "covered",
+    "label": "未翻開磚片",
+    "note": "仲被圓片蓋住(即係未達成)嘅磚片,將佢哋嘅分值加埋入呢度扣走",
+    "icon": "🔒",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "bonus",
+    "label": "獎勵分",
+    "note": "由放低第五片磚起計,每次回合結束時面朝上(仲露住箭嘴)嘅自然之靈磚少過或等於兩片,即得一次獎勵;每次 5 分",
+    "icon": "✨",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "cacophony",
+    "label": "雜音圓片",
+    "note": "遊戲期間被迫攞嘅雜音圓片,每個 -2 分",
+    "icon": "🔇",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 2,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

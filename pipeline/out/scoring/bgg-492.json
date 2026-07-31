@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-492",
+ "name": "Aladdin's Dragons",
+ "nameZh": "阿拉丁與魔龍",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/aladdins-dragons.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中卷軸神器較多者勝",
+  "fields": [
+   {
+    "id": "artifacts",
+    "label": "神器",
+    "note": "買到嘅神器數量,最多者勝",
+    "icon": "🏺",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

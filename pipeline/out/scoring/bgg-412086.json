@@ -1,0 +1,84 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-412086",
+ "name": "Etherstone",
+ "nameZh": "以太石",
+ "theme": {
+  "accent": "#5A5A8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/etherstone.pdf",
+  "verified": false,
+  "tieBreaker": "同分依次比:手牌較少者勝、以太石較多者勝、生命值較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "tokens",
+    "label": "分數標記",
+    "note": "每個分數標記 1 分",
+    "icon": "🔹",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "trigger",
+    "label": "終局觸發標記",
+    "note": "持有終局觸發標記得 2 分",
+    "icon": "⏳",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 2
+   },
+   {
+    "id": "entities",
+    "label": "實體卡",
+    "note": "場上實體卡右上角印住嘅分,加上卡面終局能力算到嘅分",
+    "icon": "🧙",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "threats",
+    "label": "戰利品威脅",
+    "note": "戰利品堆入面所有威脅卡左上角印住嘅分",
+    "icon": "👹",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "life",
+    "label": "剩餘生命",
+    "note": "轉盤上剩低嘅生命值每 2 點 1 分",
+    "icon": "❤️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "voidpact",
+    "label": "虛空契約標記",
+    "note": "自己區域每個虛空契約標記 -7 分",
+    "icon": "🕳️",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 7,
+    "sign": -1
+   },
+   {
+    "id": "corrupt",
+    "label": "腐化",
+    "note": "遊戲結束時處於腐化狀態就 -3 分(入 -3,否則 0)",
+    "icon": "☠️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

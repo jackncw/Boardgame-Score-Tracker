@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-309430",
+ "name": "Tiny Epic Pirates",
+ "nameZh": "小小史詩:海盜",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/tiny-epic-pirates.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中傳奇等級較高者勝",
+  "fields": [
+   {
+    "id": "treasures",
+    "label": "已埋寶藏",
+    "note": "喺埋藏點埋低嘅寶藏數。最先埋夠 3 個就贏",
+    "icon": "💎",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

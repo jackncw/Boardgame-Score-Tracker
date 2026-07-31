@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-277597",
+ "name": "Fast Sloths",
+ "nameZh": "樹懶快跑",
+ "theme": {
+  "accent": "#8C7A5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/fast-sloths.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中手牌移動點數總和最高者勝",
+  "fields": [
+   {
+    "id": "leaves",
+    "label": "葉子",
+    "note": "收集到嘅葉子數量,最多者贏;有人夠 8 塊即刻贏",
+    "icon": "🍃",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

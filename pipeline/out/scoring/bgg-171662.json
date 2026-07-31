@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-171662",
+ "name": "Neanderthal",
+ "nameZh": "尼安德塔人",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/neanderthal.pdf",
+  "verified": false,
+  "tieBreaker": "同分者共享勝利",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "勝利分",
+    "note": "按自己性別卡上寫嘅表計分,三種表分值唔同,同色族人就算喺人哋營地都照計:「自私基因」—— 長老/丈夫/女兒/詞彙各 1 分,未指派族人 2 分,戰利品/發明 3 分,阿爾法/家畜 4 分;「家庭價值」—— 未指派族人/女兒/詞彙各 1 分,長老/戰利品 2 分,阿爾法/丈夫/發明 3 分,家畜 4 分;「大人物」—— 未指派族人/長老/丈夫/詞彙各 1 分,女兒 2 分,阿爾法/發明 3 分,戰利品/家畜 4 分。阿爾法要按 E5 賦權先計,女兒/長老/丈夫/家畜/發明要成熟先計。呢欄入計出嚟嘅總分",
+    "icon": "🦴",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-314582",
+ "name": "Amsterdam",
+ "nameZh": "阿姆斯特丹",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/amsterdam.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中喺阿姆斯特爾河行得較前者勝",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中聲望分",
+    "note": "十二個回合期間喺計分軌儲落嘅聲望分",
+    "icon": "⚓",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "penalty",
+    "label": "罰分標記",
+    "note": "第一個罰分標記 -3 分、第二個 -5 分、第三個同之後每個 -7 分。入負數(例如四個標記係 -22)。最後一回合手下仲有卡就每張多攞一個標記",
+    "icon": "⚠️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "cards",
+    "label": "終局計分卡",
+    "note": "所有有「遊戲結束」圖示嘅卡結算出嚟嘅分",
+    "icon": "🗂️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "crests",
+    "label": "最大徽章群",
+    "note": "自己最大一組相連控制徽章,每個徽章 3 分",
+    "icon": "🏛️",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "districts",
+    "label": "城區多數",
+    "note": "逐塊翻開嘅城區磚睇邊個控制徽章最多,按板邊對照表得分(分值印喺圖表,唔喺文字入面);同數就將頭兩名分值加埋平分,無條件捨去",
+    "icon": "🗺️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftover",
+    "label": "剩餘物資",
+    "note": "板上剩低嘅商品、碼頭工人、金幣、資源,每兩件 1 分",
+    "icon": "💰",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

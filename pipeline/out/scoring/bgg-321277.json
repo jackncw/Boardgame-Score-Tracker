@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-321277",
+ "name": "Tinners' Trail (Second Edition)",
+ "nameZh": "錫礦之路(第二版)",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/tinners-trail-second-edition.pdf",
+  "verified": false,
+  "tieBreaker": "同分依次比:剩錢較多者勝、礦場入面錫銅方塊較多者勝、工作軌 0 欄圓片最上者勝",
+  "fields": [
+   {
+    "id": "points",
+    "label": "分數軌",
+    "note": "四個回合期間每次「賣出同投資」階段投資賺到嘅分,計分軌上嘅總數。未起嘅礦場、剩錢、礦場入面未開採嘅錫銅方塊終局都唔另計分",
+    "icon": "⛏️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

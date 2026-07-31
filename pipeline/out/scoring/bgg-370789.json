@@ -1,0 +1,119 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-370789",
+ "name": "Nova Roma",
+ "nameZh": "新羅馬",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/nova-roma.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中剩餘影響力較多者勝;再同分則較年輕者勝",
+  "fields": [
+   {
+    "id": "sailing",
+    "label": "航行",
+    "note": "兩隻船各自計:攞佢去到或者經過嘅最遠港口/碼頭上面印嘅分,兩隻加埋",
+    "icon": "⛵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "contracts",
+    "label": "建築合約",
+    "note": "手上所有建築合約卡上面印嘅分數總和",
+    "icon": "📜",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "zones",
+    "label": "建築區多數",
+    "note": "地圖上三個建築區逐個睇建築方塊多數:最多者攞該區最高分,第二多攞次高分,其餘有至少一個方塊嘅攞最低分(分值印喺區下面)。同數全部攞足該名次分;兩人局要將中立方塊計埋入多數",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "chariots",
+    "label": "戰車標記",
+    "note": "每個攞到嘅戰車標記 3 分",
+    "icon": "🏇",
+    "color": "#F7E2CE",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "hippodrome",
+    "label": "賽場衝線",
+    "note": "每個行到賽場軌尾嘅標記 5 分",
+    "icon": "🏁",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "followers",
+    "label": "隨從卡",
+    "note": "版圖上有「遊戲結束」圖示嘅隨從卡結算出嚟嘅分",
+    "icon": "👥",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "animals",
+    "label": "動物莊園磚",
+    "note": "生產區入面嘅動物磚按套計:1/2/3 張分別 2/5/9 分,可以夾多過一套",
+    "icon": "🐎",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mosaic",
+    "label": "馬賽克板",
+    "note": "每個已達成成就:上排 2 分、中排 3 分、下排 5 分;另加板底同板右印住嘅整行/整列/對角線完成獎勵",
+    "icon": "🎨",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘貨物金幣",
+    "note": "剩低嘅貨物加金幣總數 ÷ 4,無條件捨去",
+    "icon": "💰",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "influence",
+    "label": "剩餘影響力工匠",
+    "note": "剩低嘅影響力加工匠總數 ÷ 2,無條件捨去",
+    "icon": "🔨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "firstplayer",
+    "label": "首家標記",
+    "note": "遊戲結束時持有首家標記得 2 分",
+    "icon": "1️⃣",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-432456",
+ "name": "dnup",
+ "nameZh": "dnup",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/dnup.pdf",
+  "verified": false,
+  "tieBreaker": "先攞夠 4 個字母標記即刻勝出",
+  "fields": [
+   {
+    "id": "letters",
+    "label": "字母標記",
+    "note": "每局最先出清手牌攞 2 個字母標記,第二個出清嘅攞 1 個;累積到 4 個或以上即刻勝出",
+    "icon": "🔤",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

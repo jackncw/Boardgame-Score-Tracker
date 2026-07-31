@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-352454",
+ "name": "Trailblazers",
+ "nameZh": "開路先鋒",
+ "theme": {
+  "accent": "#5A8C6E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/trailblazers.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中達成最多目標(擺低最多玩家卡)嗰個勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "loops",
+    "label": "完成環線",
+    "note": "每條完成嘅環線,長度 = 沿路數到嘅路標數(橋、堤、急流、泥、石、隧道都算),每個路標 1 分。環線自己交叉嗰點嘅路標會數兩次。呢度入所有環線路標總數",
+    "icon": "🥾",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "goals",
+    "label": "目標卡",
+    "note": "遊戲中目標卡同終局目標卡按自己玩家卡放喺第幾個名次格攞分。同名次就一齊擺同一格",
+    "icon": "🎯",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

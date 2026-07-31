@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-402677",
+ "name": "Daitoshi",
+ "nameZh": "大都市",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/daitoshi.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中工廠內衝突面營運磚最少者勝;再同分睇發明較多;再同分睇朝聖者推進總數;再同分共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中累計分",
+    "note": "遊戲期間儲落嘅勝利分",
+    "icon": "🏮",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "forest",
+    "label": "森林軌",
+    "note": "朝聖者喺森林軌所在格印住嘅 VP × 工廠內大學發明數",
+    "icon": "🌲",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mountain",
+    "label": "山脈軌",
+    "note": "朝聖者喺山脈軌所在格印住嘅 VP × 工廠內行到進度軌最右格嘅進度標記數",
+    "icon": "⛰️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "underground",
+    "label": "地下軌",
+    "note": "朝聖者喺地下軌所在格印住嘅 VP × 自己聲望等級所給嘅 VP",
+    "icon": "🕳️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "river",
+    "label": "河流軌",
+    "note": "朝聖者喺河流軌所在格印住嘅 VP × 開發紀錄上冇出現過嘅荒野格類型數",
+    "icon": "🌊",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "conflict",
+    "label": "衝突扣分",
+    "note": "朝聖者喺河流軌所在格印住嘅 UP(朝聖者仲喺神殿就當 10)× 工廠內翻到衝突面嘅營運磚數,呢個係扣分,入負數",
+    "icon": "⚔️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "leftover",
+    "label": "剩餘工人資源",
+    "note": "工人加剩餘資源合計每 2 件 1 分(蒸汽唔算資源)",
+    "icon": "🧰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

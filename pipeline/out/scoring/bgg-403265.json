@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-403265",
+ "name": "Marabunta",
+ "nameZh": "行軍蟻",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/marabunta.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中劃走杯子蛋糕較多者勝;再同分由觸發結束嗰個勝",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中得分",
+    "note": "杯子蛋糕同某啲能力喺遊戲期間攞到嘅勝利分",
+    "icon": "🧁",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "regions",
+    "label": "區域計分",
+    "note": "六個顏色區域逐個比:區內紅字總和 vs 藍字總和,高嗰個贏該區。贏家攞分數等於該區計分葉上自己顏色填滿嘅圓圈數(2 至 8 分不等),同數就兩邊都冇分。六個區加埋入呢度",
+    "icon": "🍃",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

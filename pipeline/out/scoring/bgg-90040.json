@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-90040",
+ "name": "Pergamon",
+ "nameZh": "帕加馬",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/pergamon.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中現時展品含最舊出土物者勝",
+  "fields": [
+   {
+    "id": "tickets",
+    "label": "入場券累計分",
+    "note": "第 5、7、9、12 回合四次評分收到嘅入場券總分。每次評分:每個收藏按圓形標記喺展覽計劃嘅位置攞 1 至 6 分;另外每次評分有一個最舊展品獎 2 分(第 5 回合花瓶、第 7 回合壺、第 9 回合面具、第 12 回合手鐲)",
+    "icon": "🎫",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "finalbonus",
+    "label": "終局最舊展品",
+    "note": "第 12 回合評分完之後嘅特別獎:博物館入面最舊嘅展品攞 3 分,第二舊 2 分,第三舊 1 分",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

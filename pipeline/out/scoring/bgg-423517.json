@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-423517",
+ "name": "3 Chapters",
+ "nameZh": "三章物語",
+ "theme": {
+  "accent": "#8C5AA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/3-chapters.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中打出過最大數值卡嗰個勝",
+  "fields": [
+   {
+    "id": "stars",
+    "label": "星星",
+    "note": "每粒星星 2 分",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "hearts",
+    "label": "心心",
+    "note": "每粒心心 1 分",
+    "icon": "❤️",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "gems",
+    "label": "寶石得分",
+    "note": "先睇邊個寶石最多,最多者(同數全部)各加 4 粒寶石,之後每兩粒寶石換 1 分。單粒唔計半分,除唔盡就捨去。呢欄入換到嘅分數",
+    "icon": "💎",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

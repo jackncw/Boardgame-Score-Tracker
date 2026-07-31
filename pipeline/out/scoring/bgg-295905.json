@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-295905",
+ "name": "Cosmic Frog",
+ "nameZh": "宇宙蛙",
+ "theme": {
+  "accent": "#5A8C8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/cosmic-frog.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "placement",
+    "label": "擺放分",
+    "note": "只計金庫入面嘅地塊。逐條「直線」計分:同類型、喺相鄰格、沿橫行/直列/對角線嘅裸露地塊算一條線(單獨一塊都算一條長度 1 嘅線)。計完一條就將嗰批地塊移走,露出下面嘅再計,直到計無可計。每條線值幾多分要查規則書嘅對照表(高地同低地唔同價,分值印喺表格圖入面)",
+    "icon": "🧩",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "diversity",
+    "label": "多樣性分",
+    "note": "睇金庫入面覆蓋咗幾多個地域類群(例如有山丘或者山就代表石頭類群),查對照表攞分(分值印喺表格圖入面)",
+    "icon": "🌈",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
