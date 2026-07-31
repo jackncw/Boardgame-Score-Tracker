@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-104581",
+ "name": "Panic on Wall Street!",
+ "nameZh": "華爾街恐慌",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/panic-on-wall-street.pdf",
+  "verified": false,
+  "tieBreaker": "經理同投資者分開比,各出一個贏家",
+  "fields": [
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "遊戲結束時累積到嘅錢。經理之中錢最多嗰個係經理組贏家,投資者之中錢最多嗰個係投資者組贏家 —— 一局有兩個贏家",
+    "icon": "💵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

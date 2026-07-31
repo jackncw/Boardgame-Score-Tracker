@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-31624",
+ "name": "League of Six",
+ "nameZh": "六人同盟",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/league-of-six.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "influence",
+    "label": "影響力",
+    "note": "計分板上嘅影響力點數(開局每人 10 點),遊戲期間加加減減,最多者勝",
+    "icon": "👑",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

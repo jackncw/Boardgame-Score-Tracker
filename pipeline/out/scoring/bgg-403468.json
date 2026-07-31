@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-403468",
+ "name": "Aqua: Biodiversity in the Oceans",
+ "nameZh": "水域:海洋生物多樣性",
+ "theme": {
+  "accent": "#3C7A9B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/aqua-biodiversity-in-the-oceans.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中最後一回合出牌順序較前者勝",
+  "fields": [
+   {
+    "id": "large",
+    "label": "大型動物",
+    "note": "所有大型動物磚上面印住嘅分加埋",
+    "icon": "🐋",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "small",
+    "label": "小型動物",
+    "note": "所有小型動物磚上面印住嘅分加埋",
+    "icon": "🐠",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "reefs",
+    "label": "珊瑚礁",
+    "note": "所有珊瑚礁磚本身印住嘅分,再加每塊珊瑚礁旁邊(邊貼邊,淨係角碰角唔算)所有小型動物印住嘅分。同一隻小型動物可以計俾幾塊珊瑚礁",
+    "icon": "🪸",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ecosystems",
+    "label": "生態系",
+    "note": "六個生態系逐個結算,每個都要達成磚上寫嘅條件,而條件一定同該生態系隨機配到嘅「原生小型動物」有關。例如:每隻蝠鱝/礁章魚,每隻自己嘅原生小型動物 3 分;每隻雙髻鯊/黑鰭礁鯊,每隻原生小型動物 3 分;每隻梭子魚/裸胸鯙 2 分;每隻座頭鯨/鯨鯊 4 分;每隻寬吻海豚/儒艮 3 分;另有一款係每隻原生小型動物按佢旁邊嘅小型動物數(唔理顏色)每隻 1 分",
+    "icon": "🌊",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

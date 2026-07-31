@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-386502",
+ "name": "Amritsar: The Golden Temple",
+ "nameZh": "阿姆利則:金廟",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/amritsarthegoldentemple.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中聲望分",
+    "note": "三個十年期間儲落嘅聲望分:捐獻時攞格上印住嘅 PP、下面兩格每個捐獻標記俾佢哋主人 1 PP、每個十年結束按神廟磚結算北南東西四區捐獻標記多數",
+    "icon": "🛕",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "目標",
+    "note": "遊戲開始時揀嘅暗置目標,終局按目標條件結算",
+    "icon": "🎯",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "knowledge",
+    "label": "知識磚終局獎勵",
+    "note": "終局知識階段,按自己解鎖咗嘅知識磚結算:大象上每個剩低嘅捐獻標記 1 PP;倉庫入面每個資源(唔理種類)1 PP;倉庫入面每個金幣 1 PP。冇解鎖對應知識磚就唔計嗰項",
+    "icon": "📖",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -19035,9 +19035,9 @@
   "name": "Cuzco",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/cuzco.pdf",
+  "note": "rulebook 明文:Inti 獎章 2 分、六個面具板成就 9/6/9/6/10/12 分全有全冇"
  },
  {
   "rank": 2479,
@@ -19146,8 +19146,8 @@
   "cat": "-",
   "path": "c",
   "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "sourceUrl": "https://bghub.org/r/serenissima.pdf",
+  "note": "PDF 只抽到 79 行,計分段落完全冇,唔可靠"
  },
  {
   "rank": 2490,
@@ -19615,9 +19615,9 @@
   "name": "Compile: Main 2",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "skip",
+  "sourceUrl": "https://bghub.org/r/compile-main-2.pdf",
+  "note": "rulebook 明文:編譯齊 3 個協定即勝,冇累加計分"
  },
  {
   "rank": 2537,
@@ -19885,9 +19885,9 @@
   "name": "Got Five!",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "skip",
+  "sourceUrl": "https://bghub.org/r/got-five.pdf",
+  "note": "rulebook 明文:估中即刻贏,冇累加計分"
  },
  {
   "rank": 2564,
@@ -20165,9 +20165,9 @@
   "name": "Emberheart",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/emberheart.pdf",
+  "note": "rulebook 明文五大類;榮耀值印喺卡同軌故 number,火焰軌相對距離刻度亦係圖"
  },
  {
   "rank": 2592,
@@ -20465,9 +20465,9 @@
   "name": "Guilds of London",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/guildsoflondon.pdf",
+  "note": "rulebook 明文終局兩項(市長獎勵卡、相鄰大師);具體分值印喺卡同板故 number"
  },
  {
   "rank": 2622,
@@ -20775,9 +20775,9 @@
   "name": "Amritsar: The Golden Temple",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/amritsarthegoldentemple.pdf",
+  "note": "rulebook 明文:知識磚終局每項 1 PP;捐獻格同神廟磚分值印喺配件故 number"
  },
  {
   "rank": 2653,
@@ -20825,9 +20825,9 @@
   "name": "Aqua: Biodiversity in the Oceans",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/aqua-biodiversity-in-the-oceans.pdf",
+  "note": "rulebook 明文核心生態系乘數 3/3/2/4/3/1;動物同礁分值印喺磚故 number"
  },
  {
   "rank": 2658,
@@ -21075,9 +21075,9 @@
   "name": "Books of Time",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/books-of-time.pdf",
+  "note": "rulebook 明文:文明板領先每頁 2 分、剩餘每 5 件 1 分"
  },
  {
   "rank": 2683,
@@ -21205,9 +21205,9 @@
   "name": "League of Six",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/league-of-six.pdf",
+  "note": "rulebook 明文:影響力最多者勝,開局 10 點;冇獨立終局結算"
  },
  {
   "rank": 2696,
@@ -21235,9 +21235,9 @@
   "name": "Panic on Wall Street!",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/panic-on-wall-street.pdf",
+  "note": "rulebook 明文:錢最多者勝,經理同投資者各一個贏家"
  },
  {
   "rank": 2699,
@@ -21775,9 +21775,9 @@
   "name": "20th Century",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/20th-century.pdf",
+  "note": "rulebook 明文第六回合獎勵:垃圾 -5/-10/-15、商業同科學 8/5/3/1;乾淨地 2-4 分視污染標記故 number"
  },
  {
   "rank": 2753,
@@ -21795,9 +21795,9 @@
   "name": "Dice Realms",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/dice-realms.pdf",
+  "note": "bghub 嗰份係 player guide 唔係規則書,只夠寫兩大類(VP 籌碼 + 升級骰面),一個單價都冇寫"
  },
  {
   "rank": 2755,
@@ -21815,9 +21815,9 @@
   "name": "Solstis",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/solstis.pdf",
+  "note": "rulebook 明文:全景每磚 1 星、火每個 1 星、精靈每個 1 星(邪惡精靈令兩個唔計)"
  },
  {
   "rank": 2757,
@@ -21905,9 +21905,9 @@
   "name": "My Shelfie",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/my-shelfie.pdf",
+  "note": "rulebook 明文:個人目標 1/2/4/6/9/12、群組 3/4/5/6+ 得 2/3/5/8"
  },
  {
   "rank": 2766,
@@ -22235,9 +22235,9 @@
   "name": "Triqueta",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/triqueta.pdf",
+  "note": "rulebook 明文:0/1/2 隻得 0/1/2 分、剛好 3 隻攞印住值、超過每多一隻 -1;起始石 1 分、樹磚 1 分"
  },
  {
   "rank": 2799,
@@ -22375,9 +22375,9 @@
   "name": "Beyond the Horizon",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/beyond-the-horizon.pdf",
+  "note": "rulebook 明文:目標 5/3 分、科技 1/2/3/4 分、投資軌第九格後每個 +1"
  },
  {
   "rank": 2813,
@@ -22425,9 +22425,9 @@
   "name": "Intarsia",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/intarsia.pdf",
+  "note": "rulebook 明文:飾品 1/3/7/12 分、連接件每個 2 分"
  },
  {
   "rank": 2818,
@@ -22575,9 +22575,9 @@
   "name": "Landmarks",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "skip",
+  "sourceUrl": "https://bghub.org/r/landmarks.pdf",
+  "note": "rulebook 明文:團隊搵寶,達成即勝/被詛咒即敗,冇累加計分"
  },
  {
   "rank": 2833,
@@ -22735,9 +22735,9 @@
   "name": "Victorian Masterminds",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/victorian-masterminds.pdf",
+  "note": "rulebook 明文:建築 2 分、任務 2-4 分、混亂標記 2 分、手稿 1-2 分"
  },
  {
   "rank": 2849,
@@ -22805,9 +22805,9 @@
   "name": "Steam Power",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/steam-power.pdf",
+  "note": "rulebook 明文:每 $5 得 1 分、工廠 2+1 分、勝利分城市 4+1 分平分"
  },
  {
   "rank": 2856,

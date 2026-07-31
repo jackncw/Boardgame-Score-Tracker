@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-421310",
+ "name": "Beyond the Horizon",
+ "nameZh": "地平線之外",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/beyond-the-horizon.pdf",
+  "verified": false,
+  "tieBreaker": "同分依次比:發展軌剩低方塊較少者勝、可用人口棋較多者勝、金幣較多者勝",
+  "fields": [
+   {
+    "id": "goals",
+    "label": "目標卡",
+    "note": "每個目標,最先達成嘅玩家 5 分,之後每個達成嘅玩家 3 分",
+    "icon": "🎯",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tech",
+    "label": "科技卡",
+    "note": "每張已研究嘅科技卡:第一級 1 分、第二級 2 分、第三級 3 分、第四級 4 分;另加已研究第四級科技帶嘅獎勵分",
+    "icon": "🔬",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "map",
+    "label": "地圖",
+    "note": "自己開拓嘅村莊同自己築城嘅城市按磚上分值計;建築物只有喺其他玩家都起過同一種嘅時候,先建者先攞分;部分建築(磚中央有標示)所有起過嘅玩家都攞分",
+    "icon": "🗺️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "investment",
+    "label": "投資軌",
+    "note": "投資軌最後幾格如果投咗發展方塊落去,攞最後一個方塊下面印住嘅分;超出第九格之後每多一個方塊再加 1 分",
+    "icon": "📈",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leaders",
+    "label": "領袖卡",
+    "note": "部分領袖卡有勝利分獎勵",
+    "icon": "👤",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "government",
+    "label": "政體卡",
+    "note": "如果將基礎建設軌最後一個方塊移走、進化到民主政體,先攞得政體卡上嘅分;未解鎖民主就 0 分",
+    "icon": "🏛️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

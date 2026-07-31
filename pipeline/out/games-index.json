@@ -34124,6 +34124,8 @@
   "bggId": 249411,
   "gameId": "bgg-249411",
   "name": "Cuzco",
+  "nameZh": "庫斯科",
+  "accent": "#C9773C",
   "rank": 2478,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/XFN0Xykb4R1l_8FleeOS1w__micro/img/Q4ltUfipnPA_JsmkyG-EfINMI1w=/fit-in/64x64/filters:strip_icc()/pic4019762.jpg",
@@ -34131,7 +34133,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 157026,
@@ -35625,6 +35627,8 @@
   "bggId": 452817,
   "gameId": "bgg-452817",
   "name": "Emberheart",
+  "nameZh": "餘燼之心",
+  "accent": "#B5563C",
   "rank": 2591,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/jUlZOyHFX-T8WIrwJu-hqQ__micro/img/0A9Moy86wJg4o37BJbiXoX5yUKQ=/fit-in/64x64/filters:strip_icc()/pic9081476.png",
@@ -35632,7 +35636,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 367086,
@@ -36021,6 +36025,8 @@
   "bggId": 134157,
   "gameId": "bgg-134157",
   "name": "Guilds of London",
+  "nameZh": "倫敦行會",
+  "accent": "#8C3F3F",
   "rank": 2621,
   "year": 2016,
   "thumbnail": "https://cf.geekdo-images.com/T4uNtrQucW_V5SaQW9jA8w__micro/img/q6y5H3Ef3kN3p76Oo5xKTkpSvbI=/fit-in/64x64/filters:strip_icc()/pic2958283.png",
@@ -36028,7 +36034,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 191972,
@@ -36426,6 +36432,8 @@
   "bggId": 386502,
   "gameId": "bgg-386502",
   "name": "Amritsar: The Golden Temple",
+  "nameZh": "阿姆利則:金廟",
+  "accent": "#B58C3C",
   "rank": 2652,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/GF21q3A5-3xNClH8MiwAbg__micro/img/vd58n5xWdSAvZpXvT147J8RtLTs=/fit-in/64x64/filters:strip_icc()/pic7526676.jpg",
@@ -36433,7 +36441,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 343362,
@@ -36493,6 +36501,8 @@
   "bggId": 403468,
   "gameId": "bgg-403468",
   "name": "Aqua: Biodiversity in the Oceans",
+  "nameZh": "水域:海洋生物多樣性",
+  "accent": "#3C7A9B",
   "rank": 2657,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/iwc8n9rjvmMEkEdTSZL1DQ__micro/img/zL9MoMaNSqtxr3P7Wu4aKO3TXic=/fit-in/64x64/filters:strip_icc()/pic7798319.jpg",
@@ -36500,7 +36510,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 211364,
@@ -36822,6 +36832,8 @@
   "bggId": 372631,
   "gameId": "bgg-372631",
   "name": "Books of Time",
+  "nameZh": "時光之書",
+  "accent": "#8C6E4A",
   "rank": 2682,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/gzw1ZV2gFTABDpNA7yv9vQ__micro/img/4Vl2hiF9J6ejCPWz5ALa8f4NSU0=/fit-in/64x64/filters:strip_icc()/pic7128296.jpg",
@@ -36829,7 +36841,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 355224,
@@ -36991,6 +37003,8 @@
   "bggId": 31624,
   "gameId": "bgg-31624",
   "name": "League of Six",
+  "nameZh": "六人同盟",
+  "accent": "#8C6E4A",
   "rank": 2695,
   "year": 2007,
   "thumbnail": "https://cf.geekdo-images.com/a8syc3DFcDpa1zm_mfNYXw__micro/img/EubGg5tSm_mo0wKvR9N2rLuHt3s=/fit-in/64x64/filters:strip_icc()/pic273655.jpg",
@@ -36998,7 +37012,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 193867,
@@ -37032,6 +37046,8 @@
   "bggId": 104581,
   "gameId": "bgg-104581",
   "name": "Panic on Wall Street!",
+  "nameZh": "華爾街恐慌",
+  "accent": "#5A6E8C",
   "rank": 2698,
   "year": 2011,
   "thumbnail": "https://cf.geekdo-images.com/jQEMo8O-n8pzrwn1UY1P6g__micro/img/s98fbWJbYKoyt8AyBYcJPXwSjIY=/fit-in/64x64/filters:strip_icc()/pic9030754.jpg",
@@ -37039,7 +37055,7 @@
   "minPlayers": 3,
   "maxPlayers": 11,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 111105,
@@ -37744,6 +37760,8 @@
   "bggId": 85036,
   "gameId": "bgg-85036",
   "name": "20th Century",
+  "nameZh": "二十世紀",
+  "accent": "#6B8C4A",
   "rank": 2752,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/DdNw5O4hYbvnANbHF8Xtsg__micro/img/vjaXGwEO82nEKG2tmrUhT-HP8mU=/fit-in/64x64/filters:strip_icc()/pic830922.jpg",
@@ -37751,7 +37769,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 168788,
@@ -37770,6 +37788,8 @@
   "bggId": 288080,
   "gameId": "bgg-288080",
   "name": "Dice Realms",
+  "nameZh": "骰子王國",
+  "accent": "#8C5AA8",
   "rank": 2754,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/skZevmPejkfkydeyd3TLxg__micro/img/P8pJPZj1ivf_nwZ2nRhkir1Ap08=/fit-in/64x64/filters:strip_icc()/pic9043111.jpg",
@@ -37777,7 +37797,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 2381,
@@ -37798,6 +37818,8 @@
   "bggId": 411255,
   "gameId": "bgg-411255",
   "name": "Solstis",
+  "nameZh": "日照",
+  "accent": "#C9773C",
   "rank": 2756,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/T6i991w8_ccgP5s2ObEIpw__micro/img/CDHfC1Nl_WWD5BBGwWXlCGFR8TM=/fit-in/64x64/filters:strip_icc()/pic8548331.png",
@@ -37805,7 +37827,7 @@
   "minPlayers": 1,
   "maxPlayers": 2,
   "playTime": 15,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 36946,
@@ -37917,6 +37939,8 @@
   "bggId": 366456,
   "gameId": "bgg-366456",
   "name": "My Shelfie",
+  "nameZh": "我的書櫃",
+  "accent": "#B58C3C",
   "rank": 2765,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/Sgg2B7kxtx8fFXz_2mPefA__micro/img/jZxmbSyaOPjTNWVmyWoRwBXrWBw=/fit-in/64x64/filters:strip_icc()/pic7193695.png",
@@ -37924,7 +37948,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 374866,
@@ -38348,6 +38372,8 @@
   "bggId": 378200,
   "gameId": "bgg-378200",
   "name": "Triqueta",
+  "nameZh": "三獸",
+  "accent": "#8C9B4A",
   "rank": 2798,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/rAGKevIrE0vi48aoImuz9g__micro/img/9j9sVhiD8qlrej_t8dXObe6BpcQ=/fit-in/64x64/filters:strip_icc()/pic7976700.jpg",
@@ -38355,7 +38381,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 1116,
@@ -38534,6 +38560,8 @@
   "bggId": 421310,
   "gameId": "bgg-421310",
   "name": "Beyond the Horizon",
+  "nameZh": "地平線之外",
+  "accent": "#5A8CA8",
   "rank": 2812,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/yaCOVF7EN1T3y1RDLPqpXg__micro/img/QTPJZBlF84YnuOxqZiaPy19c_Os=/fit-in/64x64/filters:strip_icc()/pic8209513.jpg",
@@ -38541,7 +38569,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 280789,
@@ -38599,6 +38627,8 @@
   "bggId": 422126,
   "gameId": "bgg-422126",
   "name": "Intarsia",
+  "nameZh": "鑲嵌工藝",
+  "accent": "#B58C3C",
   "rank": 2817,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/LmiHvBrtsTc8GK-Yd5ekSQ__micro/img/VP6QrNifaXuJZv1ewhpPOc5fv7w=/fit-in/64x64/filters:strip_icc()/pic8287936.jpg",
@@ -38606,7 +38636,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 162823,
@@ -39004,6 +39034,8 @@
   "bggId": 189453,
   "gameId": "bgg-189453",
   "name": "Victorian Masterminds",
+  "nameZh": "維多利亞首腦",
+  "accent": "#5A4A7A",
   "rank": 2848,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/K68z07I9sYp-05RicU0iSA__micro/img/t642xyRMnv-c4dx6W0aR_MM_VE8=/fit-in/64x64/filters:strip_icc()/pic4526338.jpg",
@@ -39011,7 +39043,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 40381,
@@ -39099,6 +39131,8 @@
   "bggId": 391752,
   "gameId": "bgg-391752",
   "name": "Steam Power",
+  "nameZh": "蒸汽動力",
+  "accent": "#8C6E4A",
   "rank": 2855,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/d5JR5FekM_PsanGOHBdSMA__micro/img/UmMMwoF9Y5EFHvvelVspfPbcHjs=/fit-in/64x64/filters:strip_icc()/pic7720019.jpg",
@@ -39106,7 +39140,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 255570,

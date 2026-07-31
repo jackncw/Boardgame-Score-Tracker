@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-372631",
+ "name": "Books of Time",
+ "nameZh": "時光之書",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/books-of-time.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中剩餘檔案較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "遊戲期間喺計分軌儲落嘅勝利分",
+    "icon": "📚",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "目標磚",
+    "note": "三疊牌頂嗰三塊目標磚逐塊結算;符號唔夠、目標未達成嘅嗰塊 0 分",
+    "icon": "🎯",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "civilization",
+    "label": "文明板領先",
+    "note": "文明板上任何一條軌行到最頂嗰個玩家,對應嗰本書每頁 2 分(封面唔計)",
+    "icon": "🏛️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftover",
+    "label": "剩餘資源",
+    "note": "自己區域剩低嘅紙、筆、檔案合計每 5 件 1 分",
+    "icon": "📦",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

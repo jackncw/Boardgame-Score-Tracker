@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-134157",
+ "name": "Guilds of London",
+ "nameZh": "倫敦行會",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/guildsoflondon.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中市長獎勵卡較多者勝;再同分全部同勝",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "各回合結算行會磚攞到嘅分,計分軌上嘅總數",
+    "icon": "🏛️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mayoral",
+    "label": "市長獎勵卡",
+    "note": "終局結算市長獎勵卡上面嘅獎勵",
+    "icon": "📜",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "masters",
+    "label": "相鄰大師",
+    "note": "終局按相鄰行會嘅大師配置計分",
+    "icon": "👔",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

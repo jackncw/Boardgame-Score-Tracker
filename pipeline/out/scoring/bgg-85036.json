@@ -1,0 +1,116 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-85036",
+ "name": "20th Century",
+ "nameZh": "二十世紀",
+ "theme": {
+  "accent": "#6B8C4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/20th-century.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "第一至五回合勝利分",
+    "note": "頭五個回合喺計分軌儲落嘅分,包括第二同第四回合嘅獎勵計分卡",
+    "icon": "🏭",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cleanland",
+    "label": "乾淨土地磚",
+    "note": "第六回合終局獎勵:每塊冇垃圾嘅土地磚(科技磚唔算)按污染標記所在區段值 2、3 或者 4 分",
+    "icon": "🌳",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "garbage",
+    "label": "垃圾罰分",
+    "note": "有 1 個垃圾標記嘅土地磚唔加唔減;有 2 個 -5 分、3 個 -10 分、4 個 -15 分,如此類推。入負數",
+    "icon": "🗑️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "pollution",
+    "label": "環境品質/污染",
+    "note": "按污染標記下面印住嘅數計:環境好就加分,污染重就扣分。可以入負數",
+    "icon": "🌫️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "commerce",
+    "label": "商業名次",
+    "note": "攤開金幣卡比多少:第一 8 分、第二 5 分、第三 3 分、第四 1 分。金幣最少嗰個一定 0 分,而且至少要有 1 個金幣先有分。同數就將涉及嘅名次分加埋除以人數,無條件捨去(自己計好先入名次對應嘅分)",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      1,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "science",
+    "label": "科學名次",
+    "note": "攤開科學點數卡,計法同商業一樣:第一 8 分、第二 5 分、第三 3 分、第四 1 分。比嘅係手上剩低嘅卡,唔係生產指示器",
+    "icon": "🔬",
+    "color": "#EADCF0",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      1,
+      8
+     ]
+    ]
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

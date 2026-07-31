@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-391752",
+ "name": "Steam Power",
+ "nameZh": "蒸汽動力",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/steam-power.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中完成合約較多者勝;再同分則維持平手",
+  "fields": [
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "手上每 $5 換 1 分",
+    "icon": "💵",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "contracts",
+    "label": "已完成合約",
+    "note": "每張完成嘅合約按合約上印住嘅分計",
+    "icon": "📜",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "factories",
+    "label": "工廠",
+    "note": "每間喺已翻面城市磚上嘅工廠 2 分,再加該色城市磚喺設定時擺喺地圖旁邊嘅每塊 1 分。城市磚要資源全部攞光先會翻面,未翻面嗰啲工廠唔計分",
+    "icon": "🏭",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "vpcities",
+    "label": "勝利分城市",
+    "note": "每塊勝利分城市磚 4 分,再加地圖旁邊每塊其他紫色城市磚 1 分。呢啲分由所有有連接到該城市嘅玩家平分,無條件捨去。例如一塊值 4 分:1 人連到攞 4 分、2 人各 2 分、3 至 4 人各 1 分、5 人就冇人有分",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

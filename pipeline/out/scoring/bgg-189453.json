@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-189453",
+ "name": "Victorian Masterminds",
+ "nameZh": "維多利亞首腦",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/victorian-masterminds.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中機器上完成嘅組件較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "machine",
+    "label": "機器組件",
+    "note": "自己機器上已完成組件印住嘅混亂分加埋",
+    "icon": "⚙️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "已佔領建築",
+    "note": "每座已佔領嘅建築 2 分",
+    "icon": "🏢",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "missions",
+    "label": "任務卡",
+    "note": "每張完成嘅任務卡按卡上獎勵攞 2、3 或者 4 分",
+    "icon": "📋",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tokens",
+    "label": "混亂標記",
+    "note": "每個混亂標記 2 分",
+    "icon": "💥",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "codex",
+    "label": "達文西手稿標記",
+    "note": "每個達文西手稿標記按標記攞 1 或者 2 分",
+    "icon": "📜",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

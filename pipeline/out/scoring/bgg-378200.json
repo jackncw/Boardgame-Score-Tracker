@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-378200",
+ "name": "Triqueta",
+ "nameZh": "三獸",
+ "theme": {
+  "accent": "#8C9B4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/triqueta.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "animals",
+    "label": "動物標記",
+    "note": "六種動物逐種計:冇 0 分、剛好 1 隻 1 分、剛好 2 隻 2 分、剛好 3 隻(即係一組 triqueta)攞該種印住嘅值(5 至 10 分)、多過 3 隻就 triqueta 唔計分,反而每多一隻扣 1 分。六種加埋入呢度",
+    "icon": "🦉",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rock",
+    "label": "起始石",
+    "note": "有起始石就 1 分",
+    "icon": "🪨",
+    "color": "#DCE8F7",
+    "input": "bonus",
+    "value": 1
+   },
+   {
+    "id": "trees",
+    "label": "樹磚",
+    "note": "每塊樹磚 1 分",
+    "icon": "🌳",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-411255",
+ "name": "Solstis",
+ "nameZh": "日照",
+ "theme": {
+  "accent": "#C9773C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/solstis.pdf",
+  "verified": false,
+  "tieBreaker": "同分者共享勝利,可以再打一局分高下",
+  "fields": [
+   {
+    "id": "panorama",
+    "label": "最大全景",
+    "note": "自己最大嗰幅全景入面每塊土地磚 1 星;彩虹磚一分都唔計",
+    "icon": "🏔️",
+    "color": "#F7E2CE",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "fires",
+    "label": "已點燃嘅火",
+    "note": "有火圖示嘅磚,如果可以由佢沿住路徑通到全景最底行(有紅色數字框嗰行)就當點著,每個 1 星",
+    "icon": "🔥",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "spirits",
+    "label": "精靈",
+    "note": "每個精靈 1 星。如果有邪惡精靈,要將佢疊喺自己另一個精靈上面(疊邊個由對手揀),被疊嗰兩個精靈一星都唔計,所以呢度只數計得分嗰啲",
+    "icon": "👻",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

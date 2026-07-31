@@ -1,0 +1,76 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-366456",
+ "name": "My Shelfie",
+ "nameZh": "我的書櫃",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/my-shelfie.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中順時針離首家較遠嗰個勝",
+  "fields": [
+   {
+    "id": "tokens",
+    "label": "計分標記",
+    "note": "手上嘅共同目標計分標記同終局標記,按標記上印住嘅分加埋",
+    "icon": "🎖️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "personal",
+    "label": "個人目標卡",
+    "note": "書櫃上啱位置嘅物品磚數量:1/2/3/4/5/6 個分別 1/2/4/6/9/12 分",
+    "icon": "🎯",
+    "color": "#EADCF0",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      5,
+      9
+     ],
+     [
+      6,
+      12
+     ]
+    ]
+   },
+   {
+    "id": "groups",
+    "label": "相鄰同類群組",
+    "note": "書櫃上每組相鄰同類物品磚:3 個 2 分、4 個 3 分、5 個 5 分、6 個或以上 8 分。所有組加埋",
+    "icon": "📚",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

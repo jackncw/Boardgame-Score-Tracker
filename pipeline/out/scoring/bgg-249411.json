@@ -1,0 +1,101 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-249411",
+ "name": "Cuzco",
+ "nameZh": "庫斯科",
+ "theme": {
+  "accent": "#C9773C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/cuzco.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中玩家順序較前者勝",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中勝利分",
+    "note": "六個回合期間喺勝利分軌儲落嘅分(包括最後補做嘅 3 塊任務磚,每塊最多 6 分)",
+    "icon": "🌄",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "medals",
+    "label": "未用嘅 Inti 獎章",
+    "note": "每個冇用過嘅 Inti 獎章 2 分",
+    "icon": "🏅",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "villages",
+    "label": "村莊結繩磚",
+    "note": "每條村莊最頂嗰塊結繩磚嘅擁有者,攞該村莊印住嘅勝利分",
+    "icon": "🏘️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ach9missions",
+    "label": "成就:9 塊任務磚",
+    "note": "完成 9 塊任務磚(每回合 1 塊加最後 3 塊)得 9 分。做唔足唔計分",
+    "icon": "📜",
+    "color": "#DCE8F7",
+    "input": "bonus",
+    "value": 9
+   },
+   {
+    "id": "ach6goods",
+    "label": "成就:買 6 件貨物",
+    "note": "買咗 6 件貨物得 6 分。做唔足唔計分",
+    "icon": "🛒",
+    "color": "#F5E8D8",
+    "input": "bonus",
+    "value": 6
+   },
+   {
+    "id": "ach6circlets",
+    "label": "成就:6 塊冠飾",
+    "note": "六塊冠飾磚全部啟動得 9 分。做唔足唔計分",
+    "icon": "👑",
+    "color": "#EADCF0",
+    "input": "bonus",
+    "value": 9
+   },
+   {
+    "id": "ach12feathers",
+    "label": "成就:12 條羽毛",
+    "note": "頭飾插滿 12 條羽毛得 6 分。做唔足唔計分",
+    "icon": "🪶",
+    "color": "#F7DCDC",
+    "input": "bonus",
+    "value": 6
+   },
+   {
+    "id": "ach10quipu",
+    "label": "成就:10 塊結繩磚",
+    "note": "十塊結繩磚全部送到村莊得 10 分。做唔足唔計分",
+    "icon": "🧶",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 10
+   },
+   {
+    "id": "ach12tiles",
+    "label": "成就:12 塊農耕/研習磚",
+    "note": "面具板上有 12 塊農耕同/或者研習磚得 12 分。做唔足唔計分",
+    "icon": "🌽",
+    "color": "#DDEFDC",
+    "input": "bonus",
+    "value": 12
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

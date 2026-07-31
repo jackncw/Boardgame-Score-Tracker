@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-452817",
+ "name": "Emberheart",
+ "nameZh": "餘燼之心",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/emberheart.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中龍卡較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "dragons",
+    "label": "龍卡",
+    "note": "自己每張龍卡上面印住嘅榮耀值(附著咗定未附著都照計)",
+    "icon": "🐉",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "attributes",
+    "label": "屬性軌",
+    "note": "每條屬性軌只計已解鎖嘅最高榮耀值(同一條軌上面嘅值唔會累加)",
+    "icon": "📊",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "heroes",
+    "label": "英雄卡",
+    "note": "每張英雄卡:要有同色龍卡附著而且達成計分條件先攞卡上榮耀值",
+    "icon": "🗡️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "garrisons",
+    "label": "駐防卡",
+    "note": "每張已完成嘅駐防卡按卡上榮耀值計",
+    "icon": "🏰",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "flame",
+    "label": "火焰軌",
+    "note": "火焰標記嘅終局位置。最右嗰個玩家冇額外榮耀,其他人按同佢相距幾多格攞榮耀(例如相距 3 格 +3、相距 6 格 +8,詳見板上刻度)。結算前每棄 3 個齒輪可以將自己火焰減 1",
+    "icon": "🔥",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-288080",
+ "name": "Dice Realms",
+ "nameZh": "骰子王國",
+ "theme": {
+  "accent": "#8C5AA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/dice-realms.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "chips",
+    "label": "勝利分籌碼",
+    "note": "手上嘅勝利分籌碼總值",
+    "icon": "🔵",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "faces",
+    "label": "已升級骰面",
+    "note": "自己所有骰上面已升級骰面所帶嘅勝利分加埋",
+    "icon": "🎲",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
