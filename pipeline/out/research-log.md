@@ -459,10 +459,10 @@
 
 ## 進度
 
-- 已生成計分表(done):348
+- 已生成計分表(done):349
 - 揾唔到可靠來源(no-source):0
 - 判定唔使做(skip):880
-- 未做(pending):772
+- 未做(pending):771
 - 路徑 b(直接生成):190 · 路徑 c(網查 rulebook):930
 
 ## 逐隻紀錄
@@ -1303,7 +1303,7 @@
 | 1832 | ALIEN: Fate of the Nostromo | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1833 | Space Crusade | - | skip | — | 一對多劇本制遊戲,以陣營目標定勝負,無累加計分 |
 | 1834 | Onirim | - | skip | — | 單人遊戲,無玩家累加計分 |
-| 1835 | Looot | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1835 | Looot | c | done | [link](https://bghub.org/r/looot.pdf) | 六種資源各自(起始值+獎勵)×數量、工地、戰利品、未滿長船 -5 |
 | 1836 | Gravwell: Escape from the 9th Dimension | - | skip | — | 競速遊戲,以最快脫離定勝負,無累加計分 |
 | 1837 | Escape Tales: The Awakening | - | skip | — | 合作制故事解謎遊戲,無玩家累加計分 |
 | 1838 | Huang | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -1316,7 +1316,7 @@
 | 1845 | Hit Z Road | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1846 | Tides of Time | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1847 | Bandu | - | skip | — | 疊高遊戲,以對手塔冧定勝負,無累加計分 |
-| 1848 | Minos: Dawn of the Bronze Age | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1848 | Minos: Dawn of the Bronze Age | c | pending | — | 錨點落咗行動參考表,終局計分清單未讀到 |
 | 1849 | Eight-Minute Empire | b | done | — | 放寬尺度後直接生成 |
 | 1850 | Carolus Magnus | - | skip | — | 以最先放晒城堡定勝負,無累加計分 |
 | 1851 | Shogi | - | skip | — | 抽象對弈,以將死對手定勝負,無累加計分 |

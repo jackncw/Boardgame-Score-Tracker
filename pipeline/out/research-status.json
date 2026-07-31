@@ -12605,9 +12605,9 @@
   "name": "Looot",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/looot.pdf",
+  "note": "六種資源各自(起始值+獎勵)×數量、工地、戰利品、未滿長船 -5"
  },
  {
   "rank": 1836,
@@ -12737,7 +12737,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "錨點落咗行動參考表,終局計分清單未讀到"
  },
  {
   "rank": 1849,

@@ -1,0 +1,102 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-410991",
+ "name": "Looot",
+ "nameZh": "維京掠奪",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/looot.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中戰利品價值較高者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "castles",
+    "label": "城堡",
+    "note": "起始值加埋你攞到嘅同類獎勵,再乘以你擁有嘅數量",
+    "icon": "🏰",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "watchtowers",
+    "label": "瞭望塔",
+    "note": "起始值加埋你攞到嘅同類獎勵,再乘以你擁有嘅數量",
+    "icon": "🗼",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "houses",
+    "label": "房屋",
+    "note": "起始值加埋你攞到嘅同類獎勵,再乘以你擁有嘅數量",
+    "icon": "🏠",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gold",
+    "label": "黃金",
+    "note": "起始值加埋你攞到嘅同類獎勵,再乘以你擁有嘅數量",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "sheep",
+    "label": "綿羊",
+    "note": "起始值加埋你攞到嘅同類獎勵,再乘以你擁有嘅數量",
+    "icon": "🐑",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "wood",
+    "label": "木材",
+    "note": "起始值加埋你攞到嘅同類獎勵,再乘以你擁有嘅數量",
+    "icon": "🪵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "sites",
+    "label": "已完成建築工地",
+    "note": "完成咗嘅建築工地帶嚟嘅 VP",
+    "icon": "🚧",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "trophy",
+    "label": "戰利品",
+    "note": "攞到戰利品嘅話,計佢嘅 VP",
+    "icon": "🏆",
+    "color": "#F7D8E0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "longships",
+    "label": "未坐滿嘅長船",
+    "note": "每隻未填滿嘅長船 -5 VP",
+    "icon": "⛵",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 5,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
