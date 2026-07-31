@@ -1,0 +1,92 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-402663",
+ "name": "Salton Sea",
+ "nameZh": "索爾頓湖",
+ "theme": {
+  "accent": "#C9773C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/salton-sea.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中手上行動卡總值最高者勝",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "遊戲期間攞到嘅分:採完嘅礦權、執行咗嘅合約、短期目標、業務發展軌行過最後一格、以及取得時即時俾分嘅研究卡",
+    "icon": "⛏️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "hand",
+    "label": "手上行動卡",
+    "note": "手上行動卡總值,每 $3 換 2 分",
+    "icon": "🃏",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shares",
+    "label": "股份",
+    "note": "自己喺各公司持有嘅股份數 × 金融資產價值軌對應嘅分值,逐間加埋",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "warehouse",
+    "label": "倉庫產品",
+    "note": "每份鹽水 1 分、每份地熱能 3 分、每份鋰 5 分",
+    "icon": "🏭",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "research",
+    "label": "永久研究卡",
+    "note": "每張永久效果研究卡上面印住嘅分 × 佢喺公司板上嘅位置編號",
+    "icon": "🔬",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shortterm",
+    "label": "短期目標(灰星)",
+    "note": "業務發展軌解鎖咗先計得嘅灰星短期目標",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "longterm",
+    "label": "長期目標",
+    "note": "已達成嘅長期目標(連灰星),同樣要業務發展軌解鎖咗先計得",
+    "icon": "🎯",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "penalties",
+    "label": "扣分",
+    "note": "公司板上未執行嘅合約各扣該合約分值嘅一半;鑽機損壞同開採廠損壞亦要扣分。入負數",
+    "icon": "⚠️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

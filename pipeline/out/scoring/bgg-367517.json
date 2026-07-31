@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-367517",
+ "name": "La Famiglia: The Great Mafia War",
+ "nameZh": "家族:黑手黨大戰",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/la-famiglia-the-great-mafia-war.pdf",
+  "verified": false,
+  "tieBreaker": "四回合完仍然平手就由控制布龍泰地區嗰隊勝出;兩隊都冇控制就打和",
+  "fields": [
+   {
+    "id": "mandamenti",
+    "label": "控制嘅曼達門托",
+    "note": "衝突階段之後嘅管理期,自己一個人控制到至少 5 個曼達門托、或者成隊控制到至少 6 個,即刻贏。四回合完都冇人達標就比兩隊控制數,多嗰隊贏。控制一個曼達門托要喺該區至少 2 個地區各有 1 個士兵,而且要同一家族",
+    "icon": "🏴",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

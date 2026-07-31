@@ -1,0 +1,39 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-403754",
+ "name": "Middle Ages",
+ "nameZh": "中世紀",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/middleages.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中宮殿較多者勝;再同分比教堂,如此類推由右至左比各類地產數量",
+  "fields": [
+   {
+    "id": "coins",
+    "label": "金幣",
+    "note": "十六個回合期間賺到嘅金幣總數",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "empty",
+    "label": "空置領地",
+    "note": "每塊冇任何地塊磚嘅領地 -10 金幣",
+    "icon": "🏚️",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 10,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

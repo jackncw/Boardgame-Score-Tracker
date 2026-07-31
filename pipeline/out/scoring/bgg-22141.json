@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-22141",
+ "name": "Cleopatra and the Society of Architects",
+ "nameZh": "埃及豔后與建築師公會",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/cleopatra-and-the-society-of-architects.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中剩餘腐敗護符最少者勝。注意:護符最多嗰個(或幾個)會被鱷魚食咗,冇資格勝出",
+  "fields": [
+   {
+    "id": "talents",
+    "label": "塔蘭特",
+    "note": "建造宮殿部件賺到嘅金塔蘭特總數。重要:先掀開腐敗金字塔數護符(每個已宣稱嘅聖域格,連阿努比斯像嗰格,各放 1 個護符抵銷),護符最多嗰個(或幾個)玩家出局;生還者之中塔蘭特最多者勝",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "merchants",
+    "label": "尼羅河商人",
+    "note": "終局手上每張尼羅河商人加 3 塔蘭特",
+    "icon": "🛶",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 3
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -6585,9 +6585,9 @@
   "name": "La Famiglia: The Great Mafia War",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/la-famiglia-the-great-mafia-war.pdf",
+  "note": "rulebook 明文:個人 5 個或成隊 6 個曼達門托即勝,四回合完比控制數"
  },
  {
   "rank": 1234,
@@ -6825,9 +6825,9 @@
   "name": "Tawantinsuyu: The Inca Empire",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/tawantinsuyutheincaempire.pdf",
+  "note": "rulebook 明文:掛毯 0/1/3/6/10/15/21、建築 2 分、神祇/軍隊/工人/黃金各 1 分"
  },
  {
   "rank": 1258,
@@ -7315,9 +7315,9 @@
   "name": "Foundations of Metropolis",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/foundations-of-metropolis.pdf",
+  "note": "rulebook 明文:空地標記 1 聲望、第三年商業建築金幣轉聲望"
  },
  {
   "rank": 1307,
@@ -7425,9 +7425,9 @@
   "name": "Merlin",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/merlin.pdf",
+  "note": "rulebook 明文:叛徒 -3、王者之劍 +3、爪牙 1 分、蘋果 1 分、梅林之杖 2 分"
  },
  {
   "rank": 1318,
@@ -7565,9 +7565,9 @@
   "name": "Arborea",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "錨點落咗單人對手(Feronia)嘅計分,唔係多人終局計分"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/arborea.pdf",
+  "note": "用多人 ENDGAME SCORING(line 805)唔係 Feronia 單人段;生物 RP、季節上限 8×6 全部明文"
  },
  {
   "rank": 1332,
@@ -7645,9 +7645,9 @@
   "name": "Ironwood",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "搵唔到計分段落錨點,要人手睇"
+  "result": "skip",
+  "sourceUrl": "https://bghub.org/r/ironwood.pdf",
+  "note": "rulebook 明文:雙方不對稱勝利條件(例如起夠 3 座即勝),冇累加計分"
  },
  {
   "rank": 1340,
@@ -8255,9 +8255,9 @@
   "name": "Middle Ages",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/middleages.pdf",
+  "note": "rulebook 明文:錢最多者勝,冇地塊嘅領地每塊 -10 金幣"
  },
  {
   "rank": 1401,
@@ -8305,9 +8305,9 @@
   "name": "Horseless Carriage",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/horseless-carriage.pdf",
+  "note": "rulebook 明文:財富最高者勝,冇獨立 VP 系統"
  },
  {
   "rank": 1406,
@@ -8646,8 +8646,8 @@
   "cat": "-",
   "path": "c",
   "result": "pending",
-  "sourceUrl": "",
-  "note": "PDF 嘅計分圖示全部變亂碼,連類別都認唔出"
+  "sourceUrl": "https://bghub.org/r/rollingheights.pdf",
+  "note": "再確認:PDF 嘅計分圖示全部係缺字符號,分唔到係邊種建築/meeple,唔可靠"
  },
  {
   "rank": 1440,
@@ -9035,9 +9035,9 @@
   "name": "Tussie Mussie",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/tussie-mussie.pdf",
+  "note": "rulebook 明文:每個心心 1 分,其餘由卡面條件決定故合併做一欄"
  },
  {
   "rank": 1479,
@@ -9085,9 +9085,9 @@
   "name": "Cleopatra and the Society of Architects",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/cleopatra-and-the-society-of-architects.pdf",
+  "note": "rulebook 明文:尼羅河商人每張 +3 塔蘭特;腐敗護符最多者出局(唔係扣分)故唔做欄,寫入 tieBreaker"
  },
  {
   "rank": 1484,
@@ -9635,9 +9635,9 @@
   "name": "Dragon Eclipse",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "搵唔到夠密度嘅計分段落,要人手睇"
+  "result": "skip",
+  "sourceUrl": "https://bghub.org/r/dragon-eclipse.pdf",
+  "note": "劇本/戰役制,勝負由劇本條件決定,冇玩家間累加計分"
  },
  {
   "rank": 1539,
@@ -10075,9 +10075,9 @@
   "name": "Shallow Sea",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "錨點落咗成就附錄,終局計分主清單要再搵"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/shallow-sea.pdf",
+  "note": "rulebook 明文:唔同款海洋生物磚 2 分、未完成魚每塊相鄰完成珊瑚 1 分、生態卡 2/3 分"
  },
  {
   "rank": 1583,
@@ -10205,9 +10205,9 @@
   "name": "CloudAge",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "錨點搵啱但段落開頭被切,要換窗口再讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/cloudage.pdf",
+  "note": "rulebook 明文終局目標卡 2/5/7 同 4/9 分;剩餘資源唔值分"
  },
  {
   "rank": 1596,
@@ -10935,9 +10935,9 @@
   "name": "Everdell Silverfrost",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/everdell-silverfrost.pdf",
+  "note": "rulebook line 984 明文六大類;旅程地點 8/6/4/2 分明文"
  },
  {
   "rank": 1669,
@@ -10995,9 +10995,9 @@
   "name": "Salton Sea",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/salton-sea.pdf",
+  "note": "rulebook 明文:手牌每 $3 得 2 分、鹽水/地熱/鋰 1/3/5 分、未執行合約扣一半"
  },
  {
   "rank": 1675,

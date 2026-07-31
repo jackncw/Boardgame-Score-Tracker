@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-350205",
+ "name": "Horseless Carriage",
+ "nameZh": "無馬馬車",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/horseless-carriage.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中銷售專注度較高者勝",
+  "fields": [
+   {
+    "id": "wealth",
+    "label": "財富",
+    "note": "遊戲結束時嘅總財富。七個年度期間賣車賺錢,冇獨立勝利分系統",
+    "icon": "💰",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

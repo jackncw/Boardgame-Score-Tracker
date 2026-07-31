@@ -1,0 +1,125 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-306481",
+ "name": "Tawantinsuyu: The Inca Empire",
+ "nameZh": "塔萬廷蘇尤:印加帝國",
+ "theme": {
+  "accent": "#C9773C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/tawantinsuyutheincaempire.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中資源(金/石/玉米/薯仔)總數較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "三次慶典期間結算攞到嘅分(建築、征服區多數、慶典標記等),計分軌上嘅總數",
+    "icon": "🏔️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tapestry",
+    "label": "掛毯",
+    "note": "掛毯入面有幾多種唔同織法:1/2/3/4/5/6/7 種分別 0/1/3/6/10/15/21 分",
+    "icon": "🧶",
+    "color": "#EADCF0",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      6,
+      15
+     ],
+     [
+      7,
+      21
+     ]
+    ]
+   },
+   {
+    "id": "temple",
+    "label": "神廟軌",
+    "note": "行到神廟軌最頂四級其中一級,攞嗰級中央印住嘅分;未到就 0 分",
+    "icon": "🛕",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "正面朝上嘅建築",
+    "note": "每座正面朝上嘅建築 2 分(包括被動建築)",
+    "icon": "🏛️",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "gods",
+    "label": "神祇卡",
+    "note": "手上每張神祇卡 1 分",
+    "icon": "🌞",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "army",
+    "label": "軍隊卡",
+    "note": "自己區域正面朝上嘅軍隊卡每張 1 分(手上嗰啲唔計)",
+    "icon": "⚔️",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "workers",
+    "label": "剩餘工人",
+    "note": "自己存放區每個剩低嘅工人 1 分",
+    "icon": "🧑‍🌾",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "gold",
+    "label": "黃金",
+    "note": "自己存放區每個黃金 1 分",
+    "icon": "🪙",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

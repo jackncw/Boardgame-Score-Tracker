@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-316858",
+ "name": "CloudAge",
+ "nameZh": "雲端紀元",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/cloudage.pdf",
+  "verified": false,
+  "tieBreaker": "同分者要再打一場戰鬥決勝(唔准用勝利分抽導航卡);再打和就多個贏家",
+  "fields": [
+   {
+    "id": "track",
+    "label": "勝利分軌",
+    "note": "遊戲期間喺勝利分軌儲落嘅分。剩餘資源終局唔值分",
+    "icon": "🎈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "grey",
+    "label": "灰色勝利分",
+    "note": "終局將所有「灰色勝利分」加埋落計分軌。呢啲主要嚟自終局目標卡,例如:打出 4/5/7 張綠色專案卡得 2/5/7 分;打出 4/5/7 張藍色專案卡得 2/5/7 分;打出 2/3/4 張黃色專案卡得 2/5/7 分;打出 8/10/12 張專案卡得 2/5/7 分;基礎戰鬥值 3/4/6 得 2/5/7 分;永久移動點 3/4/5 得 2/5/7 分;打出 1/2/3 張成本至少 8 水嘅專案卡得 2/5/7 分;導航牌組至少 9/10 張得 4/9 分",
+    "icon": "🏅",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

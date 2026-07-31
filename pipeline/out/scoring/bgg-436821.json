@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-436821",
+ "name": "Everdell Silverfrost",
+ "nameZh": "永恆之樹:銀霜",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/everdell-silverfrost.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中清走最多雪嗰個勝",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "城市卡基礎分",
+    "note": "城市入面所有卡嘅基礎分值加埋",
+    "icon": "🏘️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "prosperity",
+    "label": "紫色繁榮卡",
+    "note": "紫色繁榮卡嘅獎勵分值",
+    "icon": "💜",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "quests",
+    "label": "已達成任務",
+    "note": "達成到嘅任務卡分值。未達成嘅唔計。有啲任務有多個條件,要同時滿足晒",
+    "icon": "📜",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "snow",
+    "label": "雪分",
+    "note": "按今局用緊嘅獎勵規則結算雪帶嚟嘅分",
+    "icon": "❄️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tokens",
+    "label": "分數標記",
+    "note": "遊戲期間攞到嘅每個分數標記 1 分",
+    "icon": "🔵",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "journey",
+    "label": "旅程",
+    "note": "終局時放喺旅程地點嘅工人,攞該地點印住嘅分(8 分、6 分、4 分嗰啲係專屬地點要付火,2 分嗰個係共用地點唔使付火)",
+    "icon": "🥾",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

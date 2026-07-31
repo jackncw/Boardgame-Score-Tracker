@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-428440",
+ "name": "Shallow Sea",
+ "nameZh": "淺海",
+ "theme": {
+  "accent": "#3C7A9B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/shallow-sea.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中剩餘貝殼較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "tiles",
+    "label": "磚塊得分",
+    "note": "海洋板上逐行由上至下計已完成磚塊上面印住嘅分。未完成嘅珊瑚磚一分都冇",
+    "icon": "🪸",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ecosystem",
+    "label": "生態卡",
+    "note": "兩張生態卡各自結算。例:橙色生態卡 —— 每塊放咗同色已完成魚嘅已完成珊瑚磚 2 分;藍色生態卡 —— 每塊喺海洋內圈 10 格嘅已完成海洋生物磚 3 分。實際條件視乎今局抽到邊兩張",
+    "icon": "🌊",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "differing",
+    "label": "唔同款海洋生物磚",
+    "note": "每完成一款「唔同」嘅海洋生物磚 2 分(同款只計一次)",
+    "icon": "🐙",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "incomplete",
+    "label": "未完成魚",
+    "note": "每條未完成魚,每有一塊相鄰嘅已完成珊瑚磚就 1 分。同一塊珊瑚磚可以重複計俾唔同嘅未完成魚",
+    "icon": "🐟",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

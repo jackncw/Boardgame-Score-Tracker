@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-257614",
+ "name": "Tussie Mussie",
+ "nameZh": "花語小束",
+ "theme": {
+  "accent": "#C97A9B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/tussie-mussie.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tiles",
+    "label": "花牌得分",
+    "note": "每回合展示階段,由最左張牌開始逐張向右計:攞牌上印住嘅分。另外每張牌左上角每個心心 1 分,部分牌嘅文字效果再額外加分(例如「每朵紅花 1 分」、「每張相鄰牌 1 分」)。各回合攞到嘅勝利分標記加埋",
+    "icon": "💐",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-230933",
+ "name": "Merlin",
+ "nameZh": "梅林",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/merlin.pdf",
+  "verified": false,
+  "tieBreaker": "同分者共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "六個回合期間喺勝利分軌儲落嘅分。每個回合按四類結算:① 叛徒 —— 用盾牌擊退,每個擊退唔到嘅叛徒 -3 分;全部擊退而且持有王者之劍額外 +3 分。② 領地 —— 同類地形磚相連成一片為一個領地,莊園最多嗰個攞分數等於該領地磚數,同數就平分捨去,冇莊園嘅領地冇人攞。③ 影響力 —— 由黑龍公國順時針逐個公國計,分數等於該公國所有影響力標記總數,標記最多嗰個攞晒,同數就除以同數人數捨去;聖杯可以用嚟打破一次平手。④ 爪牙 —— 放喺公國嘅爪牙每個 1 分,喺城堡板上嘅唔計。另加任務卡本身嘅分",
+    "icon": "🧙",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "apples",
+    "label": "蘋果",
+    "note": "終局每個蘋果 1 分",
+    "icon": "🍎",
+    "color": "#F7DCDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "staffs",
+    "label": "梅林之杖",
+    "note": "終局每根梅林之杖 2 分",
+    "icon": "🪄",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 2
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

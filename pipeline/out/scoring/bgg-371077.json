@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-371077",
+ "name": "Arborea",
+ "nameZh": "樹海",
+ "theme": {
+  "accent": "#5A8C5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/arborea.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "spirit",
+    "label": "精神軌",
+    "note": "先做第一步:玩家板囚禁區每隻生物令精神追蹤器落 3 格。然後按追蹤器最終位置加或者減 RP(可以係負,例如 -10、-5、+5)",
+    "icon": "✨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "seasons",
+    "label": "季節磚",
+    "note": "第三步:四塊季節磚由左至右逐塊計。每塊按磚上條件符合幾多次攞基礎 RP,再乘自己喺該季節軌行到嘅倍率。基礎 RP 最多 8,倍率最多 ×6,所以每季最多 48 RP",
+    "icon": "🍂",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "creatures",
+    "label": "生態系生物",
+    "note": "第四步:逐隻生物按需求計 —— 蘑菇蛙每塊相鄰樹棲地 3 RP;鹿角蟲每塊相鄰珊瑚棲地 3 RP;蜘蛛蟻每種唔同嘅相鄰棲地(連石同水)2 RP;智慧貓頭鷹每塊相鄰蘑菇棲地 2 RP,另加送俾賢者嘅禮物總數 ÷ 2(捨去)嘅 RP,禮物放喺第 1/2/3 格分別當 1/2/3 份;陰森獸每塊相鄰花棲地 2 RP,另加正交直線上每隻蘑菇蛙 3 RP;尾貓每塊相鄰雜草棲地 2 RP,另加正交直線上每隻鹿角蟲 3 RP。任何生物只要相鄰至少一塊水棲地,佢嗰隻嘅總 RP 就加倍(多過一塊水唔會再加)",
+    "icon": "🦉",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

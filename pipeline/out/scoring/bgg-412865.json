@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-412865",
+ "name": "Foundations of Metropolis",
+ "nameZh": "大都會基石",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/foundations-of-metropolis.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中剩餘金幣較多者勝",
+  "fields": [
+   {
+    "id": "years",
+    "label": "三年結算聲望",
+    "note": "三個年度結束時嘅結算加埋:人口軌(要至少有 1 個市民先計得,睇自己前面下一個標記嘅位置,同格就同分)、市政建築(按建築圖示計相鄰建築嘅市民/金幣/建築數)、商業建築印住嘅聲望",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "commercial3",
+    "label": "第三年商業建築額外聲望",
+    "note": "只限第三年結算:商業建築本來收金幣嗰部分改為攞同等數值嘅聲望(印住嘅聲望照計)",
+    "icon": "💼",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "lots",
+    "label": "空地標記",
+    "note": "只限第三年結算:城市板上自己每個標住空地嘅地契標記 1 分",
+    "icon": "📐",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

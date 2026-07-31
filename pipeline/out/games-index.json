@@ -17471,6 +17471,8 @@
   "bggId": 367517,
   "gameId": "bgg-367517",
   "name": "La Famiglia: The Great Mafia War",
+  "nameZh": "家族:黑手黨大戰",
+  "accent": "#8C3F3F",
   "rank": 1233,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/zM3cPLHv2smrTSDI565a3A__micro/img/9ISnnulJc7LVLUqk61Zt-N2UpK0=/fit-in/64x64/filters:strip_icc()/pic7322524.jpg",
@@ -17478,7 +17480,7 @@
   "minPlayers": 4,
   "maxPlayers": 4,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 178336,
@@ -17791,6 +17793,8 @@
   "bggId": 306481,
   "gameId": "bgg-306481",
   "name": "Tawantinsuyu: The Inca Empire",
+  "nameZh": "塔萬廷蘇尤:印加帝國",
+  "accent": "#C9773C",
   "rank": 1257,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/pxqUJZDKEyHAY0Ex5zk66A__micro/img/1iLrRcJ8oDH-MTd7H0EjUnf3j_E=/fit-in/64x64/filters:strip_icc()/pic5325153.jpg",
@@ -17798,7 +17802,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 261114,
@@ -18454,6 +18458,8 @@
   "bggId": 412865,
   "gameId": "bgg-412865",
   "name": "Foundations of Metropolis",
+  "nameZh": "大都會基石",
+  "accent": "#5A8CA8",
   "rank": 1306,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/w63l98O0Rm5yg5HW8ZNaBA__micro/img/vNceYY4AdE1J5UJvn_ag-Zv3zHk=/fit-in/64x64/filters:strip_icc()/pic7991147.png",
@@ -18461,7 +18467,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 21523,
@@ -18603,6 +18609,8 @@
   "bggId": 230933,
   "gameId": "bgg-230933",
   "name": "Merlin",
+  "nameZh": "梅林",
+  "accent": "#5A6E8C",
   "rank": 1317,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/n6gI4kicSY3wSprEYBB7lg__micro/img/JgP1mEY_CWOqoLje3k3eIQSCJxI=/fit-in/64x64/filters:strip_icc()/pic3716929.jpg",
@@ -18610,7 +18618,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 246761,
@@ -18789,6 +18797,8 @@
   "bggId": 371077,
   "gameId": "bgg-371077",
   "name": "Arborea",
+  "nameZh": "樹海",
+  "accent": "#5A8C5A",
   "rank": 1331,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/KHT8Ex0wvRs5wAWPNo3xNg__micro/img/cVwE2gJ1pEn9r3lqRIFRlbChWTs=/fit-in/64x64/filters:strip_icc()/pic7230067.png",
@@ -18796,7 +18806,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 284778,
@@ -19714,6 +19724,8 @@
   "bggId": 403754,
   "gameId": "bgg-403754",
   "name": "Middle Ages",
+  "nameZh": "中世紀",
+  "accent": "#B58C3C",
   "rank": 1400,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/WosfgaFD86TMKYssp8XSxA__micro/img/cDtLaVwFQwhjgutcGsvZYNi0fhM=/fit-in/64x64/filters:strip_icc()/pic8140420.png",
@@ -19721,7 +19733,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 142326,
@@ -19783,6 +19795,8 @@
   "bggId": 350205,
   "gameId": "bgg-350205",
   "name": "Horseless Carriage",
+  "nameZh": "無馬馬車",
+  "accent": "#8C6E4A",
   "rank": 1405,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/8oCeW5kLCh_uaN2ER7ProA__micro/img/EWrku1pHiGN8yV3qNzbONt1Br7Y=/fit-in/64x64/filters:strip_icc()/pic6491535.jpg",
@@ -19790,7 +19804,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 301257,
@@ -20760,6 +20774,8 @@
   "bggId": 257614,
   "gameId": "bgg-257614",
   "name": "Tussie Mussie",
+  "nameZh": "花語小束",
+  "accent": "#C97A9B",
   "rank": 1478,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/bOTxzLrmwptfbAre3JnS3w__micro/img/BpquHoY_wMxcPCEAyjR3x6mziEg=/fit-in/64x64/filters:strip_icc()/pic5456717.png",
@@ -20767,7 +20783,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 156091,
@@ -20827,6 +20843,8 @@
   "bggId": 22141,
   "gameId": "bgg-22141",
   "name": "Cleopatra and the Society of Architects",
+  "nameZh": "埃及豔后與建築師公會",
+  "accent": "#B58C3C",
   "rank": 1483,
   "year": 2006,
   "thumbnail": "https://cf.geekdo-images.com/7cNh9n1YX-TjuWPTjYXSiw__micro/img/qc-larkW5POQagrWYMQe_OpSMP0=/fit-in/64x64/filters:strip_icc()/pic1904123.jpg",
@@ -20834,7 +20852,7 @@
   "minPlayers": 3,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 257518,
@@ -22160,6 +22178,8 @@
   "bggId": 428440,
   "gameId": "bgg-428440",
   "name": "Shallow Sea",
+  "nameZh": "淺海",
+  "accent": "#3C7A9B",
   "rank": 1582,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/i8ohLkXX_9a7uTWZ7l7Kqw__micro/img/Nce1NCZDgF5y6nJhxXlwqvRJy9o=/fit-in/64x64/filters:strip_icc()/pic8418427.jpg",
@@ -22167,7 +22187,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 1540,
@@ -22337,6 +22357,8 @@
   "bggId": 316858,
   "gameId": "bgg-316858",
   "name": "CloudAge",
+  "nameZh": "雲端紀元",
+  "accent": "#5A6E8C",
   "rank": 1595,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/yfoefJ7a0cEhKxMUV0sDqQ__micro/img/rIdo9eE6T6-8POXWhOSD6TIyAHU=/fit-in/64x64/filters:strip_icc()/pic5955679.jpg",
@@ -22344,7 +22366,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 100,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 12995,
@@ -23326,6 +23348,8 @@
   "bggId": 436821,
   "gameId": "bgg-436821",
   "name": "Everdell Silverfrost",
+  "nameZh": "永恆之樹:銀霜",
+  "accent": "#5A8CA8",
   "rank": 1668,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/a3_h5VVlWvedrfofmYkKDg__micro/img/cGItnXkFrZIvQ1Icn5pV8zqhAZ8=/fit-in/64x64/filters:strip_icc()/pic8646704.png",
@@ -23333,7 +23357,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 232988,
@@ -23408,6 +23432,8 @@
   "bggId": 402663,
   "gameId": "bgg-402663",
   "name": "Salton Sea",
+  "nameZh": "索爾頓湖",
+  "accent": "#C9773C",
   "rank": 1674,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/pP4AVa3WNYvn2nWpE-Q6xw__micro/img/JfzTzleUxySLgQyCowORxdBczqk=/fit-in/64x64/filters:strip_icc()/pic7821718.png",
@@ -23415,7 +23441,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 331050,
