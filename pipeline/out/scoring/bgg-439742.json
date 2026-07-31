@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-439742",
+ "name": "Dewan",
+ "nameZh": "德萬",
+ "theme": {
+  "accent": "#8C9B4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/dewan.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中手上剩餘地形卡較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "stories",
+    "label": "已完成故事磚",
+    "note": "每塊完成嘅故事磚按磚上印住嘅分計。要求未滿足嘅故事磚要即刻棄掉,唔計分",
+    "icon": "📖",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "camps",
+    "label": "營地群組",
+    "note": "地圖上每組至少 2 個相連嘅營地 4 分",
+    "icon": "⛺",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 4
+   },
+   {
+    "id": "berries",
+    "label": "漿果同符號",
+    "note": "遊戲期間攞到嘅每個漿果標記 2 分;放喺部族板下面嘅地形卡上每個露出嘅符號都當一個漿果計",
+    "icon": "🫐",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "scenario",
+    "label": "劇本專屬計分",
+    "note": "按今局用緊嘅劇本磚背面寫嘅專屬計分結算",
+    "icon": "🎬",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-212516",
+ "name": "Keyper",
+ "nameZh": "鑰匙人",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/keyper.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "farm",
+    "label": "農場建築磚",
+    "note": "農場建築磚逐塊按自己規則計,而且大部分有上限。例如:風車入面每份小麥 2 分(最多 4 份、8 分);農夫每個淺綠人偶 1 分(升級後 2 分,最多 4 個);農夫小屋每塊自己認領嘅淺綠邊界田 1 分(升級 3 分);獵場管理員小屋每隻鹿 2 分(升級 3 分,最多 4 隻);獵人小屋每隻野豬 2 分(升級 3 分,最多 4 隻)",
+    "icon": "🚜",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "village",
+    "label": "村莊建築磚",
+    "note": "村莊建築磚逐塊按自己規則計。例如:寶石商每對綠寶石加黃金 4 分(升級後綠寶石+黃金+紅寶石一套 6 分,最多 4 套);金匠每對黃金加藍寶石 4 分(升級後三寶石一套 6 分,最多 4 套);部分磚本身固定值 2 至 5 分",
+    "icon": "🏘️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fairs",
+    "label": "市集",
+    "note": "各季節末舉行嘅市集,按展示到嘅資源攞分",
+    "icon": "🎪",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shipping",
+    "label": "運輸",
+    "note": "遊戲期間船運資源攞到嘅分",
+    "icon": "🚢",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

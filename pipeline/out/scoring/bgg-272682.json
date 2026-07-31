@@ -1,0 +1,91 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-272682",
+ "name": "Expedition to Newdale",
+ "nameZh": "新谷遠征",
+ "theme": {
+  "accent": "#6B8C4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/expedition-to-newdale.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中坐得離最終起始玩家最遠嗰個勝",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "七個回合期間即時攞到嘅勝利分",
+    "icon": "🧭",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "military",
+    "label": "軍力名次",
+    "note": "軍力 = 自己特殊建築上面拳頭圖示嘅總數。有至少一個拳頭嘅玩家之中,第一名 4 分、第二名 2 分、第三名 1 分。同數者全部攞較高嗰個值,下一個名次唔派。冇拳頭就入 0",
+    "icon": "✊",
+    "color": "#F2D8D8",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      1,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "main",
+    "label": "主要目標",
+    "note": "按章節卡上寫嘅主要目標,棄掉指定種類、總幣值夠數嘅貨物標記攞分。兩個選項只可以揀一個",
+    "icon": "🎯",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goods",
+    "label": "剩餘貨物",
+    "note": "剩低嘅貨物標記幣值總和,每 5 幣 1 分",
+    "icon": "📦",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "secret",
+    "label": "秘密目標",
+    "note": "秘密目標卡上兩個目標符號,自己喺帶有該符號嘅城鎮每有一間屋就 2 分",
+    "icon": "🔮",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "buildings",
+    "label": "建築卡",
+    "note": "已建成嘅建築卡上面印住嘅終局勝利分加埋。剩低嘅獎勵磚、角色卡同手牌一分都冇",
+    "icon": "🏗️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

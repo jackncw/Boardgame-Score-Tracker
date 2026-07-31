@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-423401",
+ "name": "Minos: Dawn of the Bronze Age",
+ "nameZh": "米諾斯:青銅時代之初",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/minos-dawn-of-the-bronze-age.pdf",
+  "verified": false,
+  "tieBreaker": "同分者共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "遊戲期間攞到嘅分,包括第 2 同第 4 回合之後嘅地區結算:按人口軌位置,每個自己主導(戰士最多)嘅地區攞右邊嗰個數值,每個有駐留(至少 1 個戰士但唔係最多)嘅地區攞左邊嗰個數值;主導打和就兩邊都只當駐留;起咗 2/3 座塔就每個主導地區額外 1/2 分。另加花瓶目標(地圖上有 1/2/3/4 個農場得 2/4/8/14 分)同海民戰鬥",
+    "icon": "🏺",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源",
+    "note": "剩低嘅金幣、武器同手牌加埋除以 5(有特殊能力磚嘅話改為除以 3)",
+    "icon": "🪙",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "played",
+    "label": "打出但未入宮殿嘅卡",
+    "note": "打出過但冇加入宮殿嘅卡,每張 1 分",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "palace",
+    "label": "宮殿卡",
+    "note": "宮殿入面所有卡上面印住嘅勝利分加埋",
+    "icon": "🏛️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "board",
+    "label": "城市同船隻",
+    "note": "玩家板上每座已建城市同每艘船下面印住嘅勝利分加埋",
+    "icon": "🚢",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

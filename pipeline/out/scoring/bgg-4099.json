@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-4099",
+ "name": "Keythedral",
+ "nameZh": "大教堂",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/keythedral.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tiles",
+    "label": "建築磚",
+    "note": "攞到嘅建築磚上面印住嘅數字加埋",
+    "icon": "🏰",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "yellow",
+    "label": "黃色工藝方塊",
+    "note": "未用嘅黃色工藝方塊每個 4 分",
+    "icon": "🟨",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 4
+   },
+   {
+    "id": "purple",
+    "label": "紫色工藝方塊",
+    "note": "未用嘅紫色工藝方塊每個 3 分",
+    "icon": "🟪",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "white",
+    "label": "白色工藝方塊",
+    "note": "未用嘅白色工藝方塊每個 2 分",
+    "icon": "⬜",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "resources",
+    "label": "資源方塊",
+    "note": "未用嘅資源方塊(黑、藍、啡、綠、紅)每個 1 分",
+    "icon": "🟫",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-350458",
+ "name": "Terracotta Army",
+ "nameZh": "兵馬俑",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/terracottaarmy.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中出牌順序較前者勝",
+  "fields": [
+   {
+    "id": "footmen",
+    "label": "步兵",
+    "note": "每個步兵睇佢周圍 8 格(直角同斜角)嘅兵俑數量(唔理種類):最多嗰個攞 8 分(跪射俑可以打破平手),其他有兵俑喺場嘅玩家各攞 2 分。馬連騎兵只算 1 個兵俑",
+    "icon": "🗿",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "groups",
+    "label": "兵俑群組",
+    "note": "先移走所有唔屬於任何群組嘅兵俑(群組 = 2 個或以上完全同款、直角相鄰嘅兵俑,唔理係邊個玩家嘅)。之後逐組計:組內每個兵俑值分等於組內有幾多個唔同玩家有兵俑。如果組內至少兩個玩家有兵俑,再評主導同在場:主導 5 分(跪射俑可以打破平手)、在場 2 分",
+    "icon": "⚔️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "archers",
+    "label": "跪射俑",
+    "note": "每個跪射俑,佢面向嗰個兵俑嘅擁有者攞 2 分。呢度入自己攞到分嘅跪射俑數",
+    "icon": "🏹",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "leftover",
+    "label": "剩餘黏土同金幣",
+    "note": "剩低嘅黏土(濕或者乾都計)加金幣總數,每 2 件 1 分",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -23527,6 +23527,8 @@
   "bggId": 4099,
   "gameId": "bgg-4099",
   "name": "Keythedral",
+  "nameZh": "大教堂",
+  "accent": "#8C6E4A",
   "rank": 1681,
   "year": 2002,
   "thumbnail": "https://cf.geekdo-images.com/iQbEVmvovOvL8OEgNcpW1g__micro/img/Iobo2b0g_meW_KL6JIfcyPq9D2k=/fit-in/64x64/filters:strip_icc()/pic561488.jpg",
@@ -23534,7 +23536,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 395623,
@@ -23858,6 +23860,8 @@
   "bggId": 350458,
   "gameId": "bgg-350458",
   "name": "Terracotta Army",
+  "nameZh": "兵馬俑",
+  "accent": "#B5563C",
   "rank": 1706,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/5tjbJJ21hE-ScRlV3DvjPQ__micro/img/0XPWXGg6L35RDr_3A2IedEVuwtg=/fit-in/64x64/filters:strip_icc()/pic6949932.jpg",
@@ -23865,7 +23869,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 63268,
@@ -24003,6 +24007,8 @@
   "bggId": 304668,
   "gameId": "bgg-304668",
   "name": "Robot Quest Arena",
+  "nameZh": "機械人競技場",
+  "accent": "#5A6E8C",
   "rank": 1717,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/th2mTX86BDEVlNfRKTQYCQ__micro/img/-10-wHr8ybUlVuUCEKuTWRF3z3I=/fit-in/64x64/filters:strip_icc()/pic6189697.jpg",
@@ -24010,7 +24016,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 347013,
@@ -24314,6 +24320,8 @@
   "bggId": 328124,
   "gameId": "bgg-328124",
   "name": "Bot Factory",
+  "nameZh": "機械人工廠",
+  "accent": "#5A8CA8",
   "rank": 1740,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/3AxdPt4zBDXqtrcsZx5Y9A__micro/img/FcPraWDlUDZz-WZkAaZooeDzRos=/fit-in/64x64/filters:strip_icc()/pic6514058.jpg",
@@ -24321,7 +24329,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 21441,
@@ -24498,6 +24506,8 @@
   "bggId": 172385,
   "gameId": "bgg-172385",
   "name": "Porta Nigra",
+  "nameZh": "黑城門",
+  "accent": "#5A5A6E",
   "rank": 1754,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/Cp53m9m-BxT8cpJZVMFNhg__micro/img/ku1WpyX28t-VjD8hTUumvbGNnHI=/fit-in/64x64/filters:strip_icc()/pic3060256.jpg",
@@ -24505,7 +24515,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 60435,
@@ -24740,6 +24750,8 @@
   "bggId": 212516,
   "gameId": "bgg-212516",
   "name": "Keyper",
+  "nameZh": "鑰匙人",
+  "accent": "#8C6E4A",
   "rank": 1772,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/oCUaeYsSQ8S9F55Ft4P0HQ__micro/img/WZ22xRJZJs_nrTVuN8UdmbzPXLI=/fit-in/64x64/filters:strip_icc()/pic3690708.jpg",
@@ -24747,7 +24759,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 163413,
@@ -24805,6 +24817,8 @@
   "bggId": 272682,
   "gameId": "bgg-272682",
   "name": "Expedition to Newdale",
+  "nameZh": "新谷遠征",
+  "accent": "#6B8C4A",
   "rank": 1777,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/qpGBNV1z2RR8Ed0913Rwlg__micro/img/7AjWZClKqq6fE1SOIvIiwya_Z0Q=/fit-in/64x64/filters:strip_icc()/pic4956399.jpg",
@@ -24812,7 +24826,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 330608,
@@ -24911,6 +24925,8 @@
   "bggId": 325698,
   "gameId": "bgg-325698",
   "name": "Juicy Fruits",
+  "nameZh": "多汁水果",
+  "accent": "#C9553C",
   "rank": 1785,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/wpkz4nS0Iqdv46zjsB3xhw__micro/img/q-Nq433SGzoXJKvjapD6zIXJkw8=/fit-in/64x64/filters:strip_icc()/pic7371921.jpg",
@@ -24918,7 +24934,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 50,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 324711,
@@ -25290,6 +25306,8 @@
   "bggId": 418062,
   "gameId": "bgg-418062",
   "name": "Railroad Tiles",
+  "nameZh": "鐵道拼磚",
+  "accent": "#8C6E4A",
   "rank": 1814,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/yTbY__1knIb6nnekvUHGkw__micro/img/EiqJ2IduCOGO0CEJTnbdHaX1Oa4=/fit-in/64x64/filters:strip_icc()/pic8296003.png",
@@ -25297,7 +25315,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 55829,
@@ -25738,6 +25756,8 @@
   "bggId": 423401,
   "gameId": "bgg-423401",
   "name": "Minos: Dawn of the Bronze Age",
+  "nameZh": "米諾斯:青銅時代之初",
+  "accent": "#B5563C",
   "rank": 1848,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/SScMT92rIP3K0NTK43z9IA__micro/img/GQ6Z0CqeY7t8L0RpqJZwNrzecbk=/fit-in/64x64/filters:strip_icc()/pic8265896.jpg",
@@ -25745,7 +25765,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 150,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 131366,
@@ -26314,6 +26334,8 @@
   "bggId": 351594,
   "gameId": "bgg-351594",
   "name": "Amalfi: Renaissance",
+  "nameZh": "阿瑪菲:文藝復興",
+  "accent": "#5A8CA8",
   "rank": 1890,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/lxueBu5SCCu87Nj3xjeJAA__micro/img/7OZuABS2f-nW8X8wjoLlGfE7dJA=/fit-in/64x64/filters:strip_icc()/pic6518144.jpg",
@@ -26321,7 +26343,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 275044,
@@ -26407,6 +26429,8 @@
   "bggId": 420914,
   "gameId": "bgg-420914",
   "name": "Iliad",
+  "nameZh": "伊利亞德",
+  "accent": "#B58C3C",
   "rank": 1897,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/V879Jjcv8gKWKWFn4tChKg__micro/img/fhqxaqBJex78CX74JYTF66uZPwE=/fit-in/64x64/filters:strip_icc()/pic8195970.png",
@@ -26414,7 +26438,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 180020,
@@ -26779,6 +26803,8 @@
   "bggId": 439742,
   "gameId": "bgg-439742",
   "name": "Dewan",
+  "nameZh": "德萬",
+  "accent": "#8C9B4A",
   "rank": 1925,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/sTyIZTri7fO2Mt33udtjrA__micro/img/b7_tmfFKTYoQiHr5_BViEVpaJNU=/fit-in/64x64/filters:strip_icc()/pic8955937.jpg",
@@ -26786,12 +26812,14 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 355888,
   "gameId": "bgg-355888",
   "name": "Orichalcum",
+  "nameZh": "山銅",
+  "accent": "#C9773C",
   "rank": 1926,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/Mf1rHr7R3B5TjqdXPkxRTg__micro/img/fCx-TCSrtuXsdxd4avLhn9sZLCs=/fit-in/64x64/filters:strip_icc()/pic7041211.png",
@@ -26799,7 +26827,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 423517,

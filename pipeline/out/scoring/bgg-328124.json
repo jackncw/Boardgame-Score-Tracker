@@ -1,0 +1,76 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-328124",
+ "name": "Bot Factory",
+ "nameZh": "機械人工廠",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/bot-factory.pdf",
+  "verified": false,
+  "tieBreaker": "同分依次比:機械人較多者勝、演說標記係單數嗰個勝;再同分共享勝利再打過",
+  "fields": [
+   {
+    "id": "bots",
+    "label": "已完成機械人",
+    "note": "每個完成嘅機械人,按佢喺財務板上嘅價值標記攞分",
+    "icon": "🤖",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "contracts",
+    "label": "已完成合約磚",
+    "note": "將機械人公仔分配去自己認領嘅合約磚。每張完成嘅合約磚:攞自己演說標記所在格嘅分,再加該行側邊嘅分",
+    "icon": "📄",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "speech",
+    "label": "剩餘演說標記",
+    "note": "剩低嘅演說標記每兩個 1 分",
+    "icon": "💬",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "failed",
+    "label": "未完成合約磚",
+    "note": "預留咗但完成唔到嘅合約磚,每張扣自己演說標記所在格嘅分(行側邊嗰筆唔扣)。入負數",
+    "icon": "❌",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "parts",
+    "label": "零件磚",
+    "note": "手上每塊零件磚 -1 分",
+    "icon": "🔩",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "projects",
+    "label": "未完成專案磚",
+    "note": "每塊未完成嘅專案磚 -2 分",
+    "icon": "📐",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 2,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

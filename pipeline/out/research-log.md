@@ -459,10 +459,10 @@
 
 ## 進度
 
-- 已生成計分表(done):447
-- 揾唔到可靠來源(no-source):0
+- 已生成計分表(done):461
+- 揾唔到可靠來源(no-source):5
 - 判定唔使做(skip):887
-- 未做(pending):666
+- 未做(pending):647
 - 路徑 b(直接生成):190 · 路徑 c(網查 rulebook):930
 
 ## 逐隻紀錄
@@ -695,7 +695,7 @@
 | 1224 | Uprising: Curse of the Last Emperor | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1225 | Archaeology: The New Expedition | b | done | — | 放寬尺度後直接生成 |
 | 1226 | Agemonia | - | skip | — | 合作制戰役遊戲,無玩家累加計分 |
-| 1227 | Everdell Duo | c | pending | [link](https://bghub.org/r/everdell-duo.pdf) | ⚠️ bghub 呢個 slug 嘅 PDF 內容其實係 Evergreen(季節/生物群系/樹/光),唔係 Everdell Duo —— 鏡像配錯遊戲,當冇來源 |
+| 1227 | Everdell Duo | c | no-source | [link](https://bghub.org/r/everdell-duo.pdf) | bghub 呢個 slug 嘅 PDF 內容其實係 Evergreen,唔係 Everdell Duo —— 鏡像配錯遊戲 |
 | 1228 | The Castles of Tuscany | c | done | [link](https://bghub.org/r/thecastlesoftuscany.pdf) | 紅軌分 + 未用物件每個 1 分 + 每 3 張手牌 1 分 |
 | 1229 | Ascension: Storm of Souls | b | done | — | 放寬尺度後直接生成 |
 | 1230 | Two Rooms and a Boom | - | skip | — | 社交推理遊戲,以陣營達成條件定勝負,無累加計分 |
@@ -907,7 +907,7 @@
 | 1436 | Kinfire Delve: Scorn's Stockade | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1437 | Inventors of the South Tigris | c | done | [link](https://bghub.org/r/inventorsofthesouthtigris.pdf) | 類別由單人章節列出(明言同多人一樣),但嗰啲數字係假想對手簡化值,故唔寫單價 |
 | 1438 | Wendake | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
-| 1439 | Rolling Heights | c | pending | [link](https://bghub.org/r/rollingheights.pdf) | 再確認:PDF 嘅計分圖示全部係缺字符號,分唔到係邊種建築/meeple,唔可靠 |
+| 1439 | Rolling Heights | c | no-source | [link](https://bghub.org/r/rollingheights.pdf) | PDF 計分圖示全部係缺字符號,分唔出係邊種建築/meeple |
 | 1440 | Europa Universalis: The Price of Power | - | skip | — | 多陣營戰棋,以陣營勝利條件定勝負,無統一累加計分 |
 | 1441 | Disney Lorcana | - | skip | — | 集換式卡牌對戰,以最先儲夠傳說值定勝負,無累加計分 |
 | 1442 | Wilderness War | - | skip | — | 雙人 CDG 戰棋,以陣營勝利條件定勝負,無累加計分 |
@@ -1149,7 +1149,7 @@
 | 1678 | Smash Up: It's Your Fault! | b | done | — | 放寬尺度後直接生成 |
 | 1679 | Welcome to the Dungeon | - | skip | — | 賭膽遊戲,以最先贏兩次探險定勝負,無累加計分 |
 | 1680 | Sol: Last Days of a Star | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1681 | Keythedral | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1681 | Keythedral | c | done | [link](https://bghub.org/r/keythedral.pdf) | rulebook 明文:黃 4 分、紫 3 分、白 2 分、資源方塊各 1 分 |
 | 1682 | Harvest | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1683 | Trains: Rising Sun | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1684 | The Night Cage | - | skip | — | 合作制遊戲,無玩家累加計分 |
@@ -1174,7 +1174,7 @@
 | 1703 | Age of Galaxy | c | done | [link](https://bghub.org/r/age-of-galaxy.pdf) | 聲望/星系/遺物/意識形態;計分物用圖示表示,PDF 抽唔到故唔寫單價 |
 | 1704 | After the Empire | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1705 | Infinity Gauntlet: A Love Letter Game | - | skip | — | 不對稱陣營遊戲,以達成陣營目標定勝負,無累加計分 |
-| 1706 | Terracotta Army | c | pending | — | 錨點落咗雕像描述,終局計分主清單喺 p.19 未讀到 |
+| 1706 | Terracotta Army | c | done | [link](https://bghub.org/r/terracottaarmy.pdf) | rulebook END GAME SCORING 明文:步兵 8/2、群組主導 5、在場 2、跪射俑 2、剩餘每 2 件 1 分 |
 | 1707 | Spot it! | b | done | — | 放寬尺度後直接生成 |
 | 1708 | Quoridor | - | skip | — | 抽象對弈,以最先到對面定勝負,無累加計分 |
 | 1709 | Naga Raja | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -1185,7 +1185,7 @@
 | 1714 | Star Trek: Catan | - | skip | — | 以最先儲夠十分定勝負,無終局分項計分 |
 | 1715 | Dice Throne: Season Two – Gunslinger v. Samurai | - | skip | — | 雙人對戰,以擊倒對手生命值定勝負,無累加計分 |
 | 1716 | Room 25 | - | skip | — | 合作/含內鬼遊戲,以逃出定勝負,無累加計分 |
-| 1717 | Robot Quest Arena | c | pending | — | 規則書冇列終局分項清單 |
+| 1717 | Robot Quest Arena | c | done | [link](https://bghub.org/r/robot-quest-arena.pdf) | rulebook 冇分項清單,只寫 VP 最多者勝,故單一 number 欄 |
 | 1718 | Get on Board: New York & London | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1719 | Barony | - | skip | — | 以最先升到公爵定勝負,無終局分項計分 |
 | 1720 | Titan | - | skip | — | 淘汰制戰棋,以消滅對手泰坦定勝負,無累加計分 |
@@ -1208,7 +1208,7 @@
 | 1737 | Scotland Yard | - | skip | — | 一對多隱藏移動遊戲,以捉到/逃脫定勝負,無累加計分 |
 | 1738 | Say Anything | b | done | — | 放寬尺度後直接生成 |
 | 1739 | Kites | - | skip | — | 合作制即時遊戲,無玩家累加計分 |
-| 1740 | Bot Factory | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1740 | Bot Factory | c | done | [link](https://bghub.org/r/bot-factory.pdf) | rulebook FINAL SCORING 明文:演說標記每對 1 分、零件磚 -1、未完成專案 -2、未完成合約扣演說格分 |
 | 1741 | Mykerinos | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1742 | EXIT: The Game – The Forgotten Island | - | skip | — | 密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表 |
 | 1743 | Land vs Sea | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -1222,7 +1222,7 @@
 | 1751 | Age of Civilization | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1752 | Illusion | - | skip | — | 以最先儲齊三張卡定勝負,無累加計分 |
 | 1753 | The Staufer Dynasty | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1754 | Porta Nigra | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1754 | Porta Nigra | c | done | [link](https://bghub.org/r/porta-nigra.pdf) | rulebook 明文:套組 2/6/12/20、場上剩餘各 1 分(塞斯特斯每 3 個 1 分)、聖殿 12/6 |
 | 1755 | Rallyman | - | skip | — | 競速遊戲,以最快到終點定勝負,無累加計分 |
 | 1756 | Fireball Island: The Curse of Vul-Kar | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1757 | Ishtar: Gardens of Babylon | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -1240,12 +1240,12 @@
 | 1769 | Wyatt Earp | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1770 | The Isle of Cats: Explore & Draw | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1771 | Tournay | c | done | [link](https://bghub.org/r/tournay.pdf) | 聲望建築(建造者左/其他右)、領地卡、城牆每張 1 |
-| 1772 | Keyper | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1772 | Keyper | c | done | [link](https://bghub.org/r/keyper.pdf) | 計分由建築磚各自規則決定,分四大類做欄;note 只引用 rulebook 明文列出嘅例子 |
 | 1773 | Murano | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1774 | Pioneer Days | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1775 | Antike II | - | skip | — | 以最先儲夠指定勝利點定勝負,無終局分項計分 |
 | 1776 | Unmatched Adventures: Teenage Mutant Ninja Turtles | - | skip | — | 合作制遊戲,無玩家累加計分 |
-| 1777 | Expedition to Newdale | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1777 | Expedition to Newdale | c | done | [link](https://bghub.org/r/expedition-to-newdale.pdf) | rulebook Final Scoring 明文:軍力 4/2/1、剩餘每 5 幣 1 分、秘密目標每間屋 2 分 |
 | 1778 | Cryo | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1779 | XenoShyft: Onslaught | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1780 | KeyForge: Age of Ascension | - | skip | — | 雙人對戰,以最先鑄成三把鑰匙定勝負,無累加計分 |
@@ -1253,7 +1253,7 @@
 | 1782 | Heroes of Normandie | - | skip | — | 劇本制戰棋,以劇本勝利條件定勝負,無累加計分 |
 | 1783 | Cosmolancer | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1784 | Vampire: The Eternal Struggle | - | skip | — | 集換式卡牌對戰,以逼走對手定勝負,無累加計分 |
-| 1785 | Juicy Fruits | c | pending | — | 錨點落咗業務代幣清單,終局計分主清單未讀到 |
+| 1785 | Juicy Fruits | c | done | [link](https://bghub.org/r/juicy-fruits.pdf) | rulebook 明文:剩餘水果唔計分,攤位標記終局結算;分值印喺標記故 number |
 | 1786 | Schadenfreude | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1787 | Mascarade | - | skip | — | 以最先儲夠十三金幣定勝負,無累加計分 |
 | 1788 | Warrior Knights | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -1282,7 +1282,7 @@
 | 1811 | The Rose King | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1812 | BANG! | - | skip | — | 隱藏身分遊戲,以陣營達成條件定勝負,無累加計分 |
 | 1813 | Fog of Love | - | skip | — | 雙人敘事遊戲,以個人劇情目標判定,無統一累加計分 |
-| 1814 | Railroad Tiles | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1814 | Railroad Tiles | c | done | [link](https://bghub.org/r/railroad-tiles.pdf) | rulebook END GAME SCORING 明文:城市 5 分、矩形每磚 1 分、星棋 1 分、第 6 個開口起 -1、目標 5 分 |
 | 1815 | Axis & Allies: Pacific 1940 | - | skip | — | 戰棋,以佔領勝利城市定勝負,無累加計分 |
 | 1816 | Voyages | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1817 | Space Station Phoenix | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -1316,7 +1316,7 @@
 | 1845 | Hit Z Road | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1846 | Tides of Time | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1847 | Bandu | - | skip | — | 疊高遊戲,以對手塔冧定勝負,無累加計分 |
-| 1848 | Minos: Dawn of the Bronze Age | c | pending | — | 錨點落咗行動參考表,終局計分清單未讀到 |
+| 1848 | Minos: Dawn of the Bronze Age | c | done | [link](https://bghub.org/r/minos-dawn-of-the-bronze-age.pdf) | rulebook 明文:剩餘除 5、未入宮殿卡每張 1 分、花瓶 2/4/8/14、塔 +1/+2 |
 | 1849 | Eight-Minute Empire | b | done | — | 放寬尺度後直接生成 |
 | 1850 | Carolus Magnus | - | skip | — | 以最先放晒城堡定勝負,無累加計分 |
 | 1851 | Shogi | - | skip | — | 抽象對弈,以將死對手定勝負,無累加計分 |
@@ -1345,7 +1345,7 @@
 | 1874 | Timeline: General Interest | - | skip | — | 以最先放晒手牌定勝負,無累加計分 |
 | 1875 | Roma | - | skip | — | 雙人對戰,以打殘對手勝利點定勝負,無終局分項計分 |
 | 1876 | Machi Koro 2 | - | skip | — | 以最先建成所有地標定勝負,無累加計分 |
-| 1877 | Glasgow | c | pending | [link](https://bghub.org/r/glasgow.pdf) | PDF 字型無法抽字(pdftotext 出亂碼),唔可靠 |
+| 1877 | Glasgow | c | no-source | [link](https://bghub.org/r/glasgow.pdf) | PDF 字型無法抽字,pdftotext 出亂碼 |
 | 1878 | Kodama: The Tree Spirits | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1879 | Amyitis | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1880 | Azul Duel | c | done | [link](https://bghub.org/r/azul-duel.pdf) | rulebook 明文列齊計分板塊分值,但每局只用 3-4 張故合併做一欄 number |
@@ -1358,14 +1358,14 @@
 | 1887 | My Island | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1888 | Monkey Palace | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1889 | Amsterdam | c | done | [link](https://bghub.org/r/amsterdam.pdf) | rulebook 明文:罰分 -3/-5/-7、徽章 3 分/個、剩餘每兩件 1 分;城區對照表印喺圖故留 number |
-| 1890 | Amalfi: Renaissance | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1890 | Amalfi: Renaissance | c | done | [link](https://bghub.org/r/amalfirenaissance.pdf) | PDF 圖示大量缺字,只讀得出兩大類(遊戲中分含頭銜、終局邀請人物有上限),故全部 number 零單價 |
 | 1891 | Glow | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1892 | The Grand Carnival | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1893 | Troyes Dice | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1894 | Kashgar: Merchants of the Silk Road | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1895 | Blokus 3D | - | skip | — | 抽象對弈,以放得最多方塊定勝負,無累加計分 |
 | 1896 | SET | b | done | — | 放寬尺度後直接生成 |
-| 1897 | Iliad | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1897 | Iliad | c | done | [link](https://bghub.org/r/iliad.pdf) | rulebook 明文:每位神只計最高值標記、非神標記正負全計、婚姻標記 0 分 |
 | 1898 | Virus! | - | skip | — | 以最先湊齊四個健康器官定勝負,無累加計分 |
 | 1899 | Magic Realm | - | skip | — | RPG 式探索遊戲,每個角色勝利條件唔同,無統一累加計分 |
 | 1900 | Dungeon Fighter: Second Edition | - | skip | — | 合作制彈射遊戲,無玩家累加計分 |
@@ -1393,8 +1393,8 @@
 | 1922 | Box One | - | skip | — | 合作/單人解謎遊戲,無玩家累加計分 |
 | 1923 | Bios: Origins (Second Edition) | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1924 | Iberian Gauge | b | done | — | 放寬尺度後直接生成 |
-| 1925 | Dewan | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1926 | Orichalcum | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1925 | Dewan | c | done | [link](https://bghub.org/r/dewan.pdf) | rulebook 明文:營地群組 4 分、漿果同符號各 2 分 |
+| 1926 | Orichalcum | c | done | [link](https://bghub.org/r/orichalcum.pdf) | rulebook 明文:各標記 1 VP,夠 5 VP 加捉晒生物即勝 |
 | 1927 | 3 Chapters | c | done | [link](https://bghub.org/r/3-chapters.pdf) | rulebook 明文:星 2 分、心 1 分、每兩粒寶石 1 分、寶石最多加 4 粒 |
 | 1928 | Planet | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1929 | Curious Cargo | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -1754,7 +1754,7 @@
 | 2283 | Axis & Allies: 1942 | - | skip | — | 戰棋/劇本制遊戲,以陣營或劇本勝利條件定勝負,無統一累加計分 |
 | 2284 | Ticket to Ride: First Journey (U.S.) | - | skip | — | 以達成條件、淘汰、競速或搶先儲齊定勝負,無終局分項計分 |
 | 2285 | Empires in Arms | - | skip | — | 戰棋/劇本制遊戲,以陣營或劇本勝利條件定勝負,無統一累加計分 |
-| 2286 | Autobahn | c | pending | [link](https://bghub.org/r/autobahn.pdf) | 終局計分喺 rulebook 第 15 頁圖表,pdftotext 抽唔到;正文只講到「大堂同頭三個部門」,講唔出係邊三個部門,唔硬砌 |
+| 2286 | Autobahn | c | no-source | [link](https://bghub.org/r/autobahn.pdf) | 再試 pdftotext -layout 都抽唔到第 15 頁計分表(純圖);正文只講到「大堂同頭三個部門」,講唔出邊三個部門,唔硬砌 |
 | 2287 | Village Green | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 2288 | Big City | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 2289 | Dragonfire | - | skip | — | 合作/單人/密室逃脫遊戲,無玩家累加計分 |
@@ -1957,7 +1957,7 @@
 | 2486 | Sorcerer | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 2487 | Lotus | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 2488 | Star Wars Villainous: Power of the Dark Side | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 2489 | Serenissima | c | pending | [link](https://bghub.org/r/serenissima.pdf) | PDF 只抽到 79 行,計分段落完全冇,唔可靠 |
+| 2489 | Serenissima | c | no-source | [link](https://bghub.org/r/serenissima.pdf) | PDF 只抽到 79 行,完全冇計分段落 |
 | 2490 | Bob Ross: Art of Chill Game | - | skip | — | 合作/單人/密室逃脫遊戲,無玩家累加計分 |
 | 2491 | Codenames: Deep Undercover | - | skip | — | 合作/單人/密室逃脫遊戲,無玩家累加計分 |
 | 2492 | Wild: Serengeti | c | pending | — | 競爭型終局計分,待網查 rulebook |

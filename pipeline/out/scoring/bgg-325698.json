@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-325698",
+ "name": "Juicy Fruits",
+ "nameZh": "多汁水果",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/juicy-fruits.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中最後一個行動嗰個勝",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中得分",
+    "note": "遊戲期間喺計分軌儲落嘅分:雪糕標記、奶昔標記、大型場館標記、船隻訂單等,全部按標記或者船上印住嘅分計",
+    "icon": "🍹",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "stalls",
+    "label": "攤位標記",
+    "note": "終局結算島上每個攤位標記提出嘅任務,按標記寫法攞分。剩低嘅水果一分都冇",
+    "icon": "🎪",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

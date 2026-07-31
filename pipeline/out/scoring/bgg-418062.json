@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-418062",
+ "name": "Railroad Tiles",
+ "nameZh": "鐵道拼磚",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/railroad-tiles.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中喺最左欄嗰個勝",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中聲望分",
+    "note": "遊戲期間放棋子攞到嘅聲望分",
+    "icon": "🚉",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cities",
+    "label": "城市",
+    "note": "每組 3 個或以上直角相鄰嘅城鎮磚算一個城市,每個 5 分。大過 3 個都係 5 分",
+    "icon": "🏙️",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "rectangle",
+    "label": "最大矩形",
+    "note": "領地入面搵出最大、冇窿嘅矩形(正方形都算),入面每塊磚 1 分",
+    "icon": "🟫",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "starpawns",
+    "label": "剩餘星形棋子",
+    "note": "存放區每個冇用嘅星形棋子 1 分",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "openings",
+    "label": "開口罰分",
+    "note": "路徑末端冇接到其他路徑就叫一個開口。容許 5 個,第 6 個開始每個 -1 分。入負數",
+    "icon": "🚧",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "objectives",
+    "label": "目標磚",
+    "note": "有玩目標磚嘅話,每個達成到計分條件嘅目標 5 分",
+    "icon": "🎯",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 5
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

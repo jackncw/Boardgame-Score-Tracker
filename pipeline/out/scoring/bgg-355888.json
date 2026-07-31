@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-355888",
+ "name": "Orichalcum",
+ "nameZh": "山銅",
+ "theme": {
+  "accent": "#C9773C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/orichalcum.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "勝利分",
+    "note": "神廟標記、泰坦等各值 1 分。要同時做到 5 分而且捉晒自己島上所有生物,先至即刻勝出",
+    "icon": "🔶",
+    "color": "#F7E2CE",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

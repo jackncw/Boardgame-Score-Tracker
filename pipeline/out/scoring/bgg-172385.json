@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-172385",
+ "name": "Porta Nigra",
+ "nameZh": "黑城門",
+ "theme": {
+  "accent": "#5A5A6E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/porta-nigra.pdf",
+  "verified": false,
+  "tieBreaker": "同分者全部同勝",
+  "fields": [
+   {
+    "id": "sets",
+    "label": "建築卡套組",
+    "note": "將收集到嘅建築卡(連替代卡)砌套,每套最多 4 張而且每張要唔同建築。1 張 2 分、2 張 6 分、3 張 12 分、4 張 20 分",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "scoringcards",
+    "label": "終局計分卡",
+    "note": "自己場上每張終局計分卡按卡上印住嘅分計(買新卡時棄掉嘅舊卡已經出局唔計)",
+    "icon": "📜",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "playarea",
+    "label": "場上剩餘",
+    "note": "每個羅馬人 1 分、每 3 塞斯特斯 1 分、每個影響力標記 1 分、每個火把標記 1 分、玩家板上每塊磚 1 分",
+    "icon": "🧱",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "majority",
+    "label": "建築多數",
+    "note": "四座建築逐個(或者逐個部分)計磚頭多數,最多同第二多攞分(例如聖殿 A、B 兩行分開計,最多 12 分、第二多 6 分;其餘部分嘅分值印喺板上)。同數就由放咗最高價值建築元件嗰個勝出 —— 磚頭價值按玩家板上該色成本計,白磚最貴、黑磚最平",
+    "icon": "🏛️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

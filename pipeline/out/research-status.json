@@ -6525,9 +6525,9 @@
   "name": "Everdell Duo",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "no-source",
   "sourceUrl": "https://bghub.org/r/everdell-duo.pdf",
-  "note": "⚠️ bghub 呢個 slug 嘅 PDF 內容其實係 Evergreen(季節/生物群系/樹/光),唔係 Everdell Duo —— 鏡像配錯遊戲,當冇來源"
+  "note": "bghub 呢個 slug 嘅 PDF 內容其實係 Evergreen,唔係 Everdell Duo —— 鏡像配錯遊戲"
  },
  {
   "rank": 1228,
@@ -8645,9 +8645,9 @@
   "name": "Rolling Heights",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "no-source",
   "sourceUrl": "https://bghub.org/r/rollingheights.pdf",
-  "note": "再確認:PDF 嘅計分圖示全部係缺字符號,分唔到係邊種建築/meeple,唔可靠"
+  "note": "PDF 計分圖示全部係缺字符號,分唔出係邊種建築/meeple"
  },
  {
   "rank": 1440,
@@ -11065,9 +11065,9 @@
   "name": "Keythedral",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/keythedral.pdf",
+  "note": "rulebook 明文:黃 4 分、紫 3 分、白 2 分、資源方塊各 1 分"
  },
  {
   "rank": 1682,
@@ -11315,9 +11315,9 @@
   "name": "Terracotta Army",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "錨點落咗雕像描述,終局計分主清單喺 p.19 未讀到"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/terracottaarmy.pdf",
+  "note": "rulebook END GAME SCORING 明文:步兵 8/2、群組主導 5、在場 2、跪射俑 2、剩餘每 2 件 1 分"
  },
  {
   "rank": 1707,
@@ -11425,9 +11425,9 @@
   "name": "Robot Quest Arena",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "規則書冇列終局分項清單"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/robot-quest-arena.pdf",
+  "note": "rulebook 冇分項清單,只寫 VP 最多者勝,故單一 number 欄"
  },
  {
   "rank": 1718,
@@ -11655,9 +11655,9 @@
   "name": "Bot Factory",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/bot-factory.pdf",
+  "note": "rulebook FINAL SCORING 明文:演說標記每對 1 分、零件磚 -1、未完成專案 -2、未完成合約扣演說格分"
  },
  {
   "rank": 1741,
@@ -11795,9 +11795,9 @@
   "name": "Porta Nigra",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/porta-nigra.pdf",
+  "note": "rulebook 明文:套組 2/6/12/20、場上剩餘各 1 分(塞斯特斯每 3 個 1 分)、聖殿 12/6"
  },
  {
   "rank": 1755,
@@ -11975,9 +11975,9 @@
   "name": "Keyper",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/keyper.pdf",
+  "note": "計分由建築磚各自規則決定,分四大類做欄;note 只引用 rulebook 明文列出嘅例子"
  },
  {
   "rank": 1773,
@@ -12025,9 +12025,9 @@
   "name": "Expedition to Newdale",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/expedition-to-newdale.pdf",
+  "note": "rulebook Final Scoring 明文:軍力 4/2/1、剩餘每 5 幣 1 分、秘密目標每間屋 2 分"
  },
  {
   "rank": 1778,
@@ -12105,9 +12105,9 @@
   "name": "Juicy Fruits",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "錨點落咗業務代幣清單,終局計分主清單未讀到"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/juicy-fruits.pdf",
+  "note": "rulebook 明文:剩餘水果唔計分,攤位標記終局結算;分值印喺標記故 number"
  },
  {
   "rank": 1786,
@@ -12395,9 +12395,9 @@
   "name": "Railroad Tiles",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/railroad-tiles.pdf",
+  "note": "rulebook END GAME SCORING 明文:城市 5 分、矩形每磚 1 分、星棋 1 分、第 6 個開口起 -1、目標 5 分"
  },
  {
   "rank": 1815,
@@ -12735,9 +12735,9 @@
   "name": "Minos: Dawn of the Bronze Age",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "錨點落咗行動參考表,終局計分清單未讀到"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/minos-dawn-of-the-bronze-age.pdf",
+  "note": "rulebook 明文:剩餘除 5、未入宮殿卡每張 1 分、花瓶 2/4/8/14、塔 +1/+2"
  },
  {
   "rank": 1849,
@@ -13025,9 +13025,9 @@
   "name": "Glasgow",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "no-source",
   "sourceUrl": "https://bghub.org/r/glasgow.pdf",
-  "note": "PDF 字型無法抽字(pdftotext 出亂碼),唔可靠"
+  "note": "PDF 字型無法抽字,pdftotext 出亂碼"
  },
  {
   "rank": 1878,
@@ -13155,9 +13155,9 @@
   "name": "Amalfi: Renaissance",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/amalfirenaissance.pdf",
+  "note": "PDF 圖示大量缺字,只讀得出兩大類(遊戲中分含頭銜、終局邀請人物有上限),故全部 number 零單價"
  },
  {
   "rank": 1891,
@@ -13225,9 +13225,9 @@
   "name": "Iliad",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/iliad.pdf",
+  "note": "rulebook 明文:每位神只計最高值標記、非神標記正負全計、婚姻標記 0 分"
  },
  {
   "rank": 1898,
@@ -13505,9 +13505,9 @@
   "name": "Dewan",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/dewan.pdf",
+  "note": "rulebook 明文:營地群組 4 分、漿果同符號各 2 分"
  },
  {
   "rank": 1926,
@@ -13515,9 +13515,9 @@
   "name": "Orichalcum",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/orichalcum.pdf",
+  "note": "rulebook 明文:各標記 1 VP,夠 5 VP 加捉晒生物即勝"
  },
  {
   "rank": 1927,
@@ -17115,9 +17115,9 @@
   "name": "Autobahn",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "no-source",
   "sourceUrl": "https://bghub.org/r/autobahn.pdf",
-  "note": "終局計分喺 rulebook 第 15 頁圖表,pdftotext 抽唔到;正文只講到「大堂同頭三個部門」,講唔出係邊三個部門,唔硬砌"
+  "note": "再試 pdftotext -layout 都抽唔到第 15 頁計分表(純圖);正文只講到「大堂同頭三個部門」,講唔出邊三個部門,唔硬砌"
  },
  {
   "rank": 2287,
@@ -19145,9 +19145,9 @@
   "name": "Serenissima",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "no-source",
   "sourceUrl": "https://bghub.org/r/serenissima.pdf",
-  "note": "PDF 只抽到 79 行,計分段落完全冇,唔可靠"
+  "note": "PDF 只抽到 79 行,完全冇計分段落"
  },
  {
   "rank": 2490,

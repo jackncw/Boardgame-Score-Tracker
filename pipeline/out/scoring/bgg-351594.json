@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-351594",
+ "name": "Amalfi: Renaissance",
+ "nameZh": "阿瑪菲:文藝復興",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/amalfirenaissance.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中頭銜攞到嘅勝利分較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "四個時期期間攞到嘅勝利分,包括達成頭銜時即時攞嘅分(每局隨機用兩款頭銜,分別最多值 24 分同 12 分)",
+    "icon": "⛵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "invited",
+    "label": "已邀請人物",
+    "note": "終局結算所有已邀請人物身上嘅勝利分,不過每一種都有上限,唔可以超過",
+    "icon": "🎭",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

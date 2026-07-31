@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-420914",
+ "name": "Iliad",
+ "nameZh": "伊利亞德",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/iliad.pdf",
+  "verified": false,
+  "tieBreaker": "同分依次比:未計入嘅低值神祇標記總和較高者勝、宙斯標記值較高者勝、波塞冬標記值較高者勝",
+  "fields": [
+   {
+    "id": "gods",
+    "label": "神祇成功標記",
+    "note": "五位神各只計自己最高值嗰個標記,加埋。注意:如果自己集齊五位神(或者四位神加兩個婚姻標記)而對手冇,即刻贏成局。婚姻標記本身冇分值",
+    "icon": "⚡",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "others",
+    "label": "非神祇標記",
+    "note": "所有非神祇標記,正值負值一律加埋(例如 +10、-5、-3)。可以入負數",
+    "icon": "🔱",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
