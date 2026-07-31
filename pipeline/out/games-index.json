@@ -22196,6 +22196,8 @@
   "bggId": 121297,
   "gameId": "bgg-121297",
   "name": "Fleet",
+  "nameZh": "漁船隊",
+  "accent": "#3E6E8E",
   "rank": 1586,
   "year": 2012,
   "thumbnail": "https://cf.geekdo-images.com/BgINAtHKjkjNHd5rIGfVTg__micro/img/TO4ExorPefW8QY8mm2B6Vf4jQRg=/fit-in/64x64/filters:strip_icc()/pic1247682.jpg",
@@ -22203,7 +22205,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 332944,
@@ -23023,6 +23025,8 @@
   "bggId": 3228,
   "gameId": "bgg-3228",
   "name": "Pueblo",
+  "nameZh": "普韋布洛",
+  "accent": "#B08D57",
   "rank": 1647,
   "year": 2002,
   "thumbnail": "https://cf.geekdo-images.com/x3JdOzqqlGmI7qleiAwT5g__micro/img/-iYuUoD0QyCnYTey3uAF0b3dy58=/fit-in/64x64/filters:strip_icc()/pic6861799.jpg",
@@ -23030,7 +23034,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 223931,
@@ -23064,6 +23068,8 @@
   "bggId": 422042,
   "gameId": "bgg-422042",
   "name": "Tea Garden",
+  "nameZh": "茶園",
+  "accent": "#4A7A5A",
   "rank": 1650,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/LIIX8JddEnTiwVV_cQ-mCA__micro/img/eDqFYwx8jGuX2EtA5ak29EjYXLU=/fit-in/64x64/filters:strip_icc()/pic8238877.jpg",
@@ -23071,7 +23077,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 202077,
@@ -23637,6 +23643,8 @@
   "bggId": 363183,
   "gameId": "bgg-363183",
   "name": "Tokaido Duo",
+  "nameZh": "東海道:雙人版",
+  "accent": "#C9553C",
   "rank": 1693,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/bWkS8Be-RH01twI9w8z5rA__micro/img/8utdsiWt-tt-VG2ZC6-tkwL4RKU=/fit-in/64x64/filters:strip_icc()/pic9077577.jpg",
@@ -23644,7 +23652,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 281946,
@@ -23767,6 +23775,8 @@
   "bggId": 330950,
   "gameId": "bgg-330950",
   "name": "Age of Galaxy",
+  "nameZh": "銀河紀元",
+  "accent": "#3A4A6B",
   "rank": 1703,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/wyNR4X7nbxtoa1EWv0LBbQ__micro/img/CTGk2VnU0_kOHgkNTpjKGu-OrCM=/fit-in/64x64/filters:strip_icc()/pic5972496.jpg",
@@ -23774,7 +23784,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 200511,

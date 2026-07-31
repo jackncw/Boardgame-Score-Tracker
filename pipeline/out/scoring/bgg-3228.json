@@ -1,0 +1,30 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-3228",
+ "name": "Pueblo",
+ "nameZh": "普韋布洛",
+ "theme": {
+  "accent": "#B08D57"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/pueblo.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "penalty",
+    "label": "罰分",
+    "note": "酋長巡視時,見到你顏色嘅方塊就罰分;罰分最少者勝,所以呢欄自動扣分",
+    "icon": "🧱",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-422042",
+ "name": "Tea Garden",
+ "nameZh": "茶園",
+ "theme": {
+  "accent": "#4A7A5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/teagarden.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中累積嘅 VP",
+    "note": "計分軌上遊戲期間儲落嘅分",
+    "icon": "🍵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "actions",
+    "label": "行動卡",
+    "note": "已買行動卡右邊印住嘅 VP 總和",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "emperor_cards",
+    "label": "皇帝卡",
+    "note": "達成皇帝卡條件攞到嘅 VP",
+    "icon": "👑",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "river",
+    "label": "河道航行",
+    "note": "船而家停喺邊段河道,按該段計 VP",
+    "icon": "🛶",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tea_studies",
+    "label": "茶學研究",
+    "note": "茶學院正中每個工人 10 VP;外圈嘅工人按各自位置計 VP",
+    "icon": "🎓",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "emperor_track",
+    "label": "皇帝軌登頂",
+    "note": "行到皇帝軌最頂一行 +10 VP",
+    "icon": "🏔️",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 10
+   },
+   {
+    "id": "cups",
+    "label": "茶杯生產",
+    "note": "數齊茶杯收藏各行嘅同色連接(每個連接兩邊顏色要一致),按規則書計 VP",
+    "icon": "🍶",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

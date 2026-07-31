@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-363183",
+ "name": "Tokaido Duo",
+ "nameZh": "東海道:雙人版",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/tokaido-duo.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中金錢較多者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "faith",
+    "label": "信仰分(朝聖者)",
+    "note": "神廟軌數值 × 花園軌數值",
+    "icon": "⛩️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "commerce",
+    "label": "商業分(商人)",
+    "note": "商人板上最右邊金磚上面印住嘅數字",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "culture",
+    "label": "文化分(畫家)",
+    "note": "畫家板上已揭開嘅最高數值(最底最右);剩低嘅畫、金錢同貨物一律唔計分",
+    "icon": "🎨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

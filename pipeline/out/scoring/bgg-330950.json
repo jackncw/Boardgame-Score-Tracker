@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-330950",
+ "name": "Age of Galaxy",
+ "nameZh": "銀河紀元",
+ "theme": {
+  "accent": "#3A4A6B"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/age-of-galaxy.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "prestige",
+    "label": "聲望",
+    "note": "聲望帶嚟嘅 VP",
+    "icon": "⭐",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "galaxy",
+    "label": "星系",
+    "note": "星系入面唔同物件各有分值(規則書用圖示標示,分 1 分同 2 分兩類)",
+    "icon": "🌌",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "relic",
+    "label": "遺物",
+    "note": "遺物帶嚟嘅 VP",
+    "icon": "🏺",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ideology",
+    "label": "主要意識形態",
+    "note": "按你揀嘅主要意識形態計額外 VP(冇主要意識形態就冇呢部分)",
+    "icon": "📜",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-121297",
+ "name": "Fleet",
+ "nameZh": "漁船隊",
+ "theme": {
+  "accent": "#3E6E8E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/fleet.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中已下水船隻較多者勝;再同分則船上魚箱較多者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "licenses",
+    "label": "牌照卡",
+    "note": "已買牌照卡上印住嘅 VP 總和",
+    "icon": "📜",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "boats",
+    "label": "已下水船隻",
+    "note": "已下水船隻卡上印住嘅 VP 總和",
+    "icon": "⛵",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fish",
+    "label": "船上魚箱",
+    "note": "船上每箱魚 1 VP;已加工嘅魚唔計",
+    "icon": "🐟",
+    "color": "#E5E0D5",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "kingcrab",
+    "label": "帝王蟹牌照獎勵",
+    "note": "帝王蟹牌照帶嚟嘅獎勵 VP",
+    "icon": "🦀",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

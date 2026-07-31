@@ -10077,7 +10077,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "錨點落咗成就附錄,終局計分主清單要再搵"
  },
  {
   "rank": 1583,
@@ -10115,9 +10115,9 @@
   "name": "Fleet",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/fleet.pdf",
+  "note": "牌照/船隻/魚箱每箱 1/帝王蟹獎勵"
  },
  {
   "rank": 1587,
@@ -10207,7 +10207,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "錨點搵啱但段落開頭被切,要換窗口再讀"
  },
  {
   "rank": 1596,
@@ -10725,9 +10725,9 @@
   "name": "Pueblo",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/pueblo.pdf",
+  "note": "單一罰分欄,罰分越少越好"
  },
  {
   "rank": 1648,
@@ -10755,9 +10755,9 @@
   "name": "Tea Garden",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/teagarden.pdf",
+  "note": "行動卡/皇帝卡/河道/茶學(中央 10)/皇帝軌登頂 10/茶杯連接"
  },
  {
   "rank": 1651,
@@ -11185,9 +11185,9 @@
   "name": "Tokaido Duo",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/tokaido-duo.pdf",
+  "note": "信仰=神廟×花園、商業、文化三欄"
  },
  {
   "rank": 1694,
@@ -11285,9 +11285,9 @@
   "name": "Age of Galaxy",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/age-of-galaxy.pdf",
+  "note": "聲望/星系/遺物/意識形態;計分物用圖示表示,PDF 抽唔到故唔寫單價"
  },
  {
   "rank": 1704,

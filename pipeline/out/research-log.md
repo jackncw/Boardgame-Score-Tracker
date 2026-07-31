@@ -459,10 +459,10 @@
 
 ## 進度
 
-- 已生成計分表(done):338
+- 已生成計分表(done):343
 - 揾唔到可靠來源(no-source):0
 - 判定唔使做(skip):880
-- 未做(pending):782
+- 未做(pending):777
 - 路徑 b(直接生成):190 · 路徑 c(網查 rulebook):930
 
 ## 逐隻紀錄
@@ -1050,11 +1050,11 @@
 | 1579 | Dead Cells: The Rogue-Lite Board Game | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1580 | Unlock!: Exotic Adventures | - | skip | — | 密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表 |
 | 1581 | The Hunger | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1582 | Shallow Sea | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1582 | Shallow Sea | c | pending | — | 錨點落咗成就附錄,終局計分主清單要再搵 |
 | 1583 | BattleTech | - | skip | — | 微縮模型對戰遊戲,以擊毀對手機甲定勝負,無累加計分 |
 | 1584 | Railroad Ink Challenge: Shining Yellow Edition | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1585 | Edge of Darkness | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1586 | Fleet | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1586 | Fleet | c | done | [link](https://bghub.org/r/fleet.pdf) | 牌照/船隻/魚箱每箱 1/帝王蟹獎勵 |
 | 1587 | Sobek: 2 Players | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1588 | Tamashii: Chronicle of Ascend | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1589 | Agra | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
@@ -1063,7 +1063,7 @@
 | 1592 | Santiago de Cuba | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1593 | Yukon Airways | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1594 | Princes of the Renaissance | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1595 | CloudAge | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1595 | CloudAge | c | pending | — | 錨點搵啱但段落開頭被切,要換窗口再讀 |
 | 1596 | Dungeon Twister | - | skip | — | 雙人對戰,以最先儲夠五分定勝負,無終局分項計分 |
 | 1597 | Bullet★ | - | skip | — | 單人/對戰生存遊戲,以捱過彈幕定勝負,無累加計分 |
 | 1598 | Castell | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
@@ -1115,10 +1115,10 @@
 | 1644 | The Rich and the Good | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1645 | Ninjato | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1646 | After the Virus | - | skip | — | 合作制遊戲,無玩家累加計分 |
-| 1647 | Pueblo | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1647 | Pueblo | c | done | [link](https://bghub.org/r/pueblo.pdf) | 單一罰分欄,罰分越少越好 |
 | 1648 | Sherlock Holmes Consulting Detective: Carlton House & Queen's Park | - | skip | — | 合作解謎,按案件問答同線索數計分,唔適用累加計分表 |
 | 1649 | Medina (Second Edition) | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
-| 1650 | Tea Garden | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1650 | Tea Garden | c | done | [link](https://bghub.org/r/teagarden.pdf) | 行動卡/皇帝卡/河道/茶學(中央 10)/皇帝軌登頂 10/茶杯連接 |
 | 1651 | Deep Madness | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1652 | Tend | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1653 | The Hunters: German U-Boats at War, 1939-43 | - | skip | — | 單人遊戲,無玩家累加計分 |
@@ -1161,7 +1161,7 @@
 | 1690 | Planet Steam | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1691 | Agricola: Family Edition | c | pending | — | ⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表 |
 | 1692 | Miyabi | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1693 | Tokaido Duo | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1693 | Tokaido Duo | c | done | [link](https://bghub.org/r/tokaido-duo.pdf) | 信仰=神廟×花園、商業、文化三欄 |
 | 1694 | Aftermath | - | skip | — | 合作制戰役遊戲,無玩家累加計分 |
 | 1695 | Burning Banners | - | skip | — | 戰棋,以陣營勝利條件定勝負,無累加計分 |
 | 1696 | V-Sabotage | - | skip | — | 合作制遊戲,無玩家累加計分 |
@@ -1171,7 +1171,7 @@
 | 1700 | Next Station: Tokyo | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1701 | Lost Cities: The Board Game | c | pending | — | ⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表 |
 | 1702 | Starship Catan | - | skip | — | 雙人遊戲,以最先儲夠指定勝利點定勝負,無終局分項計分 |
-| 1703 | Age of Galaxy | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1703 | Age of Galaxy | c | done | [link](https://bghub.org/r/age-of-galaxy.pdf) | 聲望/星系/遺物/意識形態;計分物用圖示表示,PDF 抽唔到故唔寫單價 |
 | 1704 | After the Empire | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1705 | Infinity Gauntlet: A Love Letter Game | - | skip | — | 不對稱陣營遊戲,以達成陣營目標定勝負,無累加計分 |
 | 1706 | Terracotta Army | c | pending | — | 競爭型終局計分,待網查 rulebook |
