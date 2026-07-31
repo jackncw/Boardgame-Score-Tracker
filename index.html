@@ -204,6 +204,69 @@ tr.trow td .val{font-size:30px;}
   font-size:14px; opacity:0; transition:.25s; z-index:60; pointer-events:none; white-space:nowrap;
 }
 .toast.show{opacity:1; transform:translateX(-50%) translateY(0);}
+
+/* ===== 信度提示條(一行細字,唔阻擋操作) ===== */
+.srcbar{
+  display:flex; align-items:baseline; flex-wrap:wrap; gap:4px 8px;
+  font-size:12px; line-height:1.5; color:var(--ink-soft); margin:-2px 0 10px;
+}
+.srcbar.ok{color:#2E7D4F;}
+.srcbar.warn{color:#8A6D1F;}
+.srcbar.custom{color:var(--pen);}
+.srcbar a{color:inherit;}
+.srcbar .lnk{
+  background:none; border:none; padding:0; font:inherit; color:var(--ink-soft);
+  text-decoration:underline; cursor:pointer;
+}
+.sheetacts{display:flex; gap:8px; margin-top:12px;}
+.sheetacts .btn{flex:1; font-size:14px; padding:10px;}
+
+/* ===== 計分表編輯器 ===== */
+.ednote{
+  font-size:12.5px; line-height:1.55; color:var(--ink-soft);
+  background:var(--white); border:1.5px solid var(--line); border-radius:8px;
+  padding:9px 11px; margin-bottom:14px;
+}
+.ederr-top{
+  font-size:13px; line-height:1.6; color:#A3312B;
+  background:#C6362E14; border:1px solid #C6362E55; border-radius:8px;
+  padding:9px 11px; margin-bottom:14px;
+}
+.edlab{display:block; font-size:13px; font-weight:700; color:var(--ink-soft); margin-bottom:6px;}
+.edin{
+  padding:9px 11px; font-size:15px; border:1.5px solid var(--line);
+  border-radius:8px; background:var(--white); color:var(--ink); width:100%;
+  font-family:inherit;
+}
+.edin:focus{outline:2px solid var(--accent); outline-offset:-1px;}
+.edcard{
+  background:var(--white); border:1.5px solid var(--line); border-radius:var(--radius);
+  padding:11px; margin-bottom:10px; display:flex; flex-direction:column; gap:8px;
+}
+.edcard.bad{border-color:#C6362E; background:#C6362E0A;}
+.edhd{display:flex; gap:6px; align-items:center;}
+.edhd .ico{width:52px; text-align:center; flex-shrink:0; font-size:17px; padding:9px 2px;}
+.edhd .edin[data-k="label"]{flex:1; min-width:0; font-weight:600;}
+.edbtn{
+  border:1.5px solid var(--line); background:var(--paper-deep); color:var(--ink);
+  width:30px; height:36px; border-radius:8px; font-size:14px; cursor:pointer; flex-shrink:0;
+}
+.edbtn:disabled{opacity:.3; cursor:default;}
+.edbtn.del{color:#A3312B;}
+.edrow{display:flex; gap:8px;}
+.edrow .edin{flex:1; min-width:0;}
+.edlab2{display:flex; align-items:center; gap:8px; font-size:13.5px; color:var(--ink-soft);}
+.edlab2.col{flex-direction:column; align-items:stretch; gap:5px;}
+.edlab2 .num{width:110px; flex-shrink:0;}
+.edlab2 .ta{font-size:14px; line-height:1.6; resize:vertical; font-family:ui-monospace,Menlo,Consolas,monospace;}
+.edchk{display:flex; align-items:center; gap:7px; font-size:13.5px; color:var(--ink-soft);}
+.edchk input{width:17px; height:17px;}
+.edid{display:flex; align-items:center; gap:7px; font-size:11.5px; color:var(--ink-soft);}
+.edid .idin{
+  font-size:12px; padding:5px 8px; font-family:ui-monospace,Menlo,Consolas,monospace;
+}
+.ederr{font-size:12.5px; line-height:1.55; color:#A3312B; font-weight:600;}
+.edcount{font-size:12px; color:var(--ink-soft); margin:-4px 0 8px;}
 </style>
 </head>
 <body>
@@ -211,6 +274,7 @@ tr.trow td .val{font-size:30px;}
   <header class="bar" id="bar">
     <button id="backBtn" style="visibility:hidden">‹ 返回</button>
     <h1 id="barTitle">桌遊計分</h1>
+    <button id="editBtn" style="visibility:hidden; min-width:28px" title="修改計分表" aria-label="修改計分表">✏️</button>
     <button id="saveBtn" style="visibility:hidden">儲存</button>
   </header>
   <main id="main"></main>
@@ -245,14 +309,33 @@ const catalog = {
   list: [],              // 清單
   offline: false,        // index 由快取讀返 = 離線模式
   noData: false,         // 網同快取都冇 = 首次使用未下載過
-  cache: new Map()       // gameId → 完整 schema(今次 session load 過嘅)
+  cache: new Map(),      // gameId → 完整 schema(今次 session load 過嘅)
+  userIds: new Set()     // 有用戶自訂 template 嘅 gameId(boot 時由 IndexedDB 讀返)
 };
+
+const HEXRE = /^#[0-9A-Fa-f]{6}$/;
+
+/* HSL → #RRGGBB(schema 規定 theme.accent 一定要 hex) */
+function hslHex(h, s, l){
+  const a = s * Math.min(l, 1 - l);
+  const ch = n => {
+    const k = (n + h / 30) % 12;
+    const v = l - a * Math.max(-1, Math.min(k - 3, Math.min(9 - k, 1)));
+    return Math.round(255 * v).toString(16).padStart(2, "0");
+  };
+  return "#" + ch(0) + ch(8) + ch(4);
+}
 
 /* index 冇 accent 先用(fallback):由 gameId 派生一個穩定嘅顏色做清單圓點 */
 function derivedAccent(id){
   let h = 0;
   for(const c of id) h = (h * 31 + c.charCodeAt(0)) >>> 0;
-  return `hsl(${h % 360} 40% 45%)`;
+  return hslHex(h % 360, 0.40, 0.45);
+}
+
+/* 淨低 hex 先當數,唔係就派生一個(用戶 template 一定要合 schema) */
+function safeAccent(accent, gameId){
+  return HEXRE.test(accent || "") ? accent : derivedAccent(gameId);
 }
 
 function indexEntry(e){
@@ -307,9 +390,29 @@ function genericGame(entry, reason){
   };
 }
 
-/* 揀遊戲嗰刻先攞計分表:記憶體 → 網絡(順手落快取)→ 快取 */
+/* 貼返 index 嗰邊嘅 meta / rank / theme,無論張表由邊度嚟 */
+function decorateGame(doc, entry, gameId){
+  return {
+    ...doc,
+    meta: entry ? entry.meta : (doc.meta || {minPlayers: 1, maxPlayers: 7}),
+    rank: entry ? entry.rank : doc.rank,
+    theme: doc.theme || (entry && entry.theme) || {accent: derivedAccent(gameId)}
+  };
+}
+
+/* 揀遊戲嗰刻先攞計分表:
+   用戶自訂 → 記憶體 → 網絡(順手落快取)→ 快取 → 通用表 */
 async function loadGame(gameId){
   const entry = catalog.list.find(g => g.gameId === gameId);
+  if(catalog.userIds.has(gameId)){                     // 用戶版蓋過原版
+    const ut = await store.getUserTemplate(gameId);
+    if(ut?.scoring?.fields?.length){
+      const g = decorateGame(ut, entry, gameId);
+      catalog.cache.set(gameId, g);
+      return g;
+    }
+    catalog.userIds.delete(gameId);                    // 讀唔返(壞咗)→ 當冇
+  }
   if(catalog.cache.has(gameId)) return catalog.cache.get(gameId);
   if(entry && !entry.hasScoring){                      // 冇專屬表 → 通用表
     const g = genericGame(entry, "none");
@@ -330,12 +433,7 @@ async function loadGame(gameId){
       throw err;
     }
   }
-  const game = {
-    ...doc,
-    meta: entry ? entry.meta : {minPlayers: 1, maxPlayers: 7},
-    rank: entry ? entry.rank : undefined,
-    theme: doc.theme || (entry && entry.theme) || {accent: derivedAccent(gameId)}
-  };
+  const game = decorateGame(doc, entry, gameId);
   if(entry){ entry.theme = game.theme; entry.nameZh = doc.nameZh || entry.nameZh; }
   catalog.cache.set(gameId, game);
   return game;
@@ -343,16 +441,17 @@ async function loadGame(gameId){
 
 /* ---------- storage(IndexedDB → 記憶體 fallback) ---------- */
 const store = (() => {
-  let db=null, mem={plays:[], lastPlayers:[]}, memCache=new Map(), usingMem=false;
+  let db=null, mem={plays:[], lastPlayers:[]}, memCache=new Map(), memUT=new Map(), usingMem=false;
   function open(){
     return new Promise(res=>{
       try{
-        const rq=indexedDB.open("bgtool",2);
+        const rq=indexedDB.open("bgtool",3);
         rq.onupgradeneeded=e=>{
           const d=e.target.result;
           if(!d.objectStoreNames.contains("plays")) d.createObjectStore("plays",{keyPath:"id"});
           if(!d.objectStoreNames.contains("kv")) d.createObjectStore("kv",{keyPath:"k"});
           if(!d.objectStoreNames.contains("cache")) d.createObjectStore("cache",{keyPath:"k"});
+          if(!d.objectStoreNames.contains("userTemplates")) d.createObjectStore("userTemplates",{keyPath:"gameId"});
         };
         rq.onsuccess=e=>{db=e.target.result; res();};
         rq.onerror=()=>{usingMem=true; res();};
@@ -408,12 +507,43 @@ const store = (() => {
       }catch(e){res(memCache.get(k)??null);}
     });
   }
-  return {open,allPlays,putPlay,delPlay,getKV,setKV,putCache,getCache, isMem:()=>usingMem};
+  /* 用戶自訂計分表:key = gameId,內容係完整 scoring 檔格式 */
+  async function getUserTemplate(gameId){
+    if(usingMem||!db) return memUT.get(gameId)??null;
+    return new Promise(res=>{
+      try{
+        const t=db.transaction("userTemplates").objectStore("userTemplates").get(gameId);
+        t.onsuccess=()=>res(t.result??memUT.get(gameId)??null);
+        t.onerror=()=>res(memUT.get(gameId)??null);
+      }catch(e){res(memUT.get(gameId)??null);}
+    });
+  }
+  async function putUserTemplate(doc){
+    memUT.set(doc.gameId,doc);
+    if(usingMem||!db) return;
+    try{db.transaction("userTemplates","readwrite").objectStore("userTemplates").put(doc);}catch(e){}
+  }
+  async function delUserTemplate(gameId){
+    memUT.delete(gameId);
+    if(usingMem||!db) return;
+    try{db.transaction("userTemplates","readwrite").objectStore("userTemplates").delete(gameId);}catch(e){}
+  }
+  async function allUserTemplates(){
+    if(usingMem||!db) return [...memUT.values()];
+    return new Promise(res=>{
+      try{
+        const t=db.transaction("userTemplates").objectStore("userTemplates").getAll();
+        t.onsuccess=()=>res(t.result||[]); t.onerror=()=>res([...memUT.values()]);
+      }catch(e){res([...memUT.values()]);}
+    });
+  }
+  return {open,allPlays,putPlay,delPlay,getKV,setKV,putCache,getCache,
+          getUserTemplate,putUserTemplate,delUserTemplate,allUserTemplates, isMem:()=>usingMem};
 })();
 
 /* ---------- app state ---------- */
 const S = {
-  view:"games",      // games | setup | sheet | history
+  view:"games",      // games | setup | sheet | history | editor
   game:null,         // 現時遊戲
   players:[],        // ["Jack","Ann"]
   scores:{},         // scores[pIdx][fieldId] = raw value (number / count / 0|1 / tier count)
@@ -421,12 +551,15 @@ const S = {
   editPlayId:null,   // 編輯緊嘅紀錄 id(null = 新對局)
   historyFilter:null,// 只顯示某 gameId 嘅紀錄
   historyQuery:"",   // 紀錄搜尋字串
-  historyCache:[]
+  historyCache:[],
+  draft:null,        // 編輯緊嘅 template 草稿
+  draftErrors:null,  // {top:[], perField:{i:[msg]}}
+  draftBase:null     // {isUserEdited, baseSource}
 };
 
 const $=s=>document.querySelector(s);
 const main=$("#main"), bar=$("#bar"), barTitle=$("#barTitle"),
-      backBtn=$("#backBtn"), saveBtn=$("#saveBtn"), pad=$("#pad");
+      backBtn=$("#backBtn"), saveBtn=$("#saveBtn"), editBtn=$("#editBtn"), pad=$("#pad");
 
 function toast(msg){
   const t=$("#toast"); t.textContent=msg; t.classList.add("show");
@@ -463,8 +596,10 @@ function totalFor(pIdx){
 
 /* ---------- render root ---------- */
 function render(){
-  backBtn.style.visibility = (S.view==="setup"||S.view==="sheet") ? "visible":"hidden";
-  saveBtn.style.visibility = S.view==="sheet" ? "visible":"hidden";
+  backBtn.style.visibility = (S.view==="setup"||S.view==="sheet"||S.view==="editor") ? "visible":"hidden";
+  backBtn.textContent = S.view==="editor" ? "取消" : "‹ 返回";
+  saveBtn.style.visibility = (S.view==="sheet"||S.view==="editor") ? "visible":"hidden";
+  editBtn.style.visibility = S.view==="sheet" ? "visible":"hidden";
   document.getElementById("tabs").style.display = (S.view==="games"||S.view==="history")?"flex":"none";
   document.querySelectorAll("nav.tabs button").forEach(b=>{
     b.classList.toggle("active", b.dataset.tab===S.view);
@@ -473,6 +608,7 @@ function render(){
   else if(S.view==="setup") renderSetup();
   else if(S.view==="sheet") renderSheet();
   else if(S.view==="history") renderHistory();
+  else if(S.view==="editor") renderEditor();
 }
 
 /* ---------- view: game list ---------- */
@@ -504,7 +640,8 @@ function renderGames(){
         <span class="gname">${esc(g.nameZh||g.name)}
           ${g.nameZh&&g.nameZh!==g.name?`<small>${esc(g.name)}</small>`:""}
         </span>
-        ${g.hasScoring?"":`<span class="chip">通用表</span>`}
+        ${catalog.userIds.has(g.gameId)?`<span class="chip">✏️ 自訂</span>`
+          :(g.hasScoring?"":`<span class="chip">通用表</span>`)}
         ${g.meta.weight?`<span class="chip">⚖️ ${g.meta.weight}</span>`:""}
         ${g.meta.minPlayers?`<span class="chip">👥 ${g.meta.minPlayers}–${g.meta.maxPlayers}</span>`:""}
       </button>`;
@@ -578,15 +715,66 @@ async function renderSetup(){
   draw();
 }
 
+/* ---------- 信度提示條 ----------
+   一行細字,唔彈窗唔阻擋操作。只講張表打邊嚟、可唔可信。 */
+function srcInfo(g){
+  const s=g.scoring||{};
+  if(g.generic){
+    return {cls:"warn", text: g.generic==="offline"
+      ? "通用計分表(離線,未快取專屬表)" : "通用計分表(未有專屬)"};
+  }
+  if(s.source==="user-edited") return {cls:"custom", text:"✏️ 自訂版本", revert:true};
+  if(s.verified===true) return {cls:"ok", text:"✓ 已核對"};
+  switch(s.source){
+    case "manual":
+      return {cls:"", text:"人手編寫"};
+    case "rulebook-web":
+      return {cls:"", text:"按官方規則書生成",
+              link: /^https?:\/\//.test(s.sourceUrl||"") ? s.sourceUrl : null};
+    case "claude-code-gen":
+      return {cls:"", text:"AI 生成,未核對"};
+    case "desc-gen":
+      return {cls:"warn", text:"計分項按遊戲描述推斷,建議核對"};
+    default:
+      return {cls:"", text: s.source ? "來源:"+s.source : "來源不明"};
+  }
+}
+function srcBarHTML(g){
+  const i=srcInfo(g);
+  return `<div class="srcbar ${i.cls}">
+    <span>${esc(i.text)}</span>
+    ${i.link?`<a href="${esc(i.link)}" target="_blank" rel="noopener">規則書 ↗</a>`:""}
+    ${i.revert?`<button class="lnk" id="srcRevert">還原預設</button>`:""}
+  </div>`;
+}
+/* 撳一下變「確認?」,撳第二下先做 —— 唔使 confirm() 彈窗 */
+function bindRevert(){
+  const b=$("#srcRevert"); if(!b) return;
+  b.onclick=async()=>{
+    if(b.dataset.armed!=="1"){
+      b.dataset.armed="1"; b.textContent="確認還原?";
+      setTimeout(()=>{ if(b.isConnected&&b.dataset.armed==="1"){b.dataset.armed="0"; b.textContent="還原預設";} },4000);
+      return;
+    }
+    await revertTemplate(S.game.gameId);
+  };
+}
+async function revertTemplate(gameId){
+  await store.delUserTemplate(gameId);
+  catalog.userIds.delete(gameId);
+  catalog.cache.delete(gameId);
+  S.game=await loadGame(gameId);
+  S.view="sheet"; render();
+  toast("已還原預設計分表");
+}
+
 /* ---------- view: score sheet ---------- */
 function renderSheet(){
   const g=S.game; setAccent(g.theme.accent);
   barTitle.textContent=(g.nameZh||g.name)+(S.editPlayId?" · 編輯":"");
   const fields=g.scoring.fields;
-  const genericNote = g.generic==="offline" ? "通用計分表(離線,未快取專屬表)"
-                    : g.generic ? "通用計分表(未有專屬)" : "";
-  let html=`<div class="sheetwrap"><table class="sheet">
-    <thead><tr><th>${esc(g.name)}${genericNote?`<small class="genericnote">${genericNote}</small>`:""}</th>${S.players.map(p=>`<th>${esc(p)}</th>`).join("")}</tr></thead><tbody>`;
+  let html=srcBarHTML(g)+`<div class="sheetwrap"><table class="sheet">
+    <thead><tr><th>${esc(g.name)}</th>${S.players.map(p=>`<th>${esc(p)}</th>`).join("")}</tr></thead><tbody>`;
   for(const f of fields){
     html+=`<tr><td><div class="frow-label">
       <span class="fic" style="background:${f.color||"var(--paper-deep)"}">${f.icon||"•"}</span>
@@ -603,9 +791,14 @@ function renderSheet(){
   }).join("")}</tr>`;
   html+=`</tbody></table></div>
     <p class="sheetnote">${g.scoring.tieBreaker && g.scoring.tieBreaker!=="—" ? "同分:"+esc(g.scoring.tieBreaker) : ""}
-    ${store.isMem() ? "<br>⚠️ 預覽環境唔會保留數據;部署後先有永久儲存。":""}</p>`;
+    ${store.isMem() ? "<br>⚠️ 預覽環境唔會保留數據;部署後先有永久儲存。":""}</p>
+    <div class="sheetacts">
+      <button class="btn ghost" id="editTplBtn">${g.generic?"＋ 為呢隻遊戲建立計分表":"✏️ 修改計分表"}</button>
+    </div>`;
   main.innerHTML=html;
   bindCells();
+  bindRevert();
+  $("#editTplBtn").onclick=openEditor;
 }
 function cellHTML(f,pi){
   const raw=S.scores[pi]?.[f.id];
@@ -723,6 +916,263 @@ function nextCell(pi,f){
   }
 }
 
+/* =========================================================
+   自訂計分表編輯器
+   draft 係 scoring 檔格式嘅副本,加咗兩個 UI-only 欄位:
+     _tableText (tiered 嘅 textarea 原文)、allowNeg (number 可唔可以入負數)
+   儲存前經 fromDraftField() 轉返正式格式,再行 validateDoc()。
+========================================================= */
+const INPUT_TYPES=[["number","數字入分"],["counter","數量 × 單價"],["bonus","有/冇 加分"],["tiered","階梯查表"]];
+
+function toDraftField(f){
+  return {
+    ...f,
+    sign: f.sign===-1 ? -1 : 1,
+    allowNeg: Number(f.min??0) < 0,
+    _tableText: (f.table||[]).map(r=>Array.isArray(r)?r.join(","):"").join("\n")
+  };
+}
+/* 「每行一對:數量,得分」→ [[n,pts],…];行有問題就放 null 等 validate 標紅 */
+function parseTierText(text){
+  const rows=[];
+  for(const line of String(text||"").split("\n")){
+    const t=line.trim(); if(!t) continue;
+    const parts=t.split(/[,，、\s]+/).filter(Boolean);
+    if(parts.length!==2){ rows.push(null); continue; }
+    const a=Number(parts[0]), b=Number(parts[1]);
+    rows.push(Number.isFinite(a)&&Number.isFinite(b) ? [a,b] : null);
+  }
+  return rows;
+}
+function fromDraftField(f){
+  const out={...f};
+  delete out._tableText; delete out.allowNeg;
+  out.id=String(f.id||"").trim();
+  out.label=String(f.label||"").trim();
+  out.icon=String(f.icon||"").trim() || "•";
+  out.color=HEXRE.test(f.color||"") ? f.color : "#E5E0D5";
+  const note=String(f.note||"").trim();
+  if(note) out.note=note; else delete out.note;
+  if(Number(f.sign)===-1) out.sign=-1; else delete out.sign;
+  delete out.unitValue; delete out.value; delete out.table; delete out.min;
+  if(f.input==="number")  out.min = f.allowNeg ? -9999 : 0;
+  if(f.input==="counter") out.unitValue = f.unitValue==="" || f.unitValue==null ? NaN : Number(f.unitValue);
+  if(f.input==="bonus")   out.value     = f.value==="" || f.value==null ? NaN : Number(f.value);
+  if(f.input==="tiered")  out.table     = parseTierText(f._tableText);
+  return out;
+}
+
+/* lib/validate.mjs 嗰套規則嘅 JS 版(錯誤分返去每一行 field) */
+function validateDoc(doc){
+  const top=[], perField={};
+  const push=(i,m)=>{ (perField[i]=perField[i]||[]).push(m); };
+  if(doc.schemaVersion!==1) top.push("schemaVersion 要係 1");
+  if(!(typeof doc.gameId==="string" && /^(bgg-\d+|custom-.+)$/.test(doc.gameId))) top.push("gameId 格式錯");
+  if(!(typeof doc.name==="string" && doc.name)) top.push("遊戲名唔可以空");
+  if(!(doc.theme && HEXRE.test(doc.theme.accent||""))) top.push("theme.accent 要係 #RRGGBB");
+  const s=doc.scoring;
+  if(!s || !Array.isArray(s.fields)){ top.push("scoring 缺失"); return {top,perField}; }
+  if(s.fields.length<1 || s.fields.length>20) top.push("計分項目要 1–20 個");
+  const ids=new Set();
+  s.fields.forEach((f,i)=>{
+    if(!(typeof f.id==="string" && /^[a-z0-9_]+$/.test(f.id))) push(i,"id 要係細楷英文、數字或底線");
+    else if(ids.has(f.id)) push(i,`id 重複:${f.id}`);
+    if(typeof f.id==="string") ids.add(f.id);
+    if(!f.label) push(i,"要有項目名稱");
+    if(!INPUT_TYPES.some(([v])=>v===f.input)) push(i,"輸入類型唔啱");
+    if(f.color!=null && !HEXRE.test(f.color)) push(i,"color 要係 #RRGGBB");
+    if(f.sign!=null && f.sign!==1 && f.sign!==-1) push(i,"sign 要係 1 或 -1");
+    if(f.input==="counter" && !Number.isFinite(f.unitValue)) push(i,"「數量 × 單價」要填每個幾多分");
+    if(f.input==="bonus" && !Number.isFinite(f.value)) push(i,"「有/冇 加分」要填分數");
+    if(f.input==="tiered"){
+      if(!Array.isArray(f.table) || f.table.length<2) push(i,"階梯表至少要兩行");
+      else if(!f.table.every(r=>Array.isArray(r)&&r.length===2&&Number.isFinite(r[0])&&Number.isFinite(r[1])))
+        push(i,"階梯表每行要寫成「數量,得分」");
+    }
+  });
+  if(s.total!=null && !["sum","expression"].includes(s.total.type)) top.push("total.type 要係 sum/expression");
+  return {top,perField};
+}
+
+function openEditor(){
+  const g=S.game, s=g.scoring||{};
+  S.draftBase={
+    isUserEdited: s.source==="user-edited",
+    baseSource: s.baseSource || (g.generic ? "generic" : (s.source||"unknown"))
+  };
+  S.draft={
+    schemaVersion:1,
+    gameId:g.gameId,
+    name:g.name,
+    nameZh:g.nameZh||null,
+    theme:{accent:safeAccent(g.theme&&g.theme.accent, g.gameId)},
+    scoring:{
+      tieBreaker: s.tieBreaker && s.tieBreaker!=="—" ? s.tieBreaker : "",
+      sourceUrl: s.sourceUrl || null,
+      total: s.total && s.total.type ? s.total : {type:"sum"},
+      fields: (s.fields||[]).map(toDraftField)
+    }
+  };
+  S.draftErrors=null;
+  S.view="editor"; render();
+}
+
+function buildDocFromDraft(){
+  const d=S.draft, s=d.scoring;
+  const out={
+    schemaVersion:1,
+    gameId:d.gameId,
+    name:d.name,
+    theme:{accent:d.theme.accent},
+    scoring:{
+      source:"user-edited",
+      baseSource:S.draftBase.baseSource,
+      verified:true,
+      editedAt:new Date().toISOString(),
+      tieBreaker:String(s.tieBreaker||"").trim() || "—",
+      fields:s.fields.map(fromDraftField),
+      total:s.total
+    }
+  };
+  if(d.nameZh) out.nameZh=d.nameZh;
+  if(s.sourceUrl) out.scoring.sourceUrl=s.sourceUrl;
+  return out;
+}
+
+function renderEditor(){
+  const d=S.draft;
+  setAccent(d.theme.accent);
+  barTitle.textContent = S.draftBase.baseSource==="generic" && !S.draftBase.isUserEdited
+    ? "建立計分表" : "修改計分表";
+  const top=(S.draftErrors&&S.draftErrors.top)||[];
+  main.innerHTML=`
+    <p class="ednote">改嘅只係你部機上面呢隻遊戲嘅計分表。已儲存嘅對局紀錄唔會受影響
+      (紀錄存嘅係當時嘅分數)。</p>
+    ${top.length?`<div class="ederr-top">${top.map(esc).join("<br>")}</div>`:""}
+    <label class="edlab" for="ed-tb">同分點分勝負</label>
+    <input class="edin" id="ed-tb" value="${esc(d.scoring.tieBreaker||"")}"
+           placeholder="例:剩返嘅錢多者勝(可留空)">
+    <p class="slabel">計分項目</p>
+    <p class="edcount" id="ed-count"></p>
+    <div id="edfields"></div>
+    <button class="btn ghost big" id="ed-add" style="margin-top:0">＋ 加一項</button>
+    <button class="btn big" id="ed-save">儲存計分表</button>
+    <button class="btn ghost big" id="ed-cancel" style="margin-top:10px">取消</button>
+    ${S.draftBase.isUserEdited
+      ? `<button class="btn ghost big" id="ed-reset" style="margin-top:10px">↩️ 還原預設(刪走自訂版本)</button>`
+      : ""}`;
+  $("#ed-tb").oninput=e=>{ d.scoring.tieBreaker=e.target.value; };
+  $("#ed-add").onclick=addField;
+  $("#ed-save").onclick=saveTemplate;
+  $("#ed-cancel").onclick=cancelEditor;
+  const rst=$("#ed-reset");
+  if(rst) rst.onclick=async()=>{
+    if(rst.dataset.armed!=="1"){ rst.dataset.armed="1"; rst.textContent="⚠️ 再撳一次確認還原"; return; }
+    const id=d.gameId;
+    S.draft=null; S.draftErrors=null;
+    await revertTemplate(id);
+  };
+  drawFields();
+}
+
+function fieldCardHTML(f,i,n,errs){
+  const err=errs[i];
+  const t=f.input;
+  return `<div class="edcard${err?" bad":""}" data-i="${i}">
+    <div class="edhd">
+      <input class="edin ico" data-k="icon" value="${esc(f.icon||"")}" maxlength="4" aria-label="圖示 emoji">
+      <input class="edin" data-k="label" value="${esc(f.label||"")}" placeholder="項目名稱" aria-label="項目名稱">
+      <button class="edbtn" data-mv="-1" ${i===0?"disabled":""} aria-label="上移">↑</button>
+      <button class="edbtn" data-mv="1" ${i===n-1?"disabled":""} aria-label="下移">↓</button>
+      <button class="edbtn del" data-del="1" aria-label="刪除呢一項">✕</button>
+    </div>
+    <input class="edin" data-k="note" value="${esc(f.note||"")}" placeholder="細字說明(可留空)" aria-label="說明">
+    <div class="edrow">
+      <select class="edin" data-k="input" aria-label="輸入類型">
+        ${INPUT_TYPES.map(([v,l])=>`<option value="${v}"${t===v?" selected":""}>${l}</option>`).join("")}
+      </select>
+      <select class="edin" data-k="sign" aria-label="加分定扣分">
+        <option value="1"${Number(f.sign)===-1?"":" selected"}>加分</option>
+        <option value="-1"${Number(f.sign)===-1?" selected":""}>扣分</option>
+      </select>
+    </div>
+    ${t==="counter"?`<label class="edlab2">每個幾多分
+      <input class="edin num" type="number" data-k="unitValue" value="${esc(f.unitValue??"")}" inputmode="numeric"></label>`:""}
+    ${t==="bonus"?`<label class="edlab2">攞到加幾多分
+      <input class="edin num" type="number" data-k="value" value="${esc(f.value??"")}" inputmode="numeric"></label>`:""}
+    ${t==="tiered"?`<label class="edlab2 col">階梯表(每行一對:數量,得分)
+      <textarea class="edin ta" data-k="_tableText" rows="4" placeholder="0,0&#10;1,2&#10;2,5">${esc(f._tableText||"")}</textarea></label>`:""}
+    ${t==="number"?`<label class="edchk"><input type="checkbox" data-k="allowNeg"${f.allowNeg?" checked":""}> 容許入負數</label>`:""}
+    <div class="edid"><span>id</span><input class="edin idin" data-k="id" value="${esc(f.id||"")}" spellcheck="false" aria-label="field id"></div>
+    ${err?`<p class="ederr">${err.map(esc).join("<br>")}</p>`:""}
+  </div>`;
+}
+
+function drawFields(){
+  const fs=S.draft.scoring.fields;
+  const errs=(S.draftErrors&&S.draftErrors.perField)||{};
+  $("#ed-count").textContent=`${fs.length} 項 · 最多 20 項`;
+  const host=$("#edfields");
+  host.innerHTML=fs.map((f,i)=>fieldCardHTML(f,i,fs.length,errs)).join("");
+  /* 結構有改動(加/刪/上下移/轉類型)先重畫;打字唔重畫,唔會走 focus */
+  const restructure=fn=>{ fn(); S.draftErrors=null; drawFields(); };
+  host.querySelectorAll(".edcard").forEach(card=>{
+    const i=Number(card.dataset.i), f=fs[i];
+    card.querySelectorAll("[data-k]").forEach(el=>{
+      const k=el.dataset.k;
+      if(el.type==="checkbox"){ el.onchange=()=>{ f[k]=el.checked; }; return; }
+      if(k==="input"){ el.onchange=()=>restructure(()=>{ f.input=el.value; }); return; }
+      if(k==="sign"){ el.onchange=()=>{ f.sign=Number(el.value)===-1?-1:1; }; return; }
+      el.oninput=()=>{ f[k]=el.value; };
+    });
+    card.querySelectorAll("[data-mv]").forEach(b=>b.onclick=()=>{
+      const j=i+Number(b.dataset.mv);
+      if(j<0||j>=fs.length) return;
+      restructure(()=>{ const tmp=fs[i]; fs[i]=fs[j]; fs[j]=tmp; });
+    });
+    card.querySelector("[data-del]").onclick=()=>{
+      if(fs.length<=1){ toast("至少要留一項"); return; }
+      restructure(()=>fs.splice(i,1));
+    };
+  });
+}
+
+function addField(){
+  const fs=S.draft.scoring.fields;
+  if(fs.length>=20){ toast("最多 20 項"); return; }
+  let n=fs.length+1, id="f"+n;
+  while(fs.some(f=>f.id===id)){ n++; id="f"+n; }
+  fs.push({id, label:"", note:"", icon:"⭐", color:"#E5E0D5",
+           input:"number", sign:1, allowNeg:false, _tableText:""});
+  S.draftErrors=null; drawFields();
+  const last=main.querySelector(`.edcard[data-i="${fs.length-1}"]`);
+  if(last){ last.scrollIntoView({block:"center",behavior:"smooth"}); last.querySelector('[data-k="label"]').focus(); }
+}
+
+async function saveTemplate(){
+  const doc=buildDocFromDraft();
+  const v=validateDoc(doc);
+  if(v.top.length || Object.keys(v.perField).length){
+    S.draftErrors=v; renderEditor();
+    const bad=main.querySelector(".edcard.bad")||main.querySelector(".ederr-top");
+    if(bad) bad.scrollIntoView({block:"center",behavior:"smooth"});
+    toast("有嘢未填妥,睇下紅色嗰啲");
+    return;
+  }
+  await store.putUserTemplate(doc);
+  catalog.userIds.add(doc.gameId);
+  catalog.cache.delete(doc.gameId);
+  S.game=await loadGame(doc.gameId);
+  S.draft=null; S.draftErrors=null;
+  S.view="sheet"; render();
+  toast("計分表已儲存 ✓");
+}
+
+function cancelEditor(){
+  S.draft=null; S.draftErrors=null;
+  S.view="sheet"; render();
+}
+
 /* ---------- save play ---------- */
 async function savePlay(){
   const g=S.game;
@@ -816,7 +1266,12 @@ function ioHTML(){
 }
 function bindIO(){
   $("#exportBtn").onclick=async()=>{
-    const data={app:"bg-scorer",schemaVersion:1,exportedAt:new Date().toISOString(),plays:await store.allPlays()};
+    const data={
+      app:"bg-scorer", schemaVersion:1, exportVersion:2,
+      exportedAt:new Date().toISOString(),
+      plays:await store.allPlays(),
+      userTemplates:await store.allUserTemplates()
+    };
     const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});
     const a=document.createElement("a");
     a.href=URL.createObjectURL(blob); a.download="bg-scorer-backup.json"; a.click();
@@ -829,7 +1284,18 @@ function bindIO(){
       const data=JSON.parse(await file.text());
       if(!Array.isArray(data.plays)) throw 0;
       for(const p of data.plays) await store.putPlay(p);
-      toast(`已匯入 ${data.plays.length} 場`); renderHistory();
+      /* exportVersion 2 先有 userTemplates;v1 舊檔冇,淨還原 plays */
+      let nT=0;
+      if(Array.isArray(data.userTemplates)){
+        for(const t of data.userTemplates){
+          if(!t || typeof t.gameId!=="string" || !t.scoring?.fields?.length) continue;
+          await store.putUserTemplate(t);
+          catalog.userIds.add(t.gameId);
+          catalog.cache.delete(t.gameId);
+          nT++;
+        }
+      }
+      toast(`已匯入 ${data.plays.length} 場${nT?` · ${nT} 個自訂計分表`:""}`); renderHistory();
     }catch(err){toast("檔案格式唔啱");}
     e.target.value="";
   };
@@ -843,15 +1309,19 @@ document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>{
 });
 backBtn.onclick=()=>{
   closePad();
+  if(S.view==="editor"){ cancelEditor(); return; }
   if(S.view==="sheet"){ S.view="setup"; }
   else if(S.view==="setup"){ S.view="games"; S.players=[]; }
   render();
 };
-saveBtn.onclick=savePlay;
+saveBtn.onclick=()=>{ S.view==="editor" ? saveTemplate() : savePlay(); };
+editBtn.onclick=()=>{ closePad(); openEditor(); };
 
 /* ---------- boot ---------- */
 (async () => {
   await store.open();
+  const uts=await store.allUserTemplates();
+  catalog.userIds=new Set(uts.map(d=>d.gameId));
   await loadCatalog();
   render();
 })();
