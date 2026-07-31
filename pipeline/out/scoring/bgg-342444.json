@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-342444",
+ "name": "Black Rose Wars: Rebirth",
+ "nameZh": "黑玫瑰戰爭:重生",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "power",
+    "label": "遊戲中權力點",
+    "note": "遊戲期間累積落嚟嘅權力點",
+    "icon": "✨",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "quests",
+    "label": "任務",
+    "note": "完成任務數排名帶嚟嘅權力點",
+    "icon": "📜",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "trophies",
+    "label": "戰利品代幣",
+    "note": "由其他法師身上搶到嘅戰利品代幣帶嚟嘅權力點",
+    "icon": "🏆",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "damage",
+    "label": "造成傷害",
+    "note": "對其他法師(或黑玫瑰)造成嘅傷害排名帶嚟嘅權力點",
+    "icon": "💥",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

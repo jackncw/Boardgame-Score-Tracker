@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-48726",
+ "name": "Alien Frontiers",
+ "nameZh": "異星前線",
+ "theme": {
+  "accent": "#5A7A8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://cs.uwaterloo.ca/~dtompkin/dtlib/base/Alien%20Frontiers.pdf",
+  "verified": false,
+  "tieBreaker": "同分時翻開嘅議程卡較多者勝;再比外星科技卡、礦石、燃料",
+  "fields": [
+   {
+    "id": "colonies",
+    "label": "殖民地標記",
+    "note": "每個放咗喺領土上嘅殖民地標記 1 分",
+    "icon": "🏠",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "territories",
+    "label": "控制嘅領土",
+    "note": "每個你殖民地數量最多嘅領土 1 分",
+    "icon": "🗺️",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "alien_tech",
+    "label": "外星城市 / 紀念碑卡",
+    "note": "外星城市卡同外星紀念碑卡各 1 分;外星石棺卡喺你有其中一張時亦值 1 分",
+    "icon": "🛸",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "positron",
+    "label": "正電子力場",
+    "note": "控制住有正電子力場嘅領土,額外 +1 分",
+    "icon": "⚡",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 1
+   },
+   {
+    "id": "agendas",
+    "label": "議程卡(選用規則)",
+    "note": "用議程卡變體先計:每張翻開嘅議程卡 1 分",
+    "icon": "📜",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

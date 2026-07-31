@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-214029",
+ "name": "SpaceCorp: 2025-2300AD",
+ "nameZh": "太空企業:2025-2300AD",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/30/fe/00-spacecorp-rulebook.pdf",
+  "verified": false,
+  "tieBreaker": "同分時基地數目較多者勝",
+  "fields": [
+   {
+    "id": "profit",
+    "label": "利潤",
+    "note": "殖民地結算之後嘅利潤總額;最多者勝",
+    "icon": "💵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

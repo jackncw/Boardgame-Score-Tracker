@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-239472",
+ "name": "Abomination: The Heir of Frankenstein",
+ "nameZh": "憎惡:科學怪人的傳人",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://media.plaidhatgames.com/old_images/games/abomination/rules.pdf",
+  "verified": false,
+  "tieBreaker": "同分時比活體怪物部件數、法郎,再按相對首家嘅座位順序",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利點",
+    "note": "遊戲期間按怪物部件階段等攞到嘅勝利點",
+    "icon": "📈",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "alive",
+    "label": "活體部件",
+    "note": "每個有「活」標記嘅怪物部件畀嘅分",
+    "icon": "🧟",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "獎勵目標",
+    "note": "每個達成咗嘅獎勵目標標記 10 分",
+    "icon": "🎯",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 10
+   },
+   {
+    "id": "dials",
+    "label": "聲望同專業轉盤",
+    "note": "聲望轉盤同專業轉盤各自到過嘅最高勝利點值",
+    "icon": "🔬",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "humanity",
+    "label": "人性轉盤",
+    "note": "人性轉盤到過嘅最高(或者最低)勝利點值,可加可減",
+    "icon": "❤️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "captain",
+    "label": "船長結局獎勵",
+    "note": "若果遊戲係船長行到故事軌最後一格而結束,正人性最高嗰位 +5 分(同分各得 5 分)",
+    "icon": "⚓",
+    "color": "#F5E8D8",
+    "input": "bonus",
+    "value": 5
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

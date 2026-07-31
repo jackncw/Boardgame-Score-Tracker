@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-407297",
+ "name": "River Valley Glassworks",
+ "nameZh": "河谷玻璃工坊",
+ "theme": {
+  "accent": "#5A9BC4"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://assets.allplay.com/board-games-river-valley-glassworks-rulebook-link.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "rows",
+    "label": "橫行",
+    "note": "由下至上,每行按由最左格起連續填滿咗幾多格,計格線下方印住嘅分;第一格空咗嗰行 0 分",
+    "icon": "➡️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "columns",
+    "label": "最高兩條直欄",
+    "note": "只計最高嗰兩條有玻璃嘅直欄,各按最高一格印住嘅分;同高就先計左邊嗰條",
+    "icon": "⬆️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "overflow",
+    "label": "溢出區",
+    "note": "溢出區每件玻璃 -3 分",
+    "icon": "🫙",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 3,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

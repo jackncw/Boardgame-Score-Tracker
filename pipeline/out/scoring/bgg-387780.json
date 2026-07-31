@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-387780",
+ "name": "Rats of Wistar",
+ "nameZh": "威斯達鼠族",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "board",
+    "label": "玩家板揭開嘅格",
+    "note": "移走方塊、床鋪、地道之後露出嘅玩家板得分格",
+    "icon": "🐭",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "guests",
+    "label": "客鼠同芝士",
+    "note": "玩家板上嘅客鼠板塊同芝士板塊得分",
+    "icon": "🧀",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "inventions",
+    "label": "發明卡",
+    "note": "場上發明卡本身嘅分,同埋帶終局效果嗰啲發明卡",
+    "icon": "💡",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftover",
+    "label": "剩餘資源",
+    "note": "手上剩低嘅木、金屬、移動標記同發明卡換到嘅分",
+    "icon": "📦",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

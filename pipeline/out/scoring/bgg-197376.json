@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-197376",
+ "name": "Charterstone",
+ "nameZh": "憲章之石",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/4e/0e/77-charterstone-rulebook.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "buildings",
+    "label": "建築",
+    "note": "你建咗嘅建築畀嘅勝利點",
+    "icon": "🏠",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "目標",
+    "note": "達成咗嘅目標卡勝利點",
+    "icon": "🎯",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "reputation",
+    "label": "聲望軌獎勵",
+    "note": "終局計分:聲望軌上代幣最多 10 分、次多 7 分、再次 4 分(最少要有 1 個代幣先計)",
+    "icon": "⭐",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "戰役過程解鎖咗、呢張表未列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

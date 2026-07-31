@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-206480",
+ "name": "Imperial Struggle",
+ "nameZh": "帝國爭霸",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://gmtwebsiteassets.s3-us-west-2.amazonaws.com/impstruggle/imperial_struggle_rulebook_ENG-FR_bilingual_v1.0.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中勝利點",
+    "note": "和平期同戰爭期累積落嚟嘅勝利點(英法共用一條軌,入你自己嗰邊嘅淨值)",
+    "icon": "📈",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "prestige",
+    "label": "威望格較多",
+    "note": "總威望格多過對手就 +2 分(美國旗喺場就連美國政治格一齊計)",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 2
+   },
+   {
+    "id": "debt",
+    "label": "可用債務較多",
+    "note": "可用債務多過對手,每差 2 點得 1 分,上限 4 分",
+    "icon": "💰",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "markets",
+    "label": "商品市場優勢",
+    "note": "每種商品控制市場多過對手 +1 分",
+    "icon": "📦",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "flags",
+    "label": "插進敵區嘅旗",
+    "note": "每面位處對手開局控制領土入面嘅友方旗 +2 分",
+    "icon": "🚩",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 2
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

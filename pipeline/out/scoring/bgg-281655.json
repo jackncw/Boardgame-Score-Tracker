@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-281655",
+ "name": "High Frontier 4 All",
+ "nameZh": "高疆界:全民版",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://boardgame.bg/high%20frontier%204%20all%20rules.pdf",
+  "verified": false,
+  "tieBreaker": "同分時 Aqua 較多者勝;仍平手就共享勝利",
+  "fields": [
+   {
+    "id": "tokens",
+    "label": "地圖上嘅棋子",
+    "note": "地圖(同 Module 0 嘅議會區)上每個你顏色嘅木/膠棋子 —— 火箭、聲索碟、工廠 —— 各 1 分",
+    "icon": "🚀",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "factories",
+    "label": "工廠股價",
+    "note": "每間工廠按開發軌 +8 / +5 / +4 分;戰爭結局一律 2 分;連住太空電梯就加倍",
+    "icon": "🏭",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "domes",
+    "label": "殖民穹頂",
+    "note": "天體生物學 +1 分;潛水艇同 Bernal +2 分",
+    "icon": "🏙️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "glory",
+    "label": "榮耀同英雄籌碼",
+    "note": "按籌碼正面印住嘅分計",
+    "icon": "🏅",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "modules",
+    "label": "模組額外分",
+    "note": "Module 0 政治分、Module 2 地表水化同 Bernal 分、未來之星等,加埋一齊入呢度",
+    "icon": "🧩",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

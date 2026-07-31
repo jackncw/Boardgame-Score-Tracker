@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-144797",
+ "name": "Argent: The Consortium",
+ "nameZh": "秘法議會",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://www.boardgamehelpers.com/ArgentTheConsortium/Images/ArgentRulebookWeb.pdf",
+  "verified": false,
+  "tieBreaker": "選票最多者當選校長;同票先比標記(Marks),再比影響力點數",
+  "fields": [
+   {
+    "id": "votes",
+    "label": "選票",
+    "note": "財團投票時你攞到嘅票數 —— 呢個先係勝負關鍵",
+    "icon": "🗳️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

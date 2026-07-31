@@ -1,0 +1,57 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-301255",
+ "name": "Whistle Mountain",
+ "nameZh": "汽笛山",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/d1/aa/9c-whistle-mountain-rulebook.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tower",
+    "label": "塔樓工人",
+    "note": "塔樓每層按板上標示,計你工人嘅分",
+    "icon": "🗼",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "whirlpool",
+    "label": "漩渦裡嘅工人",
+    "note": "跌咗落漩渦嘅工人要扣分;呢欄入扣分數,app 會自動扣",
+    "icon": "🌀",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "upgrades",
+    "label": "升級",
+    "note": "每張升級上標示嘅分",
+    "icon": "⚙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "storage",
+    "label": "倉庫物資",
+    "note": "機器、獎章、鷹架、卡牌同資源按規則換算嘅分",
+    "icon": "📦",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

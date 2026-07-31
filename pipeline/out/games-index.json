@@ -6008,6 +6008,8 @@
   "bggId": 48726,
   "gameId": "bgg-48726",
   "name": "Alien Frontiers",
+  "nameZh": "異星前線",
+  "accent": "#5A7A8C",
   "rank": 416,
   "year": 2010,
   "thumbnail": "https://cf.geekdo-images.com/UWZTWLXFfg_6HpXJmviL3g__micro/img/QSCc2y-vxXf0s2zAdKL9L9TaTLY=/fit-in/64x64/filters:strip_icc()/pic3360924.png",
@@ -6015,7 +6017,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 59294,
@@ -6875,6 +6877,8 @@
   "bggId": 206480,
   "gameId": "bgg-206480",
   "name": "Imperial Struggle",
+  "nameZh": "帝國爭霸",
+  "accent": "#8C3F3F",
   "rank": 477,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/FTE7dxVd4jQaIwwRcCQcRw__micro/img/QAhK8LKNNg4yrkJjFnOiJp1GwSA=/fit-in/64x64/filters:strip_icc()/pic5291148.jpg",
@@ -6882,7 +6886,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 260428,
@@ -9236,6 +9240,8 @@
   "bggId": 197376,
   "gameId": "bgg-197376",
   "name": "Charterstone",
+  "nameZh": "憲章之石",
+  "accent": "#6B9B5A",
   "rank": 644,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/ToG_L1KA83024V5qHwfLbQ__micro/img/g8TyqBebc9ApC4sB_VgKquekiX0=/fit-in/64x64/filters:strip_icc()/pic9706762.png",
@@ -9243,12 +9249,14 @@
   "minPlayers": 1,
   "maxPlayers": 6,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 144797,
   "gameId": "bgg-144797",
   "name": "Argent: The Consortium",
+  "nameZh": "秘法議會",
+  "accent": "#5A4A7A",
   "rank": 645,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/g8Ixp3odG02BcW2z2iOVLw__micro/img/JCt1n4owbMYz0jJvgX7Jtp0e8z8=/fit-in/64x64/filters:strip_icc()/pic2336020.jpg",
@@ -9256,7 +9264,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 150,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 218074,
@@ -9962,6 +9970,8 @@
   "bggId": 328866,
   "gameId": "bgg-328866",
   "name": "My Father's Work",
+  "nameZh": "父輩之作",
+  "accent": "#5A4A7A",
   "rank": 696,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/N0hCcxXw8d7vUjKfsYO6vg__micro/img/7wjzQS6jtGxiFrbPGdV8Pa5Rrgo=/fit-in/64x64/filters:strip_icc()/pic6121929.png",
@@ -9969,7 +9979,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 133848,
@@ -10104,6 +10114,8 @@
   "bggId": 281655,
   "gameId": "bgg-281655",
   "name": "High Frontier 4 All",
+  "nameZh": "高疆界:全民版",
+  "accent": "#5A6E8C",
   "rank": 706,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/SjfNTsR84Ad--u5lo6HY-A__micro/img/7y6mbhvi1evLNnEfngJW-5DWzCU=/fit-in/64x64/filters:strip_icc()/pic5316685.png",
@@ -10111,12 +10123,14 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 105551,
   "gameId": "bgg-105551",
   "name": "Archipelago",
+  "nameZh": "群島",
+  "accent": "#C9A227",
   "rank": 707,
   "year": 2012,
   "thumbnail": "https://cf.geekdo-images.com/6kwNH1BGcKpwO6CpV3qRTQ__micro/img/KJ4i-g1pq03ZWl2prEgDjWHuDfM=/fit-in/64x64/filters:strip_icc()/pic1640388.jpg",
@@ -10124,12 +10138,14 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 345868,
   "gameId": "bgg-345868",
   "name": "Federation",
+  "nameZh": "聯邦",
+  "accent": "#5A7A8C",
   "rank": 708,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/sdimOaBoZ6_VG1153BtzbQ__micro/img/nLOLA-BJQJ_pV6JmGAaVNajhNHE=/fit-in/64x64/filters:strip_icc()/pic6362475.jpg",
@@ -10137,7 +10153,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 699,
@@ -10599,6 +10615,8 @@
   "bggId": 291845,
   "gameId": "bgg-291845",
   "name": "Three Sisters",
+  "nameZh": "三姊妹",
+  "accent": "#6B9B5A",
   "rank": 741,
   "year": 2022,
   "thumbnail": "https://cf.geekdo-images.com/Z1ihG_FHEKuf1Et53f2Dzg__micro/img/6DYn-8ini1HBpVm9cq2tFGlmM6A=/fit-in/64x64/filters:strip_icc()/pic6349029.png",
@@ -10606,7 +10624,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 244115,
@@ -12025,6 +12043,8 @@
   "bggId": 352418,
   "gameId": "bgg-352418",
   "name": "Fliptown",
+  "nameZh": "翻牌小鎮",
+  "accent": "#C9772E",
   "rank": 843,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/IeFNM8pY6qBIMRONuJ9Irg__micro/img/eSqtKlEiYIgWtlI8a7bTQkee5NQ=/fit-in/64x64/filters:strip_icc()/pic7318155.jpg",
@@ -12032,7 +12052,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 363307,
@@ -12109,6 +12129,8 @@
   "bggId": 301255,
   "gameId": "bgg-301255",
   "name": "Whistle Mountain",
+  "nameZh": "汽笛山",
+  "accent": "#8C6239",
   "rank": 849,
   "year": 2020,
   "thumbnail": "https://cf.geekdo-images.com/BkPVVNEJxnF2ouque0ov8A__micro/img/y9qyFvdSO3Kj7P1OPNcVLB2PfHk=/fit-in/64x64/filters:strip_icc()/pic5275651.jpg",
@@ -12116,7 +12138,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 180511,
@@ -12376,6 +12398,8 @@
   "bggId": 385331,
   "gameId": "bgg-385331",
   "name": "Creature Caravan",
+  "nameZh": "奇獸商隊",
+  "accent": "#6B9B5A",
   "rank": 868,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/uNHX1bzPjFuSlJSTbTsEPA__micro/img/bKd2YvFwbAq0gAxfeA_W8EitkBM=/fit-in/64x64/filters:strip_icc()/pic7497404.jpg",
@@ -12383,7 +12407,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 299169,
@@ -12518,6 +12542,8 @@
   "bggId": 407297,
   "gameId": "bgg-407297",
   "name": "River Valley Glassworks",
+  "nameZh": "河谷玻璃工坊",
+  "accent": "#5A9BC4",
   "rank": 878,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/Rb2Hw7IDaF7evNMjrqMmXA__micro/img/ajv0L730mN1cINHzdwo6U_uwp9Y=/fit-in/64x64/filters:strip_icc()/pic7886346.jpg",
@@ -12525,7 +12551,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 154825,
@@ -12729,6 +12755,8 @@
   "bggId": 342444,
   "gameId": "bgg-342444",
   "name": "Black Rose Wars: Rebirth",
+  "nameZh": "黑玫瑰戰爭:重生",
+  "accent": "#5A4A7A",
   "rank": 893,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/cwQZOU3cNOTta6nuT77byg__micro/img/jgLHO3GF8jliuS-mvs1lcOfUxHE=/fit-in/64x64/filters:strip_icc()/pic6279361.png",
@@ -12736,7 +12764,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 203416,
@@ -13150,6 +13178,8 @@
   "bggId": 387780,
   "gameId": "bgg-387780",
   "name": "Rats of Wistar",
+  "nameZh": "威斯達鼠族",
+  "accent": "#8C6239",
   "rank": 922,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/0dIADhzRp00oA4Jk-I-lHg__micro/img/L8Yf8Jk_R5nZUE-ikp7iRQHIgws=/fit-in/64x64/filters:strip_icc()/pic7812438.png",
@@ -13157,7 +13187,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 218333,
@@ -13374,6 +13404,8 @@
   "bggId": 173064,
   "gameId": "bgg-173064",
   "name": "Leaving Earth",
+  "nameZh": "離開地球",
+  "accent": "#5A6E8C",
   "rank": 938,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/rpjQ2X1g2fau-VsgAYvo2A__micro/img/7d_p6a4ArA6EzVq1sHmiOpgvHQA=/fit-in/64x64/filters:strip_icc()/pic2624698.jpg",
@@ -13381,7 +13413,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 300877,
@@ -13400,6 +13432,8 @@
   "bggId": 214029,
   "gameId": "bgg-214029",
   "name": "SpaceCorp: 2025-2300AD",
+  "nameZh": "太空企業:2025-2300AD",
+  "accent": "#5A6E8C",
   "rank": 940,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/YpkxAeGyRn6smZTjCwy7ew__micro/img/gGMoQAYRdWQV3eY9GrtbRkkVKwQ=/fit-in/64x64/filters:strip_icc()/pic4410814.jpg",
@@ -13407,7 +13441,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 240,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 15364,
@@ -13740,6 +13774,8 @@
   "bggId": 239472,
   "gameId": "bgg-239472",
   "name": "Abomination: The Heir of Frankenstein",
+  "nameZh": "憎惡:科學怪人的傳人",
+  "accent": "#5A4A7A",
   "rank": 964,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/JEEZQn4TaBwHuWiPXTpuYA__micro/img/K6vueN50_oTN_WwCG5rrnSLWSMw=/fit-in/64x64/filters:strip_icc()/pic4659575.jpg",
@@ -13747,7 +13783,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 180,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 47185,
@@ -14239,6 +14275,8 @@
   "bggId": 56692,
   "gameId": "bgg-56692",
   "name": "Parade",
+  "nameZh": "遊行",
+  "accent": "#C9553C",
   "rank": 999,
   "year": 2007,
   "thumbnail": "https://cf.geekdo-images.com/lmRNihICb4mklj0ec1vj6g__micro/img/l_ey4-mYopII8Cixo4_7YzOHpzs=/fit-in/64x64/filters:strip_icc()/pic2239001.jpg",
@@ -14246,7 +14284,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 270314,

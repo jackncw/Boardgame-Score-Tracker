@@ -1,0 +1,92 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-345868",
+ "name": "Federation",
+ "nameZh": "聯邦",
+ "theme": {
+  "accent": "#5A7A8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/78/07/b3-federation-rulebook.pdf",
+  "verified": false,
+  "tieBreaker": "同分時共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中威望點",
+    "note": "五個回合期間喺威望軌累積落嚟嘅分",
+    "icon": "📈",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "medals",
+    "label": "集齊七枚榮譽勳章",
+    "note": "七種顏色榮譽勳章齊晒,+30 威望點",
+    "icon": "🎖️",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 30
+   },
+   {
+    "id": "medal_roll",
+    "label": "榮譽勳章卷軸",
+    "note": "你榮譽勳章卷軸上最低嗰個未被蓋住嘅數值",
+    "icon": "📜",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "crystals",
+    "label": "剩餘水晶",
+    "note": "儲備入面每 2 粒水晶 1 分",
+    "icon": "💠",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "diamonds",
+    "label": "金鑽石",
+    "note": "每粒金鑽石 1 分",
+    "icon": "💎",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "ships",
+    "label": "機庫飛船",
+    "note": "機庫入面每艘飛船 1 分",
+    "icon": "🚀",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "alterations",
+    "label": "變更標記",
+    "note": "每個變更標記 1 分",
+    "icon": "🔧",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "projects",
+    "label": "已注資大型項目",
+    "note": "每個注資完成嘅大型項目,按你喺該項目嘅排名畀威望點;冇影響力就唔參與該項目計分",
+    "icon": "🏗️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

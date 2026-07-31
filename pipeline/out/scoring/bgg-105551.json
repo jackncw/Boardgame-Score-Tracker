@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-105551",
+ "name": "Archipelago",
+ "nameZh": "群島",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/25/24/a3-archipelago-rulebook.pdf",
+  "verified": false,
+  "tieBreaker": "同分時屏風後金錢最多者勝",
+  "fields": [
+   {
+    "id": "trend",
+    "label": "趨勢卡排名",
+    "note": "趨勢卡按排名畀嘅勝利點",
+    "icon": "📊",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "目標卡排名",
+    "note": "枱面各張目標卡按排名畀嘅勝利點",
+    "icon": "🎯",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "secret",
+    "label": "秘密目標卡",
+    "note": "你自己嘅目標卡;達唔到條件(例如分離主義者冇成功獨立)就一分都冇",
+    "icon": "🗝️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "wonders",
+    "label": "奇觀",
+    "note": "起好嘅奇觀按卡上勳章畀勝利點",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "characters",
+    "label": "角色卡",
+    "note": "控制住嘅角色卡勝利點(例如國王 1 分)",
+    "icon": "👤",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

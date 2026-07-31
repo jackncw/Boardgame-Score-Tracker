@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-352418",
+ "name": "Fliptown",
+ "nameZh": "翻牌小鎮",
+ "theme": {
+  "accent": "#C9772E"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "trail",
+    "label": "小徑",
+    "note": "小徑區域完成嘅目標得分",
+    "icon": "🥾",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "badlands",
+    "label": "荒原",
+    "note": "荒原區域完成嘅目標得分",
+    "icon": "🏜️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mine",
+    "label": "礦場",
+    "note": "礦場區域完成嘅目標得分",
+    "icon": "⛏️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "town",
+    "label": "城鎮",
+    "note": "城鎮區域完成嘅目標得分",
+    "icon": "🏘️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "poker",
+    "label": "撲克牌型",
+    "note": "每回合結算嘅五張撲克牌型得分",
+    "icon": "🃏",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cash",
+    "label": "現金同黃金",
+    "note": "剩低嘅現金同黃金換到嘅分",
+    "icon": "💰",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

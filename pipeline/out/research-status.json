@@ -335,9 +335,9 @@
   "name": "Legendary Encounters: An Alien Deck Building Game",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:合作牌庫構築"
  },
  {
   "rank": 206,
@@ -355,9 +355,9 @@
   "name": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:規則書寫明全體合作"
  },
  {
   "rank": 211,
@@ -464,10 +464,10 @@
   "bggId": 375459,
   "name": "Speakeasy",
   "cat": "A",
-  "path": "-",
+  "path": "c",
   "result": "no-source",
   "sourceUrl": "",
-  "note": "Lacerda 2025 新作,官方 rulebook 未公開下載;BGG files 需登入"
+  "note": "resweep 重試:EGG 官網 rulebook 收喺要登入嘅 Google Drive,2026Q3 先出貨,仍然攞唔到"
  },
  {
   "rank": 232,
@@ -1135,9 +1135,9 @@
   "name": "The King Is Dead: Second Edition",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:派系多數決,冇累加分數"
  },
  {
   "rank": 379,
@@ -1255,9 +1255,9 @@
   "name": "Nemo's War (Second Edition)",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:單人/合作為主,冇對抗性終局計分"
  },
  {
   "rank": 413,
@@ -1284,10 +1284,10 @@
   "bggId": 48726,
   "name": "Alien Frontiers",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://cs.uwaterloo.ca/~dtompkin/dtlib/base/Alien%20Frontiers.pdf",
+  "note": "resweep:規則書逐項明文 1 VP"
  },
  {
   "rank": 417,
@@ -1574,10 +1574,10 @@
   "bggId": 206480,
   "name": "Imperial Struggle",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://gmtwebsiteassets.s3-us-west-2.amazonaws.com/impstruggle/imperial_struggle_rulebook_ENG-FR_bilingual_v1.0.pdf",
+  "note": "resweep:規則書 11.0 Final Scoring"
  },
  {
   "rank": 478,
@@ -2025,9 +2025,9 @@
   "name": "Sherlock Holmes Consulting Detective: Jack the Ripper & West End Adventures",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:規則書寫明全體合作"
  },
  {
   "rank": 568,
@@ -2124,10 +2124,10 @@
   "bggId": 357873,
   "name": "The Old King's Crown",
   "cat": "C",
-  "path": "-",
+  "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep 重試:BGG/Scribd 以外冇公開 rulebook,終局計分結構判斷唔到,唔硬砌"
  },
  {
   "rank": 588,
@@ -2215,9 +2215,9 @@
   "name": "Eternal Decks",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:全合作遊戲"
  },
  {
   "rank": 610,
@@ -2394,20 +2394,20 @@
   "bggId": 197376,
   "name": "Charterstone",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/4e/0e/77-charterstone-rulebook.pdf",
+  "note": "resweep:戰役會解鎖新計分,留咗 catch-all 欄"
  },
  {
   "rank": 645,
   "bggId": 144797,
   "name": "Argent: The Consortium",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://www.boardgamehelpers.com/ArgentTheConsortium/Images/ArgentRulebookWeb.pdf",
+  "note": "resweep:勝負係票數,標記/影響力只係 tie-break"
  },
  {
   "rank": 646,
@@ -2664,10 +2664,10 @@
   "bggId": 328866,
   "name": "My Father's Work",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/a7/f7/15-my-fathers-work-rulebook.pdf",
+  "note": "resweep:終局計分明文"
  },
  {
   "rank": 697,
@@ -2724,30 +2724,30 @@
   "bggId": 281655,
   "name": "High Frontier 4 All",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://boardgame.bg/high%20frontier%204%20all%20rules.pdf",
+  "note": "resweep:規則書 M2 Scoring 明文"
  },
  {
   "rank": 707,
   "bggId": 105551,
   "name": "Archipelago",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/25/24/a3-archipelago-rulebook.pdf",
+  "note": "resweep:目標/趨勢卡排名計分"
  },
  {
   "rank": 708,
   "bggId": 345868,
   "name": "Federation",
   "cat": "A",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/78/07/b3-federation-rulebook.pdf",
+  "note": "resweep:終局三段計分明文"
  },
  {
   "rank": 709,
@@ -2944,10 +2944,10 @@
   "bggId": 291845,
   "name": "Three Sisters",
   "cat": "A",
-  "path": "-",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "note": "resweep:desc-gen,25th Century 冇公開 rulebook PDF"
  },
  {
   "rank": 742,
@@ -3245,9 +3245,9 @@
   "name": "Taluva",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:階層式多數決(神廟>塔>茅屋),冇累加總分"
  },
  {
   "rank": 799,
@@ -3325,9 +3325,9 @@
   "name": "Chronicles of Crime: 1400",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:合作查案,分數由 app 結算"
  },
  {
   "rank": 808,
@@ -3534,10 +3534,10 @@
   "bggId": 352418,
   "name": "Fliptown",
   "cat": "A",
-  "path": "-",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "note": "resweep:desc-gen,Write Stuff 只有 P&P 包"
  },
  {
   "rank": 845,
@@ -3564,10 +3564,10 @@
   "bggId": 301255,
   "name": "Whistle Mountain",
   "cat": "A",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/d1/aa/9c-whistle-mountain-rulebook.pdf",
+  "note": "resweep:計分頁係圖抽唔到單價,全部欄用 number"
  },
  {
   "rank": 852,
@@ -3664,10 +3664,10 @@
   "bggId": 385331,
   "name": "Creature Caravan",
   "cat": "A",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://www.redravengames.com/creature-caravan/",
+  "note": "resweep:官方 dropbox 規則書,計分逐條明文"
  },
  {
   "rank": 869,
@@ -3724,10 +3724,10 @@
   "bggId": 407297,
   "name": "River Valley Glassworks",
   "cat": "A",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://assets.allplay.com/board-games-river-valley-glassworks-rulebook-link.pdf",
+  "note": "resweep:官方 Allplay 規則書 FINAL SCORING"
  },
  {
   "rank": 880,
@@ -3804,10 +3804,10 @@
   "bggId": 342444,
   "name": "Black Rose Wars: Rebirth",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:desc-gen,官方 rulebook 喺要登入嘅 app 站"
  },
  {
   "rank": 894,
@@ -3894,10 +3894,10 @@
   "bggId": 387780,
   "name": "Rats of Wistar",
   "cat": "A",
-  "path": "-",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "note": "resweep:desc-gen,Cranio 官網只公開勘誤"
  },
  {
   "rank": 923,
@@ -3984,10 +3984,10 @@
   "bggId": 173064,
   "name": "Leaving Earth",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
+  "path": "b",
+  "result": "done",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:desc-gen,lumenaris 官網 PDF 連結已失效"
  },
  {
   "rank": 939,
@@ -4004,10 +4004,10 @@
   "bggId": 214029,
   "name": "SpaceCorp: 2025-2300AD",
   "cat": "C",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "待研究判斷"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/30/fe/00-spacecorp-rulebook.pdf",
+  "note": "resweep:分數即係利潤"
  },
  {
   "rank": 943,
@@ -4114,10 +4114,10 @@
   "bggId": 239472,
   "name": "Abomination: The Heir of Frankenstein",
   "cat": "A",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://media.plaidhatgames.com/old_images/games/abomination/rules.pdf",
+  "note": "resweep:官方 Plaid Hat 規則書"
  },
  {
   "rank": 965,
@@ -4225,9 +4225,9 @@
   "name": "A Gentle Rain",
   "cat": "C",
   "path": "-",
-  "result": "pending",
+  "result": "skip",
   "sourceUrl": "",
-  "note": "待研究判斷"
+  "note": "resweep:單人/雙人合作拼圖,冇對抗性終局計分"
  },
  {
   "rank": 988,
@@ -4274,10 +4274,10 @@
   "bggId": 56692,
   "name": "Parade",
   "cat": "-",
-  "path": "-",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "resweep:log 漏網,重掃補入"
+  "path": "c",
+  "result": "done",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/8f/7e/8f-parade-rulebook.pdf",
+  "note": "resweep:log 漏網;分數越低越好,兩欄都自動扣"
  },
  {
   "rank": 1001,

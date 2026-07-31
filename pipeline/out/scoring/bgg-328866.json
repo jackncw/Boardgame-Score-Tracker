@@ -1,0 +1,57 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-328866",
+ "name": "My Father's Work",
+ "nameZh": "父輩之作",
+ "theme": {
+  "accent": "#5A4A7A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/a7/f7/15-my-fathers-work-rulebook.pdf",
+  "verified": false,
+  "tieBreaker": "同分時完成咗曾祖父傑作實驗嗰位勝;再同分比莊園升級數目",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中累積勝利點",
+    "note": "完成實驗(C 級實驗第一世代另加 8 分、第二世代 4 分)、事件同 app 指示期間攞到嘅分",
+    "icon": "📈",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "vanity",
+    "label": "虛榮莊園升級能力",
+    "note": "按你虛榮莊園升級能力寫嘅方式計終局分",
+    "icon": "🏚️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "upgrades",
+    "label": "莊園升級",
+    "note": "每個加咗上莊園嘅升級 1 分",
+    "icon": "🔧",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "maladjust",
+    "label": "失調",
+    "note": "第三世代結束時仲有嘅每個失調 -3 分",
+    "icon": "🧟",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 3,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

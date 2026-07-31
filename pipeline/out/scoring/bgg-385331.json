@@ -1,0 +1,93 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-385331",
+ "name": "Creature Caravan",
+ "nameZh": "奇獸商隊",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://www.redravengames.com/creature-caravan/",
+  "verified": false,
+  "tieBreaker": "同分時市場板同餘燼殭屍板上放咗嘅方塊合計較多者勝",
+  "fields": [
+   {
+    "id": "eastrey",
+    "label": "抵達終點",
+    "note": "至少有一個營地喺 Eastrey,+5 分",
+    "icon": "🏁",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 5
+   },
+   {
+    "id": "distance",
+    "label": "前進距離",
+    "note": "由起點到商隊終點向前行過嘅欄數,每欄 1 分(紮營喺 Eastrey 上限 25 分);帳篷唔計",
+    "icon": "🐾",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "spaces",
+    "label": "有營地嘅格",
+    "note": "每個有你一個或以上營地嘅格 1 分 —— 唔係逐個營地計",
+    "icon": "⛺",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "zombie",
+    "label": "餘燼殭屍板",
+    "note": "殭屍板上你每粒方塊,按板上印住嘅分值計",
+    "icon": "🧟",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "market",
+    "label": "市場交易",
+    "note": "市場板上你每粒方塊,按板上印住嘅分值計",
+    "icon": "🏪",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "卡牌分數",
+    "note": "商隊入面所有卡青色旗幟上嘅分;手牌唔計",
+    "icon": "🃏",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "treasures",
+    "label": "寶物",
+    "note": "寶物標記青色旗幟上嘅分",
+    "icon": "💎",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tokens",
+    "label": "餘燼殭屍標記",
+    "note": "手上仲剩低嘅每個餘燼殭屍標記 -1 分",
+    "icon": "🔥",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-291845",
+ "name": "Three Sisters",
+ "nameZh": "三姊妹",
+ "theme": {
+  "accent": "#6B9B5A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "garden",
+    "label": "花園",
+    "note": "玉米、豆、南瓜三種作物種落同灌溉之後嘅得分",
+    "icon": "🌽",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "perennials",
+    "label": "多年生植物",
+    "note": "多年生植物區嘅得分",
+    "icon": "🌻",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "apiary",
+    "label": "蜂房",
+    "note": "蜂房發展程度對應嘅得分",
+    "icon": "🐝",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shed",
+    "label": "工具棚",
+    "note": "工具棚入面用過嘅工具同相關軌道得分",
+    "icon": "🧰",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goods",
+    "label": "貨物同水果",
+    "note": "貨物軌同水果軌嘅得分",
+    "icon": "🍎",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "compost",
+    "label": "堆肥",
+    "note": "堆肥軌嘅得分(或者扣分)",
+    "icon": "🪱",
+    "color": "#E8E4F0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

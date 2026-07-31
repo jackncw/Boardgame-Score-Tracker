@@ -1,0 +1,40 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-56692",
+ "name": "Parade",
+ "nameZh": "遊行",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://cdn.1j1ju.com/medias/8f/7e/8f-parade-rulebook.pdf",
+  "verified": false,
+  "tieBreaker": "分數最低者勝;同分時面前卡牌(反轉同正面)最少者勝",
+  "fields": [
+   {
+    "id": "flipped",
+    "label": "反轉咗嘅卡",
+    "note": "每種顏色張數最多嗰位將該色卡反轉,每張只計 1 分;分數越低越好,所以呢欄自動扣",
+    "icon": "🃏",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "values",
+    "label": "正面卡數值",
+    "note": "其餘正面卡牌印住嘅數值加埋;分數越低越好,所以呢欄自動扣",
+    "icon": "🔢",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
