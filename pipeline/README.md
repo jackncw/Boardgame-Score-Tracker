@@ -253,6 +253,48 @@ node coverage-report.mjs      # → out/coverage-report.md
 內容:總覆蓋、按 rank 段分佈、四層信度數目、pending 分類統計、
 同埋 desc-gen 全名單(信度最低,開放用戶修正嘅第一批)。
 
+### extract-url.mjs —— 由任意 URL 抽計分段落
+
+```bash
+node extract-url.mjs <url> [視窗行數]
+node extract-url.mjs --batch <file.json>       # [{name, url}, …]
+```
+
+同 `extract-scoring.mjs` 一樣嘅密度篩選 + 單人章節扣分,但唔經 `bghub-hits.json`。
+冇 bghub 鏡像果批用呢個。PDF cache 喺 `$TEMP/rulebooks-url/`(檔名 = URL 嘅 md5 頭 12 位)。
+
+## rank 1–1000 重掃(2026-07-31)
+
+phase 1 收工時 rank 1–1000 仲有 388 隻 `hasScoring:false`,分三堆:
+
+| 堆 | 內容 | 數目 |
+| --- | --- | ---: |
+| A | 舊標 `skip` / coop / campaign —— 設計決定,維持 false | 327 |
+| B | 舊標未完成(cat=C pending 48、cat=A pending 10、no-source 1) | 59 |
+| C | research-log 完全冇記錄嘅漏網:London(701)、Parade(999) | 2 |
+
+B 堆嘅實情比「舊抽取器抽唔到」更原始 —— 嗰 58 隻 pending 係**由頭到尾冇研究過**,
+note 仍然係「待研究判斷」。所以 B+C 61 隻全部行足流程。
+
+重掃結果:**rulebook-web 34、desc-gen 5、skip 20、no-source 1、pending 1**,
+rank 1–1000 覆蓋由 612 升到 651。批次檔 `batches/r0001-{a,b,c,d}.mjs`。
+
+**bghub 喺 Top 1000 嘅命中率遠高過 1001–3000**:探 60 隻中 31 隻(約 52%,
+1001–3000 只有 22%)。剩低 30 隻靠出版社官網 / `cdn.1j1ju.com` 鏡像搵返。
+`cdn.1j1ju.com` 係今次最有用嘅新來源,覆蓋面比 bghub 闊。
+
+### 今次 skip 嘅尺度(20 隻)
+
+除咗合作/戰役,仲加咗兩類:
+
+- **即時勝負,冇累加計分**:Agent Avenue、Zenith、Tag Team、The King Is Dead 2E
+- **階層式多數決**:Taluva(神廟 > 塔 > 茅屋)—— 加總冇意義
+
+⚠️ **一批「有計分紙但係合作/單人」嘅遊戲今次照跟舊慣例 skip**:Dorfromantik、
+Nemo's War 2E、A Gentle Rain、Sherlock Holmes 系列。呢啲其實有完整終局計分表,
+app 服務得到;維持 skip 純粹係跟 phase 1 「合作 → 唔做」嘅設計決定。
+要改呢條界線係產品決定,唔係資料問題。
+
 ## 呢條線嘅狀態(2026-07-31)
 
 主動生成**已收官**,而且 `out/bghub-hits.json` 嘅存貨亦**已經清空** ——
