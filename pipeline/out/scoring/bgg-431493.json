@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-431493",
+ "name": "Forestry",
+ "nameZh": "林業",
+ "theme": {
+  "accent": "#5A8C5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/forestry.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中得分",
+    "note": "遊戲期間喺計分軌儲落嘅分",
+    "icon": "🌲",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "已建建築",
+    "note": "起咗幾多座建築,查參考磚背面嘅對照表攞分",
+    "icon": "🏚️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "water",
+    "label": "水利建築",
+    "note": "水利建築軌上嘅倍率 × 每個河流標記符號所對應嘅數量(例如傢俬符號睇傢俬類合約卡張數,鋸木廠符號睇升級咗嘅鋸木廠建築磚數),兩個河流標記分開計再加埋",
+    "icon": "💧",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tasks",
+    "label": "已完成任務卡",
+    "note": "完成到嘅任務卡張數,查參考磚對照表攞分;未完成嘅唔計",
+    "icon": "📋",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "forester",
+    "label": "護林員標記名次",
+    "note": "護林員標記數量最多同第二多嘅玩家按對照表攞分",
+    "icon": "🧑‍🌾",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "leftover",
+    "label": "剩餘資源",
+    "note": "冇用過嘅資源(臨時工、金幣、未完成任務卡等)每 3 件 1 分",
+    "icon": "🪙",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "wood",
+    "label": "倉庫木材",
+    "note": "倉庫入面每個木材標記 1 分",
+    "icon": "🪵",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

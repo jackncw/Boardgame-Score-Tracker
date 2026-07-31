@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-330174",
+ "name": "Explorers",
+ "nameZh": "探險家",
+ "theme": {
+  "accent": "#5A8C6E"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/explorers.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中劃走卷軸較少者勝",
+  "fields": [
+   {
+    "id": "provisions",
+    "label": "補給品",
+    "note": "四個回合每回合結算嘅補給品分,加埋計分磚上嘅總數",
+    "icon": "🎒",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gemstones",
+    "label": "寶石",
+    "note": "四個回合每回合結算嘅寶石分,加埋計分磚上嘅總數(可以係負)",
+    "icon": "💎",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "villages",
+    "label": "村莊",
+    "note": "每個村莊格睇上下左右四個單格入面劃咗幾多個 X(斜角唔計):1 格 3 分、2 格 5 分、3 格 7 分、4 格 10 分。全部村莊加埋",
+    "icon": "🏘️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "temples",
+    "label": "神廟",
+    "note": "神廟計分磚上嘅總數",
+    "icon": "🛕",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "achievements",
+    "label": "成就",
+    "note": "只限專家規則:成就欄嘅總數。唔玩專家規則入 0",
+    "icon": "🏅",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

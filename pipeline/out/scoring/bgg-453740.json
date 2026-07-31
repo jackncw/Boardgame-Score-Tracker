@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-453740",
+ "name": "Container",
+ "nameZh": "貨櫃",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/container.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中工廠區剩低貨櫃較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "cash",
+    "label": "手上現金",
+    "note": "終局結算前已經有嘅現金",
+    "icon": "💵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "scored",
+    "label": "計分區貨櫃",
+    "note": "按自己嘅終局計分卡結算計分區入面剩低嘅貨櫃,攞到嘅現金總額",
+    "icon": "📦",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "twovalue",
+    "label": "雙值顏色貨櫃",
+    "note": "計分卡第二行指定嘅顏色:如果計分區入面(包括第一步棄走嗰隻色)每種顏色都至少有一個,呢隻色每個 $10,否則每個 $5。如果雙值色同自己最多嘅顏色打和,就要棄走雙值色改留其他色",
+    "icon": "🎨",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ship",
+    "label": "船同離岸倉貨櫃",
+    "note": "唔喺貨櫃島嘅貨櫃,喺自己船上同離岸銀行暫存區嘅每個 $3(唔理顏色)",
+    "icon": "🚢",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "harbor",
+    "label": "港口區貨櫃",
+    "note": "港口區每個貨櫃 $2(唔理顏色)",
+    "icon": "⚓",
+    "color": "#F7E2CE",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "loans",
+    "label": "未清貸款",
+    "note": "每筆未還貸款 -$10 加 $1 利息,即係 -$11",
+    "icon": "🏦",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 11,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

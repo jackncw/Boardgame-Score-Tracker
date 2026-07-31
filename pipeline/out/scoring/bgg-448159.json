@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-448159",
+ "name": "Railway Boom",
+ "nameZh": "鐵路熱潮",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/railway-boom.pdf",
+  "verified": false,
+  "tieBreaker": "同分依次比:板上鐵路標記較多者勝、資源磚較多者勝、拍賣軌行得較前者勝",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中得分",
+    "note": "遊戲期間儲落嘅勝利分",
+    "icon": "🚂",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "目標卡",
+    "note": "逐張回合目標卡結算:達成到嘅條件數 × 該卡嘅倍率",
+    "icon": "🎯",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源",
+    "note": "手上每 2 個資源 1 分",
+    "icon": "📦",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "railway",
+    "label": "指定鐵路",
+    "note": "揀自己一條鐵路,嗰條鐵路上面每個鐵路標記 2 分",
+    "icon": "🛤️",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 2
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

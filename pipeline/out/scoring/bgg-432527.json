@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-432527",
+ "name": "Ethnos: 2nd Edition",
+ "nameZh": "族群(第二版)",
+ "theme": {
+  "accent": "#6B8C4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/ethnos-2nd-edition.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "age1",
+    "label": "第一時代",
+    "note": "地區:每區控制標記最多嗰個攞該區 I 格威望標記嘅值。隊伍:每組按張數攞威望 —— 1 張 0 分、2 張 1 分、3 張 3 分、4 張 6 分、5 張 10 分、6 張或以上 15 分。地區同數就將該幾個名次嘅獎勵加埋平分,無條件捨去",
+    "icon": "🌅",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "age2",
+    "label": "第二時代",
+    "note": "地區:最多攞 II 格標記值,第二多攞 I 格標記值。隊伍計法同第一時代",
+    "icon": "🌤️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "age3",
+    "label": "第三時代",
+    "note": "地區:最多攞 III 格標記值,第二多攞 II 格,第三多攞 I 格。隊伍計法同第一時代",
+    "icon": "🌇",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

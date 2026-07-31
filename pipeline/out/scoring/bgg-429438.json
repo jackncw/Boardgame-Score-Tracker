@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-429438",
+ "name": "Ayar: Children of the Sun",
+ "nameZh": "阿亞爾:太陽之子",
+ "theme": {
+  "accent": "#C9773C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/ayarchildrenofthesun.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "final",
+    "label": "最終得分",
+    "note": "終局分數係太陽同月亮兩個計分標記入面「較低」嗰個,所以兩邊要盡量拉近。結算前可以將收集到嘅羊駝分配俾太陽或者月亮(或者兩邊都分),按主板上嘅對照表換成分數加落去。呢欄入換完之後兩邊較低嗰個數",
+    "icon": "☀️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

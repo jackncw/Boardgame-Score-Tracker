@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-383109",
+ "name": "Dragonkeepers",
+ "nameZh": "馴龍師",
+ "theme": {
+  "accent": "#8C5AA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/dragonkeepers.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中面前攤開嘅龍卡較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "amulets",
+    "label": "護身符碎片",
+    "note": "翻開所有護身符碎片,按碎片上印住嘅分值加埋",
+    "icon": "🔮",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "pearls",
+    "label": "珍珠",
+    "note": "翻開所有珍珠,按珍珠上印住嘅分值加埋",
+    "icon": "🫧",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "crests",
+    "label": "徽章",
+    "note": "集齊四種顏色龍各至少一隻就攞得徽章,按徽章上印住嘅值計。兩人局唔用 16 分嗰塊",
+    "icon": "🛡️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "eggs",
+    "label": "金蛋",
+    "note": "每隻金蛋 4 分;金蛋最多嘅玩家(同數全部)將其中一隻翻轉,嗰隻改計 16 分。呢欄入計出嚟嘅總分",
+    "icon": "🥚",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

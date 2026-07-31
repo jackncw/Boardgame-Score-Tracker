@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-423648",
+ "name": "Naishi",
+ "nameZh": "內侍",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/naishi.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中領地入面唔同顏色較多者勝",
+  "fields": [
+   {
+    "id": "cards",
+    "label": "卡牌得分",
+    "note": "終局時將手上 5 張卡放喺陣線 5 張卡下面,砌成 2×5 格。每張卡按自己嘅角色條件計分(例如內侍喺陣線 12 分、喺手牌 8 分;顧問按位置 5/4/3 分;稻田群 2 張 10 分、3 張 20 分、4 張或以上 30 分;浪人按唔同種類 8 種 8 分、9 種 15 分、10 種 45 分)。逐個顏色順住加埋",
+    "icon": "🎴",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

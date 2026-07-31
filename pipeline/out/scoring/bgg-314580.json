@@ -1,0 +1,92 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-314580",
+ "name": "Hamburg",
+ "nameZh": "漢堡",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/hamburg.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中錢較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中得分",
+    "note": "八個季節期間喺勝利分軌儲落嘅分",
+    "icon": "⚓",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "展示區卡牌",
+    "note": "展示區入面每張建築/動物園/公園卡,按卡上印住嘅分計",
+    "icon": "🃏",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "laurel",
+    "label": "桂冠建築",
+    "note": "展示區入面有「桂冠」圖示嘅建築,按各自能力結算",
+    "icon": "🏆",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "majority",
+    "label": "多數標記",
+    "note": "每個翻到啟用面嘅多數標記 4 分",
+    "icon": "📊",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 4
+   },
+   {
+    "id": "walls",
+    "label": "第三段城牆",
+    "note": "城牆左右兩邊,每邊起到第三段就 3 分",
+    "icon": "🧱",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 3
+   },
+   {
+    "id": "hummel",
+    "label": "漢斯·胡梅爾像",
+    "note": "每座漢斯·胡梅爾像按像上印住嘅分計",
+    "icon": "🗿",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "clerics",
+    "label": "教堂神職人員",
+    "note": "教堂地板上每個神職人員,睇佢企喺邊個顏色格,自己展示區入面每張同類別嘅建築/動物園/公園 1 分",
+    "icon": "⛪",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cityhall",
+    "label": "市政廳廣場",
+    "note": "自己棋子喺市政廳廣場停嘅位置,攞該格印住嘅分",
+    "icon": "🏛️",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

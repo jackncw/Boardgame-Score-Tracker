@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-431305",
+ "name": "Great Western Trail: El Paso",
+ "nameZh": "西部之旅:艾爾帕索",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/greatwesterntrailelpaso.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中換算後剩錢較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "dollars",
+    "label": "金錢",
+    "note": "手上每 $5 換 1 分",
+    "icon": "💵",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築",
+    "note": "自己擁有嘅建築上面印住嘅勝利分",
+    "icon": "🏠",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "workers",
+    "label": "工人",
+    "note": "所有工人卡上面印住嘅勝利分加埋",
+    "icon": "👷",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cattle",
+    "label": "牛隻卡",
+    "note": "所有牛隻卡上面印住嘅勝利分加埋;如果自己牧人企喺西門塔爾格,再加 2 分",
+    "icon": "🐄",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "目標磚",
+    "note": "完成咗嘅目標磚加埋。每件物品只可以用嚟滿足一個目標;部分完成或者未完成嘅目標一分都冇",
+    "icon": "🎯",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bonus",
+    "label": "獎勵磚",
+    "note": "自己擁有嘅獎勵磚上面印住嘅勝利分",
+    "icon": "⭐",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tradingpost",
+    "label": "貿易站圓片",
+    "note": "自己放喺高亮貿易站格嘅每塊圓片按該格計分",
+    "icon": "🏪",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

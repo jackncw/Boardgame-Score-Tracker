@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-400205",
+ "name": "5 Towers",
+ "nameZh": "五座塔",
+ "theme": {
+  "accent": "#8C5AA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/5-towers.pdf",
+  "verified": false,
+  "tieBreaker": "同分者共享勝利",
+  "fields": [
+   {
+    "id": "notop",
+    "label": "無塔頂嘅塔",
+    "note": "冇塔頂(即係冇 0 值卡)嘅塔,入面每張卡 1 分。呢度入所有呢類塔嘅卡總數",
+    "icon": "🧱",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "withtop",
+    "label": "有塔頂嘅塔",
+    "note": "有塔頂嘅塔,入面每張卡 2 分。呢度入所有呢類塔嘅卡總數",
+    "icon": "🏯",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "main",
+    "label": "主塔加成",
+    "note": "揀自己其中一座塔做主塔(通常揀卡最多嗰座),入面每張卡額外加 1 分。呢度入主塔嘅卡數",
+    "icon": "⭐",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "teardown",
+    "label": "拆卸堆罰分",
+    "note": "拆卸堆入面第一張 -1 分、第二張 -2 分、第三張 -3 分,如此類推(2 張就係 -3)。入負數",
+    "icon": "🧨",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

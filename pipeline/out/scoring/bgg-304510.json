@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-304510",
+ "name": "Pampero",
+ "nameZh": "潘帕羅風",
+ "theme": {
+  "accent": "#5A8C8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/pampero.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "money",
+    "label": "最終現金",
+    "note": "三次計分階段(第三次即係遊戲結束)收晒錢之後手上嘅現金,最多者勝。計分階段包括計分磚結算、專家計分卡、以及塔獎勵磚嘅終局效果",
+    "icon": "💵",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-257732",
+ "name": "Pax Transhumanity",
+ "nameZh": "後人類紀元",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/pax-transhumanity.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "hidden",
+    "label": "隱藏領域",
+    "note": "自己隱藏領域入面嘅公司同問題卡按卡上 VP 加埋。呢欄用喺「臨界點結束」同「多數決結束」兩種結局",
+    "icon": "🔒",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "dominant",
+    "label": "主導領域",
+    "note": "自己喺主導領域入面嘅公司同問題卡,卡上 VP 計雙倍。冇主導領域就淨計隱藏領域。呢欄用喺「臨界點結束」同「多數決結束」兩種結局",
+    "icon": "🌐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "futureshock",
+    "label": "未來衝擊",
+    "note": "只用喺「典範轉移結束」同「奇點結束」:排列區入面自己每個特工 1 分。如果係前兩種結局呢欄入 0",
+    "icon": "⚡",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

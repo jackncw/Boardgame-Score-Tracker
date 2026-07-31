@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-275215",
+ "name": "Namiji",
+ "nameZh": "波路",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/namiji.pdf",
+  "verified": false,
+  "tieBreaker": "第一名同分者共享勝利",
+  "fields": [
+   {
+    "id": "track",
+    "label": "遊戲中勝利分",
+    "note": "遊戲期間喺勝利分軌儲落嘅分(甲殼類標記每個即時 1 分等等)",
+    "icon": "🎣",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "earlybird",
+    "label": "早鳥標記",
+    "note": "船到終點時攞現存最高值嘅早鳥標記:第一名 7 分、第二名 5 分、第三名 3 分,如此類推",
+    "icon": "🐦",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "rocks",
+    "label": "聖岩卡",
+    "note": "翻開聖岩卡按卡上條件攞分",
+    "icon": "🪨",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "offerings",
+    "label": "供品罰分",
+    "note": "船板上仲有供品公仔嘅話,睇最上面嗰個仲有公仔嘅格印住嘅數,扣返咁多分。四個公仔全部冇放走就係 -15 分;全部放晒就 0 分。入負數",
+    "icon": "⛩️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": -999
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

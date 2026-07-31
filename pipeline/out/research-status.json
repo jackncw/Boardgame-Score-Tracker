@@ -15715,9 +15715,9 @@
   "name": "Kavango",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/kavango.pdf",
+  "note": "rulebook 明文:保育獎每項 10 分;動物分值印喺卡故 number"
  },
  {
   "rank": 2147,
@@ -15885,9 +15885,9 @@
   "name": "Hamburg",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/hamburg.pdf",
+  "note": "rulebook 明文:多數標記 4 分、第三段城牆每邊 3 分、神職人員每張同類卡 1 分"
  },
  {
   "rank": 2164,
@@ -15975,9 +15975,9 @@
   "name": "The White Castle Duel",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/the-white-castle-duel.pdf",
+  "note": "rulebook FINAL SCORING 全部明文(5 錢 1 分、資源 3-6 得 1 / 7 得 2、旗×層數、刀盔印記乘法、藍鶴×白鶴)"
  },
  {
   "rank": 2173,
@@ -16145,9 +16145,9 @@
   "name": "Explorers",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/explorers.pdf",
+  "note": "rulebook 明文村莊 3/5/7/10;補給/寶石/神廟分值印喺計分磚故 number"
  },
  {
   "rank": 2190,
@@ -16335,9 +16335,9 @@
   "name": "Dragonkeepers",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/dragonkeepers.pdf",
+  "note": "rulebook 明文:金蛋 4 分、最多者翻一隻計 16 分;其餘分值印喺配件故 number"
  },
  {
   "rank": 2209,
@@ -16365,9 +16365,9 @@
   "name": "Ethnos: 2nd Edition",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/ethnos-2nd-edition.pdf",
+  "note": "rulebook 明文隊伍張數表 0/1/3/6/10/15;地區威望標記值隨機故 number,拆三個時代做欄"
  },
  {
   "rank": 2212,
@@ -16405,9 +16405,9 @@
   "name": "Naishi",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/naishi.pdf",
+  "note": "計分全部由角色卡條件決定,合併做一欄 number;note 只引用 rulebook 明文舉出嘅幾個例"
  },
  {
   "rank": 2216,
@@ -16505,9 +16505,9 @@
   "name": "Rise of Empires",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/rise-of-empires.pdf",
+  "note": "rulebook 明文:金幣同資源碟各每 3 個 1 分捨去"
  },
  {
   "rank": 2226,
@@ -16695,9 +16695,9 @@
   "name": "Pax Transhumanity",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/pax-transhumanity.pdf",
+  "note": "rulebook 明文三種結局計分法;卡上 VP 值故 number,未來衝擊每特工 1 分明文"
  },
  {
   "rank": 2245,
@@ -16835,9 +16835,9 @@
   "name": "Container",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/container.pdf",
+  "note": "rulebook 明文:船/離岸 $3、港口 $2、工廠 $0、貸款 -$11、雙值色 $10 或 $5"
  },
  {
   "rank": 2259,
@@ -16875,9 +16875,9 @@
   "name": "Origins: First Builders",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/origins-first-builders.pdf",
+  "note": "rulebook 明文:剩金每個 1 分、神廟軌去最高計其餘兩個、寶座骰值×同色塔高"
  },
  {
   "rank": 2263,
@@ -16915,9 +16915,9 @@
   "name": "Pampero",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/pampero.pdf",
+  "note": "rulebook 明文:錢最多者勝,冇獨立 VP 系統,只做一欄現金"
  },
  {
   "rank": 2267,
@@ -17035,9 +17035,9 @@
   "name": "Terramara",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/terramara.pdf",
+  "note": "rulebook 明文:軍事 8/5/2、商隊 8/5/3、預留神器 5、原料半分精煉 1 分;計分項目清單見 Game End Scoring"
  },
  {
   "rank": 2279,
@@ -17116,8 +17116,8 @@
   "cat": "-",
   "path": "c",
   "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "sourceUrl": "https://bghub.org/r/autobahn.pdf",
+  "note": "終局計分喺 rulebook 第 15 頁圖表,pdftotext 抽唔到;正文只講到「大堂同頭三個部門」,講唔出係邊三個部門,唔硬砌"
  },
  {
   "rank": 2287,
@@ -17215,9 +17215,9 @@
   "name": "Forestry",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/forestry.pdf",
+  "note": "用玩家 END OF THE GAME AND SCORING(line 4401),唔係 forester 單人對手嗰段;剩餘每 3 件 1 分同木材 1 分明文"
  },
  {
   "rank": 2297,
@@ -17235,9 +17235,9 @@
   "name": "Great Western Trail: El Paso",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/greatwesterntrailelpaso.pdf",
+  "note": "rulebook 明文 7 大類;每 $5 得 1 分、西門塔爾格 +2 明文"
  },
  {
   "rank": 2299,
@@ -17385,9 +17385,9 @@
   "name": "The New Era",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/thenewera.pdf",
+  "note": "rulebook 明文:基地卡標記 + 地點卡標記 + 國家內每個地點 1 分"
  },
  {
   "rank": 2314,
@@ -17485,9 +17485,9 @@
   "name": "House of Fado",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/house-of-fado.pdf",
+  "note": "rulebook 明文:每 5 蚊 1 分、法朵磚上限 15 分;星星同法朵對照表印喺圖故 number"
  },
  {
   "rank": 2324,
@@ -17705,9 +17705,9 @@
   "name": "Railway Boom",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/railway-boom.pdf",
+  "note": "rulebook 明文:每 2 資源 1 分、指定鐵路每標記 2 分"
  },
  {
   "rank": 2346,
@@ -17785,9 +17785,9 @@
   "name": "Namiji",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/namiji.pdf",
+  "note": "rulebook 明文:早鳥 7/5/3、供品最多 -15"
  },
  {
   "rank": 2354,
@@ -17895,9 +17895,9 @@
   "name": "Ayar: Children of the Sun",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/ayarchildrenofthesun.pdf",
+  "note": "終局分數係太陽/月亮兩軌較低嗰個,唔係加總,所以只做一欄避免加錯"
  },
  {
   "rank": 2365,
@@ -18125,9 +18125,9 @@
   "name": "5 Towers",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/5-towers.pdf",
+  "note": "rulebook 明文:無頂 1 分/張、有頂 2 分/張、主塔 +1 分/張、拆卸堆 -1/-2/-3…"
  },
  {
   "rank": 2388,
@@ -18695,9 +18695,9 @@
   "name": "Bios: Genesis",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/bios-genesis.pdf",
+  "note": "rulebook I1 明文:方塊/生命體/戰利品各 1 分、營養層優勢 6 或 12 分"
  },
  {
   "rank": 2445,
@@ -18875,9 +18875,9 @@
   "name": "Arena: Roma II",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/arena-roma-ii.pdf",
+  "note": "rulebook 明文:VP 存量耗盡即完場,最多 VP 者勝"
  },
  {
   "rank": 2463,

@@ -1,0 +1,109 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-272427",
+ "name": "Terramara",
+ "nameZh": "泰拉瑪拉",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/terramara.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中喺河流軌行得最遠者勝;再同分睇軍事力量;再同分共享勝利",
+  "fields": [
+   {
+    "id": "vptiles",
+    "label": "勝利分磚",
+    "note": "攞到嘅勝利分磚上面印住嘅分加埋",
+    "icon": "🔷",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "artifacts",
+    "label": "已製作神器",
+    "note": "製作咗嘅神器按各自印住嘅分計",
+    "icon": "🗿",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cardeffects",
+    "label": "卡牌終局效果",
+    "note": "卡上有終局效果嘅逐張結算",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "military",
+    "label": "軍事力量名次",
+    "note": "軍事軌名次:第一 8 分、第二 5 分、第三 2 分。同數者全部攞該名次分,跟住嗰個名次嘅分就唔派。冇入三甲入 0",
+    "icon": "⚔️",
+    "color": "#F2D8D8",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      3,
+      2
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      1,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "caravans",
+    "label": "商隊抵達終點",
+    "note": "商隊行到道路盡頭就泊入最高分嘅空格:第一架 8 分、第二架 5 分、之後每架 3 分。兩架商隊分開計,所以同一個人可以攞到 8 分同 5 分兩格",
+    "icon": "🐫",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "outposts",
+    "label": "前哨站",
+    "note": "留低咗自己旗嘅前哨站,按達成到簡單/中等/困難邊個要求攞相應分數;一個都達唔到就嗰個前哨站 0 分",
+    "icon": "🚩",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "reserved",
+    "label": "預留神器",
+    "note": "手上有一件預留神器就 5 分(有入 5,冇入 0)",
+    "icon": "✨",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源",
+    "note": "每個原料 0.5 分、每個精煉資源 1 分,加埋捨去小數",
+    "icon": "📦",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

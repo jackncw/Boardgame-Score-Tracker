@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-373667",
+ "name": "House of Fado",
+ "nameZh": "法朵之家",
+ "theme": {
+  "accent": "#8C3F3F"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/house-of-fado.pdf",
+  "verified": false,
+  "tieBreaker": "同分依次比:星星較多者勝、法朵磚較多者勝、金錢較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中聲望分",
+    "note": "遊戲期間儲落嘅聲望分",
+    "icon": "🎶",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "musicians",
+    "label": "樂手磚",
+    "note": "餐廳入面每塊樂手磚按佢嘅名氣值計分",
+    "icon": "🎸",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "stars",
+    "label": "星星",
+    "note": "按攞到嘅星星數查對照表(表印喺板上)",
+    "icon": "⭐",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "billboard",
+    "label": "廣告板專長",
+    "note": "逐個專長睇廣告板旁邊嘅聲望方塊多數:最多攞計分磚上最高分,第二多攞第二高分,三/四人局第三多攞第三高分。人數唔夠就對應名次唔派分。同數就將涉及嗰幾個名次嘅分加埋除以同數人數,無條件捨去",
+    "icon": "📣",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "fado",
+    "label": "法朵磚",
+    "note": "按遊戲期間結算過嘅法朵磚數查對照表;超過 4 塊都一律 15 分",
+    "icon": "🎤",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "剩餘金錢",
+    "note": "每 5 蚊 1 分",
+    "icon": "🪙",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

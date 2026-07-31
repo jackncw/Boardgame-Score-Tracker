@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-387515",
+ "name": "Kavango",
+ "nameZh": "卡萬戈",
+ "theme": {
+  "accent": "#8C9B4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/kavango.pdf",
+  "verified": false,
+  "tieBreaker": "同分者共享勝利",
+  "fields": [
+   {
+    "id": "research",
+    "label": "研究得分",
+    "note": "三個回合期間完成研究喺計分軌行到嘅分",
+    "icon": "🔬",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "awards",
+    "label": "保育獎",
+    "note": "每完成一項保育獎 10 分,三項全部達成都攞得",
+    "icon": "🏅",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 10
+   },
+   {
+    "id": "animals",
+    "label": "保護區動物",
+    "note": "保護區入面嘅動物卡按卡上分值加埋;放喺庇護所嘅動物唔計",
+    "icon": "🦓",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "goals",
+    "label": "目標卡",
+    "note": "有玩目標卡嘅話,完成目標攞到嘅額外分",
+    "icon": "🎯",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

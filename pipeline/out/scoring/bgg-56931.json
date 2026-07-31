@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-56931",
+ "name": "Arena: Roma II",
+ "nameZh": "競技場:羅馬 II",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/arena-roma-ii.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "勝利分",
+    "note": "手上嘅勝利分標記。有人個人存量用完、或者公共存量用完就即刻完場,最多者勝",
+    "icon": "🏛️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

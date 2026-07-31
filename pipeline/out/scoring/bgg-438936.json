@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-438936",
+ "name": "The White Castle Duel",
+ "nameZh": "白色城堡:對決",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/the-white-castle-duel.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中放低較多氏族印記者勝;再同分睇社會階梯行得較高;再同分共享勝利",
+  "fields": [
+   {
+    "id": "fans",
+    "label": "遊戲中紅扇分",
+    "note": "遊戲期間靠紅扇攞到嘅氏族分",
+    "icon": "🪭",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "coins",
+    "label": "金錢同大名印",
+    "note": "金幣加大名印總數,每 5 個 1 分,除唔盡捨去",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源",
+    "note": "逐種資源計:剩 3 至 6 個嗰種各 1 分,剩 7 個嗰種 2 分",
+    "icon": "📦",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "nobori",
+    "label": "幟旗",
+    "note": "幟旗圖示總數 × 自己朝臣爬到城堡第幾層(1、2 或者 3)",
+    "icon": "🚩",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "katana",
+    "label": "武士刀",
+    "note": "武士刀圖示總數 × 基礎訓練場入面自己嘅氏族印記數(每個印記 1 分)",
+    "icon": "⚔️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "kabuto",
+    "label": "頭盔",
+    "note": "頭盔圖示總數 × (基礎訓練場每個氏族印記 1 分 + 精英訓練場每個氏族印記 2 分)",
+    "icon": "🪖",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cranes",
+    "label": "摺紙鶴",
+    "note": "藍色紙鶴總數 × 白色紙鶴總數",
+    "icon": "🕊️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

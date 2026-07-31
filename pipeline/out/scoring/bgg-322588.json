@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-322588",
+ "name": "Origins: First Builders",
+ "nameZh": "起源:最初建造者",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/origins-first-builders.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "遊戲期間喺計分軌儲落嘅勝利分",
+    "icon": "🗿",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gold",
+    "label": "剩餘金",
+    "note": "終局剩低嘅每個金 1 分",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "advisor",
+    "label": "顧問軌",
+    "note": "顧問軌上最右邊嗰粒市民骰旁邊印住嘅分值",
+    "icon": "🧑‍⚖️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "temples",
+    "label": "神廟軌",
+    "note": "三個神廟軌上嘅黃道圓片:唔計最高嗰個,將另外兩個所在位置嘅分值加埋",
+    "icon": "🛕",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "seats",
+    "label": "權力寶座",
+    "note": "權力寶座上每粒市民骰:骰值 × 宮殿磚上同色高塔嘅高度,全部加埋",
+    "icon": "👑",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

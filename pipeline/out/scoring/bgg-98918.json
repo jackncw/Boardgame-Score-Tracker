@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-98918",
+ "name": "Bios: Genesis",
+ "nameZh": "生態:起源",
+ "theme": {
+  "accent": "#5A8C8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/bios-genesis.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中催化劑較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "cubes",
+    "label": "方塊",
+    "note": "自己生物體(細菌、寄生體、巨型生物)同佢哋嘅突變卡上面每粒方塊 1 分;系統染色體都當方塊,每個 1 分",
+    "icon": "🧊",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "bionts",
+    "label": "生命體",
+    "note": "任何生物體入面自己顏色嘅生命體,每個 1 分(就算喺人哋擁有嘅生物體入面都照計)",
+    "icon": "🦠",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "trophies",
+    "label": "戰利品",
+    "note": "進階規則:持有嘅每張滅絕生物卡/牌 1 分",
+    "icon": "🏆",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "dominance",
+    "label": "營養層優勢",
+    "note": "進階規則:每個巨型生物額外 6 分;如果佢喺自己生態系(陸或者海)入面營養層最高就 12 分。一個巨型生物有多個生命體嘅話,呢筆分由有生命體嘅玩家平分",
+    "icon": "🍖",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

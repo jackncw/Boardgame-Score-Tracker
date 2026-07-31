@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-96007",
+ "name": "The New Era",
+ "nameZh": "新紀元",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/thenewera.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "basecard",
+    "label": "基地卡勝利分標記",
+    "note": "基地卡上面嘅勝利分標記加埋",
+    "icon": "🏛️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "locations",
+    "label": "地點卡勝利分標記",
+    "note": "各張地點卡上面嘅勝利分標記加埋(每張地點卡最多放 3 個)",
+    "icon": "📍",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "count",
+    "label": "國家內地點數",
+    "note": "已納入國家嘅地點卡,每張 1 分",
+    "icon": "🗺️",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

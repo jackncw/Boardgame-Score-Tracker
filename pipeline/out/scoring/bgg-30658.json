@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-30658",
+ "name": "Rise of Empires",
+ "nameZh": "帝國崛起",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/rise-of-empires.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中金幣較多者勝",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "三個時代六個回合期間正常結算攞到嘅勝利分",
+    "icon": "👑",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gold",
+    "label": "金幣",
+    "note": "每 3 個金幣 1 分,除唔盡捨去",
+    "icon": "🪙",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "discs",
+    "label": "資源碟",
+    "note": "每 3 塊資源碟 1 分,除唔盡捨去",
+    "icon": "🧱",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
