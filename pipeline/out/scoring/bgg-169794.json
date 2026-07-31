@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-169794",
+ "name": "Haspelknecht: The Story of Early Coal Mining",
+ "nameZh": "礦工絞盤",
+ "theme": {
+  "accent": "#5A5A5A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "coal",
+    "label": "已開採煤炭",
+    "note": "採到嘅煤帶嚟嘅 VP",
+    "icon": "⛏️",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "developments",
+    "label": "發展與設施",
+    "note": "已購發展同礦坑設施帶嚟嘅 VP",
+    "icon": "⚙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "water",
+    "label": "排水進度",
+    "note": "排水系統進度帶嚟嘅 VP",
+    "icon": "💧",
+    "color": "#D8EFEC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

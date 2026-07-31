@@ -9637,7 +9637,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "搵唔到夠密度嘅計分段落,要人手睇"
  },
  {
   "rank": 1539,
@@ -9755,9 +9755,9 @@
   "name": "Imhotep: The Duel",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/imhotep-the-duel.pdf",
+  "note": "神廟 1-4-9-16、金字塔 -6-0-4-10-15-30-45、墓室組 4、行動 1、港口米寶 1(全部明文)"
  },
  {
   "rank": 1551,
@@ -9815,9 +9815,9 @@
   "name": "Nanty Narking",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1557,
@@ -13635,9 +13635,9 @@
   "name": "Haspelknecht: The Story of Early Coal Mining",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1939,
@@ -13655,9 +13655,9 @@
   "name": "Chocolate Factory",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1941,
@@ -13695,9 +13695,9 @@
   "name": "Indian Summer",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1945,
@@ -13895,9 +13895,9 @@
   "name": "La Habana",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 1965,
@@ -14565,9 +14565,9 @@
   "name": "Dice Settlers",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 2032,
@@ -15995,9 +15995,9 @@
   "name": "Artifacts, Inc.",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 2175,
@@ -16025,9 +16025,9 @@
   "name": "After Us",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 2178,
@@ -16135,9 +16135,9 @@
   "name": "On the Underground",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 2189,
@@ -16175,9 +16175,9 @@
   "name": "Treasure Hunter",
   "cat": "-",
   "path": "c",
-  "result": "pending",
+  "result": "done",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all"
  },
  {
   "rank": 2193,

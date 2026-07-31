@@ -459,10 +459,10 @@
 
 ## 進度
 
-- 已生成計分表(done):325
+- 已生成計分表(done):336
 - 揾唔到可靠來源(no-source):0
 - 判定唔使做(skip):880
-- 未做(pending):795
+- 未做(pending):784
 - 路徑 b(直接生成):190 · 路徑 c(網查 rulebook):930
 
 ## 逐隻紀錄
@@ -1006,7 +1006,7 @@
 | 1535 | Council of 4 | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1536 | Strasbourg | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1537 | Dice Throne: Santa v. Krampus | - | skip | — | 雙人對戰,以擊倒對手生命值定勝負,無累加計分 |
-| 1538 | Dragon Eclipse | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1538 | Dragon Eclipse | c | pending | — | 搵唔到夠密度嘅計分段落,要人手睇 |
 | 1539 | Kitchen Rush (Revised Edition) | - | skip | — | 合作制即時遊戲,無玩家累加計分 |
 | 1540 | Star Wars: Unlock! | - | skip | — | 密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表 |
 | 1541 | Pathfinder Adventure Card Game: Skull & Shackles – Base Set | - | skip | — | 合作制遊戲,無玩家累加計分 |
@@ -1018,13 +1018,13 @@
 | 1547 | Air, Land, & Sea: Spies, Lies, & Supplies | - | skip | — | 雙人對戰,以最先儲夠指定勝利點定勝負,無終局分項計分 |
 | 1548 | Arkadia | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1549 | The Werewolves of Miller's Hollow | - | skip | — | 社交推理遊戲,以陣營達成條件定勝負,無累加計分 |
-| 1550 | Imhotep: The Duel | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1550 | Imhotep: The Duel | c | done | [link](https://bghub.org/r/imhotep-the-duel.pdf) | 神廟 1-4-9-16、金字塔 -6-0-4-10-15-30-45、墓室組 4、行動 1、港口米寶 1(全部明文) |
 | 1551 | Copenhagen | b | done | — | 放寬尺度後直接生成 |
 | 1552 | Rattus | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1553 | Welcome To...: Collector's Edition | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1554 | Dale of Merchants 2 | - | skip | — | 以最先儲齊一疊指定動物牌定勝負,無累加計分 |
 | 1555 | Time's Up! Party | - | skip | — | 隊制猜詞遊戲,無累加計分 |
-| 1556 | Nanty Narking | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1556 | Nanty Narking | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1557 | burncycle | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1558 | Machina Arcana (Second/Third Edition) | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1559 | No Retreat! The Russian Front | - | skip | — | 雙人戰棋,以陣營勝利條件定勝負,無累加計分 |
@@ -1406,13 +1406,13 @@
 | 1935 | Discordia | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1936 | I'm the Boss! | b | done | — | 放寬尺度後直接生成 |
 | 1937 | Sleuth | - | skip | — | 推理遊戲,以最快推出答案定勝負,無累加計分 |
-| 1938 | Haspelknecht: The Story of Early Coal Mining | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1938 | Haspelknecht: The Story of Early Coal Mining | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1939 | Nova Roma | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1940 | Chocolate Factory | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1940 | Chocolate Factory | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1941 | Traders of Osaka | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1942 | Horrified: Greek Monsters | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1943 | Next Station: Paris | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1944 | Indian Summer | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1944 | Indian Summer | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1945 | Freelancers: A Crossroads Game | - | skip | — | 合作制遊戲,無玩家累加計分 |
 | 1946 | Yokai Septet | - | skip | — | 隊制吃磴遊戲,以陣營條件定勝負,無累加計分 |
 | 1947 | G.I. JOE Deck-Building Game | - | skip | — | 合作制牌庫構築遊戲,無玩家累加計分 |
@@ -1432,7 +1432,7 @@
 | 1961 | Mystery of the Abbey | - | skip | — | 推理遊戲,以最快指認兇手定勝負,無累加計分 |
 | 1962 | Assassin's Creed: Brotherhood of Venice | - | skip | — | 合作制戰役遊戲,無玩家累加計分 |
 | 1963 | Cosmic Frog | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1964 | La Habana | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1964 | La Habana | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1965 | Masmorra: Dungeons of Arcadia | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1966 | Ada's Dream | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1967 | L.L.A.M.A. | b | done | — | 放寬尺度後直接生成 |
@@ -1499,7 +1499,7 @@
 | 2028 | Fire Tower | - | skip | — | 以燒毀對手瞭望塔定勝負,無累加計分 |
 | 2029 | Power Grid: The First Sparks | c | pending | — | ⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表 |
 | 2030 | Pixel Tactics | - | skip | — | 雙人對戰,以擊倒對手首領定勝負,無累加計分 |
-| 2031 | Dice Settlers | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2031 | Dice Settlers | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 2032 | Daitoshi | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 2033 | In the Shadow of the Emperor | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 2034 | Android | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -1642,10 +1642,10 @@
 | 2171 | Dice Throne: Season Two – Seraph v. Vampire Lord | - | skip | — | 按遊戲性質唔適用累加計分表(合作/劇本/淘汰/競速/派對) |
 | 2172 | The White Castle Duel | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 2173 | Ecosystem | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 2174 | Artifacts, Inc. | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2174 | Artifacts, Inc. | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 2175 | Strat-O-Matic Baseball | - | skip | — | 按遊戲性質唔適用累加計分表(合作/劇本/淘汰/競速/派對) |
 | 2176 | Mordheim: City of the Damned | - | skip | — | 按遊戲性質唔適用累加計分表(合作/劇本/淘汰/競速/派對) |
-| 2177 | After Us | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2177 | After Us | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 2178 | Prey Another Day | - | skip | — | 按遊戲性質唔適用累加計分表(合作/劇本/淘汰/競速/派對) |
 | 2179 | High Frontier | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 2180 | Wooden Ships & Iron Men | - | skip | — | 按遊戲性質唔適用累加計分表(合作/劇本/淘汰/競速/派對) |
@@ -1656,11 +1656,11 @@
 | 2185 | Nyet! | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 2186 | Exploding Kittens: Party Pack | - | skip | — | 按遊戲性質唔適用累加計分表(合作/劇本/淘汰/競速/派對) |
 | 2187 | Dice Throne: Season Two – Tactician v. Huntress | - | skip | — | 按遊戲性質唔適用累加計分表(合作/劇本/淘汰/競速/派對) |
-| 2188 | On the Underground | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2188 | On the Underground | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 2189 | Explorers | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 2190 | Capital Lux | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 2191 | Fate: Defenders of Grimheim | - | skip | — | 按遊戲性質唔適用累加計分表(合作/劇本/淘汰/競速/派對) |
-| 2192 | Treasure Hunter | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 2192 | Treasure Hunter | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 2193 | Gulo Gulo | - | skip | — | 按遊戲性質唔適用累加計分表(合作/劇本/淘汰/競速/派對) |
 | 2194 | Reykholt | - | skip | — | 按遊戲性質唔適用累加計分表(合作/劇本/淘汰/競速/派對) |
 | 2195 | Telestrations: After Dark | - | skip | — | 按遊戲性質唔適用累加計分表(合作/劇本/淘汰/競速/派對) |

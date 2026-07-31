@@ -1,0 +1,120 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-255674",
+ "name": "Imhotep: The Duel",
+ "nameZh": "印和闐:對決",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/imhotep-the-duel.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "obelisk",
+    "label": "方尖碑",
+    "note": "最先攞到第五個方尖碑標記者 12 分;對手終局有 5 個或以上得 6 分,否則 0 分;有 10 個或以上者 12 + 6 = 18 分",
+    "icon": "🗼",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "temples",
+    "label": "神廟套組",
+    "note": "一套最多四塊唔同面值嘅神廟標記;一套 1/2/3/4 塊分別計 1/4/9/16 分。有多過一套就逐套入",
+    "icon": "🏛️",
+    "color": "#EADCF0",
+    "input": "tiered",
+    "table": [
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      9
+     ],
+     [
+      4,
+      16
+     ]
+    ]
+   },
+   {
+    "id": "pyramid",
+    "label": "較細嗰座金字塔",
+    "note": "只計較細嗰座(兩座一樣大就只計一座);0/1/2/3/4/5/6 塊分別計 −6/0/4/10/15/30/45 分",
+    "icon": "🔺",
+    "color": "#F5E8D8",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      -6
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      10
+     ],
+     [
+      4,
+      15
+     ],
+     [
+      5,
+      30
+     ],
+     [
+      6,
+      45
+     ]
+    ]
+   },
+   {
+    "id": "tomb",
+    "label": "墓室相連組",
+    "note": "每組相連嘅墓室標記 4 分,唔理組有幾大;單獨一塊都當一組",
+    "icon": "⚱️",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 4
+   },
+   {
+    "id": "actions",
+    "label": "未用行動標記",
+    "note": "每個 1 分",
+    "icon": "🎯",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "harbor",
+    "label": "仍喺港口嘅米寶",
+    "note": "每個 1 分",
+    "icon": "⛵",
+    "color": "#D8EFEC",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

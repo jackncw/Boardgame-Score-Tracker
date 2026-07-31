@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-182189",
+ "name": "Treasure Hunter",
+ "nameZh": "尋寶獵人",
+ "theme": {
+  "accent": "#8C6239"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "treasures",
+    "label": "已收集寶物",
+    "note": "收集到嘅寶物卡按套組計嘅分",
+    "icon": "💎",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "終局手上嘅錢按規則換到嘅分",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "penalty",
+    "label": "受傷與扣分",
+    "note": "受傷標記造成嘅扣分(呢欄入正數,自動扣)",
+    "icon": "🩹",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0,
+    "sign": -1
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

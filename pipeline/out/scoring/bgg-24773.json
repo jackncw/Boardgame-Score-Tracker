@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-24773",
+ "name": "On the Underground",
+ "nameZh": "地鐵風雲",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "lines",
+    "label": "路線長度與車站",
+    "note": "你嘅路線經過嘅車站同長度帶嚟嘅分",
+    "icon": "🚇",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "passengers",
+    "label": "乘客流量",
+    "note": "乘客搭你路線帶嚟嘅分",
+    "icon": "🧳",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "hubs",
+    "label": "轉乘與地標",
+    "note": "接駁轉乘站同地標帶嚟嘅分",
+    "icon": "🔄",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

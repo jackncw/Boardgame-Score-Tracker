@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-233678",
+ "name": "Indian Summer",
+ "nameZh": "印度夏日",
+ "theme": {
+  "accent": "#C9553C"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "tiles",
+    "label": "已鋪落葉磚",
+    "note": "鋪滿森林地圖帶嚟嘅分",
+    "icon": "🍂",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "treasures",
+    "label": "已收集寶物",
+    "note": "收集到嘅森林寶物帶嚟嘅分",
+    "icon": "🪶",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

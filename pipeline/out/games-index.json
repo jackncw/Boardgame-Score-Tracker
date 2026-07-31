@@ -21712,6 +21712,8 @@
   "bggId": 255674,
   "gameId": "bgg-255674",
   "name": "Imhotep: The Duel",
+  "nameZh": "印和闐:對決",
+  "accent": "#C9A227",
   "rank": 1550,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/EZ_6hP3PPQxF8oEkOZ1qng__micro/img/XYK_eBvZG49qWtKEQx2z3kLh2YE=/fit-in/64x64/filters:strip_icc()/pic4597146.jpg",
@@ -21719,7 +21721,7 @@
   "minPlayers": 2,
   "maxPlayers": 2,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 269595,
@@ -21792,6 +21794,8 @@
   "bggId": 249746,
   "gameId": "bgg-249746",
   "name": "Nanty Narking",
+  "nameZh": "南蒂納京",
+  "accent": "#6B3A3A",
   "rank": 1556,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/QVnxAPBc7rhzQ90WGH-G_Q__micro/img/5gDyGKuagP1R96fTKvDOlb4mXHQ=/fit-in/64x64/filters:strip_icc()/pic6111342.png",
@@ -21799,7 +21803,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 322656,
@@ -26868,6 +26872,8 @@
   "bggId": 169794,
   "gameId": "bgg-169794",
   "name": "Haspelknecht: The Story of Early Coal Mining",
+  "nameZh": "礦工絞盤",
+  "accent": "#5A5A5A",
   "rank": 1938,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/fulMbj3UT2AzhW2uLB-pOg__micro/img/AGN2lJEvKUtGHRAWk_CWE1SGg8c=/fit-in/64x64/filters:strip_icc()/pic3070755.jpg",
@@ -26875,7 +26881,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 370789,
@@ -26894,6 +26900,8 @@
   "bggId": 240567,
   "gameId": "bgg-240567",
   "name": "Chocolate Factory",
+  "nameZh": "朱古力工廠",
+  "accent": "#7A5A3A",
   "rank": 1940,
   "year": 2019,
   "thumbnail": "https://cf.geekdo-images.com/BshwmBDyZyxqvdUOWjtReA__micro/img/ErR-hpmkBLF85nPuLGD1OV18r44=/fit-in/64x64/filters:strip_icc()/pic4287283.jpg",
@@ -26901,7 +26909,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 24827,
@@ -26946,6 +26954,8 @@
   "bggId": 233678,
   "gameId": "bgg-233678",
   "name": "Indian Summer",
+  "nameZh": "印度夏日",
+  "accent": "#C9553C",
   "rank": 1944,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/bloH9_cfn7U0ZxilTblA9w__micro/img/igaq2RFI6wd5XR9TBC20op0Cuc8=/fit-in/64x64/filters:strip_icc()/pic3749870.jpg",
@@ -26953,7 +26963,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 383206,
@@ -27208,6 +27218,8 @@
   "bggId": 57925,
   "gameId": "bgg-57925",
   "name": "La Habana",
+  "nameZh": "哈瓦那",
+  "accent": "#C9A227",
   "rank": 1964,
   "year": 2009,
   "thumbnail": "https://cf.geekdo-images.com/BPwC0TioUS40h7D00FcSMg__micro/img/9K2lPUZ1favTigwT9JsDkyGwCRc=/fit-in/64x64/filters:strip_icc()/pic8265939.png",
@@ -27215,7 +27227,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 181524,
@@ -28093,6 +28105,8 @@
   "bggId": 230267,
   "gameId": "bgg-230267",
   "name": "Dice Settlers",
+  "nameZh": "骰子拓荒",
+  "accent": "#8C6239",
   "rank": 2031,
   "year": 2018,
   "thumbnail": "https://cf.geekdo-images.com/Rq78Zg67kx0Ay24kgNnx0Q__micro/img/3fx57MD2NjvuQ3Mn-57MomtHe3U=/fit-in/64x64/filters:strip_icc()/pic4145901.jpg",
@@ -28100,7 +28114,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 402677,
@@ -29974,6 +29988,8 @@
   "bggId": 168609,
   "gameId": "bgg-168609",
   "name": "Artifacts, Inc.",
+  "nameZh": "神器公司",
+  "accent": "#B08D57",
   "rank": 2174,
   "year": 2014,
   "thumbnail": "https://cf.geekdo-images.com/Je70mPYCh-ofxgRu-tJSEA__micro/img/XYHAxbYmAQvpRvReRFqZsKc0Aqw=/fit-in/64x64/filters:strip_icc()/pic2310957.jpg",
@@ -29981,7 +29997,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 2251,
@@ -30013,6 +30029,8 @@
   "bggId": 369548,
   "gameId": "bgg-369548",
   "name": "After Us",
+  "nameZh": "人類之後",
+  "accent": "#4A8C5A",
   "rank": 2177,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/0p98Q5dENk3sh9mqd3xM0w__micro/img/lJViiHvt7kFdVvSgqJRWKPGA7I0=/fit-in/64x64/filters:strip_icc()/pic7471323.png",
@@ -30020,7 +30038,7 @@
   "minPlayers": 1,
   "maxPlayers": 6,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 234260,
@@ -30156,6 +30174,8 @@
   "bggId": 24773,
   "gameId": "bgg-24773",
   "name": "On the Underground",
+  "nameZh": "地鐵風雲",
+  "accent": "#5A6E8C",
   "rank": 2188,
   "year": 2006,
   "thumbnail": "https://cf.geekdo-images.com/ikGImGkGcN2BYlI-qfcOYg__micro/img/zSEGNjZZI6Le5XScHphWA4gLBik=/fit-in/64x64/filters:strip_icc()/pic138178.jpg",
@@ -30163,7 +30183,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 330174,
@@ -30208,6 +30228,8 @@
   "bggId": 182189,
   "gameId": "bgg-182189",
   "name": "Treasure Hunter",
+  "nameZh": "尋寶獵人",
+  "accent": "#8C6239",
   "rank": 2192,
   "year": 2015,
   "thumbnail": "https://cf.geekdo-images.com/l2ULlQopnsB2I-w1IMIBow__micro/img/5TkvqpDtLDasFRBcvurxJpsPifQ=/fit-in/64x64/filters:strip_icc()/pic2632365.jpg",
@@ -30215,7 +30237,7 @@
   "minPlayers": 2,
   "maxPlayers": 6,
   "playTime": 40,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 6351,

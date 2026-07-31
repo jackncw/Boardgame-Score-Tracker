@@ -1,0 +1,64 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-249746",
+ "name": "Nanty Narking",
+ "nameZh": "南蒂納京",
+ "theme": {
+  "accent": "#6B3A3A"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "areas",
+    "label": "地區控制",
+    "note": "終局各地區按特工同建築計嘅控制分",
+    "icon": "🗺️",
+    "color": "#F2D8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "buildings",
+    "label": "建築物",
+    "note": "板上你嘅建築帶嚟嘅分",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "角色與城區卡",
+    "note": "持有嘅角色卡同城區卡帶嚟嘅分",
+    "icon": "🎩",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "終局手上嘅錢按規則換到嘅分",
+    "icon": "💷",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-168609",
+ "name": "Artifacts, Inc.",
+ "nameZh": "神器公司",
+ "theme": {
+  "accent": "#B08D57"
+ },
+ "scoring": {
+  "source": "desc-gen",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "artifacts",
+    "label": "已賣神器",
+    "note": "賣出嘅神器帶嚟嘅聲望分",
+    "icon": "🏺",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "museum",
+    "label": "博物館捐贈",
+    "note": "捐去博物館嘅神器帶嚟嘅聲望分",
+    "icon": "🏛️",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "upgrades",
+    "label": "船隊與升級",
+    "note": "已購升級卡帶嚟嘅聲望分",
+    "icon": "⛵",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "other",
+    "label": "其他分數",
+    "note": "呢張表冇列到嘅計分項目,加埋一齊入呢度",
+    "icon": "➕",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
