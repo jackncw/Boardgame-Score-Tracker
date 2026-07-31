@@ -24521,6 +24521,8 @@
   "bggId": 342032,
   "gameId": "bgg-342032",
   "name": "Wild Tiled West",
+  "nameZh": "狂野拼磚西部",
+  "accent": "#B08D57",
   "rank": 1759,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/GGIrwKsyRa_ciMe2WPkvIw__micro/img/vy1bmsqsletRHje4KL7OPjN7KuM=/fit-in/64x64/filters:strip_icc()/pic7454921.jpg",
@@ -24528,7 +24530,7 @@
   "minPlayers": 1,
   "maxPlayers": 5,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 180040,
@@ -24681,6 +24683,8 @@
   "bggId": 105037,
   "gameId": "bgg-105037",
   "name": "Tournay",
+  "nameZh": "圖爾奈",
+  "accent": "#7A5A3A",
   "rank": 1771,
   "year": 2011,
   "thumbnail": "https://cf.geekdo-images.com/LW5i0G7B6zLR2sS-49IELw__micro/img/l0NDpON5Mjkra5ueNawzNEHpjLc=/fit-in/64x64/filters:strip_icc()/pic1068585.jpg",
@@ -24688,7 +24692,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 212516,
@@ -24943,6 +24947,8 @@
   "bggId": 415147,
   "gameId": "bgg-415147",
   "name": "Spectacular",
+  "nameZh": "壯觀動物園",
+  "accent": "#4A8C5A",
   "rank": 1791,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/u94yxoPLSFHaVUaFQ5Rigg__micro/img/jIn1NY8q2vZifCgOX8zuYpFIpmg=/fit-in/64x64/filters:strip_icc()/pic8046770.png",
@@ -24950,7 +24956,7 @@
   "minPlayers": 1,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 39684,

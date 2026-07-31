@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-105037",
+ "name": "Tournay",
+ "nameZh": "圖爾奈",
+ "theme": {
+  "accent": "#7A5A3A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/tournay.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "prestige_buildings",
+    "label": "聲望建築",
+    "note": "每座場上可見嘅聲望建築逐一結算:建造者按左邊嘅 PP 計,其他玩家按右邊嘅 PP 計,各自按自己持有嘅對應元素數量計",
+    "icon": "🏛️",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "district",
+    "label": "自己領地嘅卡",
+    "note": "領地入面所有卡(被蓋住嗰啲都計)按費用下面標示嘅 PP 計",
+    "icon": "🃏",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ramparts",
+    "label": "城牆堆嘅卡",
+    "note": "已建城牆堆入面每張卡 1 PP",
+    "icon": "🧱",
+    "color": "#E5E0D5",
+    "input": "counter",
+    "unitValue": 1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

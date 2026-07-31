@@ -459,10 +459,10 @@
 
 ## 進度
 
-- 已生成計分表(done):345
+- 已生成計分表(done):348
 - 揾唔到可靠來源(no-source):0
 - 判定唔使做(skip):880
-- 未做(pending):775
+- 未做(pending):772
 - 路徑 b(直接生成):190 · 路徑 c(網查 rulebook):930
 
 ## 逐隻紀錄
@@ -1227,7 +1227,7 @@
 | 1756 | Fireball Island: The Curse of Vul-Kar | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1757 | Ishtar: Gardens of Babylon | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1758 | Catan: Starfarers | - | skip | — | 以最先儲夠十五分定勝負,無終局分項計分 |
-| 1759 | Wild Tiled West | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1759 | Wild Tiled West | c | done | [link](https://bghub.org/r/wild-tiled-west.pdf) | 馬蹄鐵 -1、墓碑 2、A 牌三張 6/四張 12、採礦軌、夥伴卡 |
 | 1760 | Villages of Valeria | c | done | — | desc-gen:冇 rulebook,靠 BGG 描述同機制判斷寫類別,零單價,有 catch-all |
 | 1761 | Rummikub | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1762 | Fruit Fight | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -1239,7 +1239,7 @@
 | 1768 | My City: Roll & Build | c | pending | — | ⚠️ bghub 配到嘅係本體規則書,唔係呢隻衍生作/擴充,唔可以用嚟寫計分表 |
 | 1769 | Wyatt Earp | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1770 | The Isle of Cats: Explore & Draw | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1771 | Tournay | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1771 | Tournay | c | done | [link](https://bghub.org/r/tournay.pdf) | 聲望建築(建造者左/其他右)、領地卡、城牆每張 1 |
 | 1772 | Keyper | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1773 | Murano | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1774 | Pioneer Days | c | pending | — | 競爭型終局計分,待網查 rulebook |
@@ -1253,13 +1253,13 @@
 | 1782 | Heroes of Normandie | - | skip | — | 劇本制戰棋,以劇本勝利條件定勝負,無累加計分 |
 | 1783 | Cosmolancer | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1784 | Vampire: The Eternal Struggle | - | skip | — | 集換式卡牌對戰,以逼走對手定勝負,無累加計分 |
-| 1785 | Juicy Fruits | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1785 | Juicy Fruits | c | pending | — | 錨點落咗業務代幣清單,終局計分主清單未讀到 |
 | 1786 | Schadenfreude | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1787 | Mascarade | - | skip | — | 以最先儲夠十三金幣定勝負,無累加計分 |
 | 1788 | Warrior Knights | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1789 | EXIT: The Game – The Polar Station | - | skip | — | 密室逃脫遊戲,按時間同提示數評級,唔適用累加計分表 |
 | 1790 | Dice City | c | pending | — | 競爭型終局計分,待網查 rulebook |
-| 1791 | Spectacular | c | pending | — | 競爭型終局計分,待網查 rulebook |
+| 1791 | Spectacular | c | done | [link](https://bghub.org/r/spectacular.pdf) | 入口/棲地(骰值×繁殖磚骰數)/瞭望塔/動物種類對照表 |
 | 1792 | Merkator | c | pending | — | 競爭型終局計分,待網查 rulebook |
 | 1793 | Imagine | - | skip | — | 合作制猜詞遊戲,無玩家累加計分 |
 | 1794 | Dungeons, Dice & Danger | c | pending | — | 競爭型終局計分,待網查 rulebook |

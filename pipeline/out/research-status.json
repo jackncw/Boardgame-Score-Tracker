@@ -11845,9 +11845,9 @@
   "name": "Wild Tiled West",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/wild-tiled-west.pdf",
+  "note": "馬蹄鐵 -1、墓碑 2、A 牌三張 6/四張 12、採礦軌、夥伴卡"
  },
  {
   "rank": 1760,
@@ -11965,9 +11965,9 @@
   "name": "Tournay",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/tournay.pdf",
+  "note": "聲望建築(建造者左/其他右)、領地卡、城牆每張 1"
  },
  {
   "rank": 1772,
@@ -12107,7 +12107,7 @@
   "path": "c",
   "result": "pending",
   "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "note": "錨點落咗業務代幣清單,終局計分主清單未讀到"
  },
  {
   "rank": 1786,
@@ -12165,9 +12165,9 @@
   "name": "Spectacular",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/spectacular.pdf",
+  "note": "入口/棲地(骰值×繁殖磚骰數)/瞭望塔/動物種類對照表"
  },
  {
   "rank": 1792,

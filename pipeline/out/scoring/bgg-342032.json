@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-342032",
+ "name": "Wild Tiled West",
+ "nameZh": "狂野拼磚西部",
+ "theme": {
+  "accent": "#B08D57"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/wild-tiled-west.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中未用嘅金同子彈總數較高者勝;仍同分則共享勝利",
+  "fields": [
+   {
+    "id": "horseshoes",
+    "label": "未蓋住嘅馬蹄鐵",
+    "note": "聚落板上每個未蓋住嘅馬蹄鐵 -1 分",
+    "icon": "🐴",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "buildings",
+    "label": "粉紅招牌建築",
+    "note": "有粉紅招牌嘅建築帶嚟嘅分",
+    "icon": "🏚️",
+    "color": "#F7D8E0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tombstones",
+    "label": "墓碑",
+    "note": "聚落板上每個墓碑 2 分",
+    "icon": "🪦",
+    "color": "#E5E0D5",
+    "input": "counter",
+    "unitValue": 2
+   },
+   {
+    "id": "aces",
+    "label": "A 牌套組",
+    "note": "每套三張 6 分,每套四張 12 分",
+    "icon": "🂡",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mining",
+    "label": "採礦軌",
+    "note": "採礦板上你標記右邊顯示嘅分數",
+    "icon": "⛏️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "partners",
+    "label": "夥伴卡",
+    "note": "揭開所有暗置夥伴卡,按各自條件計分",
+    "icon": "🤠",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
