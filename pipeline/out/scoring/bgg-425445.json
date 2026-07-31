@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-425445",
+ "name": "Sweet Lands",
+ "nameZh": "甜蜜之地",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/sweet-lands.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "遊戲期間直接攞到嘅勝利分",
+    "icon": "🍬",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "ports",
+    "label": "港口",
+    "note": "由首都格經連續相鄰地形磚通到嘅港口叫「已連接港口」。按已連接港口數量加分或者扣分(對照表印喺板上)",
+    "icon": "⚓",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "prosperity",
+    "label": "繁榮軌",
+    "note": "每條繁榮軌嘅換分率睇自己繁榮標記嘅位置。逐條由上至下對應:地圖板上嘅地形磚數、餅乾兔標記數、道路標記數、地產標記數(連鐘樓標記)、已自動化卡牌數、遊戲期間賺到嘅工業點數",
+    "icon": "📈",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "citypoints",
+    "label": "城市點數",
+    "note": "遊戲期間賺到嘅每個城市點數換勝利分",
+    "icon": "🏙️",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tokens",
+    "label": "帳篷/房屋/建築標記",
+    "note": "全部帳篷標記放晒落地圖板:按地圖板上每個餅乾兔標記加分;全部房屋標記放晒:按遊戲期間賺到嘅每個城市點數加分;全部建築標記放晒:按遊戲期間賺到嘅每個工業點數加分。三項可以一齊計",
+    "icon": "🏠",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gold",
+    "label": "剩餘金幣",
+    "note": "冇使剩低嘅金幣按比率換分",
+    "icon": "🪙",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "diamonds",
+    "label": "未用鑽石",
+    "note": "每粒未用嘅鑽石換分",
+    "icon": "💎",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

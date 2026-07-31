@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-283387",
+ "name": "Rocketmen",
+ "nameZh": "火箭人",
+ "theme": {
+  "accent": "#5A6E8C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/rocketmen.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中任務去得最遠嗰個勝",
+  "fields": [
+   {
+    "id": "missions",
+    "label": "任務勝利分",
+    "note": "遊戲期間成功發射任務喺勝利軌儲落嘅分",
+    "icon": "🚀",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "卡牌勝利分",
+    "note": "買咗嘅卡上面帶嘅勝利分,例如每張「威脅」卡 2 分。掉咗去廢料場嘅威脅卡一樣照計",
+    "icon": "🃏",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tokens",
+    "label": "資源標記",
+    "note": "終局手上嘅相應標記,每個 1 分",
+    "icon": "🔧",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "goal",
+    "label": "個人目標卡",
+    "note": "兩張個人目標卡只可以結算其中一張,揀一張計分,另一張放棄",
+    "icon": "🎯",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "variant",
+    "label": "變體卡",
+    "note": "有玩變體卡就按每張卡上面寫嘅計;廢料場入面嘅卡上物品都算入去",
+    "icon": "🧩",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

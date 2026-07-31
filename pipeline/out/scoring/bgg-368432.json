@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-368432",
+ "name": "The Fox Experiment",
+ "nameZh": "狐狸實驗",
+ "theme": {
+  "accent": "#C9773C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/the-fox-experiment.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中喺補給軌較接近起點嗰個勝",
+  "fields": [
+   {
+    "id": "studies",
+    "label": "研究",
+    "note": "每項研究攞已完成最高層級底部印住嘅分",
+    "icon": "🔬",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "patrons",
+    "label": "贊助人",
+    "note": "每個放咗自己狐狸公仔嘅贊助人,按該贊助人寫法計分",
+    "icon": "🤝",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "upgrades",
+    "label": "升級",
+    "note": "每項已解鎖升級印住嘅分",
+    "icon": "⚙️",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "friendliness",
+    "label": "親和度",
+    "note": "親和度獎勵軌上每個有自己狐狸公仔嘅格,攞格上面印住嘅分",
+    "icon": "🦊",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "tokens",
+    "label": "分數標記",
+    "note": "個人存放區每個分數標記 1 分",
+    "icon": "🔵",
+    "color": "#EADCF0",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "science",
+    "label": "科學卡",
+    "note": "剩低嘅科學卡每張 1 分",
+    "icon": "🧪",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "traits",
+    "label": "特徵/親和標記",
+    "note": "剩低嘅特徵標記加親和標記合計每 2 個 1 分",
+    "icon": "🧬",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

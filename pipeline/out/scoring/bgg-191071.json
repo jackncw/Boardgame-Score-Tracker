@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-191071",
+ "name": "Mythical Dice",
+ "nameZh": "神話骰",
+ "theme": {
+  "accent": "#8C5AA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/mythical-dice.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "bids",
+    "label": "叫牌計分",
+    "note": "各局加埋。叫 1 墩或以上:叫啱就每贏一墩 20 分;叫錯就每差一墩 -10 分。叫 0 墩:成功就 10 分 × 已打局數;失敗(贏咗至少一墩)就 -10 分 × 已打局數。入計出嚟嘅淨數",
+    "icon": "🎲",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": -999
+   },
+   {
+    "id": "minotaur",
+    "label": "牛頭人擊敗獅鷲",
+    "note": "打出牛頭人擊敗獅鷲,每隻 30 分。要嗰局叫啱先攞得,而且目標骰唔可以係白旗面",
+    "icon": "🐂",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 30
+   },
+   {
+    "id": "mermaid",
+    "label": "美人魚擊敗牛頭人",
+    "note": "打出美人魚擊敗牛頭人得 50 分。要嗰局叫啱先攞得,而且目標骰唔可以係白旗面",
+    "icon": "🧜",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 50
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

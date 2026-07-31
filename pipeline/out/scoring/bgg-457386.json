@@ -1,0 +1,92 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-457386",
+ "name": "Carnuta",
+ "nameZh": "卡努塔",
+ "theme": {
+  "accent": "#6B8C4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/carnuta.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中單一材料分數最高者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "clover",
+    "label": "三葉草",
+    "note": "三葉草欄嘅卡按卡面條件計出嚟嘅分",
+    "icon": "🍀",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "flower",
+    "label": "花",
+    "note": "花欄嘅卡按卡面條件計出嚟嘅分",
+    "icon": "🌸",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "egg",
+    "label": "蛋",
+    "note": "蛋欄嘅卡按卡面條件計出嚟嘅分",
+    "icon": "🥚",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "honey",
+    "label": "蜂蜜",
+    "note": "蜂蜜欄嘅卡按卡面條件計出嚟嘅分",
+    "icon": "🍯",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "skull",
+    "label": "骷髏",
+    "note": "骷髏欄嘅卡按卡面條件計出嚟嘅分",
+    "icon": "💀",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "butterfly",
+    "label": "蝴蝶",
+    "note": "蝴蝶欄嘅卡按卡面條件計出嚟嘅分",
+    "icon": "🦋",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "berry",
+    "label": "漿果",
+    "note": "漿果欄嘅卡按卡面條件計出嚟嘅分",
+    "icon": "🫐",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mushroom",
+    "label": "蘑菇",
+    "note": "蘑菇欄嘅卡按卡面條件計出嚟嘅分",
+    "icon": "🍄",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-440007",
+ "name": "The Druids of Edora",
+ "nameZh": "埃多拉德魯伊",
+ "theme": {
+  "accent": "#5A8C5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/the-druids-of-edora.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中知識軌標記較後者勝",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中聲望分",
+    "note": "遊戲期間喺聲望軌儲落嘅分",
+    "icon": "🌿",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "materials",
+    "label": "剩餘物資",
+    "note": "每 6 份補給品 1 分;每個槲寄生 1 分;每粒剩低嘅個人骰同無人認領嘅骰各 1 分",
+    "icon": "📦",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "sickle",
+    "label": "鐮刀",
+    "note": "睇鐮刀沿住軌行咗幾遠:0、5、10、15 或者 20 分。入 0–4 揀對應嘅級數",
+    "icon": "🌙",
+    "color": "#F7EFD2",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      10
+     ],
+     [
+      3,
+      15
+     ],
+     [
+      4,
+      20
+     ]
+    ]
+   },
+   {
+    "id": "tablets",
+    "label": "石板",
+    "note": "每塊完成嘅石板 10 分",
+    "icon": "🪨",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 10
+   },
+   {
+    "id": "amulet",
+    "label": "護身符",
+    "note": "每層有兩格被佔就 10 分;左半邊夾到三連再加 20 分",
+    "icon": "🔮",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "shrines",
+    "label": "神殿",
+    "note": "第 1 至 4 步計完之後,每座神殿只留最高值嗰粒骰(同值就由知識軌位置決定),留低嗰粒骰嘅主人攞埋該神殿旁邊所有符文石同立石。將咁樣攞到嘅骰、符文石、立石總數 × 自己知識軌行到嘅最高倍率(0、1、2、3 或者 4)",
+    "icon": "⛩️",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

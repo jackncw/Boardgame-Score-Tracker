@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-35570",
+ "name": "Tinners' Trail",
+ "nameZh": "錫礦之路",
+ "theme": {
+  "accent": "#8C6E4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/tinners-trail.pdf",
+  "verified": false,
+  "tieBreaker": "同分依次比:剩錢較多者勝、自己礦區剩低錫銅方塊較多者勝、出牌順序較左者勝",
+  "fields": [
+   {
+    "id": "investment",
+    "label": "外部投資",
+    "note": "投資展示板上自己方塊嘅勝利分總和。呢個係全遊戲唯一得分途徑 —— 錢、礦場、板上其他發展一律唔計分",
+    "icon": "📈",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

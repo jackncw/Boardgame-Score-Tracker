@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-322195",
+ "name": "Kokopelli",
+ "nameZh": "柯柯佩利",
+ "theme": {
+  "accent": "#C9773C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/kokopelli.pdf",
+  "verified": false,
+  "tieBreaker": "—",
+  "fields": [
+   {
+    "id": "vp",
+    "label": "勝利分",
+    "note": "遊戲期間攞到嘅勝利分標記(1、3、4、10 分四款)總值,最多者勝",
+    "icon": "🪶",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

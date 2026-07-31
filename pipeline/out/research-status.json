@@ -5785,9 +5785,9 @@
   "name": "Tinners' Trail",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有 rulebook,未讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/tinners-trail.pdf",
+  "note": "rulebook 明文:唯一得分係投資展示板方塊,錢/礦場唔計分"
  },
  {
   "rank": 1154,
@@ -5855,9 +5855,9 @@
   "name": "The Fox Experiment",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有 rulebook,未讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/the-fox-experiment.pdf",
+  "note": "rulebook 明文:分數標記 1 分、科學卡 1 分、特徵+親和每 2 個 1 分"
  },
  {
   "rank": 1161,
@@ -5885,9 +5885,9 @@
   "name": "The Druids of Edora",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有 rulebook,未讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/the-druids-of-edora.pdf",
+  "note": "rulebook FINAL SCORING 五步全部明文(鐮刀 0/5/10/15/20、石板 10、護身符 10+20、神殿乘 0-4)"
  },
  {
   "rank": 1164,
@@ -5945,9 +5945,9 @@
   "name": "Sweet Lands",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有 rulebook,未讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/sweet-lands.pdf",
+  "note": "PDF 字型偏移一格,文字解得出項目類別但數字全部走樣,故所有欄用 number,一個單價都冇寫"
  },
  {
   "rank": 1170,
@@ -6145,9 +6145,9 @@
   "name": "Linko",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "bghub 有 rulebook,未讀"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/linko.pdf",
+  "note": "rulebook 明文:疊放卡每張 +1、手上剩牌每張 -1"
  },
  {
   "rank": 1190,
@@ -6265,9 +6265,9 @@
   "name": "Orloj: The Prague Astronomical Clock",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "正文只搵到助手卡個別加分,搵唔到終局計分主清單"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/orlojthepragueastronomicalclock.pdf",
+  "note": "rulebook 12. ENDGAME SCORING 明文:黃金 1 分、崩壞齒輪 -1 分、共同目標 8/6/4"
  },
  {
   "rank": 1202,
@@ -6315,9 +6315,9 @@
   "name": "In the Footsteps of Darwin",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "⚠️ PDF xref 損壞(pdftotext 報 damaged),抽唔到可靠文字"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/inthefootstepsofdarwin.pdf",
+  "note": "rulebook 明文五類:著作 5 分、達爾文標記 2 分、理論每隻 1 分、圖表 = 指南針×圖示"
  },
  {
   "rank": 1207,
@@ -6526,8 +6526,8 @@
   "cat": "-",
   "path": "c",
   "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "sourceUrl": "https://bghub.org/r/everdell-duo.pdf",
+  "note": "⚠️ bghub 呢個 slug 嘅 PDF 內容其實係 Evergreen(季節/生物群系/樹/光),唔係 Everdell Duo —— 鏡像配錯遊戲,當冇來源"
  },
  {
   "rank": 1228,
@@ -6575,9 +6575,9 @@
   "name": "Calimala",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/calimala.pdf",
+  "note": "rulebook 明文終局計分卡 5/3/1;15 次計分階段嘅磚值印喺磚故合併做 number"
  },
  {
   "rank": 1233,
@@ -23175,9 +23175,9 @@
   "name": "Carnuta",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/carnuta.pdf",
+  "note": "rulebook 明文 8 種材料(日:三葉草/花/蛋/蜂蜜;夜:骷髏/蝴蝶/漿果/蘑菇),逐欄計分;卡面分值故 number"
  },
  {
   "rank": 2893,
@@ -23185,9 +23185,9 @@
   "name": "Propolis",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/propolis.pdf",
+  "note": "用多人 SCORING(line 300)唔係 solo 段;未用資源 ÷5 捨去明文"
  },
  {
   "rank": 2894,
@@ -23435,9 +23435,9 @@
   "name": "Kokopelli",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/kokopelli.pdf",
+  "note": "rulebook 明文:VP 標記最多者勝,冇獨立終局結算"
  },
  {
   "rank": 2919,
@@ -23455,9 +23455,9 @@
   "name": "Mercado de Lisboa",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/mercado-de-lisboa.pdf",
+  "note": "rulebook 明文:錢最多者勝,每塊未擺放餐廳磚 -1"
  },
  {
   "rank": 2921,
@@ -23485,9 +23485,9 @@
   "name": "Undergrove",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/undergrove.pdf",
+  "note": "rulebook 明文:累計型目標軌 3/5/9 分、剩餘每 2 個 1 分;蘑菇分值印喺磚故 number"
  },
  {
   "rank": 2924,
@@ -23525,9 +23525,9 @@
   "name": "Pax Viking",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "skip",
+  "sourceUrl": "https://bghub.org/r/pax-viking.pdf",
+  "note": "rulebook 明文:達成勝利條件卡即勝,冇累加計分"
  },
  {
   "rank": 2928,
@@ -23635,9 +23635,9 @@
   "name": "Mythical Dice",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/mythical-dice.pdf",
+  "note": "rulebook 明文:每墩 20 分、差一墩 -10、叫零 ±10×局數、牛頭人 30、美人魚 50"
  },
  {
   "rank": 2939,
@@ -23665,9 +23665,9 @@
   "name": "Tipperary",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/tipperary.pdf",
+  "note": "rulebook 明文:區域每格 1 分、羊每隻 1 分、最大羊群標記 +5、圍封家鄉 5 分"
  },
  {
   "rank": 2942,
@@ -23885,9 +23885,9 @@
   "name": "Fields of Fire: Deluxe Edition",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "skip",
+  "sourceUrl": "https://bghub.org/r/fields-of-fire-deluxe-edition.pdf",
+  "note": "單人戰役制戰棋,冇玩家間累加計分"
  },
  {
   "rank": 2964,
@@ -23905,9 +23905,9 @@
   "name": "Rocketmen",
   "cat": "-",
   "path": "c",
-  "result": "pending",
-  "sourceUrl": "",
-  "note": "競爭型終局計分,待網查 rulebook"
+  "result": "done",
+  "sourceUrl": "https://bghub.org/r/rocketmen.pdf",
+  "note": "rulebook 明文:威脅卡 2 分、標記每個 1 分、只計一張個人目標"
  },
  {
   "rank": 2966,

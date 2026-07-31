@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-376740",
+ "name": "Undergrove",
+ "nameZh": "林下叢",
+ "theme": {
+  "accent": "#5A8C5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/undergrove.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中樹較多者勝;再同分睇幼苗上嘅碳較多者勝",
+  "fields": [
+   {
+    "id": "goals",
+    "label": "目標卡",
+    "note": "三張目標卡各自按卡上寫法結算。累計型目標軌:圓片停喺 1 攞 3 分、2 攞 5 分、3 或以上攞 9 分;競爭型目標軌按同其他玩家嘅名次派分,同數就將涉及名次嘅分加埋除以人數,無條件捨去",
+    "icon": "🎯",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mushrooms",
+    "label": "樹同幼苗嘅蘑菇分",
+    "note": "逐棵樹同幼苗結算:樹計自己所有菌根所在嘅蘑菇;幼苗要有足夠嘅碳,揀相應數量嘅菌根蘑菇嚟計。部分蘑菇(例如鼠尾菇)嘅分值視乎周圍嘅褶菌數量而變",
+    "icon": "🍄",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "bonus",
+    "label": "獎勵磚",
+    "note": "收集到嘅獎勵磚上面印住嘅分加埋",
+    "icon": "🎖️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "resources",
+    "label": "剩餘資源",
+    "note": "玩家板上剩低嘅資源(碳、水、氮、糖等)每 2 個 1 分;另外攞咗碳軌尾嗰個 2 分格嘅話都計入呢度",
+    "icon": "🌰",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

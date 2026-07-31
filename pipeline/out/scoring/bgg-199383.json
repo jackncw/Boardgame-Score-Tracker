@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-199383",
+ "name": "Calimala",
+ "nameZh": "卡利馬拉",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/calimala.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中市議會席位加捐獻藝術品較多者勝",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "15 次計分階段結算計分磚攞到嘅分,計分軌上嘅總數",
+    "icon": "🧵",
+    "color": "#F7DCDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "cards",
+    "label": "計分卡",
+    "note": "終局攤開所有計分卡逐張結算(三、四人局連埋板邊嗰張明卡)。每張卡指定六個城市(巴塞隆拿/布魯日/漢堡/里斯本/倫敦/特魯瓦)或者四座建築(舊宮/聖十字/聖母百花/聖米尼亞托)其中一個,比自己喺該區域嘅方塊數:最多 5 分、第二多 3 分、第三多 1 分。舊宮嗰張要將席位同捐獻藝術品方塊加埋計",
+    "icon": "🃏",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

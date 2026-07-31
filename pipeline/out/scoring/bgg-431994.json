@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-431994",
+ "name": "Propolis",
+ "nameZh": "蜂膠",
+ "theme": {
+  "accent": "#C9A227"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/propolis.pdf",
+  "verified": false,
+  "tieBreaker": "同分依次比:未用資源較多者勝、萬用資源較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "structures",
+    "label": "建築卡",
+    "note": "版圖入面每張建築卡獨立結算:有啲卡係印死分數,有啲係按版圖同資源軌上嘅資源組合或者公會符號(A/B/C/D)計。萬用資源(永久或者未用)可以當任何一種",
+    "icon": "🏗️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "unused",
+    "label": "未用資源",
+    "note": "玩家板六條資源軌上面剩低嘅資源總數 ÷ 5,無條件捨去",
+    "icon": "🧃",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

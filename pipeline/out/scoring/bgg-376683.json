@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-376683",
+ "name": "In the Footsteps of Darwin",
+ "nameZh": "追隨達爾文",
+ "theme": {
+  "accent": "#6B8C4A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/inthefootstepsofdarwin.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中理論類別分數較高者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "discoveries",
+    "label": "發現",
+    "note": "筆記本上仲睇得見嘅動物,按動物上印住嘅分加埋(被冚住嘅唔計)。如果受過 Robert McCormick 啟發,呢類別再加 4 分",
+    "icon": "🔭",
+    "color": "#DDEFDC",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "chart",
+    "label": "圖表",
+    "note": "自己擁有嘅指南針數 × 自己睇得見嘅圖示數",
+    "icon": "🧭",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "publications",
+    "label": "著作",
+    "note": "每份寫成嘅著作 5 分",
+    "icon": "📕",
+    "color": "#F7EFD2",
+    "input": "counter",
+    "unitValue": 5
+   },
+   {
+    "id": "theories",
+    "label": "理論",
+    "note": "逐張理論卡按卡上條件計,全部係「每隻符合嘅動物 1 分」(鳥/哺乳/爬蟲/節肢/美洲/非洲/亞洲/大洋洲/筆記本四個象限),而且冚住咗嘅動物一樣照計。同一張理論發展兩次就計兩次",
+    "icon": "💡",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "darwin",
+    "label": "達爾文標記",
+    "note": "終局持有達爾文標記加 2 分(有入 2,冇入 0)",
+    "icon": "🧔",
+    "color": "#F5E8D8",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

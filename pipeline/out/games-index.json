@@ -16349,6 +16349,8 @@
   "bggId": 35570,
   "gameId": "bgg-35570",
   "name": "Tinners' Trail",
+  "nameZh": "錫礦之路",
+  "accent": "#8C6E4A",
   "rank": 1153,
   "year": 2008,
   "thumbnail": "https://cf.geekdo-images.com/zuh_7g6fUJDUkbIceT_wEw__micro/img/vMKQbI5xZ_mIfMKe_MHJVaRp2Mo=/fit-in/64x64/filters:strip_icc()/pic464133.jpg",
@@ -16356,7 +16358,7 @@
   "minPlayers": 3,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 177678,
@@ -16444,6 +16446,8 @@
   "bggId": 368432,
   "gameId": "bgg-368432",
   "name": "The Fox Experiment",
+  "nameZh": "狐狸實驗",
+  "accent": "#C9773C",
   "rank": 1160,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/wzvBp42eSal9UrL2EgOjyw__micro/img/cxsHEI42SCGk2HK_Ce44vhl4wU4=/fit-in/64x64/filters:strip_icc()/pic7557488.png",
@@ -16451,7 +16455,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 24800,
@@ -16485,6 +16489,8 @@
   "bggId": 440007,
   "gameId": "bgg-440007",
   "name": "The Druids of Edora",
+  "nameZh": "埃多拉德魯伊",
+  "accent": "#5A8C5A",
   "rank": 1163,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/D15e2kNbfyDHZdjH7jq_iA__micro/img/hVOQruY6QiHhRklUyFFxm7DEOPY=/fit-in/64x64/filters:strip_icc()/pic8883899.jpg",
@@ -16492,7 +16498,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 191977,
@@ -16567,6 +16573,8 @@
   "bggId": 425445,
   "gameId": "bgg-425445",
   "name": "Sweet Lands",
+  "nameZh": "甜蜜之地",
+  "accent": "#C9A227",
   "rank": 1169,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/qmCyTIgGhdSON0bMUk8qjQ__micro/img/7VYVOmzaENIfF-8tgPfOeaDg254=/fit-in/64x64/filters:strip_icc()/pic8329173.jpg",
@@ -16574,7 +16582,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 200,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 387514,
@@ -16843,6 +16851,8 @@
   "bggId": 153065,
   "gameId": "bgg-153065",
   "name": "Linko",
+  "nameZh": "Linko!",
+  "accent": "#5A8CA8",
   "rank": 1189,
   "year": 2014,
   "thumbnail": "https://cf.geekdo-images.com/93dmjdpiUd5J3Vf95uF0HQ__micro/img/XaTWpRXDYz_Y6Tf43ZODYKkyOEc=/fit-in/64x64/filters:strip_icc()/pic7634588.jpg",
@@ -16850,7 +16860,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 20,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 436215,
@@ -17013,6 +17023,8 @@
   "bggId": 429405,
   "gameId": "bgg-429405",
   "name": "Orloj: The Prague Astronomical Clock",
+  "nameZh": "布拉格天文鐘",
+  "accent": "#B58C3C",
   "rank": 1201,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/PhwbD--vP0xEdMD-WZlZTA__micro/img/XrSDncOiIDuN9fSUM5H6qsE94AA=/fit-in/64x64/filters:strip_icc()/pic8685899.png",
@@ -17020,7 +17032,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 120,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 360692,
@@ -17084,6 +17096,8 @@
   "bggId": 376683,
   "gameId": "bgg-376683",
   "name": "In the Footsteps of Darwin",
+  "nameZh": "追隨達爾文",
+  "accent": "#6B8C4A",
   "rank": 1206,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/1KPQC8pVuTXL32RdbTxDjw__micro/img/LHRSpESxH8xM6hE7bY1l5D2LDKc=/fit-in/64x64/filters:strip_icc()/pic7234392.jpg",
@@ -17091,7 +17105,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 362986,
@@ -17442,6 +17456,8 @@
   "bggId": 199383,
   "gameId": "bgg-199383",
   "name": "Calimala",
+  "nameZh": "卡利馬拉",
+  "accent": "#B5563C",
   "rank": 1232,
   "year": 2017,
   "thumbnail": "https://cf.geekdo-images.com/6-Pj_AxP0mjjFXYs2ukMWw__micro/img/Dq5Tcq2zX4_0ewHjAkZrO3T2gNw=/fit-in/64x64/filters:strip_icc()/pic7611495.jpg",
@@ -17449,7 +17465,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 367517,
@@ -39622,6 +39638,8 @@
   "bggId": 457386,
   "gameId": "bgg-457386",
   "name": "Carnuta",
+  "nameZh": "卡努塔",
+  "accent": "#6B8C4A",
   "rank": 2892,
   "year": 2026,
   "thumbnail": "https://cf.geekdo-images.com/fqCyW3xOsqyN7BxZK5JekQ__micro/img/XqtKu1e0uCtmOjOKu5IXbr_9qQ4=/fit-in/64x64/filters:strip_icc()/pic9338574.jpg",
@@ -39629,12 +39647,14 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 25,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 431994,
   "gameId": "bgg-431994",
   "name": "Propolis",
+  "nameZh": "蜂膠",
+  "accent": "#C9A227",
   "rank": 2893,
   "year": 2025,
   "thumbnail": "https://cf.geekdo-images.com/UnNRtk6gbVsAI0kl_6pF6A__micro/img/P69BA4hx_fvl0E9OUiRh81as0SI=/fit-in/64x64/filters:strip_icc()/pic8514363.png",
@@ -39642,7 +39662,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 136056,
@@ -39964,6 +39984,8 @@
   "bggId": 322195,
   "gameId": "bgg-322195",
   "name": "Kokopelli",
+  "nameZh": "柯柯佩利",
+  "accent": "#C9773C",
   "rank": 2918,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/MMaLJg162_ytiCW7v9M9EQ__micro/img/_dxpzrK8beBah1Qzn3LbpH1tHQc=/fit-in/64x64/filters:strip_icc()/pic5728513.jpg",
@@ -39971,7 +39993,7 @@
   "minPlayers": 2,
   "maxPlayers": 4,
   "playTime": 60,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 260757,
@@ -39990,6 +40012,8 @@
   "bggId": 262477,
   "gameId": "bgg-262477",
   "name": "Mercado de Lisboa",
+  "nameZh": "里斯本市集",
+  "accent": "#B5563C",
   "rank": 2920,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/_bw5JwjsvGOBZliGe1wm2w__micro/img/FfrVVcWRcJPRY5Z9id6kAkXh8N8=/fit-in/64x64/filters:strip_icc()/pic5410206.png",
@@ -39997,7 +40021,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 230200,
@@ -40029,6 +40053,8 @@
   "bggId": 376740,
   "gameId": "bgg-376740",
   "name": "Undergrove",
+  "nameZh": "林下叢",
+  "accent": "#5A8C5A",
   "rank": 2923,
   "year": 2024,
   "thumbnail": "https://cf.geekdo-images.com/Q40r25w4jvEE03yqhTyGBA__micro/img/S9FuBamT4v2FuQ36b3yiktAfSBI=/fit-in/64x64/filters:strip_icc()/pic7774167.png",
@@ -40036,7 +40062,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 75,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 128898,
@@ -40228,6 +40254,8 @@
   "bggId": 191071,
   "gameId": "bgg-191071",
   "name": "Mythical Dice",
+  "nameZh": "神話骰",
+  "accent": "#8C5AA8",
   "rank": 2938,
   "year": 2016,
   "thumbnail": "https://cf.geekdo-images.com/RgAOz0_78OhnjASEVq-gTg__micro/img/L2xCrzNL4_NzQj5XqMe2DsP8_Po=/fit-in/64x64/filters:strip_icc()/pic8715055.png",
@@ -40235,7 +40263,7 @@
   "minPlayers": 3,
   "maxPlayers": 6,
   "playTime": 30,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 137031,
@@ -40269,6 +40297,8 @@
   "bggId": 378983,
   "gameId": "bgg-378983",
   "name": "Tipperary",
+  "nameZh": "蒂珀雷里",
+  "accent": "#5A8C5A",
   "rank": 2941,
   "year": 2023,
   "thumbnail": "https://cf.geekdo-images.com/tRW-yz-omIwXn0P8ItGC4g__micro/img/aPd5u2pYtj0EDdx3JCNZ_dB4Rio=/fit-in/64x64/filters:strip_icc()/pic7318778.jpg",
@@ -40276,7 +40306,7 @@
   "minPlayers": 2,
   "maxPlayers": 5,
   "playTime": 45,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 181293,
@@ -40583,6 +40613,8 @@
   "bggId": 283387,
   "gameId": "bgg-283387",
   "name": "Rocketmen",
+  "nameZh": "火箭人",
+  "accent": "#5A6E8C",
   "rank": 2965,
   "year": 2021,
   "thumbnail": "https://cf.geekdo-images.com/vfwv7bUC0VBr8tdslkJqWw__micro/img/Telxr8_-oj6zcLNDQsvXEKtlvJo=/fit-in/64x64/filters:strip_icc()/pic8088564.png",
@@ -40590,7 +40622,7 @@
   "minPlayers": 1,
   "maxPlayers": 4,
   "playTime": 90,
-  "hasScoring": false
+  "hasScoring": true
  },
  {
   "bggId": 265683,

@@ -1,0 +1,39 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-262477",
+ "name": "Mercado de Lisboa",
+ "nameZh": "里斯本市集",
+ "theme": {
+  "accent": "#B5563C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/mercado-de-lisboa.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中市集入面攤位較多者勝;再同分就再打一局",
+  "fields": [
+   {
+    "id": "money",
+    "label": "金錢",
+    "note": "遊戲結束時手上嘅錢",
+    "icon": "🪙",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "restaurants",
+    "label": "未擺放餐廳磚",
+    "note": "手上每塊未擺放嘅餐廳磚扣 1 蚊",
+    "icon": "🍽️",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

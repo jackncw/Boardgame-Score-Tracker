@@ -1,0 +1,39 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-153065",
+ "name": "Linko",
+ "nameZh": "Linko!",
+ "theme": {
+  "accent": "#5A8CA8"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/linko.pdf",
+  "verified": false,
+  "tieBreaker": "同分者全部同勝",
+  "fields": [
+   {
+    "id": "stacked",
+    "label": "已疊放卡牌",
+    "note": "自己面前疊起嘅卡,每張 1 分",
+    "icon": "🃏",
+    "color": "#DCE8F7",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "hand",
+    "label": "手上剩牌",
+    "note": "遊戲結束時手上每張剩牌 -1 分",
+    "icon": "✋",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

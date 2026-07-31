@@ -1,0 +1,92 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-429405",
+ "name": "Orloj: The Prague Astronomical Clock",
+ "nameZh": "布拉格天文鐘",
+ "theme": {
+  "accent": "#B58C3C"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/orlojthepragueastronomicalclock.pdf",
+  "verified": false,
+  "tieBreaker": "同分者中面板上使徒較多者勝;再同分共享勝利",
+  "fields": [
+   {
+    "id": "during",
+    "label": "遊戲中勝利分",
+    "note": "遊戲期間喺計分軌儲落嘅分",
+    "icon": "🕰️",
+    "color": "#F7EFD2",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "mastery",
+    "label": "精通彩繪玻璃窗",
+    "note": "每扇精通彩繪玻璃窗獨立結算,自己嘅精通圓片要行到對應精通軌第七格先計得。計分條件符合幾多次就計幾多次,每次幾多分視乎圓片喺精通軌嘅高度;圓片最高嗰個玩家用主要計分值(同高就全部同數玩家一齊用)。未過磚線嗰啲玩家嗰扇窗一分都冇",
+    "icon": "🪟",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "gold",
+    "label": "剩餘黃金",
+    "note": "先將所有資源同硬幣換成黃金(三個同種資源換一個黃金,硬幣可以當任何資源),之後每個黃金 1 分",
+    "icon": "🪙",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "deviation",
+    "label": "偏差標記",
+    "note": "終局時偏差標記上面仲露住嘅每個崩壞齒輪圖示 -1 分(個人公雞軌唔影響呢項)",
+    "icon": "⚙️",
+    "color": "#F2D8D8",
+    "input": "counter",
+    "unitValue": 1,
+    "sign": -1
+   },
+   {
+    "id": "assistants",
+    "label": "助手",
+    "note": "工坊卡上每個助手按助手卡寫法結算",
+    "icon": "🧑‍🔧",
+    "color": "#DCE8F7",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "objectives",
+    "label": "共同彩繪玻璃窗目標",
+    "note": "睇自己工人喺共同目標上排第幾位:第一位 8 分、第二位 6 分、第三位 4 分。有幾個目標就自己加埋先入總數(或者入名次查表)",
+    "icon": "🎯",
+    "color": "#F7E2CE",
+    "input": "tiered",
+    "table": [
+     [
+      0,
+      0
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      1,
+      8
+     ]
+    ]
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}

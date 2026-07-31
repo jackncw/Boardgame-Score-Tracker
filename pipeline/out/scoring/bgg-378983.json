@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "gameId": "bgg-378983",
+ "name": "Tipperary",
+ "nameZh": "蒂珀雷里",
+ "theme": {
+  "accent": "#5A8C5A"
+ },
+ "scoring": {
+  "source": "rulebook-web",
+  "sourceUrl": "https://bghub.org/r/tipperary.pdf",
+  "verified": false,
+  "tieBreaker": "同分者共享勝利",
+  "fields": [
+   {
+    "id": "area",
+    "label": "最大矩形區域",
+    "note": "自己展示區入面最大、冇空隙嘅矩形區域,每格 1 分。家鄉嗰九格都可以計入去",
+    "icon": "🟩",
+    "color": "#DDEFDC",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "sheep",
+    "label": "最大羊群",
+    "note": "最大一群羊,每隻 1 分(有幾群一樣大就只計其中一群)",
+    "icon": "🐑",
+    "color": "#F5E8D8",
+    "input": "counter",
+    "unitValue": 1
+   },
+   {
+    "id": "flockmarker",
+    "label": "最大羊群標記",
+    "note": "持有「最大羊群」標記額外 5 分",
+    "icon": "🏅",
+    "color": "#F7EFD2",
+    "input": "bonus",
+    "value": 5
+   },
+   {
+    "id": "exploration",
+    "label": "探索:圍封家鄉",
+    "note": "家鄉周圍全部 18 格(上下左右同斜角)都俾地景磚、獎勵磚或者塔冚滿就 5 分",
+    "icon": "🧭",
+    "color": "#DCE8F7",
+    "input": "bonus",
+    "value": 5
+   },
+   {
+    "id": "whiskey",
+    "label": "威士忌軌",
+    "note": "威士忌軌上木桶所在格印住嘅分",
+    "icon": "🥃",
+    "color": "#F7E2CE",
+    "input": "number",
+    "min": 0
+   },
+   {
+    "id": "stones",
+    "label": "石陣",
+    "note": "展示區入面所有石陣印住嘅分加埋",
+    "icon": "🗿",
+    "color": "#EADCF0",
+    "input": "number",
+    "min": 0
+   }
+  ],
+  "total": {
+   "type": "sum"
+  }
+ }
+}
