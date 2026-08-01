@@ -267,9 +267,84 @@ tr.trow td .val{font-size:30px;}
 }
 .ederr{font-size:12.5px; line-height:1.55; color:#A3312B; font-weight:600;}
 .edcount{font-size:12px; color:var(--ink-soft); margin:-4px 0 8px;}
+
+/* ===== 清單分批載入 ===== */
+.listcount{font-size:12px; color:var(--ink-soft); text-align:center; padding:8px 0 2px;}
+#gsentinel{height:1px;}
+
+/* ===== boot 錯誤條(唔准白屏死俾人睇) ===== */
+#bootError{
+  display:none; position:fixed; top:0; left:0; right:0; z-index:9999;
+  background:#B3261E; color:#fff; font-size:12.5px; line-height:1.55;
+  padding:10px 38px 12px 14px; max-height:50vh; overflow-y:auto;
+  font-family:ui-monospace,Menlo,Consolas,monospace;
+  white-space:pre-wrap; word-break:break-word;
+  box-shadow:0 2px 10px rgba(0,0,0,.35);
+}
+#bootError.show{display:block;}
+#bootError b{display:block; font-size:13.5px; margin-bottom:5px; font-family:inherit;}
+#bootError .x{
+  position:absolute; top:5px; right:7px; background:none; border:none;
+  color:#fff; font-size:18px; line-height:1; cursor:pointer; padding:3px 7px;
+}
 </style>
 </head>
 <body>
+<div id="bootError" role="alert" aria-live="assertive"></div>
+
+<!-- ⚠️ 呢段一定要係獨立、行喺主程式之前嘅 script block。
+     同一個 block 內嘅語法錯誤 = 成 block 唔會執行,handler 擺喺
+     入面就接唔到自己。分開咗,主程式 parse 唔到都會經
+     window.onerror 報出「邊個檔第幾行」。
+     刻意用 ES5 寫法(var / function),舊 WebView 都 parse 到。 -->
+<script>
+(function(){
+  var box=null, count=0;
+  function show(title, detail){
+    count++;
+    if(!box) box=document.getElementById("bootError");
+    if(!box){ return; }
+    if(count===1){
+      box.innerHTML='<button class="x" type="button" aria-label="關閉">✕</button><b></b><span></span>';
+      box.getElementsByClassName("x")[0].onclick=function(){ box.classList.remove("show"); };
+    }
+    box.getElementsByTagName("b")[0].textContent=
+      "⚠️ "+title+(count>1?"（第 "+count+" 個錯誤）":"");
+    var s=box.getElementsByTagName("span")[0];
+    s.textContent=(s.textContent?s.textContent+"\n\n":"")+detail;
+    box.classList.add("show");
+  }
+  function frame(err){
+    if(!err || !err.stack) return "";
+    return "\n"+String(err.stack).split("\n").slice(0,4).join("\n");
+  }
+  window.onerror=function(msg, src, line, col, err){
+    show("開 app 出錯", String(msg)+"\n"
+      +String(src||"(unknown)").split("/").pop()+" 第 "+line+" 行 第 "+col+" 欄"
+      +frame(err));
+    return false;                       // 唔阻止 console 照報
+  };
+  window.addEventListener("unhandledrejection", function(e){
+    var r=e.reason;
+    show("未處理嘅 Promise 錯誤",
+      (r && r.message ? r.message : String(r))+frame(r));
+  });
+  /* 主程式 parse 唔到就完全唔會行 —— 呢個 flag 永遠唔會 set,
+     load 之後見到冇 flag 即刻報出嚟,唔會淨係得個白屏。 */
+  window.addEventListener("load", function(){
+    setTimeout(function(){
+      if(!window.__appScriptRan){
+        show("主程式冇執行到",
+          "index.html 嘅主 script block 由頭到尾冇行過。\n"
+          +"通常係語法唔兼容(舊 WebView parse 唔到),\n"
+          +"上面應該會有一行講明係第幾行出事。");
+      }
+    }, 0);
+  });
+  window.__showBootError=show;          // 主程式接到錯誤都用返呢個
+})();
+</script>
+
 <div id="app">
   <header class="bar" id="bar">
     <button id="backBtn" style="visibility:hidden">‹ 返回</button>
@@ -301,6 +376,10 @@ tr.trow td .val{font-size:30px;}
      {DATA_BASE}/scoring/{gameId}.json = 揀咗遊戲先 lazy load
    兩者 fetch 成功都會寫入 IndexedDB 快取("cache" store),
    下次冇網就由快取讀返。冇計分表嘅遊戲開通用計分表。 */
+
+/* 行到呢度 = 主程式 parse 得成功。上面嗰段 guard script 靠呢個 flag
+   分辨「app 出錯」同「app 由頭到尾冇行過(語法唔兼容)」。 */
+window.__appScriptRan = true;
 
 /* 數據根目錄(單一數據源)。以後搬位淨係改呢一行。 */
 const DATA_BASE = "pipeline/out";
@@ -596,6 +675,8 @@ function totalFor(pIdx){
 
 /* ---------- render root ---------- */
 function render(){
+  /* 離開清單就收返 observer,唔好留住已 detach 嘅 sentinel */
+  if(S.view!=="games" && listIO){ listIO.disconnect(); listIO=null; listAppend=null; }
   backBtn.style.visibility = (S.view==="setup"||S.view==="sheet"||S.view==="editor") ? "visible":"hidden";
   backBtn.textContent = S.view==="editor" ? "取消" : "‹ 返回";
   saveBtn.style.visibility = (S.view==="sheet"||S.view==="editor") ? "visible":"hidden";
@@ -611,9 +692,33 @@ function render(){
   else if(S.view==="editor") renderEditor();
 }
 
-/* ---------- view: game list ---------- */
+/* ---------- view: game list ----------
+   3000 隻唔可以一次過 render。實測(CPU 20x ≈ 低階 Android):
+   一次過出 3000 張 = 21,011 個 DOM 節點、6,012 個 event listener、
+   主線程鎖死 1,544ms —— 就係開 app 閃退嘅源頭。
+   而家:首屏 50 張,IntersectionObserver sentinel 見底再補 50。
+   搜尋照行全量 catalog.list,但結果一樣分批出。 */
+const LIST_PAGE = 50;
+let listIO=null, listAppend=null, scrollFallbackBound=false;
+
+function gcardHTML(g){
+  const rank=(g.rank!=null && isFinite(g.rank)) ? g.rank : "·";
+  return `<button class="gcard" data-id="${esc(g.gameId)}">
+    <span class="rank">${rank}</span>
+    <span class="dot" style="background:${esc(safeAccent(g.theme.accent, g.gameId))}"></span>
+    <span class="gname">${esc(g.nameZh||g.name)}
+      ${g.nameZh&&g.nameZh!==g.name?`<small>${esc(g.name)}</small>`:""}
+    </span>
+    ${catalog.userIds.has(g.gameId)?`<span class="chip">✏️ 自訂</span>`
+      :(g.hasScoring?"":`<span class="chip">通用表</span>`)}
+    ${g.meta.weight?`<span class="chip">⚖️ ${g.meta.weight}</span>`:""}
+    ${g.meta.minPlayers?`<span class="chip">👥 ${g.meta.minPlayers}–${g.meta.maxPlayers}</span>`:""}
+  </button>`;
+}
+
 function renderGames(){
   setAccent("#3E7C4F"); barTitle.textContent="桌遊計分";
+  if(listIO){ listIO.disconnect(); listIO=null; listAppend=null; }
   if(catalog.noData){          // 網同快取都冇
     main.innerHTML=`<div class="empty-state"><div class="big">📡</div>
       首次使用需要網絡下載遊戲資料。<br>連咗網再開一次就得,之後離線都用到。</div>`;
@@ -624,42 +729,76 @@ function renderGames(){
     <input class="search" id="q" type="search" placeholder="搜尋遊戲⋯" autocomplete="off">
     ${catalog.offline?`<p class="offline-note">離線模式:用緊上次下載嘅資料(共 ${catalog.list.length} 隻)。</p>`:""}
     <div id="glist"></div>
+    <div id="gsentinel" aria-hidden="true"></div>
+    <p class="listcount" id="gcount"></p>
     <p class="sheetnote">共 ${catalog.list.length} 隻 · ${withScoring} 隻有專屬計分表,其餘開通用計分表</p>
   `;
-  const list=$("#glist");
+  const list=$("#glist"), sentinel=$("#gsentinel"), counter=$("#gcount");
+  let hits=[], shown=0;
+
+  function appendBatch(){
+    if(shown>=hits.length) return;
+    const next=hits.slice(shown, shown+LIST_PAGE);
+    list.insertAdjacentHTML("beforeend", next.map(gcardHTML).join(""));
+    shown+=next.length;
+    counter.textContent = shown<hits.length
+      ? `顯示緊 ${shown} / ${hits.length} 隻 · 向下捲會自動載入`
+      : (hits.length>LIST_PAGE ? `全部 ${hits.length} 隻已顯示` : "");
+    if(!listIO) return;
+    if(shown>=hits.length) listIO.unobserve(sentinel);
+    else { listIO.unobserve(sentinel); listIO.observe(sentinel); }  // 一屏裝唔滿就再補一批
+  }
+  listAppend=appendBatch;
+
   function draw(q){
     const raw=(q||"").trim(), ql=raw.toLowerCase();
-    const hits=catalog.list.filter(g=>!raw
+    hits=catalog.list.filter(g=>!raw                 // 搜尋照行全量數據
       || g.name.toLowerCase().includes(ql)
       || (g.nameZh||"").includes(raw));
-    list.innerHTML=hits.map(g=>{
-      const rank=(g.rank!=null && isFinite(g.rank)) ? g.rank : "·";
-      return `<button class="gcard" data-id="${g.gameId}">
-        <span class="rank">${rank}</span>
-        <span class="dot" style="background:${g.theme.accent}"></span>
-        <span class="gname">${esc(g.nameZh||g.name)}
-          ${g.nameZh&&g.nameZh!==g.name?`<small>${esc(g.name)}</small>`:""}
-        </span>
-        ${catalog.userIds.has(g.gameId)?`<span class="chip">✏️ 自訂</span>`
-          :(g.hasScoring?"":`<span class="chip">通用表</span>`)}
-        ${g.meta.weight?`<span class="chip">⚖️ ${g.meta.weight}</span>`:""}
-        ${g.meta.minPlayers?`<span class="chip">👥 ${g.meta.minPlayers}–${g.meta.maxPlayers}</span>`:""}
-      </button>`;
-    }).join("") || `<div class="empty-state">搵唔到「${esc(raw)}」。</div>`;
-    list.querySelectorAll(".gcard").forEach(b=>b.onclick=async()=>{
-      b.disabled=true;
-      try{
-        S.game=await loadGame(b.dataset.id);
-        S.editPlayId=null;
-        S.view="setup"; render();
-      }catch(err){
-        b.disabled=false;
-        toast("載入計分表失敗:"+b.dataset.id);
-      }
-    });
+    shown=0; list.innerHTML="";
+    if(!hits.length){
+      list.innerHTML=`<div class="empty-state">搵唔到「${esc(raw)}」。</div>`;
+      counter.textContent="";
+      if(listIO) listIO.unobserve(sentinel);
+      return;
+    }
+    if(listIO) listIO.observe(sentinel);
+    appendBatch();                                   // 首屏一批
   }
+
+  /* 事件委派:一個 listener 睇晒成個清單。
+     原本係逐張卡綁 onclick(3000 個 closure),而家永遠得 1 個。 */
+  list.onclick=async e=>{
+    const b=e.target.closest(".gcard");
+    if(!b || b.disabled) return;
+    b.disabled=true;
+    try{
+      S.game=await loadGame(b.dataset.id);
+      S.editPlayId=null;
+      S.view="setup"; render();
+    }catch(err){
+      b.disabled=false;
+      toast("載入計分表失敗:"+b.dataset.id);
+    }
+  };
+
+  if(typeof IntersectionObserver==="function"){
+    listIO=new IntersectionObserver(entries=>{
+      if(entries.some(x=>x.isIntersecting)) appendBatch();
+    }, {root:null, rootMargin:"400px 0px"});
+  }else{                                             // 極舊 WebView:退返捲動偵測
+    if(!scrollFallbackBound){
+      scrollFallbackBound=true;
+      window.addEventListener("scroll",()=>{
+        if(S.view!=="games" || !listAppend) return;
+        if(window.innerHeight+window.scrollY >= document.documentElement.scrollHeight-400) listAppend();
+      }, {passive:true});
+    }
+    listIO={observe(){},unobserve(){},disconnect(){}};
+  }
+
   draw("");
-  let timer=null;                                   // 1000 隻:入字 debounce 一下
+  let timer=null;                                    // 入字 debounce
   $("#q").oninput=e=>{
     const v=e.target.value;
     clearTimeout(timer);
@@ -1319,11 +1458,24 @@ editBtn.onclick=()=>{ closePad(); openEditor(); };
 
 /* ---------- boot ---------- */
 (async () => {
-  await store.open();
-  const uts=await store.allUserTemplates();
-  catalog.userIds=new Set(uts.map(d=>d.gameId));
-  await loadCatalog();
-  render();
+  /* index.json 有成 1.1MB,慢網要等好耐。即刻畫個 loading,
+     唔好留住個白屏俾人以為死咗機。 */
+  main.innerHTML=`<div class="empty-state"><div class="big">🎲</div>載入緊遊戲資料⋯</div>`;
+  try{
+    await store.open();
+    const uts=await store.allUserTemplates();
+    catalog.userIds=new Set(uts.map(d=>d.gameId));
+    await loadCatalog();
+    render();
+  }catch(err){
+    if(window.__showBootError){
+      window.__showBootError("開 app 出錯",
+        (err && err.message ? err.message : String(err))
+        + (err && err.stack ? "\n"+err.stack.split("\n").slice(0,4).join("\n") : ""));
+    }
+    main.innerHTML=`<div class="empty-state"><div class="big">⚠️</div>
+      開唔到。錯誤詳情喺畫面最頂嗰條紅色橫額。</div>`;
+  }
 })();
 </script>
 </body>
