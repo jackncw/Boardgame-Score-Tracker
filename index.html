@@ -1043,9 +1043,15 @@ function openTierPad(pi,f){
   pad.classList.add("open");
 }
 function closePad(){pad.classList.remove("open"); S.editing=null;}
+/* 撳出面就收 pad。⚠️ 一定要 capture(第三個參數 true):
+   數字鍵盤每撳一粒掣就 draw() 重畫成個 pad,撳過嗰個 button 即刻被 detach;
+   bubble 階段先行嘅話,pad.contains(e.target) 同 e.target.closest("td.cell")
+   兩個 test 都係對住一個已經離開 DOM 嘅節點,雙雙 false,
+   於是「撳自己個鍵盤」會被當成「撳出面」,入到一半 pad 就滑走。
+   capture 喺 target 自己個 handler 之前行,睇到嘅係未重畫嘅 DOM。 */
 document.addEventListener("click",e=>{
   if(pad.classList.contains("open") && !pad.contains(e.target) && !e.target.closest("td.cell")) closePad();
-});
+}, true);
 /* 入完自動跳下一個玩家同一行 */
 function nextCell(pi,f){
   if(pi+1 < S.players.length){
