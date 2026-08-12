@@ -12,6 +12,15 @@
   "tieBreaker": "—",
   "fields": [
    {
+    "id": "track_vp",
+    "label": "計分軌分數",
+    "note": "遊戲過程中喺計分軌累積嘅分數",
+    "icon": "📈",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
     "id": "buildings",
     "label": "建築卡",
     "icon": "🏛️",
