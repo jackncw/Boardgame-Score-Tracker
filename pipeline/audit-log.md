@@ -13,7 +13,7 @@
 - **c** — 純終局計分遊戲,冇軌 → 唔郁
 - **-** — source=manual 或 verified:true,用戶核對過,跳過
 
-進度:rank 1–1693,已審 884 隻 (a=619 b=3 c=260 跳過=2)
+進度:rank 1–2996,已審 1112 隻 (a=795 b=3 c=312 跳過=2)
 
 | rank | 遊戲 | 判斷 | 依據 |
 |---:|---|:-:|---|
@@ -901,3 +901,231 @@
 | 1681 | Keythedral | c | Keythedral 終局結算 |
 | 1683 | Trains: Rising Sun | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
 | 1693 | Tokaido Duo | a | 三類分數邊玩邊上軌,欄位齊 |
+| 1703 | Age of Galaxy | c | Age of Galaxy 終局結算 |
+| 1706 | Terracotta Army | c | Terracotta Army 終局結算 |
+| 1707 | Spot it! | a | 贏到嘅卡逐круг累加 |
+| 1717 | Robot Quest Arena | a | 勝利分邊打邊攞,單欄涵蓋 |
+| 1721 | Mariposas | a | 已有「遊戲中累積嘅分」 |
+| 1727 | CABO (Second Edition) | a | 已有「累計分數」 |
+| 1730 | Asara | a | 已有「四次年度評比累計」 |
+| 1733 | Wildcatters | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1734 | Dragomino | a | 小龍寶寶邊玩邊收 |
+| 1738 | Say Anything | a | 已有「累計得分」 |
+| 1740 | Bot Factory | c | Bot Factory 終局結算 |
+| 1749 | Ca$h 'n Gun$ | a | 分贓逐круг累加 |
+| 1754 | Porta Nigra | c | Porta Nigra 終局結算 |
+| 1759 | Wild Tiled West | c | Wild Tiled West 終局結算 |
+| 1760 | Villages of Valeria | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1764 | Marrakech | a | 金幣邊玩邊收 |
+| 1771 | Tournay | c | Tournay 終局結算 |
+| 1772 | Keyper | c | Keyper 終局結算 |
+| 1777 | Expedition to Newdale | a | 已有「遊戲中勝利分」 |
+| 1781 | 1817 | a | 總身家單欄 = 勝負數值本身 |
+| 1785 | Juicy Fruits | a | 已經有計分軌欄位 |
+| 1791 | Spectacular | c | Spectacular 終局結算 |
+| 1814 | Railroad Tiles | a | 已有「遊戲中聲望分」 |
+| 1821 | King of Tokyo: Duel | a | KoT 勝利點邊玩邊上軌 |
+| 1829 | Cabo | a | 已有「累計分數」 |
+| 1835 | Looot | c | Looot 終局結算 |
+| 1848 | Minos: Dawn of the Bronze Age | a | 已有「遊戲中勝利分」 |
+| 1849 | Eight-Minute Empire | c | Eight-Minute Empire 終局結算 |
+| 1855 | Cascadero | a | Cascadero 勝利分邊玩邊上軌 |
+| 1856 | 1849: The Game of Sicilian Railways | a | 總身家單欄 = 勝負數值本身 |
+| 1858 | Sagani | a | 已有「和諧軌分數」 |
+| 1861 | Odin | a | 已有「累計罰分」 |
+| 1863 | Dixit: Disney Edition | a | 已有「累計得分」 |
+| 1864 | DC Deck-Building Game: Heroes Unite | c | DC DBG 終局數牌庫 VP |
+| 1868 | Tenpenny Parks | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1869 | Minecraft: Builders & Biomes | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1870 | Shogun no Katana | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1879 | Amyitis | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1880 | Azul Duel | a | 已有「遊戲中累計分」 |
+| 1882 | Anomia | a | 贏到嘅卡逐круг累加 |
+| 1886 | Dutch Blitz | a | 已有「累計得分」 |
+| 1889 | Amsterdam | a | 已有「遊戲中聲望分」 |
+| 1890 | Amalfi: Renaissance | a | 已有「遊戲中勝利分」 |
+| 1896 | SET | a | 搶到嘅組合逐круг累加 |
+| 1897 | Iliad | a | 神祇標記邊玩邊攞 |
+| 1909 | Kariba | c | Kariba 終局計動物卡 |
+| 1917 | Drop It | a | 已有「累計得分」 |
+| 1919 | Valley of the Kings: Afterlife | c | Valley of the Kings 終局結算 |
+| 1924 | Iberian Gauge | a | 金錢單欄 = 勝負數值本身 |
+| 1925 | Dewan | c | Dewan 終局結算 |
+| 1926 | Orichalcum | a | Orichalcum 勝利分邊玩邊收 |
+| 1927 | 3 Chapters | c | 3 Chapters 終局結算 |
+| 1931 | Aladdin's Dragons | a | 神器邊玩邊搶 |
+| 1936 | I'm the Boss! | a | 金錢邊玩邊賺,單欄涵蓋 |
+| 1938 | Haspelknecht: The Story of Early Coal Mining | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1939 | Nova Roma | c | Nova Roma 終局結算 |
+| 1940 | Chocolate Factory | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1944 | Indian Summer | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1952 | Skyjo | a | 已有「累計分數」 |
+| 1953 | Feya's Swamp | a | 已有「遊戲中累計分」 |
+| 1955 | Phoenix New Horizon | a | 已有「遊戲中累計分」 |
+| 1963 | Cosmic Frog | c | Cosmic Frog 終局結算 |
+| 1964 | La Habana | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1966 | Ada's Dream | c | Ada's Dream 終局結算,創新軌欄已有 |
+| 1967 | L.L.A.M.A. | a | 罰分籌碼逐круг累加 |
+| 1971 | Pirate's Cove | a | 名聲分邊玩邊攞 |
+| 1988 | Bruxelles 1897 | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1989 | Wallenstein (Second Edition) | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2004 | dnup | a | 字母標記逐круг累加 |
+| 2008 | Ascending Empires | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2009 | Sanssouci | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2026 | Oregon | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2031 | Dice Settlers | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2032 | Daitoshi | a | 已有「遊戲中累計分」 |
+| 2034 | Android | c | Android 終局結算 |
+| 2036 | Pergamon | a | 已有「入場券累計分」 |
+| 2037 | Marabunta | a | 已經有計分軌欄位 |
+| 2040 | Polis | c | Polis 終局結算 |
+| 2045 | Beyond Balderdash | a | 已有「累計得分」 |
+| 2046 | Battle Sheep | c | Battle Sheep 終局數露出格 |
+| 2050 | Trailblazers | c | Trailblazers 終局結算 |
+| 2052 | Stupor Mundi | a | 已經有計分軌欄位 |
+| 2064 | Fast Sloths | a | 葉子邊玩邊收 |
+| 2067 | Neanderthal | a | 勝利分邊玩邊上軌 |
+| 2079 | Etherstone | a | 已有「分數標記」 |
+| 2080 | Fjords | c | Fjords 終局數已放維京人 |
+| 2099 | Tiny Epic Pirates | a | 寶藏邊玩邊埋 |
+| 2101 | Circus Flohcati | a | 得一欄「最終分數/總分」,本身就係 catch-all,涵蓋軌上分 |
+| 2102 | Bios: Megafauna (Second Edition) | c | Bios: Megafauna 終局結算 |
+| 2103 | PUSH | a | 已有「累計得分」 |
+| 2107 | Ascension: Immortal Heroes | a | 榮譽點數邊玩邊收 |
+| 2110 | Ubongo 3D | a | 寶石逐круг攞 |
+| 2115 | Tinners' Trail (Second Edition) | a | 已經有計分軌欄位 |
+| 2123 | Ascension: 10 Year Anniversary Edition | a | 榮譽點數邊玩邊收 |
+| 2126 | Key Flow | c | Key Flow 終局結算 |
+| 2133 | New York Slice | a | 得一欄「最終分數/總分」,本身就係 catch-all,涵蓋軌上分 |
+| 2137 | Bamboo | a | 已有「遊戲中幸福值」 |
+| 2146 | Kavango | c | Kavango 終局結算 |
+| 2156 | 1860: Railways on the Isle of Wight | a | 總身家單欄 = 勝負數值本身 |
+| 2158 | Arctic Scavengers | c | Arctic Scavengers 終局數部落人數 |
+| 2163 | Hamburg | a | 已經有計分軌欄位 |
+| 2170 | 1856: Railroading in Upper Canada from 1856 | a | 總身家單欄 = 勝負數值本身 |
+| 2172 | The White Castle Duel | a | 已有「遊戲中紅扇分」 |
+| 2174 | Artifacts, Inc. | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2177 | After Us | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2188 | On the Underground | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2189 | Explorers | c | Explorers 終局結算 |
+| 2192 | Treasure Hunter | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2205 | Mamma Mia! | a | 薄餅逐круг焗好累加 |
+| 2208 | Dragonkeepers | c | Dragonkeepers 終局結算 |
+| 2211 | Ethnos: 2nd Edition | a | 三個時代逐時代計分 |
+| 2215 | Naishi | a | 逐круг卡牌計分 |
+| 2225 | Rise of Empires | a | 已有「遊戲中勝利分」 |
+| 2228 | Age of War | a | 城堡邊打邊贏,單欄涵蓋 |
+| 2244 | Pax Transhumanity | c | Pax Transhumanity 終局結算 |
+| 2248 | Ascension: Rise of Vigil | a | 榮譽點數邊玩邊收 |
+| 2251 | Hearts | a | 罰分逐круг累加 |
+| 2258 | Container | c | Container 終局結算 |
+| 2262 | Origins: First Builders | a | 已有「遊戲中勝利分」 |
+| 2263 | Evo (Second Edition) | a | 已有「累計得分」 |
+| 2266 | Pampero | a | 最終現金單欄 = 勝負數值本身 |
+| 2272 | Smash Up: Cease and Desist | a | 基地爆分即時攞,單欄涵蓋 |
+| 2278 | Terramara | a | 已有「勝利分磚」(遊戲中攞) |
+| 2291 | A Game of Thrones: Hand of the King | a | 家族旗幟邊玩邊搶 |
+| 2296 | Forestry | a | 已經有計分軌欄位 |
+| 2298 | Great Western Trail: El Paso | c | GWT 系列終局結算 |
+| 2306 | You're Bluffing! | c | You're Bluffing! 終局結算 |
+| 2313 | The New Era | a | 已有勝利分標記欄(遊戲中攞) |
+| 2319 | Spades | a | 已有「累計得分」 |
+| 2323 | House of Fado | a | 已有「遊戲中聲望分」 |
+| 2337 | Wits & Wagers Family | a | 已有「累計得分」 |
+| 2345 | Railway Boom | a | 已經有計分軌欄位 |
+| 2347 | Snake Oil | a | 顧客卡逐круг攞 |
+| 2353 | Namiji | a | 已有「遊戲中勝利分」 |
+| 2364 | Ayar: Children of the Sun | a | 得一欄「最終分數/總分」,本身就係 catch-all,涵蓋軌上分 |
+| 2373 | Anomia: Party Edition | a | 贏到嘅卡逐круг累加 |
+| 2375 | Balderdash | a | 已有「累計得分」 |
+| 2378 | Money! | a | 錢幣總值單欄 = 勝負數值本身 |
+| 2381 | Dragonwood | a | 生物邊玩邊捕獲 |
+| 2385 | Poetry for Neanderthals | a | 已有「累計得分」 |
+| 2387 | 5 Towers | c | 5 Towers 終局結算 |
+| 2427 | Panda Royale | a | 已有「累計得分」 |
+| 2442 | Hues and Cues | a | 已有「累計得分」 |
+| 2443 | Scrabble | a | 已有「累計得分」 |
+| 2444 | Bios: Genesis | c | Bios: Genesis 終局結算 |
+| 2451 | Archaeology: The Card Game | a | 寶物遊戲中賣出即攞分 |
+| 2460 | Wits & Wagers: It's Vegas, Baby! | a | 已有「累計得分」 |
+| 2462 | Arena: Roma II | a | 勝利分邊打邊攞 |
+| 2475 | Herd Mentality | a | 牛牛標記逐круг攞 |
+| 2476 | Taboo | a | 已有「累計得分」 |
+| 2478 | Cuzco | a | 已有「遊戲中勝利分」 |
+| 2479 | Ascension: Realms Unraveled | a | 榮譽點數邊玩邊收 |
+| 2494 | Skat | a | 已有「累計得分」 |
+| 2501 | Gloom | a | 家人自我價值邊玩邊定,單欄涵蓋 |
+| 2504 | Show Manager | a | 金錢單欄 = 勝負數值本身 |
+| 2514 | Dimension | a | 已有「累計得分」 |
+| 2523 | Ragusa | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2524 | Thunderstone Advance: Numenera | c | Thunderstone 終局數牌庫 VP |
+| 2526 | Take it Easy! | a | 得一欄「最終分數/總分」,本身就係 catch-all,涵蓋軌上分 |
+| 2529 | FITS | a | 已有「累計得分」 |
+| 2542 | GoodCritters | a | 贓款逐круг分 |
+| 2548 | Warhammer Underworlds: Nightvault | a | 榮耀點數邊打邊攞 |
+| 2554 | 1882: Assiniboia | a | 總身家單欄 = 勝負數值本身 |
+| 2567 | Alubari: A Nice Cup of Tea | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2572 | Sail to India | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 2578 | Flip 7: With A Vengeance | a | 已有「累計得分」 |
+| 2579 | Metro | a | 已有「累計得分」 |
+| 2591 | Emberheart | a | 屬性軌/火焰軌都有欄 |
+| 2595 | Ticket to Ride: San Francisco | a | 鋪路即時上分軌,已有欄 |
+| 2600 | Tanto Cuore | c | Tanto Cuore 終局數牌庫 VP |
+| 2615 | DC Deck-Building Game: Forever Evil | c | DC DBG 終局數牌庫 VP |
+| 2621 | Guilds of London | a | 已有「遊戲中勝利分」 |
+| 2648 | Heimlich & Co. | a | 已有「累計得分」 |
+| 2652 | Amritsar: The Golden Temple | a | 已有「遊戲中聲望分」 |
+| 2655 | Sleeping Queens | a | 皇后點數邊玩邊搶 |
+| 2657 | Aqua: Biodiversity in the Oceans | c | Aqua 終局結算 |
+| 2661 | Ticket to Ride: Amsterdam | a | 鋪路即時上分軌,已有欄 |
+| 2673 | Poison | a | 罰分逐круг累加 |
+| 2682 | Books of Time | a | 已有「遊戲中勝利分」 |
+| 2695 | League of Six | a | 影響力逐круг累加 |
+| 2696 | 1822: The Railways of Great Britain | a | 總身家單欄 = 勝負數值本身 |
+| 2698 | Panic on Wall Street! | a | 金錢單欄 = 勝負數值本身 |
+| 2717 | 1870: Railroading Across the Trans Mississippi from 1870 | a | 總身家單欄 = 勝負數值本身 |
+| 2724 | Doppelkopf | a | 已有「累計得分」 |
+| 2736 | Pick Picknic | a | 玉米粒逐круг攞 |
+| 2739 | Long Shot | a | 金錢逐場賽事累加 |
+| 2749 | Piece o' Cake | a | 得一欄「最終分數/總分」,本身就係 catch-all,涵蓋軌上分 |
+| 2752 | 20th Century | a | 已有「第一至五回合勝利分」 |
+| 2754 | Dice Realms | a | 已有「勝利分籌碼」 |
+| 2755 | Scattergories | a | 已有「累計得分」 |
+| 2756 | Solstis | c | Solstis 終局結算 |
+| 2759 | Zug um Zug: Deutschland | a | 鋪路即時上分軌,已有欄 |
+| 2765 | My Shelfie | a | 已有「計分標記」(遊戲中攞) |
+| 2777 | Loot | a | 掠奪所得逐круг累加 |
+| 2798 | Triqueta | c | Triqueta 終局結算 |
+| 2799 | Oh Hell! | a | 已有「累計得分」 |
+| 2810 | That's Life! | a | 罰分籌碼逐круг累加 |
+| 2812 | Beyond the Horizon | c | Beyond the Horizon 終局結算 |
+| 2817 | Intarsia | c | Intarsia 終局結算 |
+| 2842 | Greed | a | 金錢邊玩邊賺,單欄涵蓋 |
+| 2848 | Victorian Masterminds | c | Victorian Masterminds 終局結算 |
+| 2849 | Modern Art Card Game | a | 金錢單欄 = 勝負數值本身 |
+| 2851 | Big Shot | a | 金錢單欄 = 勝負數值本身 |
+| 2855 | Steam Power | c | Steam Power 終局結算 |
+| 2858 | Mantis | a | 得分區卡牌邊玩邊儲 |
+| 2868 | Take 5! | a | 牛頭逐круг累加(負分) |
+| 2883 | Penguin Party | a | 剩餘卡逐круг計罰分 |
+| 2886 | Catch the Moon | a | 淚滴邊玩邊攞(負分) |
+| 2892 | Carnuta | c | Carnuta 終局結算 |
+| 2893 | Propolis | c | Propolis 終局結算 |
+| 2898 | Krazy Wordz: Nicht 100% jugendfrei | a | 已有「累計得分」 |
+| 2909 | Stay Cool | a | 已有「累計得分」 |
+| 2918 | Kokopelli | a | 勝利分邊玩邊攞 |
+| 2920 | Mercado de Lisboa | c | Mercado de Lisboa 終局結算 |
+| 2923 | Undergrove | c | Undergrove 終局結算 |
+| 2925 | Ascension: Darkness Unleashed | a | 榮譽點數邊玩邊收 |
+| 2933 | Funkenschlag | c | Power Grid 冇 VP |
+| 2938 | Mythical Dice | a | 逐круг叫牌計分 |
+| 2940 | Big Boggle | a | 已有「累計得分」 |
+| 2941 | Tipperary | c | Tipperary 終局結算,威士忌軌欄已有 |
+| 2961 | Thunderstone Advance: Worlds Collide | c | Thunderstone 終局數牌庫 VP |
+| 2965 | Rocketmen | a | 任務勝利分係遊戲中完成即攞 |
+| 2972 | Big Boss | a | 金錢單欄 = 勝負數值本身 |
+| 2975 | Gang of Four | a | 罰分逐круг累加 |
+| 2986 | Smash Up: Big in Japan | a | 基地爆分即時攞,單欄涵蓋 |
+| 2993 | Ghost Blitz 2 | a | 贏到嘅卡逐круг累加 |
+| 2994 | Boomtown | a | 金錢逐круг累加 |
+| 2996 | Boggle | a | 已有「累計得分」 |
