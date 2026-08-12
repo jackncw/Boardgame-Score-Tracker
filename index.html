@@ -80,9 +80,6 @@ nav.tabs button:focus-visible{outline:2px solid var(--accent); outline-offset:-2
   font-size:12px; font-weight:700; color:var(--ink-soft); flex-shrink:0;
   min-width:24px; text-align:right; font-variant-numeric:tabular-nums;
 }
-.genericnote{
-  display:block; font-weight:600; font-size:11.5px; color:#8A6D1F; margin-top:3px;
-}
 .offline-note{
   font-size:12.5px; line-height:1.5; color:#8A6D1F;
   background:#E5B23A22; border:1px solid #E5B23A55; border-radius:8px;
@@ -291,6 +288,48 @@ tr.trow td .val{font-size:30px;}
 .ederr{font-size:12.5px; line-height:1.55; color:#A3312B; font-weight:600;}
 .edcount{font-size:12px; color:var(--ink-soft); margin:-4px 0 8px;}
 
+/* ===== 統計頁 ===== */
+.stat3{display:grid; grid-template-columns:repeat(3,1fr); gap:9px;}
+.stat3 .tile{
+  background:var(--white); border:1.5px solid var(--line); border-radius:var(--radius);
+  padding:12px 6px 10px; text-align:center;
+}
+.stat3 .tile .n{font-size:34px; line-height:1.05; display:block;}
+.stat3 .tile .k{
+  display:block; font-size:11.5px; font-weight:600; color:var(--ink-soft);
+  margin-top:5px; line-height:1.3;
+}
+.srow{
+  background:var(--white); border:1.5px solid var(--line); border-radius:var(--radius);
+  padding:11px 13px; margin-bottom:8px;
+}
+.srow .hd{display:flex; align-items:baseline; gap:8px;}
+.srow .hd .nm{
+  font-weight:700; flex:1; min-width:0;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.srow .hd .nm small{
+  display:block; font-weight:400; font-size:11.5px; color:var(--ink-soft);
+  overflow:hidden; text-overflow:ellipsis;
+}
+.srow .hd .big{font-size:23px; line-height:1; flex-shrink:0;}
+.srow .sub{
+  font-size:12px; color:var(--ink-soft); margin-top:4px;
+  display:flex; flex-wrap:wrap; gap:2px 12px;
+}
+.srow .sub b{font-weight:700; color:var(--ink);}
+/* 橫條:遊戲榜嗰條會 inline 覆蓋成遊戲自己嘅 accent 色 */
+.bar{
+  height:7px; border-radius:99px; background:var(--paper-deep);
+  margin-top:8px; overflow:hidden;
+}
+.bar > i{display:block; height:100%; border-radius:99px; background:var(--accent);}
+/* 統計唔講定義係大忌 —— 方法論永遠跟住個榜出 */
+.methodnote{
+  font-size:11.5px; line-height:1.65; color:var(--ink-soft);
+  border-top:1px solid var(--line); margin-top:20px; padding-top:10px;
+}
+
 /* ===== 清單分批載入 ===== */
 .listcount{font-size:12px; color:var(--ink-soft); text-align:center; padding:8px 0 2px;}
 #gsentinel{height:1px;}
@@ -399,6 +438,7 @@ tr.trow td .val{font-size:30px;}
   <nav class="tabs" id="tabs">
     <button data-tab="games" class="active">🎲 計分</button>
     <button data-tab="history">📜 紀錄</button>
+    <button data-tab="stats">📊 統計</button>
   </nav>
 </div>
 
@@ -438,7 +478,7 @@ const STRINGS = {
  zh:{
   /* chrome */
   appTitle:"桌遊計分", back:"‹ 返回", cancel:"取消", save:"儲存",
-  editSheet:"修改計分表", tabGames:"🎲 計分", tabHistory:"📜 紀錄",
+  editSheet:"修改計分表", tabGames:"🎲 計分", tabHistory:"📜 紀錄", tabStats:"📊 統計",
   padAria:"輸入分數", langAria:"切換語言", langBtn:"EN",
   /* 遊戲清單 */
   noData:"首次使用需要網絡下載遊戲資料。<br>連咗網再開一次就得,之後離線都用到。",
@@ -513,13 +553,27 @@ const STRINGS = {
   exportJson:"⬇️ 匯出 JSON", importJson:"⬆️ 匯入 JSON",
   imported:(n,t)=>`已匯入 ${n} 場${t?` · ${t} 個自訂計分表`:""}`,
   badFile:"檔案格式唔啱",
+  /* 統計 */
+  statsTitle:"統計",
+  statPlays:"總場數", statGames:"玩過遊戲", statThisYear:"今年場數",
+  playersRank:"玩家榜", gamesRank:"遊戲榜",
+  winsOf:(w,n)=>`勝 ${w} / 出場 ${n}`,
+  avgRank:"平均名次", avgScore:"平均分", bestScore:"最高分",
+  bestBy:(who,v)=>`${who} ${v} 分`,
+  playCount:n=>`${n} 場`, noRank:"—",
+  statsEmpty:"未有紀錄。<br>計完第一場就會有統計。",
+  methodNote:"點計:勝率 = 勝場 ÷ 出場;同分並列計勝(兩個都當贏一場)。"
+    +"平均名次用 dense rank —— 同一場入面按總分由大到小排,同分同名次、之後唔跳號"
+    +"(10/10/8 → 1/1/2)。冇入總分嘅玩家照計出場,但唔入名次。"
+    +"平均分 = 該遊戲所有玩家總分嘅平均(冇總分嗰啲唔計)。"
+    +"玩家榜按勝率排(同率就出場多者先);遊戲榜按場數排。",
   /* boot */
   loading:"載入緊遊戲資料⋯", bootErr:"開 app 出錯",
   bootFail:"開唔到。錯誤詳情喺畫面最頂嗰條紅色橫額。"
  },
  en:{
   appTitle:"Board Game Scores", back:"‹ Back", cancel:"Cancel", save:"Save",
-  editSheet:"Edit score sheet", tabGames:"🎲 Score", tabHistory:"📜 History",
+  editSheet:"Edit score sheet", tabGames:"🎲 Score", tabHistory:"📜 History", tabStats:"📊 Stats",
   padAria:"Enter score", langAria:"Switch language", langBtn:"中",
   noData:"First run needs a connection to download the game data.<br>Go online and reopen once — after that it works offline.",
   searchGames:"Search games…",
@@ -585,6 +639,19 @@ const STRINGS = {
   exportJson:"⬇️ Export JSON", importJson:"⬆️ Import JSON",
   imported:(n,t)=>`Imported ${n} plays${t?` · ${t} custom sheets`:""}`,
   badFile:"Bad file format",
+  statsTitle:"Stats",
+  statPlays:"Plays", statGames:"Games played", statThisYear:"Plays this year",
+  playersRank:"Players", gamesRank:"Games",
+  winsOf:(w,n)=>`${w} won / ${n} played`,
+  avgRank:"Avg. rank", avgScore:"Avg. score", bestScore:"Best",
+  bestBy:(who,v)=>`${who} ${v}`,
+  playCount:n=>`${n} ${n===1?"play":"plays"}`, noRank:"—",
+  statsEmpty:"No records yet.<br>Stats show up after your first game.",
+  methodNote:"How this is counted: win rate = wins ÷ appearances; tied top scores both count as a win. "
+    +"Average rank uses dense ranking — within one game, sorted by total, ties share a rank and the next rank isn't skipped "
+    +"(10/10/8 → 1/1/2). A player with no total still counts as an appearance but is left out of the ranking. "
+    +"Average score is the mean of every player total for that game (blank totals excluded). "
+    +"Players are sorted by win rate (ties broken by appearances); games by number of plays.",
   loading:"Loading game data…", bootErr:"App failed to start",
   bootFail:"Couldn't start. The error details are in the red banner at the top."
  }
@@ -880,6 +947,7 @@ function applyLang(){
   const tb=document.querySelectorAll("nav.tabs button");
   if(tb[0]) tb[0].textContent = t("tabGames");
   if(tb[1]) tb[1].textContent = t("tabHistory");
+  if(tb[2]) tb[2].textContent = t("tabStats");
 }
 async function setLang(lang){
   LANG = lang==="en" ? "en" : "zh";
@@ -935,7 +1003,8 @@ function render(){
   backBtn.textContent = S.view==="editor" ? t("cancel") : t("back");
   saveBtn.style.visibility = (S.view==="sheet"||S.view==="editor") ? "visible":"hidden";
   editBtn.style.visibility = S.view==="sheet" ? "visible":"hidden";
-  document.getElementById("tabs").style.display = (S.view==="games"||S.view==="history")?"flex":"none";
+  document.getElementById("tabs").style.display =
+    (S.view==="games"||S.view==="history"||S.view==="stats")?"flex":"none";
   document.querySelectorAll("nav.tabs button").forEach(b=>{
     b.classList.toggle("active", b.dataset.tab===S.view);
   });
@@ -943,6 +1012,7 @@ function render(){
   else if(S.view==="setup") renderSetup();
   else if(S.view==="sheet") renderSheet();
   else if(S.view==="history") renderHistory();
+  else if(S.view==="stats") renderStats();
   else if(S.view==="editor") renderEditor();
 }
 
@@ -1616,6 +1686,13 @@ async function savePlay(){
   S.view="history"; render();
 }
 
+/* 紀錄入面存嘅 gameName 係當時嗰陣嘅名(數據,唔改)。顯示嗰陣以 gameId
+   對返遊戲庫,跟返而家嘅語言;對唔到(遊戲庫冇咗呢隻)先用返存低嗰個。 */
+function recGameName(gameId, stored){
+  const e=catalog.list.find(g=>g.gameId===gameId);
+  return e ? gName(e) : (stored || gameId);
+}
+
 /* ---------- view: history ---------- */
 async function renderHistory(){
   setAccent("#3E7C4F"); barTitle.textContent=t("histTitle");
@@ -1625,12 +1702,7 @@ async function renderHistory(){
   const filterName = filterGame ? gName(filterGame)
                    : (S.historyFilter ? (all.find(p=>p.gameId===S.historyFilter)?.gameName||S.historyFilter) : null);
   const q=S.historyQuery.trim().toLowerCase();
-  /* 紀錄入面存嘅 gameName 係當時嗰陣嘅名(數據,唔改)。顯示嗰陣
-     以 gameId 對返遊戲庫,跟返而家嘅語言;對唔到先用返存低嗰個。 */
-  const playName=p=>{
-    const e=catalog.list.find(g=>g.gameId===p.gameId);
-    return e ? gName(e) : p.gameName;
-  };
+  const playName=p=>recGameName(p.gameId, p.gameName);
   const plays=all.filter(p=>{
     if(S.historyFilter && p.gameId!==S.historyFilter) return false;
     if(!q) return true;
@@ -1729,6 +1801,121 @@ function bindIO(){
     }catch(err){toast(t("badFile"));}
     e.target.value="";
   };
+}
+
+/* =========================================================
+   view: 統計
+   全部即時由 store.allPlays() 計,冇 precompute、冇快取。
+   ⚠️ 純讀:呢個 view 一個 byte 都唔會寫落 IndexedDB。
+========================================================= */
+
+/* 一場對局入面嘅 dense rank(按總分由大到小,同分同名次、之後唔跳號)。
+   冇總分(null / undefined)嘅玩家連 distinct 名單都唔入 —— 佢哋唔會
+   令其他人個名次跳號,自己亦攞唔到名次。 */
+function denseRanks(play){
+  const scored=play.players.filter(x=>typeof x.total==="number");
+  const distinct=[...new Set(scored.map(x=>x.total))].sort((a,b)=>b-a);
+  const out=new Map();
+  for(const x of scored) out.set(x, distinct.indexOf(x.total)+1);
+  return out;                       // Map<player object, rank>
+}
+
+function computeStats(plays){
+  const thisYear=new Date().getFullYear();
+  const players=new Map(), games=new Map();
+
+  for(const p of plays){
+    const ranks=denseRanks(p);
+    for(const x of p.players){
+      let s=players.get(x.name);
+      if(!s){ s={name:x.name, plays:0, wins:0, rankSum:0, rankN:0}; players.set(x.name,s); }
+      s.plays++;
+      if(x.win===true) s.wins++;
+      const r=ranks.get(x);
+      if(r){ s.rankSum+=r; s.rankN++; }
+    }
+    let g=games.get(p.gameId);
+    if(!g){
+      g={gameId:p.gameId, stored:p.gameName, accent:p.accent,
+         n:0, sum:0, scored:0, best:null, bestBy:null};
+      games.set(p.gameId,g);
+    }
+    g.n++;
+    for(const x of p.players){
+      if(typeof x.total!=="number") continue;
+      g.sum+=x.total; g.scored++;
+      if(g.best===null || x.total>g.best){ g.best=x.total; g.bestBy=x.name; }
+    }
+  }
+
+  const playerRows=[...players.values()].map(s=>({
+    ...s,
+    rate: s.plays ? s.wins/s.plays : 0,
+    avgRank: s.rankN ? s.rankSum/s.rankN : null
+  })).sort((a,b)=> b.rate-a.rate || b.plays-a.plays || a.name.localeCompare(b.name));
+
+  const gameRows=[...games.values()].map(g=>({
+    ...g,
+    name: recGameName(g.gameId, g.stored),
+    avg: g.scored ? g.sum/g.scored : null
+  })).sort((a,b)=> b.n-a.n || a.name.localeCompare(b.name));
+
+  return {
+    total: plays.length,
+    gameCount: games.size,
+    thisYear: plays.filter(p=>new Date(p.date).getFullYear()===thisYear).length,
+    playerRows, gameRows
+  };
+}
+
+async function renderStats(){
+  setAccent("#3E7C4F"); barTitle.textContent=t("statsTitle");
+  const plays=await store.allPlays();
+  if(!plays.length){
+    main.innerHTML=`<div class="empty-state"><div class="big">📊</div>${t("statsEmpty")}</div>`;
+    return;
+  }
+  const st=computeStats(plays);
+  const pct=r=>Math.round(r*100);
+  const maxN=Math.max(...st.gameRows.map(g=>g.n));
+
+  main.innerHTML=`
+    <div class="stat3">
+      <div class="tile"><span class="n score-hand">${st.total}</span><span class="k">${esc(t("statPlays"))}</span></div>
+      <div class="tile"><span class="n score-hand">${st.gameCount}</span><span class="k">${esc(t("statGames"))}</span></div>
+      <div class="tile"><span class="n score-hand">${st.thisYear}</span><span class="k">${esc(t("statThisYear"))}</span></div>
+    </div>
+
+    <p class="slabel">${esc(t("playersRank"))}</p>
+    ${st.playerRows.map(s=>`
+      <div class="srow">
+        <div class="hd">
+          <span class="nm">${esc(s.name)}</span>
+          <span class="big score-hand">${pct(s.rate)}%</span>
+        </div>
+        <div class="sub">
+          <span>${esc(t("winsOf", s.wins, s.plays))}</span>
+          <span>${esc(t("avgRank"))} <b>${s.avgRank===null?esc(t("noRank")):s.avgRank.toFixed(2)}</b></span>
+        </div>
+        <div class="bar"><i style="width:${pct(s.rate)}%"></i></div>
+      </div>`).join("")}
+
+    <p class="slabel">${esc(t("gamesRank"))}</p>
+    ${st.gameRows.map(g=>`
+      <div class="srow">
+        <div class="hd">
+          <span class="nm">${esc(g.name)}</span>
+          <span class="big score-hand">${g.n}</span>
+        </div>
+        <div class="sub">
+          <span>${esc(t("playCount", g.n))}</span>
+          <span>${esc(t("avgScore"))} <b>${g.avg===null?esc(t("noRank")):g.avg.toFixed(1)}</b></span>
+          <span>${esc(t("bestScore"))} <b>${g.best===null?esc(t("noRank")):esc(t("bestBy", g.bestBy, g.best))}</b></span>
+        </div>
+        <div class="bar"><i style="width:${Math.round(g.n/maxN*100)}%;background:${esc(safeAccent(g.accent, g.gameId))}"></i></div>
+      </div>`).join("")}
+
+    <p class="methodnote">${esc(t("methodNote"))}</p>`;
 }
 
 /* ---------- nav ---------- */
