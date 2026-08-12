@@ -13,7 +13,7 @@
 - **c** — 純終局計分遊戲,冇軌 → 唔郁
 - **-** — source=manual 或 verified:true,用戶核對過,跳過
 
-進度:rank 1–442,已審 320 隻 (a=207 b=1 c=110 跳過=2)
+進度:rank 1–700,已審 470 隻 (a=313 b=1 c=154 跳過=2)
 
 | rank | 遊戲 | 判斷 | 依據 |
 |---:|---|:-:|---|
@@ -337,3 +337,153 @@
 | 438 | Mission: Red Planet (Second/Third Edition) | a | 已有「三次區域計分」 |
 | 440 | Arboretum | c | Arboretum 終局結算 |
 | 442 | Abyss | c | Abyss 終局結算 |
+| 443 | Dungeon Lords | a | 逐年地城評分 = 遊戲中結算,欄位涵蓋 |
+| 444 | Takenoko | a | 目標卡遊戲中完成即攞分 |
+| 445 | Ready Set Bet | a | 最終金錢單欄 = 勝負數值本身 |
+| 448 | San Juan | c | San Juan 終局結算 |
+| 449 | Akropolis | c | Akropolis 終局結算 |
+| 451 | Smartphone Inc. | a | 已有「遊戲中累積分數」 |
+| 453 | Blood Bowl: Team Manager – The Card Game | a | 已有「比賽得分累積」 |
+| 454 | Carpe Diem | a | 已有「遊戲中四次計分」 |
+| 455 | Imperium: Legends | c | Imperium 終局結算 |
+| 456 | Bus | a | 已運送乘客 = 遊戲中累積,單欄涵蓋 |
+| 457 | Pan Am | a | 現金 + 股份 = 勝負數值全部 |
+| 459 | Cartographers Heroes | a | 四季逐季計分 |
+| 460 | The Godfather: Corleone's Empire | a | 最終金錢單欄 = 勝負數值本身 |
+| 461 | BattleLore: Second Edition | a | 勝利旗幟邊打邊攞 |
+| 462 | Agricola: All Creatures Big and Small | c | ACBS 終局結算 |
+| 466 | Ezra and Nehemiah | a | 已經有計分軌欄位 |
+| 468 | Twice as Clever! | a | 逐色區逐круг計分 |
+| 469 | Life of the Amazonia | a | 地形/樹木/水生花三條軌都有欄 |
+| 470 | Notre Dame | a | 已有「遊戲中累積分數」 |
+| 471 | Honey Buzz | c | Honey Buzz 終局結算 |
+| 473 | Nippon: Zaibatsu | c | Nippon 終局結算 |
+| 474 | The Pillars of the Earth | a | 已有「遊戲中累積分數」 |
+| 476 | Kutná Hora: The City of Silver | a | 已經有計分軌欄位 |
+| 477 | Imperial Struggle | a | 已有「遊戲中勝利點」 |
+| 479 | World Wonders | a | 人口軌欄已有,其餘終局結算 |
+| 480 | Newton | a | 已有「遊戲中累積分數」 |
+| 481 | IKI | a | 已有「遊戲中累積分數」 |
+| 484 | Scholars of the South Tigris | a | 已有「遊戲中累積分數」 |
+| 487 | Altiplano | c | Altiplano 終局結算 |
+| 489 | Gùgōng | a | 已有「遊戲中累積分數」 |
+| 490 | At the Gates of Loyang | a | 金錢軌位置就係 Loyang 嘅分數本身 |
+| 491 | Saint Petersburg | a | 已有「遊戲中累積分數」 |
+| 493 | Knarr | a | 已經有計分軌欄位 |
+| 494 | 51st State: Master Set | a | 已有「遊戲中累積分數」 |
+| 495 | Boonlake | a | 已有「遊戲中累積分數」 |
+| 500 | King of Tokyo | a | KoT 勝利點邊玩邊上軌,單欄涵蓋 |
+| 500 | Moon Colony Bloodbath | c | Moon Colony Bloodbath 終局點人 |
+| 503 | Dice Forge | a | 榮耀遊戲中即時攞,仲有「其他榮耀來源」兜 |
+| 504 | London (Second Edition) | c | London 終局結算 |
+| 508 | Blitzkrieg!: World War Two in 20 Minutes | a | 戰役磚同獎章邊打邊攞 |
+| 510 | Spartacus: A Game of Blood and Treachery | a | 影響力邊玩邊上軌,單欄涵蓋 |
+| 511 | Flip 7 | a | 逐круг計分 |
+| 512 | In the Year of the Dragon | a | 已有「遊戲中累積分數」 |
+| 513 | Azul: Stained Glass of Sintra | a | 已經有計分軌欄位 |
+| 515 | Ticket to Ride: Märklin | a | 鋪路即時上分軌,已有欄 |
+| 516 | Downforce | a | 賽果 + 下注逐場累加 |
+| 517 | Caper: Europe | a | 逐個城市即時計分 |
+| 518 | Men-Nefer | a | 已有「之前紀元已得 PP」 |
+| 519 | Libertalia: Winds of Galecrest | a | 已有「三次航程收益」 |
+| 520 | Biblios | c | Biblios 終局多數計分 |
+| 521 | Endeavor | c | Endeavor 終局結算 |
+| 522 | The Great Wall | a | 已有「遊戲中累積分數」 |
+| 524 | San Juan (Second Edition) | c | San Juan 終局結算 |
+| 525 | King of Tokyo: Dark Edition | a | KoT 勝利點邊玩邊上軌 |
+| 526 | Die Macher | a | 已有「各邦選舉得分累積」 |
+| 527 | Tiny Towns | c | Tiny Towns 終局結算 |
+| 528 | Millennium Blades | a | 錦標賽得分逐場累加 |
+| 531 | Through the Desert | c | Through the Desert 終局結算 |
+| 532 | High Society | c | High Society 終局比奢侈品總值 |
+| 534 | Bruxelles 1893 | a | 已有「遊戲中累積分數」 |
+| 536 | Luthier | a | 已經有計分軌欄位 |
+| 537 | Woodcraft | a | 已經有計分軌欄位 |
+| 541 | Santa Maria | a | 已有「遊戲中累積分數」 |
+| 542 | Evolution: Climate | a | 已食食物邊玩邊累積,已有欄 |
+| 543 | Fresco | a | 已有「遊戲中累積分數」 |
+| 546 | Trekking Through History | a | 行程卡遊戲中即時計分,時間軌欄亦有 |
+| 547 | Bohnanza | a | 金幣邊玩邊收,單欄涵蓋 |
+| 550 | Kingsburg | c | Kingsburg 終局結算 |
+| 552 | Here I Stand | a | 已有「基礎 VP」(遊戲中累積) |
+| 556 | Nippon | c | Nippon 終局結算 |
+| 557 | Macao | a | 已有「遊戲中累積分數」 |
+| 559 | No Thanks! | c | No Thanks! 終局結算 |
+| 560 | Barcelona | a | 已經有計分軌欄位 |
+| 562 | Commands & Colors: Napoleonics | a | 勝利旗幟邊打邊攞 |
+| 563 | Colt Express | a | 戰利品逐круг累加 |
+| 565 | Skymines | a | 已有「遊戲中累積分數」 |
+| 567 | Stockpile | a | 現金 + 持股 = 勝負數值全部 |
+| 569 | Citadels | c | Citadels 終局結算 |
+| 570 | Mandala | a | 卡牌逐круг收,單欄涵蓋 |
+| 571 | Clash of Cultures | c | Clash of Cultures 終局結算 |
+| 572 | Fantastic Factories | c | Fantastic Factories 終局結算 |
+| 574 | The Manhattan Project | a | 已投放炸彈邊玩邊攞分 |
+| 578 | Hadara | c | Hadara 終局結算 |
+| 579 | Splendor: Marvel | a | 聲望邊玩邊上,卡/地點欄涵蓋 |
+| 580 | Aquatica | c | Aquatica 終局結算 |
+| 583 | Lancaster | a | 已有「遊戲中累積分數」 |
+| 585 | Next Station: London | a | 逐條線逐круг計分 |
+| 589 | Thunderstone Quest | c | Thunderstone 終局結算 |
+| 590 | Glen More | a | 已有「遊戲中計分」 |
+| 591 | Quadropolis | c | Quadropolis 終局結算 |
+| 592 | Black Rose Wars | a | 已有「遊戲中權力點」 |
+| 593 | Citadels | c | Citadels 終局結算 |
+| 594 | A Few Acres of Snow | c | A Few Acres of Snow 終局結算 |
+| 597 | Mystic Vale | c | Mystic Vale 終局結算 |
+| 599 | Potion Explosion | a | 藥水遊戲中完成即攞分 |
+| 601 | Pipeline | a | 最終現金單欄 = 勝負數值本身 |
+| 602 | Canvas | c | Canvas 終局結算 |
+| 604 | Lords of Vegas | a | 賭場 VP 邊玩邊結算上軌,已有欄 |
+| 607 | Imperial Settlers: Empires of the North | a | 已有「遊戲中累積分數」 |
+| 608 | Point Salad | a | 得一欄「最終分數/總分」,本身就係 catch-all,涵蓋軌上分 |
+| 609 | Amun-Re | a | 兩個時代逐時代計分 |
+| 614 | Thurn and Taxis | c | Thurn and Taxis 終局結算 |
+| 616 | Deus | c | Deus 終局結算 |
+| 617 | Amerigo | a | 已有「遊戲中累積分數」 |
+| 618 | Lacrimosa | a | 已經有計分軌欄位 |
+| 619 | Alhambra | a | 已有「三次計分累積」 |
+| 620 | BattleLore | a | 勝利旗幟邊打邊攞 |
+| 621 | Sheriff of Nottingham | c | Sheriff of Nottingham 終局結算 |
+| 624 | Galaxy Trucker (Second Edition) | a | 逐次航程計分,欄位涵蓋 |
+| 626 | QE | c | QE 終局結算 |
+| 627 | Catan | c | Catan VP 全部由場上部件數,冇獨立軌 |
+| 630 | Imhotep | c | Imhotep 終局結算 |
+| 631 | Las Vegas | a | 鈔票逐круг贏落袋 |
+| 633 | Dinosaur Island: Rawr 'n Write | a | 已有「遊戲中累積分數」 |
+| 637 | Escape Plan | a | 最終金錢單欄 = 勝負數值本身 |
+| 640 | Port Royal | a | VP 卡遊戲中收,單欄涵蓋 |
+| 641 | Railroad Ink: Deep Blue Edition | c | Railroad Ink 終局結算 |
+| 642 | Oceans | a | 已食食物邊玩邊累積,已有欄 |
+| 643 | Ingenious | a | Ingenious 六色邊放邊上軌,單欄(最低色)涵蓋 |
+| 644 | Charterstone | a | 聲望軌欄已有,仲有「其他分數」兜 |
+| 645 | Argent: The Consortium | c | Argent 終局點票 |
+| 647 | La Granja: Deluxe Master Set | a | 已有「遊戲中累積分數」 |
+| 649 | Camel Up | a | 最終金錢單欄 = 勝負數值本身 |
+| 650 | Jamaica | a | 金幣逐круг累加 |
+| 652 | Small World Underground | a | 已有「各回合征服得分累計」 |
+| 653 | Wabash Cannonball | a | 現金 + 持股 = 勝負數值全部 |
+| 656 | Crusaders: Thy Will Be Done | c | Crusaders 終局結算 |
+| 659 | Love Letter: Premium Edition | a | 愛慕標記逐局攞 |
+| 662 | 1846: The Race for the Midwest | a | 現金 + 持股 = 勝負數值全部 |
+| 663 | Fleet: The Dice Game | c | Fleet Dice 終局結算 |
+| 665 | Sushi Go! | a | 逐круг分類計分 |
+| 668 | Broom Service | a | 已有「遊戲中累積分數」 |
+| 669 | Blackout: Hong Kong | a | 已有「遊戲中累積分數」 |
+| 671 | Valeria: Card Kingdoms | c | Valeria 終局結算 |
+| 672 | Libertalia | a | 已有「各次航程收益」 |
+| 674 | Karuba | c | Karuba 終局結算 |
+| 675 | Take 5 | a | 牛頭逐круг累加(負分) |
+| 678 | Azul: Queen's Garden | c | Queen's Garden 終局結算 |
+| 680 | Draftosaurus | c | Draftosaurus 終局結算 |
+| 682 | Elysium | a | 逐紀元轉去 Elysium 即刻計分,兩欄係累加總和 |
+| 683 | Airlines Europe | a | 已有「三次計分累積」 |
+| 687 | Mille Fiori | a | 各區域得分係遊戲中即時計 |
+| 689 | The Fox in the Forest | a | 已有「各回合得分累計」 |
+| 690 | Vikings | c | Vikings 終局結算 |
+| 691 | First Class: All Aboard the Orient Express! | a | 已有「遊戲中累積分數」 |
+| 695 | Carcassonne: Hunters and Gatherers | a | 已經有計分軌欄位 |
+| 696 | My Father's Work | a | 已有「遊戲中累積勝利點」 |
+| 698 | StarCraft: The Board Game | a | 征服點數邊打邊攞 |
+| 699 | Nexus Ops | a | Nexus Ops VP 邊玩邊上軌,單欄涵蓋 |
+| 700 | Taj Mahal | a | 逐круг宮殿/省份計分,欄位涵蓋 |
