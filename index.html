@@ -34,6 +34,13 @@ header.bar button{
   padding:4px 6px; cursor:pointer; min-width:52px;
 }
 header.bar button:focus-visible{outline:2px solid #fff; outline-offset:2px;}
+/* 語言細掣:一眼睇得出係切換,但唔搶「儲存」嘅位 */
+header.bar button.langtoggle{
+  min-width:0; font-size:12.5px; font-weight:700; letter-spacing:.04em;
+  border:1.5px solid rgba(255,255,255,.55); border-radius:99px;
+  padding:3px 9px; line-height:1.35; flex-shrink:0;
+}
+header.bar button.langtoggle:active{background:rgba(255,255,255,.18);}
 main{flex:1; padding:16px; padding-bottom:96px;}
 
 /* ===== Tabs ===== */
@@ -315,17 +322,39 @@ tr.trow td .val{font-size:30px;}
      刻意用 ES5 寫法(var / function),舊 WebView 都 parse 到。 -->
 <script>
 (function(){
+  /* 呢個 block 行喺主程式之前,攞唔到主程式嗰個 STRINGS,
+     所以自己帶一份細表。語言由 localStorage 鏡像讀返(IndexedDB 係
+     async,呢度等唔到);主程式每次切語言都會寫返呢個鏡像。 */
+  var BOOT_STRINGS={
+    zh:{close:"關閉", nth:function(n){return "（第 "+n+" 個錯誤）";},
+        bootErr:"開 app 出錯", lineCol:function(l,c){return " 第 "+l+" 行 第 "+c+" 欄";},
+        reject:"未處理嘅 Promise 錯誤", noRun:"主程式冇執行到",
+        noRunDetail:"index.html 嘅主 script block 由頭到尾冇行過。\n"
+          +"通常係語法唔兼容(舊 WebView parse 唔到),\n"
+          +"上面應該會有一行講明係第幾行出事。"},
+    en:{close:"Close", nth:function(n){return " (error #"+n+")";},
+        bootErr:"App failed to start", lineCol:function(l,c){return " line "+l+" col "+c;},
+        reject:"Unhandled promise error", noRun:"Main script never ran",
+        noRunDetail:"The main script block in index.html never executed at all.\n"
+          +"Usually a syntax incompatibility (an old WebView can't parse it);\n"
+          +"the line above should say which line broke."}
+  };
+  var lang="zh";
+  try{ if(window.localStorage && localStorage.getItem("lang")==="en") lang="en"; }catch(e){}
+  var BT=BOOT_STRINGS[lang]||BOOT_STRINGS.zh;
+  window.__bootStrings=BT;
+
   var box=null, count=0;
   function show(title, detail){
     count++;
     if(!box) box=document.getElementById("bootError");
     if(!box){ return; }
     if(count===1){
-      box.innerHTML='<button class="x" type="button" aria-label="關閉">✕</button><b></b><span></span>';
+      box.innerHTML='<button class="x" type="button" aria-label="'+BT.close+'">✕</button><b></b><span></span>';
       box.getElementsByClassName("x")[0].onclick=function(){ box.classList.remove("show"); };
     }
     box.getElementsByTagName("b")[0].textContent=
-      "⚠️ "+title+(count>1?"（第 "+count+" 個錯誤）":"");
+      "⚠️ "+title+(count>1?BT.nth(count):"");
     var s=box.getElementsByTagName("span")[0];
     s.textContent=(s.textContent?s.textContent+"\n\n":"")+detail;
     box.classList.add("show");
@@ -335,14 +364,14 @@ tr.trow td .val{font-size:30px;}
     return "\n"+String(err.stack).split("\n").slice(0,4).join("\n");
   }
   window.onerror=function(msg, src, line, col, err){
-    show("開 app 出錯", String(msg)+"\n"
-      +String(src||"(unknown)").split("/").pop()+" 第 "+line+" 行 第 "+col+" 欄"
+    show(BT.bootErr, String(msg)+"\n"
+      +String(src||"(unknown)").split("/").pop()+BT.lineCol(line,col)
       +frame(err));
     return false;                       // 唔阻止 console 照報
   };
   window.addEventListener("unhandledrejection", function(e){
     var r=e.reason;
-    show("未處理嘅 Promise 錯誤",
+    show(BT.reject,
       (r && r.message ? r.message : String(r))+frame(r));
   });
   /* 主程式 parse 唔到就完全唔會行 —— 呢個 flag 永遠唔會 set,
@@ -350,10 +379,7 @@ tr.trow td .val{font-size:30px;}
   window.addEventListener("load", function(){
     setTimeout(function(){
       if(!window.__appScriptRan){
-        show("主程式冇執行到",
-          "index.html 嘅主 script block 由頭到尾冇行過。\n"
-          +"通常係語法唔兼容(舊 WebView parse 唔到),\n"
-          +"上面應該會有一行講明係第幾行出事。");
+        show(BT.noRun, BT.noRunDetail);
       }
     }, 0);
   });
@@ -365,6 +391,7 @@ tr.trow td .val{font-size:30px;}
   <header class="bar" id="bar">
     <button id="backBtn" style="visibility:hidden">‹ 返回</button>
     <h1 id="barTitle">桌遊計分</h1>
+    <button id="langBtn" class="langtoggle" title="切換語言" aria-label="切換語言">EN</button>
     <button id="editBtn" style="visibility:hidden; min-width:28px" title="修改計分表" aria-label="修改計分表">✏️</button>
     <button id="saveBtn" style="visibility:hidden">儲存</button>
   </header>
@@ -399,6 +426,186 @@ window.__appScriptRan = true;
 
 /* 數據根目錄(單一數據源)。以後搬位淨係改呢一行。 */
 const DATA_BASE = "pipeline/out";
+
+/* =========================================================
+   i18n — app 自身嘅文字全部住喺呢度
+   ⚠️ 計分表嘅 field label / note / tieBreaker 係「數據」唔係 UI:
+      佢哋由 pipeline/out/scoring/*.json 嚟,兩種語言都照原樣顯示,
+      唔會經 t()。呢度淨係 app 自己嘅字。
+   值可以係 string,亦可以係 function(帶參數嗰啲)。
+========================================================= */
+const STRINGS = {
+ zh:{
+  /* chrome */
+  appTitle:"桌遊計分", back:"‹ 返回", cancel:"取消", save:"儲存",
+  editSheet:"修改計分表", tabGames:"🎲 計分", tabHistory:"📜 紀錄",
+  padAria:"輸入分數", langAria:"切換語言", langBtn:"EN",
+  /* 遊戲清單 */
+  noData:"首次使用需要網絡下載遊戲資料。<br>連咗網再開一次就得,之後離線都用到。",
+  searchGames:"搜尋遊戲⋯",
+  offlineNote:n=>`離線模式:用緊上次下載嘅資料(共 ${n} 隻)。`,
+  chipCustom:"✏️ 自訂", chipGeneric:"通用表",
+  listShown:(a,b)=>`顯示緊 ${a} / ${b} 隻 · 向下捲會自動載入`,
+  listAll:n=>`全部 ${n} 隻已顯示`,
+  listSummary:(n,w)=>`共 ${n} 隻 · ${w} 隻有專屬計分表,其餘開通用計分表`,
+  noMatch:q=>`搵唔到「${q}」。`,
+  loadSheetFail:id=>`載入計分表失敗:${id}`,
+  /* 揀玩家 */
+  playersLabel:(a,b)=>`今場玩家(${a}–${b} 人)`,
+  playerNamePh:"玩家名", addPlayer:"加入", startSheet:"開計分表 →",
+  viewRecords:"📜 查看呢隻遊戲嘅紀錄", noPlayers:"未有玩家",
+  removePlayer:n=>`移除 ${n}`, tooManyPlayers:"玩家夠晒喇",
+  /* 信度提示條 */
+  srcGenericOffline:"通用計分表(離線,未快取專屬表)",
+  srcGenericNone:"通用計分表(未有專屬)",
+  srcUserEdited:"✏️ 自訂版本", srcVerified:"✓ 已核對", srcManual:"人手編寫",
+  srcRulebook:"按官方規則書生成", srcAiGen:"AI 生成,未核對",
+  srcDescGen:"計分項按遊戲描述推斷,建議核對",
+  srcOther:s=>`來源:${s}`, srcUnknown:"來源不明",
+  rulebookLink:"規則書 ↗", revertDefault:"還原預設", revertConfirm:"確認還原?",
+  revertDone:"已還原預設計分表",
+  /* 計分表 */
+  editingSuffix:" · 編輯", totalRow:"Σ 總分", tiePrefix:s=>`同分:${s}`,
+  memWarn:"<br>⚠️ 預覽環境唔會保留數據;部署後先有永久儲存。",
+  createSheetBtn:"＋ 為呢隻遊戲建立計分表", editSheetBtn:"✏️ 修改計分表",
+  tapToggle:"拍一下", pickTier:"揀格數",
+  ariaMinus:"減一", ariaPlus:"加一", ariaEnterCount:"直接輸入數量",
+  genericTotalLabel:"總分", genericTotalNote:"未有專屬計分表,直接入最終總分",
+  /* 數字鍵盤 / 階梯 */
+  countHint:s=>`入數量 · ${s}`, perUnit:p=>`每個 ${p} 分`,
+  unitCount:"個", padClear:"清除", padOk:"✓ 好",
+  tierClose:"收起", tierCells:n=>`${n} 格`, tierPts:v=>`${v} 分`,
+  /* 編輯器 */
+  edNote:"改嘅只係你部機上面呢隻遊戲嘅計分表。已儲存嘅對局紀錄唔會受影響(紀錄存嘅係當時嘅分數)。",
+  edTitleCreate:"建立計分表", edTitleEdit:"修改計分表",
+  tieBreakLabel:"同分點分勝負", tieBreakPh:"例:剩返嘅錢多者勝(可留空)",
+  fieldsLabel:"計分項目", fieldCount:n=>`${n} 項 · 最多 20 項`,
+  addItem:"＋ 加一項", saveSheet:"儲存計分表",
+  resetTpl:"↩️ 還原預設(刪走自訂版本)", resetArm:"⚠️ 再撳一次確認還原",
+  inputNumber:"數字入分", inputCounter:"數量 × 單價",
+  inputBonus:"有/冇 加分", inputTiered:"階梯查表",
+  ariaIcon:"圖示 emoji", phLabel:"項目名稱", phNote:"細字說明(可留空)",
+  ariaNote:"說明", ariaInputType:"輸入類型", ariaSign:"加分定扣分",
+  signPlus:"加分", signMinus:"扣分",
+  ariaUp:"上移", ariaDown:"下移", ariaDel:"刪除呢一項",
+  unitValueLabel:"每個幾多分", bonusValueLabel:"攞到加幾多分",
+  tierTableLabel:"階梯表(每行一對:數量,得分)", allowNeg:"容許入負數",
+  maxItems:"最多 20 項", keepOne:"至少要留一項",
+  fixRed:"有嘢未填妥,睇下紅色嗰啲", sheetSaved:"計分表已儲存 ✓",
+  /* validate */
+  vSchema:"schemaVersion 要係 1", vGameId:"gameId 格式錯",
+  vName:"遊戲名唔可以空", vAccent:"theme.accent 要係 #RRGGBB",
+  vScoring:"scoring 缺失", vFieldCount:"計分項目要 1–20 個",
+  vId:"id 要係細楷英文、數字或底線", vIdDup:id=>`id 重複:${id}`,
+  vLabel:"要有項目名稱", vInput:"輸入類型唔啱", vColor:"color 要係 #RRGGBB",
+  vSign:"sign 要係 1 或 -1", vCounter:"「數量 × 單價」要填每個幾多分",
+  vBonus:"「有/冇 加分」要填分數", vTierMin:"階梯表至少要兩行",
+  vTierRow:"階梯表每行要寫成「數量,得分」", vTotal:"total.type 要係 sum/expression",
+  /* 存檔 */
+  noScores:"未入過分數", updated:"已更新 ✓", saved:"已儲存 ✓",
+  /* 紀錄 */
+  histTitle:"對局紀錄", searchHistory:"搜尋遊戲或玩家⋯",
+  onlyShowing:n=>`只顯示:${n}`, ariaClearFilter:"清除篩選",
+  editedMark:" · 已編輯", btnEdit:"✏️ 編輯", btnDelete:"刪除",
+  histEmptyFiltered:"呢個條件下冇紀錄。",
+  histEmpty:"未有紀錄。<br>計完第一場就會喺度出現。",
+  gameGone:"呢隻遊戲唔喺目前遊戲庫,暫時改唔到",
+  exportJson:"⬇️ 匯出 JSON", importJson:"⬆️ 匯入 JSON",
+  imported:(n,t)=>`已匯入 ${n} 場${t?` · ${t} 個自訂計分表`:""}`,
+  badFile:"檔案格式唔啱",
+  /* boot */
+  loading:"載入緊遊戲資料⋯", bootErr:"開 app 出錯",
+  bootFail:"開唔到。錯誤詳情喺畫面最頂嗰條紅色橫額。"
+ },
+ en:{
+  appTitle:"Board Game Scores", back:"‹ Back", cancel:"Cancel", save:"Save",
+  editSheet:"Edit score sheet", tabGames:"🎲 Score", tabHistory:"📜 History",
+  padAria:"Enter score", langAria:"Switch language", langBtn:"中",
+  noData:"First run needs a connection to download the game data.<br>Go online and reopen once — after that it works offline.",
+  searchGames:"Search games…",
+  offlineNote:n=>`Offline mode: using the last download (${n} games).`,
+  chipCustom:"✏️ Custom", chipGeneric:"Generic",
+  listShown:(a,b)=>`Showing ${a} / ${b} · scroll down to load more`,
+  listAll:n=>`All ${n} shown`,
+  listSummary:(n,w)=>`${n} games · ${w} with a dedicated sheet, the rest use a generic one`,
+  noMatch:q=>`No match for “${q}”.`,
+  loadSheetFail:id=>`Couldn't load the score sheet: ${id}`,
+  playersLabel:(a,b)=>`Players this game (${a}–${b})`,
+  playerNamePh:"Player name", addPlayer:"Add", startSheet:"Open score sheet →",
+  viewRecords:"📜 View records for this game", noPlayers:"No players yet",
+  removePlayer:n=>`Remove ${n}`, tooManyPlayers:"Player limit reached",
+  srcGenericOffline:"Generic sheet (offline, dedicated sheet not cached)",
+  srcGenericNone:"Generic sheet (no dedicated one yet)",
+  srcUserEdited:"✏️ Custom version", srcVerified:"✓ Verified", srcManual:"Hand-written",
+  srcRulebook:"Generated from the official rulebook", srcAiGen:"AI-generated, unverified",
+  srcDescGen:"Items inferred from the game description — worth checking",
+  srcOther:s=>`Source: ${s}`, srcUnknown:"Source unknown",
+  rulebookLink:"Rulebook ↗", revertDefault:"Restore default", revertConfirm:"Confirm restore?",
+  revertDone:"Default score sheet restored",
+  editingSuffix:" · editing", totalRow:"Σ Total", tiePrefix:s=>`Tiebreak: ${s}`,
+  memWarn:"<br>⚠️ This preview environment doesn't keep data; permanent storage only after deploy.",
+  createSheetBtn:"＋ Create a score sheet for this game", editSheetBtn:"✏️ Edit score sheet",
+  tapToggle:"tap", pickTier:"pick",
+  ariaMinus:"Minus one", ariaPlus:"Plus one", ariaEnterCount:"Type the count",
+  genericTotalLabel:"Total", genericTotalNote:"No dedicated sheet — just enter the final total",
+  countHint:s=>`Enter a count · ${s}`, perUnit:p=>`${p} pts each`,
+  unitCount:"pcs", padClear:"Clear", padOk:"✓ OK",
+  tierClose:"Close", tierCells:n=>`${n} pcs`, tierPts:v=>`${v} pts`,
+  edNote:"This only changes the score sheet for this game on your device. Saved play records are unaffected (they store the scores as entered).",
+  edTitleCreate:"Create score sheet", edTitleEdit:"Edit score sheet",
+  tieBreakLabel:"Tiebreaker", tieBreakPh:"e.g. most money left wins (optional)",
+  fieldsLabel:"Scoring items", fieldCount:n=>`${n} items · max 20`,
+  addItem:"＋ Add item", saveSheet:"Save score sheet",
+  resetTpl:"↩️ Restore default (delete custom version)", resetArm:"⚠️ Tap again to confirm",
+  inputNumber:"Type a score", inputCounter:"Count × unit value",
+  inputBonus:"Yes/no bonus", inputTiered:"Tier lookup",
+  ariaIcon:"Icon emoji", phLabel:"Item name", phNote:"Small print (optional)",
+  ariaNote:"Note", ariaInputType:"Input type", ariaSign:"Add or subtract",
+  signPlus:"Add", signMinus:"Subtract",
+  ariaUp:"Move up", ariaDown:"Move down", ariaDel:"Delete this item",
+  unitValueLabel:"Points each", bonusValueLabel:"Points if earned",
+  tierTableLabel:"Tier table (one pair per line: count,points)", allowNeg:"Allow negative numbers",
+  maxItems:"Max 20 items", keepOne:"Keep at least one item",
+  fixRed:"Something's missing — check the ones in red", sheetSaved:"Score sheet saved ✓",
+  vSchema:"schemaVersion must be 1", vGameId:"Bad gameId format",
+  vName:"Game name can't be empty", vAccent:"theme.accent must be #RRGGBB",
+  vScoring:"scoring is missing", vFieldCount:"Need 1–20 scoring items",
+  vId:"id must be lowercase letters, digits or underscore", vIdDup:id=>`Duplicate id: ${id}`,
+  vLabel:"Item name required", vInput:"Bad input type", vColor:"color must be #RRGGBB",
+  vSign:"sign must be 1 or -1", vCounter:"“Count × unit value” needs the points per unit",
+  vBonus:"“Yes/no bonus” needs a point value", vTierMin:"Tier table needs at least two rows",
+  vTierRow:"Each tier row must read “count,points”", vTotal:"total.type must be sum/expression",
+  noScores:"No scores entered yet", updated:"Updated ✓", saved:"Saved ✓",
+  histTitle:"Play history", searchHistory:"Search games or players…",
+  onlyShowing:n=>`Only: ${n}`, ariaClearFilter:"Clear filter",
+  editedMark:" · edited", btnEdit:"✏️ Edit", btnDelete:"Delete",
+  histEmptyFiltered:"No records match.",
+  histEmpty:"No records yet.<br>Your first game will show up here.",
+  gameGone:"This game isn't in the current library — can't edit it right now",
+  exportJson:"⬇️ Export JSON", importJson:"⬆️ Import JSON",
+  imported:(n,t)=>`Imported ${n} plays${t?` · ${t} custom sheets`:""}`,
+  badFile:"Bad file format",
+  loading:"Loading game data…", bootErr:"App failed to start",
+  bootFail:"Couldn't start. The error details are in the red banner at the top."
+ }
+};
+
+let LANG = "zh";                       // 預設中文;boot 時由 IndexedDB kv "lang" 還原
+function t(k, ...a){
+  const table = STRINGS[LANG] || STRINGS.zh;
+  let v = table[k];
+  if(v === undefined) v = STRINGS.zh[k];   // 漏譯 → 退返中文,唔會爆 undefined
+  if(v === undefined) return k;
+  return typeof v === "function" ? v(...a) : v;
+}
+/* 遊戲名:en 模式英文做主行,zh 模式中文做主行;細字擺另一個名 */
+function gName(g){
+  return LANG==="en" ? (g.name || g.nameZh || "") : (g.nameZh || g.name || "");
+}
+function gSub(g){
+  const other = LANG==="en" ? g.nameZh : g.name;
+  return (other && other !== gName(g)) ? other : "";
+}
 
 const catalog = {
   list: [],              // 清單
@@ -477,7 +684,7 @@ function genericGame(entry, reason){
     scoring: {
       source: "generic", verified: false, tieBreaker: "—",
       fields: [
-        {id:"total", label:"總分", note:"未有專屬計分表,直接入最終總分",
+        {id:"total", label:t("genericTotalLabel"), note:t("genericTotalNote"),
          icon:"🧮", color:"#E5E0D5", input:"number", min:-9999}
       ],
       total: {type:"sum"}
@@ -654,7 +861,38 @@ const S = {
 
 const $=s=>document.querySelector(s);
 const main=$("#main"), bar=$("#bar"), barTitle=$("#barTitle"),
-      backBtn=$("#backBtn"), saveBtn=$("#saveBtn"), editBtn=$("#editBtn"), pad=$("#pad");
+      backBtn=$("#backBtn"), saveBtn=$("#saveBtn"), editBtn=$("#editBtn"),
+      langBtn=$("#langBtn"), pad=$("#pad");
+
+/* ---------- 語言 ----------
+   HTML 入面寫死嗰啲字(header 掣、tabs、pad 嘅 aria)唔會經 render(),
+   所以每次切語言都要喺呢度重寫一次。 */
+function applyLang(){
+  document.documentElement.lang = LANG==="en" ? "en" : "zh-Hant";
+  document.title = t("appTitle");
+  langBtn.textContent = t("langBtn");
+  langBtn.title = t("langAria");
+  langBtn.setAttribute("aria-label", t("langAria"));
+  saveBtn.textContent = t("save");
+  editBtn.title = t("editSheet");
+  editBtn.setAttribute("aria-label", t("editSheet"));
+  pad.setAttribute("aria-label", t("padAria"));
+  const tb=document.querySelectorAll("nav.tabs button");
+  if(tb[0]) tb[0].textContent = t("tabGames");
+  if(tb[1]) tb[1].textContent = t("tabHistory");
+}
+async function setLang(lang){
+  LANG = lang==="en" ? "en" : "zh";
+  await store.setKV("lang", LANG);
+  /* boot guard script 行喺 IndexedDB 開得切之前,要靠呢個同步鏡像 */
+  try{ localStorage.setItem("lang", LANG); }catch(e){}
+  /* 通用計分表嘅欄名係 app 自己生成嘅,快取住就唔會跟語言變 → 掉走重生 */
+  for(const [id,g] of catalog.cache) if(g && g.generic) catalog.cache.delete(id);
+  if(S.game && S.game.generic) S.game = await loadGame(S.game.gameId);
+  applyLang();
+  closePad();
+  render();
+}
 
 function toast(msg){
   const t=$("#toast"); t.textContent=msg; t.classList.add("show");
@@ -694,7 +932,7 @@ function render(){
   /* 離開清單就收返 observer,唔好留住已 detach 嘅 sentinel */
   if(S.view!=="games" && listIO){ listIO.disconnect(); listIO=null; listAppend=null; }
   backBtn.style.visibility = (S.view==="setup"||S.view==="sheet"||S.view==="editor") ? "visible":"hidden";
-  backBtn.textContent = S.view==="editor" ? "取消" : "‹ 返回";
+  backBtn.textContent = S.view==="editor" ? t("cancel") : t("back");
   saveBtn.style.visibility = (S.view==="sheet"||S.view==="editor") ? "visible":"hidden";
   editBtn.style.visibility = S.view==="sheet" ? "visible":"hidden";
   document.getElementById("tabs").style.display = (S.view==="games"||S.view==="history")?"flex":"none";
@@ -722,32 +960,32 @@ function gcardHTML(g){
   return `<button class="gcard" data-id="${esc(g.gameId)}">
     <span class="rank">${rank}</span>
     <span class="dot" style="background:${esc(safeAccent(g.theme.accent, g.gameId))}"></span>
-    <span class="gname">${esc(g.nameZh||g.name)}
-      ${g.nameZh&&g.nameZh!==g.name?`<small>${esc(g.name)}</small>`:""}
+    <span class="gname">${esc(gName(g))}
+      ${gSub(g)?`<small>${esc(gSub(g))}</small>`:""}
     </span>
-    ${catalog.userIds.has(g.gameId)?`<span class="chip">✏️ 自訂</span>`
-      :(g.hasScoring?"":`<span class="chip">通用表</span>`)}
+    ${catalog.userIds.has(g.gameId)?`<span class="chip">${esc(t("chipCustom"))}</span>`
+      :(g.hasScoring?"":`<span class="chip">${esc(t("chipGeneric"))}</span>`)}
     ${g.meta.weight?`<span class="chip">⚖️ ${g.meta.weight}</span>`:""}
     ${g.meta.minPlayers?`<span class="chip">👥 ${g.meta.minPlayers}–${g.meta.maxPlayers}</span>`:""}
   </button>`;
 }
 
 function renderGames(){
-  setAccent("#3E7C4F"); barTitle.textContent="桌遊計分";
+  setAccent("#3E7C4F"); barTitle.textContent=t("appTitle");
   if(listIO){ listIO.disconnect(); listIO=null; listAppend=null; }
   if(catalog.noData){          // 網同快取都冇
     main.innerHTML=`<div class="empty-state"><div class="big">📡</div>
-      首次使用需要網絡下載遊戲資料。<br>連咗網再開一次就得,之後離線都用到。</div>`;
+      ${t("noData")}</div>`;
     return;
   }
   const withScoring=catalog.list.filter(g=>g.hasScoring).length;
   main.innerHTML=`
-    <input class="search" id="q" type="search" placeholder="搜尋遊戲⋯" autocomplete="off">
-    ${catalog.offline?`<p class="offline-note">離線模式:用緊上次下載嘅資料(共 ${catalog.list.length} 隻)。</p>`:""}
+    <input class="search" id="q" type="search" placeholder="${esc(t("searchGames"))}" autocomplete="off">
+    ${catalog.offline?`<p class="offline-note">${esc(t("offlineNote",catalog.list.length))}</p>`:""}
     <div id="glist"></div>
     <div id="gsentinel" aria-hidden="true"></div>
     <p class="listcount" id="gcount"></p>
-    <p class="sheetnote">共 ${catalog.list.length} 隻 · ${withScoring} 隻有專屬計分表,其餘開通用計分表</p>
+    <p class="sheetnote">${esc(t("listSummary",catalog.list.length,withScoring))}</p>
   `;
   const list=$("#glist"), sentinel=$("#gsentinel"), counter=$("#gcount");
   let hits=[], shown=0;
@@ -758,8 +996,8 @@ function renderGames(){
     list.insertAdjacentHTML("beforeend", next.map(gcardHTML).join(""));
     shown+=next.length;
     counter.textContent = shown<hits.length
-      ? `顯示緊 ${shown} / ${hits.length} 隻 · 向下捲會自動載入`
-      : (hits.length>LIST_PAGE ? `全部 ${hits.length} 隻已顯示` : "");
+      ? t("listShown", shown, hits.length)
+      : (hits.length>LIST_PAGE ? t("listAll", hits.length) : "");
     if(!listIO) return;
     if(shown>=hits.length) listIO.unobserve(sentinel);
     else { listIO.unobserve(sentinel); listIO.observe(sentinel); }  // 一屏裝唔滿就再補一批
@@ -773,7 +1011,7 @@ function renderGames(){
       || (g.nameZh||"").includes(raw));
     shown=0; list.innerHTML="";
     if(!hits.length){
-      list.innerHTML=`<div class="empty-state">搵唔到「${esc(raw)}」。</div>`;
+      list.innerHTML=`<div class="empty-state">${esc(t("noMatch",raw))}</div>`;
       counter.textContent="";
       if(listIO) listIO.unobserve(sentinel);
       return;
@@ -794,7 +1032,7 @@ function renderGames(){
       S.view="setup"; render();
     }catch(err){
       b.disabled=false;
-      toast("載入計分表失敗:"+b.dataset.id);
+      toast(t("loadSheetFail", b.dataset.id));
     }
   };
 
@@ -825,20 +1063,20 @@ function renderGames(){
 /* ---------- view: setup players ---------- */
 async function renderSetup(){
   const g=S.game; setAccent(g.theme.accent);
-  barTitle.textContent=g.nameZh||g.name;
+  barTitle.textContent=gName(g);
   if(!S.players.length){
     S.players = await store.getKV("lastPlayers",[]) || [];
     S.players = S.players.slice(0, g.meta.maxPlayers||7);
   }
   main.innerHTML=`
-    <p class="slabel">今場玩家(${g.meta.minPlayers}–${g.meta.maxPlayers} 人)</p>
+    <p class="slabel">${esc(t("playersLabel",g.meta.minPlayers,g.meta.maxPlayers))}</p>
     <div class="pchips" id="pchips"></div>
     <div class="addrow">
-      <input id="pname" placeholder="玩家名" maxlength="12" autocomplete="off">
-      <button class="btn ghost" id="addP">加入</button>
+      <input id="pname" placeholder="${esc(t("playerNamePh"))}" maxlength="12" autocomplete="off">
+      <button class="btn ghost" id="addP">${esc(t("addPlayer"))}</button>
     </div>
-    <button class="btn big" id="startBtn">開計分表 →</button>
-    <button class="btn ghost big" id="viewRecBtn" style="margin-top:10px">📜 查看呢隻遊戲嘅紀錄</button>
+    <button class="btn big" id="startBtn">${esc(t("startSheet"))}</button>
+    <button class="btn ghost big" id="viewRecBtn" style="margin-top:10px">${esc(t("viewRecords"))}</button>
   `;
   $("#viewRecBtn").onclick=()=>{
     S.historyFilter=g.gameId; S.historyQuery="";
@@ -847,8 +1085,8 @@ async function renderSetup(){
   function draw(){
     $("#pchips").innerHTML=S.players.map((p,i)=>`
       <span class="pchip"><b>${esc(p)}</b>
-        <button class="x" data-i="${i}" aria-label="移除 ${esc(p)}">✕</button></span>`).join("")
-      || `<span class="chip">未有玩家</span>`;
+        <button class="x" data-i="${i}" aria-label="${esc(t("removePlayer",p))}">✕</button></span>`).join("")
+      || `<span class="chip">${esc(t("noPlayers"))}</span>`;
     $("#pchips").querySelectorAll(".x").forEach(b=>b.onclick=()=>{
       S.players.splice(Number(b.dataset.i),1); draw();
     });
@@ -857,7 +1095,7 @@ async function renderSetup(){
   function add(){
     const v=$("#pname").value.trim();
     if(!v) return;
-    if(S.players.length >= (g.meta.maxPlayers||7)){toast("玩家夠晒喇"); return;}
+    if(S.players.length >= (g.meta.maxPlayers||7)){toast(t("tooManyPlayers")); return;}
     S.players.push(v); $("#pname").value=""; draw(); $("#pname").focus();
   }
   $("#addP").onclick=add;
@@ -875,31 +1113,30 @@ async function renderSetup(){
 function srcInfo(g){
   const s=g.scoring||{};
   if(g.generic){
-    return {cls:"warn", text: g.generic==="offline"
-      ? "通用計分表(離線,未快取專屬表)" : "通用計分表(未有專屬)"};
+    return {cls:"warn", text: t(g.generic==="offline" ? "srcGenericOffline" : "srcGenericNone")};
   }
-  if(s.source==="user-edited") return {cls:"custom", text:"✏️ 自訂版本", revert:true};
-  if(s.verified===true) return {cls:"ok", text:"✓ 已核對"};
+  if(s.source==="user-edited") return {cls:"custom", text:t("srcUserEdited"), revert:true};
+  if(s.verified===true) return {cls:"ok", text:t("srcVerified")};
   switch(s.source){
     case "manual":
-      return {cls:"", text:"人手編寫"};
+      return {cls:"", text:t("srcManual")};
     case "rulebook-web":
-      return {cls:"", text:"按官方規則書生成",
+      return {cls:"", text:t("srcRulebook"),
               link: /^https?:\/\//.test(s.sourceUrl||"") ? s.sourceUrl : null};
     case "claude-code-gen":
-      return {cls:"", text:"AI 生成,未核對"};
+      return {cls:"", text:t("srcAiGen")};
     case "desc-gen":
-      return {cls:"warn", text:"計分項按遊戲描述推斷,建議核對"};
+      return {cls:"warn", text:t("srcDescGen")};
     default:
-      return {cls:"", text: s.source ? "來源:"+s.source : "來源不明"};
+      return {cls:"", text: s.source ? t("srcOther",s.source) : t("srcUnknown")};
   }
 }
 function srcBarHTML(g){
   const i=srcInfo(g);
   return `<div class="srcbar ${i.cls}">
     <span>${esc(i.text)}</span>
-    ${i.link?`<a href="${esc(i.link)}" target="_blank" rel="noopener">規則書 ↗</a>`:""}
-    ${i.revert?`<button class="lnk" id="srcRevert">還原預設</button>`:""}
+    ${i.link?`<a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(t("rulebookLink"))}</a>`:""}
+    ${i.revert?`<button class="lnk" id="srcRevert">${esc(t("revertDefault"))}</button>`:""}
   </div>`;
 }
 /* 撳一下變「確認?」,撳第二下先做 —— 唔使 confirm() 彈窗 */
@@ -907,8 +1144,8 @@ function bindRevert(){
   const b=$("#srcRevert"); if(!b) return;
   b.onclick=async()=>{
     if(b.dataset.armed!=="1"){
-      b.dataset.armed="1"; b.textContent="確認還原?";
-      setTimeout(()=>{ if(b.isConnected&&b.dataset.armed==="1"){b.dataset.armed="0"; b.textContent="還原預設";} },4000);
+      b.dataset.armed="1"; b.textContent=t("revertConfirm");
+      setTimeout(()=>{ if(b.isConnected&&b.dataset.armed==="1"){b.dataset.armed="0"; b.textContent=t("revertDefault");} },4000);
       return;
     }
     await revertTemplate(S.game.gameId);
@@ -920,16 +1157,16 @@ async function revertTemplate(gameId){
   catalog.cache.delete(gameId);
   S.game=await loadGame(gameId);
   S.view="sheet"; render();
-  toast("已還原預設計分表");
+  toast(t("revertDone"));
 }
 
 /* ---------- view: score sheet ---------- */
 function renderSheet(){
   const g=S.game; setAccent(g.theme.accent);
-  barTitle.textContent=(g.nameZh||g.name)+(S.editPlayId?" · 編輯":"");
+  barTitle.textContent=gName(g)+(S.editPlayId?t("editingSuffix"):"");
   const fields=g.scoring.fields;
   let html=srcBarHTML(g)+`<div class="sheetwrap"><table class="sheet">
-    <thead><tr><th>${esc(g.name)}</th>${S.players.map(p=>`<th>${esc(p)}</th>`).join("")}</tr></thead><tbody>`;
+    <thead><tr><th>${esc(gName(g))}</th>${S.players.map(p=>`<th>${esc(p)}</th>`).join("")}</tr></thead><tbody>`;
   for(const f of fields){
     html+=`<tr><td><div class="frow-label">
       <span class="fic" style="background:${f.color||"var(--paper-deep)"}">${f.icon||"•"}</span>
@@ -940,15 +1177,15 @@ function renderSheet(){
     });
     html+=`</tr>`;
   }
-  html+=`<tr class="trow"><td>Σ 總分</td>${S.players.map((_,pi)=>{
-    const t=totalFor(pi);
-    return `<td class="cell" data-total="${pi}"><span class="val score-hand">${t===null?"—":t}</span></td>`;
+  html+=`<tr class="trow"><td>${esc(t("totalRow"))}</td>${S.players.map((_,pi)=>{
+    const tot=totalFor(pi);
+    return `<td class="cell" data-total="${pi}"><span class="val score-hand">${tot===null?"—":tot}</span></td>`;
   }).join("")}</tr>`;
   html+=`</tbody></table></div>
-    <p class="sheetnote">${g.scoring.tieBreaker && g.scoring.tieBreaker!=="—" ? "同分:"+esc(g.scoring.tieBreaker) : ""}
-    ${store.isMem() ? "<br>⚠️ 預覽環境唔會保留數據;部署後先有永久儲存。":""}</p>
+    <p class="sheetnote">${g.scoring.tieBreaker && g.scoring.tieBreaker!=="—" ? esc(t("tiePrefix",g.scoring.tieBreaker)) : ""}
+    ${store.isMem() ? t("memWarn") : ""}</p>
     <div class="sheetacts">
-      <button class="btn ghost" id="editTplBtn">${g.generic?"＋ 為呢隻遊戲建立計分表":"✏️ 修改計分表"}</button>
+      <button class="btn ghost" id="editTplBtn">${esc(t(g.generic?"createSheetBtn":"editSheetBtn"))}</button>
     </div>`;
   main.innerHTML=html;
   bindCells();
@@ -960,18 +1197,18 @@ function cellHTML(f,pi){
   if(f.input==="counter"){
     const c=Number(raw)||0;
     return `<div class="cnt">
-      <button data-step="-1" aria-label="減一">−</button>
-      <button class="cntval" aria-label="直接輸入數量">${
+      <button data-step="-1" aria-label="${esc(t("ariaMinus"))}">−</button>
+      <button class="cntval" aria-label="${esc(t("ariaEnterCount"))}">${
         raw===undefined?'<span class="val empty">·</span>'
                        :`<span class="val score-hand">${c}</span>`}</button>
-      <button data-step="1" aria-label="加一">＋</button></div>`;
+      <button data-step="1" aria-label="${esc(t("ariaPlus"))}">＋</button></div>`;
   }
   if(f.input==="bonus"){
     return raw ? `<span class="val score-hand">${f.value*(f.sign??1)>0?"+":""}${f.value*(f.sign??1)}</span>`
-               : `<span class="val empty">拍一下</span>`;
+               : `<span class="val empty">${esc(t("tapToggle"))}</span>`;
   }
   if(f.input==="tiered"){
-    if(raw===undefined) return `<span class="val empty">揀格數</span>`;
+    if(raw===undefined) return `<span class="val empty">${esc(t("pickTier"))}</span>`;
     return `<span class="val score-hand">${fieldScore(f,raw)}</span>`;
   }
   // number
@@ -1036,20 +1273,20 @@ function openNumPad(pi,f){
   const allowNeg = !isCnt && (f.min??0) < 0;
   const per = (f.unitValue??1)*(f.sign??1);     // 例:乞討卡 3 分 × sign -1 = 每張 −3 分
   const sub = isCnt
-    ? `入數量 · ${f.note || `每個 ${per<0?"−"+Math.abs(per):per} 分`}`
+    ? t("countHint", f.note || t("perUnit", per<0?"−"+Math.abs(per):per))
     : (f.note||"");
   function draw(){
     pad.innerHTML=`
       <div class="padhead">
         <span class="fic" style="background:${f.color||"var(--paper-deep)"};width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center">${f.icon||"•"}</span>
         <span class="who">${esc(S.players[pi])} · ${esc(f.label)}${sub?`<small>${esc(sub)}</small>`:""}</span>
-        <span class="padval score-hand">${buf===""?"—":buf}${isCnt?`<i class="padunit">個</i>`:""}</span>
+        <span class="padval score-hand">${buf===""?"—":buf}${isCnt?`<i class="padunit">${esc(t("unitCount"))}</i>`:""}</span>
       </div>
       <div class="keys">
         ${[7,8,9].map(n=>`<button data-k="${n}">${n}</button>`).join("")}<button class="act" data-k="del">⌫</button>
-        ${[4,5,6].map(n=>`<button data-k="${n}">${n}</button>`).join("")}<button class="act" data-k="clr">清除</button>
+        ${[4,5,6].map(n=>`<button data-k="${n}">${n}</button>`).join("")}<button class="act" data-k="clr">${esc(t("padClear"))}</button>
         ${[1,2,3].map(n=>`<button data-k="${n}">${n}</button>`).join("")}<button class="act" data-k="neg" ${allowNeg?"":"disabled"}>±</button>
-        <button data-k="0" style="grid-column:span 2">0</button><button data-k="00">00</button><button class="act" data-k="ok">✓ 好</button>
+        <button data-k="0" style="grid-column:span 2">0</button><button data-k="00">00</button><button class="act" data-k="ok">${esc(t("padOk"))}</button>
       </div>`;
     pad.querySelectorAll("button").forEach(b=>b.onclick=()=>key(b.dataset.k));
   }
@@ -1071,9 +1308,9 @@ function openTierPad(pi,f){
   S.editing={pi,f};
   pad.innerHTML=`
     <div class="padhead"><span class="who">${esc(S.players[pi])} · ${esc(f.label)}</span>
-      <button class="btn ghost" id="tierClose" style="padding:8px 14px">收起</button></div>
+      <button class="btn ghost" id="tierClose" style="padding:8px 14px">${esc(t("tierClose"))}</button></div>
     <div class="tierlist">
-      ${(f.table||[]).map(r=>`<button data-n="${r[0]}"><span>${r[0]} 格</span><b class="score-hand">${r[1]*(f.sign??1)} 分</b></button>`).join("")}
+      ${(f.table||[]).map(r=>`<button data-n="${r[0]}"><span>${esc(t("tierCells",r[0]))}</span><b class="score-hand">${esc(t("tierPts",r[1]*(f.sign??1)))}</b></button>`).join("")}
     </div>`;
   pad.querySelectorAll(".tierlist button").forEach(b=>b.onclick=()=>{
     S.scores[pi][f.id]=Number(b.dataset.n);
@@ -1107,7 +1344,9 @@ function nextCell(pi,f){
      _tableText (tiered 嘅 textarea 原文)、allowNeg (number 可唔可以入負數)
    儲存前經 fromDraftField() 轉返正式格式,再行 validateDoc()。
 ========================================================= */
-const INPUT_TYPES=[["number","數字入分"],["counter","數量 × 單價"],["bonus","有/冇 加分"],["tiered","階梯查表"]];
+/* 值係固定嘅 schema 字眼,顯示名先跟語言 */
+const INPUT_TYPES=[["number","inputNumber"],["counter","inputCounter"],
+                   ["bonus","inputBonus"],["tiered","inputTiered"]];
 
 function toDraftField(f){
   return {
@@ -1151,31 +1390,31 @@ function fromDraftField(f){
 function validateDoc(doc){
   const top=[], perField={};
   const push=(i,m)=>{ (perField[i]=perField[i]||[]).push(m); };
-  if(doc.schemaVersion!==1) top.push("schemaVersion 要係 1");
-  if(!(typeof doc.gameId==="string" && /^(bgg-\d+|custom-.+)$/.test(doc.gameId))) top.push("gameId 格式錯");
-  if(!(typeof doc.name==="string" && doc.name)) top.push("遊戲名唔可以空");
-  if(!(doc.theme && HEXRE.test(doc.theme.accent||""))) top.push("theme.accent 要係 #RRGGBB");
+  if(doc.schemaVersion!==1) top.push(t("vSchema"));
+  if(!(typeof doc.gameId==="string" && /^(bgg-\d+|custom-.+)$/.test(doc.gameId))) top.push(t("vGameId"));
+  if(!(typeof doc.name==="string" && doc.name)) top.push(t("vName"));
+  if(!(doc.theme && HEXRE.test(doc.theme.accent||""))) top.push(t("vAccent"));
   const s=doc.scoring;
-  if(!s || !Array.isArray(s.fields)){ top.push("scoring 缺失"); return {top,perField}; }
-  if(s.fields.length<1 || s.fields.length>20) top.push("計分項目要 1–20 個");
+  if(!s || !Array.isArray(s.fields)){ top.push(t("vScoring")); return {top,perField}; }
+  if(s.fields.length<1 || s.fields.length>20) top.push(t("vFieldCount"));
   const ids=new Set();
   s.fields.forEach((f,i)=>{
-    if(!(typeof f.id==="string" && /^[a-z0-9_]+$/.test(f.id))) push(i,"id 要係細楷英文、數字或底線");
-    else if(ids.has(f.id)) push(i,`id 重複:${f.id}`);
+    if(!(typeof f.id==="string" && /^[a-z0-9_]+$/.test(f.id))) push(i,t("vId"));
+    else if(ids.has(f.id)) push(i,t("vIdDup",f.id));
     if(typeof f.id==="string") ids.add(f.id);
-    if(!f.label) push(i,"要有項目名稱");
-    if(!INPUT_TYPES.some(([v])=>v===f.input)) push(i,"輸入類型唔啱");
-    if(f.color!=null && !HEXRE.test(f.color)) push(i,"color 要係 #RRGGBB");
-    if(f.sign!=null && f.sign!==1 && f.sign!==-1) push(i,"sign 要係 1 或 -1");
-    if(f.input==="counter" && !Number.isFinite(f.unitValue)) push(i,"「數量 × 單價」要填每個幾多分");
-    if(f.input==="bonus" && !Number.isFinite(f.value)) push(i,"「有/冇 加分」要填分數");
+    if(!f.label) push(i,t("vLabel"));
+    if(!INPUT_TYPES.some(([v])=>v===f.input)) push(i,t("vInput"));
+    if(f.color!=null && !HEXRE.test(f.color)) push(i,t("vColor"));
+    if(f.sign!=null && f.sign!==1 && f.sign!==-1) push(i,t("vSign"));
+    if(f.input==="counter" && !Number.isFinite(f.unitValue)) push(i,t("vCounter"));
+    if(f.input==="bonus" && !Number.isFinite(f.value)) push(i,t("vBonus"));
     if(f.input==="tiered"){
-      if(!Array.isArray(f.table) || f.table.length<2) push(i,"階梯表至少要兩行");
+      if(!Array.isArray(f.table) || f.table.length<2) push(i,t("vTierMin"));
       else if(!f.table.every(r=>Array.isArray(r)&&r.length===2&&Number.isFinite(r[0])&&Number.isFinite(r[1])))
-        push(i,"階梯表每行要寫成「數量,得分」");
+        push(i,t("vTierRow"));
     }
   });
-  if(s.total!=null && !["sum","expression"].includes(s.total.type)) top.push("total.type 要係 sum/expression");
+  if(s.total!=null && !["sum","expression"].includes(s.total.type)) top.push(t("vTotal"));
   return {top,perField};
 }
 
@@ -1227,24 +1466,23 @@ function buildDocFromDraft(){
 function renderEditor(){
   const d=S.draft;
   setAccent(d.theme.accent);
-  barTitle.textContent = S.draftBase.baseSource==="generic" && !S.draftBase.isUserEdited
-    ? "建立計分表" : "修改計分表";
+  barTitle.textContent = t(S.draftBase.baseSource==="generic" && !S.draftBase.isUserEdited
+    ? "edTitleCreate" : "edTitleEdit");
   const top=(S.draftErrors&&S.draftErrors.top)||[];
   main.innerHTML=`
-    <p class="ednote">改嘅只係你部機上面呢隻遊戲嘅計分表。已儲存嘅對局紀錄唔會受影響
-      (紀錄存嘅係當時嘅分數)。</p>
+    <p class="ednote">${esc(t("edNote"))}</p>
     ${top.length?`<div class="ederr-top">${top.map(esc).join("<br>")}</div>`:""}
-    <label class="edlab" for="ed-tb">同分點分勝負</label>
+    <label class="edlab" for="ed-tb">${esc(t("tieBreakLabel"))}</label>
     <input class="edin" id="ed-tb" value="${esc(d.scoring.tieBreaker||"")}"
-           placeholder="例:剩返嘅錢多者勝(可留空)">
-    <p class="slabel">計分項目</p>
+           placeholder="${esc(t("tieBreakPh"))}">
+    <p class="slabel">${esc(t("fieldsLabel"))}</p>
     <p class="edcount" id="ed-count"></p>
     <div id="edfields"></div>
-    <button class="btn ghost big" id="ed-add" style="margin-top:0">＋ 加一項</button>
-    <button class="btn big" id="ed-save">儲存計分表</button>
-    <button class="btn ghost big" id="ed-cancel" style="margin-top:10px">取消</button>
+    <button class="btn ghost big" id="ed-add" style="margin-top:0">${esc(t("addItem"))}</button>
+    <button class="btn big" id="ed-save">${esc(t("saveSheet"))}</button>
+    <button class="btn ghost big" id="ed-cancel" style="margin-top:10px">${esc(t("cancel"))}</button>
     ${S.draftBase.isUserEdited
-      ? `<button class="btn ghost big" id="ed-reset" style="margin-top:10px">↩️ 還原預設(刪走自訂版本)</button>`
+      ? `<button class="btn ghost big" id="ed-reset" style="margin-top:10px">${esc(t("resetTpl"))}</button>`
       : ""}`;
   $("#ed-tb").oninput=e=>{ d.scoring.tieBreaker=e.target.value; };
   $("#ed-add").onclick=addField;
@@ -1252,7 +1490,7 @@ function renderEditor(){
   $("#ed-cancel").onclick=cancelEditor;
   const rst=$("#ed-reset");
   if(rst) rst.onclick=async()=>{
-    if(rst.dataset.armed!=="1"){ rst.dataset.armed="1"; rst.textContent="⚠️ 再撳一次確認還原"; return; }
+    if(rst.dataset.armed!=="1"){ rst.dataset.armed="1"; rst.textContent=t("resetArm"); return; }
     const id=d.gameId;
     S.draft=null; S.draftErrors=null;
     await revertTemplate(id);
@@ -1262,32 +1500,32 @@ function renderEditor(){
 
 function fieldCardHTML(f,i,n,errs){
   const err=errs[i];
-  const t=f.input;
+  const ty=f.input;                       /* ⚠️ 唔可以叫 t —— 會遮住 i18n 嘅 t() */
   return `<div class="edcard${err?" bad":""}" data-i="${i}">
     <div class="edhd">
-      <input class="edin ico" data-k="icon" value="${esc(f.icon||"")}" maxlength="4" aria-label="圖示 emoji">
-      <input class="edin" data-k="label" value="${esc(f.label||"")}" placeholder="項目名稱" aria-label="項目名稱">
-      <button class="edbtn" data-mv="-1" ${i===0?"disabled":""} aria-label="上移">↑</button>
-      <button class="edbtn" data-mv="1" ${i===n-1?"disabled":""} aria-label="下移">↓</button>
-      <button class="edbtn del" data-del="1" aria-label="刪除呢一項">✕</button>
+      <input class="edin ico" data-k="icon" value="${esc(f.icon||"")}" maxlength="4" aria-label="${esc(t("ariaIcon"))}">
+      <input class="edin" data-k="label" value="${esc(f.label||"")}" placeholder="${esc(t("phLabel"))}" aria-label="${esc(t("phLabel"))}">
+      <button class="edbtn" data-mv="-1" ${i===0?"disabled":""} aria-label="${esc(t("ariaUp"))}">↑</button>
+      <button class="edbtn" data-mv="1" ${i===n-1?"disabled":""} aria-label="${esc(t("ariaDown"))}">↓</button>
+      <button class="edbtn del" data-del="1" aria-label="${esc(t("ariaDel"))}">✕</button>
     </div>
-    <input class="edin" data-k="note" value="${esc(f.note||"")}" placeholder="細字說明(可留空)" aria-label="說明">
+    <input class="edin" data-k="note" value="${esc(f.note||"")}" placeholder="${esc(t("phNote"))}" aria-label="${esc(t("ariaNote"))}">
     <div class="edrow">
-      <select class="edin" data-k="input" aria-label="輸入類型">
-        ${INPUT_TYPES.map(([v,l])=>`<option value="${v}"${t===v?" selected":""}>${l}</option>`).join("")}
+      <select class="edin" data-k="input" aria-label="${esc(t("ariaInputType"))}">
+        ${INPUT_TYPES.map(([v,l])=>`<option value="${v}"${ty===v?" selected":""}>${esc(t(l))}</option>`).join("")}
       </select>
-      <select class="edin" data-k="sign" aria-label="加分定扣分">
-        <option value="1"${Number(f.sign)===-1?"":" selected"}>加分</option>
-        <option value="-1"${Number(f.sign)===-1?" selected":""}>扣分</option>
+      <select class="edin" data-k="sign" aria-label="${esc(t("ariaSign"))}">
+        <option value="1"${Number(f.sign)===-1?"":" selected"}>${esc(t("signPlus"))}</option>
+        <option value="-1"${Number(f.sign)===-1?" selected":""}>${esc(t("signMinus"))}</option>
       </select>
     </div>
-    ${t==="counter"?`<label class="edlab2">每個幾多分
+    ${ty==="counter"?`<label class="edlab2">${esc(t("unitValueLabel"))}
       <input class="edin num" type="number" data-k="unitValue" value="${esc(f.unitValue??"")}" inputmode="numeric"></label>`:""}
-    ${t==="bonus"?`<label class="edlab2">攞到加幾多分
+    ${ty==="bonus"?`<label class="edlab2">${esc(t("bonusValueLabel"))}
       <input class="edin num" type="number" data-k="value" value="${esc(f.value??"")}" inputmode="numeric"></label>`:""}
-    ${t==="tiered"?`<label class="edlab2 col">階梯表(每行一對:數量,得分)
+    ${ty==="tiered"?`<label class="edlab2 col">${esc(t("tierTableLabel"))}
       <textarea class="edin ta" data-k="_tableText" rows="4" placeholder="0,0&#10;1,2&#10;2,5">${esc(f._tableText||"")}</textarea></label>`:""}
-    ${t==="number"?`<label class="edchk"><input type="checkbox" data-k="allowNeg"${f.allowNeg?" checked":""}> 容許入負數</label>`:""}
+    ${ty==="number"?`<label class="edchk"><input type="checkbox" data-k="allowNeg"${f.allowNeg?" checked":""}> ${esc(t("allowNeg"))}</label>`:""}
     <div class="edid"><span>id</span><input class="edin idin" data-k="id" value="${esc(f.id||"")}" spellcheck="false" aria-label="field id"></div>
     ${err?`<p class="ederr">${err.map(esc).join("<br>")}</p>`:""}
   </div>`;
@@ -1296,7 +1534,7 @@ function fieldCardHTML(f,i,n,errs){
 function drawFields(){
   const fs=S.draft.scoring.fields;
   const errs=(S.draftErrors&&S.draftErrors.perField)||{};
-  $("#ed-count").textContent=`${fs.length} 項 · 最多 20 項`;
+  $("#ed-count").textContent=t("fieldCount",fs.length);
   const host=$("#edfields");
   host.innerHTML=fs.map((f,i)=>fieldCardHTML(f,i,fs.length,errs)).join("");
   /* 結構有改動(加/刪/上下移/轉類型)先重畫;打字唔重畫,唔會走 focus */
@@ -1316,7 +1554,7 @@ function drawFields(){
       restructure(()=>{ const tmp=fs[i]; fs[i]=fs[j]; fs[j]=tmp; });
     });
     card.querySelector("[data-del]").onclick=()=>{
-      if(fs.length<=1){ toast("至少要留一項"); return; }
+      if(fs.length<=1){ toast(t("keepOne")); return; }
       restructure(()=>fs.splice(i,1));
     };
   });
@@ -1324,7 +1562,7 @@ function drawFields(){
 
 function addField(){
   const fs=S.draft.scoring.fields;
-  if(fs.length>=20){ toast("最多 20 項"); return; }
+  if(fs.length>=20){ toast(t("maxItems")); return; }
   let n=fs.length+1, id="f"+n;
   while(fs.some(f=>f.id===id)){ n++; id="f"+n; }
   fs.push({id, label:"", note:"", icon:"⭐", color:"#E5E0D5",
@@ -1341,7 +1579,7 @@ async function saveTemplate(){
     S.draftErrors=v; renderEditor();
     const bad=main.querySelector(".edcard.bad")||main.querySelector(".ederr-top");
     if(bad) bad.scrollIntoView({block:"center",behavior:"smooth"});
-    toast("有嘢未填妥,睇下紅色嗰啲");
+    toast(t("fixRed"));
     return;
   }
   await store.putUserTemplate(doc);
@@ -1350,7 +1588,7 @@ async function saveTemplate(){
   S.game=await loadGame(doc.gameId);
   S.draft=null; S.draftErrors=null;
   S.view="sheet"; render();
-  toast("計分表已儲存 ✓");
+  toast(t("sheetSaved"));
 }
 
 function cancelEditor(){
@@ -1362,8 +1600,8 @@ function cancelEditor(){
 async function savePlay(){
   const g=S.game;
   const totals=S.players.map((_,i)=>totalFor(i));
-  if(totals.every(t=>t===null)){toast("未入過分數"); return;}
-  const max=Math.max(...totals.map(t=>t??-Infinity));
+  if(totals.every(x=>x===null)){toast(t("noScores")); return;}
+  const max=Math.max(...totals.map(x=>x??-Infinity));
   const editing = S.editPlayId ? S.historyCache.find(p=>p.id===S.editPlayId) : null;
   const play={
     id: editing ? editing.id : "p"+Date.now(),
@@ -1373,49 +1611,56 @@ async function savePlay(){
     players:S.players.map((p,i)=>({name:p,total:totals[i],win:totals[i]===max,detail:{...S.scores[i]}}))
   };
   await store.putPlay(play);
-  toast(editing ? "已更新 ✓" : "已儲存 ✓");
+  toast(editing ? t("updated") : t("saved"));
   S.players=[]; S.scores={}; S.game=null; S.editPlayId=null;
   S.view="history"; render();
 }
 
 /* ---------- view: history ---------- */
 async function renderHistory(){
-  setAccent("#3E7C4F"); barTitle.textContent="對局紀錄";
+  setAccent("#3E7C4F"); barTitle.textContent=t("histTitle");
   const all=(await store.allPlays()).sort((a,b)=>b.date.localeCompare(a.date));
   S.historyCache=all;
   const filterGame = S.historyFilter ? catalog.list.find(g=>g.gameId===S.historyFilter) : null;
-  const filterName = filterGame ? (filterGame.nameZh||filterGame.name)
+  const filterName = filterGame ? gName(filterGame)
                    : (S.historyFilter ? (all.find(p=>p.gameId===S.historyFilter)?.gameName||S.historyFilter) : null);
   const q=S.historyQuery.trim().toLowerCase();
+  /* 紀錄入面存嘅 gameName 係當時嗰陣嘅名(數據,唔改)。顯示嗰陣
+     以 gameId 對返遊戲庫,跟返而家嘅語言;對唔到先用返存低嗰個。 */
+  const playName=p=>{
+    const e=catalog.list.find(g=>g.gameId===p.gameId);
+    return e ? gName(e) : p.gameName;
+  };
   const plays=all.filter(p=>{
     if(S.historyFilter && p.gameId!==S.historyFilter) return false;
     if(!q) return true;
     return p.gameName.toLowerCase().includes(q)
+        || playName(p).toLowerCase().includes(q)
         || p.players.some(x=>x.name.toLowerCase().includes(q));
   });
   main.innerHTML=`
-    <input class="search" id="hq" type="search" placeholder="搜尋遊戲或玩家⋯" autocomplete="off" value="${esc(S.historyQuery)}">
+    <input class="search" id="hq" type="search" placeholder="${esc(t("searchHistory"))}" autocomplete="off" value="${esc(S.historyQuery)}">
     ${S.historyFilter?`<div style="margin-bottom:12px">
-      <span class="pchip" style="background:var(--accent-soft)"><b>只顯示:${esc(filterName)}</b>
-      <button class="x" id="clearFilter" aria-label="清除篩選">✕</button></span></div>`:""}
+      <span class="pchip" style="background:var(--accent-soft)"><b>${esc(t("onlyShowing",filterName))}</b>
+      <button class="x" id="clearFilter" aria-label="${esc(t("ariaClearFilter"))}">✕</button></span></div>`:""}
     <div id="hlist"></div>${ioHTML()}`;
   const list=$("#hlist");
   list.innerHTML = plays.length ? plays.map(p=>{
     const d=new Date(p.date);
     return `<div class="pcard">
       <div class="top"><span class="dot" style="background:${p.accent||"#888"}"></span>
-        <b>${esc(p.gameName)}</b>
-        <time>${d.getFullYear()}/${d.getMonth()+1}/${d.getDate()}${p.editedAt?" · 已編輯":""}</time></div>
+        <b>${esc(playName(p))}</b>
+        <time>${d.getFullYear()}/${d.getMonth()+1}/${d.getDate()}${p.editedAt?esc(t("editedMark")):""}</time></div>
       <div class="res">${p.players.map(x=>
         `<span class="${x.win?"win":""}">${x.win?"👑 ":""}${esc(x.name)} <b class="score-hand" style="font-size:16px">${x.total??"—"}</b></span>`).join("")}
       </div>
       <div class="rowbtns">
-        <button data-edit="${p.id}">✏️ 編輯</button>
-        <button data-del="${p.id}">刪除</button>
+        <button data-edit="${p.id}">${esc(t("btnEdit"))}</button>
+        <button data-del="${p.id}">${esc(t("btnDelete"))}</button>
       </div>
     </div>`;
   }).join("") : `<div class="empty-state"><div class="big">📜</div>
-      ${all.length? "呢個條件下冇紀錄。":"未有紀錄。<br>計完第一場就會喺度出現。"}</div>`;
+      ${all.length? t("histEmptyFiltered") : t("histEmpty")}</div>`;
   $("#hq").oninput=e=>{
     S.historyQuery=e.target.value;
     renderHistory(); // 重畫但保留輸入值
@@ -1434,7 +1679,7 @@ async function editPlay(id){
   if(!p) return;
   let g=null;
   try{ g=await loadGame(p.gameId); }catch(err){ g=null; }
-  if(!g){toast("呢隻遊戲唔喺目前遊戲庫,暫時改唔到"); return;}
+  if(!g){toast(t("gameGone")); return;}
   S.game=g;
   S.players=p.players.map(x=>x.name);
   S.scores={};
@@ -1444,8 +1689,8 @@ async function editPlay(id){
 }
 function ioHTML(){
   return `<div class="iorow">
-    <button class="btn ghost" id="exportBtn">⬇️ 匯出 JSON</button>
-    <button class="btn ghost" id="importBtn">⬆️ 匯入 JSON</button>
+    <button class="btn ghost" id="exportBtn">${esc(t("exportJson"))}</button>
+    <button class="btn ghost" id="importBtn">${esc(t("importJson"))}</button>
     <input type="file" id="importFile" accept=".json" hidden>
   </div>`;
 }
@@ -1480,8 +1725,8 @@ function bindIO(){
           nT++;
         }
       }
-      toast(`已匯入 ${data.plays.length} 場${nT?` · ${nT} 個自訂計分表`:""}`); renderHistory();
-    }catch(err){toast("檔案格式唔啱");}
+      toast(t("imported", data.plays.length, nT)); renderHistory();
+    }catch(err){toast(t("badFile"));}
     e.target.value="";
   };
 }
@@ -1501,26 +1746,32 @@ backBtn.onclick=()=>{
 };
 saveBtn.onclick=()=>{ S.view==="editor" ? saveTemplate() : savePlay(); };
 editBtn.onclick=()=>{ closePad(); openEditor(); };
+langBtn.onclick=()=>setLang(LANG==="en" ? "zh" : "en");
 
 /* ---------- boot ---------- */
 (async () => {
   /* index.json 有成 1.1MB,慢網要等好耐。即刻畫個 loading,
      唔好留住個白屏俾人以為死咗機。 */
-  main.innerHTML=`<div class="empty-state"><div class="big">🎲</div>載入緊遊戲資料⋯</div>`;
+  main.innerHTML=`<div class="empty-state"><div class="big">🎲</div>${t("loading")}</div>`;
   try{
     await store.open();
+    /* 語言要喺畫任何嘢之前還原 —— 預設 zh */
+    LANG = (await store.getKV("lang","zh"))==="en" ? "en" : "zh";
+    try{ localStorage.setItem("lang", LANG); }catch(e){}
+    applyLang();
+    main.innerHTML=`<div class="empty-state"><div class="big">🎲</div>${t("loading")}</div>`;
     const uts=await store.allUserTemplates();
     catalog.userIds=new Set(uts.map(d=>d.gameId));
     await loadCatalog();
     render();
   }catch(err){
     if(window.__showBootError){
-      window.__showBootError("開 app 出錯",
+      window.__showBootError(t("bootErr"),
         (err && err.message ? err.message : String(err))
         + (err && err.stack ? "\n"+err.stack.split("\n").slice(0,4).join("\n") : ""));
     }
     main.innerHTML=`<div class="empty-state"><div class="big">⚠️</div>
-      開唔到。錯誤詳情喺畫面最頂嗰條紅色橫額。</div>`;
+      ${t("bootFail")}</div>`;
   }
 })();
 </script>

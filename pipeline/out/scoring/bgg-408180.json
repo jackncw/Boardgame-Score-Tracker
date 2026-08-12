@@ -13,6 +13,15 @@
   "tieBreaker": "同分時聲望較高者勝;仍平手就共享勝利",
   "fields": [
    {
+    "id": "track_vp",
+    "label": "計分軌分數",
+    "note": "遊戲中累積嘅分數",
+    "icon": "📈",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
     "id": "projects",
     "label": "資助項目",
     "note": "你資助咗嘅項目卡上嘅勝利點",
