@@ -13,6 +13,15 @@
   "tieBreaker": "—",
   "fields": [
    {
+    "id": "track_vp",
+    "label": "計分軌分數",
+    "note": "遊戲過程中喺計分軌累積嘅分數",
+    "icon": "📈",
+    "color": "#E5E0D5",
+    "input": "number",
+    "min": 0
+   },
+   {
     "id": "stewards",
     "label": "管家(住宅區)",
     "note": "你擁有嘅住宅區,按相鄰市集數計分;住宅區完成與否都計",

@@ -13,7 +13,7 @@
 - **c** — 純終局計分遊戲,冇軌 → 唔郁
 - **-** — source=manual 或 verified:true,用戶核對過,跳過
 
-進度:rank 1–993,已審 644 隻 (a=431 b=1 c=210 跳過=2)
+進度:rank 1–1693,已審 884 隻 (a=619 b=3 c=260 跳過=2)
 
 | rank | 遊戲 | 判斷 | 依據 |
 |---:|---|:-:|---|
@@ -661,3 +661,243 @@
 | 987 | Celestia | a | 寶物逐круг攞落袋 |
 | 991 | Stella: Dixit Universe | a | 已有「各回合得分累計」 |
 | 993 | Shipyard | a | 已有「遊戲中累積分數」 |
+| 994 | World Without End | a | 已有「遊戲中累積分數」 |
+| 995 | Clinic: Deluxe Edition | a | 已有「遊戲中累積分數」 |
+| 996 | Qwixx | a | 逐行邊玩邊劃,欄位就係計分本身 |
+| 997 | Super Motherload | c | Super Motherload 終局結算 |
+| 998 | Panamax | a | 已有「遊戲中累積分數」 |
+| 999 | Parade | a | 逐круг累積罰分,欄位涵蓋 |
+| 1000 | Ohanami | a | 已有三輪計分欄 |
+| 1002 | Gentes | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1004 | Art Society | c | Art Society 終局結算 |
+| 1005 | King of New York | a | KoNY 勝利點邊玩邊上軌 |
+| 1006 | Tammany Hall | a | 選舉得分係遊戲中逐屆結算 |
+| 1007 | Empires: Age of Discovery | a | 已經有計分軌欄位 |
+| 1012 | Roam | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1015 | Caylus 1303 | a | 已有「威望點(PP)標記」= 遊戲中累積 |
+| 1019 | Morels | a | 蘑菇遊戲中烹調即攞分 |
+| 1020 | Dinosaur World | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1021 | Cry Havoc | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1024 | Black Forest | c | Black Forest 終局結算 |
+| 1026 | Jambo | a | 金幣邊玩邊賺,單欄涵蓋 |
+| 1029 | Luxor | a | 已經有計分軌欄位 |
+| 1030 | Black Angel | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1033 | Courtisans | c | Courtisans 終局結算 |
+| 1042 | Outlive | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1043 | Tang Garden | a | 已經有計分軌欄位 |
+| 1046 | Among the Stars | c | Among the Stars 終局結算 |
+| 1048 | Evenfall | a | 已有「遊戲中累積嘅 VP」 |
+| 1051 | Rumble Nation | a | 逐區名次即時計分 |
+| 1052 | Rurik: Dawn of Kiev | a | 三條宣稱軌 + 戰爭軌都有欄 |
+| 1053 | Fit to Print | c | Fit to Print 終局結算 |
+| 1054 | Scarface 1920 | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1057 | Container | c | Container 終局結算 |
+| 1061 | The Wolves | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1062 | Spyrium | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1063 | Vasco da Gama | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1064 | Nightmare Productions | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1065 | Tribune: Primus Inter Pares | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1067 | Scoville | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1072 | Rebel Princess | a | 求婚數逐круг累加 |
+| 1073 | DinoGenics | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1074 | Reef Encounter | c | Reef Encounter 終局結算 |
+| 1075 | Red Rising | c | Red Rising 終局結算 |
+| 1078 | Survive The Island | c | Survive 終局數獲救生物 |
+| 1079 | Merchants of the Dark Road | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1080 | Ca$h 'n Guns: Second Edition | a | 分贓逐круг累加 |
+| 1082 | Roll Through the Ages: The Bronze Age | c | Roll Through the Ages 終局結算 |
+| 1083 | Qwirkle | a | 得一欄「最終分數/總分」,本身就係 catch-all,涵蓋軌上分 |
+| 1084 | Tiny Epic Dinosaurs | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1085 | Thunderstone | c | Thunderstone 終局數牌庫 VP |
+| 1087 | Hyperborea | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1092 | Carcassonne: The City | b | Carcassonne: The City 完成建築即刻上分軌,張表淨係列終局嘅管家/守衛,漏咗軌上嗰嚿 |
+| 1093 | Castles of Mad King Ludwig: Collector's Edition | a | 已經有計分軌欄位 |
+| 1098 | Botanik | c | Botanik 終局結算 |
+| 1100 | Coffee Traders | a | 「咖啡吧交貨」係遊戲中即時攞分,阿拉比卡軌亦有欄 |
+| 1102 | Pictomania (Second Edition) | a | 已有「五回合累計得分」 |
+| 1107 | Akrotiri | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1109 | Yedo | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1110 | Pictomania | a | 已有「五回合累計得分」 |
+| 1113 | DC Deck-Building Game | c | DC DBG 終局數牌庫 VP |
+| 1115 | Union Pacific | a | 已有「計分回合得分」 |
+| 1116 | Kingsburg (Second Edition) | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1117 | Lanterns: The Harvest Festival | a | 奉獻磚遊戲中攞,已有欄 |
+| 1119 | Yedo: Deluxe Master Set | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1121 | Atiwa | c | Atiwa 終局結算 |
+| 1122 | Faiyum | a | Faiyum 聲望邊玩邊上軌,單欄涵蓋 |
+| 1126 | Call to Adventure | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1127 | The Palaces of Carrara | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1128 | Come Sail Away! | c | Come Sail Away 終局結算 |
+| 1130 | Genoa | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1131 | Pictures | a | 已有「五回合累計得分」 |
+| 1132 | Zooloretto | c | Zooloretto 終局結算 |
+| 1135 | Kingdomino Origins | c | Kingdomino Origins 終局結算 |
+| 1136 | Adrenaline | a | 傷害軌/擊殺軌兩欄齊 |
+| 1138 | Tidal Blades: Heroes of the Reef | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1140 | Point City | c | Point City 終局結算 |
+| 1141 | Small World of Warcraft | a | 勝利硬幣逐круг攞落袋 |
+| 1143 | Lowlands | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1144 | Santa Monica | c | Santa Monica 終局結算 |
+| 1145 | Meeple Circus | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1146 | Concept | a | 代幣逐круг攞 |
+| 1152 | Era: Medieval Age | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1153 | Tinners' Trail | a | 外部投資 = 遊戲中用錢買嘅 VP |
+| 1154 | Signorie | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1159 | Maharaja: The Game of Palace Building in India | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1160 | The Fox Experiment | a | 已有「分數標記」 |
+| 1162 | Hey, That's My Fish! | a | 魚邊行邊食,單欄涵蓋 |
+| 1163 | The Druids of Edora | a | 已有「遊戲中聲望分」 |
+| 1164 | The Castles of Burgundy: The Card Game | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1168 | Ticket to Ride: London | a | 鋪路即時上分軌,已有欄 |
+| 1169 | Sweet Lands | a | 已有「遊戲中勝利分」 |
+| 1170 | Stonespine Architects | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1172 | Canopy | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1173 | Tiny Epic Quest | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1181 | Manila | a | 金錢邊玩邊賺,單欄涵蓋 |
+| 1182 | Web of Power | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1183 | Gold West | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1185 | Homesteaders | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1187 | Louis XIV | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1189 | Linko | a | 逐круг計分 |
+| 1193 | Deep Regrets | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1194 | Container: 10th Anniversary Jumbo Edition! | c | Container 終局結算 |
+| 1195 | Little Town | c | Little Town 終局結算 |
+| 1196 | Riverboat | a | 已有「遊戲中累積嘅 VP」 |
+| 1197 | Comic Hunters | a | 已有「亮點軌」 |
+| 1199 | Brew Crafters | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1200 | Cat Lady | c | Cat Lady 終局結算 |
+| 1201 | Orloj: The Prague Astronomical Clock | a | 已有「遊戲中勝利分」 |
+| 1202 | Septima | a | 已有「遊戲中賺到嘅智慧」 |
+| 1204 | Ecos: First Continent | a | 生態卡完成即刻上分軌,單欄涵蓋 |
+| 1205 | Britannia | a | 已有「計分回合累計得分」 |
+| 1206 | In the Footsteps of Darwin | c | Footsteps of Darwin 終局結算 |
+| 1207 | Tribes of the Wind | c | Tribes of the Wind 終局結算 |
+| 1210 | Parks (Second Edition) | c | Parks 終局結算 |
+| 1217 | Smash Up: Science Fiction Double Feature | a | 基地爆分即時攞,單欄涵蓋 |
+| 1218 | Oriflamme | a | 影響力邊玩邊賺,單欄涵蓋 |
+| 1219 | Fishing | a | 已有「八回合累計得分」 |
+| 1221 | Core Worlds | c | Core Worlds 終局結算 |
+| 1223 | Winner's Circle | a | 金錢逐場賽事累加 |
+| 1225 | Archaeology: The New Expedition | a | 寶物遊戲中賣出即攞分 |
+| 1228 | The Castles of Tuscany | a | 已經有計分軌欄位 |
+| 1229 | Ascension: Storm of Souls | a | 榮譽點數邊玩邊收 |
+| 1232 | Calimala | a | 已有「遊戲中勝利分」 |
+| 1233 | La Famiglia: The Great Mafia War | c | La Famiglia 終局數控制區 |
+| 1236 | Age of Industry | a | 產業/連結欄 = 兩個時代嘅即時得分 |
+| 1244 | Irish Gauge | a | 金錢單欄 = 勝負數值本身 |
+| 1247 | Jump Drive | b | Jump Drive 每回合按 VP 產能收 VP 籌碼上軌(到 50 分完),張表淨係列卡牌 VP 面值,漏咗籌碼累積 |
+| 1250 | The Speicherstadt | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1257 | Tawantinsuyu: The Inca Empire | a | 已有「遊戲中勝利分」 |
+| 1260 | Fauna | a | 已有「累計得分」 |
+| 1262 | Alma Mater | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1265 | Café | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1272 | History of the World | a | 已有「各時代累計得分」 |
+| 1274 | 스플렌더: Pokémon (Splendor: Pokémon) | a | 聲望邊玩邊上,單欄涵蓋 |
+| 1276 | Ticket to Ride: New York | a | 鋪路即時上分軌,已有欄 |
+| 1277 | Sheriff of Nottingham: 2nd Edition | c | Sheriff of Nottingham 終局結算 |
+| 1285 | Warhammer Underworlds: Shadespire | a | 榮耀點數邊打邊攞 |
+| 1299 | Firenze | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1300 | Metropolys | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1301 | Valley of the Kings | c | Valley of the Kings 終局結算 |
+| 1303 | Clever 4Ever | a | 逐色區逐круг計分 |
+| 1305 | Botswana | a | 已有「累計得分」 |
+| 1306 | Foundations of Metropolis | a | 已有「三年結算聲望」 |
+| 1308 | NMBR 9 | a | 得一欄「最終分數/總分」,本身就係 catch-all,涵蓋軌上分 |
+| 1313 | Mint Works | c | Mint Works 終局結算 |
+| 1316 | Fields of Green | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1317 | Merlin | a | 已有「遊戲中勝利分」 |
+| 1320 | Smash Up | a | 基地爆分即時攞,單欄涵蓋 |
+| 1330 | Ascension: Return of the Fallen | a | 榮譽點數邊玩邊收 |
+| 1331 | Arborea | a | 已有「精神軌」 |
+| 1335 | Quarriors! | a | 榮耀點數邊玩邊收 |
+| 1336 | Islebound | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1344 | Encyclopedia | a | 已有「遊戲中累積嘅分」 |
+| 1345 | Tales & Games: The Hare & the Tortoise | a | 已有「累計得分」 |
+| 1348 | Hardback | c | Hardback 終局結算 |
+| 1349 | Loony Quest | a | 已有「各關累計得分」 |
+| 1351 | Merchant of Venus (Second Edition) | a | 總資產單欄 = 勝負數值本身 |
+| 1357 | Dice Miner | a | 已有「三回合累計得分」 |
+| 1358 | Terror in Meeple City | c | Terror in Meeple City 終局結算 |
+| 1364 | Smash Up: Pretty Pretty Smash Up | a | 基地爆分即時攞,單欄涵蓋 |
+| 1367 | 6 nimmt! 25 Jahre | a | 牛頭逐круг累加(負分) |
+| 1379 | 1862: Railway Mania in the Eastern Counties | a | 總身家單欄 = 勝負數值本身 |
+| 1382 | Super Mega Lucky Box | a | 得一欄「最終分數/總分」,本身就係 catch-all,涵蓋軌上分 |
+| 1395 | Smash Up: Monster Smash | a | 基地爆分即時攞,單欄涵蓋 |
+| 1400 | Middle Ages | c | Middle Ages 終局結算 |
+| 1401 | Eight-Minute Empire: Legends | c | Eight-Minute Empire 終局結算 |
+| 1404 | Vinci | a | 已有「累計得分」 |
+| 1405 | Horseless Carriage | a | 財富單欄 = 勝負數值本身 |
+| 1416 | La Isla | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1419 | Forum Trajanum | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1423 | Karak | c | Karak 終局計寶物 |
+| 1426 | Ancient Knowledge | c | Ancient Knowledge 終局結算 |
+| 1430 | Paris | a | 已有「遊戲中累積嘅 VP」 |
+| 1437 | Inventors of the South Tigris | c | Inventors of the South Tigris 終局結算 |
+| 1438 | Wendake | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1445 | Rise of Augustus | a | 目標卡遊戲中完成即攞分 |
+| 1449 | Power Grid: Factory Manager | a | 金錢單欄 = 勝負數值本身 |
+| 1456 | Diamonds | a | 鑽石逐круг攞落金庫/陳列室 |
+| 1458 | Raising Robots | c | Raising Robots 終局結算 |
+| 1461 | Hansa | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1462 | Thunderstone: Dragonspire | c | Thunderstone 終局數牌庫 VP |
+| 1476 | Gutenberg | a | 已有「遊戲中累積嘅名聲」 |
+| 1478 | Tussie Mussie | c | Tussie Mussie 終局結算 |
+| 1481 | Colossal Arena | a | 金錢單欄 = 勝負數值本身 |
+| 1483 | Cleopatra and the Society of Architects | c | Cleopatra 終局結算 |
+| 1491 | Ostia | c | Ostia 終局結算 |
+| 1492 | Fairy Tale | a | 逐круг打出卡牌計分 |
+| 1500 | Flamecraft Duals | a | 已有「已計分商店卡」(遊戲中即時計) |
+| 1503 | Whistle Stop | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1504 | Llamaland | c | Llamaland 終局結算 |
+| 1505 | Ghost Blitz | a | 贏到嘅卡逐круг累加 |
+| 1514 | Challengers! Beach Cup | a | 獎盃逐круг累加 |
+| 1519 | Steam Park | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1524 | Kraftwagen | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1525 | 18Chesapeake | a | 總身家單欄 = 勝負數值本身 |
+| 1528 | New York 1901 | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1529 | Royals | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1534 | On Tour | c | On Tour 終局計最長路線 |
+| 1535 | Council of 4 | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1536 | Strasbourg | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1550 | Imhotep: The Duel | c | Imhotep Duel 終局結算 |
+| 1551 | Copenhagen | a | Copenhagen 砌完即刻上分軌,單欄涵蓋 |
+| 1556 | Nanty Narking | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1560 | World Order | a | 已有「計分回合得分」 |
+| 1561 | Coloma | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1571 | Ubongo | a | 寶石逐круг攞 |
+| 1574 | Ticket to Ride: Germany | a | 鋪路即時上分軌,已有欄 |
+| 1575 | Recall | c | Recall 終局結算 |
+| 1582 | Shallow Sea | c | Shallow Sea 終局結算 |
+| 1586 | Fleet | c | Fleet 終局結算 |
+| 1589 | Agra | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1590 | Hamburgum | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1593 | Yukon Airways | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1595 | CloudAge | a | 已有「勝利分軌」 |
+| 1598 | Castell | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1600 | Super-Skill Pinball: 4-Cade | a | 彈珠機分數邊打邊加,單欄涵蓋 |
+| 1613 | Hacienda | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1616 | Renature | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1620 | Peloponnes | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1626 | Mission: Red Planet | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1627 | Java | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1631 | Pick-omino | a | 蟲仔逐круг贏落袋 |
+| 1632 | Ulm | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1634 | Guillotine | a | 貴族點數逐круг攞 |
+| 1636 | The Golden Ages | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1641 | Rialto | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1643 | Kahuna | a | 已有「累計得分」 |
+| 1645 | Ninjato | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1647 | Pueblo | a | Pueblo 罰分係遊戲中砌塔即時判,單欄涵蓋 |
+| 1649 | Medina (Second Edition) | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1650 | Tea Garden | a | 已有「遊戲中累積嘅 VP」 |
+| 1663 | Monumental | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1664 | Manhattan | a | 已有「累計得分」 |
+| 1667 | Evo | a | 已有「累計得分」 |
+| 1668 | Everdell Silverfrost | a | 已有「分數標記」 |
+| 1671 | Merchant of Venus | a | 總資產單欄 = 勝負數值本身 |
+| 1672 | Museum | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1674 | Salton Sea | a | 已有「遊戲中勝利分」 |
+| 1678 | Smash Up: It's Your Fault! | a | 基地爆分即時攞,單欄涵蓋 |
+| 1681 | Keythedral | c | Keythedral 終局結算 |
+| 1683 | Trains: Rising Sun | a | desc-gen 一定有 catch-all「其他分數」兜住(check.mjs 強制),唔使補 |
+| 1693 | Tokaido Duo | a | 三類分數邊玩邊上軌,欄位齊 |
